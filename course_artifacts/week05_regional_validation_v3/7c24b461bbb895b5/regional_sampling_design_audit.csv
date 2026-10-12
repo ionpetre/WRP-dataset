@@ -1,0 +1,16 @@
+GlobalRegion,countries,prepared_respondents,input_respondents,complete_respondents,region_name,country_diagnostic_x,country_diagnostic_y,country_fit_count,distinct_country_fits,possible_80pct_subsets,country_stability_claim_available
+1,10,10002,10002,9127,Eastern Africa,pending sampling-plan audit,random_country_subsamples,50,29,45,True
+2,15,15000,14999,14176,Central/Western Africa,pending sampling-plan audit,random_country_subsamples,50,45,455,True
+3,4,4005,4005,3834,Northern Africa,pending sampling-plan audit,leave_one_country_out,4,4,4,False
+4,3,3009,3008,2809,Southern Africa,pending sampling-plan audit,leave_one_country_out,3,3,3,False
+5,15,15011,15010,14259,Latin America & the Caribbean,pending sampling-plan audit,random_country_subsamples,50,49,455,True
+6,1,1003,1003,963,Northern America,unavailable: one country,unavailable_one_country,0,0,0,False
+7,5,5000,4999,4320,Central Asia,pending sampling-plan audit,random_country_subsamples,50,5,5,True
+8,5,7035,7035,6883,Eastern Asia,pending sampling-plan audit,random_country_subsamples,50,5,5,True
+9,7,7034,7034,6615,Southeastern Asia,pending sampling-plan audit,random_country_subsamples,50,19,21,True
+10,6,8010,8009,7457,Southern Asia,pending sampling-plan audit,random_country_subsamples,50,14,15,True
+11,8,8116,8114,7595,Middle East,pending sampling-plan audit,random_country_subsamples,50,23,28,True
+12,8,8016,8015,7112,Eastern Europe,pending sampling-plan audit,random_country_subsamples,50,22,28,True
+13,14,13542,13541,13080,Northern/Western Europe,pending sampling-plan audit,random_country_subsamples,50,45,364,True
+14,11,11037,11034,10283,Southern Europe,pending sampling-plan audit,random_country_subsamples,50,45,165,True
+15,1,1000,1000,975,Australia & New Zealand,unavailable: one country,unavailable_one_country,0,0,0,False

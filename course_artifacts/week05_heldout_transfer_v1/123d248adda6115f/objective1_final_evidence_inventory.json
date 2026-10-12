@@ -1,0 +1,73 @@
+{
+  "conclusion": "Broad aggregate descriptive transfer; material country-specific representation limitations",
+  "continuous_country_similarity_maps": {
+    "directory": "course_artifacts/week05_continuous_country_similarity_maps_v1",
+    "distance_basis": "unchanged frozen-global-profile Hellinger distances",
+    "manifest_sha256": "cac018c4b9c64119e533b3ada53800b53522675783dd8ef349c605fab3dc089a",
+    "region_basis": "original dataset GlobalRegion",
+    "status": "continuous approximate colours; not country clusters or exact nearest-neighbour evidence"
+  },
+  "descriptive_extension": {
+    "context": "d694096841b06e5478353d691e3e545570d50d71afbe35bb93cbd25b5145679a",
+    "country_groups_adopted": false,
+    "directory": "course_artifacts/week05_country_similarity_and_profile_synthesis_v1/d694096841b06e54",
+    "interpretation": "country-mixture similarity, not causal equivalence or new held-out confirmation",
+    "manifest_sha256": "ae418b1851ecdfef246157b5fa557e5ee7aca16b75951a6129a9ee2d0e54be1e",
+    "respondent_models_refitted": false,
+    "status": "completed; exploratory country similarity and burden/heterogeneity synthesis"
+  },
+  "development_ARI_threshold": 0.8,
+  "figures": {
+    "figures/B_frozen_all_country_profile_maps.png": "f2325cda3e292fa71b1a14a56d91dce7c22759268a69ceea044f5c04fa693e6d",
+    "figures/E_frozen_all_country_profile_maps.png": "cb0274f121bceef761eef3e20c3bcd0c6cbef4d0e6d7639dacf6ab54e01f6af6",
+    "figures/development_vs_heldout_profile_prevalence.png": "d6308112666d166196cf4f9b2260303f41e112005d29b57dadd7237a18b55e10",
+    "figures/frozen_anchor_original_response_transfer.png": "40bf85973aa76b91ca8444f4276a42c32aa8f2fef28bd24d09a82f6d52f9a6d4",
+    "figures/heldout_country_distance_flags.png": "293c349304ec2e933ee1b883b928016299e1095eaacd9cbd055bba185e21a4ad"
+  },
+  "freeze_context": "123d248adda6115fc1fa6f7a6779fc6c30696a5e6e3c46399d8abf84a72e94c4",
+  "freeze_seal_sha256": "109a6dd7f3abce0949779b5ea09fc8595caeae2b542a948e2c643fbe09a24412",
+  "frozen_scope": [
+    "B4",
+    "E8"
+  ],
+  "handoff_record_sha256": "6a411db634bebc63ba191eefd173e6ca45f8400a329348c7ade9118975a71353",
+  "heldout_assigned": 27972,
+  "heldout_countries": 29,
+  "heldout_prepared": 30090,
+  "major_cautions": [
+    "complete-case selection",
+    "country-balanced estimand",
+    "geometry-constrained anchors",
+    "weak development recovery of some E profiles",
+    "country-specific distance deterioration",
+    "no universal latent-type claim"
+  ],
+  "models_refitted": false,
+  "notebook": "week05_regional_validation_and_objective1_finalization.ipynb",
+  "reporting_failure": "PSE/PSX map key mismatch repaired using ISO_A3; model/transfer results unchanged",
+  "status": "Objective 1 completed with qualified descriptive transfer conclusions",
+  "tables": {
+    "country_frozen_anchor_diagnostics.csv": "6262a2ce6c6cc1dbbbba8c2f18b29bfc5f8a25fc8b928269b7e0ec385da5996b",
+    "development_existing_per_profile_recovery.csv": "ede4e98105a0bc4c1eb55acb090b7a6cbf647363fed4d47be08f64a33a044087",
+    "fixed_global_all_country_prevalence.csv": "c83a15577e73e095e9134050bf5e035ca0a1c761d5c94de8b98219076a9d6d06",
+    "heldout_assignment_quality.csv": "9cbf9d8464f87bd1411f6876b3c5f4e3e781020172dcf061f0bac73dc6929c43",
+    "heldout_country_bootstrap_intervals.csv": "976727a9e0811822f806d71d81eaf399e9772fb55a5de0f4fd81797dc3fa897a",
+    "heldout_country_distance_flag_concentration.csv": "a8c0f9b869e1b7bcb49506a78ef7133d08b72b1d66f070636120a1f9c6a063b1",
+    "heldout_country_quality_and_retention.csv": "7219e416119beee6134623438c247faf8b3c5c4133f9fb27c1c7303b4a8e8374",
+    "heldout_country_retention.csv": "79301f7662b2955ab130167b14c9e9bda86166344b21ee892a6b2bab8bf53485",
+    "heldout_exclusion_counts.csv": "a579500b318fc926997c347d1b97ce9982abe11d8aea3f541044417ba71746f7",
+    "heldout_frozen_anchor_comparison.csv": "8921011307ca00a685c91ec87501254f9d3445efbc6038cb3ad46ac8334e12ac",
+    "heldout_original_category_profiles.csv": "3c2db9bedb9ef2f456d52ed8c69ff69a5fe42b5be30bf1a77b52b7b930f0557a",
+    "heldout_original_feature_TV.csv": "eb8820513ec06deec13adabf3d53a4198a1c3e9933b5f6a459040208145e1e5d",
+    "heldout_prevalence.csv": "b5da35ec90f8fb4a8bfa3ab73481591436a1621930cdaf413bf6aa681e64d28e",
+    "heldout_profile_semantic_TV.csv": "8dfdc3363031000e126f3a45431acb0983b03a561fa4f4b694f8d31e5c92cce7",
+    "heldout_vs_development_category_differences.csv": "093c2f0f16d413010d9b8f6927aea0b4aa9f3211cec4884056367a26510425e6",
+    "heldout_vs_development_prevalence.csv": "3fdcafb910223406cef4e55606110920049df81e512f93b346f33569fb5321e1",
+    "heldout_vs_development_quality.csv": "a320fdbe108e5a1259e887e706fc5dc0bf93f2865cd9a06490a7f5b4a2863b59",
+    "missingness_selection_demographic_audit.csv": "ce392070810560f78e1d6c7ffca8f795be59fa7045e2fde05695f1938a0fa8f0",
+    "prevalence_comparison_with_country_intervals.csv": "29e1204ef4349491af18bbb2990fbdce8b8f1db1adcf7e0bf956f79b7f58176f",
+    "semantic_differences_with_sample_sizes.csv": "ff8024ba25bc0d399c0af5135150cf28d4ff3ee2a956142331dd2a6cd3a155dc",
+    "week05_completion_checklist.csv": "09dc8207ff459ece935cb8fee34b19a151e7087b5a56a44a57f11795fddfa568"
+  },
+  "transfer_record_sha256": "7a0e77047f02761eccd5c29614eb79ded6364828965c836da1cf72e0685c490a"
+}

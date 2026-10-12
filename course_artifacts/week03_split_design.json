@@ -1,0 +1,15 @@
+{
+  "split_unit": "country",
+  "development_label_in_file": "train",
+  "heldout_label_in_file": "heldout_country",
+  "heldout_share_requested": 0.2,
+  "heldout_countries_selected": 29,
+  "balance_dimensions": "GlobalRegion; CountryIncomeLevel",
+  "candidate_allocations_searched_on_first_run": 50000,
+  "random_seed_for_first_run_search": 2023,
+  "selected_balance_score": 1.4392895126697116,
+  "split_source_this_run": "reused frozen country allocation",
+  "raw_data_sha256": "1551cc8420aa8b12f4245094efeb85470078dc925892695925d12fb9799435db",
+  "dictionary_sha256": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d",
+  "country_split_sha256": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457"
+}

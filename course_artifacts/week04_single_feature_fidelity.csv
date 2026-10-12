@@ -1,0 +1,46 @@
+configuration,k,cluster,one_feature_balanced_accuracy_mean,selected_features
+baseline,2,0,0.7426120231752151,worry_crime
+baseline,2,1,0.7426120231752151,worry_crime
+baseline,3,0,0.6986002728454579,"worry_severe_weather, worry_traffic"
+baseline,3,1,0.7553286172214289,"worry_crime, worry_traffic"
+baseline,3,2,0.8040670262289169,harm_food
+baseline,4,0,0.5,worry_food
+baseline,4,1,0.7486961319129899,worry_mental_health
+baseline,4,2,0.5,worry_food
+baseline,4,3,0.9879512401166222,harm_water
+weighted_scaling,2,0,0.7420254247217789,worry_crime
+weighted_scaling,2,1,0.7420254247217789,worry_crime
+weighted_scaling,3,0,0.6981981451580614,"worry_severe_weather, worry_traffic"
+weighted_scaling,3,1,0.7553603812547754,"worry_crime, worry_traffic"
+weighted_scaling,3,2,0.8052052086025938,harm_food
+weighted_scaling,4,0,0.5,worry_food
+weighted_scaling,4,1,0.5,worry_food
+weighted_scaling,4,2,0.7401853824126088,"worry_crime, worry_mental_health"
+weighted_scaling,4,3,0.9884947726734458,harm_water
+block_balanced,2,0,0.7431862118988132,worry_crime
+block_balanced,2,1,0.7431862118988132,worry_crime
+block_balanced,3,0,0.7534632771525507,worry_crime
+block_balanced,3,1,0.8013953608503626,harm_traffic
+block_balanced,3,2,0.6989461250170672,worry_crime
+block_balanced,4,0,0.5,worry_food
+block_balanced,4,1,0.8975528332772059,harm_traffic
+block_balanced,4,2,0.7818406735664121,harm_crime
+block_balanced,4,3,0.7797157762321267,harm_traffic
+mode_imputation,2,0,0.7406989356755137,worry_crime
+mode_imputation,2,1,0.7406989356755137,worry_crime
+mode_imputation,3,0,0.696433770036451,"worry_severe_weather, worry_traffic"
+mode_imputation,3,1,0.7520515551570492,"worry_crime, worry_traffic"
+mode_imputation,3,2,0.8034401408742688,harm_food
+mode_imputation,4,0,0.5,worry_food
+mode_imputation,4,1,0.9882260670466024,harm_water
+mode_imputation,4,2,0.5,worry_food
+mode_imputation,4,3,0.7491918932837456,worry_crime
+bisecting_kmeans,2,0,0.7559979441866953,worry_crime
+bisecting_kmeans,2,1,0.7559979441866953,worry_crime
+bisecting_kmeans,3,0,0.8055688315369662,harm_food
+bisecting_kmeans,3,1,0.7338332441829452,"worry_crime, worry_severe_weather"
+bisecting_kmeans,3,2,0.7559979441866953,worry_crime
+bisecting_kmeans,4,0,0.8055688315369662,harm_food
+bisecting_kmeans,4,1,0.7338332441829452,"worry_crime, worry_severe_weather"
+bisecting_kmeans,4,2,0.5,worry_food
+bisecting_kmeans,4,3,0.8146286366165191,worry_severe_weather

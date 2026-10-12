@@ -1,0 +1,83 @@
+{
+  "seed": 2023,
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "configurations": [
+    "reference",
+    "top_emphasis",
+    "separate_harm",
+    "standardized_v10"
+  ],
+  "ps_repeats": 5,
+  "ps_threshold": 0.75,
+  "threshold_sensitivity": [
+    0.7,
+    0.75,
+    0.8,
+    0.9
+  ],
+  "candidate_solutions": [
+    [
+      "reference",
+      2
+    ],
+    [
+      "reference",
+      3
+    ],
+    [
+      "reference",
+      4
+    ],
+    [
+      "separate_harm",
+      2
+    ],
+    [
+      "separate_harm",
+      3
+    ],
+    [
+      "separate_harm",
+      5
+    ],
+    [
+      "standardized_v10",
+      2
+    ],
+    [
+      "standardized_v10",
+      3
+    ],
+    [
+      "standardized_v10",
+      4
+    ],
+    [
+      "top_emphasis",
+      2
+    ],
+    [
+      "top_emphasis",
+      3
+    ],
+    [
+      "top_emphasis",
+      4
+    ]
+  ],
+  "development_respondents": 116820,
+  "development_countries": 113,
+  "external_holdout_used": false,
+  "fidelity_target": "fixed full-development labels; explanatory diagnostic only",
+  "final_model_selected": false
+}

@@ -1,0 +1,33 @@
+{
+  "design": {
+    "burden_basis": "original worry sum (0..12) and combined affected-domain count (0..7)",
+    "country_basis": "within-country survey-weighted frozen global B or E proportions; never local cluster IDs",
+    "country_bootstrap_repetitions": 200,
+    "country_clustering": "average linkage; descriptive cuts 2..8; largest silhouette selects an illustrative cut only",
+    "distance": "Hellinger = Euclidean distance of square-root proportions / sqrt(2)",
+    "geography": "unchanged dataset GlobalRegion and approximate great-circle map-label-point distances",
+    "holdout_use": "post-validation descriptive extension, not untouched confirmation or model selection",
+    "inference": "effect sizes only; no independent-pair p-values, no causal claims, no geographic regrouping",
+    "respondent_models_refitted": false,
+    "scopes": [
+      "development",
+      "all_countries_post_validation"
+    ],
+    "seed": 20261012,
+    "tie_break": "smaller k on equal silhouette; country ISO order for nearest-neighbour ties",
+    "uncertainty": "200 IID respondent bootstraps within each country; retain WGT and frozen labels; conditional sensitivity only",
+    "version": 1
+  },
+  "inputs": {
+    ".week05_build/complete_week05_extensions.py": "2ba1dc7f0f865566d95533999d49a0788ee51a717687f807447a4e46b4f7d574",
+    "23_wrp/WRP_2023_data_dictionary.csv": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d",
+    "course_artifacts/cartography/ne_50m_admin_0_countries.geojson": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "course_artifacts/week03_country_split.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "course_artifacts/week03_development_data.parquet": "0021476a9548e3f19aa496e3c24d8c44942d665b12d7d0923b00dc729987ffb0",
+    "course_artifacts/week03_heldout_country_data.parquet": "f57796fafca4e05a2d7b6c49e1ab21f5456957cea32aa093fe23a10eeb16df3e",
+    "course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/freeze_seal.json": "109a6dd7f3abce0949779b5ea09fc8595caeae2b542a948e2c643fbe09a24412",
+    "course_artifacts/week05_heldout_transfer_v1/123d248adda6115f/fixed_global_all_country_prevalence.csv": "c83a15577e73e095e9134050bf5e035ca0a1c761d5c94de8b98219076a9d6d06",
+    "course_artifacts/week05_objective1_handoff_v1/123d248adda6115f/all_respondents_eligibility_and_frozen_profiles.parquet": "3e5abde953449f60ecceaea7f5fa98dc943b1556d00a5a144f63908961eb77ed",
+    "course_artifacts/week05_objective1_handoff_v1/123d248adda6115f/profile_assigned_respondents.parquet": "448f08cc063808ab8ee97057de225c82a24e4842f11ee9015c4b2ff69a02fa1a"
+  }
+}

@@ -1,0 +1,21 @@
+k,cluster,feature,feature_name,feature_type,distribution_gap_pct,direction,cluster_distribution,development_distribution,harm_difference_pp,cluster_observed_weight_pct,development_observed_weight_pct
+2,0,worry_crime,Crime worry,worry,19.701966488965507,toward lower worry,0: 49.8% / 1: 33.3% / 2: 16.9%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.24735119248243,98.5861535844374
+2,0,worry_severe_weather,Weather worry,worry,18.78330863313929,toward lower worry,0: 43.0% / 1: 38.8% / 2: 18.2%,0: 29.0% / 1: 34.0% / 2: 37.0%,,98.84803755793594,99.08682824972254
+2,0,worry_traffic,Traffic worry,worry,18.756148223945946,toward lower worry,0: 37.1% / 1: 42.1% / 2: 20.8%,0: 24.6% / 1: 35.8% / 2: 39.6%,,98.67923629487652,99.05677969432395
+2,0,worry_water,Water worry,worry,18.741886931212726,toward lower worry,0: 73.6% / 1: 20.8% / 2: 5.5%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.45997071615166,99.53710566333856
+2,1,worry_crime,Crime worry,worry,29.41647490619031,toward higher worry,0: 9.0% / 1: 25.0% / 2: 66.0%,0: 33.5% / 1: 30.0% / 2: 36.6%,,99.0963817954288,98.5861535844374
+2,1,worry_water,Water worry,worry,28.170080646562123,toward higher worry,0: 26.7% / 1: 32.9% / 2: 40.4%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.65326902889514,99.53710566333856
+2,1,worry_severe_weather,Weather worry,worry,28.11699473617537,toward higher worry,0: 8.0% / 1: 26.8% / 2: 65.1%,0: 29.0% / 1: 34.0% / 2: 37.0%,,99.44644125826316,99.08682824972254
+2,1,worry_traffic,Traffic worry,worry,27.97805833620144,toward higher worry,0: 6.0% / 1: 26.5% / 2: 67.5%,0: 24.6% / 1: 35.8% / 2: 39.6%,,99.62535092595009,99.05677969432395
+3,0,worry_severe_weather,Weather worry,worry,26.73851090883285,toward higher worry,0: 5.9% / 1: 30.4% / 2: 63.7%,0: 29.0% / 1: 34.0% / 2: 37.0%,,99.25994144869529,99.08682824972254
+3,0,worry_traffic,Traffic worry,worry,26.645226230883573,toward higher worry,0: 4.9% / 1: 28.9% / 2: 66.2%,0: 24.6% / 1: 35.8% / 2: 39.6%,,99.30210496535044,99.05677969432395
+3,0,worry_crime,Crime worry,worry,26.38538451317728,toward higher worry,0: 8.2% / 1: 28.9% / 2: 62.9%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.66949919103526,98.5861535844374
+3,0,worry_mental_health,Mental-health worry,worry,22.987890420800234,toward higher worry,0: 25.1% / 1: 34.1% / 2: 40.8%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.36339366024059,98.5253258214421
+3,1,worry_crime,Crime worry,worry,28.718590053541,toward lower worry,0: 61.4% / 1: 30.8% / 2: 7.8%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.29632924773306,98.5861535844374
+3,1,worry_traffic,Traffic worry,worry,28.405542978694463,toward lower worry,0: 46.3% / 1: 42.5% / 2: 11.1%,0: 24.6% / 1: 35.8% / 2: 39.6%,,98.63095651671156,99.05677969432395
+3,1,worry_severe_weather,Weather worry,worry,28.383056010384188,toward lower worry,0: 53.7% / 1: 37.6% / 2: 8.6%,0: 29.0% / 1: 34.0% / 2: 37.0%,,98.82464124214245,99.08682824972254
+3,1,worry_mental_health,Mental-health worry,worry,27.52870847500385,toward lower worry,0: 75.6% / 1: 20.6% / 2: 3.8%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.44061908079078,98.5253258214421
+3,2,harm_food,Food harm,harm,48.50325119159318,more reported harm,69.4% harm,20.9% harm,48.50325119159317,99.5202874234957,99.1684723538198
+3,2,harm_crime,Crime harm,harm,44.43834355224348,more reported harm,67.6% harm,23.2% harm,44.43834355224349,99.3252577742891,99.04379177010428
+3,2,harm_traffic,Traffic harm,harm,41.30545034069601,more reported harm,77.2% harm,35.9% harm,41.30545034069602,99.67146134292096,99.40883887976945
+3,2,harm_work,Work harm,harm,40.84349121482453,more reported harm,63.9% harm,23.1% harm,40.84349121482453,99.1681398229838,98.93538706059864

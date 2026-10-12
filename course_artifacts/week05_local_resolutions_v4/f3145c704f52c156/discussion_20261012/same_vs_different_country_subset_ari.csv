@@ -1,0 +1,177 @@
+region,candidate,k,comparison,pair_count,median_ari,p10_ari,interpretation,region_name
+1,B,2,same training countries,36,0.999557976118194,0.9890191479109722,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,2,different training countries,1189,0.9290916578958038,0.7997245298886853,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,3,same training countries,36,0.9904387872657892,0.970086226997105,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,3,different training countries,1189,0.8597772120780806,0.7921462331722416,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,4,same training countries,36,0.987582317071579,0.9621372187065068,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,4,different training countries,1189,0.8474117709652494,0.7839822339677521,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,5,same training countries,36,0.9746634191364816,0.6173785224538751,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,B,5,different training countries,1189,0.585701037046963,0.5247608453555201,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,2,same training countries,36,0.9975899428247781,0.9923415098993633,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,2,different training countries,1189,0.9331756740094644,0.8936906727301506,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,3,same training countries,36,0.9997097315524192,0.9710583687917431,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,3,different training countries,1189,0.7159359427125636,0.5563965724215127,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,4,same training countries,36,0.9822651782793794,0.9181229378343874,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,4,different training countries,1189,0.9155544048439352,0.8136984887728097,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,8,same training countries,36,0.7137223157704229,0.6400598883550414,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+1,E,8,different training countries,1189,0.6974473765814233,0.6027600216163475,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Africa
+2,B,2,same training countries,5,0.9971544590604932,0.9729304162342625,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,2,different training countries,1220,0.8127483196618608,0.6166974845708086,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,3,same training countries,5,0.9977354250185552,0.9904569012009411,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,3,different training countries,1220,0.908361231607436,0.8684362534195639,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,4,same training countries,5,0.9874295481370374,0.977948352099843,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,4,different training countries,1220,0.8696364883299151,0.7714155588571354,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,5,same training countries,5,0.9588464254911024,0.9465613047747531,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,B,5,different training countries,1220,0.8653584188974086,0.7778484412204008,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,2,same training countries,5,0.999435471797164,0.9969546948830753,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,2,different training countries,1220,0.9429814177916582,0.917903380542037,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,3,same training countries,5,0.9974817418923092,0.9957883846639382,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,3,different training countries,1220,0.9259078541041434,0.48357354811430975,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,5,same training countries,5,0.99361930106148,0.9397994612094244,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,5,different training countries,1220,0.8407497433496528,0.5833417292636294,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,8,same training countries,5,0.8597333662995776,0.7654484978932491,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+2,E,8,different training countries,1220,0.8096203614821167,0.6832095373535791,dependent descriptive comparisons; country composition and n not independently controlled,Central/Western Africa
+5,B,2,same training countries,1,0.9988029544502514,0.9988029544502514,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,2,different training countries,1224,0.9437053077701075,0.18271811939550017,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,3,same training countries,1,0.999560593520656,0.999560593520656,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,3,different training countries,1224,0.9149157698888051,0.858329876793068,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,4,same training countries,1,0.2954751614906047,0.2954751614906047,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,4,different training countries,1224,0.9259252938976099,0.37468182451024773,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,5,same training countries,1,0.932521666780608,0.932521666780608,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,B,5,different training countries,1224,0.8962834289712756,0.8233908806197748,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,2,same training countries,1,1.0,1.0,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,2,different training countries,1224,0.9638420946660964,0.0524211561301754,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,3,same training countries,1,1.0,1.0,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,3,different training countries,1224,0.985530179152549,0.45838900897987683,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,5,same training countries,1,0.9809532807728608,0.9809532807728608,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,5,different training countries,1224,0.6783464637404439,0.6407903335077516,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,8,same training countries,1,0.9171566858223548,0.9171566858223548,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+5,E,8,different training countries,1224,0.8574050929377663,0.7730283283239696,dependent descriptive comparisons; country composition and n not independently controlled,Latin America & the Caribbean
+7,B,2,same training countries,238,1.0,1.0,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,2,different training countries,987,0.981375585306643,0.9678554337345026,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,3,same training countries,238,0.9971918912161312,0.9505566559457368,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,3,different training countries,987,0.886905943378253,0.8530835729245392,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,4,same training countries,238,0.9501635199084146,0.7156024987476804,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,4,different training countries,987,0.7368749754578234,0.5025739239403725,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,5,same training countries,238,0.8579864548174337,0.46374290111286703,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,B,5,different training countries,987,0.7079796901488901,0.45321105459751976,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,2,same training countries,238,1.0,1.0,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,2,different training countries,987,0.9972031763381138,0.993481028934504,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,3,same training countries,238,1.0,0.9902845050167228,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,3,different training countries,987,0.969544110497572,0.935221230468422,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,4,same training countries,238,0.9992907662224468,0.8186626420243254,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,4,different training countries,987,0.9275466688952256,0.7791417760991619,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,8,same training countries,238,0.9437969291965373,0.7230004787826597,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+7,E,8,different training countries,987,0.9111639177874464,0.7003963324297448,dependent descriptive comparisons; country composition and n not independently controlled,Central Asia
+8,B,2,same training countries,245,0.9987873329892508,0.744073319518653,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,2,different training countries,980,0.9514049706653976,0.1270708007376562,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,3,same training countries,245,0.968420969835076,0.8979340962769904,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,3,different training countries,980,0.8309811848084364,0.703481558628202,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,4,same training countries,245,0.9853333880287752,0.8056447900741162,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,4,different training countries,980,0.4715650563752107,0.3906232601440348,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,5,same training countries,245,0.7589173242541558,0.4267204366731811,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,B,5,different training countries,980,0.5919588185544726,0.4300562468253796,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,2,same training countries,245,1.0,0.9189093714945162,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,2,different training countries,980,0.3443665332657379,0.2734416775446739,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,3,same training countries,245,0.9982584112279614,0.9818622168679823,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,3,different training countries,980,0.8916749571627923,0.7219886617459383,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,5,same training countries,245,0.9892374789755336,0.5766921780391515,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,5,different training countries,980,0.6841958179882035,0.4936436090501239,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,8,same training countries,245,0.8897716831303619,0.8542702749652111,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+8,E,8,different training countries,980,0.8290451044865137,0.6906272332893616,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Asia
+9,B,2,same training countries,58,0.9986887095022958,0.9917291680161168,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,2,different training countries,1167,0.8824055539264922,0.6527500499848551,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,3,same training countries,58,0.9925246114294205,0.980915054579939,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,3,different training countries,1167,0.7996891413804658,0.7061685508533669,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,4,same training countries,58,0.9768990924701024,0.9028615629688947,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,4,different training countries,1167,0.8124856069085826,0.5104881797398049,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,5,same training countries,58,0.9549143033226261,0.7570959856657423,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,B,5,different training countries,1167,0.5287626482812898,0.4295336079139522,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,2,same training countries,58,0.9990918333616331,0.9937547656579708,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,2,different training countries,1167,0.8449604580971547,0.5001566446977931,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,3,same training countries,58,0.9904980384086478,0.8839634208027958,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,3,different training countries,1167,0.7308035829055468,0.3445628580477378,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,5,same training countries,58,0.9923347085768119,0.9688261276215376,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,5,different training countries,1167,0.8908808394691573,0.8158321694421576,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,8,same training countries,58,0.8849650541614766,0.8258815612604734,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+9,E,8,different training countries,1167,0.8182873019250926,0.7308537911134819,dependent descriptive comparisons; country composition and n not independently controlled,Southeastern Asia
+10,B,2,same training countries,78,0.9988916750575186,0.979691143373268,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,2,different training countries,1147,0.6910338974691115,0.406414982135093,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,3,same training countries,78,0.9828661097367002,0.9323963402597947,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,3,different training countries,1147,0.722745068899127,0.605436610229817,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,4,same training countries,78,0.9775542064344102,0.9086360869774814,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,4,different training countries,1147,0.614922627511289,0.5024501509363548,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,5,same training countries,78,0.951726836667101,0.8155189142468113,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,B,5,different training countries,1147,0.6927067974112324,0.42746029606507907,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,2,same training countries,78,0.999463170869785,0.9921791336965221,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,2,different training countries,1147,0.875335598888832,0.1575538576715509,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,3,same training countries,78,1.0,0.7514117557121431,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,3,different training countries,1147,0.3516547460232675,0.1189516572961368,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,5,same training countries,78,0.9983518770395072,0.6218042773314479,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,5,different training countries,1147,0.8758231563345729,0.6041590683037501,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,8,same training countries,78,0.7827326279862556,0.6567702722714737,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+10,E,8,different training countries,1147,0.74501591840955,0.6671732237425718,dependent descriptive comparisons; country composition and n not independently controlled,Southern Asia
+11,B,2,same training countries,45,0.996795629997297,0.9713414348044149,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,2,different training countries,1180,0.8725005371994541,0.6671649820145252,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,3,same training countries,45,0.9863436126189306,0.893775065407911,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,3,different training countries,1180,0.7577145314245236,0.595388772022717,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,4,same training countries,45,0.9458752975358016,0.8650970295564426,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,4,different training countries,1180,0.7279783460477214,0.5584193275285583,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,5,same training countries,45,0.9153863635285676,0.7947321758583203,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,B,5,different training countries,1180,0.7178874478207349,0.5455344958361895,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,2,same training countries,45,1.0,0.9340818462827504,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,2,different training countries,1180,0.4346319244677157,0.2356034619118374,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,3,same training countries,45,0.9950059903491626,0.9236951061319543,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,3,different training countries,1180,0.6502214656627918,0.4970703549936991,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,5,same training countries,45,0.996612766833842,0.8213700502197776,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,5,different training countries,1180,0.8374659186047767,0.7078463260807357,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,8,same training countries,45,0.9305984561812782,0.6662184754660384,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+11,E,8,different training countries,1180,0.8594073840804433,0.6527057543078271,dependent descriptive comparisons; country composition and n not independently controlled,Middle East
+12,B,2,same training countries,43,0.9994088795143136,0.9901843472263786,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,2,different training countries,1182,0.9372461263163212,0.7069386908267481,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,3,same training countries,43,0.995086326257272,0.7750777231418049,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,3,different training countries,1182,0.7867232050577013,0.6522230686228596,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,4,same training countries,43,0.902266467514934,0.5875359413660528,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,4,different training countries,1182,0.45050520391227433,0.3320793847797857,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,5,same training countries,43,0.8706031278691514,0.41966890525072353,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,B,5,different training countries,1182,0.5568426349890815,0.3725336000245879,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,2,same training countries,43,1.0,0.24446252696910484,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,2,different training countries,1182,0.5745776223482915,0.2054120253536973,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,3,same training countries,43,0.9916822515934248,0.904577348642377,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,3,different training countries,1182,0.9028880004619384,0.4322673522368674,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,5,same training countries,43,0.942772703294546,0.737913817776172,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,5,different training countries,1182,0.7531950458132326,0.7197605885227817,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,8,same training countries,43,0.9395987621343684,0.7330774605532673,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+12,E,8,different training countries,1182,0.9215668362574394,0.6857344764576511,dependent descriptive comparisons; country composition and n not independently controlled,Eastern Europe
+13,B,2,same training countries,5,1.0,1.0,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,2,different training countries,1220,0.9953341328887136,0.9888290151653734,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,3,same training countries,5,0.944172532568299,0.6466842048626811,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,3,different training countries,1220,0.9136953842749735,0.4708288692288538,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,4,same training countries,5,0.4583883954017679,0.29497988477641734,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,4,different training countries,1220,0.5615097397711171,0.26978573308524023,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,5,same training countries,5,0.6260377579232044,0.4929000631245205,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,B,5,different training countries,1220,0.47007415766281596,0.3142404742458653,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,2,same training countries,5,1.0,0.9964904167897084,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,2,different training countries,1220,0.9967014259131127,0.9926570049663904,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,3,same training countries,5,1.0,0.9998395238770122,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,3,different training countries,1220,0.9986363055650868,0.5981499144785077,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,5,same training countries,5,0.99380281683908,0.697428056718099,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,5,different training countries,1220,0.9701386687252813,0.6853719251552318,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,8,same training countries,5,0.9671424858370948,0.9337612740741454,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+13,E,8,different training countries,1220,0.9714144444787911,0.9444421249994346,dependent descriptive comparisons; country composition and n not independently controlled,Northern/Western Europe
+14,B,2,same training countries,6,0.9997991364084592,0.8097795570591457,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,2,different training countries,1219,0.9519584811728266,0.6199322738174478,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,3,same training countries,6,0.986967677136918,0.9779018999567045,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,3,different training countries,1219,0.8415246159379087,0.7190333122183826,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,4,same training countries,6,0.9159695873187965,0.8181979146692251,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,4,different training countries,1219,0.4498193627244631,0.34959706226005416,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,5,same training countries,6,0.4367688155524795,0.29498616628021385,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,B,5,different training countries,1219,0.4489344632113447,0.2775789899748227,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,2,same training countries,6,1.0,0.9891509673038144,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,2,different training countries,1219,0.5972412055752215,0.2448670421119701,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,3,same training countries,6,1.0,0.9692508919377811,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,3,different training countries,1219,0.7795264462783139,0.4640133442646602,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,5,same training countries,6,0.9255540988526474,0.608640393461086,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,5,different training countries,1219,0.6632177324728143,0.5741722281941942,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,8,same training countries,6,0.8878477616301066,0.8440349723197409,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe
+14,E,8,different training countries,1219,0.8902917592529601,0.75014379141137,dependent descriptive comparisons; country composition and n not independently controlled,Southern Europe

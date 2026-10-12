@@ -1,0 +1,10 @@
+{
+  "screen": "5fdfd4a1cdac7a4e9c67bfa464a160e63f86b7423f0596c1a6381757ef1d9ec5",
+  "repeats": 2,
+  "seed": 2023,
+  "n_init": 5,
+  "threshold": 0.75,
+  "implementation": "stage3_v1",
+  "fingerprint": "5365af29401335c2f405c8f9e106c498c264c62da0151702b366e3f05814a8a4",
+  "evaluations_per_candidate": 4
+}

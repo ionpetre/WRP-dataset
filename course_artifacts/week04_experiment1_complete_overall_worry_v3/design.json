@@ -1,0 +1,35 @@
+{
+  "balances": {
+    "balanced": 0.5,
+    "worry_emphasized": 0.75,
+    "harm_emphasized": 0.25
+  },
+  "k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "repetitions": 50,
+  "fraction": 0.8,
+  "seed": 20261005,
+  "n_init": 20,
+  "imputation": "none",
+  "eligibility": "all_20_derived_features_observed",
+  "overall_worry": "mean_with_same_multiplier_as_each_centred_feature",
+  "strata": [
+    "GlobalRegion",
+    "CountryIncomeLevel"
+  ],
+  "encodings": {
+    "012": 2.0,
+    "013": 3.0,
+    "015": 5.0
+  },
+  "overall_worry_multiplier": "sqrt(alpha)/sqrt(6)"
+}

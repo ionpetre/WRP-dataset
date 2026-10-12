@@ -1,0 +1,55 @@
+{
+  "status": "selected primary solution",
+  "selected_candidate": "separate_top3_range_block__gmm_k2",
+  "qualifying_candidates": [
+    "separate_top3_range_block__gmm_k2",
+    "combined_top3_weighted_z__kmeans_k2",
+    "combined_top5_range_block__kmeans_k3"
+  ],
+  "development_respondents": 116808,
+  "screen_evaluations": 20,
+  "finalist_evaluations": 60,
+  "PS_threshold": 0.8,
+  "required_pass_rate": 0.8,
+  "minimum_cluster_pct": 5.0,
+  "minimum_coverage_pct": 80.0,
+  "summary_warning": 0.9,
+  "single_feature_warning": 0.95,
+  "robustness_ARI": 0.8,
+  "domain_removal_median_ARI": 0.75,
+  "domain_removal_min_ARI": 0.5,
+  "heldout_responses_used": false,
+  "final_labels_saved": true,
+  "algorithm_design": {
+    "data": "5fdfd4a1cdac7a4e9c67bfa464a160e63f86b7423f0596c1a6381757ef1d9ec5",
+    "representations": [
+      "combined_top2_range_block",
+      "separate_top3_range_block"
+    ],
+    "gmm": [
+      "diag",
+      3,
+      300,
+      0.0001
+    ],
+    "agg_per_country": 100,
+    "dbscan_min_samples": [
+      20,
+      50,
+      100
+    ],
+    "dbscan_quantiles": [
+      0.5,
+      0.7,
+      0.85,
+      0.95
+    ],
+    "max_edges": 5000000,
+    "dbscan_fallback_per_country": 150,
+    "version": "v4_full_or_large_repeated",
+    "seed": 2023
+  },
+  "country_validation_note": "Repeated country divisions are not independent experiments; no threshold was tuned to fresh results.",
+  "scope_note": "Full factorial K-means; other algorithm families on two declared representations. No claim of exhaustive mathematical optimality.",
+  "week05": "Apply frozen assignment to held-out countries and check transfer without retuning."
+}

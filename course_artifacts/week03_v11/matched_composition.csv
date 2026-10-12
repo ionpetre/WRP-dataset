@@ -1,0 +1,552 @@
+configuration,k,cluster,feature,matched_difference,unit
+reference,2,0,worry_food,-0.3527447426499798,worry points (0–2)
+reference,2,0,worry_water,-0.36351798869345836,worry points (0–2)
+reference,2,0,worry_crime,0.42288461907090197,worry points (0–2)
+reference,2,0,worry_weather,0.17768031714382573,worry points (0–2)
+reference,2,0,worry_traffic,0.10787553308203639,worry points (0–2)
+reference,2,0,worry_mental_health,0.007822262046674444,worry points (0–2)
+reference,2,0,harm_food,-0.27543306999386247,harm proportion
+reference,2,0,harm_water,-0.3719933743017885,harm proportion
+reference,2,0,harm_crime,0.1427019891991314,harm proportion
+reference,2,0,harm_weather,0.3943431182570434,harm proportion
+reference,2,0,harm_traffic,0.47698302545096727,harm proportion
+reference,2,0,harm_mental_health,-0.1592745911699257,harm proportion
+reference,2,0,harm_work,-0.2073270974415652,harm proportion
+reference,2,1,worry_food,0.3670607109342627,worry points (0–2)
+reference,2,1,worry_water,0.3015440739086531,worry points (0–2)
+reference,2,1,worry_crime,-0.38091286000350544,worry points (0–2)
+reference,2,1,worry_weather,-0.2541264995937637,worry points (0–2)
+reference,2,1,worry_traffic,-0.07317547115173981,worry points (0–2)
+reference,2,1,worry_mental_health,0.03961004590609269,worry points (0–2)
+reference,2,1,harm_food,0.27143970238632,harm proportion
+reference,2,1,harm_water,0.23399192775187128,harm proportion
+reference,2,1,harm_crime,-0.15556264542143658,harm proportion
+reference,2,1,harm_weather,-0.44740478273972517,harm proportion
+reference,2,1,harm_traffic,-0.40646914231340076,harm proportion
+reference,2,1,harm_mental_health,0.2340669033909694,harm proportion
+reference,2,1,harm_work,0.26993803694540186,harm proportion
+reference,3,0,worry_food,-0.8863891042475751,worry points (0–2)
+reference,3,0,worry_water,-1.0020940525809776,worry points (0–2)
+reference,3,0,worry_crime,0.9793354296522546,worry points (0–2)
+reference,3,0,worry_weather,0.9249885213212502,worry points (0–2)
+reference,3,0,worry_traffic,0.06366823369985755,worry points (0–2)
+reference,3,0,worry_mental_health,-0.07950902784480963,worry points (0–2)
+reference,3,0,harm_food,0.07191251397517476,harm proportion
+reference,3,0,harm_water,0.08605017734516222,harm proportion
+reference,3,0,harm_crime,0.027666689351272006,harm proportion
+reference,3,0,harm_weather,0.0908622263179188,harm proportion
+reference,3,0,harm_traffic,-0.1470394424581468,harm proportion
+reference,3,0,harm_mental_health,-0.06182248021270371,harm proportion
+reference,3,0,harm_work,-0.06762968431867729,harm proportion
+reference,3,1,worry_food,-0.026345516881543393,worry points (0–2)
+reference,3,1,worry_water,-0.2747096018703895,worry points (0–2)
+reference,3,1,worry_crime,0.055077683678778085,worry points (0–2)
+reference,3,1,worry_weather,-0.047963681285037155,worry points (0–2)
+reference,3,1,worry_traffic,0.06539915159392364,worry points (0–2)
+reference,3,1,worry_mental_health,0.228541964764268,worry points (0–2)
+reference,3,1,harm_food,-0.48467730011917015,harm proportion
+reference,3,1,harm_water,-0.82363339032069,harm proportion
+reference,3,1,harm_crime,0.22293021615499028,harm proportion
+reference,3,1,harm_weather,0.13220027120025174,harm proportion
+reference,3,1,harm_traffic,0.5984394243521014,harm proportion
+reference,3,1,harm_mental_health,0.2406208516187865,harm proportion
+reference,3,1,harm_work,0.11411992711372997,harm proportion
+reference,3,2,worry_food,0.6553701487446199,worry points (0–2)
+reference,3,2,worry_water,0.5576094261379795,worry points (0–2)
+reference,3,2,worry_crime,-0.7656975080889848,worry points (0–2)
+reference,3,2,worry_weather,-0.48925548979789557,worry points (0–2)
+reference,3,2,worry_traffic,-0.14860394750438202,worry points (0–2)
+reference,3,2,worry_mental_health,0.19057737050866286,worry points (0–2)
+reference,3,2,harm_food,0.059111104111706676,harm proportion
+reference,3,2,harm_water,0.07696288212097582,harm proportion
+reference,3,2,harm_crime,-0.1030715707203109,harm proportion
+reference,3,2,harm_weather,-0.1658196312998301,harm proportion
+reference,3,2,harm_traffic,-0.005973081875590097,harm proportion
+reference,3,2,harm_mental_health,0.06479884639010394,harm proportion
+reference,3,2,harm_work,0.07399145127294461,harm proportion
+reference,4,0,worry_food,-0.11792478606957724,worry points (0–2)
+reference,4,0,worry_water,-0.09652297725014591,worry points (0–2)
+reference,4,0,worry_crime,-0.0038351409254596827,worry points (0–2)
+reference,4,0,worry_weather,-0.05695544606686578,worry points (0–2)
+reference,4,0,worry_traffic,0.35582830981737307,worry points (0–2)
+reference,4,0,worry_mental_health,-0.08058995950532444,worry points (0–2)
+reference,4,0,harm_food,-0.2009185438323626,harm proportion
+reference,4,0,harm_water,-0.15502850451392047,harm proportion
+reference,4,0,harm_crime,-0.11349034586699898,harm proportion
+reference,4,0,harm_weather,-0.16704225372645393,harm proportion
+reference,4,0,harm_traffic,0.9676492888737126,harm proportion
+reference,4,0,harm_mental_health,-0.16694361123094473,harm proportion
+reference,4,0,harm_work,-0.16422602970303174,harm proportion
+reference,4,1,worry_food,0.09729641287316008,worry points (0–2)
+reference,4,1,worry_water,0.06705815904507209,worry points (0–2)
+reference,4,1,worry_crime,-0.008660941656096696,worry points (0–2)
+reference,4,1,worry_weather,0.0877175834220799,worry points (0–2)
+reference,4,1,worry_traffic,-0.360248569611592,worry points (0–2)
+reference,4,1,worry_mental_health,0.11683735592737649,worry points (0–2)
+reference,4,1,harm_food,0.14076908166774912,harm proportion
+reference,4,1,harm_water,0.09088009224666252,harm proportion
+reference,4,1,harm_crime,0.10401214256404277,harm proportion
+reference,4,1,harm_weather,0.2067281753596942,harm proportion
+reference,4,1,harm_traffic,-0.972789776912357,harm proportion
+reference,4,1,harm_mental_health,0.2519682502931675,harm proportion
+reference,4,1,harm_work,0.178432034781041,harm proportion
+reference,4,2,worry_food,0.3989339590274049,worry points (0–2)
+reference,4,2,worry_water,0.37961679627705225,worry points (0–2)
+reference,4,2,worry_crime,-0.04551191572378006,worry points (0–2)
+reference,4,2,worry_weather,-0.1557288466492607,worry points (0–2)
+reference,4,2,worry_traffic,-0.5586293491670477,worry points (0–2)
+reference,4,2,worry_mental_health,-0.018680643764368343,worry points (0–2)
+reference,4,2,harm_food,0.3095059900020333,harm proportion
+reference,4,2,harm_water,0.10714190524725178,harm proportion
+reference,4,2,harm_crime,0.18601748781205835,harm proportion
+reference,4,2,harm_weather,0.08489776321308583,harm proportion
+reference,4,2,harm_traffic,-0.5090805384243972,harm proportion
+reference,4,2,harm_mental_health,-0.18181633115534546,harm proportion
+reference,4,2,harm_work,0.0033337233053134735,harm proportion
+reference,4,3,worry_food,-0.37324609959166255,worry points (0–2)
+reference,4,3,worry_water,-0.4513190884095412,worry points (0–2)
+reference,4,3,worry_crime,0.40525023124187576,worry points (0–2)
+reference,4,3,worry_weather,0.484064182245759,worry points (0–2)
+reference,4,3,worry_traffic,-0.13648535599655556,worry points (0–2)
+reference,4,3,worry_mental_health,0.07173613051012517,worry points (0–2)
+reference,4,3,harm_food,0.11373975648694583,harm proportion
+reference,4,3,harm_water,0.076132632445121,harm proportion
+reference,4,3,harm_crime,0.0790797385219309,harm proportion
+reference,4,3,harm_weather,0.15479789065503913,harm proportion
+reference,4,3,harm_traffic,-0.6225807380901085,harm proportion
+reference,4,3,harm_mental_health,0.10796092817007351,harm proportion
+reference,4,3,harm_work,0.09086979181099822,harm proportion
+separate_harm,2,0,worry_food,-0.9032205753863838,worry points (0–2)
+separate_harm,2,0,worry_water,-0.966347580203661,worry points (0–2)
+separate_harm,2,0,worry_crime,0.8243103310072373,worry points (0–2)
+separate_harm,2,0,worry_weather,0.529798120337888,worry points (0–2)
+separate_harm,2,0,worry_traffic,0.2794151028244822,worry points (0–2)
+separate_harm,2,0,worry_mental_health,0.23604460142043684,worry points (0–2)
+separate_harm,2,0,personal_food,-0.009111214268047953,harm proportion
+separate_harm,2,0,personal_water,-0.030847051208727546,harm proportion
+separate_harm,2,0,personal_crime,0.01021222051508749,harm proportion
+separate_harm,2,0,personal_weather,0.05951599993224629,harm proportion
+separate_harm,2,0,personal_traffic,-0.017042274059521235,harm proportion
+separate_harm,2,0,personal_mental_health,-0.009754371675346594,harm proportion
+separate_harm,2,0,personal_work,-0.0029733092356904476,harm proportion
+separate_harm,2,0,known_food,-0.06566572935335903,harm proportion
+separate_harm,2,0,known_water,-0.11053054166351804,harm proportion
+separate_harm,2,0,known_crime,0.08762144251679822,harm proportion
+separate_harm,2,0,known_weather,0.07661731042667029,harm proportion
+separate_harm,2,0,known_traffic,0.06646539740205534,harm proportion
+separate_harm,2,0,known_mental_health,-0.041491942311987995,harm proportion
+separate_harm,2,0,known_work,-0.01301593701665883,harm proportion
+separate_harm,2,1,worry_food,0.8355349128493692,worry points (0–2)
+separate_harm,2,1,worry_water,0.7902273150143263,worry points (0–2)
+separate_harm,2,1,worry_crime,-0.6778226255295837,worry points (0–2)
+separate_harm,2,1,worry_weather,-0.5669608767283602,worry points (0–2)
+separate_harm,2,1,worry_traffic,-0.2926156165396076,worry points (0–2)
+separate_harm,2,1,worry_mental_health,-0.08836310906614313,worry points (0–2)
+separate_harm,2,1,personal_food,0.024050393047095046,harm proportion
+separate_harm,2,1,personal_water,0.024801588367214012,harm proportion
+separate_harm,2,1,personal_crime,-0.007544356926056009,harm proportion
+separate_harm,2,1,personal_weather,-0.08255258939473359,harm proportion
+separate_harm,2,1,personal_traffic,0.020728969175047338,harm proportion
+separate_harm,2,1,personal_mental_health,0.018382096302705802,harm proportion
+separate_harm,2,1,personal_work,0.002133899428727425,harm proportion
+separate_harm,2,1,known_food,0.038019778896344225,harm proportion
+separate_harm,2,1,known_water,0.06572002974549274,harm proportion
+separate_harm,2,1,known_crime,-0.12377767280091626,harm proportion
+separate_harm,2,1,known_weather,-0.06803248248251156,harm proportion
+separate_harm,2,1,known_traffic,-0.03828853070049376,harm proportion
+separate_harm,2,1,known_mental_health,0.06496490014093227,harm proportion
+separate_harm,2,1,known_work,0.061393977201152375,harm proportion
+separate_harm,3,0,worry_food,-0.784963268784875,worry points (0–2)
+separate_harm,3,0,worry_water,-1.0811157321889844,worry points (0–2)
+separate_harm,3,0,worry_crime,0.40642627270621356,worry points (0–2)
+separate_harm,3,0,worry_weather,0.49143838230872056,worry points (0–2)
+separate_harm,3,0,worry_traffic,0.5310560579772912,worry points (0–2)
+separate_harm,3,0,worry_mental_health,0.4371582879816336,worry points (0–2)
+separate_harm,3,0,personal_food,-0.02460375477487729,harm proportion
+separate_harm,3,0,personal_water,-0.04351034297263169,harm proportion
+separate_harm,3,0,personal_crime,0.006020185880112599,harm proportion
+separate_harm,3,0,personal_weather,0.028449193301906116,harm proportion
+separate_harm,3,0,personal_traffic,0.02092800695299632,harm proportion
+separate_harm,3,0,personal_mental_health,0.014535307856297716,harm proportion
+separate_harm,3,0,personal_work,-0.001818596243803779,harm proportion
+separate_harm,3,0,known_food,-0.05708978651664175,harm proportion
+separate_harm,3,0,known_water,-0.07452573776999435,harm proportion
+separate_harm,3,0,known_crime,0.027192045622756046,harm proportion
+separate_harm,3,0,known_weather,0.03311207673144952,harm proportion
+separate_harm,3,0,known_traffic,0.03506672968944621,harm proportion
+separate_harm,3,0,known_mental_health,0.030275060218736556,harm proportion
+separate_harm,3,0,known_work,0.005969612024247628,harm proportion
+separate_harm,3,1,worry_food,0.5568829786325039,worry points (0–2)
+separate_harm,3,1,worry_water,1.1888430860975692,worry points (0–2)
+separate_harm,3,1,worry_crime,-0.32202150550654024,worry points (0–2)
+separate_harm,3,1,worry_weather,-0.40736549040530107,worry points (0–2)
+separate_harm,3,1,worry_traffic,-0.4388749473262671,worry points (0–2)
+separate_harm,3,1,worry_mental_health,-0.5774641214919647,worry points (0–2)
+separate_harm,3,1,personal_food,0.03246318536176763,harm proportion
+separate_harm,3,1,personal_water,0.05880506947965066,harm proportion
+separate_harm,3,1,personal_crime,-0.00866060974964004,harm proportion
+separate_harm,3,1,personal_weather,-0.022788798003498548,harm proportion
+separate_harm,3,1,personal_traffic,-0.029574833826223102,harm proportion
+separate_harm,3,1,personal_mental_health,-0.027181871153117345,harm proportion
+separate_harm,3,1,personal_work,-0.003062142108939213,harm proportion
+separate_harm,3,1,known_food,0.06483325353806192,harm proportion
+separate_harm,3,1,known_water,0.09645885747726868,harm proportion
+separate_harm,3,1,known_crime,-0.028350135572337922,harm proportion
+separate_harm,3,1,known_weather,-0.028081721124078543,harm proportion
+separate_harm,3,1,known_traffic,-0.04230284503815289,harm proportion
+separate_harm,3,1,known_mental_health,-0.05153605129999339,harm proportion
+separate_harm,3,1,known_work,-0.011021357980767973,harm proportion
+separate_harm,3,2,worry_food,0.833587166008251,worry points (0–2)
+separate_harm,3,2,worry_water,0.7748512766984946,worry points (0–2)
+separate_harm,3,2,worry_crime,-0.41459519769342507,worry points (0–2)
+separate_harm,3,2,worry_weather,-0.4525020285983875,worry points (0–2)
+separate_harm,3,2,worry_traffic,-0.4721175781659253,worry points (0–2)
+separate_harm,3,2,worry_mental_health,-0.26922363824900736,worry points (0–2)
+separate_harm,3,2,personal_food,0.025790614771153412,harm proportion
+separate_harm,3,2,personal_water,0.029062418369662887,harm proportion
+separate_harm,3,2,personal_crime,-0.003521058480325142,harm proportion
+separate_harm,3,2,personal_weather,-0.028552149479909746,harm proportion
+separate_harm,3,2,personal_traffic,-0.013272682044892422,harm proportion
+separate_harm,3,2,personal_mental_health,-0.01189389151072455,harm proportion
+separate_harm,3,2,personal_work,0.002386748375035577,harm proportion
+separate_harm,3,2,known_food,0.047395404025183135,harm proportion
+separate_harm,3,2,known_water,0.05634560243609609,harm proportion
+separate_harm,3,2,known_crime,-0.036530239436964304,harm proportion
+separate_harm,3,2,known_weather,-0.03810533647603682,harm proportion
+separate_harm,3,2,known_traffic,-0.029213565893997817,harm proportion
+separate_harm,3,2,known_mental_health,-0.01211673574346705,harm proportion
+separate_harm,3,2,known_work,0.012224871089186885,harm proportion
+separate_harm,5,0,worry_food,-0.7142300479026173,worry points (0–2)
+separate_harm,5,0,worry_water,-0.758529328829343,worry points (0–2)
+separate_harm,5,0,worry_crime,0.00871740433309108,worry points (0–2)
+separate_harm,5,0,worry_weather,0.4511475924008055,worry points (0–2)
+separate_harm,5,0,worry_traffic,0.658204895184722,worry points (0–2)
+separate_harm,5,0,worry_mental_health,0.3546894848133419,worry points (0–2)
+separate_harm,5,0,personal_food,-0.02043030776995204,harm proportion
+separate_harm,5,0,personal_water,-0.021130039601594944,harm proportion
+separate_harm,5,0,personal_crime,0.003672170179245607,harm proportion
+separate_harm,5,0,personal_weather,0.008901519862330313,harm proportion
+separate_harm,5,0,personal_traffic,0.0078758287851414,harm proportion
+separate_harm,5,0,personal_mental_health,0.026386477998852,harm proportion
+separate_harm,5,0,personal_work,-0.005275649454022323,harm proportion
+separate_harm,5,0,known_food,-0.06322775927251852,harm proportion
+separate_harm,5,0,known_water,-0.08506890966245971,harm proportion
+separate_harm,5,0,known_crime,-0.022682794172032127,harm proportion
+separate_harm,5,0,known_weather,0.015913575519788812,harm proportion
+separate_harm,5,0,known_traffic,0.04641728128793738,harm proportion
+separate_harm,5,0,known_mental_health,0.10402866913017103,harm proportion
+separate_harm,5,0,known_work,0.004619937169113127,harm proportion
+separate_harm,5,1,worry_food,0.5093993625266501,worry points (0–2)
+separate_harm,5,1,worry_water,0.6785466714003243,worry points (0–2)
+separate_harm,5,1,worry_crime,-0.2538253986893925,worry points (0–2)
+separate_harm,5,1,worry_weather,-0.22589467455818724,worry points (0–2)
+separate_harm,5,1,worry_traffic,-0.2036204971447986,worry points (0–2)
+separate_harm,5,1,worry_mental_health,-0.5046054635345962,worry points (0–2)
+separate_harm,5,1,personal_food,0.014826660608157698,harm proportion
+separate_harm,5,1,personal_water,0.007282650430777732,harm proportion
+separate_harm,5,1,personal_crime,0.01070498529419893,harm proportion
+separate_harm,5,1,personal_weather,-0.024213543194078726,harm proportion
+separate_harm,5,1,personal_traffic,-0.004054381599125162,harm proportion
+separate_harm,5,1,personal_mental_health,0.0011582070603695389,harm proportion
+separate_harm,5,1,personal_work,-0.005704578600299999,harm proportion
+separate_harm,5,1,known_food,0.06137920647512085,harm proportion
+separate_harm,5,1,known_water,0.05775133188116485,harm proportion
+separate_harm,5,1,known_crime,-0.006155371661379754,harm proportion
+separate_harm,5,1,known_weather,0.002892874878795107,harm proportion
+separate_harm,5,1,known_traffic,-0.08249390673527755,harm proportion
+separate_harm,5,1,known_mental_health,-0.03508518193612732,harm proportion
+separate_harm,5,1,known_work,0.001711047097703797,harm proportion
+separate_harm,5,2,worry_food,0.31739627998703257,worry points (0–2)
+separate_harm,5,2,worry_water,0.1263246474973958,worry points (0–2)
+separate_harm,5,2,worry_crime,-0.15218446308894512,worry points (0–2)
+separate_harm,5,2,worry_weather,-0.19154155548114712,worry points (0–2)
+separate_harm,5,2,worry_traffic,-0.061645197906493934,worry points (0–2)
+separate_harm,5,2,worry_mental_health,-0.038349711007841986,worry points (0–2)
+separate_harm,5,2,personal_food,0.006326309593099098,harm proportion
+separate_harm,5,2,personal_water,-0.00209920091550709,harm proportion
+separate_harm,5,2,personal_crime,-0.002474141691870359,harm proportion
+separate_harm,5,2,personal_weather,-0.02467651169364738,harm proportion
+separate_harm,5,2,personal_traffic,-0.010291398881555973,harm proportion
+separate_harm,5,2,personal_mental_health,0.021906988008780933,harm proportion
+separate_harm,5,2,personal_work,0.011307955580700774,harm proportion
+separate_harm,5,2,known_food,-0.11048318053914181,harm proportion
+separate_harm,5,2,known_water,-0.21321676129773826,harm proportion
+separate_harm,5,2,known_crime,0.04750991540299908,harm proportion
+separate_harm,5,2,known_weather,0.060721357477059965,harm proportion
+separate_harm,5,2,known_traffic,0.10943604914371591,harm proportion
+separate_harm,5,2,known_mental_health,0.12587959546123326,harm proportion
+separate_harm,5,2,known_work,-0.019846975648128037,harm proportion
+separate_harm,5,3,worry_food,0.8215670818116204,worry points (0–2)
+separate_harm,5,3,worry_water,0.8793481395612132,worry points (0–2)
+separate_harm,5,3,worry_crime,-0.2095750306467019,worry points (0–2)
+separate_harm,5,3,worry_weather,-0.43893773957175225,worry points (0–2)
+separate_harm,5,3,worry_traffic,-0.5364390382562692,worry points (0–2)
+separate_harm,5,3,worry_mental_health,-0.5159634128981108,worry points (0–2)
+separate_harm,5,3,personal_food,0.03519765043590471,harm proportion
+separate_harm,5,3,personal_water,0.029233085606445115,harm proportion
+separate_harm,5,3,personal_crime,-0.0036243573658808047,harm proportion
+separate_harm,5,3,personal_weather,-0.016599237997318755,harm proportion
+separate_harm,5,3,personal_traffic,-0.01683229605958204,harm proportion
+separate_harm,5,3,personal_mental_health,-0.02518579615151563,harm proportion
+separate_harm,5,3,personal_work,-0.0021890484680525527,harm proportion
+separate_harm,5,3,known_food,0.05672229189856189,harm proportion
+separate_harm,5,3,known_water,0.061580253799972215,harm proportion
+separate_harm,5,3,known_crime,-0.013982637465622259,harm proportion
+separate_harm,5,3,known_weather,-0.025652810436949343,harm proportion
+separate_harm,5,3,known_traffic,-0.03047163918065134,harm proportion
+separate_harm,5,3,known_mental_health,-0.05455994520955588,harm proportion
+separate_harm,5,3,known_work,0.006364486594244664,harm proportion
+separate_harm,5,4,worry_food,-0.8526292295745755,worry points (0–2)
+separate_harm,5,4,worry_water,-0.8794078718817417,worry points (0–2)
+separate_harm,5,4,worry_crime,0.2912360820015671,worry points (0–2)
+separate_harm,5,4,worry_weather,0.45038917166719833,worry points (0–2)
+separate_harm,5,4,worry_traffic,0.5066952964329616,worry points (0–2)
+separate_harm,5,4,worry_mental_health,0.48371655135459085,worry points (0–2)
+separate_harm,5,4,personal_food,-0.031009883970097667,harm proportion
+separate_harm,5,4,personal_water,-0.027308028555114626,harm proportion
+separate_harm,5,4,personal_crime,0.0032637450907337445,harm proportion
+separate_harm,5,4,personal_weather,0.023368091075313815,harm proportion
+separate_harm,5,4,personal_traffic,0.015536758374524196,harm proportion
+separate_harm,5,4,personal_mental_health,0.016134143379998727,harm proportion
+separate_harm,5,4,personal_work,1.5174604641799544e-05,harm proportion
+separate_harm,5,4,known_food,-0.04984012559489171,harm proportion
+separate_harm,5,4,known_water,-0.052159860743474305,harm proportion
+separate_harm,5,4,known_crime,0.01949477446733189,harm proportion
+separate_harm,5,4,known_weather,0.02568817894897107,harm proportion
+separate_harm,5,4,known_traffic,0.03232055746610373,harm proportion
+separate_harm,5,4,known_mental_health,0.030263935629185015,harm proportion
+separate_harm,5,4,known_work,-0.005767460173225699,harm proportion
+standardized_v10,2,0,worry_food,-0.2930477528847357,worry points (0–2)
+standardized_v10,2,0,worry_water,-0.4829475848077152,worry points (0–2)
+standardized_v10,2,0,worry_crime,0.0690499906194857,worry points (0–2)
+standardized_v10,2,0,worry_weather,0.3489282811639522,worry points (0–2)
+standardized_v10,2,0,worry_traffic,0.23405443012886343,worry points (0–2)
+standardized_v10,2,0,worry_mental_health,0.12396263578015043,worry points (0–2)
+standardized_v10,2,0,harm_food,-0.29810648334888856,harm proportion
+standardized_v10,2,0,harm_water,-0.45402396448263943,harm proportion
+standardized_v10,2,0,harm_crime,-0.23180682517918258,harm proportion
+standardized_v10,2,0,harm_weather,0.21491356635012807,harm proportion
+standardized_v10,2,0,harm_traffic,0.31449783569377004,harm proportion
+standardized_v10,2,0,harm_mental_health,0.28394335546952554,harm proportion
+standardized_v10,2,0,harm_work,0.170582515497287,harm proportion
+standardized_v10,2,1,worry_food,0.1969548778573501,worry points (0–2)
+standardized_v10,2,1,worry_water,0.28656565364407366,worry points (0–2)
+standardized_v10,2,1,worry_crime,0.0794229207943161,worry points (0–2)
+standardized_v10,2,1,worry_weather,-0.24552692179077307,worry points (0–2)
+standardized_v10,2,1,worry_traffic,-0.17692509516653024,worry points (0–2)
+standardized_v10,2,1,worry_mental_health,-0.14049143533843705,worry points (0–2)
+standardized_v10,2,1,harm_food,0.377548327415166,harm proportion
+standardized_v10,2,1,harm_water,0.3294051307046792,harm proportion
+standardized_v10,2,1,harm_crime,0.37527536161410036,harm proportion
+standardized_v10,2,1,harm_weather,-0.22256433976276666,harm proportion
+standardized_v10,2,1,harm_traffic,-0.3465297897737142,harm proportion
+standardized_v10,2,1,harm_mental_health,-0.326408897243926,harm proportion
+standardized_v10,2,1,harm_work,-0.1867257929535386,harm proportion
+standardized_v10,3,0,worry_food,-0.5514424852198752,worry points (0–2)
+standardized_v10,3,0,worry_water,-0.7586006004467962,worry points (0–2)
+standardized_v10,3,0,worry_crime,0.3112885609917907,worry points (0–2)
+standardized_v10,3,0,worry_weather,0.4562018038424612,worry points (0–2)
+standardized_v10,3,0,worry_traffic,0.4168301104463557,worry points (0–2)
+standardized_v10,3,0,worry_mental_health,0.12572261038606386,worry points (0–2)
+standardized_v10,3,0,harm_food,-0.5361361374406175,harm proportion
+standardized_v10,3,0,harm_water,-0.5209149314204616,harm proportion
+standardized_v10,3,0,harm_crime,0.09237990996981686,harm proportion
+standardized_v10,3,0,harm_weather,0.35760416478774715,harm proportion
+standardized_v10,3,0,harm_traffic,0.3296452747348501,harm proportion
+standardized_v10,3,0,harm_mental_health,0.20092116467913304,harm proportion
+standardized_v10,3,0,harm_work,0.07650055468953192,harm proportion
+standardized_v10,3,1,worry_food,0.4821921672965288,worry points (0–2)
+standardized_v10,3,1,worry_water,0.36492974131412015,worry points (0–2)
+standardized_v10,3,1,worry_crime,-0.41242700888308215,worry points (0–2)
+standardized_v10,3,1,worry_weather,-0.4223451514556122,worry points (0–2)
+standardized_v10,3,1,worry_traffic,-0.3555710456167445,worry points (0–2)
+standardized_v10,3,1,worry_mental_health,0.3432212973447899,worry points (0–2)
+standardized_v10,3,1,harm_food,-0.11203667461381062,harm proportion
+standardized_v10,3,1,harm_water,-0.15289809232028556,harm proportion
+standardized_v10,3,1,harm_crime,-0.010165696154957375,harm proportion
+standardized_v10,3,1,harm_weather,-0.04881146183580045,harm proportion
+standardized_v10,3,1,harm_traffic,0.07681147347677425,harm proportion
+standardized_v10,3,1,harm_mental_health,0.14448836101489512,harm proportion
+standardized_v10,3,1,harm_work,0.10261209043318464,harm proportion
+standardized_v10,3,2,worry_food,0.2851444233708154,worry points (0–2)
+standardized_v10,3,2,worry_water,0.48658019045596446,worry points (0–2)
+standardized_v10,3,2,worry_crime,-0.13137420682331352,worry points (0–2)
+standardized_v10,3,2,worry_weather,-0.24667640234795316,worry points (0–2)
+standardized_v10,3,2,worry_traffic,-0.21171655262411765,worry points (0–2)
+standardized_v10,3,2,worry_mental_health,-0.18195745203139568,worry points (0–2)
+standardized_v10,3,2,harm_food,0.5861575181521271,harm proportion
+standardized_v10,3,2,harm_water,0.48083841064333394,harm proportion
+standardized_v10,3,2,harm_crime,-0.007432708059564978,harm proportion
+standardized_v10,3,2,harm_weather,-0.3380497581153257,harm proportion
+standardized_v10,3,2,harm_traffic,-0.3574444759414302,harm proportion
+standardized_v10,3,2,harm_mental_health,-0.2835067125092606,harm proportion
+standardized_v10,3,2,harm_work,-0.08056227416987981,harm proportion
+standardized_v10,4,0,worry_food,-0.1650077139859544,worry points (0–2)
+standardized_v10,4,0,worry_water,-0.48936597799361586,worry points (0–2)
+standardized_v10,4,0,worry_crime,0.146060112739614,worry points (0–2)
+standardized_v10,4,0,worry_weather,0.12112536525443525,worry points (0–2)
+standardized_v10,4,0,worry_traffic,0.16476760262511794,worry points (0–2)
+standardized_v10,4,0,worry_mental_health,0.22242061136040298,worry points (0–2)
+standardized_v10,4,0,harm_food,-0.2482845106362956,harm proportion
+standardized_v10,4,0,harm_water,-0.8168645896356787,harm proportion
+standardized_v10,4,0,harm_crime,0.2054479363055215,harm proportion
+standardized_v10,4,0,harm_weather,0.14585697039694964,harm proportion
+standardized_v10,4,0,harm_traffic,0.2642470650661605,harm proportion
+standardized_v10,4,0,harm_mental_health,0.2695809432589954,harm proportion
+standardized_v10,4,0,harm_work,0.18001618524434684,harm proportion
+standardized_v10,4,1,worry_food,0.3792205732591876,worry points (0–2)
+standardized_v10,4,1,worry_water,0.25691386781797,worry points (0–2)
+standardized_v10,4,1,worry_crime,-0.4844406279160161,worry points (0–2)
+standardized_v10,4,1,worry_weather,0.011518463624149329,worry points (0–2)
+standardized_v10,4,1,worry_traffic,-0.2227875017419236,worry points (0–2)
+standardized_v10,4,1,worry_mental_health,0.059575224956633276,worry points (0–2)
+standardized_v10,4,1,harm_food,0.21044744303270935,harm proportion
+standardized_v10,4,1,harm_water,0.06459341421537156,harm proportion
+standardized_v10,4,1,harm_crime,-0.6604943257639786,harm proportion
+standardized_v10,4,1,harm_weather,0.1877323872839166,harm proportion
+standardized_v10,4,1,harm_traffic,-0.1320760014036342,harm proportion
+standardized_v10,4,1,harm_mental_health,0.145833253968958,harm proportion
+standardized_v10,4,1,harm_work,0.18396382866665748,harm proportion
+standardized_v10,4,2,worry_food,0.18214743589446106,worry points (0–2)
+standardized_v10,4,2,worry_water,-0.008970138360358024,worry points (0–2)
+standardized_v10,4,2,worry_crime,-0.02216741995494788,worry points (0–2)
+standardized_v10,4,2,worry_weather,0.017023374351534372,worry points (0–2)
+standardized_v10,4,2,worry_traffic,-0.09017058870716849,worry points (0–2)
+standardized_v10,4,2,worry_mental_health,-0.07786266322352091,worry points (0–2)
+standardized_v10,4,2,harm_food,0.12438190893212513,harm proportion
+standardized_v10,4,2,harm_water,-0.5655980030754935,harm proportion
+standardized_v10,4,2,harm_crime,-0.05611290804768671,harm proportion
+standardized_v10,4,2,harm_weather,0.23587342045759785,harm proportion
+standardized_v10,4,2,harm_traffic,0.05311396261710502,harm proportion
+standardized_v10,4,2,harm_mental_health,0.13252632379896445,harm proportion
+standardized_v10,4,2,harm_work,0.07581529531738757,harm proportion
+standardized_v10,4,3,worry_food,0.052722938469418126,worry points (0–2)
+standardized_v10,4,3,worry_water,0.4287909701021672,worry points (0–2)
+standardized_v10,4,3,worry_crime,-0.10817291459198063,worry points (0–2)
+standardized_v10,4,3,worry_weather,-0.08784738881461455,worry points (0–2)
+standardized_v10,4,3,worry_traffic,-0.10345007960840352,worry points (0–2)
+standardized_v10,4,3,worry_mental_health,-0.18204352555658665,worry points (0–2)
+standardized_v10,4,3,harm_food,0.09530448265202261,harm proportion
+standardized_v10,4,3,harm_water,0.9963659630129501,harm proportion
+standardized_v10,4,3,harm_crime,-0.17509573519197508,harm proportion
+standardized_v10,4,3,harm_weather,-0.18783418745689165,harm proportion
+standardized_v10,4,3,harm_traffic,-0.2161064948142786,harm proportion
+standardized_v10,4,3,harm_mental_health,-0.29422119428193055,harm proportion
+standardized_v10,4,3,harm_work,-0.218412833919897,harm proportion
+top_emphasis,2,0,worry_food,-0.5441144027416971,worry points (0–2)
+top_emphasis,2,0,worry_water,-0.6705054461849234,worry points (0–2)
+top_emphasis,2,0,worry_crime,0.4248556340432251,worry points (0–2)
+top_emphasis,2,0,worry_weather,0.38308841131758953,worry points (0–2)
+top_emphasis,2,0,worry_traffic,0.43257388938998204,worry points (0–2)
+top_emphasis,2,0,worry_mental_health,-0.025898085824176298,worry points (0–2)
+top_emphasis,2,0,harm_food,-0.08686309205031974,harm proportion
+top_emphasis,2,0,harm_water,-0.16313709357189582,harm proportion
+top_emphasis,2,0,harm_crime,0.09999049584147018,harm proportion
+top_emphasis,2,0,harm_weather,0.14257931033296217,harm proportion
+top_emphasis,2,0,harm_traffic,0.1676453172638209,harm proportion
+top_emphasis,2,0,harm_mental_health,-0.09292371745560482,harm proportion
+top_emphasis,2,0,harm_work,-0.06729122036043284,harm proportion
+top_emphasis,2,1,worry_food,0.649947301034241,worry points (0–2)
+top_emphasis,2,1,worry_water,0.5947766015219139,worry points (0–2)
+top_emphasis,2,1,worry_crime,-0.5557948155507549,worry points (0–2)
+top_emphasis,2,1,worry_weather,-0.39686746557790803,worry points (0–2)
+top_emphasis,2,1,worry_traffic,-0.5068737387468312,worry points (0–2)
+top_emphasis,2,1,worry_mental_health,0.21481211731933877,worry points (0–2)
+top_emphasis,2,1,harm_food,0.08533802671258563,harm proportion
+top_emphasis,2,1,harm_water,0.09181100319174183,harm proportion
+top_emphasis,2,1,harm_crime,-0.1262930082757605,harm proportion
+top_emphasis,2,1,harm_weather,-0.14589954075417658,harm proportion
+top_emphasis,2,1,harm_traffic,-0.17323679517482554,harm proportion
+top_emphasis,2,1,harm_mental_health,0.17924230983133158,harm proportion
+top_emphasis,2,1,harm_work,0.08903800446910363,harm proportion
+top_emphasis,3,0,worry_food,0.6351264461575205,worry points (0–2)
+top_emphasis,3,0,worry_water,0.5943735982030364,worry points (0–2)
+top_emphasis,3,0,worry_crime,-0.4386916176093413,worry points (0–2)
+top_emphasis,3,0,worry_weather,-0.5232713567130081,worry points (0–2)
+top_emphasis,3,0,worry_traffic,-0.5116543790424435,worry points (0–2)
+top_emphasis,3,0,worry_mental_health,0.24411730900423623,worry points (0–2)
+top_emphasis,3,0,harm_food,0.05966839557762133,harm proportion
+top_emphasis,3,0,harm_water,0.055799568869812806,harm proportion
+top_emphasis,3,0,harm_crime,-0.07379344382195581,harm proportion
+top_emphasis,3,0,harm_weather,-0.08849593133936608,harm proportion
+top_emphasis,3,0,harm_traffic,-0.056342831560148965,harm proportion
+top_emphasis,3,0,harm_mental_health,0.07174905415555681,harm proportion
+top_emphasis,3,0,harm_work,0.03141518811848003,harm proportion
+top_emphasis,3,1,worry_food,-0.5966166220296203,worry points (0–2)
+top_emphasis,3,1,worry_water,-0.6439327277351669,worry points (0–2)
+top_emphasis,3,1,worry_crime,0.41417891706194304,worry points (0–2)
+top_emphasis,3,1,worry_weather,0.4793659717892842,worry points (0–2)
+top_emphasis,3,1,worry_traffic,0.4881356822804091,worry points (0–2)
+top_emphasis,3,1,worry_mental_health,-0.14113122136684889,worry points (0–2)
+top_emphasis,3,1,harm_food,-0.0014005383089687117,harm proportion
+top_emphasis,3,1,harm_water,0.05377252921152587,harm proportion
+top_emphasis,3,1,harm_crime,0.016723250290551307,harm proportion
+top_emphasis,3,1,harm_weather,0.0727309319721087,harm proportion
+top_emphasis,3,1,harm_traffic,-0.043256193379089314,harm proportion
+top_emphasis,3,1,harm_mental_health,-0.08195211061694718,harm proportion
+top_emphasis,3,1,harm_work,-0.016617869169180663,harm proportion
+top_emphasis,3,2,worry_food,0.04549719821553964,worry points (0–2)
+top_emphasis,3,2,worry_water,-0.09871408575397028,worry points (0–2)
+top_emphasis,3,2,worry_crime,0.031203799414909552,worry points (0–2)
+top_emphasis,3,2,worry_weather,-0.09103229377196718,worry points (0–2)
+top_emphasis,3,2,worry_traffic,0.045000531860117765,worry points (0–2)
+top_emphasis,3,2,worry_mental_health,0.06804485003537045,worry points (0–2)
+top_emphasis,3,2,harm_food,-0.3498187317493649,harm proportion
+top_emphasis,3,2,harm_water,-0.6248631624428576,harm proportion
+top_emphasis,3,2,harm_crime,0.23117974575948957,harm proportion
+top_emphasis,3,2,harm_weather,0.03986035270936278,harm proportion
+top_emphasis,3,2,harm_traffic,0.5092795873079623,harm proportion
+top_emphasis,3,2,harm_mental_health,0.13707677418453248,harm proportion
+top_emphasis,3,2,harm_work,0.05728543423087523,harm proportion
+top_emphasis,4,0,worry_food,0.32098016053038336,worry points (0–2)
+top_emphasis,4,0,worry_water,0.10846464820902521,worry points (0–2)
+top_emphasis,4,0,worry_crime,-0.04199153836920957,worry points (0–2)
+top_emphasis,4,0,worry_weather,-0.06921576773951969,worry points (0–2)
+top_emphasis,4,0,worry_traffic,-0.25779406251252446,worry points (0–2)
+top_emphasis,4,0,worry_mental_health,-0.060443440118155264,worry points (0–2)
+top_emphasis,4,0,harm_food,0.06207744148597463,harm proportion
+top_emphasis,4,0,harm_water,-0.18065970448193222,harm proportion
+top_emphasis,4,0,harm_crime,0.21742708561513174,harm proportion
+top_emphasis,4,0,harm_weather,-0.014604116602931393,harm proportion
+top_emphasis,4,0,harm_traffic,-0.032020968428307685,harm proportion
+top_emphasis,4,0,harm_mental_health,-0.010988599946945515,harm proportion
+top_emphasis,4,0,harm_work,-0.04123113764098986,harm proportion
+top_emphasis,4,1,worry_food,-0.5226295780833208,worry points (0–2)
+top_emphasis,4,1,worry_water,-0.580978173462401,worry points (0–2)
+top_emphasis,4,1,worry_crime,0.3555195638986833,worry points (0–2)
+top_emphasis,4,1,worry_weather,0.4790860890668315,worry points (0–2)
+top_emphasis,4,1,worry_traffic,0.2728289629045917,worry points (0–2)
+top_emphasis,4,1,worry_mental_health,-0.0038268643243850424,worry points (0–2)
+top_emphasis,4,1,harm_food,0.05070582735124886,harm proportion
+top_emphasis,4,1,harm_water,0.05425733215387289,harm proportion
+top_emphasis,4,1,harm_crime,0.05749197430518781,harm proportion
+top_emphasis,4,1,harm_weather,0.14728408768005694,harm proportion
+top_emphasis,4,1,harm_traffic,-0.4322874856216277,harm proportion
+top_emphasis,4,1,harm_mental_health,0.05612790261769433,harm proportion
+top_emphasis,4,1,harm_work,0.06642036151356687,harm proportion
+top_emphasis,4,2,worry_food,-0.06706242750294787,worry points (0–2)
+top_emphasis,4,2,worry_water,-0.04260338070226348,worry points (0–2)
+top_emphasis,4,2,worry_crime,-0.03334107399992255,worry points (0–2)
+top_emphasis,4,2,worry_weather,-0.09510145152285579,worry points (0–2)
+top_emphasis,4,2,worry_traffic,0.32440673226618816,worry points (0–2)
+top_emphasis,4,2,worry_mental_health,-0.08629839853819853,worry points (0–2)
+top_emphasis,4,2,harm_food,-0.19023466015648952,harm proportion
+top_emphasis,4,2,harm_water,-0.14737692047997888,harm proportion
+top_emphasis,4,2,harm_crime,-0.11519789972376228,harm proportion
+top_emphasis,4,2,harm_weather,-0.16759720412315135,harm proportion
+top_emphasis,4,2,harm_traffic,0.9545697229960297,harm proportion
+top_emphasis,4,2,harm_mental_health,-0.17170189558695764,harm proportion
+top_emphasis,4,2,harm_work,-0.16246114292568983,harm proportion
+top_emphasis,4,3,worry_food,0.2832205608503548,worry points (0–2)
+top_emphasis,4,3,worry_water,0.2500632538728623,worry points (0–2)
+top_emphasis,4,3,worry_crime,-0.153193915410888,worry points (0–2)
+top_emphasis,4,3,worry_weather,-0.10001016596411993,worry points (0–2)
+top_emphasis,4,3,worry_traffic,-0.4305051546589551,worry points (0–2)
+top_emphasis,4,3,worry_mental_health,0.1504254213107458,worry points (0–2)
+top_emphasis,4,3,harm_food,0.11255433987957923,harm proportion
+top_emphasis,4,3,harm_water,0.07343697406677172,harm proportion
+top_emphasis,4,3,harm_crime,0.0717202866703038,harm proportion
+top_emphasis,4,3,harm_weather,0.14288501645165277,harm proportion
+top_emphasis,4,3,harm_traffic,-0.7138253957836073,harm proportion
+top_emphasis,4,3,harm_mental_health,0.18535039356401264,harm proportion
+top_emphasis,4,3,harm_work,0.12787838515128702,harm proportion

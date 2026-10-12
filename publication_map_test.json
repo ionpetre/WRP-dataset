@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "offline": true,
+  "externalNetworkRequests": 0,
+  "browserErrors": 0,
+  "countries": 142,
+  "regionOutlines": 30,
+  "listSizes": [
+    10,
+    20,
+    141
+  ],
+  "originalNearestFiveVerified": true,
+  "mapModes": 2,
+  "mobileAndDarkVerified": true
+}

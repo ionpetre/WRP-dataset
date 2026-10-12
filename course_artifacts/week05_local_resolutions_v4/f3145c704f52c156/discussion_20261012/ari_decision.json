@@ -1,0 +1,20 @@
+{
+  "authority": "explicit user instruction in this chat",
+  "date": "2026-10-12",
+  "decision": "retain existing ARI 0.80 unchanged",
+  "final_global_scope_approved": false,
+  "global_models_frozen": false,
+  "heldout_responses_used": false,
+  "k2_role": "diagnostic dominant contrasts; not satisfactory final rich-profile solution",
+  "lower_decile_threshold": 0.8,
+  "lower_thresholds_adopted": false,
+  "median_threshold": 0.8,
+  "new_models_fitted": false,
+  "required_successful_fits_per_full_test": 50,
+  "required_tests": [
+    "respondents",
+    "countries"
+  ],
+  "small_region_policy_unchanged": true,
+  "source_selection_context": "f3145c704f52c156269125ab4174582e2b95aa4aac9ee71172ce146324938a18"
+}

@@ -1,0 +1,7 @@
+comparison,combined range/block squared distance,separate range/block squared distance
+Opposite worry extremes in one domain,0.16666666666666666,0.16666666666666666
+Neither vs personal-only in one harm domain,0.14285714285714285,0.07142857142857142
+Neither vs both in one harm domain,0.14285714285714285,0.14285714285714285
+Personal-only vs known-person-only,0.0,0.14285714285714285
+Opposite extremes in every worry feature,1.0,1.0
+Neither vs both in every harm domain,1.0,1.0

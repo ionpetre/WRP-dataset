@@ -1,0 +1,37 @@
+candidate,cluster,profile_name,feature,category,development_proportion,development_outside_proportion,development_contrast
+B,0,"Broad harm exposure, especially known-person harm",harm_traffic_known_person,1,0.7898437309905723,0.1730246714255947,0.6168190595649775
+B,0,"Broad harm exposure, especially known-person harm",harm_mental_health_known_person,1,0.6706260226318306,0.1185088543168167,0.5521171683150139
+B,0,"Broad harm exposure, especially known-person harm",harm_crime_known_person,1,0.6214131049434253,0.1015635323085221,0.5198495726349032
+B,1,"Crime, severe-weather and traffic worry with lower harm",worry_crime,2,0.612628891279633,0.2784863629314423,0.3341425283481907
+B,1,"Crime, severe-weather and traffic worry with lower harm",worry_severe_weather,2,0.591635529764202,0.2929549452392443,0.2986805845249576
+B,1,"Crime, severe-weather and traffic worry with lower harm",worry_traffic,2,0.6123795097500726,0.3201174054419118,0.2922621043081608
+B,2,Food and water worry with substantial crime worry,worry_water,2,0.5880954740953359,0.0861319349337617,0.5019635391615742
+B,2,Food and water worry with substantial crime worry,worry_food,2,0.510558252119366,0.1327700642866732,0.3777881878326928
+B,2,Food and water worry with substantial crime worry,worry_crime,2,0.5273077966324651,0.320614716981025,0.20669307965144
+B,3,Lower overall worry and harm,worry_crime,0,0.7608146609755234,0.1169434678642832,0.6438711931112402
+B,3,Lower overall worry and harm,worry_severe_weather,0,0.559728604546988,0.1511772179923667,0.4085513865546212
+B,3,Lower overall worry and harm,worry_water,0,0.8095640212823286,0.4137659134262114,0.3957981078561172
+E,0,Traffic-focused worry,worry_traffic,2,1.0,0.3487971881214175,0.6512028118785824
+E,0,Traffic-focused worry,worry_severe_weather,1,0.5779172631676243,0.321533334131317,0.2563839290363072
+E,0,Traffic-focused worry,worry_crime,1,0.4971581999370786,0.2847375055821671,0.2124206943549115
+E,1,Lower worry intensity,worry_crime,0,0.6009398250555475,0.1837067563184761,0.4172330687370714
+E,1,Lower worry intensity,worry_severe_weather,0,0.531595141336668,0.152100069472195,0.3794950718644729
+E,1,Lower worry intensity,worry_water,0,0.773577126386278,0.4195956429589081,0.3539814834273698
+E,2,Mental-health worry with other non-food/water worries,worry_mental_health,2,0.999459855635024,0.1338520449214267,0.8656078107135973
+E,2,Mental-health worry with other non-food/water worries,worry_traffic,2,0.7648061413375392,0.3442483300120818,0.4205578113254574
+E,2,Mental-health worry with other non-food/water worries,worry_severe_weather,2,0.7265466910486268,0.320553898020313,0.4059927930283138
+E,3,Crime and traffic worry,worry_crime,2,1.0,0.3092301864938472,0.6907698135061529
+E,3,Crime and traffic worry,worry_traffic,2,1.0,0.3426859094289388,0.6573140905710613
+E,3,Crime and traffic worry,worry_severe_weather,2,0.6325139718754202,0.3474814351788295,0.2850325366965907
+E,4,Crime-focused worry,worry_crime,2,1.0,0.3106275585528546,0.6893724414471454
+E,4,Crime-focused worry,worry_traffic,1,0.6676609476300206,0.3320968468277079,0.3355641008023127
+E,4,Crime-focused worry,worry_water,1,0.4184298056575322,0.2437151940958294,0.1747146115617028
+E,5,Severe-weather-focused worry,worry_severe_weather,2,0.9996779845803918,0.3092022561587056,0.6904757284216861
+E,5,Severe-weather-focused worry,worry_crime,1,0.5530486275539658,0.275477845708731,0.2775707818452347
+E,5,Severe-weather-focused worry,worry_mental_health,1,0.4158309643078153,0.2639565740536095,0.1518743902542058
+E,6,Food and water worry,worry_water,2,0.9440831143071764,0.121650837054689,0.8224322772524875
+E,6,Food and water worry,worry_food,2,0.6334096622274541,0.1737005253238489,0.4597091369036051
+E,6,Food and water worry,harm_water_known_person,1,0.2314076571843123,0.0865074195845843,0.144900237599728
+E,7,Broad high worry,worry_mental_health,2,0.9773886173732034,0.155502098716442,0.8218865186567613
+E,7,Broad high worry,worry_water,2,0.8527610298516033,0.1188874362251098,0.7338735936264934
+E,7,Broad high worry,worry_food,2,0.743974845828671,0.1534642733650761,0.5905105724635948

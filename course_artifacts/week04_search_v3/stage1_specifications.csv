@@ -1,0 +1,13 @@
+specification,harm_representation,worry_top,geometry,n_worry,n_harm,n_features
+combined_top2_weighted_z,combined,2,weighted_z,6,7,13
+combined_top2_range_block,combined,2,range_block,6,7,13
+combined_top3_weighted_z,combined,3,weighted_z,6,7,13
+combined_top3_range_block,combined,3,range_block,6,7,13
+combined_top5_weighted_z,combined,5,weighted_z,6,7,13
+combined_top5_range_block,combined,5,range_block,6,7,13
+separate_top2_weighted_z,separate,2,weighted_z,6,14,20
+separate_top2_range_block,separate,2,range_block,6,14,20
+separate_top3_weighted_z,separate,3,weighted_z,6,14,20
+separate_top3_range_block,separate,3,range_block,6,14,20
+separate_top5_weighted_z,separate,5,weighted_z,6,14,20
+separate_top5_range_block,separate,5,range_block,6,14,20

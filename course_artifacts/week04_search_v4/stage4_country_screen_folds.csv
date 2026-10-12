@@ -1,0 +1,241 @@
+candidate,repeat,direction,prediction_strength,assignment_ari,valid,coverage_pct,failure_reason,passed
+combined_top2_range_block__gmm_k2,1,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,1,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,2,A_to_B,0.7367778865005309,0.587661282032394,True,100.0,,False
+combined_top2_range_block__gmm_k2,2,B_to_A,0.5973727448864117,0.618907957063123,True,100.0,,False
+combined_top2_range_block__gmm_k2,3,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,3,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,4,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,4,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,5,A_to_B,1.0,1.0,True,99.99999999999999,,True
+combined_top2_range_block__gmm_k2,5,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,6,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,6,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,7,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,7,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,8,A_to_B,1.0,1.0,True,99.99999999999999,,True
+combined_top2_range_block__gmm_k2,8,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,9,A_to_B,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,9,B_to_A,1.0,1.0,True,100.0,,True
+combined_top2_range_block__gmm_k2,10,A_to_B,0.5836258050073995,0.6218928838131768,True,100.0,,False
+combined_top2_range_block__gmm_k2,10,B_to_A,0.7247282210977002,0.5841526049080507,True,100.0,,False
+combined_top2_range_block__gmm_k3,1,A_to_B,0.49056841168128473,0.45713821719018805,True,100.0,,False
+combined_top2_range_block__gmm_k3,1,B_to_A,0.48962463401248163,0.3838283311842476,True,100.0,,False
+combined_top2_range_block__gmm_k3,2,A_to_B,0.40213569525407056,0.29670408822333266,True,100.0,,False
+combined_top2_range_block__gmm_k3,2,B_to_A,0.5063981191533823,0.4588167646974777,True,100.0,,False
+combined_top2_range_block__gmm_k3,3,A_to_B,0.5222967295721359,0.28817473042831915,True,100.0,,False
+combined_top2_range_block__gmm_k3,3,B_to_A,0.41030626473711385,0.30357008676697605,True,100.0,,False
+combined_top2_range_block__gmm_k3,4,A_to_B,0.5077145431671172,0.4475212100849853,True,100.0,,False
+combined_top2_range_block__gmm_k3,4,B_to_A,0.49228336773583087,0.25692676433586015,True,100.0,,False
+combined_top2_range_block__gmm_k3,5,A_to_B,0.49132023620812426,0.40540994677680897,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k3,5,B_to_A,0.4852130080223923,0.2790895291508377,True,100.0,,False
+combined_top2_range_block__gmm_k3,6,A_to_B,0.5031454054659859,0.46292697547895717,True,100.0,,False
+combined_top2_range_block__gmm_k3,6,B_to_A,0.5009917003777379,0.3860630881362095,True,100.0,,False
+combined_top2_range_block__gmm_k3,7,A_to_B,0.38188613242870945,0.2900886426208269,True,100.0,,False
+combined_top2_range_block__gmm_k3,7,B_to_A,0.4706789818475951,0.28525851711365086,True,100.0,,False
+combined_top2_range_block__gmm_k3,8,A_to_B,0.48850892428833675,0.3913124947816967,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k3,8,B_to_A,0.3725421736720052,0.6603225665203637,True,100.0,,False
+combined_top2_range_block__gmm_k3,9,A_to_B,0.5021796445244703,0.46514471135637087,True,100.0,,False
+combined_top2_range_block__gmm_k3,9,B_to_A,0.9970215546526762,0.9969586937002209,True,100.0,,True
+combined_top2_range_block__gmm_k3,10,A_to_B,0.5002599755313821,0.39565888252697357,True,100.0,,False
+combined_top2_range_block__gmm_k3,10,B_to_A,0.5056570920678966,0.45558887436593837,True,100.0,,False
+combined_top2_range_block__gmm_k4,1,A_to_B,0.3569871038377685,0.4437204986480485,True,100.0,,False
+combined_top2_range_block__gmm_k4,1,B_to_A,0.3955602819477332,0.4473851201519806,True,100.0,,False
+combined_top2_range_block__gmm_k4,2,A_to_B,0.502112073111745,0.9382494262173174,True,100.0,,False
+combined_top2_range_block__gmm_k4,2,B_to_A,0.3317038167908374,0.43117960026847074,True,100.0,,False
+combined_top2_range_block__gmm_k4,3,A_to_B,0.7372356162838244,0.9745420955791607,True,100.0,,False
+combined_top2_range_block__gmm_k4,3,B_to_A,0.3425511061155265,0.5168796848077012,True,100.0,,False
+combined_top2_range_block__gmm_k4,4,A_to_B,0.39477682470493625,0.46802033802667053,True,100.0,,False
+combined_top2_range_block__gmm_k4,4,B_to_A,0.3575349317312565,0.3634258447295138,True,100.0,,False
+combined_top2_range_block__gmm_k4,5,A_to_B,0.5470363962824808,0.9475128819041871,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k4,5,B_to_A,0.3875337201354599,0.48690654364935504,True,100.0,,False
+combined_top2_range_block__gmm_k4,6,A_to_B,0.35438651411190947,0.4861929698761607,True,100.0,,False
+combined_top2_range_block__gmm_k4,6,B_to_A,0.34380188583406235,0.38657499506245735,True,100.0,,False
+combined_top2_range_block__gmm_k4,7,A_to_B,0.3926302104908368,0.4797117335789598,True,100.0,,False
+combined_top2_range_block__gmm_k4,7,B_to_A,0.40854619558618877,0.5079774050109327,True,100.0,,False
+combined_top2_range_block__gmm_k4,8,A_to_B,0.5499592232649808,0.9496772960597093,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k4,8,B_to_A,0.3728203414386504,0.40733927656616414,True,100.0,,False
+combined_top2_range_block__gmm_k4,9,A_to_B,0.6405663994698093,0.9585465467215079,True,100.0,,False
+combined_top2_range_block__gmm_k4,9,B_to_A,0.5341410525394599,0.9529841370150756,True,100.0,,False
+combined_top2_range_block__gmm_k4,10,A_to_B,0.3901310980631212,0.4575515810736726,True,100.0,,False
+combined_top2_range_block__gmm_k4,10,B_to_A,0.29415181744773955,0.34200593401386176,True,100.0,,False
+combined_top2_range_block__gmm_k5,1,A_to_B,0.263731771303215,0.5142346286952862,True,100.0,,False
+combined_top2_range_block__gmm_k5,1,B_to_A,0.32070283548250483,0.7882078765634555,True,100.0,,False
+combined_top2_range_block__gmm_k5,2,A_to_B,0.5006183727786596,0.8998125339816151,True,100.0,,False
+combined_top2_range_block__gmm_k5,2,B_to_A,0.3821230648248198,0.5610065943258348,True,100.0,,False
+combined_top2_range_block__gmm_k5,3,A_to_B,0.24052977283474966,0.4912132952553513,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k5,3,B_to_A,0.36292195841300595,0.4988736267601062,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k5,4,A_to_B,0.7113569234891365,0.7928389751758352,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k5,4,B_to_A,0.2986403998933198,0.9027898159159723,True,100.0,,False
+combined_top2_range_block__gmm_k5,5,A_to_B,0.5255976793648411,0.9063073996142266,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k5,5,B_to_A,0.4413485869755512,0.6400768723307474,True,100.0,,False
+combined_top2_range_block__gmm_k5,6,A_to_B,0.3174446880107664,0.45728790712088596,True,100.0,,False
+combined_top2_range_block__gmm_k5,6,B_to_A,0.341016727156818,0.6646366042984782,True,100.0,,False
+combined_top2_range_block__gmm_k5,7,A_to_B,0.27188946478535764,0.5696512853385822,True,100.0,,False
+combined_top2_range_block__gmm_k5,7,B_to_A,0.31060602661507336,0.5225871445058096,True,100.0,,False
+combined_top2_range_block__gmm_k5,8,A_to_B,0.6391630973133351,0.8156922733846453,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k5,8,B_to_A,0.2321840043465562,0.521991121237682,True,100.0,,False
+combined_top2_range_block__gmm_k5,9,A_to_B,0.34230915531047446,0.5024851582710499,True,100.0,,False
+combined_top2_range_block__gmm_k5,9,B_to_A,0.29247153096752915,0.5313645450429637,True,100.0,,False
+combined_top2_range_block__gmm_k5,10,A_to_B,0.23104994292722536,0.5722452318389966,True,100.0,,False
+combined_top2_range_block__gmm_k5,10,B_to_A,0.28130418818547026,0.46174720045476664,True,100.0,,False
+combined_top2_range_block__gmm_k6,1,A_to_B,0.3102163389744062,0.7549653194065133,True,100.0,,False
+combined_top2_range_block__gmm_k6,1,B_to_A,0.24638369362736426,0.37359554584935956,True,100.0,,False
+combined_top2_range_block__gmm_k6,2,A_to_B,0.22559789515848058,0.5366998093920705,True,100.0,,False
+combined_top2_range_block__gmm_k6,2,B_to_A,0.28032892728981496,0.5720932759140288,True,100.0,,False
+combined_top2_range_block__gmm_k6,3,A_to_B,0.21886328891815268,0.7715059098415576,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,3,B_to_A,0.3016948097791378,0.6057770753019125,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,4,A_to_B,0.5720437635225326,0.8705674995827197,True,100.0,,False
+combined_top2_range_block__gmm_k6,4,B_to_A,0.21064806251381474,0.6113137201176693,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,5,A_to_B,0.2702969803560525,0.5407094830341292,True,99.99999999999999,,False
+combined_top2_range_block__gmm_k6,5,B_to_A,0.6456566512638049,0.7952319172239322,True,100.0,,False
+combined_top2_range_block__gmm_k6,6,A_to_B,0.5087762042014983,0.7702426857568189,True,100.0,,False
+combined_top2_range_block__gmm_k6,6,B_to_A,0.24683413133419604,0.6226122335723808,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,7,A_to_B,0.3326787219591596,0.55507853439644,True,100.0,,False
+combined_top2_range_block__gmm_k6,7,B_to_A,0.2230847719952433,0.23392934313634073,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,8,A_to_B,0.2877181767615023,0.32805844598529565,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,8,B_to_A,0.3187637247479856,0.6547528511122658,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,9,A_to_B,0.26614898587676167,0.5572049506260245,True,100.0,,False
+combined_top2_range_block__gmm_k6,9,B_to_A,0.21381022253166854,0.6250710891283776,True,100.0,,False
+combined_top2_range_block__gmm_k6,10,A_to_B,0.220959668431274,0.37112118111238185,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k6,10,B_to_A,0.5038212060602681,0.8914635017647973,True,100.0,,False
+combined_top2_range_block__gmm_k7,1,A_to_B,0.18558839107496813,0.6045165394841969,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,1,B_to_A,0.27235049083061463,0.4920406080667982,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,2,A_to_B,0.3020492244999714,0.77707228594365,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,2,B_to_A,0.29868323839947847,0.6449925003168381,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,3,A_to_B,0.2886260177791785,0.7911317331219186,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,3,B_to_A,0.5014861006809447,0.599077083058879,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,4,A_to_B,0.21873486596872888,0.4820627373297485,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,4,B_to_A,0.1788158928362289,0.3722602520423572,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,5,A_to_B,0.26622330077055334,0.4136402601213368,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,5,B_to_A,0.2998521886001991,0.6247683490105964,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,6,A_to_B,0.23465946529960915,0.6594151923763899,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,6,B_to_A,0.33713481377599586,0.7401947404641959,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,7,A_to_B,0.2665771129682152,0.5888675710712425,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,7,B_to_A,0.2819651037720002,0.35176425757009144,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,8,A_to_B,0.2400973589169177,0.411270321167714,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,8,B_to_A,0.2372012903207866,0.724985739931342,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,9,A_to_B,0.2575440127954343,0.6306266509371694,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,9,B_to_A,0.20936602543705646,0.6078776020219717,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,10,A_to_B,0.28111901657564453,0.7792896306928947,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k7,10,B_to_A,0.2639159658960538,0.614891671155278,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,1,A_to_B,0.2568405200657554,0.4626267665490634,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,1,B_to_A,0.2136260380995914,0.41251873641105063,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,2,A_to_B,0.317884492957829,0.6500153795147838,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,2,B_to_A,0.2401902121252288,0.5174162669572268,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,3,A_to_B,0.2468815905054718,0.6217174606336154,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,3,B_to_A,0.15799530978904727,0.5272550687304587,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,4,A_to_B,0.17384580237920066,0.432873510370449,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,4,B_to_A,0.30460586841518805,0.46448426144003735,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,5,A_to_B,0.17321095006282988,0.6744344196190983,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,5,B_to_A,0.20310995791945743,0.4281444371765959,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,6,A_to_B,0.3296594923071655,0.5403887185685584,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,6,B_to_A,0.20744385226319598,0.5131377335530154,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,7,A_to_B,0.14224910544799352,0.5541263088197709,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,7,B_to_A,0.154296005874122,0.35246764097986694,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,8,A_to_B,0.30734355482396425,0.7017586679713423,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,8,B_to_A,0.19238495503582123,0.45788005365019613,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,9,A_to_B,0.1428739655156133,0.8001976977607538,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,9,B_to_A,0.18262419750028486,0.6774151641771451,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,10,A_to_B,0.25236507094927796,0.5090406956704712,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+combined_top2_range_block__gmm_k9,10,B_to_A,0.15454777153193264,0.4525167561031585,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k2,1,A_to_B,0.9991337201045342,0.9988036329181326,True,100.0,,True
+separate_top3_range_block__gmm_k2,1,B_to_A,0.9969088169765872,0.9982651324815647,True,100.0,,True
+separate_top3_range_block__gmm_k2,2,A_to_B,0.999856938484036,0.9997906261115455,True,100.0,,True
+separate_top3_range_block__gmm_k2,2,B_to_A,0.9994218985240346,0.999644145774147,True,100.0,,True
+separate_top3_range_block__gmm_k2,3,A_to_B,0.9993783801064994,0.9996366453044342,True,100.0,,True
+separate_top3_range_block__gmm_k2,3,B_to_A,0.9997094219970251,0.9995890471844977,True,100.0,,True
+separate_top3_range_block__gmm_k2,4,A_to_B,0.9995426248465793,0.9993511905597675,True,100.0,,True
+separate_top3_range_block__gmm_k2,4,B_to_A,0.9994146227644848,0.9996550918522698,True,100.0,,True
+separate_top3_range_block__gmm_k2,5,A_to_B,0.9998929278869318,0.999799206193602,True,99.99999999999999,,True
+separate_top3_range_block__gmm_k2,5,B_to_A,0.9992409868084285,0.9995531604478375,True,100.0,,True
+separate_top3_range_block__gmm_k2,6,A_to_B,0.9995309898691535,0.9993225508435056,True,100.0,,True
+separate_top3_range_block__gmm_k2,6,B_to_A,0.999391949455178,0.9996329355135128,True,100.0,,True
+separate_top3_range_block__gmm_k2,7,A_to_B,0.9994985458111547,0.9992741666795115,True,100.0,,True
+separate_top3_range_block__gmm_k2,7,B_to_A,0.9992090396541375,0.9995207528606975,True,100.0,,True
+separate_top3_range_block__gmm_k2,8,A_to_B,0.9996611810344749,0.9995092901325838,True,99.99999999999999,,True
+separate_top3_range_block__gmm_k2,8,B_to_A,0.9995326284002914,0.9997166578513377,True,100.0,,True
+separate_top3_range_block__gmm_k2,9,A_to_B,0.9991473997146355,0.9987690547155195,True,100.0,,True
+separate_top3_range_block__gmm_k2,9,B_to_A,0.999545299551566,0.9997255328238458,True,100.0,,True
+separate_top3_range_block__gmm_k2,10,A_to_B,0.9969021137245199,0.9982330483806213,True,100.0,,True
+separate_top3_range_block__gmm_k2,10,B_to_A,0.9981710584663243,0.9974619876149864,True,100.0,,True
+separate_top3_range_block__gmm_k3,1,A_to_B,0.49801939589272953,0.6458661834617412,True,100.0,,False
+separate_top3_range_block__gmm_k3,1,B_to_A,0.48875405613406303,0.6631693849558445,True,100.0,,False
+separate_top3_range_block__gmm_k3,2,A_to_B,0.5061197334665937,0.7103643650426258,True,100.0,,False
+separate_top3_range_block__gmm_k3,2,B_to_A,0.4667742816763734,0.7154638267369599,True,100.0,,False
+separate_top3_range_block__gmm_k3,3,A_to_B,0.9974495255966814,0.9996895496625631,True,100.0,,True
+separate_top3_range_block__gmm_k3,3,B_to_A,0.8118014367031287,0.9516749120142933,True,100.0,,True
+separate_top3_range_block__gmm_k3,4,A_to_B,0.9700323994828713,0.9956007395728687,True,100.0,,True
+separate_top3_range_block__gmm_k3,4,B_to_A,0.8007527705891592,0.9605654442698169,True,100.0,,True
+separate_top3_range_block__gmm_k3,5,A_to_B,0.5741938958161571,0.8706607695890022,True,99.99999999999999,,False
+separate_top3_range_block__gmm_k3,5,B_to_A,0.5357708786783364,0.7425850270530503,True,100.0,,False
+separate_top3_range_block__gmm_k3,6,A_to_B,0.6062336531184049,0.671642846563342,True,100.0,,False
+separate_top3_range_block__gmm_k3,6,B_to_A,0.6833742333943355,0.6841520228228112,True,100.0,,False
+separate_top3_range_block__gmm_k3,7,A_to_B,0.604733339266897,0.8921699047069307,True,100.0,,False
+separate_top3_range_block__gmm_k3,7,B_to_A,0.5302308681855696,0.8790394107318332,True,100.0,,False
+separate_top3_range_block__gmm_k3,8,A_to_B,0.6142793193155065,0.8030063458001793,True,99.99999999999999,,False
+separate_top3_range_block__gmm_k3,8,B_to_A,0.6738433339328302,0.9403270049439637,True,100.0,,False
+separate_top3_range_block__gmm_k3,9,A_to_B,0.561336625593542,0.6264547208586485,True,100.0,,False
+separate_top3_range_block__gmm_k3,9,B_to_A,0.6224820440069418,0.8450989390927369,True,100.0,,False
+separate_top3_range_block__gmm_k3,10,A_to_B,0.5002602402303958,0.75165550794422,True,100.0,,False
+separate_top3_range_block__gmm_k3,10,B_to_A,0.5327779353120327,0.5434822908102885,True,100.0,,False
+separate_top3_range_block__gmm_k4,1,A_to_B,0.5004886844466048,0.9357389569187354,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k4,1,B_to_A,0.4257563068180248,0.8639296769034025,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k4,2,A_to_B,0.5542183819072828,0.7534195304840913,True,100.0,,False
+separate_top3_range_block__gmm_k4,2,B_to_A,0.5222414499691028,0.766245865357226,True,100.0,,False
+separate_top3_range_block__gmm_k4,3,A_to_B,0.4884481147041925,0.7643853113364949,True,100.0,,False
+separate_top3_range_block__gmm_k4,3,B_to_A,0.803452070785097,0.8140967760056264,True,100.0,,True
+separate_top3_range_block__gmm_k4,4,A_to_B,0.5205126653034433,0.9446611083240811,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k4,4,B_to_A,0.5467813200072196,0.9533287483465063,True,100.0,,False
+separate_top3_range_block__gmm_k4,5,A_to_B,0.38049766869026835,0.8835111320254969,True,99.99999999999999,,False
+separate_top3_range_block__gmm_k4,5,B_to_A,0.3378796722510688,0.8027633085200769,True,100.0,,False
+separate_top3_range_block__gmm_k4,6,A_to_B,0.3931948364198836,0.8665937699344972,True,100.0,,False
+separate_top3_range_block__gmm_k4,6,B_to_A,0.7018503121188702,0.9486220476770804,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k4,7,A_to_B,0.4312465734194516,0.7360630898636726,True,100.0,,False
+separate_top3_range_block__gmm_k4,7,B_to_A,0.44774234140034064,0.699199529862724,True,100.0,,False
+separate_top3_range_block__gmm_k4,8,A_to_B,0.45239751369213277,0.7813184450550701,True,99.99999999999999,,False
+separate_top3_range_block__gmm_k4,8,B_to_A,0.5309998892212252,0.8525341613118049,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k4,9,A_to_B,0.5234694528429459,0.837457573201793,True,100.0,,False
+separate_top3_range_block__gmm_k4,9,B_to_A,0.36524846952319395,0.8080954720839705,True,100.0,,False
+separate_top3_range_block__gmm_k4,10,A_to_B,0.35844197604349015,0.6149520540352542,True,100.0,,False
+separate_top3_range_block__gmm_k4,10,B_to_A,0.4604993750143785,0.601498619112248,True,100.0,,False
+separate_top3_range_block__gmm_k5,1,A_to_B,0.32360538751391665,0.7690638405345097,True,100.0,,False
+separate_top3_range_block__gmm_k5,1,B_to_A,0.2803174742718367,0.6762324308124849,True,100.0,,False
+separate_top3_range_block__gmm_k5,2,A_to_B,0.43925251863551934,0.6910768861709348,True,100.0,,False
+separate_top3_range_block__gmm_k5,2,B_to_A,0.2494256683652953,0.6289310590608295,True,100.0,,False
+separate_top3_range_block__gmm_k5,3,A_to_B,0.3349185825432565,0.4443959529757305,True,100.0,,False
+separate_top3_range_block__gmm_k5,3,B_to_A,0.39534558822244703,0.7127988475022388,True,100.0,,False
+separate_top3_range_block__gmm_k5,4,A_to_B,0.3366431221608973,0.6028789121005256,True,100.0,,False
+separate_top3_range_block__gmm_k5,4,B_to_A,0.376101458399736,0.7224683137913746,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k5,5,A_to_B,0.3908196380818859,0.8163449670248003,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k5,5,B_to_A,0.5111299306931413,0.5607578028252569,True,100.0,,False
+separate_top3_range_block__gmm_k5,6,A_to_B,0.30245329761602674,0.5598726122807923,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k5,6,B_to_A,0.2839942047584974,0.8169125249366345,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k5,7,A_to_B,0.33117231421838045,0.6707515055225687,True,100.0,,False
+separate_top3_range_block__gmm_k5,7,B_to_A,0.2607291917091511,0.6231244249161839,True,100.0,,False
+separate_top3_range_block__gmm_k5,8,A_to_B,0.2735279591031153,0.48497188462425556,True,99.99999999999999,,False
+separate_top3_range_block__gmm_k5,8,B_to_A,0.339789802620381,0.8536974033904902,True,100.0,,False
+separate_top3_range_block__gmm_k5,9,A_to_B,0.3937386727796952,0.7163677090830192,True,100.0,,False
+separate_top3_range_block__gmm_k5,9,B_to_A,0.3577383441534903,0.8108580605759985,True,100.0,,False
+separate_top3_range_block__gmm_k5,10,A_to_B,0.30364892570602386,0.6353019547165426,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k5,10,B_to_A,0.28674875132736594,0.7867468140115684,True,100.0,,False
+separate_top3_range_block__gmm_k7,1,A_to_B,0.2638378749065932,0.6255196648437886,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,1,B_to_A,0.25056371247927606,0.5620336232066507,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,2,A_to_B,0.23606896556005497,0.3449199125682045,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,2,B_to_A,0.3152131543035856,0.7598444455262859,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,3,A_to_B,0.20960059319475946,0.5067307255502986,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,3,B_to_A,0.23934169881249034,0.5368166735317935,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,4,A_to_B,0.49219802287819253,0.8392536647364145,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,4,B_to_A,0.22411369286756042,0.6788369678990723,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,5,A_to_B,0.50644249661707,0.8665358393973712,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,5,B_to_A,0.21954503497677116,0.6614122846156263,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,6,A_to_B,0.2062102292956679,0.5136716473256102,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,6,B_to_A,0.24962506424058553,0.7144243329890897,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,7,A_to_B,0.18560628996191827,0.8254143455321733,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,7,B_to_A,0.3164104123848387,0.8791985633572869,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,8,A_to_B,0.4381059180975576,0.8105695769515091,False,99.99999999999999,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,8,B_to_A,0.3217174017506588,0.7933993512435635,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,9,A_to_B,0.24847040784113286,0.662618238133353,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,9,B_to_A,0.20789130642926706,0.5783241045784765,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,10,A_to_B,0.20159446660601396,0.6317009395551159,False,100.0,"size, coverage, convergence or cluster-count check failed",False
+separate_top3_range_block__gmm_k7,10,B_to_A,0.3606483146258162,0.5690316392146353,False,100.0,"size, coverage, convergence or cluster-count check failed",False

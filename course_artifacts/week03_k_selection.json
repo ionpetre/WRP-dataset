@@ -1,0 +1,13 @@
+{
+  "prediction_strength_threshold":0.75,
+  "prediction_strength_repeats":10,
+  "prediction_strength_evaluations_per_k":20,
+  "selected_k_values":[
+    2,
+    3,
+    4
+  ],
+  "finest_selected_k":4,
+  "selection_rule":"all k with mean country-block Prediction Strength >= threshold",
+  "threshold_status":"chosen during exploratory development and fixed for subsequent comparisons"
+}

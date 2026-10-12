@@ -1,0 +1,6 @@
+country,omitted_count,country_evaluations,diagnostic,region
+ARM,13,50,random_country_subsamples,7
+AZE,10,50,random_country_subsamples,7
+KAZ,12,50,random_country_subsamples,7
+KGZ,7,50,random_country_subsamples,7
+UZB,8,50,random_country_subsamples,7

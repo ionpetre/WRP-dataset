@@ -1,0 +1,3 @@
+candidate,countries,display_dimensions,variance_preserved,pair_distance_rank_spearman,relative_distance_error,exact_nearest_preserved_fraction,status
+B,142,2,0.8138437990173801,0.9132543027349032,0.19582024126789466,0.29577464788732394,visual approximation only; original Hellinger tables remain authoritative
+E,142,2,0.7358495075328014,0.9276932565153555,0.22938827077204862,0.1056338028169014,visual approximation only; original Hellinger tables remain authoritative

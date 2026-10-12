@@ -1,0 +1,21 @@
+{
+  "primary_cutoff": 0.8,
+  "sensitivity_cutoff": 0.75,
+  "required_pass_frequency": 0.8,
+  "primary_selected_candidate": "separate_top3_range_block__gmm_k2",
+  "sensitivity_selected_candidate": "separate_top3_range_block__gmm_k2",
+  "new_screen_candidates": [
+    "combined_top2_weighted_z__kmeans_k4",
+    "combined_top5_range_block__kmeans_k4",
+    "separate_top2_weighted_z__kmeans_k2",
+    "separate_top5_weighted_z__kmeans_k2"
+  ],
+  "sensitivity_qualifiers": [
+    "separate_top3_range_block__gmm_k2",
+    "combined_top3_weighted_z__kmeans_k2",
+    "combined_top5_range_block__kmeans_k3"
+  ],
+  "larger_than_three_qualifiers": [],
+  "heldout_responses_used": false,
+  "primary_model_replaced": false
+}

@@ -1,0 +1,169 @@
+candidate,n_clusters,screen_at_080,qualifies_at_080,screen_at_075,qualifies_at_075,decision_reason
+combined_top2_weighted_z__kmeans_k2,2,True,False,True,False,simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k4,4,False,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_weighted_z__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k2,2,True,False,True,False,insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k3,3,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k4,4,True,False,True,False,robustness not passed
+combined_top2_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k2,2,True,True,True,True,All declared checks passed
+combined_top3_weighted_z__kmeans_k3,3,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_weighted_z__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k2,2,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k3,3,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top3_range_block__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k2,2,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k3,3,True,False,True,False,robustness not passed
+combined_top5_weighted_z__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_weighted_z__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k2,2,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k3,3,True,True,True,True,All declared checks passed
+combined_top5_range_block__kmeans_k4,4,False,False,True,False,robustness not passed
+combined_top5_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top5_range_block__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k2,2,False,False,True,False,robustness not passed
+separate_top2_weighted_z__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k6,6,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k7,7,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_weighted_z__kmeans_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k2,2,True,False,True,False,simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top2_range_block__kmeans_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k2,2,True,False,True,False,robustness not passed
+separate_top3_weighted_z__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k8,8,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k9,9,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_weighted_z__kmeans_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k2,2,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k3,3,True,False,True,False,robustness not passed
+separate_top3_range_block__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k2,2,False,False,True,False,robustness not passed
+separate_top5_weighted_z__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_weighted_z__kmeans_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k2,2,True,False,True,False,simple-rule warning; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k8,8,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top5_range_block__kmeans_k10,10,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k2,2,True,False,True,False,fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k6,6,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k8,8,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k9,9,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__gmm_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k2,2,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k3,3,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k4,4,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k5,5,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k6,6,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k7,7,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k8,8,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k9,9,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__agglomerative_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m20_q0.50,172,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m20_q0.70,132,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m20_q0.85,132,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m20_q0.95,128,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m50_q0.50,91,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m50_q0.70,91,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m50_q0.85,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m50_q0.95,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m100_q0.50,54,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m100_q0.70,79,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m100_q0.85,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+combined_top2_range_block__dbscan_m100_q0.95,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k2,2,True,True,True,True,All declared checks passed
+separate_top3_range_block__gmm_k3,3,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k4,4,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k5,5,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k6,6,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k7,7,False,False,False,False,country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k8,8,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k9,9,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__gmm_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k2,2,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k3,3,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k4,4,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k5,5,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k6,6,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k7,7,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k8,8,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k9,9,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__agglomerative_k10,10,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m20_q0.50,110,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m20_q0.70,3,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m20_q0.85,2,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m20_q0.95,18,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m50_q0.50,2,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m50_q0.70,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m50_q0.85,3,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m50_q0.95,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m100_q0.50,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m100_q0.70,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m100_q0.85,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed
+separate_top3_range_block__dbscan_m100_q0.95,1,False,False,False,False,size/coverage/fit; country screen; simple-rule warning; insufficient burden-adjusted characterization; fresh validation not passed; robustness not passed

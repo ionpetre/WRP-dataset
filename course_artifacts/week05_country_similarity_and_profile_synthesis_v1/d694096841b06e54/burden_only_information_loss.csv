@@ -1,0 +1,5 @@
+split,candidate,burden_lookup_in_sample_accuracy_ceiling,mass_not_reconstructible_from_two_totals,conditional_profile_entropy_bits,status
+heldout_country,B,0.627963358201344,0.37203664179865603,1.134783544366925,descriptive exact-cell upper bound; not cross-validated performance or external-outcome benefit
+heldout_country,E,0.5160772787939011,0.4839227212060989,1.810014730472286,descriptive exact-cell upper bound; not cross-validated performance or external-outcome benefit
+train,B,0.629478530316286,0.370521469683714,1.1206055924272533,descriptive exact-cell upper bound; not cross-validated performance or external-outcome benefit
+train,E,0.5193222537512049,0.4806777462487951,1.8097287850453463,descriptive exact-cell upper bound; not cross-validated performance or external-outcome benefit

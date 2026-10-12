@@ -1,0 +1,48 @@
+{
+  "all_assignment_joins_verified": {
+    "B": {
+      "all_prepared_ids_preserved_in_eligibility_file": true,
+      "reload_assignment_identical": true,
+      "unique_ids": true
+    },
+    "E": {
+      "all_prepared_ids_preserved_in_eligibility_file": true,
+      "reload_assignment_identical": true,
+      "unique_ids": true
+    }
+  },
+  "assigned_countries": 29,
+  "assignments": {
+    "heldout_B_assignments.parquet": "cbc7eee71af94bfbed314c2d64276da510945a7e533200b0750cd31a2c98177b",
+    "heldout_E_assignments.parquet": "291665c48872b7c728b39e3cea7a9e4b7e4c1987bbc9bb5153cd3718b6b7d901",
+    "heldout_eligibility_and_assignments_all_respondents.parquet": "3b93153998a65919229b03b170b13716f72e7f31122c65394e3c82e0dbb614e0"
+  },
+  "complete_respondents": 27972,
+  "excluded_respondents": 2118,
+  "first_heldout_response_read_at_utc": "2026-10-12T09:46:25.441855+00:00",
+  "freeze_context": "123d248adda6115fc1fa6f7a6779fc6c30696a5e6e3c46399d8abf84a72e94c4",
+  "freeze_seal_sha256": "109a6dd7f3abce0949779b5ea09fc8595caeae2b542a948e2c643fbe09a24412",
+  "frozen_at_utc": "2026-10-12T09:44:34.095538+00:00",
+  "heldout_input_sha256": "f57796fafca4e05a2d7b6c49e1ab21f5456957cea32aa093fe23a10eeb16df3e",
+  "interpretation": "descriptive transfer, not ARI threshold testing or independent recovery by refitting",
+  "model_refit": false,
+  "prepared_countries": 29,
+  "prepared_respondents": 30090,
+  "retuning": false,
+  "status": "completed_fixed_model_transfer",
+  "tables": {
+    "heldout_assignment_quality.csv": "9cbf9d8464f87bd1411f6876b3c5f4e3e781020172dcf061f0bac73dc6929c43",
+    "heldout_country_bootstrap_intervals.csv": "976727a9e0811822f806d71d81eaf399e9772fb55a5de0f4fd81797dc3fa897a",
+    "heldout_country_retention.csv": "79301f7662b2955ab130167b14c9e9bda86166344b21ee892a6b2bab8bf53485",
+    "heldout_exclusion_counts.csv": "a579500b318fc926997c347d1b97ce9982abe11d8aea3f541044417ba71746f7",
+    "heldout_frozen_anchor_comparison.csv": "8921011307ca00a685c91ec87501254f9d3445efbc6038cb3ad46ac8334e12ac",
+    "heldout_original_category_profiles.csv": "3c2db9bedb9ef2f456d52ed8c69ff69a5fe42b5be30bf1a77b52b7b930f0557a",
+    "heldout_original_feature_TV.csv": "eb8820513ec06deec13adabf3d53a4198a1c3e9933b5f6a459040208145e1e5d",
+    "heldout_prevalence.csv": "b5da35ec90f8fb4a8bfa3ab73481591436a1621930cdaf413bf6aa681e64d28e",
+    "heldout_profile_semantic_TV.csv": "8dfdc3363031000e126f3a45431acb0983b03a561fa4f4b694f8d31e5c92cce7",
+    "heldout_vs_development_category_differences.csv": "093c2f0f16d413010d9b8f6927aea0b4aa9f3211cec4884056367a26510425e6",
+    "heldout_vs_development_prevalence.csv": "3fdcafb910223406cef4e55606110920049df81e512f93b346f33569fb5321e1",
+    "heldout_vs_development_quality.csv": "a320fdbe108e5a1259e887e706fc5dc0bf93f2865cd9a06490a7f5b4a2863b59"
+  },
+  "zero_eligible_countries": []
+}

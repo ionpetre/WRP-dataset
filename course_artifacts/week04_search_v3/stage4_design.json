@@ -1,0 +1,32 @@
+{
+  "stage3": "5365af29401335c2f405c8f9e106c498c264c62da0151702b366e3f05814a8a4",
+  "specifications": [
+    "combined_top2_range_block",
+    "separate_top3_range_block"
+  ],
+  "sample_per_country": 30,
+  "seed": 2023,
+  "gmm_covariance": "diag",
+  "gmm_n_init": 2,
+  "gmm_max_iter": 200,
+  "gmm_regularization": 0.0001,
+  "dbscan_min_samples": [
+    10,
+    20
+  ],
+  "dbscan_radius_quantiles": [
+    0.6,
+    0.8,
+    0.95
+  ],
+  "implementation": "stage4_v1",
+  "fingerprint": "37610edcbc3445cbb5140e93d21f5f493f286c3b59691fdf9d0447653410e12c",
+  "common_sample_weighting": "equal country counts; uniform respondents within countries",
+  "full_gmm_weighting": "fixed survey/equal-country probability bootstrap approximation",
+  "transfer_k": [
+    2,
+    3,
+    4
+  ],
+  "transfer_repeats": 2
+}

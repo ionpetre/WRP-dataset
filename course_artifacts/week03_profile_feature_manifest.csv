@@ -1,0 +1,14 @@
+feature,role,allowed_values,used_for_profile_discovery
+worry_food,ordered worry,"0, 1, 2",True
+worry_water,ordered worry,"0, 1, 2",True
+worry_crime,ordered worry,"0, 1, 2",True
+worry_severe_weather,ordered worry,"0, 1, 2",True
+worry_traffic,ordered worry,"0, 1, 2",True
+worry_mental_health,ordered worry,"0, 1, 2",True
+harm_food,binary respondent-or-known-person harm,"0, 1",True
+harm_water,binary respondent-or-known-person harm,"0, 1",True
+harm_crime,binary respondent-or-known-person harm,"0, 1",True
+harm_severe_weather,binary respondent-or-known-person harm,"0, 1",True
+harm_traffic,binary respondent-or-known-person harm,"0, 1",True
+harm_mental_health,binary respondent-or-known-person harm,"0, 1",True
+harm_work,binary respondent-or-known-person harm,"0, 1",True

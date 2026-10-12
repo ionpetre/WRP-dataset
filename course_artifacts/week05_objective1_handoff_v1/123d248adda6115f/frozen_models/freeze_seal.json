@@ -1,0 +1,24 @@
+{
+  "context": "123d248adda6115fc1fa6f7a6779fc6c30696a5e6e3c46399d8abf84a72e94c4",
+  "development_replay_verified": true,
+  "files": {
+    "assignment.py": "291af7d66e2bac4ebefc458df59d0f11e731990160cf822f9fe45034aafbeef5",
+    "development_B_assignments.parquet": "308747bf35e0a7d603dc1f2d8ef09b51299fa82ae36e6a345d3ef96b0a2eae67",
+    "development_E_assignments.parquet": "d0f74bfad8fa50f151ce260acde6f44f38e2c1e63710c9dd9f3d770c7e295386",
+    "development_assignment_quality.csv": "241e3efa25da4511ad22208cb73d15c75cfa42094efd7fcbeea84d20a3187da3",
+    "development_country_retention.csv": "71b2bba2e87712754cd1e2635342987c2d32c688d8d7e4bb69e88939e7be1996",
+    "development_defining_anchors.csv": "49787453993a39e569f8c015d7d948944fecf803c9acf07b2171e73b271629e7",
+    "development_eligibility_and_assignments_all_respondents.parquet": "6acf12d3a7028f4cf9efedd82be0482d6d4f0ea7d9aa321ee5388f5844221dce",
+    "development_global_prevalence.csv": "35bd7baf5064c13292303e4fb955197f89ffc1fb0e87441afc36307656328006",
+    "development_original_category_profiles.csv": "79bbf32bce59266192ec8a698e04e19c48b950113fb7da619ac773c52f4a9208",
+    "development_profile_distance_p95.csv": "c2f147dd5fb325135b2ed9ac7e21a286f6180798960f7a72c9baace06d2adb3e",
+    "development_stability.csv": "3a64b513b0635b09a53a1997aabd238df08cec9a25aa468f39cf031d2d98e977",
+    "frozen_country_split.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "models.joblib": "ead9f3d01488f12218df8a822f6d0cb1ad5f5c1726f9ff9aca9c327f2dda364c",
+    "profile_definitions.csv": "56f6d17e4c223c48c460e052f9184f74198fa2cd42fcbfaf0a03111972a4599c",
+    "specification.json": "de83e95da3db5e8c99c2d089cad0e94b45ace71465a5326ef38946b8121ef803"
+  },
+  "frozen_at_utc": "2026-10-12T09:44:34.095538+00:00",
+  "heldout_responses_used": false,
+  "status": "frozen_before_heldout_responses"
+}

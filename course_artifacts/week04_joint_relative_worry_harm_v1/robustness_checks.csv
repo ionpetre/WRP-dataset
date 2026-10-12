@@ -1,0 +1,57 @@
+balance,k,check,detail,ARI,smallest_cluster_pct,expected_cluster_count
+balanced,2,initialization,20231007,0.9933678659873325,29.71634822720068,True
+balanced,2,initialization,20231008,0.9915737736399259,29.778210534000394,True
+balanced,2,initialization,20231009,0.9941435393017961,29.757534959119862,True
+balanced,2,initialization,20231010,0.9975631869364899,29.673179182539975,True
+balanced,2,initialization,20231011,0.9979868810831013,29.69443504014543,True
+balanced,2,mode imputation,mode,0.9926292875706503,29.757288337008582,True
+balanced,2,complete cases,complete,0.9903977374693232,29.970688422363363,True
+balanced,2,domain removal,food,0.8194040792406629,30.48877142485083,True
+balanced,2,domain removal,water,0.9008278549157654,30.539577373964416,True
+balanced,2,domain removal,crime,0.6440972606814505,31.534191294256853,True
+balanced,2,domain removal,severe_weather,0.660362791610113,32.1378041654168,True
+balanced,2,domain removal,traffic,0.5367230873102935,27.00971571759127,True
+balanced,2,domain removal,mental_health,0.6705221466203618,32.435862457011474,True
+balanced,2,domain removal,work,0.8416518622538889,29.679389476076818,True
+worry_emphasized,2,initialization,20231007,0.9999311032505708,43.59721135600744,True
+worry_emphasized,2,initialization,20231008,0.9992767017595229,43.581304603408576,True
+worry_emphasized,2,initialization,20231009,0.9998277625623074,43.59518226222225,True
+worry_emphasized,2,initialization,20231010,0.9994488921077169,43.58763690791842,True
+worry_emphasized,2,initialization,20231011,0.9998622088947824,43.59812352135108,True
+worry_emphasized,2,mode imputation,mode,0.9756233095026542,43.884662893437145,True
+worry_emphasized,2,complete cases,complete,0.9993422785413945,43.304585719970746,True
+worry_emphasized,2,domain removal,food,0.4078391004087961,47.236774529832346,True
+worry_emphasized,2,domain removal,water,0.39329200069863823,42.127045693961776,True
+worry_emphasized,2,domain removal,crime,0.7322871528790347,46.47933611953825,True
+worry_emphasized,2,domain removal,severe_weather,0.638519246946689,46.15596155527745,True
+worry_emphasized,2,domain removal,traffic,0.6378969803463972,43.31582804716197,True
+worry_emphasized,2,domain removal,mental_health,0.7718693599154416,43.2212585775326,True
+worry_emphasized,2,domain removal,work,0.997108389085388,43.63410045136614,True
+harm_emphasized,2,initialization,20231007,1.0,29.66946711881941,True
+harm_emphasized,2,initialization,20231008,0.9987638394561448,29.702735464460623,True
+harm_emphasized,2,initialization,20231009,1.0,29.66946711881941,True
+harm_emphasized,2,initialization,20231010,0.9999293372768173,29.670009406033348,True
+harm_emphasized,2,initialization,20231011,0.9997880210299649,29.67620127545598,True
+harm_emphasized,2,mode imputation,mode,0.9986579145127804,29.70020319996756,True
+harm_emphasized,2,complete cases,complete,0.997193114693132,29.89163377278963,True
+harm_emphasized,2,domain removal,food,0.8084493056259057,30.814476387258765,True
+harm_emphasized,2,domain removal,water,0.8901059803572412,30.72409974548769,True
+harm_emphasized,2,domain removal,crime,0.6414845001959762,31.529725473933517,True
+harm_emphasized,2,domain removal,severe_weather,0.6496119106652805,31.790542480355242,True
+harm_emphasized,2,domain removal,traffic,0.5387433826147897,27.028935263066835,True
+harm_emphasized,2,domain removal,mental_health,0.6667093910779698,32.24218878186344,True
+harm_emphasized,2,domain removal,work,0.8452309715734148,29.71801508225807,True
+harm_emphasized,3,initialization,20231007,0.9991331288397967,15.970494930157434,True
+harm_emphasized,3,initialization,20231008,0.9963738905388613,16.074596840962883,True
+harm_emphasized,3,initialization,20231009,0.9983011844213957,16.06711771349267,True
+harm_emphasized,3,initialization,20231010,0.9991009193022109,15.977347984832516,True
+harm_emphasized,3,initialization,20231011,0.9991529479066921,15.989449840098793,True
+harm_emphasized,3,mode imputation,mode,0.9996064692349832,15.993016359621457,True
+harm_emphasized,3,complete cases,complete,0.9939938278740248,16.065046300821365,True
+harm_emphasized,3,domain removal,food,0.8961852279155539,15.466570471899402,True
+harm_emphasized,3,domain removal,water,0.9342618435643297,15.764860362977217,True
+harm_emphasized,3,domain removal,crime,0.8522540011741201,14.318405115541022,True
+harm_emphasized,3,domain removal,severe_weather,0.8877575998023508,14.11589760893997,True
+harm_emphasized,3,domain removal,traffic,0.3995984471796003,14.7253863645842,True
+harm_emphasized,3,domain removal,mental_health,0.8597278360817097,14.316897019234581,True
+harm_emphasized,3,domain removal,work,0.8934838045880428,14.843061592553777,True

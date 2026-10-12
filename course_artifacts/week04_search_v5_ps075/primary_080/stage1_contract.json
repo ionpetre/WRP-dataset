@@ -1,0 +1,40 @@
+{
+  "revision": "week04_v3_stage1",
+  "stage": "representations and audits; no clustering",
+  "week03_reference": "week03_prepare_the_2023_analysis_data_v16.ipynb",
+  "development_input_sha256": "0021476a9548e3f19aa496e3c24d8c44942d665b12d7d0923b00dc729987ffb0",
+  "manifest_input_sha256": "152fd6a6a547711d0587718d303d59b86ff9ff542bdc6e95904b0176c09a1fb3",
+  "heldout_responses_used": false,
+  "source_respondents": 116820,
+  "eligible_respondents": 116808,
+  "excluded_fully_unobserved": 12,
+  "countries": 113,
+  "specifications": [
+    "combined_top2_weighted_z",
+    "combined_top2_range_block",
+    "combined_top3_weighted_z",
+    "combined_top3_range_block",
+    "combined_top5_weighted_z",
+    "combined_top5_range_block",
+    "separate_top2_weighted_z",
+    "separate_top2_range_block",
+    "separate_top3_weighted_z",
+    "separate_top3_range_block",
+    "separate_top5_weighted_z",
+    "separate_top5_range_block"
+  ],
+  "harm_codes": {
+    "1": "personal only",
+    "2": "known person only",
+    "3": "both",
+    "4": "neither",
+    "98": "don't know",
+    "99": "refused"
+  },
+  "imputation": "unweighted development median; fitted separately from the original-unit tables",
+  "weighting": "equal country among eligible respondents; relative survey weights preserved",
+  "geometry": "weighted z or known-range scaling with equal maximum worry/harm block capacity",
+  "matrix_row_order": "stage1_eligible_development.parquet row order",
+  "matrix_feature_order": "stage1_preprocessing_bundles.joblib feature_order per specification",
+  "next_stage": "K-means screening for every specification at k=2,...,10"
+}

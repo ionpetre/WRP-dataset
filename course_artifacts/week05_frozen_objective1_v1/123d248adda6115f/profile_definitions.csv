@@ -1,0 +1,13 @@
+candidate,cluster,profile_name,development_share,development_respondents,interpretation
+B,0,"Broad harm exposure, especially known-person harm",0.1852786734236894,20793,descriptive development response pattern; not a latent natural population type
+B,1,"Crime, severe-weather and traffic worry with lower harm",0.2601978165794814,28358,descriptive development response pattern; not a latent natural population type
+B,2,Food and water worry with substantial crime worry,0.2168181069658364,23741,descriptive development response pattern; not a latent natural population type
+B,3,Lower overall worry and harm,0.3377054030309927,36596,descriptive development response pattern; not a latent natural population type
+E,0,Traffic-focused worry,0.0727364468739943,7925,descriptive development response pattern; not a latent natural population type
+E,1,Lower worry intensity,0.3611302737138414,39243,descriptive development response pattern; not a latent natural population type
+E,2,Mental-health worry with other non-food/water worries,0.123443282806041,13413,descriptive development response pattern; not a latent natural population type
+E,3,Crime and traffic worry,0.0813575400101661,9065,descriptive development response pattern; not a latent natural population type
+E,4,Crime-focused worry,0.0794954329275086,8716,descriptive development response pattern; not a latent natural population type
+E,5,Severe-weather-focused worry,0.0890237303042112,9990,descriptive development response pattern; not a latent natural population type
+E,6,Food and water worry,0.0891451907151361,9839,descriptive development response pattern; not a latent natural population type
+E,7,Broad high worry,0.1036681026491009,11297,descriptive development response pattern; not a latent natural population type

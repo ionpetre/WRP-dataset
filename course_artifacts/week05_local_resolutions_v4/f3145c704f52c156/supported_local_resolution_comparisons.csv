@@ -1,0 +1,5 @@
+region,candidate,coarse_k,fine_k,ari_unweighted,fine_to_coarse_purity,coarse_to_fine_purity,note
+5,B,3,5,0.33700462050691893,0.8279026220425174,0.5113877751955291,approximate split/merge comparison; not a nested hierarchy
+7,B,2,3,0.4573661538112158,0.9836428670176796,0.6813084157953392,approximate split/merge comparison; not a nested hierarchy
+7,E,2,3,0.7234699052453479,0.9419555717761484,0.8383346156966939,approximate split/merge comparison; not a nested hierarchy
+13,E,2,8,0.18620023464967017,0.8873339095004481,0.4719336277900497,approximate split/merge comparison; not a nested hierarchy

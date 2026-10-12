@@ -1,0 +1,16 @@
+country,omitted_count,country_evaluations,diagnostic,region
+ARG,6,50,random_country_subsamples,5
+BRA,10,50,random_country_subsamples,5
+CHL,11,50,random_country_subsamples,5
+COL,7,50,random_country_subsamples,5
+CRI,9,50,random_country_subsamples,5
+DOM,8,50,random_country_subsamples,5
+ECU,11,50,random_country_subsamples,5
+GTM,7,50,random_country_subsamples,5
+MEX,8,50,random_country_subsamples,5
+NIC,19,50,random_country_subsamples,5
+PER,11,50,random_country_subsamples,5
+PRY,10,50,random_country_subsamples,5
+SLV,10,50,random_country_subsamples,5
+URY,8,50,random_country_subsamples,5
+VEN,15,50,random_country_subsamples,5

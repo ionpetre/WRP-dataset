@@ -1,0 +1,45 @@
+{
+  "week04_status": "exploratory search completed; shortlist only",
+  "shortlist": [
+    {
+      "specification": "combined_top2_range_block",
+      "algorithm": "kmeans",
+      "k": 3,
+      "role": "stable combined-exposure reference"
+    },
+    {
+      "specification": "separate_top3_range_block",
+      "algorithm": "kmeans",
+      "k": 3,
+      "role": "separate-exposure, moderate-top-emphasis candidate"
+    },
+    {
+      "specification": "separate_top3_range_block",
+      "algorithm": "gmm",
+      "k": 2,
+      "role": "algorithmic challenger; full weighted grouped validation pending"
+    }
+  ],
+  "candidate_ids": [
+    "combined_top2_range_block__kmeans_k3",
+    "separate_top3_range_block__kmeans_k3",
+    "separate_top3_range_block__gmm_k2"
+  ],
+  "shortlist_basis": "convergence of country-group reproducibility, sizes, simple reconstruction, algorithm comparisons and substantive interpretability; no aggregate score",
+  "main_caution": "four directional evaluations are preliminary; profiles may summarize gradients rather than discrete types",
+  "algorithm_alternatives": "GMM, average-linkage agglomerative and DBSCAN evidence retained, including weaknesses",
+  "week05_before_heldout": [
+    "increase country-group repetitions for finalists",
+    "systematically remove each risk domain and compare partitions and profiles",
+    "review sampling, initialization, missingness and representation sensitivity",
+    "decide whether any profile specification is strong enough to carry forward",
+    "choose and freeze one development-side specification and assignment rule"
+  ],
+  "week05_after_freeze": [
+    "apply frozen preprocessing and assignment to held-out-country respondents",
+    "check coverage, ambiguity, profile semantics, prevalence and country-specific transfer",
+    "independently recover the fixed structure as validation without retuning the chosen model"
+  ],
+  "heldout_responses_used": false,
+  "final_objective1_labels": false
+}

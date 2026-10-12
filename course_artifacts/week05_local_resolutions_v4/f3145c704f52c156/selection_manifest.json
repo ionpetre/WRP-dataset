@@ -1,0 +1,31 @@
+{
+  "base_context": "7c24b461bbb895b5d9d9bdb7d3c5b25a97cfec66bcb63d9a5cfae5fc7b517c94",
+  "base_output": "course_artifacts/week05_regional_validation_v3/7c24b461bbb895b5",
+  "extension_code_sha256": "570b978e3610df5f03ca0f60d804bcf23f11f8ed5426be1a34bd9455a6402d5a",
+  "heldout_responses_used": false,
+  "selection_context": "f3145c704f52c156269125ab4174582e2b95aa4aac9ee71172ce146324938a18",
+  "selection_design": {
+    "cluster_recovery": "weighted Hungarian-overlap matching to each regional reference; descriptive Jaccard, no new threshold",
+    "coarse_k": [
+      2,
+      3
+    ],
+    "elbow_eligible_k": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "elbow_rule": "smallest eligible nonmatched k within 95% of maximum normalized chord-minus-inertia gap",
+    "global_ari_used_for_selection": false,
+    "max_additional_k_per_region_representation": 3,
+    "primary_stability": "existing median and lower-decile pairwise ARI >=0.80 in both tests",
+    "representation_algorithm_changes": false,
+    "search_status": "exploratory development selection after observing matched-resolution results; not independent confirmation",
+    "structural_global_rules_used_as_local_filters": false,
+    "version": 1
+  }
+}

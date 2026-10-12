@@ -1,0 +1,66 @@
+k,cluster,feature,feature_name,feature_type,distribution_gap_pct,direction,cluster_distribution,development_distribution,harm_difference_pp,cluster_observed_weight_pct,development_observed_weight_pct
+2,0,worry_food,Food worry,worry,17.54719168129842,toward lower worry,0: 62.9% / 1: 30.1% / 2: 7.0%,0: 45.4% / 1: 33.2% / 2: 21.4%,,99.35079654282487,99.44021588250318
+2,0,worry_water,Water worry,worry,18.741886931212726,toward lower worry,0: 73.6% / 1: 20.8% / 2: 5.5%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.45997071615166,99.53710566333856
+2,0,worry_crime,Crime worry,worry,19.701966488965507,toward lower worry,0: 49.8% / 1: 33.3% / 2: 16.9%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.24735119248243,98.5861535844374
+2,0,worry_severe_weather,Weather worry,worry,18.78330863313929,toward lower worry,0: 43.0% / 1: 38.8% / 2: 18.2%,0: 29.0% / 1: 34.0% / 2: 37.0%,,98.84803755793594,99.08682824972254
+2,0,worry_traffic,Traffic worry,worry,18.756148223945946,toward lower worry,0: 37.1% / 1: 42.1% / 2: 20.8%,0: 24.6% / 1: 35.8% / 2: 39.6%,,98.67923629487652,99.05677969432395
+2,0,worry_mental_health,Mental-health worry,worry,18.342008993965564,toward lower worry,0: 66.4% / 1: 25.6% / 2: 8.0%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.28681967893354,98.5253258214421
+2,0,harm_food,Food harm,harm,13.15311576326753,less reported harm,7.7% harm,20.9% harm,-13.15311576326754,99.18496911576976,99.1684723538198
+2,0,harm_water,Water harm,harm,10.755199396228035,less reported harm,3.7% harm,14.4% harm,-10.755199396228015,99.21804114356476,99.17049565474714
+2,0,harm_crime,Crime harm,harm,14.343321276016724,less reported harm,8.8% harm,23.2% harm,-14.343321276016727,99.02378903469246,99.04379177010428
+2,0,harm_severe_weather,Weather harm,harm,14.285608556943592,less reported harm,15.5% harm,29.8% harm,-14.285608556943597,99.18938213037923,99.25074605917459
+2,0,harm_traffic,Traffic harm,harm,14.214296493567272,less reported harm,21.7% harm,35.9% harm,-14.214296493567263,99.32658472365505,99.40883887976945
+2,0,harm_mental_health,Mental-health harm,harm,11.959183472420165,less reported harm,14.9% harm,26.9% harm,-11.959183472420175,99.1157539655296,99.19509330314821
+2,0,harm_work,Work harm,harm,11.816897230924283,less reported harm,11.3% harm,23.1% harm,-11.816897230924283,98.90467586000418,98.93538706059864
+2,1,worry_food,Food worry,worry,26.366178315914713,toward higher worry,0: 19.0% / 1: 37.9% / 2: 43.0%,0: 45.4% / 1: 33.2% / 2: 21.4%,,99.57487924614954,99.44021588250318
+2,1,worry_water,Water worry,worry,28.170080646562123,toward higher worry,0: 26.7% / 1: 32.9% / 2: 40.4%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.65326902889514,99.53710566333856
+2,1,worry_crime,Crime worry,worry,29.41647490619031,toward higher worry,0: 9.0% / 1: 25.0% / 2: 66.0%,0: 33.5% / 1: 30.0% / 2: 36.6%,,99.0963817954288,98.5861535844374
+2,1,worry_severe_weather,Weather worry,worry,28.11699473617537,toward higher worry,0: 8.0% / 1: 26.8% / 2: 65.1%,0: 29.0% / 1: 34.0% / 2: 37.0%,,99.44644125826316,99.08682824972254
+2,1,worry_traffic,Traffic worry,worry,27.97805833620144,toward higher worry,0: 6.0% / 1: 26.5% / 2: 67.5%,0: 24.6% / 1: 35.8% / 2: 39.6%,,99.62535092595009,99.05677969432395
+2,1,worry_mental_health,Mental-health worry,worry,27.455661839104557,toward higher worry,0: 20.6% / 1: 30.9% / 2: 48.5%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.88451030564964,98.5253258214421
+2,1,harm_food,Food harm,harm,19.816533903578424,more reported harm,40.7% harm,20.9% harm,19.816533903578424,99.14362862916857,99.1684723538198
+2,1,harm_water,Water harm,harm,16.216544201362467,more reported harm,30.7% harm,14.4% harm,16.2165442013625,99.0988932981044,99.17049565474714
+2,1,harm_crime,Crime harm,harm,21.58976620529847,more reported harm,44.8% harm,23.2% harm,21.589766205298464,99.07391540602433,99.04379177010428
+2,1,harm_severe_weather,Weather harm,harm,21.48047921589867,more reported harm,51.3% harm,29.8% harm,21.480479215898658,99.34315865233246,99.25074605917459
+2,1,harm_traffic,Traffic harm,harm,21.362055374276252,more reported harm,57.3% harm,35.9% harm,21.362055374276252,99.53271165020263,99.40883887976945
+2,1,harm_mental_health,Mental-health harm,harm,17.97418563187429,more reported harm,44.9% harm,26.9% harm,17.974185631874285,99.31457642739886,99.19509330314821
+2,1,harm_work,Work harm,harm,17.782124576345804,more reported harm,40.9% harm,23.1% harm,17.782124576345794,98.98163738618302,98.93538706059864
+3,0,worry_food,Food worry,worry,19.467378586728117,toward higher worry,0: 25.9% / 1: 41.4% / 2: 32.6%,0: 45.4% / 1: 33.2% / 2: 21.4%,,99.42558659310993,99.44021588250318
+3,0,worry_water,Water worry,worry,18.404927073394965,toward higher worry,0: 36.5% / 1: 34.5% / 2: 29.0%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.55179938777917,99.53710566333856
+3,0,worry_crime,Crime worry,worry,26.38538451317728,toward higher worry,0: 8.2% / 1: 28.9% / 2: 62.9%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.66949919103526,98.5861535844374
+3,0,worry_severe_weather,Weather worry,worry,26.73851090883285,toward higher worry,0: 5.9% / 1: 30.4% / 2: 63.7%,0: 29.0% / 1: 34.0% / 2: 37.0%,,99.25994144869529,99.08682824972254
+3,0,worry_traffic,Traffic worry,worry,26.645226230883573,toward higher worry,0: 4.9% / 1: 28.9% / 2: 66.2%,0: 24.6% / 1: 35.8% / 2: 39.6%,,99.30210496535044,99.05677969432395
+3,0,worry_mental_health,Mental-health worry,worry,22.987890420800234,toward higher worry,0: 25.1% / 1: 34.1% / 2: 40.8%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.36339366024059,98.5253258214421
+3,0,harm_food,Food harm,harm,11.776134475670837,less reported harm,9.1% harm,20.9% harm,-11.776134475670844,98.7732307443106,99.1684723538198
+3,0,harm_water,Water harm,harm,9.819403956736434,less reported harm,4.6% harm,14.4% harm,-9.819403956736416,98.79783908438174,99.17049565474714
+3,0,harm_crime,Crime harm,harm,8.10970965422967,less reported harm,15.1% harm,23.2% harm,-8.109709654229672,98.76087959278433,99.04379177010428
+3,0,harm_severe_weather,Weather harm,harm,3.6526150760330003,less reported harm,26.2% harm,29.8% harm,-3.6526150760330167,99.10763354472607,99.25074605917459
+3,0,harm_traffic,Traffic harm,harm,6.977384529169531,less reported harm,28.9% harm,35.9% harm,-6.977384529169522,99.25758886342743,99.40883887976945
+3,0,harm_mental_health,Mental-health harm,harm,7.6703594475816415,less reported harm,19.2% harm,26.9% harm,-7.67035944758164,99.02096832161196,99.19509330314821
+3,0,harm_work,Work harm,harm,9.795528235650378,less reported harm,13.3% harm,23.1% harm,-9.79552823565038,98.79437285730617,98.93538706059864
+3,1,worry_food,Food worry,worry,25.420032314715673,toward lower worry,0: 70.8% / 1: 24.8% / 2: 4.4%,0: 45.4% / 1: 33.2% / 2: 21.4%,,99.34528902498333,99.44021588250318
+3,1,worry_water,Water worry,worry,25.92552201973431,toward lower worry,0: 80.8% / 1: 15.7% / 2: 3.5%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.47474875519663,99.53710566333856
+3,1,worry_crime,Crime worry,worry,28.718590053541,toward lower worry,0: 61.4% / 1: 30.8% / 2: 7.8%,0: 33.5% / 1: 30.0% / 2: 36.6%,,98.29632924773306,98.5861535844374
+3,1,worry_severe_weather,Weather worry,worry,28.383056010384188,toward lower worry,0: 53.7% / 1: 37.6% / 2: 8.6%,0: 29.0% / 1: 34.0% / 2: 37.0%,,98.82464124214245,99.08682824972254
+3,1,worry_traffic,Traffic worry,worry,28.405542978694463,toward lower worry,0: 46.3% / 1: 42.5% / 2: 11.1%,0: 24.6% / 1: 35.8% / 2: 39.6%,,98.63095651671156,99.05677969432395
+3,1,worry_mental_health,Mental-health worry,worry,27.52870847500385,toward lower worry,0: 75.6% / 1: 20.6% / 2: 3.8%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.44061908079078,98.5253258214421
+3,1,harm_food,Food harm,harm,12.461044329456067,less reported harm,8.4% harm,20.9% harm,-12.461044329456072,99.3128945086727,99.1684723538198
+3,1,harm_water,Water harm,harm,10.292668661296341,less reported harm,4.1% harm,14.4% harm,-10.292668661296325,99.32298736484326,99.17049565474714
+3,1,harm_crime,Crime harm,harm,13.417266834833333,less reported harm,9.8% harm,23.2% harm,-13.417266834833336,99.13417279565667,99.04379177010428
+3,1,harm_severe_weather,Weather harm,harm,14.558613521754252,less reported harm,15.2% harm,29.8% harm,-14.558613521754255,99.27806458960715,99.25074605917459
+3,1,harm_traffic,Traffic harm,harm,12.894613199381478,less reported harm,23.0% harm,35.9% harm,-12.89461319938147,99.40798506531993,99.40883887976945
+3,1,harm_mental_health,Mental-health harm,harm,10.68485854330794,less reported harm,16.2% harm,26.9% harm,-10.684858543307937,99.19954227493892,99.19509330314821
+3,1,harm_work,Work harm,harm,10.558600829853269,less reported harm,12.5% harm,23.1% harm,-10.558600829853257,98.93989517680804,98.93538706059864
+3,2,worry_food,Food worry,worry,24.312598299703662,toward higher worry,0: 21.1% / 1: 38.2% / 2: 40.8%,0: 45.4% / 1: 33.2% / 2: 21.4%,,99.6819217330738,99.44021588250318
+3,2,worry_water,Water worry,worry,27.332219067269325,toward higher worry,0: 27.6% / 1: 33.1% / 2: 39.3%,0: 54.9% / 1: 25.6% / 2: 19.5%,,99.6539942299943,99.53710566333856
+3,2,worry_crime,Crime worry,worry,19.76486960774334,toward higher worry,0: 13.7% / 1: 30.0% / 2: 56.2%,0: 33.5% / 1: 30.0% / 2: 36.6%,,99.10349069196725,98.5861535844374
+3,2,worry_severe_weather,Weather worry,worry,18.34080740499954,toward higher worry,0: 12.5% / 1: 32.2% / 2: 55.3%,0: 29.0% / 1: 34.0% / 2: 37.0%,,99.38642297207234,99.08682824972254
+3,2,worry_traffic,Traffic worry,worry,18.366227705793893,toward higher worry,0: 9.4% / 1: 32.7% / 2: 57.9%,0: 24.6% / 1: 35.8% / 2: 39.6%,,99.60511183093509,99.05677969432395
+3,2,worry_mental_health,Mental-health worry,worry,23.064280323513476,toward higher worry,0: 25.0% / 1: 33.0% / 2: 42.0%,0: 48.1% / 1: 27.7% / 2: 24.2%,,98.99759584305596,98.5253258214421
+3,2,harm_food,Food harm,harm,48.50325119159318,more reported harm,69.4% harm,20.9% harm,48.50325119159317,99.5202874234957,99.1684723538198
+3,2,harm_water,Water harm,harm,40.25017928417925,more reported harm,54.7% harm,14.4% harm,40.250179284179254,99.46498239364637,99.17049565474714
+3,2,harm_crime,Crime harm,harm,44.43834355224348,more reported harm,67.6% harm,23.2% harm,44.43834355224349,99.3252577742891,99.04379177010428
+3,2,harm_severe_weather,Weather harm,harm,39.424770766819876,more reported harm,69.2% harm,29.8% harm,39.424770766819854,99.43509317574919,99.25074605917459
+3,2,harm_traffic,Traffic harm,harm,41.30545034069601,more reported harm,77.2% harm,35.9% harm,41.30545034069602,99.67146134292096,99.40883887976945
+3,2,harm_mental_health,Mental-health harm,harm,37.45622144299359,more reported harm,64.4% harm,26.9% harm,37.45622144299358,99.48504646492724,99.19509330314821
+3,2,harm_work,Work harm,harm,40.84349121482453,more reported harm,63.9% harm,23.1% harm,40.84349121482453,99.1681398229838,98.93538706059864

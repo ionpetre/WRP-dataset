@@ -1,0 +1,21 @@
+{
+  "provisional_configuration": "weighted_scaling",
+  "provisional_k": 3,
+  "profile_names": {
+    "1": "Lower worry / limited harm",
+    "0": "High worry / limited harm",
+    "2": "High worry / widespread harm"
+  },
+  "strongest_competing_configuration": "weighted_scaling",
+  "strongest_competing_k": 4,
+  "decision_basis": [
+    "development-country stability",
+    "agreement under reasonable preprocessing changes",
+    "burden-score reconstruction",
+    "one-feature reconstruction",
+    "systematic risk-domain removal",
+    "cluster size and original-unit interpretability"
+  ],
+  "main_limitation": "The selected profiles are largely worry-experience intensity configurations, not sharply separated domain-specific populations.",
+  "heldout_status": "not opened; reserved for Week 5 external validation"
+}

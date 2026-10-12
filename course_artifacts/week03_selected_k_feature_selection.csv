@@ -1,0 +1,10 @@
+k,cluster,n_informative,break_after_rank,largest_drop_pct_points,informative_features
+2,0,6,6,7.963126349484028,"Crime worry, Weather worry, Water worry, Traffic worry, Mental-health worry, Food worry"
+2,1,6,6,7.963126349484028,"Crime worry, Weather worry, Water worry, Traffic worry, Mental-health worry, Food worry"
+3,0,6,6,9.527841531045816,"Weather worry, Traffic worry, Crime worry, Mental-health worry, Food worry, Water worry"
+3,1,6,6,19.99783891976229,"Crime worry, Weather worry, Traffic worry, Mental-health worry, Water worry, Food worry"
+3,2,7,7,12.286717295473743,"Food harm, Crime harm, Traffic harm, Water harm, Work harm, Weather harm, Mental-health harm"
+4,0,5,5,12.947277634466378,"Traffic harm, Crime harm, Mental-health harm, Weather harm, Work harm"
+4,1,6,6,16.462497165110648,"Mental-health worry, Crime worry, Traffic worry, Weather worry, Water worry, Food worry"
+4,2,6,6,7.915883034120988,"Crime worry, Weather worry, Traffic worry, Food worry, Mental-health worry, Water worry"
+4,3,1,1,40.58093080659934,Water harm
