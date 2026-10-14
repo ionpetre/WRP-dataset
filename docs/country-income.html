@@ -16,7 +16,7 @@ body{box-sizing:border-box;padding:clamp(1rem,3vw,2.25rem);font-family:system-ui
 .research-brand a{color:var(--page-muted);font-size:.8rem;letter-spacing:0;font-weight:400;text-underline-offset:.2em}
 .research-header h1{font-size:clamp(1.55rem,3.4vw,2.1rem);line-height:1.2;letter-spacing:-.025em;margin:1rem 0 .5rem;font-weight:600}
 .research-intro{max-width:70ch;margin:0 0 1.2rem;color:var(--page-muted);line-height:1.5;font-size:.95rem}
-.research-views{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.research-views{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem}
 .research-view{display:flex;flex-direction:column;gap:.35rem;padding:1rem 1.15rem;color:var(--page-ink);text-decoration:none;border:1px solid var(--page-line);border-radius:.6rem;line-height:1.4}
 .research-view:hover{background:var(--page-active)}
 .research-view:focus-visible{outline:2px solid var(--page-ink);outline-offset:3px}
@@ -33,7 +33,8 @@ iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margi
   <h1>How do response patterns relate to country income?</h1>
   <p class="research-intro">Explore country income groups and their response differences. Income provides context; it is not used to calculate country similarity.</p>
   <nav class="research-views" aria-label="Explore the research">
-    <a class="research-view " href="./index.html" ><span class="view-name">Compare countries</span><span class="view-description">Find countries with similar worry and reported harm.</span></a>
+    <a class="research-view " href="./index.html" ><span class="view-name">Explore response profiles</span><span class="view-description">See the clusters, their meaning and how they overlap.</span></a>
+    <a class="research-view " href="./countries.html" ><span class="view-name">Compare countries</span><span class="view-description">Find countries with similar worry and reported harm.</span></a>
     <a class="research-view is-current" href="./country-income.html" aria-current="page"><span class="view-name">Explore income patterns</span><span class="view-description">Compare responses within and between income groups.</span></a>
   </nav>
 </header>

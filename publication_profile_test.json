@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "profiles": 12,
+  "overlapCells": 32,
+  "originalResponseValuesVerified": true,
+  "viewports": [
+    360,
+    736,
+    1280
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "externalRequests": 0,
+  "modelRefits": false
+}

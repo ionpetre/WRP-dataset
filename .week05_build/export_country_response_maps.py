@@ -12,7 +12,7 @@ def export_response_maps(root, output, inline_dir=None):
     response=json.loads((output/'response_map_payload.json').read_text())
     d3=(docs/'vendor/d3.min.js').read_text()
     assert 'd3js.org v7.9.0' in d3[:200] and '</script' not in d3.lower()
-    names=[('index.html','country-similarity-map-template.html','wrp-sim-data','__WRP_SIMILARITY_DATA__','wrp-mixture-similarity','country-similarity-fragment.html'),
+    names=[('countries.html','country-similarity-map-template.html','wrp-sim-data','__WRP_SIMILARITY_DATA__','wrp-mixture-similarity','country-similarity-fragment.html'),
            ('country-income.html','country-income-map-template.html','wrp-inc-data','__WRP_INCOME_DATA__','wrp-country-income','country-income-fragment.html')]
     for filename,template,identity,placeholder,root_id,source_name in names:
         path=docs/filename;document=path.read_text()
@@ -26,7 +26,7 @@ def export_response_maps(root, output, inline_dir=None):
         (docs/source_name).write_text(fragment)
         if inline_dir is not None:
             Path(inline_dir).mkdir(parents=True,exist_ok=True)
-            inline_name='country-similarity-region-map.html' if filename=='index.html' else 'country-income-similarity.html'
+            inline_name='country-similarity-region-map.html' if filename=='countries.html' else 'country-income-similarity.html'
             (Path(inline_dir)/inline_name).write_text(fragment)
         offline,count=re.subn(r'<script src="https://cdn\.jsdelivr\.net/npm/d3@7\.9\.0/dist/d3\.min\.js"></script>',lambda _:'<script>'+d3+'</script>',fragment)
         assert count==1
@@ -39,11 +39,12 @@ def export_response_maps(root, output, inline_dir=None):
         assert not re.search(r'<script[^>]+src=',updated)
         rendered=document[:match.start(1)]+html.escape(updated,quote=True)+document[match.end(1):]
         header=(root/'.week05_build/research-page-header.html').read_text()
-        current=filename=='index.html'
+        current=filename=='countries.html'
         title='How do worry and harm differ across countries?' if current else 'How do response patterns relate to country income?'
         description=('Compare 142 countries using worry and personal or known-person harm. Explore overall patterns or individual components.' if current else
                      'Explore country income groups and their response differences. Income provides context; it is not used to calculate country similarity.')
         replacements={'__PAGE_TITLE__':title,'__PAGE_DESCRIPTION__':description,
+          '__PROFILE_CLASS__':'', '__PROFILE_CURRENT__':'',
           '__COUNTRY_CLASS__':'is-current' if current else '', '__INCOME_CLASS__':'' if current else 'is-current',
           '__COUNTRY_CURRENT__':'aria-current="page"' if current else '', '__INCOME_CURRENT__':'' if current else 'aria-current="page"'}
         for key,value in replacements.items():header=header.replace(key,value)
@@ -58,6 +59,8 @@ def export_response_maps(root, output, inline_dir=None):
         else:rendered=rendered.replace('</head>','<style id="wrp-research-page-style">'+css+'</style>\n</head>',1)
         rendered=re.sub(r'<title>[^<]*</title>',lambda _:'<title>'+title+' · World Risk Poll</title>',rendered,count=1)
         path.write_text(rendered)
+    from export_response_profiles import export_profiles
+    export_profiles(root)
     return docs
 
 if __name__=='__main__':

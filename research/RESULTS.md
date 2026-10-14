@@ -76,7 +76,8 @@ Authoritative folders:
 
 - `course_artifacts/week05_country_similarity_and_profile_synthesis_v1/d694096841b06e54/`
 - `course_artifacts/week05_continuous_country_similarity_maps_v1/`
-- [Offline interactive map](../docs/index.html)
+- [Offline response-profile explorer](../docs/index.html)
+- [Offline interactive country map](../docs/countries.html)
 
 ![Country similarity with original regional outlines](../course_artifacts/week05_continuous_country_similarity_maps_v1/B_continuous_similarity_with_region_outlines.png)
 
@@ -100,7 +101,7 @@ Direct-response income-gap rank correlations are 0.3185 (B) and 0.2618 (E), with
 
 The interface offers overall and three component maps, median-relative distances, original-unit component gaps and 10/20/all ranked peers. The shared B/E all-country median is 0.155098: USA–Canada displays 0.409 under B and 0.482 under E; USA–Iran is 0.540 under B and USA–Cambodia 1.073. One means the typical reference distance, not a percentage similarity. Seven-step colours run from zero to '2 or more', but numbers remain uncapped. Each component uses its own fixed median, unchanged across selected countries or display scopes. No scale selector or percentile readout is needed. Original distances, percentiles and diameter versions remain saved. Approximately two thirds of USA distances are below the corresponding model's pair-distance median; scaling does not erase this genuine feature of the chosen summaries. No new joint-distribution analysis or rank uncertainty was computed. Equal marginals can conceal different within-person combinations; selection and survey/reporting limitations remain.
 
-Authoritative extension: `course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da/`, documented in Week 5 section 32. Both [country similarity](../docs/index.html) and [income comparison](../docs/country-income.html) work offline. Previous results and figures remain unchanged.
+Authoritative extension: `course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da/`, documented in Week 5 section 32. Both [country similarity](../docs/countries.html) and [income comparison](../docs/country-income.html) work offline. The [response-profile explorer](../docs/index.html) presents the frozen four- and eight-profile definitions, original-category percentages, contrasts, overlap and validation evidence without refitting. Previous results and figures remain unchanged.
 
 ## What is frozen, and what comes next
 

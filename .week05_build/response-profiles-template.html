@@ -1,0 +1,97 @@
+<main id="wrp-profiles">
+<style>
+#wrp-profiles{--pf-track:light-dark(#e9eef3,#323b43);--pf-low:light-dark(#cbdce8,#466177);--pf-mid:light-dark(#699bbb,#83b9d4);--pf-high:light-dark(#205d80,#d0e6f0);max-width:1120px;margin:auto;line-height:1.5;font-size:.95rem}
+#wrp-profiles *{box-sizing:border-box}
+#wrp-profiles h2{font-size:1.25rem;line-height:1.35;margin:1.8rem 0 .5rem;font-weight:600}
+#wrp-profiles h3{font-size:1.05rem;line-height:1.4;margin:.4rem 0 .6rem;font-weight:600}
+#wrp-profiles p{margin:.4rem 0 .9rem}
+#wrp-profiles .pf-muted{color:var(--page-muted)}
+#wrp-profiles .pf-controls{display:flex;gap:.65rem;flex-wrap:wrap;margin-bottom:.6rem}
+#wrp-profiles button{font:inherit;color:var(--page-ink);background:transparent;border:1px solid var(--page-line);border-radius:.5rem;padding:.7rem 1rem;cursor:pointer;text-align:left}
+#wrp-profiles button[aria-pressed=true]{background:var(--page-active);border-color:var(--page-ink)}
+#wrp-profiles button:focus-visible{outline:2px solid var(--page-ink);outline-offset:3px}
+#wrp-profiles .pf-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;margin:1rem 0}
+#wrp-profiles .pf-card{display:flex;flex-direction:column;gap:.4rem;height:100%}
+#wrp-profiles .pf-card small{font-size:.8rem;color:var(--page-muted)}
+#wrp-profiles .pf-number{font-variant-numeric:tabular-nums}
+#wrp-profiles .pf-share{font-size:1.5rem;font-weight:600}
+#wrp-profiles .pf-selected{border-top:1px solid var(--page-line);padding-top:.5rem;margin-top:1.6rem}
+#wrp-profiles .pf-anchors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin:1rem 0 1.5rem}
+#wrp-profiles .pf-anchor{border-left:3px solid var(--page-line);padding-left:.8rem}
+#wrp-profiles .pf-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}
+#wrp-profiles .pf-domain{margin:1.1rem 0}
+#wrp-profiles .pf-stack{display:flex;height:18px;width:100%;background:var(--pf-track);overflow:hidden;margin:.2rem 0}
+#wrp-profiles .pf-stack span{display:block;height:100%}
+#wrp-profiles .pf-stack .pf-not{background:var(--pf-low)}
+#wrp-profiles .pf-stack .pf-some{background:var(--pf-mid)}
+#wrp-profiles .pf-stack .pf-very{background:var(--pf-high)}
+#wrp-profiles .pf-outside .pf-stack{height:8px;opacity:.7}
+#wrp-profiles .pf-values{font-size:.8rem;color:var(--page-muted);font-variant-numeric:tabular-nums}
+#wrp-profiles .pf-legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.85rem}
+#wrp-profiles .pf-swatch{display:inline-block;width:.85rem;height:.85rem;margin-right:.35rem;vertical-align:middle}
+#wrp-profiles .pf-harm{display:grid;grid-template-columns:1fr 4.2rem;gap:.5rem;align-items:center;margin:.2rem 0}
+#wrp-profiles .pf-harm-track{height:12px;background:var(--pf-track);position:relative}
+#wrp-profiles .pf-harm-fill{height:100%;display:block;background:var(--pf-high)}
+#wrp-profiles .pf-harm-known .pf-harm-fill{background:var(--pf-mid)}
+#wrp-profiles .pf-marker{position:absolute;top:-3px;height:18px;border-left:2px solid var(--page-ink)}
+#wrp-profiles .pf-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.1rem}
+#wrp-profiles .pf-overview>div:first-child{grid-column:1/-1}
+#wrp-profiles .pf-scroll{overflow-x:auto}
+#wrp-profiles table{border-collapse:collapse;width:100%;font-size:.8rem;table-layout:fixed}
+#wrp-profiles th,#wrp-profiles td{padding:.45rem .2rem;text-align:center;font-weight:400;border-bottom:1px solid var(--page-line);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+#wrp-profiles thead th{vertical-align:bottom;color:var(--page-muted)}
+#wrp-profiles td{background:color-mix(in srgb,var(--pf-high) var(--pf-intensity,0%),transparent);color:var(--page-ink)}
+#wrp-profiles .pf-row-label{width:2.8rem;background:transparent}
+#wrp-profiles .pf-row-label button{border:0;padding:.2rem .3rem;border-radius:.2rem;width:100%;text-align:center}
+#wrp-profiles .pf-overlap table{min-width:560px}
+#wrp-profiles .pf-overlap th:first-child{width:5rem}
+#wrp-profiles .pf-key{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.3rem 1.4rem;font-size:.85rem;margin:.8rem 0}
+#wrp-profiles details{margin-top:1.8rem;border-top:1px solid var(--page-line);padding-top:1rem}
+#wrp-profiles summary{cursor:pointer;font-weight:600;padding:.4rem 0}
+#wrp-profiles .pf-evidence table{min-width:320px;table-layout:auto}
+#wrp-profiles a{color:inherit;text-underline-offset:.2em}
+@media(max-width:850px){#wrp-profiles .pf-cards{grid-template-columns:repeat(2,minmax(0,1fr))}#wrp-profiles .pf-overview{grid-template-columns:1fr}#wrp-profiles .pf-overview table{max-width:660px}}
+@media(max-width:560px){#wrp-profiles .pf-pair,#wrp-profiles .pf-anchors,#wrp-profiles .pf-key{grid-template-columns:1fr}#wrp-profiles .pf-cards{gap:.5rem}#wrp-profiles .pf-card{padding:.7rem}#wrp-profiles .pf-share{font-size:1.2rem}}
+</style>
+<div class="pf-controls" aria-label="Profile solution"><button type="button" data-model="B" aria-pressed="true">Four broad profiles</button><button type="button" data-model="E" aria-pressed="false">Eight more detailed profiles</button></div>
+<p id="pf-spec" class="pf-muted"></p>
+<p class="pf-muted">Shares and response percentages give each development country equal total influence, preserving relative survey weights within countries. They describe complete-case respondents, not the world population.</p>
+<div id="pf-cards" class="pf-cards" aria-label="Select a profile"></div>
+<section id="pf-detail" class="pf-selected" aria-live="polite"></section>
+<section aria-labelledby="pf-overview-title"><h2 id="pf-overview-title">Compare all profiles</h2><p class="pf-muted">Percent very worried, or percent reporting harm. Select a row number to inspect its full response distributions.</p><div id="pf-overview" class="pf-overview"></div><div id="pf-profile-key" class="pf-key"></div></section>
+<section class="pf-overlap" aria-labelledby="pf-overlap-title"><h2 id="pf-overlap-title">How do the two solutions overlap?</h2><p class="pf-muted">For each four-profile group, the row shows the percentage assigned to each eight-profile group. Rows sum to 100%. These are different weighted descriptions, not a nested hierarchy.</p><div id="pf-overlap" class="pf-scroll"></div><div id="pf-overlap-key" class="pf-key"></div></section>
+<details class="pf-evidence"><summary>How these profiles were built and checked</summary><div id="pf-evidence"></div><p>Held-out respondents were assigned to the frozen development centres. No held-out model was fitted. Similar aggregate descriptions support transfer, but do not establish identical country-specific meanings or universal social types.</p><p>Only complete responses to all six worry and seven harm-domain questions were eligible. Missing responses were not imputed. The development set contains 109,488 eligible respondents in 113 countries; the held-out set contains 27,972 in 29 countries. Excluded respondents may differ systematically.</p><p>Profile names are descriptive summaries. A profile can be strongly associated with one survey response without being reducible to a single rule. Stability of the whole partition does not guarantee that every individual profile is equally stable.</p><p><a href="../research/METHODS.md">Methods and limitations</a> · <a href="../research/RESULTS.md">Full results</a> · <a href="../course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/development_original_category_profiles.csv">Original-unit profile table</a></p></details>
+<script id="wrp-profile-data" type="application/json">__WRP_PROFILE_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('wrp-profiles'),data=JSON.parse(root.querySelector('#wrp-profile-data').textContent);
+const names=['Food','Water','Crime','Severe weather','Traffic','Mental health','Work'];
+const pct=x=>(100*x).toFixed(1)+'%',number=x=>(100*x).toFixed(0),get=id=>root.querySelector('#'+id);
+const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let model='B',selected=0;
+const state=window.openai?.widgetState?.modelContent;
+if(state?.view==='response-profiles'&&data.models[state.model]){model=state.model;selected=Number.isInteger(state.profile)&&state.profile>=0&&state.profile<data.models[model].k?state.profile:0;}
+function save(){window.openai?.setWidgetState?.({modelContent:{view:'response-profiles',model,profile:selected,profileName:data.models[model].profiles[selected].name},privateContent:null})?.catch(()=>{});}
+function category(feature,c){const domain=feature.replace(/^worry_|^harm_/,'').replace(/_personal$|_known_person$/,'');const label=names[data.domains.indexOf(domain)];if(feature.startsWith('worry_'))return ['Not worried','Somewhat worried','Very worried'][c]+' about '+label.toLowerCase();return label+' harm to '+(feature.endsWith('_known_person')?'someone personally known':'the respondent');}
+function stack(values){return '<div class="pf-stack" role="img" aria-label="'+values.map((v,i)=>['Not worried','Somewhat worried','Very worried'][i]+': '+pct(v)).join('; ')+'">'+values.map((v,i)=>'<span class="'+['pf-not','pf-some','pf-very'][i]+'" style="width:'+100*v+'%"></span>').join('')+'</div>';}
+function harmbar(value,outside,kind){return '<div class="pf-harm '+(kind?'pf-harm-known':'')+'"><div class="pf-harm-track" role="img" aria-label="'+(kind?'Known-person':'Personal')+' harm: '+pct(value)+' inside; '+pct(outside)+' outside"><span class="pf-harm-fill" style="width:'+value*100+'%"></span><span class="pf-marker" style="left:'+Math.min(99.5,outside*100)+'%"></span></div><span class="pf-number">'+pct(value)+'</span></div>';}
+function grid(title,values){return '<div><h3>'+title+'</h3><table aria-label="'+title+' percentages"><thead><tr><th class="pf-row-label">Profile</th>'+values[0].map((_,i)=>'<th>'+names[i]+'</th>').join('')+'</tr></thead><tbody>'+values.map((row,c)=>'<tr><th class="pf-row-label"><button type="button" data-profile="'+c+'" aria-pressed="'+(selected===c)+'" aria-label="Inspect '+esc(data.models[model].profiles[c].name)+'">'+(c+1)+'</button></th>'+row.map(v=>'<td style="--pf-intensity:'+v*40+'%">'+number(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';}
+function render(){
+const solution=data.models[model],p=solution.profiles[selected];
+root.querySelectorAll('[data-model]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.model===model)));
+get('pf-spec').textContent=model==='B'?'Four-profile solution: worry and total harm receive equal weight. Worry coding: 0 / 1 / 2.':'Eight-profile solution: worry receives three times the weight of total harm. Worry coding: 0 / 1 / 3.';
+get('pf-cards').innerHTML=solution.profiles.map(q=>'<button type="button" class="pf-card" data-profile="'+q.id+'" aria-pressed="'+(q.id===selected)+'"><small>Profile '+(q.id+1)+'</small><span>'+esc(q.name)+'</span><span class="pf-share pf-number">'+pct(q.share)+'</span></button>').join('');
+get('pf-detail').innerHTML='<h2>Profile '+(p.id+1)+' · '+esc(p.name)+'</h2><p class="pf-muted">Development share: '+pct(p.share)+' · '+p.count.toLocaleString('en-US')+' respondents. Held-out share: '+pct(p.heldoutShare)+' under the same frozen definition.</p><h3>What distinguishes this profile?</h3><div class="pf-anchors">'+p.anchors.map(a=>'<div class="pf-anchor">'+esc(category(a.feature,a.category))+'<br><strong class="pf-number">'+pct(a.inside)+'</strong> inside · '+pct(a.outside)+' outside<br><span class="pf-muted">'+((a.inside-a.outside)*100).toFixed(1)+' percentage points higher</span></div>').join('')+'</div><div class="pf-pair"><section><h3>Worry responses</h3><div class="pf-legend">'+['Not worried','Somewhat worried','Very worried'].map((label,i)=>'<span><i class="pf-swatch" style="background:var(--pf-'+['low','mid','high'][i]+')"></i>'+label+'</span>').join('')+'</div><p class="pf-muted">Main bar: this profile. Thin bar: everyone outside it. All bars span 0–100%.</p>'+p.worry.map((v,i)=>'<div class="pf-domain"><span>'+names[i]+'</span>'+stack(v)+'<div class="pf-values">'+v.map(pct).join(' / ')+'</div><div class="pf-outside">'+stack(p.worryOutside[i])+'</div><div class="pf-values">Outside: '+p.worryOutside[i].map(pct).join(' / ')+'</div></div>').join('')+'</section><section><h3>Reported harm</h3><div class="pf-legend"><span><i class="pf-swatch" style="background:var(--pf-high)"></i>Respondent</span><span><i class="pf-swatch" style="background:var(--pf-mid)"></i>Someone personally known</span></div><p class="pf-muted">Bars span 0–100%. The vertical mark is the prevalence outside this profile. The two harm indicators can overlap.</p>'+names.map((name,i)=>'<div class="pf-domain"><span>'+name+'</span>'+harmbar(p.harm[0][i],p.harmOutside[0][i],0)+harmbar(p.harm[1][i],p.harmOutside[1][i],1)+'<div class="pf-values">Outside: '+pct(p.harmOutside[0][i])+' respondent; '+pct(p.harmOutside[1][i])+' known person</div></div>').join('')+'</section></div>';
+get('pf-overview').innerHTML=grid('Very worried (%)',solution.profiles.map(q=>q.worry.map(v=>v[2])))+grid('Respondent harmed (%)',solution.profiles.map(q=>q.harm[0]))+grid('Someone known harmed (%)',solution.profiles.map(q=>q.harm[1]));
+get('pf-profile-key').innerHTML=solution.profiles.map(q=>'<span>'+(q.id+1)+' · '+esc(q.name)+'</span>').join('');
+const rows=data.models.B.profiles;
+get('pf-overlap').innerHTML='<table aria-label="Percentage of each four-profile group assigned to each eight-profile group"><thead><tr><th>Four → Eight</th>'+data.models.E.profiles.map(q=>'<th>Eight '+(q.id+1)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(q=>'<tr><th>Four '+(q.id+1)+'</th>'+data.models.E.profiles.map(e=>{const joint=data.links.find(l=>l[0]===q.id&&l[1]===e.id)[2],v=joint/q.share;return '<td data-four="'+q.id+'" data-eight="'+e.id+'" data-proportion="'+v+'" style="--pf-intensity:'+v*40+'%">'+pct(v)+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';
+get('pf-overlap-key').innerHTML=['B','E'].map(m=>data.models[m].profiles.map(q=>'<span>'+(m==='B'?'Four ':'Eight ')+(q.id+1)+' · '+esc(q.name)+'</span>').join('')).join('');
+get('pf-evidence').innerHTML='<p>Both solutions use equal-country-weighted K-means on development respondents only. Personal and known-person harm share the harm weight equally. Worry is centred within each respondent before clustering; the plots above return to the original response categories. No PCA is used. Display numbers start at 1; research cache identifiers start at 0.</p><h3>Development stability</h3><p>Across 50 repetitions in each test, all 1,225 pairs of partitions were compared using adjusted Rand index (ARI). Both the median and lower decile had to be at least 0.80 in both tests.</p><div class="pf-scroll"><table><thead><tr><th>Solution</th><th>Resampling test</th><th>Median ARI</th><th>Lower-decile ARI</th></tr></thead><tbody>'+['B','E'].map(m=>data.models[m].stability.map(s=>'<tr><th>'+(m==='B'?'Four profiles':'Eight profiles')+'</th><td>'+(s.test==='countries'?'Countries':'Respondents')+'</td><td>'+s.median.toFixed(3)+'</td><td>'+s.p10.toFixed(3)+'</td></tr>').join('')).join('')+'</tbody></table></div><p>The four-profile solution has stronger profile recovery. The eight-profile solution meets the whole-partition ARI rule, but its lower-decile cluster Jaccard is only '+data.models.E.stability.find(s=>s.test==='countries').jaccardP10.toFixed(3)+' under country resampling: some individual profiles are less consistently recovered.</p><h3>Held-out description of this profile</h3><p>For the selected profile, the mean per-feature total variation between development and held-out response distributions is '+(p.meanSemanticGap*100).toFixed(2)+' on a 0–100 scale. This is an aggregate descriptive mismatch, not a pass/fail score or a measure of every country separately.</p>';
+}
+root.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;const parent=button.closest('[id]')?.id;if(button.dataset.model){model=button.dataset.model;selected=0;}else if(button.dataset.profile!==undefined){selected=Number(button.dataset.profile);}else return;render();if(button.dataset.profile!==undefined){get(parent)?.querySelector('[data-profile="'+selected+'"]')?.focus({preventScroll:true});}save();});
+window.addEventListener('openai:set_globals',event=>{const s=event.detail?.globals?.widgetState?.modelContent;if(s?.view==='response-profiles'&&data.models[s.model]){model=s.model;selected=Number.isInteger(s.profile)&&s.profile>=0&&s.profile<data.models[model].k?s.profile:0;render();}});
+render();
+})();
+</script>
+</main>

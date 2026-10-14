@@ -2,7 +2,7 @@
 
 ## What works without survey data
 
-Read the Markdown guides, inspect aggregate CSV tables and figures, and open `docs/index.html` in a browser. The standalone map includes its country data, boundary geometry and D3 dependency; it makes no survey-data request and does not need ChatGPT. Its source fragment is preserved separately.
+Read the Markdown guides, inspect aggregate CSV tables and figures, and open `docs/index.html` in a browser to explore the frozen respondent profiles. Country comparisons are in `docs/countries.html`; income patterns are in `docs/country-income.html`. The standalone maps include their country data, boundary geometry and D3 dependency; all three pages work offline and do not need ChatGPT. Source fragments are preserved separately. The profile explorer uses only existing aggregate profile, stability, transfer and overlap tables; its exporter checks that overlap marginals match the frozen profile shares.
 
 The publication does not rerun any scientific fitting. `publication_manifest.json` links published files to original source hashes. Some path strings are sanitized and notebook outputs are cleared, so publication hashes can differ from original artifact hashes. Historical manifests describe the original local execution; missing protected inputs are not evidence of corruption in this deliberately restricted public package.
 

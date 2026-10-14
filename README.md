@@ -6,7 +6,8 @@ Research code and results from the 2026–2027 Machine Learning Project Course, 
 
 ## Start here
 
-- [Compare countries: worry and reported harm](https://ionpetre.github.io/WRP-dataset/) — select a country to find peers with similar responses, then examine worry, personal harm or known-person harm separately. Fixed median-relative colours allow comparisons across selected countries. [Offline page](docs/index.html).
+- [Explore response profiles](https://ionpetre.github.io/WRP-dataset/) — inspect the four- and eight-profile solutions, original worry and harm responses, distinctive contrasts and respondent overlaps. Includes stability and held-out evidence. [Offline page](docs/index.html).
+- [Compare countries: worry and reported harm](https://ionpetre.github.io/WRP-dataset/countries.html) — select a country to find peers with similar responses, then examine worry, personal harm or known-person harm separately. Fixed median-relative colours allow comparisons across selected countries. [Offline page](docs/countries.html).
 - [Explore response patterns by country income](https://ionpetre.github.io/WRP-dataset/country-income.html) — inspect income-group maps and compare responses within and between income groups. Income provides context; it is not an input to country similarity. [Offline page](docs/country-income.html).
 - [Project objectives](research/OBJECTIVES.md)
 - [Results and interpretation](research/RESULTS.md)
