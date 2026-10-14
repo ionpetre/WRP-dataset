@@ -8,7 +8,7 @@
       <select class="form-select" id="wrp-sim-basis"><option value="responses">Original response distributions</option><option value="profiles">Frozen profile mixtures (Hellinger)</option></select>
     </label>
     <label class="form-label">Distance component
-      <select class="form-select" id="wrp-sim-component"><option value="overall">Overall · B and E allocations</option><option value="worry">Worry</option><option value="self">Personal harm</option><option value="known">Known-person harm</option></select>
+      <select class="form-select" id="wrp-sim-component"><option value="overall">Worry and harm · two weighting choices</option><option value="worry">Worry</option><option value="self">Personal harm</option><option value="known">Known-person harm</option></select>
     </label>
     <div id="wrp-sim-view-control"><label class="form-label">Map view
       <select class="form-select" id="wrp-sim-view" aria-label="Map view">
@@ -101,7 +101,8 @@ try {
   document.getElementById('wrp-sim-detail').textContent=`${selected.name} · ${selected.region} · ${Math.round(selected.retention*1000)/10}% of prepared respondents retained`;
   document.getElementById('wrp-sim-reading').textContent=mode==='overview'
    ?'Overview colours are a 2D approximation, not country groups or a burden scale. Rankings use the original Hellinger distances.'
-   :'1 = the typical pair distance; 2 = twice that distance. Colours use the same all-country median across selections; B and E share it. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points. This is not percentage societal similarity.';
+   :basis==='profiles'?'These views compare countries by their proportions across four or eight frozen response profiles. Both use one fixed reference median: 1 means the typical pair distance; 2 means twice that distance. Numbers above 2 are retained.'
+   :'The two overall comparisons share one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the typical pair distance; 2 = twice that distance. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points.';
   const single=basis==='responses'&&component!=='overall';root.classList.toggle('wrp-single-component',single);
   document.getElementById('wrp-sim-panel-E').hidden=single;
   for(const model of ['B','E']){
@@ -122,7 +123,7 @@ try {
    const svg=d3.select(document.getElementById('wrp-sim-'+model));
    const width=svg.node().getBoundingClientRect().width;if(width<1)continue;
    const height=Math.max(190,width*.54);
-   svg.attr('viewBox',`0 0 ${width} ${height}`).attr('height',height);svg.selectAll('*').remove();
+   svg.attr('viewBox',`0 0 ${width} ${height}`).attr('height',height).attr('aria-label',responseTools.title(basis,model,component)+' · distances from '+selected.name);svg.selectAll('*').remove();
    svg.append('title').text(mode==='overview'
     ?`${model}: approximate global-profile mixture similarity colours; original regional outlines`
     :`${responseTools.title(basis,model,component)} distance from ${selected.name}; original regional outlines`);
@@ -144,7 +145,7 @@ try {
    const nearest=stats.neighbours(selected.index).slice(0,listSize);
    document.getElementById('wrp-sim-summary-'+model).textContent=mode==='overview'
     ?`${Math.round(1000*embedding.variance)/10}% of country-distance variation shown`
-    :prefix;
+    :responseTools.description(basis,model,component)+' '+prefix;
    document.getElementById('wrp-sim-neighbours-title-'+model).textContent=`Nearest to ${selected.name} · normalized distance`;
    const list=document.getElementById('wrp-sim-neighbours-'+model);list.replaceChildren();
    for(const peerIndex of nearest){

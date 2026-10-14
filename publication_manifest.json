@@ -7617,9 +7617,9 @@
     {
       "path": ".week05_build/country-similarity-map-template.html",
       "source": ".week05_build/country-similarity-map-template.html",
-      "source_sha256": "ea966b998eab3f89ef12fa6cea04002b12acff1159dd3ff11f5b1ed648c12279",
-      "publication_sha256": "ea966b998eab3f89ef12fa6cea04002b12acff1159dd3ff11f5b1ed648c12279",
-      "bytes": 16945,
+      "source_sha256": "2e14de490e59346e94afae402db802723435affed3be3e75071da4aa3bc1ba19",
+      "publication_sha256": "2e14de490e59346e94afae402db802723435affed3be3e75071da4aa3bc1ba19",
+      "bytes": 17403,
       "modified_for_publication": false
     },
     {
@@ -7961,9 +7961,9 @@
     {
       "path": ".week05_build/country-response-distance-tools.js",
       "source": ".week05_build/country-response-distance-tools.js",
-      "source_sha256": "588735bc5b2d43d5e7b0b742b87a76cbcf03431f4f5e093a1e08792795cbecf5",
-      "publication_sha256": "588735bc5b2d43d5e7b0b742b87a76cbcf03431f4f5e093a1e08792795cbecf5",
-      "bytes": 4751,
+      "source_sha256": "617600b5c69899b2d85a6a5a63d298bf3e7d90afdad3c160ee5548495464cfb2",
+      "publication_sha256": "617600b5c69899b2d85a6a5a63d298bf3e7d90afdad3c160ee5548495464cfb2",
+      "bytes": 5152,
       "modified_for_publication": false
     },
     {
@@ -7977,9 +7977,9 @@
     {
       "path": ".week05_build/country-income-map-template.html",
       "source": ".week05_build/country-income-map-template.html",
-      "source_sha256": "dd810ce1c4dd706681bf97ec175df7c6a5c8699475864723a5ce894ee09c1f36",
-      "publication_sha256": "dd810ce1c4dd706681bf97ec175df7c6a5c8699475864723a5ce894ee09c1f36",
-      "bytes": 17610,
+      "source_sha256": "4f795b67c0c00b68efd626377a22ac4d24aa3b95340f3e6eb31928cbc601b2f8",
+      "publication_sha256": "4f795b67c0c00b68efd626377a22ac4d24aa3b95340f3e6eb31928cbc601b2f8",
+      "bytes": 17884,
       "modified_for_publication": false
     },
     {
@@ -8017,41 +8017,41 @@
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "8edeba9cb3ffdd4b853445d63dcc2244fa4352d7ef029c71483bf6d920dbe7a1",
-      "publication_sha256": "8edeba9cb3ffdd4b853445d63dcc2244fa4352d7ef029c71483bf6d920dbe7a1",
-      "bytes": 3471,
+      "source_sha256": "2d786e4c7735342387ccc021dc008acf2f09699fd7db60b35064aa227d8dbdb7",
+      "publication_sha256": "2d786e4c7735342387ccc021dc008acf2f09699fd7db60b35064aa227d8dbdb7",
+      "bytes": 3775,
       "modified_for_publication": false
     },
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
-      "source_sha256": "de54bb2e8d3f076c311dfd2988040be5f70f559a733000831327809eb4cc2d43",
-      "publication_sha256": "de54bb2e8d3f076c311dfd2988040be5f70f559a733000831327809eb4cc2d43",
-      "bytes": 1402386,
+      "source_sha256": "b449a4b6804e59e3d2be2042d7b2816fba56313001da3a3f767e6ff05f1c37b3",
+      "publication_sha256": "b449a4b6804e59e3d2be2042d7b2816fba56313001da3a3f767e6ff05f1c37b3",
+      "bytes": 1403418,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "26236133719d04cd72145f1e14293fdd2b66a34992ab35b098dc5b9d098a75e6",
-      "publication_sha256": "26236133719d04cd72145f1e14293fdd2b66a34992ab35b098dc5b9d098a75e6",
-      "bytes": 1428258,
+      "source_sha256": "622e8b0d6aa858b2870cf92b137cdbba366ab77ade511ed60d18006e9ad19a81",
+      "publication_sha256": "622e8b0d6aa858b2870cf92b137cdbba366ab77ade511ed60d18006e9ad19a81",
+      "bytes": 1429076,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-similarity-fragment.html",
       "source": "publication-source:docs/country-similarity-fragment.html",
-      "source_sha256": "9dad4a65477684342b4df2d53260c85e0b326bbada44f681533c45d5e74e8ca5",
-      "publication_sha256": "9dad4a65477684342b4df2d53260c85e0b326bbada44f681533c45d5e74e8ca5",
-      "bytes": 971195,
+      "source_sha256": "4bbbc52096523a373b79431567bea69a6c0514b596788a86b90e1b8c6af25e71",
+      "publication_sha256": "4bbbc52096523a373b79431567bea69a6c0514b596788a86b90e1b8c6af25e71",
+      "bytes": 972054,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income-fragment.html",
       "source": "publication-source:docs/country-income-fragment.html",
-      "source_sha256": "3945a4c619b3eef0c92bac4432838f045fd659836f9650ec40fbcffb09f48b8f",
-      "publication_sha256": "3945a4c619b3eef0c92bac4432838f045fd659836f9650ec40fbcffb09f48b8f",
-      "bytes": 985444,
+      "source_sha256": "bf6cd92cd88771db9a5adb6de0e898bc0b5977ca8a33c161679e653f462af43f",
+      "publication_sha256": "bf6cd92cd88771db9a5adb6de0e898bc0b5977ca8a33c161679e653f462af43f",
+      "bytes": 986119,
       "modified_for_publication": false
     },
     {

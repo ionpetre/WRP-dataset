@@ -1818,7 +1818,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-basis&quot;&gt;&lt;option value=&quot;responses&quot;&gt;Original response distributions&lt;/option&gt;&lt;option value=&quot;profiles&quot;&gt;Frozen profile mixtures (Hellinger)&lt;/option&gt;&lt;/select&gt;
     &lt;/label&gt;
     &lt;label class=&quot;form-label&quot;&gt;Distance component
-      &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-component&quot;&gt;&lt;option value=&quot;overall&quot;&gt;Overall · B and E allocations&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-component&quot;&gt;&lt;option value=&quot;overall&quot;&gt;Worry and harm · two weighting choices&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
     &lt;/label&gt;
     &lt;div id=&quot;wrp-sim-view-control&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Map view
       &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-view&quot; aria-label=&quot;Map view&quot;&gt;
@@ -1917,8 +1917,10 @@ function wrpResponseTools(data){
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
  return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
   method:basis=&gt;basis===&#x27;profiles&#x27;?&#x27;Median-relative Hellinger distance&#x27;:&#x27;Median-relative total variation distance&#x27;,
-  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?`${model} · frozen profile mixture (Hellinger)`:
-   component===&#x27;overall&#x27;?`${model} allocation · ${model===&#x27;B&#x27;?&#x27;50/25/25&#x27;:&#x27;75/12.5/12.5&#x27;} worry/self/known`:`${labels[component]} · original responses`,
+  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?(model===&#x27;B&#x27;?&#x27;Four-profile comparison&#x27;:&#x27;Eight-profile comparison&#x27;):
+   component===&#x27;overall&#x27;?(model===&#x27;B&#x27;?&#x27;Worry and harm equally weighted&#x27;:&#x27;Worry given greater weight&#x27;):`${labels[component]} · original responses`,
+  description:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?(model===&#x27;B&#x27;?&#x27;Compares countries by their proportions across four frozen profiles.&#x27;:&#x27;Compares countries by their proportions across eight frozen profiles.&#x27;):
+   component===&#x27;overall&#x27;?(model===&#x27;B&#x27;?&#x27;Worry and harm each receive half the weight.&#x27;:&#x27;Worry receives three times the weight of harm.&#x27;):&#x27;Uses this response component only.&#x27;,
   fingerprint:source.fingerprint};
 }
 &lt;/script&gt;
@@ -1973,7 +1975,8 @@ try {
   document.getElementById(&#x27;wrp-sim-detail&#x27;).textContent=`${selected.name} · ${selected.region} · ${Math.round(selected.retention*1000)/10}% of prepared respondents retained`;
   document.getElementById(&#x27;wrp-sim-reading&#x27;).textContent=mode===&#x27;overview&#x27;
    ?&#x27;Overview colours are a 2D approximation, not country groups or a burden scale. Rankings use the original Hellinger distances.&#x27;
-   :&#x27;1 = the typical pair distance; 2 = twice that distance. Colours use the same all-country median across selections; B and E share it. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points. This is not percentage societal similarity.&#x27;;
+   :basis===&#x27;profiles&#x27;?&#x27;These views compare countries by their proportions across four or eight frozen response profiles. Both use one fixed reference median: 1 means the typical pair distance; 2 means twice that distance. Numbers above 2 are retained.&#x27;
+   :&#x27;The two overall comparisons share one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the typical pair distance; 2 = twice that distance. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points.&#x27;;
   const single=basis===&#x27;responses&#x27;&amp;&amp;component!==&#x27;overall&#x27;;root.classList.toggle(&#x27;wrp-single-component&#x27;,single);
   document.getElementById(&#x27;wrp-sim-panel-E&#x27;).hidden=single;
   for(const model of [&#x27;B&#x27;,&#x27;E&#x27;]){
@@ -1994,7 +1997,7 @@ try {
    const svg=d3.select(document.getElementById(&#x27;wrp-sim-&#x27;+model));
    const width=svg.node().getBoundingClientRect().width;if(width&lt;1)continue;
    const height=Math.max(190,width*.54);
-   svg.attr(&#x27;viewBox&#x27;,`0 0 ${width} ${height}`).attr(&#x27;height&#x27;,height);svg.selectAll(&#x27;*&#x27;).remove();
+   svg.attr(&#x27;viewBox&#x27;,`0 0 ${width} ${height}`).attr(&#x27;height&#x27;,height).attr(&#x27;aria-label&#x27;,responseTools.title(basis,model,component)+&#x27; · distances from &#x27;+selected.name);svg.selectAll(&#x27;*&#x27;).remove();
    svg.append(&#x27;title&#x27;).text(mode===&#x27;overview&#x27;
     ?`${model}: approximate global-profile mixture similarity colours; original regional outlines`
     :`${responseTools.title(basis,model,component)} distance from ${selected.name}; original regional outlines`);
@@ -2016,7 +2019,7 @@ try {
    const nearest=stats.neighbours(selected.index).slice(0,listSize);
    document.getElementById(&#x27;wrp-sim-summary-&#x27;+model).textContent=mode===&#x27;overview&#x27;
     ?`${Math.round(1000*embedding.variance)/10}% of country-distance variation shown`
-    :prefix;
+    :responseTools.description(basis,model,component)+&#x27; &#x27;+prefix;
    document.getElementById(&#x27;wrp-sim-neighbours-title-&#x27;+model).textContent=`Nearest to ${selected.name} · normalized distance`;
    const list=document.getElementById(&#x27;wrp-sim-neighbours-&#x27;+model);list.replaceChildren();
    for(const peerIndex of nearest){

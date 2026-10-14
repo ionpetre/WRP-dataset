@@ -54,7 +54,9 @@ function wrpResponseTools(data){
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
  return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
   method:basis=>basis==='profiles'?'Median-relative Hellinger distance':'Median-relative total variation distance',
-  title:(basis,model,component)=>basis==='profiles'?`${model} · frozen profile mixture (Hellinger)`:
-   component==='overall'?`${model} allocation · ${model==='B'?'50/25/25':'75/12.5/12.5'} worry/self/known`:`${labels[component]} · original responses`,
+  title:(basis,model,component)=>basis==='profiles'?(model==='B'?'Four-profile comparison':'Eight-profile comparison'):
+   component==='overall'?(model==='B'?'Worry and harm equally weighted':'Worry given greater weight'):`${labels[component]} · original responses`,
+  description:(basis,model,component)=>basis==='profiles'?(model==='B'?'Compares countries by their proportions across four frozen profiles.':'Compares countries by their proportions across eight frozen profiles.'):
+   component==='overall'?(model==='B'?'Worry and harm each receive half the weight.':'Worry receives three times the weight of harm.'):'Uses this response component only.',
   fingerprint:source.fingerprint};
 }
