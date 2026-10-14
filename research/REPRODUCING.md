@@ -6,6 +6,21 @@ Read the Markdown guides, inspect aggregate CSV tables and figures, and open `do
 
 The publication does not rerun any scientific fitting. `publication_manifest.json` links published files to original source hashes. Some path strings are sanitized and notebook outputs are cleared, so publication hashes can differ from original artifact hashes. Historical manifests describe the original local execution; missing protected inputs are not evidence of corruption in this deliberately restricted public package.
 
+### Reproduce the new country distances without microdata
+
+The new folder publishes survey-weighted feature/category probabilities, not individual answers. `response_map_payload.json` encodes the same 46 probabilities per country as little-endian float64 values; the CSV makes them readable. The browser reconstructs all five matrices from these aggregates, checked against saved matrices.
+
+From the repository root:
+
+```sh
+python .week05_build/test_country_response_distances.py
+python .week05_build/export_country_response_maps.py --output course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da
+```
+
+The test checks matrices, allocations, percentile pools, triangle inequalities and USA/Finland comparisons. The exporter regenerates both offline pages from aggregate data and editable templates, without raw responses, fitting or network access. Keep `docs/vendor/d3.min.js` and its licence. Week 5 section 32 reads and verifies saved aggregates, with recomputation disabled by default.
+
+Rebuilding the original weighted aggregates requires protected curated inputs and the recorded freeze seal. `country_response_distances.py` records input fingerprints in a separate result context, validates cohort counts and, when available, checks the protected assignment registry; it never fits profiles. The saved-result reporting cell checks available inputs against the recorded fingerprints. Aggregate-only reconstruction cannot independently verify original individual weights or cohort IDs.
+
 ## Python environment
 
 Use Python 3.11 and create a dedicated environment:

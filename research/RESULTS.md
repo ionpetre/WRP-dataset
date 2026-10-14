@@ -1,6 +1,6 @@
 # Results through Week 5
 
-This release records completed results as of 12 October 2026. Current final conclusions take precedence over older experiment folders, which are retained as an audit trail.
+This release records Objective 1 results through 12 October 2026 and the exploratory direct-response extension added on 14 October. Current final conclusions take precedence over older experiment folders, which are retained as an audit trail.
 
 ## Week 3 — A useful baseline, not a frozen typology
 
@@ -64,7 +64,7 @@ Authoritative folders:
 
 ![Development and held-out prevalence](../course_artifacts/week05_heldout_transfer_v1/123d248adda6115f/figures/development_vs_heldout_profile_prevalence.png)
 
-## Country similarity and the maps
+## Historical country similarity: frozen profile mixtures
 
 Country distances use proportions across the **same frozen global profiles**. This avoids pretending that independently fitted local cluster numbers have matching meanings. Within-region distances are smaller on average than between-region distances, but many closest countries are outside the same region. This is descriptive similarity of profile mixtures, not equivalence of countries or a causal geographic effect.
 
@@ -79,6 +79,28 @@ Authoritative folders:
 - [Offline interactive map](../docs/index.html)
 
 ![Country similarity with original regional outlines](../course_artifacts/week05_continuous_country_similarity_maps_v1/B_continuous_similarity_with_region_outlines.png)
+
+## Direct original-response comparisons and updated maps
+
+Maps now default to worry-category distributions and separate personal/known-person harm prevalence, retaining historical Hellinger views as a labelled alternative. They use the same complete-case cohort and B/E allocations without refitting profiles. This extension was prompted by inspecting compressed profile-mixture maps, so it is exploratory, not independent validation.
+
+| Pair | Worry mismatch ×100 | Personal gap (pp) | Known-person gap (pp) | Overall B distance | B rank | B pair percentile |
+|---|---:|---:|---:|---:|---:|---:|
+| USA–Canada | 8.62 | 2.97 | 5.18 | 0.0635 | 1 | 1.83 |
+| USA–Iran | 10.01 | 5.01 | 8.45 | 0.0837 | 19 | 8.65 |
+| USA–Cambodia | 27.46 | 2.12 | 9.56 | 0.1665 | 113 | 65.63 |
+| Finland–Iceland | 6.12 | 1.32 | 2.91 | 0.0412 | 1 | 0.12 |
+| Finland–Sweden | 11.60 | 0.87 | 3.32 | 0.0685 | 9 | 2.94 |
+
+Ranks compare each reference with all 141 peers; percentiles use all 10,011 distinct pairs (lower means closer), not uncertainty or significance. Worry mismatch is mean feature total variation, not a mean-worry difference. Harm gaps are mean absolute prevalence differences across seven domains.
+
+Canada is the USA's nearest country under balanced allocation; under worry emphasis the Netherlands is first and Canada second. Iran moves from fifth under historical B4 mixtures to nineteenth under the new B allocation; Cambodia moves from second to 113th. This exposes information lost by compression; familiar neighbours do not validate the distance. Iceland is Finland's nearest country under both allocations. Finland–Sweden is especially similar in personal harm but less similar in worry, explaining its larger E distance.
+
+Direct-response income-gap rank correlations are 0.3185 (B) and 0.2618 (E), with development-only values 0.3192 and 0.2600. They are descriptive, separate from historical Hellinger correlations and permutation references. Income is not a distance input.
+
+The interface offers overall and three component maps, raw distances, components, pair percentiles and 10/20/all ranked peers. Seven-step colours span zero to the selected country's maximum, helping distinguish peers but preventing colour comparisons across references. No new joint-distribution analysis or rank uncertainty was computed. Equal marginals can conceal different combinations within respondents; selection and survey/reporting limitations remain.
+
+Authoritative extension: `course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da/`, documented in Week 5 section 32. Both [country similarity](../docs/index.html) and [income comparison](../docs/country-income.html) work offline. Previous results and figures remain unchanged.
 
 ## What is frozen, and what comes next
 

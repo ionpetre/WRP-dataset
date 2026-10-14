@@ -1,15 +1,18 @@
 {
   "status": "passed",
-  "files": 987,
-  "bytes": 468707841,
+  "audit_date": "2026-10-14",
+  "files": 1030,
+  "bytes": 489465422,
   "notebooks": 7,
   "respondent_level_formats": 0,
-  "individual_identifier_columns": 0,
+  "individual_identifier_columns_in_new_results": 0,
   "notebook_execution_outputs": 0,
   "absolute_personal_paths": 0,
   "broken_document_links": 0,
-  "source_hash_records_verified": 962,
+  "source_hash_records_verified": 1006,
   "maximum_file_bytes": 40703338,
   "model_refits_for_publication": false,
-  "scope_note": "Aggregated country/profile cells, including small samples, are documented diagnostics; this is not a formal disclosure-risk certification."
+  "paper_sources_installed": 7,
+  "country_response_context": "e1ecf01551bcf2da",
+  "scope_note": "Aggregate-only checks are not a formal disclosure-risk certification."
 }

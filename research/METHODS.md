@@ -76,10 +76,32 @@ B4/E8 were sealed at **2026-10-12 09:44:34 UTC**, before the recorded held-out r
 
 Held-out intervals use 1,000 country bootstrap draws with fixed models and within-country relative weights. They describe variation across these observed countries, not worldwide coverage, fitting uncertainty or a full complex-survey design. Broad/partial/poor transfer is an analytical synthesis defined before opening held-out responses; no post-hoc pass score was introduced.
 
-## Country similarity
+## Historical country similarity: frozen profile mixtures
 
 Compare countries using their survey-weighted proportions across the same frozen global profiles, not unmatched local cluster IDs. Use
 
 $$H(p,q)=\frac{1}{\sqrt{2}}\sqrt{\sum_c(\sqrt{p_c}-\sqrt{q_c})^2}.$$
 
 The original dataset regions remain unchanged. Descriptive average-linkage country trees, illustrative cuts and 200 within-country respondent bootstraps assess sensitivity; no country grouping was adopted. Country pairs are dependent, so pair counts do not justify independent-pair significance tests. Analyses combining development and held-out countries are explicitly post-validation descriptions.
+
+## Direct country similarity: original response distributions
+
+Added on 14 October after inspecting the compressed profile-mixture maps, this is an exploratory post-validation comparison, not a profile refit or model-selection test. Use the same 137,460 complete respondents (109,488 development; 27,972 held-out). For country $c$, eligible respondents $\mathcal I_c$, original feature $j$ and response category $r$:
+
+$$w_{ci}=\frac{WGT_{ci}}{\sum_{\ell\in\mathcal I_c}WGT_{c\ell}},\qquad q_{cj}(r)=\sum_{i\in\mathcal I_c}w_{ci}\mathbf1\{X_{cij}=r\}.$$
+
+Compare each feature using total variation, then average separately over six worry, seven personal-harm and seven known-person-harm features:
+
+$$T_j(c,d)=\frac12\sum_r|q_{cj}(r)-q_{dj}(r)|,\quad D_W=\frac16\sum_{j\in W}T_j,\quad D_S=\frac17\sum_{j\in S}T_j,\quad D_O=\frac17\sum_{j\in O}T_j.$$
+
+For binary harm, each feature distance is the absolute prevalence difference. Combine raw components:
+
+$$D_\alpha=\alpha D_W+\frac{1-\alpha}{2}D_S+\frac{1-\alpha}{2}D_O.$$
+
+Use $\alpha=0.50$ for B-associated allocation (50/25/25) and $0.75$ for E-associated allocation (75/12.5/12.5). Distances lie in [0,1]. This preserves nominal block emphasis, not centred K-means geometry or 0/1/3 middle-category spacing. Total variation requires no square-root scaling and is invariant to one-to-one category recoding. It is a metric on marginal summaries but only a pseudometric on full joint response laws: equal marginals can hide different within-person combinations.
+
+Report raw distance, worry mismatch ×100 and personal/known-person mean prevalence gaps in percentage points. Pair percentiles are $100$ times the upper empirical CDF over distinct unordered pairs: 10,011 full-scope pairs and 6,328 development pairs. Exclude self-pairs and include exact ties. Rank unrounded distances, then ISO3 for ties. These percentiles are not p-values or confidence measures.
+
+For map colours only, use $z_c(d)=D(c,d)/\max_{e\ne c}D(c,e)$ and seven equal-width bands, including the reference at zero. A zero maximum gives the first band everywhere. This display is generally asymmetric and cannot replace a scientific distance. Combine raw components before scaling; never recombine independently normalized components. Colours are not comparable across references, allocations or scopes. Historical two-dimensional overview colours remain available only for profile mixtures.
+
+Income summaries exclude unclassified Venezuela (141 countries/9,870 pairs in full; 112/6,216 in development). Income and geography do not enter the distance. No new joint-response analysis, bootstrap rank uncertainty or permutation test has been run. Earlier Hellinger bootstrap/permutation results do not apply to these new distances.

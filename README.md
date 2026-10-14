@@ -6,7 +6,8 @@ Research code and results from the 2026–2027 Machine Learning Project Course, 
 
 ## Start here
 
-- [Interactive country-similarity maps](https://ionpetre.github.io/WRP-dataset/) — B4/E8, selectable countries, original dataset-region outlines, and ranked country distances. If hosting is not enabled, download [the standalone map](docs/index.html) and open it in a browser; it works offline.
+- [Interactive country-similarity maps](https://ionpetre.github.io/WRP-dataset/) — original-response comparisons with separate worry, personal-harm and known-person-harm distances; B/E allocations; historical frozen-profile comparisons; and original dataset-region outlines. If hosting is not enabled, download [the standalone map](docs/index.html) and open it in a browser; it works offline.
+- [Country similarity and income](docs/country-income.html) — development-only and all-country views, income-group summaries and country rankings.
 - [Project objectives](research/OBJECTIVES.md)
 - [Results and interpretation](research/RESULTS.md)
 - [Methods, encodings and validation](research/METHODS.md)
@@ -32,6 +33,8 @@ Notebook code and analytical explanations are retained. Stored execution outputs
 The original experiment names and fingerprints are retained so notebook paths and recorded evidence remain traceable. Earlier experiments are **historical results**, not competing final specifications. See the [results guide](research/RESULTS.md) for the authoritative final folders.
 
 `frozen_models/` contains the final centres, feature order, assignment thresholds and a readable JSON model export. `.week05_build/` contains the supplementary Week 5 implementations used by the notebook. `publication_manifest.json` records source and publication hashes.
+
+The 14 October country-distance extension is in `course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da/`. It compares the same complete-case respondents without refitting any profile model. The new distances and ranks are exploratory descriptions, not an additional untouched validation. The previous profile-mixture results remain available and are labelled separately.
 
 Raw responses, respondent-level assignments, sampling indices and fit caches are not included. Obtain the survey data from [Lloyd’s Register Foundation](https://www.lrfoundation.org.uk/wrp/world-risk-poll-data), retain its attribution and terms, and follow the reproduction guide.
 

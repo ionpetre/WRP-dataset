@@ -1,0 +1,5 @@
+model,scope,classified_countries,distinct_pairs,ordinal_gap_spearman,within_region_spearman,interpretation
+B,development,112,6216,0.3191815969048066,0.2282194049077847,descriptive association; no pair-independent significance test or new permutation reference
+E,development,112,6216,0.25995251545951154,0.19515569673182026,descriptive association; no pair-independent significance test or new permutation reference
+B,all_countries_post_validation,141,9870,0.31849110523992125,0.2343330872956905,descriptive association; no pair-independent significance test or new permutation reference
+E,all_countries_post_validation,141,9870,0.26175247152506803,0.19784443110128944,descriptive association; no pair-independent significance test or new permutation reference
