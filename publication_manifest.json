@@ -8009,25 +8009,25 @@
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
-      "source_sha256": "20cafeebbb7421f80d2f0087c884ca3a2267c35845000e4e99546207f41ce82a",
-      "publication_sha256": "20cafeebbb7421f80d2f0087c884ca3a2267c35845000e4e99546207f41ce82a",
-      "bytes": 7604,
+      "source_sha256": "3787dfa931c67d431ab00cd6b5415f99665566508c55c90781d2f32270e0e841",
+      "publication_sha256": "3787dfa931c67d431ab00cd6b5415f99665566508c55c90781d2f32270e0e841",
+      "bytes": 7653,
       "modified_for_publication": false
     },
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "ad42faa7d11208e84d3a2cc3db7c635f92f4c00d38222f5c31a9acff1aabebbd",
-      "publication_sha256": "ad42faa7d11208e84d3a2cc3db7c635f92f4c00d38222f5c31a9acff1aabebbd",
-      "bytes": 5031,
+      "source_sha256": "5b789e42a65e30bc3bf68ff12eeed391f8452649e81021986bd552da90b9ccab",
+      "publication_sha256": "5b789e42a65e30bc3bf68ff12eeed391f8452649e81021986bd552da90b9ccab",
+      "bytes": 5479,
       "modified_for_publication": false
     },
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
-      "source_sha256": "6b002a9558ef23e032382529c6a5339225232d3bba13c2e4e2769acd8e00e2d7",
-      "publication_sha256": "6b002a9558ef23e032382529c6a5339225232d3bba13c2e4e2769acd8e00e2d7",
-      "bytes": 43121,
+      "source_sha256": "0679721f12bd9e3cfaab87db071325a9d1b57ebe614103c2b49004b8c371ec5f",
+      "publication_sha256": "0679721f12bd9e3cfaab87db071325a9d1b57ebe614103c2b49004b8c371ec5f",
+      "bytes": 43290,
       "modified_for_publication": false
     },
     {
@@ -8321,9 +8321,9 @@
     {
       "path": ".week05_build/response-profiles-template.html",
       "source": ".week05_build/response-profiles-template.html",
-      "source_sha256": "32ff206270ab13f2590cdcc49ee6ed70b3f2deb85c10ea88dde179a8fcae759d",
-      "publication_sha256": "32ff206270ab13f2590cdcc49ee6ed70b3f2deb85c10ea88dde179a8fcae759d",
-      "bytes": 16506,
+      "source_sha256": "1c01f96983b29b9eee670775bd76b9f5776a3244e1cb64dfa7c4e7b89297ebd0",
+      "publication_sha256": "1c01f96983b29b9eee670775bd76b9f5776a3244e1cb64dfa7c4e7b89297ebd0",
+      "bytes": 16675,
       "modified_for_publication": false
     },
     {
@@ -8337,9 +8337,17 @@
     {
       "path": "docs/response-profiles-fragment.html",
       "source": "publication-source:docs/response-profiles-fragment.html",
-      "source_sha256": "59d36f3bc144a46d2d02d4b68781c2d08655e7f712f38b23fd1693af023943fa",
-      "publication_sha256": "59d36f3bc144a46d2d02d4b68781c2d08655e7f712f38b23fd1693af023943fa",
-      "bytes": 39941,
+      "source_sha256": "053a860023a3ffff0b0149f34baa9138411e6ac7e23197e7adcd313cd980d2f1",
+      "publication_sha256": "053a860023a3ffff0b0149f34baa9138411e6ac7e23197e7adcd313cd980d2f1",
+      "bytes": 40110,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/test_research_page_links.py",
+      "source": ".week05_build/test_research_page_links.py",
+      "source_sha256": "9b5ed9a4a70bf2b1236aa8108be3b539c5fe513ae33a0b38ff7cc1420dbff508",
+      "publication_sha256": "9b5ed9a4a70bf2b1236aa8108be3b539c5fe513ae33a0b38ff7cc1420dbff508",
+      "bytes": 2687,
       "modified_for_publication": false
     }
   ],

@@ -16,6 +16,7 @@ From the repository root:
 python .week05_build/test_country_response_distances.py
 python .week05_build/test_country_distance_normalization.py
 python .week05_build/test_country_median_scaling.py
+python .week05_build/test_research_page_links.py
 python .week05_build/export_country_response_maps.py --output course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da
 ```
 
