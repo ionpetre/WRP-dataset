@@ -15,7 +15,7 @@
   <svg id="wrp-inc-map" class="inc-map" role="img" aria-label="World map of fieldwork income groups or frozen profile distance"></svg>
   <div id="wrp-inc-legend" class="viz-row text-small"></div>
   <div class="text-small">Thin outlines: dataset regions · highlighted outline: selected country · uncoloured: outside this set · hatching: income not classified</div>
-  <h3>Mean overall country distance by income group</h3>
+  <h3>Mean median-relative distance by income group</h3>
   <div class="inc-panels">
     <section><h3 id="wrp-inc-heading-B">B allocation</h3><div id="wrp-inc-summary-B" class="text-small"></div><svg id="wrp-inc-matrix-B" class="inc-matrix" role="img" aria-label="Income-group mean country distance under B allocation"></svg></section>
     <section><h3 id="wrp-inc-heading-E">E allocation</h3><div id="wrp-inc-summary-E" class="text-small"></div><svg id="wrp-inc-matrix-E" class="inc-matrix" role="img" aria-label="Income-group mean country distance under E allocation"></svg></section>
@@ -26,7 +26,7 @@
     <section><h3 id="wrp-inc-near-title-B">B4 · nearest countries</h3><ol id="wrp-inc-near-B" class="text-small"></ol></section>
     <section><h3 id="wrp-inc-near-title-E">E8 · nearest countries</h3><ol id="wrp-inc-near-E" class="text-small"></ol></section>
   </div>
-  <div class="text-small">W: worry-category mismatch ×100. Self/Known: mean harm-prevalence gap in percentage points. P: percentile among all distinct pairs in the selected country set, not significance or confidence. Income summaries exclude unclassified Venezuela; distance rankings do not. No new model fitting.</div>
+  <div class="text-small">1 = the typical pair distance; 2 = twice that distance. Reference medians use all 142 countries even in the development-only view. B and E share a median; components have their own. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points. No model refitting.</div>
   <div id="wrp-inc-error" role="alert" hidden></div>
 </div>
 <style>
@@ -103,7 +103,8 @@
    const w=Math.max(280,svg.node().getBoundingClientRect().width),h=Math.max(180,w*.48);
    svg.attr('viewBox',`0 0 ${w} ${h}`);
    const mapModel=mode==='E'?'E':'B',component=['worry','self','known'].includes(mode)?mode:'overall';
-   const stats=mode==='income'?null:responseTools.statistics(basis,mapModel,component,scope),prefix=basis==='profiles'?'H':'TV';
+   const stats=mode==='income'?null:responseTools.statistics(basis,mapModel,component,scope),prefix=responseTools.method(basis);
+   const scale=responseTools.scale(basis,component);
    svg.append('title').text(mode==='income'?'Fieldwork income groups':responseTools.title(basis,mapModel,component)+' distances from '+c.name);
    const projection=d3.geoNaturalEarth1().fitExtent([[5,5],[w-5,h-5]],data.world),path=d3.geoPath(projection);
    const defs=svg.append('defs');
@@ -111,15 +112,14 @@
    hatch.append('rect').attr('width',6).attr('height',6).attr('fill','var(--muted)');
    hatch.append('path').attr('d','M-1,1L1,-1M0,6L6,0M5,7L7,5').attr('stroke','var(--foreground)').attr('stroke-width',.65).attr('opacity',.5);
    const dist=stats?stats.matrix[c.index]:null;
-   const range=stats?stats.range(c.index):[0,0];
    const palette=d3.quantize(d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]),7);
-   const distanceColor=d3.scaleQuantize().domain([range[0],range[1]>range[0]?range[1]:range[0]+1]).range(palette);
+   const distanceColor=d3.scaleQuantize().domain([0,2]).range(palette);
    const fill=iso=>{
     const peer=byCode.get(iso);if(!peer||!eligible(peer))return 'var(--muted)';
     if(mode==='income')return peer.income===9?'url(#wrp-inc-hatch)':`var(${incomeTokens[peer.income]})`;
-    return distanceColor(dist[peer.index]);
+    return distanceColor(scale.normalize(dist[peer.index]));
    };
-   const label=iso=>{const peer=byCode.get(iso);if(!peer||!eligible(peer))return 'Outside this country set';return `${peer.name} · ${peer.incomeLabel}${dist?` · ${prefix} ${dist[peer.index].toFixed(4)}${peer.index===c.index?' (self)':` · P ${stats.percentile(dist[peer.index]).toFixed(1)} · ${responseTools.componentText(c.index,peer.index)}`}`:''}`;};
+   const label=iso=>{const peer=byCode.get(iso);if(!peer||!eligible(peer))return 'Outside this country set';return `${peer.name} · ${peer.incomeLabel}${dist?` · ${prefix} ${scale.normalize(dist[peer.index]).toFixed(3)}${peer.index===c.index?' (selected country)':` · ${responseTools.componentText(c.index,peer.index)}`}`:''}`;};
    svg.append('g').selectAll('path').data(data.world.features).join('path').attr('class','inc-country cursor-interaction').attr('d',path).attr('fill',f=>fill(f.properties.id)).attr('data-iso',f=>f.properties.id).attr('data-tooltip',f=>label(f.properties.id)).on('click',(_,f)=>pick(f.properties.id));
    if(regions)svg.append('g').selectAll('path').data(data.regions).join('path').attr('class','inc-region').attr('d',path);
    const shape=data.world.features.find(f=>f.properties.id===country);
@@ -133,16 +133,16 @@
      const span=document.createElement('span'),sw=document.createElement('span');sw.className='inc-swatch';sw.style.background=level===9?'var(--muted)':`var(${incomeTokens[level]})`;span.append(sw,`${data.incomeLabels[level]} (${counts[level]})`);legend.append(span);
     }
    }else{
-    const text=document.createElement('span');text.textContent=`${responseTools.title(basis,mapModel,component)} · ${prefix} from ${c.name}`;legend.append(text);
-    const key=d3.select(legend).append('svg').attr('class','inc-key').attr('viewBox','0 0 210 32').attr('role','img').attr('data-distance-min',range[0]).attr('data-distance-max',range[1]).attr('aria-label',`Seven distance bands from ${prefix} ${range[0].toFixed(4)} to ${range[1].toFixed(4)}`);
-    const colors=range[1]>range[0]?palette:palette.map(()=>palette[0]);
+    const text=document.createElement('span');text.textContent=prefix;legend.append(text);
+    const key=d3.select(legend).append('svg').attr('class','inc-key').attr('viewBox','0 0 210 32').attr('role','img').attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian).attr('aria-label',`${prefix}; fixed colour scale from zero to two or more`);
+    const colors=palette;
     key.selectAll('rect').data(colors).join('rect').attr('x',(_,i)=>4+i*202/colors.length).attr('y',1).attr('width',202/colors.length+.1).attr('height',11).attr('fill',v=>v);
-    key.append('text').attr('x',4).attr('y',29).text(range[0].toFixed(4));key.append('text').attr('x',105).attr('y',29).attr('text-anchor','middle').text(((range[0]+range[1])/2).toFixed(4));key.append('text').attr('x',206).attr('y',29).attr('text-anchor','end').text(range[1].toFixed(4));
-    const note=document.createElement('span');note.textContent='Seven equal-width bands; colours cannot be compared across selections. Selected country: H = 0.';legend.append(note);
+    key.append('text').attr('x',4).attr('y',29).text('0 · closer');key.append('text').attr('x',105).attr('y',29).attr('text-anchor','middle').text('1 · typical');key.append('text').attr('x',206).attr('y',29).attr('text-anchor','end').text('2 or more');
+    const note=document.createElement('span');note.textContent='Fixed scale · comparable across countries';legend.append(note);
    }
    const income=basis==='responses'?data.responses.income:data;
-   const mean=cell=>basis==='responses'?cell.mean_distance:cell.mean_hellinger;
-   const upper=Math.max(...['B','E'].flatMap(m=>Object.values(income.matrices[m]).flat(2).map(mean)));
+   const overallScale=responseTools.scale(basis,'overall');
+   const mean=cell=>overallScale.normalize(basis==='responses'?cell.mean_distance:cell.mean_hellinger);
    const labels=['L','LM','UM','H'];
    for(const model of ['B','E']){
     const s=income.summaries[model][scope],grid=income.matrices[model][scope];
@@ -154,10 +154,10 @@
     labels.forEach((v,j)=>{matrix.append('text').attr('x',left+(j+.5)*size).attr('y',18).attr('text-anchor','middle').text(v);matrix.append('text').attr('x',left-8).attr('y',top+(j+.5)*size+4).attr('text-anchor','end').text(v);});
     grid.forEach((row,i)=>row.forEach((cell,j)=>{
      const g=matrix.append('g').attr('data-tooltip',`${data.incomeLabels[i+1]} ↔ ${data.incomeLabels[j+1]} · mean ${prefix} ${mean(cell).toFixed(4)} · ${cell.distinct_pairs} distinct country pairs`);
-     g.append('rect').attr('x',left+j*size+1).attr('y',top+i*size+1).attr('width',size-2).attr('height',size-2).attr('fill','var(--viz-series-1)').attr('fill-opacity',.05+.32*mean(cell)/upper);
+     g.append('rect').attr('x',left+j*size+1).attr('y',top+i*size+1).attr('width',size-2).attr('height',size-2).attr('fill','var(--viz-series-1)').attr('fill-opacity',.05+.32*Math.min(2,mean(cell))/2);
      g.append('text').attr('x',left+(j+.5)*size).attr('y',top+(i+.5)*size+4).attr('text-anchor','middle').text(mean(cell).toFixed(3));
     }));
-    matrix.append('text').attr('x',left).attr('y',height-5).text(`Shared fill scale: 0–${upper.toFixed(3)}`);
+    matrix.append('text').attr('x',left).attr('y',height-5).text('Shared reference: 1 = typical pair distance');
     const ol=root.querySelector('#wrp-inc-near-'+model);ol.replaceChildren();
     const overallStats=responseTools.statistics(basis,model,'overall',scope);
     const ranking=overallStats.neighbours(c.index).map(i=>countries[i]);
@@ -166,8 +166,9 @@
     for(const peer of ranking.slice(0,n)){
      const peerIndex=byCode.get(peer.iso).index;
      const li=document.createElement('li');li.dataset.iso=peer.iso;li.dataset.distance=overallStats.matrix[c.index][peerIndex];
+     li.dataset.normalizedDistance=overallScale.normalize(Number(li.dataset.distance));
      const row=document.createElement('div');row.className='inc-peer';const name=document.createElement('span');name.textContent=peer.name;
-     const value=document.createElement('span');value.className='inc-value tabular-nums';value.textContent=`${prefix} ${Number(li.dataset.distance).toFixed(4)} · P ${overallStats.percentile(Number(li.dataset.distance)).toFixed(1)}`;row.append(name,value);
+     const value=document.createElement('span');value.className='inc-value tabular-nums';value.textContent=Number(li.dataset.normalizedDistance).toFixed(3);row.append(name,value);
      const inc=document.createElement('div');inc.textContent=peer.incomeLabel+' · '+peer.region;li.append(row,inc);ol.append(li);
      const parts=document.createElement('div');parts.textContent=responseTools.componentText(c.index,peerIndex);li.appendChild(parts);
     }

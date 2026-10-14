@@ -10,12 +10,12 @@
     <label class="form-label">Distance component
       <select class="form-select" id="wrp-sim-component"><option value="overall">Overall · B and E allocations</option><option value="worry">Worry</option><option value="self">Personal harm</option><option value="known">Known-person harm</option></select>
     </label>
-    <label class="form-label">Map view
+    <div id="wrp-sim-view-control"><label class="form-label">Map view
       <select class="form-select" id="wrp-sim-view" aria-label="Map view">
         <option value="overview">Global similarity overview (approximate)</option>
         <option value="distance">Distance from selected country</option>
       </select>
-    </label>
+    </label></div>
     <label class="form-label">Nearest countries shown
       <select class="form-select" id="wrp-sim-count" aria-label="Nearest countries shown">
         <option value="10">10</option><option value="20">20</option><option value="141">All (141)</option>
@@ -70,6 +70,7 @@ try {
   if(basis==='profiles')component='overall';
   basisSelect.value=basis;componentSelect.value=component;componentSelect.disabled=basis==='profiles';
   viewSelect.querySelector('[value="overview"]').disabled=basis==='responses';viewSelect.value=mode;
+  document.getElementById('wrp-sim-view-control').hidden=basis==='responses';
  }
  function restore(state){
   const incoming=state?.privateContent?.revision||0;if(incoming<revision)return;revision=incoming;
@@ -100,7 +101,7 @@ try {
   document.getElementById('wrp-sim-detail').textContent=`${selected.name} · ${selected.region} · ${Math.round(selected.retention*1000)/10}% of prepared respondents retained`;
   document.getElementById('wrp-sim-reading').textContent=mode==='overview'
    ?'Overview colours are a 2D approximation, not country groups or a burden scale. Rankings use the original Hellinger distances.'
-   :'W: average worry-category mismatch ×100. Self/Known: average absolute harm-prevalence gap in percentage points. Pair percentile uses all 10,011 distinct country pairs (lower = closer); not a confidence or significance measure. Colours are reference-specific; ranks are descriptive.';
+   :'1 = the typical pair distance; 2 = twice that distance. Colours use the same all-country median across selections; B and E share it. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points. This is not percentage societal similarity.';
   const single=basis==='responses'&&component!=='overall';root.classList.toggle('wrp-single-component',single);
   document.getElementById('wrp-sim-panel-E').hidden=single;
   for(const model of ['B','E']){
@@ -114,11 +115,10 @@ try {
    function labColor(x,y){return d3.lab(lightness,x*multiplier,y*multiplier);}
    while(multiplier>0.01 && embedding.coordinates.some(p=>{const c=labColor(...p).rgb();return c.r<3||c.r>252||c.g<3||c.g>252||c.b<3||c.b>252;}))multiplier*=.95;
    const stats=responseTools.statistics(basis,model,component),originalDistances=stats.matrix[selected.index];
-   const prefix=basis==='profiles'?'H':'TV';
-   const minDistance=d3.min(originalDistances),maxDistance=d3.max(originalDistances);
+   const scale=responseTools.scale(basis,component),prefix=responseTools.method(basis);
    const distancePalette=d3.quantize(d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]),7);
-   const distanceColour=d3.scaleQuantize().domain([minDistance,maxDistance>minDistance?maxDistance:minDistance+1]).range(distancePalette);
-   const colors=mode==='overview'?embedding.coordinates.map(p=>labColor(...p).formatHex()):originalDistances.map(d=>distanceColour(d));
+   const distanceColour=d3.scaleQuantize().domain([0,2]).range(distancePalette);
+   const colors=mode==='overview'?embedding.coordinates.map(p=>labColor(...p).formatHex()):originalDistances.map(d=>distanceColour(scale.normalize(d)));
    const svg=d3.select(document.getElementById('wrp-sim-'+model));
    const width=svg.node().getBoundingClientRect().width;if(width<1)continue;
    const height=Math.max(190,width*.54);
@@ -128,7 +128,7 @@ try {
     :`${responseTools.title(basis,model,component)} distance from ${selected.name}; original regional outlines`);
    const projection=d3.geoNaturalEarth1().fitExtent([[4,4],[width-4,height-4]],data.world);
    const path=d3.geoPath(projection);
-   const description=(code)=>{const c=byCode.get(code);return c?`${c.name} · ${c.region} · ${prefix} ${originalDistances[c.index].toFixed(4)}${c.index===selected.index?' (self)':` · pair percentile ${stats.percentile(originalDistances[c.index]).toFixed(1)} · ${responseTools.componentText(selected.index,c.index)}`}`:code+' · no study data';};
+   const description=(code)=>{const c=byCode.get(code);return c?`${c.name} · ${c.region} · ${prefix} ${scale.normalize(originalDistances[c.index]).toFixed(3)}${c.index===selected.index?' (selected country)':` · ${responseTools.componentText(selected.index,c.index)}`}`:code+' · no study data';};
    function inspect(code){if(byCode.has(code)){country=code;select.value=country;save();scheduleDraw();}}
    svg.append('g').selectAll('path').data(data.world.features).join('path').attr('class','wrp-country cursor-interaction').attr('d',path)
     .attr('fill',f=>byCode.has(f.properties.id)?colors[byCode.get(f.properties.id).index]:token('--muted'))
@@ -144,30 +144,29 @@ try {
    const nearest=stats.neighbours(selected.index).slice(0,listSize);
    document.getElementById('wrp-sim-summary-'+model).textContent=mode==='overview'
     ?`${Math.round(1000*embedding.variance)/10}% of country-distance variation shown`
-    :`${prefix} range ${minDistance.toFixed(4)}–${maxDistance.toFixed(4)} · zero includes selected country`;
-   document.getElementById('wrp-sim-neighbours-title-'+model).textContent=`Nearest to ${selected.name} · ${nearest.length} shown · ordered by ${prefix}`;
+    :prefix;
+   document.getElementById('wrp-sim-neighbours-title-'+model).textContent=`Nearest to ${selected.name} · normalized distance`;
    const list=document.getElementById('wrp-sim-neighbours-'+model);list.replaceChildren();
    for(const peerIndex of nearest){
     const distance=originalDistances[peerIndex];
     const li=document.createElement('li');li.dataset.iso=countries[peerIndex].iso;li.dataset.distance=String(distance);
+    li.dataset.normalizedDistance=String(scale.normalize(distance));
     const row=document.createElement('div');row.className='wrp-neighbour-row';
     const name=document.createElement('span');name.textContent=countries[peerIndex].name;
-    const value=document.createElement('span');value.className='wrp-neighbour-value tabular-nums';value.textContent=`${prefix} ${distance.toFixed(4)} · P ${stats.percentile(distance).toFixed(1)}`;
+    const value=document.createElement('span');value.className='wrp-neighbour-value tabular-nums';value.textContent=scale.normalize(distance).toFixed(3);
     row.append(name,value);li.appendChild(row);list.appendChild(li);
     const parts=document.createElement('div');parts.textContent=responseTools.componentText(selected.index,peerIndex);li.appendChild(parts);
-    if(single){const v=responseTools.components(selected.index,peerIndex),b=responseTools.statistics('responses','B','overall'),e=responseTools.statistics('responses','E','overall');
-     const overall=document.createElement('div');overall.textContent=`Overall B ${v.B.toFixed(4)} (P ${b.percentile(v.B).toFixed(1)}) · E ${v.E.toFixed(4)} (P ${e.percentile(v.E).toFixed(1)})`;li.appendChild(overall);}
    }
    const key=d3.select(document.getElementById('wrp-sim-key-'+model));key.selectAll('*').remove();key.attr('viewBox',`0 0 ${width} 90`);
    if(mode==='distance'){
-    key.attr('data-distance-min',minDistance).attr('data-distance-max',maxDistance);
-    key.append('title').text(`Seven equal-width distance bands from ${prefix} ${minDistance.toFixed(4)} to ${maxDistance.toFixed(4)} for ${selected.name}; country-specific colour scale.`);
-    const palette=maxDistance>minDistance?distancePalette:distancePalette.map(()=>distancePalette[0]);
+    key.attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian);
+    key.append('title').text(`${prefix}; fixed colour scale from zero to two or more. Reference median uses all 142 countries. Numerical labels are not capped.`);
+    const palette=distancePalette;
     key.selectAll('rect').data(palette).join('rect').attr('x',(_,i)=>16+i*(width-32)/palette.length).attr('y',18).attr('width',(width-32)/palette.length+.1).attr('height',14).attr('fill',v=>v);
-    key.append('text').attr('x',16).attr('y',52).text(minDistance.toFixed(4));
-    key.append('text').attr('x',width/2).attr('y',52).attr('text-anchor','middle').text(((minDistance+maxDistance)/2).toFixed(4));
-    key.append('text').attr('x',width-16).attr('y',52).attr('text-anchor','end').text(maxDistance.toFixed(4));
-    key.append('text').attr('x',16).attr('y',77).text(`${prefix} · country-specific colours`);
+    key.append('text').attr('x',16).attr('y',52).text('0 · closer');
+    key.append('text').attr('x',width/2).attr('y',52).attr('text-anchor','middle').text('1 · typical');
+    key.append('text').attr('x',width-16).attr('y',52).attr('text-anchor','end').text('2 or more');
+    key.append('text').attr('x',16).attr('y',77).text('Fixed reference · comparable across countries');
     continue;
    }
    key.append('title').text('The colour key is a map of country-similarity coordinates, not a burden or geographic scale.');

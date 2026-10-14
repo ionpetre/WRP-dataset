@@ -1,0 +1,42 @@
+{
+  "component_rule": "each component uses its own all-country diameter; do not recombine normalized components",
+  "display": "fixed seven equal-width bands on [0,1]; spell out distance names; no raw-distance/percentile clutter",
+  "files": {
+    "B_all_countries_post_validation_normalized_matrix.csv": "90a6a94b44be8f19e92bfbf60eef1fa4dc3137d145ab99904b7a09f6f8aab2a2",
+    "B_development_normalized_matrix.csv": "fbab7f9c61c2067f2033564b303df26a6a708b78aedc91c222e8d3fbdda4259a",
+    "E_all_countries_post_validation_normalized_matrix.csv": "d82c372faf2a2b3fc7a0cc63416e8c7e4ec2c8cb7398e1e3a5dacaffb71b4270",
+    "E_development_normalized_matrix.csv": "67160142ca2252cd8126acbf2cc7caf433cef5e17549ba9b68cd13b44a841fa6",
+    "illustrative_normalized_comparisons.csv": "712b3b79fd3ae1d7efbb3f45f846d1da8392cd6f2b7382b5921a629ac8d0b0c2",
+    "known_all_countries_post_validation_normalized_matrix.csv": "034148abd1ccc3631e0faf390d9c7e53ce9b7bbb4d39aca7eaa317c7a43d4971",
+    "known_development_normalized_matrix.csv": "9d66659421815b8cf02225fdff0876b58663946891bb3826b4511ea166ba44d3",
+    "self_all_countries_post_validation_normalized_matrix.csv": "db613ad1dbc08b799a2d01d96e57d172d7fa76ad1f102d585b79e23c444350d6",
+    "self_development_normalized_matrix.csv": "e7efee278972c850d9198d1f11a5ca321c9faf78b8723f3acab1fcb0ce8d14f8",
+    "worry_all_countries_post_validation_normalized_matrix.csv": "0292e07c0b5c1f929ad993dec103b3f55ffc9ace6bd172829aeb2c672f10d448",
+    "worry_development_normalized_matrix.csv": "68fc7e2ba1165326ed8bab356df0526830e0801c7e4fd0bff2e8a117b53cc24d"
+  },
+  "implementation_sha256": "1a8daa7087c984e0cbb49fa82b6b67e72197504c616bc939979004292d95971f",
+  "limits": "observed reference maximum, not theoretical dissimilarity or percentage similarity; post-validation display refinement",
+  "metric_diameters": {
+    "B": 0.4257796225396322,
+    "E": 0.5350073167247665,
+    "known": 0.397231889365402,
+    "self": 0.3101191062049716,
+    "worry": 0.644235010909901
+  },
+  "models_refitted": false,
+  "normalization": "D_normalized(c,d)=D(c,d)/fixed_denominator; zero if denominator is zero",
+  "normalization_denominators": {
+    "B": 0.5350073167247665,
+    "E": 0.5350073167247665,
+    "known": 0.397231889365402,
+    "self": 0.3101191062049716,
+    "worry": 0.644235010909901
+  },
+  "overall_rule": "one shared maximum across B and E; never recompute per selected country or displayed subset",
+  "raw_context": "e1ecf01551bcf2da",
+  "raw_results_overwritten": false,
+  "reference_countries": 142,
+  "reference_scope": "all_countries_post_validation",
+  "source_manifest_sha256": "db659de0e43bb77f1d4358ace33c2ac6c52cb064a09f2228f8e8c1bf1b20f815",
+  "version": 1
+}

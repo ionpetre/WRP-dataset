@@ -1,0 +1,45 @@
+{
+  "colour_rule": "seven fixed equal-width bands over [0,2], last colour includes larger values; label endpoint 2 or more",
+  "diameter_version_preserved": true,
+  "files": {
+    "B_all_countries_post_validation_median_relative_matrix.csv": "f11f9b8b50877050a8ffaae51460afb416849d82e26de9d9deaa3d8cf3dba0b2",
+    "B_development_median_relative_matrix.csv": "e1821b666d9d86bfa7b1560126cfbc0f043f821680716fb0009e724abd2957ab",
+    "E_all_countries_post_validation_median_relative_matrix.csv": "854a2508cede1f7d101589f1e68510b5519ed61a1ffe99eb0fb06112e7917502",
+    "E_development_median_relative_matrix.csv": "f490c01704f6f6e0617956fa5686e171236c5b07cb9019bbc708f5922a9497e0",
+    "illustrative_median_relative_comparisons.csv": "84b1e647459faf6ee7441fa09160f9a47fb58fef439f9b6a2cba86d06ea0bc9a",
+    "known_all_countries_post_validation_median_relative_matrix.csv": "d048f0fa3d933cca2bc98b9bbca77efa0e759afe33da5cee625371845cbf5f6e",
+    "known_development_median_relative_matrix.csv": "1626658ce80d3b8ffa80bf72cbe6a1be9596688edc92093f2f22ec485ad111b3",
+    "median_relative_display_summary.csv": "2fc8b1dcb47a8827be67c35fbb48e966f1fc044ee78097654a1b8212cb5be762",
+    "self_all_countries_post_validation_median_relative_matrix.csv": "6dd1752119acbf62f047142eeec073561a9faf9bd385892d720cbc23668d4457",
+    "self_development_median_relative_matrix.csv": "72277ea91a6071f0e08aa377b17bf8ef9941864d5111bed4e3f6312f6d8d4037",
+    "worry_all_countries_post_validation_median_relative_matrix.csv": "c7ac12c14a4d5a7451e431c12c3f276cde578c2b16f43fb3481cae4c885aaf6f",
+    "worry_development_median_relative_matrix.csv": "024169040a938ba7718d6ddeef1ef57a74bf89966b3305a81d3085031a898fce"
+  },
+  "implementation_sha256": "fba782d52543263694bb6fd538d87672b8487b0628b57e83bac777adf387c32d",
+  "limits": "post-validation display choice; 2 is not a significance/retention threshold; dependent pairs are not independent samples",
+  "models_refitted": false,
+  "numerical_labels": "uncapped ratios, not percentages of similarity",
+  "pooled_BE_values": 20022,
+  "raw_context": "e1ecf01551bcf2da",
+  "raw_results_overwritten": false,
+  "reference_countries": 142,
+  "reference_medians": {
+    "B": 0.1550977480973838,
+    "E": 0.1550977480973838,
+    "known": 0.0872275415556315,
+    "self": 0.0500960004811531,
+    "worry": 0.2019268502025546
+  },
+  "reference_scope": "all_countries_post_validation",
+  "rule": "R_m(c,d)=D_m(c,d)/fixed all-country median; overall B/E use median of pooled distinct-pair distances",
+  "scope_rule": "do not recalibrate for selected countries or development-only display",
+  "separate_metric_medians": {
+    "B": 0.1417301235414403,
+    "E": 0.1720291563714373,
+    "known": 0.0872275415556315,
+    "self": 0.0500960004811531,
+    "worry": 0.2019268502025546
+  },
+  "source_manifest_sha256": "db659de0e43bb77f1d4358ace33c2ac6c52cb064a09f2228f8e8c1bf1b20f815",
+  "version": 1
+}

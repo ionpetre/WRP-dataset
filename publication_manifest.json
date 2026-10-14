@@ -65,9 +65,9 @@
     {
       "path": "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
       "source": "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
-      "source_sha256": "8a8a025012962e6df9c7df37d7bd893e565adecfee91cb247cb506e25737d444",
-      "publication_sha256": "db6120f6cff665f9a55ad2d197e9d5543ef81b61d1d88190404a71ac9efd3534",
-      "bytes": 384311,
+      "source_sha256": "8b34c3290baeb4bb4a5d3e51cc2cfbb2585071aa7aff713b44507888219b41a7",
+      "publication_sha256": "66cc6efb198297b22717908ec41dcfc23190b0ffb30bd2824f8044b5830a0e7f",
+      "bytes": 393620,
       "modified_for_publication": true
     },
     {
@@ -7617,9 +7617,9 @@
     {
       "path": ".week05_build/country-similarity-map-template.html",
       "source": ".week05_build/country-similarity-map-template.html",
-      "source_sha256": "3456983491d4ce6a97b754343c1a7975e9d461372b4eaed1dd20ae28973d1532",
-      "publication_sha256": "3456983491d4ce6a97b754343c1a7975e9d461372b4eaed1dd20ae28973d1532",
-      "bytes": 17524,
+      "source_sha256": "ea966b998eab3f89ef12fa6cea04002b12acff1159dd3ff11f5b1ed648c12279",
+      "publication_sha256": "ea966b998eab3f89ef12fa6cea04002b12acff1159dd3ff11f5b1ed648c12279",
+      "bytes": 16945,
       "modified_for_publication": false
     },
     {
@@ -7961,97 +7961,97 @@
     {
       "path": ".week05_build/country-response-distance-tools.js",
       "source": ".week05_build/country-response-distance-tools.js",
-      "source_sha256": "364160ae6299040bd5a64624f842b701025fc288bac3d27cd3837a03f32d2c0d",
-      "publication_sha256": "364160ae6299040bd5a64624f842b701025fc288bac3d27cd3837a03f32d2c0d",
-      "bytes": 3326,
+      "source_sha256": "588735bc5b2d43d5e7b0b742b87a76cbcf03431f4f5e093a1e08792795cbecf5",
+      "publication_sha256": "588735bc5b2d43d5e7b0b742b87a76cbcf03431f4f5e093a1e08792795cbecf5",
+      "bytes": 4751,
       "modified_for_publication": false
     },
     {
       "path": ".week05_build/export_country_response_maps.py",
       "source": ".week05_build/export_country_response_maps.py",
-      "source_sha256": "a1ab4807315c67474cd6f201086a38a6ac9f1d699e0ef7f7b251d81e7786650c",
-      "publication_sha256": "a1ab4807315c67474cd6f201086a38a6ac9f1d699e0ef7f7b251d81e7786650c",
-      "bytes": 3191,
+      "source_sha256": "c4faff57f2acb88bc6819d901901e4d014085fe612bd1a354c3eba8726af6e74",
+      "publication_sha256": "c4faff57f2acb88bc6819d901901e4d014085fe612bd1a354c3eba8726af6e74",
+      "bytes": 5147,
       "modified_for_publication": false
     },
     {
       "path": ".week05_build/country-income-map-template.html",
       "source": ".week05_build/country-income-map-template.html",
-      "source_sha256": "e95ed87983c26d3a77e36c2d428ad62a5a2942582c92d808199a7e446ac3903b",
-      "publication_sha256": "e95ed87983c26d3a77e36c2d428ad62a5a2942582c92d808199a7e446ac3903b",
-      "bytes": 17831,
+      "source_sha256": "dd810ce1c4dd706681bf97ec175df7c6a5c8699475864723a5ce894ee09c1f36",
+      "publication_sha256": "dd810ce1c4dd706681bf97ec175df7c6a5c8699475864723a5ce894ee09c1f36",
+      "bytes": 17610,
       "modified_for_publication": false
     },
     {
       "path": "README.md",
       "source": "publication-source:README.md",
-      "source_sha256": "8ac8ac7e0ee8a7ce8a91b2cc127107056a44a84fc11b8e607f4db56ad30fdd90",
-      "publication_sha256": "8ac8ac7e0ee8a7ce8a91b2cc127107056a44a84fc11b8e607f4db56ad30fdd90",
-      "bytes": 4582,
+      "source_sha256": "2df964ac7a3317dd8034d9b8a912e86a233001d608be8b6a1042914ecd449dd3",
+      "publication_sha256": "2df964ac7a3317dd8034d9b8a912e86a233001d608be8b6a1042914ecd449dd3",
+      "bytes": 4663,
       "modified_for_publication": false
     },
     {
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
-      "source_sha256": "015a43c807a4c1743a7b2d0e58b093bace81ed1f8624acdc71a50961f18e80f9",
-      "publication_sha256": "015a43c807a4c1743a7b2d0e58b093bace81ed1f8624acdc71a50961f18e80f9",
-      "bytes": 11821,
+      "source_sha256": "cd4dd6a370a373306d956e8a304beff3186faf1adf8ebdafca73dc730fd9c06b",
+      "publication_sha256": "cd4dd6a370a373306d956e8a304beff3186faf1adf8ebdafca73dc730fd9c06b",
+      "bytes": 13156,
       "modified_for_publication": false
     },
     {
       "path": "research/RESULTS.md",
       "source": "publication-source:research/RESULTS.md",
-      "source_sha256": "b1a3ce25191eeea66669829f84c846b0ee813136ca447ecbf69b9ccdb7d6a2d1",
-      "publication_sha256": "b1a3ce25191eeea66669829f84c846b0ee813136ca447ecbf69b9ccdb7d6a2d1",
-      "bytes": 11907,
+      "source_sha256": "c438fc48197f27a60e76a7e06d99aeb87a029b8a1fa48f65550bb89df91343e8",
+      "publication_sha256": "c438fc48197f27a60e76a7e06d99aeb87a029b8a1fa48f65550bb89df91343e8",
+      "bytes": 12461,
       "modified_for_publication": false
     },
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
-      "source_sha256": "22772ccfccdf104931eeceee2322a1f9e0ebb0fc982fbb9c2a51ae6197da7264",
-      "publication_sha256": "22772ccfccdf104931eeceee2322a1f9e0ebb0fc982fbb9c2a51ae6197da7264",
-      "bytes": 6114,
+      "source_sha256": "bb336b4bc73cbf9cdc58260494ce86da2c0b1db9d3fac3d29fa5e7b5addb0382",
+      "publication_sha256": "bb336b4bc73cbf9cdc58260494ce86da2c0b1db9d3fac3d29fa5e7b5addb0382",
+      "bytes": 7291,
       "modified_for_publication": false
     },
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "a25fa4c81d40387ae0d058f90b9beac0e70711b09a7d52b71e55de2dc96bbcec",
-      "publication_sha256": "a25fa4c81d40387ae0d058f90b9beac0e70711b09a7d52b71e55de2dc96bbcec",
-      "bytes": 2538,
+      "source_sha256": "8edeba9cb3ffdd4b853445d63dcc2244fa4352d7ef029c71483bf6d920dbe7a1",
+      "publication_sha256": "8edeba9cb3ffdd4b853445d63dcc2244fa4352d7ef029c71483bf6d920dbe7a1",
+      "bytes": 3471,
       "modified_for_publication": false
     },
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
-      "source_sha256": "e9bcb24672d4d3108130a6bb054a530c5f2ac298fcec9d9bbc2f4c7c2c6feede",
-      "publication_sha256": "e9bcb24672d4d3108130a6bb054a530c5f2ac298fcec9d9bbc2f4c7c2c6feede",
-      "bytes": 1398849,
+      "source_sha256": "de54bb2e8d3f076c311dfd2988040be5f70f559a733000831327809eb4cc2d43",
+      "publication_sha256": "de54bb2e8d3f076c311dfd2988040be5f70f559a733000831327809eb4cc2d43",
+      "bytes": 1402386,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "fa3afb44fa3dec963bba837457c237679af7f5390f5f7e0d2ad4b9b860fe8e43",
-      "publication_sha256": "fa3afb44fa3dec963bba837457c237679af7f5390f5f7e0d2ad4b9b860fe8e43",
-      "bytes": 1424321,
+      "source_sha256": "26236133719d04cd72145f1e14293fdd2b66a34992ab35b098dc5b9d098a75e6",
+      "publication_sha256": "26236133719d04cd72145f1e14293fdd2b66a34992ab35b098dc5b9d098a75e6",
+      "bytes": 1428258,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-similarity-fragment.html",
       "source": "publication-source:docs/country-similarity-fragment.html",
-      "source_sha256": "f589b7c819d84725900ef2920a97f36fa4e0fda36fcf143dabb50c20587ac6ff",
-      "publication_sha256": "f589b7c819d84725900ef2920a97f36fa4e0fda36fcf143dabb50c20587ac6ff",
-      "bytes": 970349,
+      "source_sha256": "9dad4a65477684342b4df2d53260c85e0b326bbada44f681533c45d5e74e8ca5",
+      "publication_sha256": "9dad4a65477684342b4df2d53260c85e0b326bbada44f681533c45d5e74e8ca5",
+      "bytes": 971195,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income-fragment.html",
       "source": "publication-source:docs/country-income-fragment.html",
-      "source_sha256": "ba405723ced526cc23e369e3fe20ea7a1634fed74fdf590ee9f3bb620f323fcd",
-      "publication_sha256": "ba405723ced526cc23e369e3fe20ea7a1634fed74fdf590ee9f3bb620f323fcd",
-      "bytes": 984240,
+      "source_sha256": "3945a4c619b3eef0c92bac4432838f045fd659836f9650ec40fbcffb09f48b8f",
+      "publication_sha256": "3945a4c619b3eef0c92bac4432838f045fd659836f9650ec40fbcffb09f48b8f",
+      "bytes": 985444,
       "modified_for_publication": false
     },
     {
@@ -8060,6 +8060,254 @@
       "source_sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
       "publication_sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
       "bytes": 279706,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/country_distance_normalization.py",
+      "source": ".week05_build/country_distance_normalization.py",
+      "source_sha256": "1a8daa7087c984e0cbb49fa82b6b67e72197504c616bc939979004292d95971f",
+      "publication_sha256": "1a8daa7087c984e0cbb49fa82b6b67e72197504c616bc939979004292d95971f",
+      "bytes": 3418,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/test_country_distance_normalization.py",
+      "source": ".week05_build/test_country_distance_normalization.py",
+      "source_sha256": "be791cdf7548e4dbce1d7979f89d18135ee88ef4b2a3afcdf6276a8e256015da",
+      "publication_sha256": "be791cdf7548e4dbce1d7979f89d18135ee88ef4b2a3afcdf6276a8e256015da",
+      "bytes": 2116,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_development_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_development_normalized_matrix.csv",
+      "source_sha256": "67160142ca2252cd8126acbf2cc7caf433cef5e17549ba9b68cd13b44a841fa6",
+      "publication_sha256": "67160142ca2252cd8126acbf2cc7caf433cef5e17549ba9b68cd13b44a841fa6",
+      "bytes": 246759,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/illustrative_normalized_comparisons.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/illustrative_normalized_comparisons.csv",
+      "source_sha256": "712b3b79fd3ae1d7efbb3f45f846d1da8392cd6f2b7382b5921a629ac8d0b0c2",
+      "publication_sha256": "712b3b79fd3ae1d7efbb3f45f846d1da8392cd6f2b7382b5921a629ac8d0b0c2",
+      "bytes": 4085,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_development_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_development_normalized_matrix.csv",
+      "source_sha256": "68fc7e2ba1165326ed8bab356df0526830e0801c7e4fd0bff2e8a117b53cc24d",
+      "publication_sha256": "68fc7e2ba1165326ed8bab356df0526830e0801c7e4fd0bff2e8a117b53cc24d",
+      "bytes": 247019,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/normalization_manifest.json",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/normalization_manifest.json",
+      "source_sha256": "27c3e2a9890c19f45e354c7e1a4008593738f45f33e7cd61492c55cd4bed5a72",
+      "publication_sha256": "27c3e2a9890c19f45e354c7e1a4008593738f45f33e7cd61492c55cd4bed5a72",
+      "bytes": 2693,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_normalized_matrix.csv",
+      "source_sha256": "0292e07c0b5c1f929ad993dec103b3f55ffc9ace6bd172829aeb2c672f10d448",
+      "publication_sha256": "0292e07c0b5c1f929ad993dec103b3f55ffc9ace6bd172829aeb2c672f10d448",
+      "bytes": 390063,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_development_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_development_normalized_matrix.csv",
+      "source_sha256": "e7efee278972c850d9198d1f11a5ca321c9faf78b8723f3acab1fcb0ce8d14f8",
+      "publication_sha256": "e7efee278972c850d9198d1f11a5ca321c9faf78b8723f3acab1fcb0ce8d14f8",
+      "bytes": 250025,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_development_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_development_normalized_matrix.csv",
+      "source_sha256": "9d66659421815b8cf02225fdff0876b58663946891bb3826b4511ea166ba44d3",
+      "publication_sha256": "9d66659421815b8cf02225fdff0876b58663946891bb3826b4511ea166ba44d3",
+      "bytes": 248913,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_development_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_development_normalized_matrix.csv",
+      "source_sha256": "fbab7f9c61c2067f2033564b303df26a6a708b78aedc91c222e8d3fbdda4259a",
+      "publication_sha256": "fbab7f9c61c2067f2033564b303df26a6a708b78aedc91c222e8d3fbdda4259a",
+      "bytes": 248033,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_all_countries_post_validation_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_all_countries_post_validation_normalized_matrix.csv",
+      "source_sha256": "90a6a94b44be8f19e92bfbf60eef1fa4dc3137d145ab99904b7a09f6f8aab2a2",
+      "publication_sha256": "90a6a94b44be8f19e92bfbf60eef1fa4dc3137d145ab99904b7a09f6f8aab2a2",
+      "bytes": 391893,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_all_countries_post_validation_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_all_countries_post_validation_normalized_matrix.csv",
+      "source_sha256": "d82c372faf2a2b3fc7a0cc63416e8c7e4ec2c8cb7398e1e3a5dacaffb71b4270",
+      "publication_sha256": "d82c372faf2a2b3fc7a0cc63416e8c7e4ec2c8cb7398e1e3a5dacaffb71b4270",
+      "bytes": 389855,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_all_countries_post_validation_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_all_countries_post_validation_normalized_matrix.csv",
+      "source_sha256": "034148abd1ccc3631e0faf390d9c7e53ce9b7bbb4d39aca7eaa317c7a43d4971",
+      "publication_sha256": "034148abd1ccc3631e0faf390d9c7e53ce9b7bbb4d39aca7eaa317c7a43d4971",
+      "bytes": 393499,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_all_countries_post_validation_normalized_matrix.csv",
+      "source": "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_all_countries_post_validation_normalized_matrix.csv",
+      "source_sha256": "db613ad1dbc08b799a2d01d96e57d172d7fa76ad1f102d585b79e23c444350d6",
+      "publication_sha256": "db613ad1dbc08b799a2d01d96e57d172d7fa76ad1f102d585b79e23c444350d6",
+      "bytes": 394923,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/country_median_scaling.py",
+      "source": ".week05_build/country_median_scaling.py",
+      "source_sha256": "fba782d52543263694bb6fd538d87672b8487b0628b57e83bac777adf387c32d",
+      "publication_sha256": "fba782d52543263694bb6fd538d87672b8487b0628b57e83bac777adf387c32d",
+      "bytes": 3752,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/test_country_median_scaling.py",
+      "source": ".week05_build/test_country_median_scaling.py",
+      "source_sha256": "4e9e7705bb4c9cf9dff629a661ba9dad11485cad54677ac75722d6031158e6c3",
+      "publication_sha256": "4e9e7705bb4c9cf9dff629a661ba9dad11485cad54677ac75722d6031158e6c3",
+      "bytes": 2112,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/research-page-header.html",
+      "source": ".week05_build/research-page-header.html",
+      "source_sha256": "eb00a37c5720d861462c8416c76ccbdea2cf593c83a736957f7f30e59bdff010",
+      "publication_sha256": "eb00a37c5720d861462c8416c76ccbdea2cf593c83a736957f7f30e59bdff010",
+      "bytes": 829,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/research-page-style.css",
+      "source": ".week05_build/research-page-style.css",
+      "source_sha256": "b979e626d0eb699dce705253279c4a9f678b78132d112838cf94ec92817593bc",
+      "publication_sha256": "b979e626d0eb699dce705253279c4a9f678b78132d112838cf94ec92817593bc",
+      "bytes": 1820,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_all_countries_post_validation_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_all_countries_post_validation_median_relative_matrix.csv",
+      "source_sha256": "6dd1752119acbf62f047142eeec073561a9faf9bd385892d720cbc23668d4457",
+      "publication_sha256": "6dd1752119acbf62f047142eeec073561a9faf9bd385892d720cbc23668d4457",
+      "bytes": 378281,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_all_countries_post_validation_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_all_countries_post_validation_median_relative_matrix.csv",
+      "source_sha256": "854a2508cede1f7d101589f1e68510b5519ed61a1ffe99eb0fb06112e7917502",
+      "publication_sha256": "854a2508cede1f7d101589f1e68510b5519ed61a1ffe99eb0fb06112e7917502",
+      "bytes": 378109,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_relative_display_summary.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_relative_display_summary.csv",
+      "source_sha256": "2fc8b1dcb47a8827be67c35fbb48e966f1fc044ee78097654a1b8212cb5be762",
+      "publication_sha256": "2fc8b1dcb47a8827be67c35fbb48e966f1fc044ee78097654a1b8212cb5be762",
+      "bytes": 1127,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_all_countries_post_validation_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_all_countries_post_validation_median_relative_matrix.csv",
+      "source_sha256": "f11f9b8b50877050a8ffaae51460afb416849d82e26de9d9deaa3d8cf3dba0b2",
+      "publication_sha256": "f11f9b8b50877050a8ffaae51460afb416849d82e26de9d9deaa3d8cf3dba0b2",
+      "bytes": 379105,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_scaling_manifest.json",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_scaling_manifest.json",
+      "source_sha256": "2269807193dd8f2b3e1fd79356f5621f64171e6f86af282a8df538b44190f123",
+      "publication_sha256": "2269807193dd8f2b3e1fd79356f5621f64171e6f86af282a8df538b44190f123",
+      "bytes": 2892,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_development_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_development_median_relative_matrix.csv",
+      "source_sha256": "f490c01704f6f6e0617956fa5686e171236c5b07cb9019bbc708f5922a9497e0",
+      "publication_sha256": "f490c01704f6f6e0617956fa5686e171236c5b07cb9019bbc708f5922a9497e0",
+      "bytes": 239309,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_development_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_development_median_relative_matrix.csv",
+      "source_sha256": "1626658ce80d3b8ffa80bf72cbe6a1be9596688edc92093f2f22ec485ad111b3",
+      "publication_sha256": "1626658ce80d3b8ffa80bf72cbe6a1be9596688edc92093f2f22ec485ad111b3",
+      "bytes": 239739,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_development_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_development_median_relative_matrix.csv",
+      "source_sha256": "e1821b666d9d86bfa7b1560126cfbc0f043f821680716fb0009e724abd2957ab",
+      "publication_sha256": "e1821b666d9d86bfa7b1560126cfbc0f043f821680716fb0009e724abd2957ab",
+      "bytes": 240013,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/illustrative_median_relative_comparisons.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/illustrative_median_relative_comparisons.csv",
+      "source_sha256": "84b1e647459faf6ee7441fa09160f9a47fb58fef439f9b6a2cba86d06ea0bc9a",
+      "publication_sha256": "84b1e647459faf6ee7441fa09160f9a47fb58fef439f9b6a2cba86d06ea0bc9a",
+      "bytes": 3071,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_development_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_development_median_relative_matrix.csv",
+      "source_sha256": "024169040a938ba7718d6ddeef1ef57a74bf89966b3305a81d3085031a898fce",
+      "publication_sha256": "024169040a938ba7718d6ddeef1ef57a74bf89966b3305a81d3085031a898fce",
+      "bytes": 239637,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_all_countries_post_validation_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_all_countries_post_validation_median_relative_matrix.csv",
+      "source_sha256": "d048f0fa3d933cca2bc98b9bbca77efa0e759afe33da5cee625371845cbf5f6e",
+      "publication_sha256": "d048f0fa3d933cca2bc98b9bbca77efa0e759afe33da5cee625371845cbf5f6e",
+      "bytes": 378881,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_development_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_development_median_relative_matrix.csv",
+      "source_sha256": "72277ea91a6071f0e08aa377b17bf8ef9941864d5111bed4e3f6312f6d8d4037",
+      "publication_sha256": "72277ea91a6071f0e08aa377b17bf8ef9941864d5111bed4e3f6312f6d8d4037",
+      "bytes": 239623,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_median_relative_matrix.csv",
+      "source": "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_median_relative_matrix.csv",
+      "source_sha256": "c7ac12c14a4d5a7451e431c12c3f276cde578c2b16f43fb3481cae4c885aaf6f",
+      "publication_sha256": "c7ac12c14a4d5a7451e431c12c3f276cde578c2b16f43fb3481cae4c885aaf6f",
+      "bytes": 378575,
       "modified_for_publication": false
     }
   ],
@@ -8146,5 +8394,95 @@
       "publication_map_test.json"
     ],
     "upload": "Replace/add these paths in the existing repository; do not upload protected data."
-  }
+  },
+  "fixed_diameter_normalization": {
+    "reference_countries": 142,
+    "all_country_denominators_in_all_display_scopes": true,
+    "shared_BE_denominator": 0.5350073167247665,
+    "component_diameters_separate": true,
+    "original_scientific_distances_preserved": true,
+    "models_refitted": false,
+    "repository_action": "Prepared local files only; user will commit and push.",
+    "changed_or_added_files": [
+      ".week05_build/country-response-distance-tools.js",
+      ".week05_build/country-similarity-map-template.html",
+      ".week05_build/country-income-map-template.html",
+      ".week05_build/country_distance_normalization.py",
+      ".week05_build/test_country_distance_normalization.py",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_development_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/illustrative_normalized_comparisons.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_development_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/normalization_manifest.json",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_development_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_development_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_development_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/B_all_countries_post_validation_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/E_all_countries_post_validation_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/known_all_countries_post_validation_normalized_matrix.csv",
+      "course_artifacts/week05_country_distance_normalization_v1/e1ecf01551bcf2da/self_all_countries_post_validation_normalized_matrix.csv",
+      "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
+      "docs/index.html",
+      "docs/country-income.html",
+      "docs/country-similarity-fragment.html",
+      "docs/country-income-fragment.html",
+      "docs/README.md",
+      "research/METHODS.md",
+      "research/RESULTS.md",
+      "research/REPRODUCING.md",
+      "publication_manifest.json",
+      "publication_map_test.json",
+      "publication_audit.json"
+    ],
+    "status": "historical display, superseded by median_relative_display"
+  },
+  "median_relative_display": {
+    "reference_countries": 142,
+    "all_country_denominators_in_all_display_scopes": true,
+    "shared_BE_reference_median": 0.1550977480973838,
+    "component_medians_separate": true,
+    "colour_ceiling": 2,
+    "numerical_values_uncapped": true,
+    "descriptive_web_navigation": true,
+    "original_scientific_distances_preserved": true,
+    "models_refitted": false,
+    "repository_action": "Prepared local files only; user will commit and push.",
+    "changed_or_added_files": [
+      ".week05_build/country-response-distance-tools.js",
+      ".week05_build/country-similarity-map-template.html",
+      ".week05_build/country-income-map-template.html",
+      ".week05_build/country_median_scaling.py",
+      ".week05_build/test_country_median_scaling.py",
+      ".week05_build/export_country_response_maps.py",
+      ".week05_build/research-page-header.html",
+      ".week05_build/research-page-style.css",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_all_countries_post_validation_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_all_countries_post_validation_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_relative_display_summary.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_all_countries_post_validation_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/median_scaling_manifest.json",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/E_development_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_development_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/B_development_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/illustrative_median_relative_comparisons.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_development_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/known_all_countries_post_validation_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/self_development_median_relative_matrix.csv",
+      "course_artifacts/week05_country_median_scaling_v1/e1ecf01551bcf2da/worry_all_countries_post_validation_median_relative_matrix.csv",
+      "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
+      "README.md",
+      "docs/index.html",
+      "docs/country-income.html",
+      "docs/country-similarity-fragment.html",
+      "docs/country-income-fragment.html",
+      "docs/README.md",
+      "research/METHODS.md",
+      "research/RESULTS.md",
+      "research/REPRODUCING.md",
+      "publication_manifest.json",
+      "publication_map_test.json",
+      "publication_audit.json"
+    ]
+  },
+  "current_country_map_scale": "median_relative"
 }

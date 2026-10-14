@@ -14,10 +14,16 @@ From the repository root:
 
 ```sh
 python .week05_build/test_country_response_distances.py
+python .week05_build/test_country_distance_normalization.py
+python .week05_build/test_country_median_scaling.py
 python .week05_build/export_country_response_maps.py --output course_artifacts/week05_country_response_distances_v1/e1ecf01551bcf2da
 ```
 
 The test checks matrices, allocations, percentile pools, triangle inequalities and USA/Finland comparisons. The exporter regenerates both offline pages from aggregate data and editable templates, without raw responses, fitting or network access. Keep `docs/vendor/d3.min.js` and its licence. Week 5 section 32 reads and verifies saved aggregates, with recomputation disabled by default.
+
+Week 5 section 33 documents fixed diameter normalization. `country_distance_normalization.py` regenerates its separate normalized CSVs and manifest from the original aggregate matrices; it needs no microdata or fitting. Its test checks fixed full-country denominators, the shared B/E scale, symmetry, triangle inequalities and invariant values across display scopes. The map helper independently reconstructs the same maxima from aggregate probabilities, with browser checks against saved results. Raw results are not overwritten.
+
+Section 34 supersedes that display with median-relative scaling. `country_median_scaling.py` regenerates uncapped matrices, examples and colour-ceiling summaries from the same aggregates. Its test verifies pooled/component medians, reciprocal symmetry, scope invariance and values above two. Editable header and stylesheet sources are `.week05_build/research-page-header.html` and `research-page-style.css`; the portable exporter applies them while preserving the offline runtime. No hosting, commit or push is performed by export.
 
 Rebuilding the original weighted aggregates requires protected curated inputs and the recorded freeze seal. `country_response_distances.py` records input fingerprints in a separate result context, validates cohort counts and, when available, checks the protected assignment registry; it never fits profiles. The saved-result reporting cell checks available inputs against the recorded fingerprints. Aggregate-only reconstruction cannot independently verify original individual weights or cohort IDs.
 

@@ -37,7 +37,27 @@ def export_response_maps(root, output, inline_dir=None):
         # do not grow the wrapper or alter hashes on each invocation.
         updated=inner[:start]+offline.rstrip()+"\n"+inner[end:].lstrip()
         assert not re.search(r'<script[^>]+src=',updated)
-        path.write_text(document[:match.start(1)]+html.escape(updated,quote=True)+document[match.end(1):])
+        rendered=document[:match.start(1)]+html.escape(updated,quote=True)+document[match.end(1):]
+        header=(root/'.week05_build/research-page-header.html').read_text()
+        current=filename=='index.html'
+        title='How do worry and harm differ across countries?' if current else 'How do response patterns relate to country income?'
+        description=('Compare 142 countries using worry and personal or known-person harm. Explore overall patterns or individual components.' if current else
+                     'Explore country income groups and their response differences. Income provides context; it is not used to calculate country similarity.')
+        replacements={'__PAGE_TITLE__':title,'__PAGE_DESCRIPTION__':description,
+          '__COUNTRY_CLASS__':'is-current' if current else '', '__INCOME_CLASS__':'' if current else 'is-current',
+          '__COUNTRY_CURRENT__':'aria-current="page"' if current else '', '__INCOME_CURRENT__':'' if current else 'aria-current="page"'}
+        for key,value in replacements.items():header=header.replace(key,value)
+        if '<header class="research-header">' in rendered:
+            rendered=re.sub(r'<header class="research-header">.*?</header>',lambda _:header.rstrip(),rendered,count=1,flags=re.S)
+        else:
+            rendered=re.sub(r'<nav aria-label="Country maps">.*?</nav>',lambda _:header.rstrip(),rendered,count=1,flags=re.S)
+        css=(root/'.week05_build/research-page-style.css').read_text()
+        rendered=re.sub(r'<style>nav\{.*?</style>','',rendered,count=1,flags=re.S)
+        if '<style id="wrp-research-page-style">' in rendered:
+            rendered=re.sub(r'<style id="wrp-research-page-style">.*?</style>',lambda _:'<style id="wrp-research-page-style">'+css+'</style>',rendered,count=1,flags=re.S)
+        else:rendered=rendered.replace('</head>','<style id="wrp-research-page-style">'+css+'</style>\n</head>',1)
+        rendered=re.sub(r'<title>[^<]*</title>',lambda _:'<title>'+title+' · World Risk Poll</title>',rendered,count=1)
+        path.write_text(rendered)
     return docs
 
 if __name__=='__main__':

@@ -5,12 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>Country Income Similarity</title>
+<title>How do response patterns relate to country income? · World Risk Poll</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
-<style>nav{font-family:system-ui,sans-serif;color:light-dark(rgb(24 24 24),rgb(240 240 240));margin-bottom:1rem}nav a{color:inherit}</style>
+
+<style id="wrp-research-page-style">:root{color-scheme:light dark;--page-bg:light-dark(#fff,#181818);--page-ink:light-dark(#20252b,#f2f3f5);--page-muted:light-dark(#515b65,#b5bec8);--page-line:light-dark(#d9dfe5,#454d56);--page-active:light-dark(#edf3f8,#263440)}
+html,body{margin:0;background:var(--page-bg);color:var(--page-ink)}
+body{box-sizing:border-box;padding:clamp(1rem,3vw,2.25rem);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.research-header{max-width:1120px;margin:0 auto 1.75rem}
+.research-brand{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;font-size:.75rem;letter-spacing:.06em;font-weight:600}
+.research-brand a{color:var(--page-muted);font-size:.8rem;letter-spacing:0;font-weight:400;text-underline-offset:.2em}
+.research-header h1{font-size:clamp(1.55rem,3.4vw,2.1rem);line-height:1.2;letter-spacing:-.025em;margin:1rem 0 .5rem;font-weight:600}
+.research-intro{max-width:70ch;margin:0 0 1.2rem;color:var(--page-muted);line-height:1.5;font-size:.95rem}
+.research-views{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.research-view{display:flex;flex-direction:column;gap:.35rem;padding:1rem 1.15rem;color:var(--page-ink);text-decoration:none;border:1px solid var(--page-line);border-radius:.6rem;line-height:1.4}
+.research-view:hover{background:var(--page-active)}
+.research-view:focus-visible{outline:2px solid var(--page-ink);outline-offset:3px}
+.research-view.is-current{background:var(--page-active);border-color:var(--page-ink)}
+.view-name{font-size:1rem;font-weight:600}
+.view-description{font-size:.875rem;color:var(--page-muted)}
+iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margin:0 auto;border:0}
+@media(max-width:560px){.research-views{grid-template-columns:1fr}.research-view{padding:.8rem 1rem}.research-header{margin-bottom:1.2rem}}
+</style>
 </head>
 <body>
-<nav aria-label="Country maps"><a href="./index.html">Country response similarity</a> · <a href="./country-income.html">Income comparison</a></nav>
+<header class="research-header">
+  <div class="research-brand"><span>WORLD RISK POLL · 2023</span><a href="https://github.com/ionpetre/WRP-dataset" rel="noopener">Research repository</a></div>
+  <h1>How do response patterns relate to country income?</h1>
+  <p class="research-intro">Explore country income groups and their response differences. Income provides context; it is not used to calculate country similarity.</p>
+  <nav class="research-views" aria-label="Explore the research">
+    <a class="research-view " href="./index.html" ><span class="view-name">Compare countries</span><span class="view-description">Find countries with similar worry and reported harm.</span></a>
+    <a class="research-view is-current" href="./country-income.html" aria-current="page"><span class="view-name">Explore income patterns</span><span class="view-description">Compare responses within and between income groups.</span></a>
+  </nav>
+</header>
 <iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Country Income Similarity" data-srcdoc="&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
 &lt;head&gt;
@@ -1799,7 +1825,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;svg id=&quot;wrp-inc-map&quot; class=&quot;inc-map&quot; role=&quot;img&quot; aria-label=&quot;World map of fieldwork income groups or frozen profile distance&quot;&gt;&lt;/svg&gt;
   &lt;div id=&quot;wrp-inc-legend&quot; class=&quot;viz-row text-small&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;text-small&quot;&gt;Thin outlines: dataset regions · highlighted outline: selected country · uncoloured: outside this set · hatching: income not classified&lt;/div&gt;
-  &lt;h3&gt;Mean overall country distance by income group&lt;/h3&gt;
+  &lt;h3&gt;Mean median-relative distance by income group&lt;/h3&gt;
   &lt;div class=&quot;inc-panels&quot;&gt;
     &lt;section&gt;&lt;h3 id=&quot;wrp-inc-heading-B&quot;&gt;B allocation&lt;/h3&gt;&lt;div id=&quot;wrp-inc-summary-B&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;svg id=&quot;wrp-inc-matrix-B&quot; class=&quot;inc-matrix&quot; role=&quot;img&quot; aria-label=&quot;Income-group mean country distance under B allocation&quot;&gt;&lt;/svg&gt;&lt;/section&gt;
     &lt;section&gt;&lt;h3 id=&quot;wrp-inc-heading-E&quot;&gt;E allocation&lt;/h3&gt;&lt;div id=&quot;wrp-inc-summary-E&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;svg id=&quot;wrp-inc-matrix-E&quot; class=&quot;inc-matrix&quot; role=&quot;img&quot; aria-label=&quot;Income-group mean country distance under E allocation&quot;&gt;&lt;/svg&gt;&lt;/section&gt;
@@ -1810,7 +1836,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;section&gt;&lt;h3 id=&quot;wrp-inc-near-title-B&quot;&gt;B4 · nearest countries&lt;/h3&gt;&lt;ol id=&quot;wrp-inc-near-B&quot; class=&quot;text-small&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
     &lt;section&gt;&lt;h3 id=&quot;wrp-inc-near-title-E&quot;&gt;E8 · nearest countries&lt;/h3&gt;&lt;ol id=&quot;wrp-inc-near-E&quot; class=&quot;text-small&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;text-small&quot;&gt;W: worry-category mismatch ×100. Self/Known: mean harm-prevalence gap in percentage points. P: percentile among all distinct pairs in the selected country set, not significance or confidence. Income summaries exclude unclassified Venezuela; distance rankings do not. No new model fitting.&lt;/div&gt;
+  &lt;div class=&quot;text-small&quot;&gt;1 = the typical pair distance; 2 = twice that distance. Reference medians use all 142 countries even in the development-only view. B and E share a median; components have their own. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points. No model refitting.&lt;/div&gt;
   &lt;div id=&quot;wrp-inc-error&quot; role=&quot;alert&quot; hidden&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
@@ -1854,6 +1880,20 @@ function wrpResponseTools(data){
   for(const key of Object.keys(values))matrices[key][i][j]=matrices[key][j][i]=values[key];
  }
  const caches=new Map();
+ const maximum=matrix=&gt;matrix.reduce((m,row)=&gt;Math.max(m,...row),0);
+ const diameters={responses:{overall:Math.max(maximum(matrices.B),maximum(matrices.E))},
+                  profiles:{overall:Math.max(maximum(data.distances.B),maximum(data.distances.E))}};
+ for(const key of [&#x27;worry&#x27;,&#x27;self&#x27;,&#x27;known&#x27;])diameters.responses[key]=maximum(matrices[key]);
+ const pairs=matrix=&gt;{const values=[];for(let a=0;a&lt;n;a++)for(let b=a+1;b&lt;n;b++)values.push(matrix[a][b]);return values;};
+ const median=values=&gt;{values.sort((a,b)=&gt;a-b);const mid=values.length&gt;&gt;1;return values.length%2?values[mid]:(values[mid-1]+values[mid])/2;};
+ const medians={responses:{overall:median([...pairs(matrices.B),...pairs(matrices.E)])},
+                profiles:{overall:median([...pairs(data.distances.B),...pairs(data.distances.E)])}};
+ for(const key of [&#x27;worry&#x27;,&#x27;self&#x27;,&#x27;known&#x27;])medians.responses[key]=median(pairs(matrices[key]));
+ function scale(basis,component=&#x27;overall&#x27;){
+  const key=basis===&#x27;profiles&#x27;?&#x27;overall&#x27;:component,referenceMedian=medians[basis][key];
+  if(referenceMedian===0&amp;&amp;diameters[basis][key]&gt;0)throw new Error(&#x27;Zero median with positive distances: median scaling is undefined.&#x27;);
+  return {referenceMedian,normalize:value=&gt;referenceMedian&gt;0?value/referenceMedian:0};
+ }
  const labels={worry:&#x27;Worry&#x27;,self:&#x27;Personal harm&#x27;,known:&#x27;Known-person harm&#x27;,overall:&#x27;Overall&#x27;};
  const indices=scope=&gt;data.countries.map((c,i)=&gt;({c,i})).filter(x=&gt;scope!==&#x27;development&#x27;||x.c.split===&#x27;train&#x27;).map(x=&gt;x.i);
  const metric=(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?data.distances[model]:matrices[component===&#x27;overall&#x27;?model:component];
@@ -1870,8 +1910,9 @@ function wrpResponseTools(data){
   caches.set(id,result);return result;
  }
  function components(i,j){return {worry:matrices.worry[i][j],self:matrices.self[i][j],known:matrices.known[i][j],B:matrices.B[i][j],E:matrices.E[i][j]};}
- function componentText(i,j){const v=components(i,j);return `W ${(100*v.worry).toFixed(2)} · Self ${(100*v.self).toFixed(2)} pp · Known ${(100*v.known).toFixed(2)} pp`;}
- return {matrices,labels,metric,statistics,components,componentText,
+ function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
+ return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
+  method:basis=&gt;basis===&#x27;profiles&#x27;?&#x27;Median-relative Hellinger distance&#x27;:&#x27;Median-relative total variation distance&#x27;,
   title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?`${model} · frozen profile mixture (Hellinger)`:
    component===&#x27;overall&#x27;?`${model} allocation · ${model===&#x27;B&#x27;?&#x27;50/25/25&#x27;:&#x27;75/12.5/12.5&#x27;} worry/self/known`:`${labels[component]} · original responses`,
   fingerprint:source.fingerprint};
@@ -1934,7 +1975,8 @@ function wrpResponseTools(data){
    const w=Math.max(280,svg.node().getBoundingClientRect().width),h=Math.max(180,w*.48);
    svg.attr(&#x27;viewBox&#x27;,`0 0 ${w} ${h}`);
    const mapModel=mode===&#x27;E&#x27;?&#x27;E&#x27;:&#x27;B&#x27;,component=[&#x27;worry&#x27;,&#x27;self&#x27;,&#x27;known&#x27;].includes(mode)?mode:&#x27;overall&#x27;;
-   const stats=mode===&#x27;income&#x27;?null:responseTools.statistics(basis,mapModel,component,scope),prefix=basis===&#x27;profiles&#x27;?&#x27;H&#x27;:&#x27;TV&#x27;;
+   const stats=mode===&#x27;income&#x27;?null:responseTools.statistics(basis,mapModel,component,scope),prefix=responseTools.method(basis);
+   const scale=responseTools.scale(basis,component);
    svg.append(&#x27;title&#x27;).text(mode===&#x27;income&#x27;?&#x27;Fieldwork income groups&#x27;:responseTools.title(basis,mapModel,component)+&#x27; distances from &#x27;+c.name);
    const projection=d3.geoNaturalEarth1().fitExtent([[5,5],[w-5,h-5]],data.world),path=d3.geoPath(projection);
    const defs=svg.append(&#x27;defs&#x27;);
@@ -1942,15 +1984,14 @@ function wrpResponseTools(data){
    hatch.append(&#x27;rect&#x27;).attr(&#x27;width&#x27;,6).attr(&#x27;height&#x27;,6).attr(&#x27;fill&#x27;,&#x27;var(--muted)&#x27;);
    hatch.append(&#x27;path&#x27;).attr(&#x27;d&#x27;,&#x27;M-1,1L1,-1M0,6L6,0M5,7L7,5&#x27;).attr(&#x27;stroke&#x27;,&#x27;var(--foreground)&#x27;).attr(&#x27;stroke-width&#x27;,.65).attr(&#x27;opacity&#x27;,.5);
    const dist=stats?stats.matrix[c.index]:null;
-   const range=stats?stats.range(c.index):[0,0];
    const palette=d3.quantize(d3.piecewise(d3.interpolateLab,[token(&#x27;--blue&#x27;),token(&#x27;--green&#x27;),token(&#x27;--yellow&#x27;),token(&#x27;--orange&#x27;)]),7);
-   const distanceColor=d3.scaleQuantize().domain([range[0],range[1]&gt;range[0]?range[1]:range[0]+1]).range(palette);
+   const distanceColor=d3.scaleQuantize().domain([0,2]).range(palette);
    const fill=iso=&gt;{
     const peer=byCode.get(iso);if(!peer||!eligible(peer))return &#x27;var(--muted)&#x27;;
     if(mode===&#x27;income&#x27;)return peer.income===9?&#x27;url(#wrp-inc-hatch)&#x27;:`var(${incomeTokens[peer.income]})`;
-    return distanceColor(dist[peer.index]);
+    return distanceColor(scale.normalize(dist[peer.index]));
    };
-   const label=iso=&gt;{const peer=byCode.get(iso);if(!peer||!eligible(peer))return &#x27;Outside this country set&#x27;;return `${peer.name} · ${peer.incomeLabel}${dist?` · ${prefix} ${dist[peer.index].toFixed(4)}${peer.index===c.index?&#x27; (self)&#x27;:` · P ${stats.percentile(dist[peer.index]).toFixed(1)} · ${responseTools.componentText(c.index,peer.index)}`}`:&#x27;&#x27;}`;};
+   const label=iso=&gt;{const peer=byCode.get(iso);if(!peer||!eligible(peer))return &#x27;Outside this country set&#x27;;return `${peer.name} · ${peer.incomeLabel}${dist?` · ${prefix} ${scale.normalize(dist[peer.index]).toFixed(3)}${peer.index===c.index?&#x27; (selected country)&#x27;:` · ${responseTools.componentText(c.index,peer.index)}`}`:&#x27;&#x27;}`;};
    svg.append(&#x27;g&#x27;).selectAll(&#x27;path&#x27;).data(data.world.features).join(&#x27;path&#x27;).attr(&#x27;class&#x27;,&#x27;inc-country cursor-interaction&#x27;).attr(&#x27;d&#x27;,path).attr(&#x27;fill&#x27;,f=&gt;fill(f.properties.id)).attr(&#x27;data-iso&#x27;,f=&gt;f.properties.id).attr(&#x27;data-tooltip&#x27;,f=&gt;label(f.properties.id)).on(&#x27;click&#x27;,(_,f)=&gt;pick(f.properties.id));
    if(regions)svg.append(&#x27;g&#x27;).selectAll(&#x27;path&#x27;).data(data.regions).join(&#x27;path&#x27;).attr(&#x27;class&#x27;,&#x27;inc-region&#x27;).attr(&#x27;d&#x27;,path);
    const shape=data.world.features.find(f=&gt;f.properties.id===country);
@@ -1964,16 +2005,16 @@ function wrpResponseTools(data){
      const span=document.createElement(&#x27;span&#x27;),sw=document.createElement(&#x27;span&#x27;);sw.className=&#x27;inc-swatch&#x27;;sw.style.background=level===9?&#x27;var(--muted)&#x27;:`var(${incomeTokens[level]})`;span.append(sw,`${data.incomeLabels[level]} (${counts[level]})`);legend.append(span);
     }
    }else{
-    const text=document.createElement(&#x27;span&#x27;);text.textContent=`${responseTools.title(basis,mapModel,component)} · ${prefix} from ${c.name}`;legend.append(text);
-    const key=d3.select(legend).append(&#x27;svg&#x27;).attr(&#x27;class&#x27;,&#x27;inc-key&#x27;).attr(&#x27;viewBox&#x27;,&#x27;0 0 210 32&#x27;).attr(&#x27;role&#x27;,&#x27;img&#x27;).attr(&#x27;data-distance-min&#x27;,range[0]).attr(&#x27;data-distance-max&#x27;,range[1]).attr(&#x27;aria-label&#x27;,`Seven distance bands from ${prefix} ${range[0].toFixed(4)} to ${range[1].toFixed(4)}`);
-    const colors=range[1]&gt;range[0]?palette:palette.map(()=&gt;palette[0]);
+    const text=document.createElement(&#x27;span&#x27;);text.textContent=prefix;legend.append(text);
+    const key=d3.select(legend).append(&#x27;svg&#x27;).attr(&#x27;class&#x27;,&#x27;inc-key&#x27;).attr(&#x27;viewBox&#x27;,&#x27;0 0 210 32&#x27;).attr(&#x27;role&#x27;,&#x27;img&#x27;).attr(&#x27;data-distance-min&#x27;,0).attr(&#x27;data-distance-max&#x27;,2).attr(&#x27;data-reference-median&#x27;,scale.referenceMedian).attr(&#x27;aria-label&#x27;,`${prefix}; fixed colour scale from zero to two or more`);
+    const colors=palette;
     key.selectAll(&#x27;rect&#x27;).data(colors).join(&#x27;rect&#x27;).attr(&#x27;x&#x27;,(_,i)=&gt;4+i*202/colors.length).attr(&#x27;y&#x27;,1).attr(&#x27;width&#x27;,202/colors.length+.1).attr(&#x27;height&#x27;,11).attr(&#x27;fill&#x27;,v=&gt;v);
-    key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,4).attr(&#x27;y&#x27;,29).text(range[0].toFixed(4));key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,105).attr(&#x27;y&#x27;,29).attr(&#x27;text-anchor&#x27;,&#x27;middle&#x27;).text(((range[0]+range[1])/2).toFixed(4));key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,206).attr(&#x27;y&#x27;,29).attr(&#x27;text-anchor&#x27;,&#x27;end&#x27;).text(range[1].toFixed(4));
-    const note=document.createElement(&#x27;span&#x27;);note.textContent=&#x27;Seven equal-width bands; colours cannot be compared across selections. Selected country: H = 0.&#x27;;legend.append(note);
+    key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,4).attr(&#x27;y&#x27;,29).text(&#x27;0 · closer&#x27;);key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,105).attr(&#x27;y&#x27;,29).attr(&#x27;text-anchor&#x27;,&#x27;middle&#x27;).text(&#x27;1 · typical&#x27;);key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,206).attr(&#x27;y&#x27;,29).attr(&#x27;text-anchor&#x27;,&#x27;end&#x27;).text(&#x27;2 or more&#x27;);
+    const note=document.createElement(&#x27;span&#x27;);note.textContent=&#x27;Fixed scale · comparable across countries&#x27;;legend.append(note);
    }
    const income=basis===&#x27;responses&#x27;?data.responses.income:data;
-   const mean=cell=&gt;basis===&#x27;responses&#x27;?cell.mean_distance:cell.mean_hellinger;
-   const upper=Math.max(...[&#x27;B&#x27;,&#x27;E&#x27;].flatMap(m=&gt;Object.values(income.matrices[m]).flat(2).map(mean)));
+   const overallScale=responseTools.scale(basis,&#x27;overall&#x27;);
+   const mean=cell=&gt;overallScale.normalize(basis===&#x27;responses&#x27;?cell.mean_distance:cell.mean_hellinger);
    const labels=[&#x27;L&#x27;,&#x27;LM&#x27;,&#x27;UM&#x27;,&#x27;H&#x27;];
    for(const model of [&#x27;B&#x27;,&#x27;E&#x27;]){
     const s=income.summaries[model][scope],grid=income.matrices[model][scope];
@@ -1985,10 +2026,10 @@ function wrpResponseTools(data){
     labels.forEach((v,j)=&gt;{matrix.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,left+(j+.5)*size).attr(&#x27;y&#x27;,18).attr(&#x27;text-anchor&#x27;,&#x27;middle&#x27;).text(v);matrix.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,left-8).attr(&#x27;y&#x27;,top+(j+.5)*size+4).attr(&#x27;text-anchor&#x27;,&#x27;end&#x27;).text(v);});
     grid.forEach((row,i)=&gt;row.forEach((cell,j)=&gt;{
      const g=matrix.append(&#x27;g&#x27;).attr(&#x27;data-tooltip&#x27;,`${data.incomeLabels[i+1]} ↔ ${data.incomeLabels[j+1]} · mean ${prefix} ${mean(cell).toFixed(4)} · ${cell.distinct_pairs} distinct country pairs`);
-     g.append(&#x27;rect&#x27;).attr(&#x27;x&#x27;,left+j*size+1).attr(&#x27;y&#x27;,top+i*size+1).attr(&#x27;width&#x27;,size-2).attr(&#x27;height&#x27;,size-2).attr(&#x27;fill&#x27;,&#x27;var(--viz-series-1)&#x27;).attr(&#x27;fill-opacity&#x27;,.05+.32*mean(cell)/upper);
+     g.append(&#x27;rect&#x27;).attr(&#x27;x&#x27;,left+j*size+1).attr(&#x27;y&#x27;,top+i*size+1).attr(&#x27;width&#x27;,size-2).attr(&#x27;height&#x27;,size-2).attr(&#x27;fill&#x27;,&#x27;var(--viz-series-1)&#x27;).attr(&#x27;fill-opacity&#x27;,.05+.32*Math.min(2,mean(cell))/2);
      g.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,left+(j+.5)*size).attr(&#x27;y&#x27;,top+(i+.5)*size+4).attr(&#x27;text-anchor&#x27;,&#x27;middle&#x27;).text(mean(cell).toFixed(3));
     }));
-    matrix.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,left).attr(&#x27;y&#x27;,height-5).text(`Shared fill scale: 0–${upper.toFixed(3)}`);
+    matrix.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,left).attr(&#x27;y&#x27;,height-5).text(&#x27;Shared reference: 1 = typical pair distance&#x27;);
     const ol=root.querySelector(&#x27;#wrp-inc-near-&#x27;+model);ol.replaceChildren();
     const overallStats=responseTools.statistics(basis,model,&#x27;overall&#x27;,scope);
     const ranking=overallStats.neighbours(c.index).map(i=&gt;countries[i]);
@@ -1997,8 +2038,9 @@ function wrpResponseTools(data){
     for(const peer of ranking.slice(0,n)){
      const peerIndex=byCode.get(peer.iso).index;
      const li=document.createElement(&#x27;li&#x27;);li.dataset.iso=peer.iso;li.dataset.distance=overallStats.matrix[c.index][peerIndex];
+     li.dataset.normalizedDistance=overallScale.normalize(Number(li.dataset.distance));
      const row=document.createElement(&#x27;div&#x27;);row.className=&#x27;inc-peer&#x27;;const name=document.createElement(&#x27;span&#x27;);name.textContent=peer.name;
-     const value=document.createElement(&#x27;span&#x27;);value.className=&#x27;inc-value tabular-nums&#x27;;value.textContent=`${prefix} ${Number(li.dataset.distance).toFixed(4)} · P ${overallStats.percentile(Number(li.dataset.distance)).toFixed(1)}`;row.append(name,value);
+     const value=document.createElement(&#x27;span&#x27;);value.className=&#x27;inc-value tabular-nums&#x27;;value.textContent=Number(li.dataset.normalizedDistance).toFixed(3);row.append(name,value);
      const inc=document.createElement(&#x27;div&#x27;);inc.textContent=peer.incomeLabel+&#x27; · &#x27;+peer.region;li.append(row,inc);ol.append(li);
      const parts=document.createElement(&#x27;div&#x27;);parts.textContent=responseTools.componentText(c.index,peerIndex);li.appendChild(parts);
     }

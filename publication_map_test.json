@@ -2,6 +2,10 @@
   "passed": true,
   "cases": 38,
   "allFiveMatricesAgree": true,
+  "fixedMedianScale": true,
+  "uncappedNumbers": true,
+  "descriptiveNavigation": true,
+  "reciprocalColoursAgree": true,
   "externalRequests": 0,
   "checks": [
     {

@@ -21,6 +21,20 @@ function wrpResponseTools(data){
   for(const key of Object.keys(values))matrices[key][i][j]=matrices[key][j][i]=values[key];
  }
  const caches=new Map();
+ const maximum=matrix=>matrix.reduce((m,row)=>Math.max(m,...row),0);
+ const diameters={responses:{overall:Math.max(maximum(matrices.B),maximum(matrices.E))},
+                  profiles:{overall:Math.max(maximum(data.distances.B),maximum(data.distances.E))}};
+ for(const key of ['worry','self','known'])diameters.responses[key]=maximum(matrices[key]);
+ const pairs=matrix=>{const values=[];for(let a=0;a<n;a++)for(let b=a+1;b<n;b++)values.push(matrix[a][b]);return values;};
+ const median=values=>{values.sort((a,b)=>a-b);const mid=values.length>>1;return values.length%2?values[mid]:(values[mid-1]+values[mid])/2;};
+ const medians={responses:{overall:median([...pairs(matrices.B),...pairs(matrices.E)])},
+                profiles:{overall:median([...pairs(data.distances.B),...pairs(data.distances.E)])}};
+ for(const key of ['worry','self','known'])medians.responses[key]=median(pairs(matrices[key]));
+ function scale(basis,component='overall'){
+  const key=basis==='profiles'?'overall':component,referenceMedian=medians[basis][key];
+  if(referenceMedian===0&&diameters[basis][key]>0)throw new Error('Zero median with positive distances: median scaling is undefined.');
+  return {referenceMedian,normalize:value=>referenceMedian>0?value/referenceMedian:0};
+ }
  const labels={worry:'Worry',self:'Personal harm',known:'Known-person harm',overall:'Overall'};
  const indices=scope=>data.countries.map((c,i)=>({c,i})).filter(x=>scope!=='development'||x.c.split==='train').map(x=>x.i);
  const metric=(basis,model,component)=>basis==='profiles'?data.distances[model]:matrices[component==='overall'?model:component];
@@ -37,8 +51,9 @@ function wrpResponseTools(data){
   caches.set(id,result);return result;
  }
  function components(i,j){return {worry:matrices.worry[i][j],self:matrices.self[i][j],known:matrices.known[i][j],B:matrices.B[i][j],E:matrices.E[i][j]};}
- function componentText(i,j){const v=components(i,j);return `W ${(100*v.worry).toFixed(2)} · Self ${(100*v.self).toFixed(2)} pp · Known ${(100*v.known).toFixed(2)} pp`;}
- return {matrices,labels,metric,statistics,components,componentText,
+ function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
+ return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
+  method:basis=>basis==='profiles'?'Median-relative Hellinger distance':'Median-relative total variation distance',
   title:(basis,model,component)=>basis==='profiles'?`${model} · frozen profile mixture (Hellinger)`:
    component==='overall'?`${model} allocation · ${model==='B'?'50/25/25':'75/12.5/12.5'} worry/self/known`:`${labels[component]} · original responses`,
   fingerprint:source.fingerprint};
