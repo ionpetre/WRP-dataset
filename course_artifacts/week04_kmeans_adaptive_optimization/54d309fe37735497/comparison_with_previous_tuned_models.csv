@@ -1,8 +1,0 @@
-model,previous_tuned_k,previous_numerically_qualified,previous_q,previous_alpha,q,alpha,reference_ARI,matched_weight,score_comparison_limit
-T3,3,True,0.6,0.775,0.6226059692006881,0.739961988281689,0.9766004173514798,0.992356243503745,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T4,4,True,0.7,0.5,0.592945847878835,0.4303824382909228,0.28745165059233413,0.5512081340336545,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T5,5,False,0.2666666666666666,0.5,0.4167008902037624,0.5837857862168715,0.5644573588136785,0.743887171538361,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T6,6,True,0.2666666666666666,0.775,0.3151493895272159,0.6648342663249895,0.937125858620992,0.9771767048929095,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T7,7,True,0.3333333333333333,0.625,0.3333333333333333,0.625,1.0,1.0,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T8,8,True,0.2666666666666666,0.8,0.3691535280383429,0.6263384076710818,0.6821078893538002,0.7325916708216692,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."
-T9,9,False,0.2666666666666666,0.5,0.3805738753471495,0.6693474391085446,0.6617137043815566,0.728536983086927,"Earlier and new confirmation use different samples; compare reference partitions, not a paired stability gain."

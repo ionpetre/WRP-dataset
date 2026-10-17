@@ -1,180 +1,90 @@
-# Encodings, weighting and validation
+# T5: encoding, weighting and validation
 
-## Update: primary T5 model
+## Data and target population
 
-The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
+Use the 2023 World Risk Poll: 146,910 respondents in 142 countries. The frozen country split has 113 development countries (116,820 respondents) and 29 held-out countries (30,090 respondents). Countries, not respondents, are the split unit; reuse [the country allocation](../course_artifacts/week03_country_split.csv).
 
-### Week 5 parameter optimization and model selection
+T5 requires complete substantive answers to all six worry and seven harm-domain questions: 109,488 development and 27,972 held-out respondents. The 9,450 others remain unassigned. No imputation, PCA or z-standardization is used. Complete-case selection limits interpretation.
 
-For each $k=3,\ldots,10$, optimize the middle worry-category position
-$q=1/t\in[0.1,0.9]$ and worry allocation $\alpha\in[0.2,0.8]$.
-The original worry categories become $(0,q,1)$. Keep the same complete-response
-development population, equal-country weights, separate harm indicators and
-reduced-mean worry geometry. Each reference uses K-means with 20 initializations,
-maximum 300 iterations and seed 20231006.
+For an analysis cohort containing $C$ countries, respondent $i$ in country $c(i)$ has weight
 
-The objective is
+$$w_i=\frac{WGT_i}{\sum_{\ell\in c(i)}WGT_\ell}\frac1C.$$
 
-$$S(q,\alpha;k)=\min\{Q_{0.10}(\operatorname{ARI}_{respondents}),
-Q_{0.10}(\operatorname{ARI}_{countries})\}.$$
+Normalize within each reporting cohort. Country totals are equal; within-country relative survey weights are preserved. This is not a world-population estimand.
 
-The initial grid and local refinement evaluated 301 settings. The subsequent
-Optuna multivariate TPE search proposed 20 additional pairs per k, 160 in total.
-Eligible pilots use ten samples per test (45 pairwise ARIs). Before confirmation,
-seal the two strongest eligible pilots per k and include unchanged B4/E8 as
-benchmarks. Confirm this shortlist with 50 fresh respondent and 50 fresh country
-samples, 1,225 pairwise ARIs per test. The original structural filters and
-median/lower-decile ARI requirements remain unchanged. Fresh resamples are not
-independent countries, and the best tested geometry is not a guaranteed global
-optimum or an estimated psychological response scale. Raw inertia is not used
-to compare different geometries.
+## One frozen feature geometry
 
-Scientific review additionally considers original-category meanings, membership
-overlaps and each fixed reference profile's recovery. One-to-one maximum-weight
-matching is followed by equal-country-weighted membership Jaccard, precision and
-recall. Each profile has 50 reference-versus-repetition comparisons per test;
-these are not the 1,225 pairwise ARIs. Best-any matching diagnoses one-to-one
-matching artefacts. No new 0.80 Jaccard cutoff is introduced.
+The worry domains are food, water, crime, severe weather, traffic and mental health. Work is the seventh harm domain. Raw worry codes 1/2/3 mean very/somewhat/not worried. Let $u_{id}=2,1,0$ denote these original-unit recoded values for respondent $i$ and worry domain $d$.
 
-T5 is the selected primary description: $k=5$,
-$t=2.399802888616365$, $q=0.41670089020376244$,
-$\alpha=0.5837857862168715$. Shallow explanatory trees and single-feature rules
-use all five country-grouped folds with fold-specific equal-country weights.
-They reconstruct fixed reference labels, not independently estimated clusters.
-Ordinary trees use Gini, minimum leaf size 200 and depths 1/2/3/5. The custom
-one-feature rules maximize training balanced accuracy over feature, threshold
-and direction. No new automatic rejection threshold is imposed.
+Set $t=2.399802888616365$, $q=1/t=0.41670089020376244$ and $\alpha=0.5837857862168715$. Transform worry to $x_{id}=0,q,1$ for not/somewhat/very worried. Let $m_i=\frac16\sum_{d=1}^6x_{id}$. Use
 
-The exact T5 development centres are frozen without refitting. Held-out
-assessment uses unchanged assignment, development-selected anchors and distance
-thresholds. These held-out countries had already been examined for B/E before
-the new search: this is **secondary transfer assessment**, not untouched external
-confirmation. T5 has no new independent regional clustering or matched-geometry
-Ward experiment in this extension. The regional B/E results below must not be
-presented as T5 validation.
+$$z_{id}=(x_{id}-m_i)\sqrt{\alpha/6},\qquad
+z_{im}=m_i\sqrt{\alpha/6}.$$
 
-## Data and country split
+For each harm domain, raw codes 1/2/3/4 mean respondent only/known person only/both/neither. Encode personal harm as 1/0/1/0 and known-person harm as 0/1/1/0. Codes 98/99 remain missing in all features. For the 14 binary harm indicators $h_{ij}$, use
 
-The curated 2023 dataset contains 146,910 respondents in 142 countries. A country-level split was selected once and then reused: 113 development countries (116,820 respondents) and 29 held-out countries (30,090 respondents). Countries, not individual respondents, are the split unit. The allocation balances the original global-region and country-income composition; its exact country list is in `course_artifacts/week03_country_split.csv`.
+$$z_{ih_j}=h_{ij}\sqrt{(1-\alpha)/14}.$$
 
-Within an analysis cohort, respondent survey weights are normalized to give every included country the same total influence:
+There are 21 transformed coordinates from 20 observed features. The mean derives from the same six worries; it is not an independent seventh question. Square roots enter because squared Euclidean distance squares each multiplier. The mean coordinate has one coordinate's multiplier, not six copies of the mean.
 
-$$w_i=\frac{WGT_i}{\sum_{j\in c(i)}WGT_j}\frac{1}{C}.$$
+T5 has **one** nominal allocation: worry 58.38%, personal harm 20.81%, known-person harm 20.81%. Actual contributions to distances also depend on the responses and this geometry; the percentages are not measured variance shares.
 
-This is a country-balanced estimand, not a world-population estimate. Renormalize after restricting the cohort. Development and held-out weights each sum to one; their concatenation is not an all-country weighting scheme.
+## Search and selection
 
-## Response encoding and missingness
+For each $k=3,\ldots,10$, search $q\in[0.1,0.9]$ and $\alpha\in[0.2,0.8]$. The initial grid/refinement has 301 settings; multivariate TPE proposes 20 additional pairs per k, 160 in total. Ordinary weighted K-means uses 20 initializations and at most 300 iterations.
 
-The six worry domains are food, water, crime, severe weather, traffic and mental health. Original worry codes 1/2/3 mean very/somewhat/not worried and are recoded to 2/1/0. Codes 98/99 remain missing. The seventh harm domain is work.
+The pilot objective is the smaller of the two lower-decile stability ARIs. Ten repetitions per test screen candidates; two eligible settings per k receive fresh 50-repetition confirmation. Each respondent sample retains 80% within each country; each country sample retains 90 of 113 development countries, stratified by region and income. Fit on the sample and assign the common development population.
 
-For combined harm, original codes 1/2/3 become 1 (respondent, known person, or both harmed); code 4 becomes 0 (neither harmed). For separate harm:
+Fifty partitions give 1,225 pairwise adjusted Rand indices (ARIs), comparing co-membership independently of cluster names. Require median and 10th-percentile ARI at least 0.80 in **both** tests, k at least 3, largest equal-country share at most 40%, and dominance $D=k\max_jp_j<3$, where $p_j$ is cluster j's weighted share. Pairwise ARIs are dependent summaries, not independent observations.
 
-| Original code | Respondent harmed | Known person harmed |
-|---|---:|---:|
-| 1 | 1 | 0 |
-| 2 | 0 | 1 |
-| 3 | 1 | 1 |
-| 4 | 0 | 0 |
-| 98 or 99 | missing | missing |
+Review original-category meanings, overlaps and each profile's recovery. Match reference/repetition groups one-to-one by maximum weighted membership overlap, then calculate weighted Jaccard (intersection/union), precision and recall. These 50 reference-versus-repetition comparisons per test are distinct from the 1,225 pairwise ARIs. No additional Jaccard cutoff is imposed. T5 balances detail and profile recovery; it is not a proven global optimum.
 
-Week 3 uses development-wide medians, not country-specific medians, followed by development-fitted z-standardization. Respondents with no observed profile feature are not clustered. The frozen data themselves are not imputed.
+The public selection tables exclude historical comparison-model rows. Full original experimental history remains private.
 
-The final Week 4/5 branch uses **complete cases without imputation**: all six worry and seven original harm responses must be substantive, giving all 20 separate-harm features. There are 109,488 eligible development respondents and 27,972 eligible held-out respondents. This changes the target population and creates a selection limitation; missingness and exclusion audits accompany the results.
+## Simple explanations
 
-## Feature geometry
+Use all five country-grouped folds and fold-specific equal-country weights to reconstruct fixed development labels. Burden trees use mean original worry and mean harm exposure. Single-feature rules search original features, category thresholds and both directions on training countries; evaluate the selected rule in different countries without imputation.
 
-Worry codings 0/1/2, 0/1/3 and 0/1/5 are divided by their top value, placing the categories in [0,1]. This changes the middle category’s relative position. Combined and separate harm are compared in the development experiments.
+All-feature trees use ordinary Gini decision trees, minimum leaf size 200, seed 2023 and depths 1/2/3/5, without class reweighting. Balanced accuracy is mean class recall. Depths 1 and 2 have at most two/four leaves, hence five-class balanced-accuracy ceilings of 40%/80%. These checks assess explanatory fidelity, not independently discovered clustering or every possible optimized rule set.
 
-For the final complete-case geometry, let $x_d$ be a normalized worry value and $m=\frac{1}{6}\sum_d x_d$. Use six relative-worry coordinates and one reduced overall-worry coordinate:
+## Frozen assignment and secondary transfer
 
-$$z_d=(x_d-m)\sqrt{\alpha/6},\qquad z_m=m\sqrt{\alpha/6}.$$
+Keep exact development centres and their order. Assign complete respondents to their nearest centre; exact ties choose the first stored centre. Keep IDs T5_C0–T5_C4. No held-out or all-country model is fitted.
 
-For each harm coordinate $h_j$, use
+A distance flag means distance above the assigned profile's development weighted 95th percentile. It is not an error probability or exclusion. Margin is $(d_2-d_1)/d_2$, where $d_1,d_2$ are the nearest and second-nearest distances; use zero if $d_2=0$.
 
-$$z_{h_j}=h_j\sqrt{(1-\alpha)/H},$$
+Compare prevalence, original-category distributions and three development-selected descriptive contrasts per profile. Resample the 29 held-out countries 1,000 times, holding model/predictions fixed and preserving within-country relative weights. This describes variation over these observed countries, not worldwide, missingness or model-selection uncertainty. No automatic transfer-rejection cutoff was specified.
 
-where $H=7$ for combined harm and $H=14$ for separate harm. Test balanced ($\alpha=0.50$), worry-emphasized ($0.75$) and harm-emphasized ($0.25$) settings. The square roots matter because Euclidean squared distance squares each multiplier. Division by block size prevents merely adding harm coordinates from doubling their nominal block allocation. This is a controlled geometry, not a claim that empirical distance contributions are exactly equal. The reduced overall-worry coordinate deliberately receives only one coordinate’s multiplier, not six copies of the mean.
+The held-out countries had been inspected before T5 selection. Report secondary descriptive transfer, not untouched external confirmation. Meanings partly persist because assignment uses these same features; this is not independent rediscovery.
 
-| Final model | Worry coding | Harm | Worry allocation | k | Method |
-|---|---|---|---:|---:|---|
-| B4 | 0/1/2, divided by 2 | Separate personal/known-person | 0.50 | 4 | Equal-country-weighted K-means |
-| E8 | 0/1/3, divided by 3 | Separate personal/known-person | 0.75 | 8 | Equal-country-weighted K-means |
-| Retained Ward comparison | 0/1/3, divided by 3 | Separate personal/known-person | 0.75 | 8 | Bootstrap hierarchy plus centroid extension |
+## Regional analysis
 
-No PCA is used in respondent clustering. The two-dimensional country-colour projection is only a map-display approximation and does not change profiles or assignment.
+Distinguish applying the same frozen global profiles within regions from independent regional clustering. The latter uses development countries only, unchanged T5 coding/allocation and k=2–10. Select k=5, coarse k=2/3 and one inertia-based alternative: the smallest eligible k within 95% of the maximum normalized chord-minus-inertia gap.
 
-## Algorithms tested
+Run 50 respondent samples retaining 80% within each country. With at least five countries, run 50 samples retaining floor(80% of regional countries). Repeated country sets are allowed and reported. With 2–4 countries use leave-one-country-out diagnostics; with one country geographic stability is unavailable.
 
-Weighted K-means is the reference. The alternative-method search uses the same complete-case relative/overall worry geometry, separate harm, 0/1/2 and 0/1/3 encodings, all three block allocations and k=2,…,10 where applicable.
+Require median and lower-decile ARI at least 0.80 in both full tests. Global size/dominance criteria are reported benchmarks, not universal regional filters. Compare groups using membership overlap and original answers; numeric local labels do not share meanings across regions. This local selection is exploratory.
 
-- **Gaussian mixture models:** diagonal and full covariance, five initializations, maximum 300 iterations, covariance regularization 0.001. Fit a country-balanced, survey-weighted bootstrap because this fitting implementation does not accept the K-means respondent weights directly.
-- **Ward and average-linkage agglomerative clustering:** draw 150 respondents per country with replacement, using within-country survey-weighted probabilities: 16,950 reference leaves for 113 countries. Fit the native tree, cut it at the requested k, and extend labels to the full cohort using nearest native-cluster centroids. This is not native hierarchical clustering of all respondents. Bootstrap draws are redrawn within each stability training population. Native-versus-extension agreement is recorded.
-- **DBSCAN:** test min_samples 20/50/100 and radius grids derived from declared neighbour-distance quantiles. Use equal-country density mass, explicit memory/edge guards and nearest-core transport within the fitted radius. Preserve training labels and leave unassigned respondents as noise. Its cluster count is an outcome, not a fixed k.
+## Country distances: two summaries of the same T5 analysis
 
-Ward and K-means both use squared-Euclidean compactness, and centroid extension adds another shared element. Their agreement is corroborating evidence, not independent proof of a natural typology.
+For country a, let $p_{aj}$ be the survey-weighted proportion of complete respondents in frozen profile j, j=0,...,4. Mixture Hellinger distance is
 
-## Global structural screen and stability
+$$H(a,b)=\sqrt{\frac12\sum_{j=0}^4(\sqrt{p_{aj}}-\sqrt{p_{bj}})^2}.$$
 
-Require at least three and at most ten clusters, largest assigned-cluster weighted share at most 40%, and dominance $D=k\max_c p_c<3$. DBSCAN additionally needs at least 90% assigned coverage. Computational failures remain failures; they are not converted into statistical rejection or silently dropped.
+For original feature f, let $P_{afc}$ be country a's weighted probability of category c. Feature total variation is
 
-For each structurally eligible candidate, fit 50 respondent subsamples and 50 stratified country subsamples. Each uses 80% sampling without replacement within its specified sampling unit. Transport fitted labels to the common comparison population, then calculate all $\binom{50}{2}=1,225$ pairwise ARIs per test. Retention requires **median and lower-decile ARI ≥0.80 in both tests**, all repetitions successful and acceptable group counts. DBSCAN also reports joint-assignment coverage; the lower-decile jointly assigned weight must reach 90% in both tests. ARI is a label-invariant, chance-adjusted partition comparison; the reported dependent-pair quantiles are not confidence intervals.
+$$V_f(a,b)=\frac12\sum_c|P_{afc}-P_{bfc}|.$$
 
-Inspect original-unit semantics, cluster recovery, one-feature reconstruction, burden reconstruction and overlaps after numerical screening. A stable partition can still be a poor substantive summary. Approximate refinement uses directional overlap purity; it is not a mathematical lattice.
+Average separately over six worries, seven personal harms and seven known-person harms, giving $V_W,V_S,V_K$. Overall distance is
 
-## Week 5 regional and held-out checks
+$$V(a,b)=\alpha V_W(a,b)+\frac{1-\alpha}{2}\{V_S(a,b)+V_K(a,b)\}.$$
 
-First apply the unchanged global centres within each original dataset region. Separately fit regional solutions with the B/E geometry, search k=2,…,10, and test shortlisted resolutions. Keep the 0.80 ARI rule. In regions with two to four development countries use leave-one-country-out diagnostics; with one country, country stability is unavailable. Report repeated country subsets and limited independent information. Global size filters are regional benchmarks, not automatically regional rejection rules. Stable k=2 solutions are diagnostic, not rich final regional typologies.
+This uses T5's allocation. Numeric spacing t deliberately does not enter original-category total variation; it does affect the fitted profiles. Component views isolate a part of the comparison, not a new model. Marginals hide within-person dependence; mixtures compress them further.
 
-B4/E8 were sealed at **2026-10-12 09:44:34 UTC**, before the recorded held-out response read at **09:46:25 UTC**. The original centres, IDs, coding and thresholds were replay-verified, not refitted. Held-out complete cases are assigned to nearest frozen centres; exact ties select the first stored centre. Compare prevalence, all original categories, fixed development anchors, semantic total variation, distances and margins. The distance flag is nearest distance exceeding the assigned profile’s frozen development weighted 95th percentile; it is not an automatic rejection threshold.
+Map display is $R=D/m_{\mathrm{ref}}$, with fixed calibration constants retained from the approved display protocol: 0.1550977480973838 for overall responses and 0.2218094853108838 for mixtures. Component constants are 0.2019268502025546 (worry), 0.0500960004811531 (personal harm), and 0.0872275415556315 (known-person harm). They are not newly recalculated T5 medians. One means the fixed reference distance. Ratios are uncapped; the seven-band colour legend ends at “2 or more”. Selection/scope never changes the denominator. Scaling does not change ranks.
 
-Held-out intervals use 1,000 country bootstrap draws with fixed models and within-country relative weights. They describe variation across these observed countries, not worldwide coverage, fitting uncertainty or a full complex-survey design. Broad/partial/poor transfer is an analytical synthesis defined before opening held-out responses; no post-hoc pass score was introduced.
+The overview colour projection is approximate; exact rankings use raw distances. No country grouping replaces dataset regions. The 200 within-country IID respondent bootstraps retain survey weights and fixed labels; these are conditional sensitivity checks, not full survey-design or model-selection confidence. Income associations use 999 whole-country label permutations, including within-region permutations. Country pairs are not independent, and the results are not causal.
 
-## Historical country similarity: frozen profile mixtures
+## Limits
 
-Compare countries using their survey-weighted proportions across the same frozen global profiles, not unmatched local cluster IDs. Use
-
-$$H(p,q)=\frac{1}{\sqrt{2}}\sqrt{\sum_c(\sqrt{p_c}-\sqrt{q_c})^2}.$$
-
-The original dataset regions remain unchanged. Descriptive average-linkage country trees, illustrative cuts and 200 within-country respondent bootstraps assess sensitivity; no country grouping was adopted. Country pairs are dependent, so pair counts do not justify independent-pair significance tests. Analyses combining development and held-out countries are explicitly post-validation descriptions.
-
-## Direct country similarity: original response distributions
-
-Added on 14 October after inspecting the compressed profile-mixture maps, this is an exploratory post-validation comparison, not a profile refit or model-selection test. Use the same 137,460 complete respondents (109,488 development; 27,972 held-out). For country $c$, eligible respondents $\mathcal I_c$, original feature $j$ and response category $r$:
-
-$$w_{ci}=\frac{WGT_{ci}}{\sum_{\ell\in\mathcal I_c}WGT_{c\ell}},\qquad q_{cj}(r)=\sum_{i\in\mathcal I_c}w_{ci}\mathbf1\{X_{cij}=r\}.$$
-
-Compare each feature using total variation, then average separately over six worry, seven personal-harm and seven known-person-harm features:
-
-$$T_j(c,d)=\frac12\sum_r|q_{cj}(r)-q_{dj}(r)|,\quad D_W=\frac16\sum_{j\in W}T_j,\quad D_S=\frac17\sum_{j\in S}T_j,\quad D_O=\frac17\sum_{j\in O}T_j.$$
-
-For binary harm, each feature distance is the absolute prevalence difference. Combine raw components:
-
-$$D_\alpha=\alpha D_W+\frac{1-\alpha}{2}D_S+\frac{1-\alpha}{2}D_O.$$
-
-Use $\alpha=0.50$ for B-associated allocation (50/25/25) and $0.75$ for E-associated allocation (75/12.5/12.5). Distances lie in [0,1]. This preserves nominal block emphasis, not centred K-means geometry or 0/1/3 middle-category spacing. Total variation requires no square-root scaling and is invariant to one-to-one category recoding. It is a metric on marginal summaries but only a pseudometric on full joint response laws: equal marginals can hide different within-person combinations.
-
-Report raw distance, worry mismatch ×100 and personal/known-person mean prevalence gaps in percentage points. Pair percentiles are $100$ times the upper empirical CDF over distinct unordered pairs: 10,011 full-scope pairs and 6,328 development pairs. Exclude self-pairs and include exact ties. Rank unrounded distances, then ISO3 for ties. These percentiles are not p-values or confidence measures.
-
-For current labels and colours, let $\mathcal P_*$ contain the 10,011 distinct unordered pairs among all 142 countries. Use $m_{BE}=\operatorname{median}\{D_s(a,b):\{a,b\}\in\mathcal P_*,s\in\{B,E\}\}=0.1550977480973838$, pooling 20,022 equally represented values without diagonals or duplicated reverse edges. Display $R_s=D_s/m_{BE}$ for overall B/E. Each component uses its own all-country distinct-pair median; historical Hellinger uses its own pooled B4/E8 median. These denominators are fixed across selections and display scopes. An even-length median averages the two central values. All present medians are positive; a future zero median with positive distances requires an explicit new rule, not silent zeroing.
-
-Positive common rescaling preserves symmetry, distance ratios, ordering and triangle inequalities. **1 is the typical reference distance; 2 is twice that distance.** Ratios are uncapped. Colours use seven equal-width bands over [0,2], with the endpoint labelled '2 or more'; saturation affects display only and is not a scientific cutoff. B/E colours are directly comparable; component colours compare fractions of different component medians, not equal raw gaps. Combine raw components before overall rescaling, never after component normalization. Income-cell means equal original means divided by the shared reference. Original distances/percentiles and historical diameter artifacts remain saved. Country-specific means are not denominators because that would break reciprocal comparability and erase differences in overall distinctiveness. The median is a robust typical-value anchor, not an inferential result: pairs share countries and are dependent. The rule is post-validation display refinement, not preregistered or tuned to return familiar neighbours. A later reference-set change must be versioned.
-
-Income summaries exclude unclassified Venezuela (141 countries/9,870 pairs in full; 112/6,216 in development). Income and geography do not enter the distance. No new joint-response analysis, bootstrap rank uncertainty or permutation test has been run. Earlier Hellinger bootstrap/permutation results do not apply to these new distances.
-
-
-## T5 geographical completion — 17 October 2026
-T5 regional completion: 6 cases pass both full stability tests; 0 failed stability fits. Small-region LOO and respondent-only diagnostics are not full geographic confirmation. Global T5 was not refitted.
-
-The same frozen T5 geometry is used for all independent regional fits. The regional protocol selects alternatives without using agreement with the global labels. Country mixtures, region-wise original responses, 200 conditional respondent bootstraps, exploratory country groups, original-response distances and 999 whole-country income-label permutations are saved. Small regions have limited or unavailable country tests. Global profiles, local profiles and country groups must not be treated as the same objects.
-
-Country original-response distance gives worry alpha=0.5837857862168715, and personal/known-person harm half of the remaining allocation each. Total variation uses category probabilities and deliberately does not depend on numeric worry spacing t. The established cross-model median scales are retained. Pairwise correlations do not have independent-pair significance tests.
-
-Across 141 income-classified countries, income-gap Spearman correlation is 0.2469 for T5 mixture Hellinger distance and 0.2977 for original-response distance. These are exploratory associations, not causal explanations.
-
-See [Week 5 notebook](../weekly_notebooks/week05_validate_frozen_profiles.ipynb) and [completion tables](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_complete.json). Week 6 logistic prediction remains weak: held-out balanced accuracy 0.2608 and macro-F1 0.2230.
-
-### Interpretation of the completed T5 geographical analyses
-
-T5 regional references cover k=2–10. The stability shortlist is recorded before testing: matched k=5, coarse k=2/3 and an inertia-elbow alternative selected without global-label agreement. Use 50 within-country 80% respondent samples and, for regions with at least five development countries, 50 samples of floor(0.8N) countries. Two-to-four-country regions use leave-one-country-out diagnostics; one-country regions have no country test. Median and lower-decile pairwise ARI must both reach 0.80. Pairwise ARIs and repeated country subsets are dependent. Report structural global thresholds as benchmarks, not universal regional constraints.
-
-Regional profiles are compared with T5 through weighted overlaps and original-category differences, without treating local IDs as shared labels. Country comparisons use the same frozen global labels. The 200 within-country IID respondent bootstraps retain WGT and fixed labels; 999 income randomizations permute whole countries, unrestricted or within dataset regions. These are conditional sensitivity/randomization references, not full survey or model-selection uncertainty. Two-dimensional colours preserve 75.5% of Hellinger-coordinate variation and have 22.3% relative distance error; exact distances, not projected colours, determine ranks. See [results and limitations](T5_RESULTS.md).
+Equal-country weighting, complete-case selection, reporting differences, small country/profile cells, dependent resampling summaries and prior held-out inspection constrain conclusions. Neither stable clusters nor familiar nearest countries establish natural social types. Predictive usefulness for an external outcome requires a separate analysis.

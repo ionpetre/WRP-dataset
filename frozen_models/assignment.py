@@ -1,8 +1,5 @@
 """Portable fixed-model assignment only. This module contains no fitting or tuning code."""
 from pathlib import Path
-import hashlib
-import json
-import joblib
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cdist
@@ -13,22 +10,7 @@ WORRY_SOURCES = dict(zip(['food','water','crime','severe_weather','traffic','men
 HARM_SOURCES = dict(zip(list(WORRY_SOURCES)+['work'],
                       ['WP22442','WP22443','WP22444','WP22445','WP22446','WP22447','WP22448']))
 
-def sha256(path):
-    h=hashlib.sha256()
-    with Path(path).open('rb') as handle:
-        for part in iter(lambda:handle.read(1024*1024),b''):h.update(part)
-    return h.hexdigest()
 
-def load_frozen_package(folder):
-    folder=Path(folder)
-    seal=json.loads((folder/'freeze_seal.json').read_text())
-    assert seal['status']=='frozen_before_heldout_responses'
-    for name,value in seal['files'].items():
-        if sha256(folder/name)!=value:raise ValueError('Frozen package changed: '+name)
-    bundle=joblib.load(folder/'models.joblib')  # Load only this trusted local course artifact.
-    manifest=json.loads((folder/'specification.json').read_text())
-    assert bundle['context']==manifest['context']==seal['context']
-    return bundle,manifest
 
 def derive_frozen_features(prepared):
     """Original raw codes -> original-unit features; missing values stay missing."""

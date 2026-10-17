@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "pages": [
+    "index.html: five T5 cards and original-category displays",
+    "countries.html: T5 only, all controls, exact matrices and responsive layout",
+    "country-income.html: T5 only, all controls, exact matrices and responsive layout"
+  ],
+  "embedded_matrices": "all 142 by 142 T5 entries match saved raw CSVs",
+  "alpha": 0.5837857862168715,
+  "fixed_reference_median": 0.1550977480973838,
+  "runtime_errors": [],
+  "external_requests": []
+}

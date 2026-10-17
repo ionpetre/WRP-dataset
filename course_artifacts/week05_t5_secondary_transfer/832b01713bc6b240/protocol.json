@@ -23,13 +23,11 @@
     "automatic_transfer_cutoff": null,
     "distance_flag": "distance exceeds assigned-profile development weighted p95; diagnostic, not exclusion",
     "eligibility": "all 20 original-unit profile features observed; incomplete respondents remain unassigned",
-    "heldout_previously_examined_for_BE": true,
-    "historical_BE_models_and_handoffs": "preserved; no silent downstream replacement",
     "interpretation": "descriptive transfer under a fixed classifier; not independent re-emergence of the groups",
     "model": "T5",
     "model_refits": 0,
     "no_pristine_external_validation_claim": true,
-    "profile_ids": "T5_C0,...,T5_C4; never renumber by prevalence; never substitute for B/E IDs",
+    "profile_ids": "T5_C0,...,T5_C4; never renumber by prevalence; never substitute for prior alternative-model IDs",
     "retuning": false,
     "role": "approved primary candidate; assess transfer before downstream migration",
     "secondary_assessment": true,
@@ -58,5 +56,6 @@
     "status": "provisional, not frozen",
     "t": 2.399802888616365,
     "trial": "k5_3259ff3d7dbb806a"
-  }
+  },
+  "publication_note": "T5-only public view; full original provenance remains in the private course archive."
 }

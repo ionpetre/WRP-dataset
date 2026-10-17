@@ -1,8 +1,0 @@
-{
-  "stage": "refresh of saved reporting after all clustering and explanatory fits completed",
-  "status": "corrected",
-  "error": "The new skip-completed-reporting branch did not initialize the read-only data/weights module (AttributeError: search.WEIGHTS).",
-  "resolution": "Explicitly initialize the read-only reporting context when reusing completed explanations, then refresh reporting from saved results.",
-  "additional_clustering_fits": 0,
-  "scientific_results_or_selection_rules_changed": false
-}

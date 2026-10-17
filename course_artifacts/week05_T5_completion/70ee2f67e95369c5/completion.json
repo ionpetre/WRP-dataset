@@ -310,7 +310,7 @@
       ]
     },
     "numeric_t_in_total_variation": false,
-    "scale_policy": "Existing fixed B/E reference medians preserved and extended to T5; never country-specific denominators.",
+    "scale_policy": "Existing fixed prior alternative-model reference medians preserved and extended to T5; never country-specific denominators.",
     "scales": {
       "T5_profiles": 0.2218094853108838,
       "T5_responses": 0.1550977480973838,
@@ -337,5 +337,6 @@
     "tested_stability_cases": 60
   },
   "status": "complete",
-  "student_data_published": false
+  "student_data_published": false,
+  "publication_note": "T5-only public view; full original provenance remains in the private course archive."
 }

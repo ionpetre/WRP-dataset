@@ -1,7 +1,0 @@
-balance,k,left_cluster,right_cluster,left_overlap_pct,right_overlap_pct,distinctive_worry_domains,distinctive_harm_indicators,joint_contrast_pass
-balanced,2,0,1,58.37985719219204,9.382443883172423,0,4,False
-worry_emphasized,2,0,1,99.18446187045569,99.31018831472579,5,0,False
-harm_emphasized,2,0,1,9.328620306790251,58.46790761984011,0,4,False
-harm_emphasized,3,0,1,10.796839996746547,26.814646594001225,0,2,False
-harm_emphasized,3,0,2,33.759697429970345,96.48202033814466,0,7,False
-harm_emphasized,3,1,2,35.66118961603307,67.65899201760742,0,6,False

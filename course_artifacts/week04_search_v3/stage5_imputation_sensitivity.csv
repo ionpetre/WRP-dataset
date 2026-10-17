@@ -1,5 +1,0 @@
-specification,algorithm,k,median_vs_mode_ari
-combined_top2_range_block,kmeans,3,0.9389294643484438
-separate_top3_range_block,kmeans,3,0.9474682325209756
-separate_top3_range_block,gmm,2,1.0
-separate_top2_range_block,kmeans,3,0.8513502404109079

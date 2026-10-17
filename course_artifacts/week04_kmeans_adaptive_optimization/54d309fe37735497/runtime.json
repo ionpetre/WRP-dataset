@@ -1,9 +1,0 @@
-{
-  "python": "3.11.15",
-  "numpy": "1.26.4",
-  "pandas": "3.0.3",
-  "sklearn": "1.8.0",
-  "optuna": "4.5.0",
-  "search_code_sha256": "ff2d706dff807ce3c9603f4e8843d8ba1ffd8fa897e7597481fa901dbabf6603",
-  "runner_code_sha256": "7915b43c30b723a9b5a0ac1e693f558a823dfd16dfc9235003df714b1ac897d3"
-}

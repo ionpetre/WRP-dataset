@@ -30,13 +30,13 @@
   "limitations": [
     "country-specific semantic and distance problems",
     "complete-case selection",
-    "known prior B/E held-out results",
+    "known prior prior alternative-model held-out results",
     "no new independent regional T5 clustering",
     "no assertion of unique natural types or a globally optimal geometry"
   ],
   "new_clustering_fits_for_finalization": 0,
   "publication": {
-    "primary_profile_explorer": "T5 default; B/E historical selectable",
+    "primary_profile_explorer": "T5 default; prior alternative-model historical selectable",
     "readable_model": "frozen_models/T5_models.json",
     "public_assignment_matches_all_heldout_labels": true,
     "aggregate_only": true,
@@ -44,9 +44,10 @@
     "commit_or_push": false
   },
   "not_migrated": {
-    "country_distances": "historical B/E definitions explicitly labelled",
-    "Week6": "historical B/E prediction draft",
+    "country_distances": "historical prior alternative-model definitions explicitly labelled",
+    "Week6": "historical prior alternative-model prediction draft",
     "manuscript": "not changed in this task"
   },
-  "sealed_model_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840"
+  "sealed_model_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840",
+  "publication_note": "T5-only public view; full original provenance remains in the private course archive."
 }

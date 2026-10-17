@@ -1,4 +1,0 @@
-threshold,full_partition_benchmark_resolutions,k_ge_3_resolutions,regions_with_k_ge_3,status
-0.8,14,7,5,retained primary rule
-0.75,21,14,7,diagnostic sensitivity only; not adopted
-0.7,30,22,10,diagnostic sensitivity only; not adopted

@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "geometry": "q maps the middle category; original 21 coordinates preserved",
-  "weighting": "equal eligible country mass",
-  "sampling": "all 100 original plans reproduced exactly; fresh confirmation retains 90 countries",
-  "scores": "saved pilot pairwise vectors reproduce their summaries",
-  "frozen_sources_unchanged": true
-}

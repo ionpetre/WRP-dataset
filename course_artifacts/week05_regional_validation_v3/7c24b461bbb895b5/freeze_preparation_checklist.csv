@@ -1,3 +1,0 @@
-candidate,k,encoding,alpha,assignment_reload_verified,observed_k,coverage,largest_share,dominance,global_benchmark_pass,regional_analysis_complete,final_scope_approved,holdout_access_authorized
-B,4,012,0.5,True,4,1.0,0.3377054030309927,1.350821612123971,True,True,False,False
-E,8,013,0.75,True,8,1.0,0.36113027371384143,2.8890421897107315,True,True,False,False

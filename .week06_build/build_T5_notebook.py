@@ -30,7 +30,7 @@ md('''## 1. Setup and fixed design
 
 Run from the course folder or `weekly_notebooks`, using the same scientific environment as Weeks 3–5. Code is shown in small groups beside the analysis it supports. The complete implementation is embedded; no private helper-module import is required.
 
-Execution switches are off for ordinary reading and replay of saved fits. Deliberately enable them only for a missing computation. Existing B/E supervised results are preserved in their original result folder and earlier notebook, not presented as T5 results.''')
+Execution switches are off for ordinary reading and replay of saved fits. Deliberately enable them only for a missing computation. Only T5 prediction results are included in this release.''')
 code('''from pathlib import Path
 from IPython.display import display, Image
 
@@ -42,7 +42,7 @@ RUN_HELDOUT = False
 ''' + 'IMPLEMENTATION_SHA256 = ' + repr(hashlib.sha256(source.encode()).hexdigest()) + '\n' + header)
 md('''### Input and cache checks
 
-Saved fits belong to the recorded data, T5 assignment, runtime and model-design fingerprint. A changed input uses a different result folder. Executable model caches are loaded only from this trusted course workspace. These checks prevent accidentally reading a B/E fit as a T5 fit.''')
+Saved fits belong to the recorded data, T5 assignment, runtime and model-design fingerprint. A changed input uses a different result folder. Executable model caches are loaded only from this trusted course workspace. These checks prevent accidentally reading a fit from a different target specification.''')
 definitions('timestamp', 'file_hash', 'json_write', 'country_weights', 'initialise')
 code('''CONTEXT, OUTPUT = initialise(ROOT, IMPLEMENTATION_SHA256)
 display(pd.read_csv(OUTPUT / 'predictor_manifest.csv')[

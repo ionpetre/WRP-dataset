@@ -1,9 +1,0 @@
-{
-  "stage": "full_confirmation",
-  "completed_candidates": 18,
-  "stage_candidates": 18,
-  "new_repetition_fits_in_completed_candidates": 1800,
-  "reused_repetition_fits_in_completed_candidates": 0,
-  "failures_in_completed_candidates": 0,
-  "updated_epoch": 1792142854.947627
-}

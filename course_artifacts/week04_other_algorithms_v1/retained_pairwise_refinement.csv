@@ -1,4 +1,0 @@
-coarse,fine,coarse_k,fine_k,joint_coverage,refinement_purity,worst_fine_purity,one_to_one_agreement,strong_approximate_refinement
-B,E,4,8,1.0,0.6263334071633,0.4032123607052281,,False
-B,New 170,4,8,1.0,0.6130132925457495,0.2850049565686052,,False
-E,New 170,8,8,1.0,0.8292345237218506,0.21474680825279577,0.8228990382427097,False

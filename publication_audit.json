@@ -1,16 +1,15 @@
 {
   "status": "passed",
   "date": "2026-10-17",
-  "primary_model": "T5",
-  "secondary_transfer": true,
-  "readable_T5_model_matches_27972_heldout_labels": true,
+  "primary_and_only_published_model": "T5",
+  "historical_alternative_records_published": false,
+  "T5_public_assignment_matches_all_27972_heldout_labels": true,
+  "frozen_centres_unchanged": true,
+  "original_T5_distances_and_calibration_unchanged": true,
+  "T5_only_browser_checks": "T5_only_browser_checks.json",
   "respondent_files_published": 0,
-  "personal_absolute_paths": 0,
   "notebook_outputs_published": 0,
-  "broken_guide_links": 0,
-  "country_maps_include_T5_and_historical_E8": true,
+  "broken_guide_or_supporting_file_links": 0,
   "commit_or_push": false,
-  "files": 1468,
-  "maximum_file_bytes": 40703338,
-  "scope_note": "Aggregate-only checks are not a formal disclosure-risk certification; some country/profile cells are small."
+  "publication_scope": "T5-focused subset; historical comparison records retained privately; incomplete cells limit aggregate interpretation."
 }

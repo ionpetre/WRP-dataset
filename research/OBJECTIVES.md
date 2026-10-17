@@ -1,9 +1,5 @@
 # Research objectives
 
-## Update: primary T5 model
-
-The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
-
 The project studies whether patterns of worry and experienced harm form useful, reproducible descriptions of people’s risk profiles. The present analysis uses one survey wave: 2023. Cross-wave replication is a possible later extension, not part of the completed validation.
 
 ## Objective 1 — Discover and validate risk profiles
@@ -12,7 +8,7 @@ Construct profiles from six ordered worry questions and seven harm-domain questi
 
 The intended output is a frozen specification: response recoding, eligibility, transformations, weighting, algorithm, number of clusters, centres and assignment rule. Report what the profiles capture beyond total worry and total harm, and where they fail to provide a stable or geographically consistent description.
 
-**Status:** completed through Week 5. B4 and E8 are frozen, with explicit limitations. Regional refits are diagnostic; no replacement geographical grouping or country typology was adopted.
+**Status:** completed through Week 5. T5 is frozen, with explicit limitations. Regional refits are diagnostic; no replacement geographical grouping or country typology was adopted.
 
 ## Objective 2 — Predict membership in the frozen profiles
 
@@ -20,7 +16,7 @@ Predict the fixed profile labels using demographic and socioeconomic characteris
 
 Compare an interpretable baseline with a nonlinear model. Keep countries together in validation folds, fit data-dependent preprocessing inside each training fold and avoid unrestricted country identifiers. Report overall and per-profile performance, class imbalance and geographic variation. Excluded incomplete respondents do not silently acquire profile labels.
 
-**Status:** planned; not completed in this release.
+**Status:** first T5 prediction analysis completed through Week 6; held-out balanced accuracy is 0.261 and macro-F1 0.223. This is an initial predictive analysis, not strong individual prediction.
 
 ## Objective 3 — Test whether profiles add practical value
 

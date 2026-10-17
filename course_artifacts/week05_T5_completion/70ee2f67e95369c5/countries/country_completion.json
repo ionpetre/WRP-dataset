@@ -309,7 +309,7 @@
     ]
   },
   "numeric_t_in_total_variation": false,
-  "scale_policy": "Existing fixed B/E reference medians preserved and extended to T5; never country-specific denominators.",
+  "scale_policy": "Existing fixed prior alternative-model reference medians preserved and extended to T5; never country-specific denominators.",
   "scales": {
     "T5_profiles": 0.2218094853108838,
     "T5_responses": 0.1550977480973838,
@@ -319,5 +319,6 @@
   },
   "scope": "post-validation description, not untouched validation",
   "source_registry_sha256": "b23e3d040dc91da14ef8b95c7786d937567402c9337d617335263c1a8e77a5b6",
-  "status": "complete"
+  "status": "complete",
+  "publication_note": "T5-only public view; full original provenance remains in the private course archive."
 }
