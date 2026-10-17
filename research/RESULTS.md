@@ -1,6 +1,6 @@
 # Results
 
-This public release presents the frozen five-profile model **T5**. See [the full T5 results and limitations](T5_RESULTS.md) and [the methods](METHODS.md).
+This public release presents the frozen five-profile model **WARM-5**. See [the full WARM-5 results and limitations](T5_RESULTS.md) and [the methods](METHODS.md).
 
 | Profile ID | Description | Development share | Held-out share |
 |---|---|---:|---:|
@@ -16,8 +16,8 @@ Shares give each included country equal influence among complete-case respondent
 
 - Development respondent ARI median/lower decile is 0.974/0.946; country values are 0.956/0.913. The weakest profile's country-test lower-decile Jaccard overlap is 0.943.
 - All 15 defining contrasts retain their aggregate held-out direction. Mean per-feature category differences range from 0.008 to 0.028. Distance flags rise from 4.95% to 5.69%.
-- Transfer is qualified by complete-case selection, small country/profile cells and country-specific weaknesses. The held-out countries had been inspected before T5 selection: this is secondary assessment.
-- Of 135 regional reference fits and 5,228 stability fits, none failed computationally. Six coarser alternatives pass both full stability tests; no regional k=5 does so where full tests are available. T5 is a common description, not a universal regional taxonomy.
+- Transfer is qualified by complete-case selection, small country/profile cells and country-specific weaknesses. The held-out countries had been inspected before WARM-5 selection: this is secondary assessment.
+- Of 135 regional reference fits and 5,228 stability fits, none failed computationally. Six coarser alternatives pass both full stability tests; no regional k=5 does so where full tests are available. WARM-5 is a common description, not a universal regional taxonomy.
 - Mixture similarity only partly follows geography. The nearest country is in the same region for 23.9%, against an 8.1% random-peer reference.
 - Income-gap rank correlation is 0.247 for mixtures and 0.298 for original responses, not evidence of causation.
 - Week 6 held-out balanced accuracy is 0.261 and macro-F1 0.223. Prediction from external background variables remains weak.
@@ -27,7 +27,7 @@ Shares give each included country equal influence among complete-case respondent
 - [Five-profile explorer](../docs/index.html)
 - [Country comparisons](../docs/countries.html)
 - [Income patterns](../docs/country-income.html)
-- [Exact T5 model](../frozen_models/T5_models.json)
+- [Exact WARM-5 model](../frozen_models/T5_models.json)
 - [Profile transfer table](../course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/profile_transfer_summary.csv)
 - [Regional stability and meanings](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/supported_local_resolutions.csv)
 - [Country geography summary](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_geography_summary.csv)

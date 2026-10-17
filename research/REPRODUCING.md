@@ -1,10 +1,10 @@
-# Reading and reproducing the T5 results
+# Reading and reproducing the WARM-5 results
 
 ## Without survey data
 
 Open `docs/index.html`, `docs/countries.html` or `docs/country-income.html`. They work offline, including their controls, embedded aggregate data, map boundaries and D3 dependency. Supporting repository links require internet access.
 
-The profile explorer shows only T5. Map code reconstructs original-response distances from 46 country-level category probabilities and compares fixed five-profile proportions. The overall allocation is always worry 58.38%, personal harm 20.81%, known-person harm 20.81%.
+The profile explorer shows only WARM-5. Map code reconstructs original-response distances from 46 country-level category probabilities and compares fixed five-profile proportions. The overall allocation is always worry 58.38%, personal harm 20.81%, known-person harm 20.81%.
 
 Edit the map fragments under `docs/` and run:
 
@@ -14,7 +14,7 @@ python .week05_build/rebuild_T5_pages.py
 
 This refreshes the offline wrappers; it does not refit clustering or change aggregate inputs. Exact matrices are also published under `course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/`.
 
-## Assign T5 to separately supplied survey responses
+## Assign WARM-5 to separately supplied survey responses
 
 `frozen_models/T5_models.json` contains the exact stored centres, feature order, recoding information, profile names and development distance thresholds. `frozen_models/public_assignment.py` loads this readable model and assigns complete responses without fitting. Do not load third-party executable pickle/joblib files.
 
@@ -26,12 +26,12 @@ Use Python 3.11 with `requirements.txt`. The tested scientific environment used 
 
 Obtain the 2023 data and dictionary from Lloyd's Register Foundation. The original source release was `LRF_WAVE_3_WITH_INDICES_FOR_PUBLIC_RELEASE_10082024_v2.sav`; the course uses curated `23_wrp/WRP_2023.*` inputs. A newer harmonized release must not silently replace that input while claiming exact replay. Reuse `course_artifacts/week03_country_split.csv`, rather than drawing another split.
 
-The Week 3 notebook prepares the data. The Week 5 notebook shows the T5 feature transform, ordinary weighted K-means declaration, fixed-centre assignment, regional prevalence and country distances. Expensive search, stability, explanation and transfer summaries read saved tables. The Week 6 notebook contains the T5 prediction implementation.
+The Week 3 notebook prepares the data. The Week 5 notebook shows the WARM-5 feature transform, ordinary weighted K-means declaration, fixed-centre assignment, regional prevalence and country distances. Expensive search, stability, explanation and transfer summaries read saved tables. The Week 6 notebook contains the WARM-5 prediction implementation.
 
 This release deliberately excludes historical alternative-model records and original search runners. Published selection tables are restricted views; the complete original history and private sampling/fit caches remain in the course archive. Full scientific replay needs those original inputs, records and runtime: this is not a zero-input, one-click reproduction bundle. Do not interpret omitted historical records as evidence that no alternatives were tested.
 
 ## Validation and privacy
 
-The held-out countries had been inspected before T5 selection. The frozen T5 assessment is secondary transfer, not an untouched external confirmation. All-country maps are descriptive extensions. A full-data refit would create a different model and would not inherit this validation.
+The held-out countries had been inspected before WARM-5 selection. The frozen WARM-5 assessment is secondary transfer, not an untouched external confirmation. All-country maps are descriptive extensions. A full-data refit would create a different model and would not inherit this validation.
 
 Raw/curated responses, respondent-linked assignments, executable fits and sampling indices are excluded. Notebook outputs are cleared; aggregate tables and figures are supplied separately. `publication_manifest.json` records source/publication hashes and modified public views. Aggregate publication is not a formal disclosure-risk certification; some country/profile cells are small.

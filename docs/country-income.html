@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>How do response patterns relate to country income? · World Risk Poll</title>
+<title>How do response patterns relate to country income? · The Worry–Harm Atlas</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
 
 <style id="wrp-research-page-style">:root{color-scheme:light dark;--page-bg:light-dark(#fff,#181818);--page-ink:light-dark(#20252b,#f2f3f5);--page-muted:light-dark(#515b65,#b5bec8);--page-line:light-dark(#d9dfe5,#454d56);--page-active:light-dark(#edf3f8,#263440)}
@@ -29,7 +29,7 @@ iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margi
 </head>
 <body>
 <header class="research-header">
-  <div class="research-brand"><span>WORLD RISK POLL · 2023</span><a href="https://github.com/ionpetre/WRP-dataset" rel="noopener">Research repository</a></div>
+  <div class="research-brand"><span>THE WORRY–HARM ATLAS · WORLD RISK POLL 2023</span><a href="https://github.com/ionpetre/WRP-dataset" rel="noopener">Research repository</a></div>
   <h1>How do response patterns relate to country income?</h1>
   <p class="research-intro">Explore country income groups and their response differences. Income provides context; it is not used to calculate country similarity.</p>
   <nav class="research-views" aria-label="Explore the research">
@@ -37,7 +37,7 @@ iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margi
     <a class="research-view " href="./countries.html" ><span class="view-name">Compare countries</span><span class="view-description">Find countries with similar worry and reported harm.</span></a>
     <a class="research-view is-current" href="./country-income.html" aria-current="page"><span class="view-name">Explore income patterns</span><span class="view-description">Compare responses within and between income groups.</span></a>
   </nav>
-</header><p id="T5-allocation-note" style="max-width:1120px;margin:1rem auto">One frozen model, T5: worry 58.38%; personal harm 20.81%; known-person harm 20.81%. Component views isolate parts of the same comparison; they do not fit different models.</p>
+</header><p id="T5-allocation-note" style="max-width:1120px;margin:1rem auto">One frozen model, WARM-5 (stored identifier T5): worry 58.38%; personal harm 20.81%; known-person harm 20.81%. Component views isolate parts of the same comparison; they do not fit different models.</p>
 <iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Country Income Similarity" data-srcdoc="&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
 &lt;head&gt;
@@ -1817,7 +1817,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     &lt;/label&gt;
     &lt;label class=&quot;form-label&quot;&gt;Compare&lt;select class=&quot;form-select&quot; id=&quot;wrp-inc-basis&quot;&gt;&lt;option value=&quot;responses&quot;&gt;Original response distributions&lt;/option&gt;&lt;option value=&quot;profiles&quot;&gt;Frozen profile mixtures (Hellinger)&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
     &lt;label class=&quot;form-label&quot;&gt;Map colours
-      &lt;select class=&quot;form-select&quot; id=&quot;wrp-inc-mode&quot;&gt;&lt;option value=&quot;income&quot;&gt;Fieldwork income group&lt;/option&gt;&lt;option value=&quot;T5&quot;&gt;Overall · T5 allocation&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;wrp-inc-mode&quot;&gt;&lt;option value=&quot;income&quot;&gt;Fieldwork income group&lt;/option&gt;&lt;option value=&quot;T5&quot;&gt;Overall · WARM-5 allocation&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
     &lt;/label&gt;
     &lt;label class=&quot;form-label&quot;&gt;Inspect country&lt;select class=&quot;form-select&quot; id=&quot;wrp-inc-country&quot;&gt;&lt;/select&gt;&lt;/label&gt;
     &lt;label class=&quot;form-check&quot;&gt;&lt;input class=&quot;form-check-input&quot; id=&quot;wrp-inc-regions&quot; type=&quot;checkbox&quot; checked&gt;&lt;span class=&quot;form-check-label&quot;&gt;Dataset region outlines&lt;/span&gt;&lt;/label&gt;
@@ -1828,14 +1828,14 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;div class=&quot;text-small&quot;&gt;Thin outlines: dataset regions · highlighted outline: selected country · uncoloured: outside this set · hatching: income not classified&lt;/div&gt;
   &lt;h3&gt;Mean median-relative distance by income group&lt;/h3&gt;
   &lt;div class=&quot;inc-panels&quot;&gt;
-    &lt;section&gt;&lt;h3 id=&quot;wrp-inc-heading-T5&quot;&gt;Overall · T5 allocation&lt;/h3&gt;&lt;div id=&quot;wrp-inc-summary-T5&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;svg id=&quot;wrp-inc-matrix-T5&quot; class=&quot;inc-matrix&quot; role=&quot;img&quot; aria-label=&quot;Mean T5 distance by income group&quot;&gt;&lt;/svg&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h3 id=&quot;wrp-inc-heading-T5&quot;&gt;Overall · WARM-5 allocation&lt;/h3&gt;&lt;div id=&quot;wrp-inc-summary-T5&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;svg id=&quot;wrp-inc-matrix-T5&quot; class=&quot;inc-matrix&quot; role=&quot;img&quot; aria-label=&quot;Mean WARM-5 distance by income group&quot;&gt;&lt;/svg&gt;&lt;/section&gt;
   &lt;/div&gt;
   &lt;div class=&quot;text-small&quot;&gt;L: low · LM: lower-middle · UM: upper-middle · H: high. Smaller values mean more similar countries under the selected comparison. Diagonal cells compare different countries in the same income group; self-comparisons excluded.&lt;/div&gt;
   &lt;div class=&quot;viz-controls&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Nearest countries shown&lt;select class=&quot;form-select&quot; id=&quot;wrp-inc-count&quot;&gt;&lt;option value=&quot;10&quot;&gt;10&lt;/option&gt;&lt;option value=&quot;20&quot;&gt;20&lt;/option&gt;&lt;option value=&quot;all&quot;&gt;All other countries&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
   &lt;div class=&quot;inc-panels&quot;&gt;
-    &lt;section&gt;&lt;h3 id=&quot;wrp-inc-near-title-T5&quot;&gt;Overall · T5 allocation · nearest countries&lt;/h3&gt;&lt;ol id=&quot;wrp-inc-near-T5&quot; class=&quot;text-small&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h3 id=&quot;wrp-inc-near-title-T5&quot;&gt;Overall · WARM-5 allocation · nearest countries&lt;/h3&gt;&lt;ol id=&quot;wrp-inc-near-T5&quot; class=&quot;text-small&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;text-small&quot;&gt;The T5 overall comparison uses one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the fixed reference distance; 2 = twice that distance. Reference medians use all 142 countries even in the development-only view. Components have their own medians. Numbers above 2 are retained.&lt;/div&gt;
+  &lt;div class=&quot;text-small&quot;&gt;The WARM-5 overall comparison uses one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the fixed reference distance; 2 = twice that distance. Reference medians use all 142 countries even in the development-only view. Components have their own medians. Numbers above 2 are retained.&lt;/div&gt;
   &lt;div id=&quot;wrp-inc-error&quot; role=&quot;alert&quot; hidden&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
@@ -1859,7 +1859,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;script id=&quot;wrp-response-tools&quot;&gt;/* One frozen specification. All inputs are country aggregates; no fitting. */
 function wrpResponseTools(data){
  const source=data.responses, n=data.countries.length, alpha=source.alphas.T5;
- if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error(&#x27;Missing T5 country response reference.&#x27;);
+ if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error(&#x27;Missing WARM-5 country response reference.&#x27;);
  if(source.country_order.some((iso,i)=&gt;iso!==data.countries[i].iso))throw new Error(&#x27;Country order differs from the map.&#x27;);
  const bytes=Uint8Array.from(atob(source.probabilities_f64_base64),c=&gt;c.charCodeAt(0));
  if(bytes.length!==n*46*8)throw new Error(&#x27;Unexpected response reference length.&#x27;);
@@ -1908,8 +1908,8 @@ function wrpResponseTools(data){
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
  return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
   method:basis=&gt;basis===&#x27;profiles&#x27;?&#x27;Median-relative Hellinger distance&#x27;:&#x27;Median-relative total variation distance&#x27;,
-  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;T5 · five frozen profiles&#x27;:component===&#x27;overall&#x27;?&#x27;T5 · overall worry and harm&#x27;:`${labels[component]} · original responses`,
-  description:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;Compares country proportions across the same five frozen T5 profiles.&#x27;:component===&#x27;overall&#x27;?`One fixed T5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:&#x27;Uses only this response component; it is not a different clustering model.&#x27;,
+  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;WARM-5 · five frozen profiles&#x27;:component===&#x27;overall&#x27;?&#x27;WARM-5 · overall worry and harm&#x27;:`${labels[component]} · original responses`,
+  description:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;Compares country proportions across the same five frozen WARM-5 profiles.&#x27;:component===&#x27;overall&#x27;?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:&#x27;Uses only this response component; it is not a different clustering model.&#x27;,
   fingerprint:source.fingerprint};
 }
 &lt;/script&gt;
@@ -1931,7 +1931,7 @@ function wrpResponseTools(data){
    for(const key of [&#x27;worry&#x27;,&#x27;self&#x27;,&#x27;known&#x27;])modeSelect.querySelector(&#x27;[value=&quot;&#x27;+key+&#x27;&quot;]&#x27;).disabled=basis===&#x27;profiles&#x27;;
    if(basis===&#x27;profiles&#x27;&amp;&amp;[&#x27;worry&#x27;,&#x27;self&#x27;,&#x27;known&#x27;].includes(mode))mode=&#x27;T5&#x27;;
    basisSelect.value=basis;modeSelect.value=mode;
-   modeSelect.querySelector(&#x27;[value=&quot;T5&quot;]&#x27;).textContent=basis===&#x27;profiles&#x27;?&#x27;T5 · five frozen profiles&#x27;:&#x27;Overall · T5 allocation&#x27;;
+   modeSelect.querySelector(&#x27;[value=&quot;T5&quot;]&#x27;).textContent=basis===&#x27;profiles&#x27;?&#x27;WARM-5 · five frozen profiles&#x27;:&#x27;Overall · WARM-5 allocation&#x27;;
   }
   const probe=document.createElement(&#x27;span&#x27;);probe.hidden=true;root.appendChild(probe);
   const token=name=&gt;{probe.style.color=`var(${name})`;return getComputedStyle(probe).color;};

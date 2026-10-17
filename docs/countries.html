@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>How do worry and harm differ across countries? · World Risk Poll</title>
+<title>How do worry and harm differ across countries? · The Worry–Harm Atlas</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
 
 <style id="wrp-research-page-style">:root{color-scheme:light dark;--page-bg:light-dark(#fff,#181818);--page-ink:light-dark(#20252b,#f2f3f5);--page-muted:light-dark(#515b65,#b5bec8);--page-line:light-dark(#d9dfe5,#454d56);--page-active:light-dark(#edf3f8,#263440)}
@@ -29,7 +29,7 @@ iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margi
 </head>
 <body>
 <header class="research-header">
-  <div class="research-brand"><span>WORLD RISK POLL · 2023</span><a href="https://github.com/ionpetre/WRP-dataset" rel="noopener">Research repository</a></div>
+  <div class="research-brand"><span>THE WORRY–HARM ATLAS · WORLD RISK POLL 2023</span><a href="https://github.com/ionpetre/WRP-dataset" rel="noopener">Research repository</a></div>
   <h1>How do worry and harm differ across countries?</h1>
   <p class="research-intro">Compare 142 countries using worry and personal or known-person harm. Explore overall patterns or individual components.</p>
   <nav class="research-views" aria-label="Explore the research">
@@ -37,7 +37,7 @@ iframe{display:block;width:100%;max-width:1120px;height:calc(100vh - 2rem);margi
     <a class="research-view is-current" href="./countries.html" aria-current="page"><span class="view-name">Compare countries</span><span class="view-description">Find countries with similar worry and reported harm.</span></a>
     <a class="research-view " href="./country-income.html" ><span class="view-name">Explore income patterns</span><span class="view-description">Compare responses within and between income groups.</span></a>
   </nav>
-</header><p id="T5-allocation-note" style="max-width:1120px;margin:1rem auto">One frozen model, T5: worry 58.38%; personal harm 20.81%; known-person harm 20.81%. Component views isolate parts of the same comparison; they do not fit different models.</p>
+</header><p id="T5-allocation-note" style="max-width:1120px;margin:1rem auto">One frozen model, WARM-5 (stored identifier T5): worry 58.38%; personal harm 20.81%; known-person harm 20.81%. Component views isolate parts of the same comparison; they do not fit different models.</p>
 <iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Country Similarity Region Map" data-srcdoc="&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
 &lt;head&gt;
@@ -1819,7 +1819,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-basis&quot;&gt;&lt;option value=&quot;responses&quot;&gt;Original response distributions&lt;/option&gt;&lt;option value=&quot;profiles&quot;&gt;Frozen profile mixtures (Hellinger)&lt;/option&gt;&lt;/select&gt;
     &lt;/label&gt;
     &lt;label class=&quot;form-label&quot;&gt;Distance component
-      &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-component&quot;&gt;&lt;option value=&quot;overall&quot;&gt;Overall · T5 allocation&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
+      &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-component&quot;&gt;&lt;option value=&quot;overall&quot;&gt;Overall · WARM-5 allocation&lt;/option&gt;&lt;option value=&quot;worry&quot;&gt;Worry&lt;/option&gt;&lt;option value=&quot;self&quot;&gt;Personal harm&lt;/option&gt;&lt;option value=&quot;known&quot;&gt;Known-person harm&lt;/option&gt;&lt;/select&gt;
     &lt;/label&gt;
     &lt;div id=&quot;wrp-sim-view-control&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Map view
       &lt;select class=&quot;form-select&quot; id=&quot;wrp-sim-view&quot; aria-label=&quot;Map view&quot;&gt;
@@ -1836,7 +1836,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;/div&gt;
   &lt;div id=&quot;wrp-sim-detail&quot; class=&quot;text-small&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
   &lt;div id=&quot;wrp-sim-panels&quot;&gt;
-    &lt;section id=&quot;wrp-sim-panel-T5&quot;&gt;&lt;h3&gt;T5 · five frozen profiles&lt;/h3&gt;&lt;svg class=&quot;wrp-sim-map&quot; id=&quot;wrp-sim-T5&quot; role=&quot;img&quot; aria-label=&quot;World map of country similarity under T5&quot;&gt;&lt;/svg&gt;&lt;div class=&quot;text-small&quot; id=&quot;wrp-sim-summary-T5&quot;&gt;&lt;/div&gt;&lt;svg class=&quot;wrp-sim-key&quot; id=&quot;wrp-sim-key-T5&quot; role=&quot;img&quot; aria-label=&quot;Two-dimensional colour key for T5&quot;&gt;&lt;/svg&gt;&lt;div class=&quot;text-small&quot; id=&quot;wrp-sim-neighbours-title-T5&quot;&gt;&lt;/div&gt;&lt;ol class=&quot;text-small&quot; id=&quot;wrp-sim-neighbours-T5&quot; aria-labelledby=&quot;wrp-sim-neighbours-title-T5&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
+    &lt;section id=&quot;wrp-sim-panel-T5&quot;&gt;&lt;h3&gt;WARM-5 · five frozen profiles&lt;/h3&gt;&lt;svg class=&quot;wrp-sim-map&quot; id=&quot;wrp-sim-T5&quot; role=&quot;img&quot; aria-label=&quot;World map of country similarity under WARM-5&quot;&gt;&lt;/svg&gt;&lt;div class=&quot;text-small&quot; id=&quot;wrp-sim-summary-T5&quot;&gt;&lt;/div&gt;&lt;svg class=&quot;wrp-sim-key&quot; id=&quot;wrp-sim-key-T5&quot; role=&quot;img&quot; aria-label=&quot;Two-dimensional colour key for T5&quot;&gt;&lt;/svg&gt;&lt;div class=&quot;text-small&quot; id=&quot;wrp-sim-neighbours-title-T5&quot;&gt;&lt;/div&gt;&lt;ol class=&quot;text-small&quot; id=&quot;wrp-sim-neighbours-T5&quot; aria-labelledby=&quot;wrp-sim-neighbours-title-T5&quot;&gt;&lt;/ol&gt;&lt;/section&gt;
   &lt;/div&gt;
   &lt;div class=&quot;viz-row text-small&quot;&gt;&lt;span&gt;Thin outlines · original dataset regions&lt;/span&gt;&lt;span&gt;Heavy outline · inspected country’s region&lt;/span&gt;&lt;span&gt;Uncoloured · no study data&lt;/span&gt;&lt;/div&gt;
   &lt;div class=&quot;text-small&quot; id=&quot;wrp-sim-reading&quot;&gt;Overview colours approximate similarity; rankings always use the original Hellinger distances.&lt;/div&gt;
@@ -1864,7 +1864,7 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;script id=&quot;wrp-response-tools&quot;&gt;/* One frozen specification. All inputs are country aggregates; no fitting. */
 function wrpResponseTools(data){
  const source=data.responses, n=data.countries.length, alpha=source.alphas.T5;
- if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error(&#x27;Missing T5 country response reference.&#x27;);
+ if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error(&#x27;Missing WARM-5 country response reference.&#x27;);
  if(source.country_order.some((iso,i)=&gt;iso!==data.countries[i].iso))throw new Error(&#x27;Country order differs from the map.&#x27;);
  const bytes=Uint8Array.from(atob(source.probabilities_f64_base64),c=&gt;c.charCodeAt(0));
  if(bytes.length!==n*46*8)throw new Error(&#x27;Unexpected response reference length.&#x27;);
@@ -1913,8 +1913,8 @@ function wrpResponseTools(data){
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
  return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
   method:basis=&gt;basis===&#x27;profiles&#x27;?&#x27;Median-relative Hellinger distance&#x27;:&#x27;Median-relative total variation distance&#x27;,
-  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;T5 · five frozen profiles&#x27;:component===&#x27;overall&#x27;?&#x27;T5 · overall worry and harm&#x27;:`${labels[component]} · original responses`,
-  description:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;Compares country proportions across the same five frozen T5 profiles.&#x27;:component===&#x27;overall&#x27;?`One fixed T5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:&#x27;Uses only this response component; it is not a different clustering model.&#x27;,
+  title:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;WARM-5 · five frozen profiles&#x27;:component===&#x27;overall&#x27;?&#x27;WARM-5 · overall worry and harm&#x27;:`${labels[component]} · original responses`,
+  description:(basis,model,component)=&gt;basis===&#x27;profiles&#x27;?&#x27;Compares country proportions across the same five frozen WARM-5 profiles.&#x27;:component===&#x27;overall&#x27;?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:&#x27;Uses only this response component; it is not a different clustering model.&#x27;,
   fingerprint:source.fingerprint};
 }
 &lt;/script&gt;
@@ -1969,8 +1969,8 @@ try {
   document.getElementById(&#x27;wrp-sim-detail&#x27;).textContent=`${selected.name} · ${selected.region} · ${Math.round(selected.retention*1000)/10}% of prepared respondents retained`;
   document.getElementById(&#x27;wrp-sim-reading&#x27;).textContent=mode===&#x27;overview&#x27;
    ?&#x27;Overview colours are a 2D approximation, not country groups or a burden scale. Rankings use the original Hellinger distances.&#x27;
-   :basis===&#x27;profiles&#x27;?&#x27;These views compare countries by their proportions across the same five frozen T5 profiles. The view uses one fixed reference median: 1 means the fixed reference distance; 2 means twice that distance. Numbers above 2 are retained.&#x27;
-   :&#x27;The T5 overall comparison uses one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the fixed reference distance; 2 = twice that distance. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points.&#x27;;
+   :basis===&#x27;profiles&#x27;?&#x27;These views compare countries by their proportions across the same five frozen WARM-5 profiles. The view uses one fixed reference median: 1 means the fixed reference distance; 2 means twice that distance. Numbers above 2 are retained.&#x27;
+   :&#x27;The WARM-5 overall comparison uses one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the fixed reference distance; 2 = twice that distance. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points.&#x27;;
   const single=true;root.classList.toggle(&#x27;wrp-single-component&#x27;,single);
   for(const model of [&#x27;T5&#x27;]){
    document.querySelector(&#x27;#wrp-sim-panel-&#x27;+model+&#x27; h3&#x27;).textContent=responseTools.title(basis,model,component);

@@ -1,10 +1,10 @@
-# T5: encoding, weighting and validation
+# WARM-5: encoding, weighting and validation
 
 ## Data and target population
 
 Use the 2023 World Risk Poll: 146,910 respondents in 142 countries. The frozen country split has 113 development countries (116,820 respondents) and 29 held-out countries (30,090 respondents). Countries, not respondents, are the split unit; reuse [the country allocation](../course_artifacts/week03_country_split.csv).
 
-T5 requires complete substantive answers to all six worry and seven harm-domain questions: 109,488 development and 27,972 held-out respondents. The 9,450 others remain unassigned. No imputation, PCA or z-standardization is used. Complete-case selection limits interpretation.
+WARM-5 requires complete substantive answers to all six worry and seven harm-domain questions: 109,488 development and 27,972 held-out respondents. The 9,450 others remain unassigned. No imputation, PCA or z-standardization is used. Complete-case selection limits interpretation.
 
 For an analysis cohort containing $C$ countries, respondent $i$ in country $c(i)$ has weight
 
@@ -27,7 +27,7 @@ $$z_{ih_j}=h_{ij}\sqrt{(1-\alpha)/14}.$$
 
 There are 21 transformed coordinates from 20 observed features. The mean derives from the same six worries; it is not an independent seventh question. Square roots enter because squared Euclidean distance squares each multiplier. The mean coordinate has one coordinate's multiplier, not six copies of the mean.
 
-T5 has **one** nominal allocation: worry 58.38%, personal harm 20.81%, known-person harm 20.81%. Actual contributions to distances also depend on the responses and this geometry; the percentages are not measured variance shares.
+WARM-5 has **one** nominal allocation: worry 58.38%, personal harm 20.81%, known-person harm 20.81%. Actual contributions to distances also depend on the responses and this geometry; the percentages are not measured variance shares.
 
 ## Search and selection
 
@@ -37,7 +37,7 @@ The pilot objective is the smaller of the two lower-decile stability ARIs. Ten r
 
 Fifty partitions give 1,225 pairwise adjusted Rand indices (ARIs), comparing co-membership independently of cluster names. Require median and 10th-percentile ARI at least 0.80 in **both** tests, k at least 3, largest equal-country share at most 40%, and dominance $D=k\max_jp_j<3$, where $p_j$ is cluster j's weighted share. Pairwise ARIs are dependent summaries, not independent observations.
 
-Review original-category meanings, overlaps and each profile's recovery. Match reference/repetition groups one-to-one by maximum weighted membership overlap, then calculate weighted Jaccard (intersection/union), precision and recall. These 50 reference-versus-repetition comparisons per test are distinct from the 1,225 pairwise ARIs. No additional Jaccard cutoff is imposed. T5 balances detail and profile recovery; it is not a proven global optimum.
+Review original-category meanings, overlaps and each profile's recovery. Match reference/repetition groups one-to-one by maximum weighted membership overlap, then calculate weighted Jaccard (intersection/union), precision and recall. These 50 reference-versus-repetition comparisons per test are distinct from the 1,225 pairwise ARIs. No additional Jaccard cutoff is imposed. WARM-5 balances detail and profile recovery; it is not a proven global optimum.
 
 The public selection tables exclude historical comparison-model rows. Full original experimental history remains private.
 
@@ -55,17 +55,17 @@ A distance flag means distance above the assigned profile's development weighted
 
 Compare prevalence, original-category distributions and three development-selected descriptive contrasts per profile. Resample the 29 held-out countries 1,000 times, holding model/predictions fixed and preserving within-country relative weights. This describes variation over these observed countries, not worldwide, missingness or model-selection uncertainty. No automatic transfer-rejection cutoff was specified.
 
-The held-out countries had been inspected before T5 selection. Report secondary descriptive transfer, not untouched external confirmation. Meanings partly persist because assignment uses these same features; this is not independent rediscovery.
+The held-out countries had been inspected before WARM-5 selection. Report secondary descriptive transfer, not untouched external confirmation. Meanings partly persist because assignment uses these same features; this is not independent rediscovery.
 
 ## Regional analysis
 
-Distinguish applying the same frozen global profiles within regions from independent regional clustering. The latter uses development countries only, unchanged T5 coding/allocation and k=2–10. Select k=5, coarse k=2/3 and one inertia-based alternative: the smallest eligible k within 95% of the maximum normalized chord-minus-inertia gap.
+Distinguish applying the same frozen global profiles within regions from independent regional clustering. The latter uses development countries only, unchanged WARM-5 coding/allocation and k=2–10. Select k=5, coarse k=2/3 and one inertia-based alternative: the smallest eligible k within 95% of the maximum normalized chord-minus-inertia gap.
 
 Run 50 respondent samples retaining 80% within each country. With at least five countries, run 50 samples retaining floor(80% of regional countries). Repeated country sets are allowed and reported. With 2–4 countries use leave-one-country-out diagnostics; with one country geographic stability is unavailable.
 
 Require median and lower-decile ARI at least 0.80 in both full tests. Global size/dominance criteria are reported benchmarks, not universal regional filters. Compare groups using membership overlap and original answers; numeric local labels do not share meanings across regions. This local selection is exploratory.
 
-## Country distances: two summaries of the same T5 analysis
+## Country distances: two summaries of the same WARM-5 analysis
 
 For country a, let $p_{aj}$ be the survey-weighted proportion of complete respondents in frozen profile j, j=0,...,4. Mixture Hellinger distance is
 
@@ -79,9 +79,9 @@ Average separately over six worries, seven personal harms and seven known-person
 
 $$V(a,b)=\alpha V_W(a,b)+\frac{1-\alpha}{2}\{V_S(a,b)+V_K(a,b)\}.$$
 
-This uses T5's allocation. Numeric spacing t deliberately does not enter original-category total variation; it does affect the fitted profiles. Component views isolate a part of the comparison, not a new model. Marginals hide within-person dependence; mixtures compress them further.
+This uses WARM-5's allocation. Numeric spacing t deliberately does not enter original-category total variation; it does affect the fitted profiles. Component views isolate a part of the comparison, not a new model. Marginals hide within-person dependence; mixtures compress them further.
 
-Map display is $R=D/m_{\mathrm{ref}}$, with fixed calibration constants retained from the approved display protocol: 0.1550977480973838 for overall responses and 0.2218094853108838 for mixtures. Component constants are 0.2019268502025546 (worry), 0.0500960004811531 (personal harm), and 0.0872275415556315 (known-person harm). They are not newly recalculated T5 medians. One means the fixed reference distance. Ratios are uncapped; the seven-band colour legend ends at “2 or more”. Selection/scope never changes the denominator. Scaling does not change ranks.
+Map display is $R=D/m_{\mathrm{ref}}$, with fixed calibration constants retained from the approved display protocol: 0.1550977480973838 for overall responses and 0.2218094853108838 for mixtures. Component constants are 0.2019268502025546 (worry), 0.0500960004811531 (personal harm), and 0.0872275415556315 (known-person harm). They are not newly recalculated WARM-5 medians. One means the fixed reference distance. Ratios are uncapped; the seven-band colour legend ends at “2 or more”. Selection/scope never changes the denominator. Scaling does not change ranks.
 
 The overview colour projection is approximate; exact rankings use raw distances. No country grouping replaces dataset regions. The 200 within-country IID respondent bootstraps retain survey weights and fixed labels; these are conditional sensitivity checks, not full survey-design or model-selection confidence. Income associations use 999 whole-country label permutations, including within-region permutations. Country pairs are not independent, and the results are not causal.
 

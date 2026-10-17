@@ -1,7 +1,7 @@
 /* One frozen specification. All inputs are country aggregates; no fitting. */
 function wrpResponseTools(data){
  const source=data.responses, n=data.countries.length, alpha=source.alphas.T5;
- if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error('Missing T5 country response reference.');
+ if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error('Missing WARM-5 country response reference.');
  if(source.country_order.some((iso,i)=>iso!==data.countries[i].iso))throw new Error('Country order differs from the map.');
  const bytes=Uint8Array.from(atob(source.probabilities_f64_base64),c=>c.charCodeAt(0));
  if(bytes.length!==n*46*8)throw new Error('Unexpected response reference length.');
@@ -50,7 +50,7 @@ function wrpResponseTools(data){
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
  return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
   method:basis=>basis==='profiles'?'Median-relative Hellinger distance':'Median-relative total variation distance',
-  title:(basis,model,component)=>basis==='profiles'?'T5 · five frozen profiles':component==='overall'?'T5 · overall worry and harm':`${labels[component]} · original responses`,
-  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen T5 profiles.':component==='overall'?`One fixed T5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
+  title:(basis,model,component)=>basis==='profiles'?'WARM-5 · five frozen profiles':component==='overall'?'WARM-5 · overall worry and harm':`${labels[component]} · original responses`,
+  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen WARM-5 profiles.':component==='overall'?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
   fingerprint:source.fingerprint};
 }

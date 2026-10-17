@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite this research code and results separately from the original World Risk Poll survey."
-title: "World Risk Poll: Risk Profiles and Geographic Validation"
+title: "The Worry–Harm Atlas: WARM-5 profiles from the World Risk Poll"
 authors:
   - family-names: Petre
     given-names: Ion

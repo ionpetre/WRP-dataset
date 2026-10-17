@@ -24,17 +24,17 @@
     {
       "path": "CITATION.cff",
       "source": "publication-source:CITATION.cff",
-      "source_sha256": "bfb3babd1600c07f888bf41f70be99deda479ce7427bb1d6a0cc50afec9734ec",
-      "publication_sha256": "bfb3babd1600c07f888bf41f70be99deda479ce7427bb1d6a0cc50afec9734ec",
-      "bytes": 552,
+      "source_sha256": "bbf3c7dfbba52f5c63594566c73d1fbe7e5a5cdc689895ca042abe734963c7cb",
+      "publication_sha256": "bbf3c7dfbba52f5c63594566c73d1fbe7e5a5cdc689895ca042abe734963c7cb",
+      "bytes": 560,
       "modified_for_publication": false
     },
     {
       "path": "README.md",
       "source": "publication-source:README.md",
-      "source_sha256": "219f7cdedce9362b6b58258ff311d4f89f8d1c3deaf55c684f6047d645b36cb5",
-      "publication_sha256": "219f7cdedce9362b6b58258ff311d4f89f8d1c3deaf55c684f6047d645b36cb5",
-      "bytes": 4437,
+      "source_sha256": "bcb306fcc31d8932ea01f65d2961f936228335b30de28a914013938e9070e041",
+      "publication_sha256": "bcb306fcc31d8932ea01f65d2961f936228335b30de28a914013938e9070e041",
+      "bytes": 4673,
       "modified_for_publication": false
     },
     {
@@ -64,41 +64,41 @@
     {
       "path": "research/OBJECTIVES.md",
       "source": "publication-source:research/OBJECTIVES.md",
-      "source_sha256": "d65975cf069f3c74a25b6fba2ceb71310033f087264955373ba52e32303dcc14",
-      "publication_sha256": "d65975cf069f3c74a25b6fba2ceb71310033f087264955373ba52e32303dcc14",
-      "bytes": 3566,
+      "source_sha256": "4fd73603a2cfceb2cd03bbe25b7fc00cfdf61918af38ed01c22713d2c2d9c43f",
+      "publication_sha256": "4fd73603a2cfceb2cd03bbe25b7fc00cfdf61918af38ed01c22713d2c2d9c43f",
+      "bytes": 3574,
       "modified_for_publication": false
     },
     {
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
-      "source_sha256": "0bbb17840cde5f49036ddafc59b6b1549e6493c2d0566483af44b9117671680c",
-      "publication_sha256": "0bbb17840cde5f49036ddafc59b6b1549e6493c2d0566483af44b9117671680c",
-      "bytes": 9342,
+      "source_sha256": "69d9d4f8d05c80ad1fe5f8867f191092a97f1f5a5134f77751c180872eb7f741",
+      "publication_sha256": "69d9d4f8d05c80ad1fe5f8867f191092a97f1f5a5134f77751c180872eb7f741",
+      "bytes": 9378,
       "modified_for_publication": false
     },
     {
       "path": "research/RESULTS.md",
       "source": "publication-source:research/RESULTS.md",
-      "source_sha256": "41cd1cc8cb875dd63ba4aeee0974fb3acea54aab9668272fbe204a5d9389c9f9",
-      "publication_sha256": "41cd1cc8cb875dd63ba4aeee0974fb3acea54aab9668272fbe204a5d9389c9f9",
-      "bytes": 2595,
+      "source_sha256": "8a1579994d430835f992e162659f40be26a99bdd5187332cdb029949d004b776",
+      "publication_sha256": "8a1579994d430835f992e162659f40be26a99bdd5187332cdb029949d004b776",
+      "bytes": 2615,
       "modified_for_publication": false
     },
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
-      "source_sha256": "5cbb61e7b79367d517f975459377ed30dd680e4c45147957aac918ec45419154",
-      "publication_sha256": "5cbb61e7b79367d517f975459377ed30dd680e4c45147957aac918ec45419154",
-      "bytes": 3790,
+      "source_sha256": "1374d808f226464eae0736dfe5e944178448f612d535e686319da81f07163d69",
+      "publication_sha256": "1374d808f226464eae0736dfe5e944178448f612d535e686319da81f07163d69",
+      "bytes": 3818,
       "modified_for_publication": false
     },
     {
       "path": "research/T5_RESULTS.md",
       "source": "publication-source:research/T5_RESULTS.md",
-      "source_sha256": "e042cf723a9a78090df8b5238563c1ea9b76df127153887a8805ab207a8c889f",
-      "publication_sha256": "e042cf723a9a78090df8b5238563c1ea9b76df127153887a8805ab207a8c889f",
-      "bytes": 13275,
+      "source_sha256": "11bdd7b71098196762c6f2df3a2848ac1d83d39fda1a548dcb475d0112b42d5e",
+      "publication_sha256": "11bdd7b71098196762c6f2df3a2848ac1d83d39fda1a548dcb475d0112b42d5e",
+      "bytes": 13355,
       "modified_for_publication": false
     },
     {
@@ -184,49 +184,49 @@
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
-      "source_sha256": "2cc14c808b72ee2675ce13eab0828221e92a47cfd224a1cd8c0e3521ecd065dc",
-      "publication_sha256": "2cc14c808b72ee2675ce13eab0828221e92a47cfd224a1cd8c0e3521ecd065dc",
-      "bytes": 28945,
+      "source_sha256": "0f7323706b59fc7ebac629036881668610f0f37ec45d53d512926181a50f11da",
+      "publication_sha256": "0f7323706b59fc7ebac629036881668610f0f37ec45d53d512926181a50f11da",
+      "bytes": 56537,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-similarity-fragment.html",
       "source": "publication-source:docs/country-similarity-fragment.html",
-      "source_sha256": "f3d914e2483db3541cbb3a4ae66bced610f3c3a4af4d19db964d3a0ab811f5aa",
-      "publication_sha256": "f3d914e2483db3541cbb3a4ae66bced610f3c3a4af4d19db964d3a0ab811f5aa",
-      "bytes": 1062034,
+      "source_sha256": "6c7d271fae2a4df7484836d8cfc883b3fafd9a225bf6c057dd7f1553f0f72920",
+      "publication_sha256": "6c7d271fae2a4df7484836d8cfc883b3fafd9a225bf6c057dd7f1553f0f72920",
+      "bytes": 1062074,
       "modified_for_publication": false
     },
     {
       "path": "docs/response-profiles-fragment.html",
       "source": "publication-source:docs/response-profiles-fragment.html",
-      "source_sha256": "1808c066f0e81719f92e8fbec05d97e743c6a490c51ff0f3d3ad98a2a89d2102",
-      "publication_sha256": "1808c066f0e81719f92e8fbec05d97e743c6a490c51ff0f3d3ad98a2a89d2102",
-      "bytes": 25768,
+      "source_sha256": "09695c412cecf0d7f99ef9b84155145c3c99b9d3748331e6736da9c0344502a0",
+      "publication_sha256": "09695c412cecf0d7f99ef9b84155145c3c99b9d3748331e6736da9c0344502a0",
+      "bytes": 53303,
       "modified_for_publication": false
     },
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "4f6424b6f86c191414349884798d51b17d492b7a8b6f9a0a94fbe14f163311e1",
-      "publication_sha256": "4f6424b6f86c191414349884798d51b17d492b7a8b6f9a0a94fbe14f163311e1",
-      "bytes": 3040,
+      "source_sha256": "3edf0ad70f3fc63093be72ac2b445bc79b5773f570af055e51c5198325ebde3b",
+      "publication_sha256": "3edf0ad70f3fc63093be72ac2b445bc79b5773f570af055e51c5198325ebde3b",
+      "bytes": 3785,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income-fragment.html",
       "source": "publication-source:docs/country-income-fragment.html",
-      "source_sha256": "66d28e8b6d919dbfb91e444439a97da32f307eef8dd4617c3ac8b771fc31db4d",
-      "publication_sha256": "66d28e8b6d919dbfb91e444439a97da32f307eef8dd4617c3ac8b771fc31db4d",
-      "bytes": 1063053,
+      "source_sha256": "3f59ad92ca54c5f35bb7f1621a01f6edfe8cfb9f6a9e768ec77f7cbc79323f8d",
+      "publication_sha256": "3f59ad92ca54c5f35bb7f1621a01f6edfe8cfb9f6a9e768ec77f7cbc79323f8d",
+      "bytes": 1063101,
       "modified_for_publication": false
     },
     {
       "path": "docs/countries.html",
       "source": "publication-source:docs/countries.html",
-      "source_sha256": "1c406475c961fb7f449449414f46caff6c94eff3ee651a29867a9b755a123451",
-      "publication_sha256": "1c406475c961fb7f449449414f46caff6c94eff3ee651a29867a9b755a123451",
-      "bytes": 1213960,
+      "source_sha256": "963a581a22643f731ab58eb4181e82c5df294c1fef3fffa758b82808b28245da",
+      "publication_sha256": "963a581a22643f731ab58eb4181e82c5df294c1fef3fffa758b82808b28245da",
+      "bytes": 1214057,
       "modified_for_publication": false
     },
     {
@@ -240,9 +240,9 @@
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "c061e12b52ef866d1ee318f7f199a92a4021e1caaf8fa824f248bee49a5c6c11",
-      "publication_sha256": "c061e12b52ef866d1ee318f7f199a92a4021e1caaf8fa824f248bee49a5c6c11",
-      "bytes": 1220006,
+      "source_sha256": "7b2c648da472774a49913b498e0c8c2b93515a5e823945b0713c951688fcccd4",
+      "publication_sha256": "7b2c648da472774a49913b498e0c8c2b93515a5e823945b0713c951688fcccd4",
+      "bytes": 1220111,
       "modified_for_publication": false
     },
     {
@@ -2553,8 +2553,16 @@
       "path": ".week05_build/T5-response-distance-tools.js",
       "source": ".week05_build/T5-response-distance-tools.js",
       "source_sha256": "45fcf7abd5a5554454527258ed7abb8e30a423b86416e23c12556fe5d834720a",
-      "publication_sha256": "45fcf7abd5a5554454527258ed7abb8e30a423b86416e23c12556fe5d834720a",
-      "bytes": 4401,
+      "publication_sha256": "413997667d144f0deef1f030348d8c98f8bbb643322c8a3eddfd84b23effe066",
+      "bytes": 4421,
+      "modified_for_publication": true
+    },
+    {
+      "path": ".week05_build/add_T5_summary_charts.py",
+      "source": "publication-source:.week05_build/add_T5_summary_charts.py",
+      "source_sha256": "f39a714299a8310370339096fdbcd626ccd2e1865e72ff4a839665c4e2019343",
+      "publication_sha256": "f39a714299a8310370339096fdbcd626ccd2e1865e72ff4a839665c4e2019343",
+      "bytes": 12992,
       "modified_for_publication": false
     }
   ],
