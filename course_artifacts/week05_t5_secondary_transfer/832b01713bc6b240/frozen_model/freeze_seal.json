@@ -1,0 +1,24 @@
+{
+  "T5_transfer_not_yet_run": true,
+  "clustering_refits": 0,
+  "context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "files": {
+    "all_feature_tree_summary.csv": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+    "burden_tree_summary.csv": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+    "centres.npy": "26fe4b9a4f01a040f187a72700983dc9ed6c5448b40616ffe159969075629535",
+    "development_assignment_quality.csv": "293fe3a2d388d36022a113c527bf8be9afb3f052fbb0f57dfb1fd0a8bad5abe2",
+    "development_assignments.parquet": "77e4983da0137e65f4b04bc305308369af651f4712a10af3c26bc14c102be739",
+    "development_country_retention.csv": "71b2bba2e87712754cd1e2635342987c2d32c688d8d7e4bb69e88939e7be1996",
+    "development_defining_anchors.csv": "dad6abf3ac324f7dab9c608dc6e118c406d775b81e21a1968a578e38e33fa945",
+    "development_eligibility_and_assignments.parquet": "2d210a183bf0b1825d24c57c65303623df5d1710a4a2978bbf3e1e36856a0778",
+    "development_original_category_profiles.csv": "c7fd104f013645dbcc3bc553e480ccdb6a2a5496b40744b68d34986218b50229",
+    "development_prevalence.csv": "5f19e0d4533a269b03d0db8211915156b20c74e55133a359f734dfe756fb2c99",
+    "development_stability.json": "7780f38d0fa4f32dc41f4d1d321a1ff4f1a26a412ddbe92e7c4f1993b8b674f2",
+    "frozen_country_split.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "single_feature_summary.csv": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463",
+    "specification.json": "65420aeeb97a43102b858b10d1f3e7f9aa6eb3dc4462e1b06e49312618a1a250"
+  },
+  "frozen_at_utc": "2026-10-16T12:13:14.526984+00:00",
+  "heldout_previously_examined_for_BE": true,
+  "status": "frozen_before_secondary_transfer"
+}

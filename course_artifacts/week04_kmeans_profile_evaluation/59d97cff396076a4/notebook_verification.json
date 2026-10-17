@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "section": 7,
+  "new_section_executed": true,
+  "historical_cells_and_outputs_unchanged": 65,
+  "recompute_switch_off": true,
+  "new_clustering_or_classifier_fits": 0,
+  "Ward_fits": 0,
+  "frozen_models_replaced": 0
+}

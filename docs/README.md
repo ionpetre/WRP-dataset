@@ -1,3 +1,7 @@
+## 16 October update
+
+The profile explorer now defaults to primary T5. B4/E8 remain selectable historical models. Country and income maps retain explicitly labelled historical B/E distances; no T5 country-distance analysis is implied. See [T5 evidence](../research/T5_RESULTS.md).
+
 # Response profiles and country comparisons
 
 Open `index.html` for the response profiles, `countries.html` for country comparisons or `country-income.html` for income patterns. All three pages are self-contained and work offline, with aggregate information only. Navigation lists the profiles first, then country comparisons and income patterns.

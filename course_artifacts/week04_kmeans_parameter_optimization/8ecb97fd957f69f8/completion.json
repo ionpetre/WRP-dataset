@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "output": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8",
+  "coarse_candidates": 240,
+  "refinement_candidates": 61,
+  "confirmation_candidates": 18,
+  "protected_sources_unchanged": true,
+  "no_heldout_responses_loaded": true,
+  "interpretation": "exploratory development tuning; no replacement of frozen B/E or independent validation"
+}

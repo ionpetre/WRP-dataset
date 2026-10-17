@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "previous_pilot_settings": 301,
+  "new_pilot_settings": 160,
+  "confirmed_settings": 18,
+  "all_new_confirmation_plans_disjoint_from_earlier_plans": true,
+  "reference_centroid_and_structural_checks": 461,
+  "geometry_and_weights_unchanged": true,
+  "previous_results_and_frozen_sources_unchanged": true,
+  "fit_seed_range_checked": true,
+  "complete_scores_reproduce_pairwise_vectors": true
+}

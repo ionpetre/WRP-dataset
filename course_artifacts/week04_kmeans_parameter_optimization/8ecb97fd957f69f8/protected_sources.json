@@ -1,0 +1,8 @@
+{
+  "course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/models.joblib": "ead9f3d01488f12218df8a822f6d0cb1ad5f5c1726f9ff9aca9c327f2dda364c",
+  "course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/freeze_seal.json": "109a6dd7f3abce0949779b5ea09fc8595caeae2b542a948e2c643fbe09a24412",
+  "course_artifacts/week05_objective1_handoff_v1/123d248adda6115f/all_respondents_eligibility_and_frozen_profiles.parquet": "3e5abde953449f60ecceaea7f5fa98dc943b1556d00a5a144f63908961eb77ed",
+  "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb": "014ec621d8b26c61d6d275742c243506426a750da48d3e894809706e5dbb1e5b",
+  "weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb": "af9299cb72bd641dd1f409e74bc6d4ccee5ebbed195ab2c28b62941386cd326a",
+  "weekly_notebooks/week05_validate_frozen_profiles.ipynb": "494f5a281b20998c7e1e2acc0f7b04ebe8df294ddd9ec23b4b33180b9b65b17f"
+}

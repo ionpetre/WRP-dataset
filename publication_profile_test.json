@@ -1,17 +1,22 @@
 {
-  "passed": true,
-  "profiles": 12,
-  "overlapCells": 32,
-  "originalResponseValuesVerified": true,
-  "viewports": [
+  "status": "passed",
+  "primary": "T5",
+  "profiles_checked": 17,
+  "models": [
+    "T5",
+    "B",
+    "E"
+  ],
+  "widths": [
     360,
-    736,
+    768,
     1280
   ],
   "themes": [
     "light",
     "dark"
   ],
-  "externalRequests": 0,
-  "modelRefits": false
+  "external_requests": 0,
+  "runtime_errors": 0,
+  "country_maps_labelled_historical": true
 }

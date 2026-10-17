@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "models": 9,
+  "profiles": 54,
+  "cached_repetitions": 900,
+  "cluster_repetition_comparisons": 5400,
+  "new_clustering_fits": 0,
+  "new_classifier_fits": 0,
+  "Ward_work": false,
+  "heldout_responses_loaded": false,
+  "source_caches_and_frozen_files_unchanged": true,
+  "no_new_eligibility_thresholds": true
+}

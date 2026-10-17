@@ -1,0 +1,9 @@
+{
+  "additional_clustering_or_transfer_runs": 0,
+  "assignments_or_models_changed": false,
+  "cause": "development and held-out scope columns had merge suffixes",
+  "executed_source": "executed_transfer_implementation.py",
+  "incident": "final console summary raised AttributeError on scope after completed transfer was saved",
+  "repair": "drop development scope columns; rename held-out scope columns; preserve original CSV",
+  "scientific_values_changed": false
+}

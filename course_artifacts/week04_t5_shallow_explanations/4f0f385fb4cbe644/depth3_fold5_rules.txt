@@ -1,0 +1,22 @@
+|--- worry_water <= 1.500
+|   |--- worry_mental_health <= 1.500
+|   |   |--- worry_crime <= 1.500
+|   |   |   |--- class: 0
+|   |   |--- worry_crime >  1.500
+|   |   |   |--- class: 2
+|   |--- worry_mental_health >  1.500
+|   |   |--- harm_food_known_person <= 0.500
+|   |   |   |--- class: 3
+|   |   |--- harm_food_known_person >  0.500
+|   |   |   |--- class: 3
+|--- worry_water >  1.500
+|   |--- harm_mental_health_known_person <= 0.500
+|   |   |--- harm_crime_known_person <= 0.500
+|   |   |   |--- class: 4
+|   |   |--- harm_crime_known_person >  0.500
+|   |   |   |--- class: 4
+|   |--- harm_mental_health_known_person >  0.500
+|   |   |--- harm_traffic_known_person <= 0.500
+|   |   |   |--- class: 4
+|   |   |--- harm_traffic_known_person >  0.500
+|   |   |   |--- class: 1

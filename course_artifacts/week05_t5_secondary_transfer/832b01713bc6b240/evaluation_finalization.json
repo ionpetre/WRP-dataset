@@ -1,0 +1,52 @@
+{
+  "status": "completed_under_agreed_protocol",
+  "primary_model": "T5",
+  "context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "scope": "development parameter search, full confirmation, profile review, shallow explanations, exact freeze and secondary fixed-model transfer",
+  "structural_filters": {
+    "k": 5,
+    "largest_share": 0.3631945747362431,
+    "dominance": 1.8159728736812155,
+    "pass": true
+  },
+  "ARI": {
+    "respondents_median": 0.9739290799853213,
+    "respondents_p10": 0.9464989655263293,
+    "countries_median": 0.9559054275632874,
+    "countries_p10": 0.9130966966309694
+  },
+  "profile_level_recovery_reviewed": true,
+  "single_feature_and_burden_reconstruction_reviewed": true,
+  "all_20_feature_shallow_trees_reviewed": true,
+  "all_five_country_folds_used": true,
+  "heldout": {
+    "countries": 29,
+    "prepared": 30090,
+    "assigned": 27972,
+    "unassigned_missing_responses": 2118,
+    "defining_anchor_directions_retained": "15/15",
+    "secondary_not_untouched_assessment": true
+  },
+  "limitations": [
+    "country-specific semantic and distance problems",
+    "complete-case selection",
+    "known prior B/E held-out results",
+    "no new independent regional T5 clustering",
+    "no assertion of unique natural types or a globally optimal geometry"
+  ],
+  "new_clustering_fits_for_finalization": 0,
+  "publication": {
+    "primary_profile_explorer": "T5 default; B/E historical selectable",
+    "readable_model": "frozen_models/T5_models.json",
+    "public_assignment_matches_all_heldout_labels": true,
+    "aggregate_only": true,
+    "browser_checks": "passed",
+    "commit_or_push": false
+  },
+  "not_migrated": {
+    "country_distances": "historical B/E definitions explicitly labelled",
+    "Week6": "historical B/E prediction draft",
+    "manuscript": "not changed in this task"
+  },
+  "sealed_model_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840"
+}

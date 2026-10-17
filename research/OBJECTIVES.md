@@ -1,5 +1,9 @@
 # Research objectives
 
+## Update: primary T5 model
+
+The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
+
 The project studies whether patterns of worry and experienced harm form useful, reproducible descriptions of people’s risk profiles. The present analysis uses one survey wave: 2023. Cross-wave replication is a possible later extension, not part of the completed validation.
 
 ## Objective 1 — Discover and validate risk profiles

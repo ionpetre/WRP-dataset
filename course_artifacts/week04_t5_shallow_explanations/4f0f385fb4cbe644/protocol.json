@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "model": {
+    "model": "T5",
+    "trial": "k5_3259ff3d7dbb806a",
+    "q": 0.41670089020376244,
+    "t": 2.399802888616365,
+    "alpha": 0.5837857862168715,
+    "k": 5,
+    "fingerprint": "54d309fe37735497fb01171a68c415efefa156917fc38ab4c6f05cb615f2430f",
+    "status": "provisional, not frozen"
+  },
+  "depths": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "features": [
+    "worry_food",
+    "worry_water",
+    "worry_crime",
+    "worry_severe_weather",
+    "worry_traffic",
+    "worry_mental_health",
+    "harm_food_personal",
+    "harm_water_personal",
+    "harm_crime_personal",
+    "harm_severe_weather_personal",
+    "harm_traffic_personal",
+    "harm_mental_health_personal",
+    "harm_work_personal",
+    "harm_food_known_person",
+    "harm_water_known_person",
+    "harm_crime_known_person",
+    "harm_severe_weather_known_person",
+    "harm_traffic_known_person",
+    "harm_mental_health_known_person",
+    "harm_work_known_person"
+  ],
+  "cross_validation": "all five GroupKFold country folds",
+  "training_and_test_weights": "WGT within country, equal totals per country within fold",
+  "tree": "DecisionTreeClassifier, Gini, min_samples_leaf=200, random_state=2023; no class reweighting",
+  "target": "fixed development reference labels, not independently refitted labels",
+  "interpretation": "explanatory fidelity; no automatic rejection threshold or claim of independent validation",
+  "heldout_used": false,
+  "clustering_fits": 0,
+  "inputs": {
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/references/k5_3259ff3d7dbb806a.joblib": "81227ea9e6e7ebef27ae5dab3f2043b66a3055e84f026d814325a8ba737b93d8",
+    "course_artifacts/week04_search_v4/stage1_eligible_development.parquet": "aaa4c03f43395a15be57e6fd0a0742d48910ce0fa42fdd49371864fe7ed70d31"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "models": 9,
+  "profiles": 54,
+  "cached_fits": 900,
+  "cluster_repetition_comparisons": 5400,
+  "partition_comparisons": 36,
+  "label_permutation_invariance_and_empty_cluster_case": true,
+  "metric_quantiles_and_probabilities_reproduced": true,
+  "sources_and_frozen_models_unchanged": true,
+  "no_fit_calls_in_evaluation_scripts": true
+}

@@ -1,5 +1,16 @@
 # Reading and reproducing the research
 
+## Update: primary T5 model
+
+The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
+
+The current Week 5 notebook contains the optimization, confirmation, profile
+review, T5 selection and secondary transfer in Sections 1–5. Appendix A retains
+the original B/E analyses. Section numbers 32–34 mentioned in the historical
+map-development notes below refer to the earlier notebook, not the current
+weekly layout. Run `.week05_build/export_response_profiles.py` to rebuild the
+primary T5 explorer from public aggregate tables; no survey data are needed.
+
 ## What works without survey data
 
 Read the Markdown guides, inspect aggregate CSV tables and figures, and open `docs/index.html` in a browser to explore the frozen respondent profiles. Country comparisons are in `docs/countries.html`; income patterns are in `docs/country-income.html`. The standalone maps include their country data, boundary geometry and D3 dependency; all three pages work offline and do not need ChatGPT. Source fragments are preserved separately. The profile explorer uses only existing aggregate profile, stability, transfer and overlap tables; its exporter checks that overlap marginals match the frozen profile shares.
@@ -62,3 +73,6 @@ Model IDs are preserved: B clusters 0–3 and E clusters 0–7. The transform pr
 Keep raw and curated survey data, fit caches, ID-linked handoffs and country-subsample indices outside version control. The supplied `.gitignore` prevents the standard sensitive formats and cache paths from being added accidentally; it is not a substitute for reviewing a commit.
 
 The held-out countries were opened only after the original B4/E8 freeze. They are now used evidence, not an untouched test set for newly redesigned models. Do not rerun selection on them, claim a full-data refit inherits this validation, or call the post-validation country-similarity maps an independent confirmation.
+
+
+For primary T5 assignments, `load_public_models()` defaults to `T5_models.json`. Use `load_public_models(filename="models.json")` for historical B/E. Public notebooks have outputs cleared and require private data/caches for full replay; no claim of zero-input reproduction is made.

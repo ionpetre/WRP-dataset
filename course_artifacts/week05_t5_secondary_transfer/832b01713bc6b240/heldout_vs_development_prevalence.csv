@@ -1,0 +1,6 @@
+split,candidate,scope,area_id,area_name,cluster,profile_name,respondents,area_respondents,area_countries,respondent_share,equal_country_weighted_share_heldout,equal_country_weighted_share_development,prevalence_difference_pp
+heldout,T5,global,heldout,heldout,0,Lower worry,10221,27972,29,0.3654011154011154,0.35860698279814973,0.3631945747362393,-0.45875919380895525
+heldout,T5,global,heldout,heldout,1,Broad known-person harm,3423,27972,29,0.12237237237237238,0.12520744424684072,0.1384180783659742,-1.321063411913348
+heldout,T5,global,heldout,heldout,2,Crime/weather worry,5233,27972,29,0.1870799370799371,0.18341068597766202,0.1849131049552522,-0.15024189775901808
+heldout,T5,global,heldout,heldout,3,Mental-health/traffic/weather worry,4822,27972,29,0.17238667238667238,0.17859048635963629,0.1579767451591483,2.061374120048798
+heldout,T5,global,heldout,heldout,4,Water/food worry,4273,27972,29,0.15275990275990275,0.15418440061771121,0.1554974967833859,-0.1313096165674682

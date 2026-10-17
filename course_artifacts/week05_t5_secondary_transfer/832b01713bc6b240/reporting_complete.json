@@ -1,0 +1,32 @@
+{
+  "files": {
+    "all_respondents_T5_eligibility_and_frozen_profiles.parquet": "b23e3d040dc91da14ef8b95c7786d937567402c9337d617335263c1a8e77a5b6",
+    "bootstrap_design.json": "f80be6ad1fe9a9232636be42400f398a7f2f1bb5c7500318d2b458bea29dd560",
+    "executed_transfer_implementation.py": "a0366bca1096ac0d7c3161e391ce2e36f8d7c53c7ce0b1e79784272a73b18ef2",
+    "heldout_assignment_quality.csv": "f2755f164076921ac941a7e4128d5c295c14f4dffb1e5c5f6ee26288a2d46540",
+    "heldout_assignments.parquet": "98a677c5873d4596985e5b82668add4e57566c3c7812502b04057e4780b26f3b",
+    "heldout_country_bootstrap_intervals.csv": "ccc5ed262ab54c9993e757fcff269ffa11b6fd734176fd1a07a29774ad26a6d6",
+    "heldout_country_quality_and_retention.csv": "ce1862cee5c3f18e81ef8d2e9a44ad44088dd624b3dcfc5456673b4b85280af9",
+    "heldout_country_retention.csv": "28d0f0c5e2cce1e526cd2f69891345af61347c2960f469cde66da6aae512db4c",
+    "heldout_eligibility_and_assignments.parquet": "559129e0199e8b453ecf199fe3849a2828de6cd670195138912838d057e748c1",
+    "heldout_frozen_anchor_comparison.csv": "c3f61160742eb8a6951284c6a949f146fe3bfd9bc9e63d2dbd1b4514b7f465e2",
+    "heldout_frozen_anchor_comparison_before_scope_column_repair.csv": "6adc03702b3b711cc0d7402e2c9428ccb9c58be5f7ac1f3cf349f1d1daa1bb14",
+    "heldout_original_category_profiles.csv": "86ee4c3279c8ff76bfe54775dd41ffefbc01ce1effb36bb254c3fe8ee8f7c3c0",
+    "heldout_original_feature_total_variation.csv": "c5bcc04f6e74b44913d5602b15d61371119b0d971acafcc136b4385d1a6da86b",
+    "heldout_prevalence.csv": "1278ffd5e5808bf4bef3a6d38315adbae988e22f7909733b377bb54aad9f75a5",
+    "heldout_profile_semantic_differences.csv": "3908879f6bee730205d76b519f07c416e948eeb9ac4d7cac6167369b7a9cd59f",
+    "heldout_vs_development_category_differences.csv": "d1c7c17d2bd1924aefa2651fd8c6e2dac1642069ec9d55cb47a3806d194838be",
+    "heldout_vs_development_prevalence.csv": "1e3855092e1d5d0c22fd7e20c0056348f01fceb9c631b7d1b8da4713faf13e0b",
+    "heldout_vs_development_quality.csv": "04e8d12cc71cbcf2acc3f4f4218b4a3825f88339263ca412178fe4297f5d745d",
+    "interpretation.txt": "d0cde6517a1ce3f723247ed53a4d94a7a74a310e447c72d78302a337245cc657",
+    "primary_model_decision.json": "ba8b1aca074d3482b0b574a4911df7509c532948cb1e355a5032a65c6b396e03",
+    "profile_transfer_summary.csv": "d9c07597d325d2ca80ee56eb9b41ebac8c9eedfcd817764ff0b1496decca7c25",
+    "protected_sources.json": "625f3e962c3a38caa1afadf5780ce90ea207e5b9129f0c7ade5601943a550d63",
+    "protocol.json": "0436e0ce2057a6a6a9bede0fd9ea73e9c3f7490c285651f614d450f6167ee559",
+    "reporting_incident.json": "1c17d5629555a3a3aceddc9ef4d8c3954bafa37fe05378ace6fc440e067f3f1c",
+    "t5_original_response_transfer.png": "029677bf3c94daf5b0dfd47df2361e11dd5483dabb6abd031f40acde10c23ece",
+    "t5_prevalence_transfer.png": "4ad8d5d8a0fc302dbe51e30c34d2876360fa05cd374835447e853c785ef61a26"
+  },
+  "no_refits_or_repeat_transfer": true,
+  "status": "complete"
+}

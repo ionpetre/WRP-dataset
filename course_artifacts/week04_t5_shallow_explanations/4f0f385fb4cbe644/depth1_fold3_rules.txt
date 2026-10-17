@@ -1,0 +1,4 @@
+|--- worry_water <= 1.500
+|   |--- class: 0
+|--- worry_water >  1.500
+|   |--- class: 4

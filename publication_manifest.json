@@ -4,11 +4,10 @@
   "notebooks": [
     "week01_understand_2023_and_develop_questions.ipynb",
     "week02_define_the_research_design.ipynb",
-    "week03_prepare_the_2023_analysis_data_v16.ipynb",
-    "week04_complete_case_kmeans_worry_encodings_and_weights_final.ipynb",
-    "week04_alternative_methods_gmm_ward_average_linkage_dbscan_final.ipynb",
-    "week04_kmeans_retained_solutions_overlap_and_refinement_final.ipynb",
-    "week05_regional_validation_and_objective1_finalization.ipynb"
+    "week03_prepare_2023_data_and_kmeans.ipynb",
+    "week04_profile_robustness_and_selection.ipynb",
+    "week05_validate_frozen_profiles.ipynb",
+    "week06_predicting_frozen_risk_profile_membership.ipynb"
   ],
   "original_inline_sha256": "1339f70e75abd9ca1ca0542c0881248c854c005370523bfbddb94def29ac848f",
   "models_json_source_sha256": "ead9f3d01488f12218df8a822f6d0cb1ad5f5c1726f9ff9aca9c327f2dda364c",
@@ -18,57 +17,57 @@
       "path": "weekly_notebooks/week01_understand_2023_and_develop_questions.ipynb",
       "source": "weekly_notebooks/week01_understand_2023_and_develop_questions.ipynb",
       "source_sha256": "dc95b80f275fe03a8de01878bfe4e8a1a023a3b2009c37aea072bc251e22bb11",
-      "publication_sha256": "f72e5deab8939bae55c1b337d75eccdf1a2efe6a9fd71589873032b7af0ba489",
-      "bytes": 11061,
+      "publication_sha256": "a5952b13413b3d0771a035548789be57ab4f832658164a0845d79a7967bce553",
+      "bytes": 10396,
       "modified_for_publication": true
     },
     {
       "path": "weekly_notebooks/week02_define_the_research_design.ipynb",
       "source": "weekly_notebooks/week02_define_the_research_design.ipynb",
       "source_sha256": "362e6870a2bede64f1c7a2155ca264dad9b73bd648df68f363e58202b571df29",
-      "publication_sha256": "cf8dae2be9b301102a29c92b4b6029a732f0828b3169bbd122c771f071af59d3",
-      "bytes": 10008,
+      "publication_sha256": "86fbc7080cc835a0cd5b8fcc2b6eecd1e7bc212cd2c776fd7add2ed91f5569a3",
+      "bytes": 9355,
       "modified_for_publication": true
     },
     {
       "path": "weekly_notebooks/week03_prepare_the_2023_analysis_data_v16.ipynb",
-      "source": "weekly_notebooks/week03_prepare_the_2023_analysis_data_v16.ipynb",
-      "source_sha256": "5fb355900ffec1242ad941915d7361b1621a0c9924f64583a8a93001f4a372e2",
+      "source": "publication-source:weekly_notebooks/week03_prepare_the_2023_analysis_data_v16.ipynb",
+      "source_sha256": "143efed975b4aeddd8a3a24c8adbb1abdf656f45ec3678bd8f6ffbc4e795fef1",
       "publication_sha256": "143efed975b4aeddd8a3a24c8adbb1abdf656f45ec3678bd8f6ffbc4e795fef1",
       "bytes": 147377,
-      "modified_for_publication": true
+      "modified_for_publication": false
     },
     {
       "path": "weekly_notebooks/week04_complete_case_kmeans_worry_encodings_and_weights_final.ipynb",
-      "source": "weekly_notebooks/week04_complete_case_kmeans_worry_encodings_and_weights_final.ipynb",
-      "source_sha256": "e86256297093f716a7998ef645f83fcf28d561c4e0604f9efc8a1440031db40a",
+      "source": "publication-source:weekly_notebooks/week04_complete_case_kmeans_worry_encodings_and_weights_final.ipynb",
+      "source_sha256": "65311ca4a0449bcd3831ee9ad3fca8ea2eb9a405dee232478812deffcb8a8255",
       "publication_sha256": "65311ca4a0449bcd3831ee9ad3fca8ea2eb9a405dee232478812deffcb8a8255",
       "bytes": 38598,
-      "modified_for_publication": true
+      "modified_for_publication": false
     },
     {
       "path": "weekly_notebooks/week04_alternative_methods_gmm_ward_average_linkage_dbscan_final.ipynb",
-      "source": "weekly_notebooks/week04_alternative_methods_gmm_ward_average_linkage_dbscan_final.ipynb",
-      "source_sha256": "1a88c5c2816262f3b008ecc2490fb43beb63e6d7051c20bb1acb612ce4840140",
+      "source": "publication-source:weekly_notebooks/week04_alternative_methods_gmm_ward_average_linkage_dbscan_final.ipynb",
+      "source_sha256": "66ac9e61f3847019567ef9b84417977a89ac1cca512e8b7f67ebc61df8ef6eae",
       "publication_sha256": "66ac9e61f3847019567ef9b84417977a89ac1cca512e8b7f67ebc61df8ef6eae",
       "bytes": 53489,
-      "modified_for_publication": true
+      "modified_for_publication": false
     },
     {
       "path": "weekly_notebooks/week04_kmeans_retained_solutions_overlap_and_refinement_final.ipynb",
-      "source": "weekly_notebooks/week04_kmeans_retained_solutions_overlap_and_refinement_final.ipynb",
-      "source_sha256": "034d6d25991e21f12ab32d049f45db2dfb46eb98037e9094e13a27a431e0cd54",
+      "source": "publication-source:weekly_notebooks/week04_kmeans_retained_solutions_overlap_and_refinement_final.ipynb",
+      "source_sha256": "c5babb128fdc15f1efeb371d4ed4644a02dc710ff2179fc301c76ed1780ef760",
       "publication_sha256": "c5babb128fdc15f1efeb371d4ed4644a02dc710ff2179fc301c76ed1780ef760",
       "bytes": 13507,
-      "modified_for_publication": true
+      "modified_for_publication": false
     },
     {
       "path": "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
-      "source": "weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
-      "source_sha256": "8b34c3290baeb4bb4a5d3e51cc2cfbb2585071aa7aff713b44507888219b41a7",
+      "source": "publication-source:weekly_notebooks/week05_regional_validation_and_objective1_finalization.ipynb",
+      "source_sha256": "66cc6efb198297b22717908ec41dcfc23190b0ffb30bd2824f8044b5830a0e7f",
       "publication_sha256": "66cc6efb198297b22717908ec41dcfc23190b0ffb30bd2824f8044b5830a0e7f",
       "bytes": 393620,
-      "modified_for_publication": true
+      "modified_for_publication": false
     },
     {
       "path": "course_artifacts/week03_country_split.csv",
@@ -7688,7 +7687,7 @@
     },
     {
       "path": "frozen_models/assignment.py",
-      "source": "course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/assignment.py",
+      "source": "publication-source:frozen_models/assignment.py",
       "source_sha256": "291af7d66e2bac4ebefc458df59d0f11e731990160cf822f9fe45034aafbeef5",
       "publication_sha256": "291af7d66e2bac4ebefc458df59d0f11e731990160cf822f9fe45034aafbeef5",
       "bytes": 4963,
@@ -7696,7 +7695,7 @@
     },
     {
       "path": "frozen_models/specification.json",
-      "source": "course_artifacts/week05_frozen_objective1_v1/123d248adda6115f/specification.json",
+      "source": "publication-source:frozen_models/specification.json",
       "source_sha256": "de83e95da3db5e8c99c2d089cad0e94b45ace71465a5326ef38946b8121ef803",
       "publication_sha256": "de83e95da3db5e8c99c2d089cad0e94b45ace71465a5326ef38946b8121ef803",
       "bytes": 10164,
@@ -7704,7 +7703,7 @@
     },
     {
       "path": "docs/vendor/D3-LICENSE",
-      "source": "wrp-d3-LICENSE",
+      "source": "publication-source:docs/vendor/D3-LICENSE",
       "source_sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
       "publication_sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
       "bytes": 731,
@@ -7969,9 +7968,9 @@
     {
       "path": ".week05_build/export_country_response_maps.py",
       "source": ".week05_build/export_country_response_maps.py",
-      "source_sha256": "47d447e8753d60a733a6462decc861dfad189f77d9b46db603c3d196893fa74b",
-      "publication_sha256": "47d447e8753d60a733a6462decc861dfad189f77d9b46db603c3d196893fa74b",
-      "bytes": 5302,
+      "source_sha256": "836cf45816e3f70b3126951b75dae79d615d1c96bf60a69ca8ed9447a666575f",
+      "publication_sha256": "836cf45816e3f70b3126951b75dae79d615d1c96bf60a69ca8ed9447a666575f",
+      "bytes": 5761,
       "modified_for_publication": false
     },
     {
@@ -7985,57 +7984,57 @@
     {
       "path": "README.md",
       "source": "publication-source:README.md",
-      "source_sha256": "c67250f6bc1285ddb486a06059cae90eae496886306ed146dedebdb7b9a366b6",
-      "publication_sha256": "c67250f6bc1285ddb486a06059cae90eae496886306ed146dedebdb7b9a366b6",
-      "bytes": 4960,
+      "source_sha256": "3269dd4d53c2c67bfe31fdcb53e76c5f0c083cb842738cd27e42016a383e2a00",
+      "publication_sha256": "3269dd4d53c2c67bfe31fdcb53e76c5f0c083cb842738cd27e42016a383e2a00",
+      "bytes": 5327,
       "modified_for_publication": false
     },
     {
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
-      "source_sha256": "cd4dd6a370a373306d956e8a304beff3186faf1adf8ebdafca73dc730fd9c06b",
-      "publication_sha256": "cd4dd6a370a373306d956e8a304beff3186faf1adf8ebdafca73dc730fd9c06b",
-      "bytes": 13156,
+      "source_sha256": "4626d0727b33311bd0d36ed337f77b39b422ea4fb50dd0b4804749531b675962",
+      "publication_sha256": "4626d0727b33311bd0d36ed337f77b39b422ea4fb50dd0b4804749531b675962",
+      "bytes": 16281,
       "modified_for_publication": false
     },
     {
       "path": "research/RESULTS.md",
       "source": "publication-source:research/RESULTS.md",
-      "source_sha256": "eae308fc1c4b59e87bb37ca36638ec40a51c477bac882fd398d86f55cf381081",
-      "publication_sha256": "eae308fc1c4b59e87bb37ca36638ec40a51c477bac882fd398d86f55cf381081",
-      "bytes": 12737,
+      "source_sha256": "863850753d7af4a95e9f273ae80ae7fa0967a0b516ee25084c37f99520342953",
+      "publication_sha256": "863850753d7af4a95e9f273ae80ae7fa0967a0b516ee25084c37f99520342953",
+      "bytes": 13096,
       "modified_for_publication": false
     },
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
-      "source_sha256": "3787dfa931c67d431ab00cd6b5415f99665566508c55c90781d2f32270e0e841",
-      "publication_sha256": "3787dfa931c67d431ab00cd6b5415f99665566508c55c90781d2f32270e0e841",
-      "bytes": 7653,
+      "source_sha256": "479d99d02d6e768f5f8aa4570e2792cecb558270c59cb13885b8dbd19b873730",
+      "publication_sha256": "479d99d02d6e768f5f8aa4570e2792cecb558270c59cb13885b8dbd19b873730",
+      "bytes": 8678,
       "modified_for_publication": false
     },
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "5b789e42a65e30bc3bf68ff12eeed391f8452649e81021986bd552da90b9ccab",
-      "publication_sha256": "5b789e42a65e30bc3bf68ff12eeed391f8452649e81021986bd552da90b9ccab",
-      "bytes": 5479,
+      "source_sha256": "cf6d0d6e7c9e6dac075e87c24bee3f79ca06c00aff6c198f250285bbd9294b88",
+      "publication_sha256": "cf6d0d6e7c9e6dac075e87c24bee3f79ca06c00aff6c198f250285bbd9294b88",
+      "bytes": 5761,
       "modified_for_publication": false
     },
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
-      "source_sha256": "0679721f12bd9e3cfaab87db071325a9d1b57ebe614103c2b49004b8c371ec5f",
-      "publication_sha256": "0679721f12bd9e3cfaab87db071325a9d1b57ebe614103c2b49004b8c371ec5f",
-      "bytes": 43290,
+      "source_sha256": "b33d2df0f34c2462d32b9581b4f64e39c854ae6fead9968f84f94f34aeb3caa2",
+      "publication_sha256": "b33d2df0f34c2462d32b9581b4f64e39c854ae6fead9968f84f94f34aeb3caa2",
+      "bytes": 53173,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "ef5f4bb1480f12c5afc58ab63118d11ba9e7d6367de5ea28e44b8ffe32ab84f9",
-      "publication_sha256": "ef5f4bb1480f12c5afc58ab63118d11ba9e7d6367de5ea28e44b8ffe32ab84f9",
-      "bytes": 1429289,
+      "source_sha256": "22c20da26221e9c3ddfa6d87cee1b0671e1711c845e3b412f732dfbdf3b75696",
+      "publication_sha256": "22c20da26221e9c3ddfa6d87cee1b0671e1711c845e3b412f732dfbdf3b75696",
+      "bytes": 1429565,
       "modified_for_publication": false
     },
     {
@@ -8313,33 +8312,33 @@
     {
       "path": ".week05_build/export_response_profiles.py",
       "source": ".week05_build/export_response_profiles.py",
-      "source_sha256": "6260b5c3bf2eea610bedd0bc170ec72f244d73f52f3e2e52b51f6169585306c2",
-      "publication_sha256": "6260b5c3bf2eea610bedd0bc170ec72f244d73f52f3e2e52b51f6169585306c2",
-      "bytes": 5516,
+      "source_sha256": "c85bb7ac7adc519cba8ab41ad5dc4dc06113f3bb71a248228a6b88a0c284005a",
+      "publication_sha256": "c85bb7ac7adc519cba8ab41ad5dc4dc06113f3bb71a248228a6b88a0c284005a",
+      "bytes": 5624,
       "modified_for_publication": false
     },
     {
       "path": ".week05_build/response-profiles-template.html",
       "source": ".week05_build/response-profiles-template.html",
-      "source_sha256": "1c01f96983b29b9eee670775bd76b9f5776a3244e1cb64dfa7c4e7b89297ebd0",
-      "publication_sha256": "1c01f96983b29b9eee670775bd76b9f5776a3244e1cb64dfa7c4e7b89297ebd0",
-      "bytes": 16675,
+      "source_sha256": "4b58dec5bd5c71b241750c2de8dfa5c7a3bbc4796d72fe5a90af5447866c6323",
+      "publication_sha256": "4b58dec5bd5c71b241750c2de8dfa5c7a3bbc4796d72fe5a90af5447866c6323",
+      "bytes": 17495,
       "modified_for_publication": false
     },
     {
       "path": "docs/countries.html",
       "source": "publication-source:docs/countries.html",
-      "source_sha256": "4530d79fc52f3462051c92ef99fb89d5dc47f69c458f6d3f98d33f0657415e05",
-      "publication_sha256": "4530d79fc52f3462051c92ef99fb89d5dc47f69c458f6d3f98d33f0657415e05",
-      "bytes": 1403631,
+      "source_sha256": "ac171bd7c41d9d2ac775a8f5fe6c9962d6d14151cb69bd2ad7b46cc1dececa53",
+      "publication_sha256": "ac171bd7c41d9d2ac775a8f5fe6c9962d6d14151cb69bd2ad7b46cc1dececa53",
+      "bytes": 1403907,
       "modified_for_publication": false
     },
     {
       "path": "docs/response-profiles-fragment.html",
       "source": "publication-source:docs/response-profiles-fragment.html",
-      "source_sha256": "053a860023a3ffff0b0149f34baa9138411e6ac7e23197e7adcd313cd980d2f1",
-      "publication_sha256": "053a860023a3ffff0b0149f34baa9138411e6ac7e23197e7adcd313cd980d2f1",
-      "bytes": 40110,
+      "source_sha256": "55e463ef52205790985ed53597afbaf29d3c500911380403b82d73cb7bf2ff85",
+      "publication_sha256": "55e463ef52205790985ed53597afbaf29d3c500911380403b82d73cb7bf2ff85",
+      "bytes": 49962,
       "modified_for_publication": false
     },
     {
@@ -8349,6 +8348,2198 @@
       "publication_sha256": "9b5ed9a4a70bf2b1236aa8108be3b539c5fe513ae33a0b38ff7cc1420dbff508",
       "bytes": 2687,
       "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_rules.txt",
+      "source_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "publication_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "bytes": 88,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cross_resolution_membership_overlaps.png",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cross_resolution_membership_overlaps.png",
+      "source_sha256": "ef722380f0ab606d9051b9e0b6dad3a3be08ce27d75163cd12344826b7e29903",
+      "publication_sha256": "ef722380f0ab606d9051b9e0b6dad3a3be08ce27d75163cd12344826b7e29903",
+      "bytes": 300913,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_rules.txt",
+      "source_sha256": "9fb2fd520fc654d42e1188663383017a67b394499c2301341400bacdf8982ffb",
+      "publication_sha256": "9fb2fd520fc654d42e1188663383017a67b394499c2301341400bacdf8982ffb",
+      "bytes": 4136,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/verification.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/verification.json",
+      "source_sha256": "27573f55e2ed15934d143ea8260dd11c08ed1278b926818682cff1c38df4d295",
+      "publication_sha256": "27573f55e2ed15934d143ea8260dd11c08ed1278b926818682cff1c38df4d295",
+      "bytes": 419,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_weighted_confusion.csv",
+      "source_sha256": "8f7814bcade7386c558f515354928928111e375f0f58783fea751d045ca3cd63",
+      "publication_sha256": "8f7814bcade7386c558f515354928928111e375f0f58783fea751d045ca3cd63",
+      "bytes": 544,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_stratum_quotas.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_stratum_quotas.csv",
+      "source_sha256": "635dc10733c5d5ed0c090c739d25d77de7bc1e4f233254a4c66fcf8480cd4186",
+      "publication_sha256": "635dc10733c5d5ed0c090c739d25d77de7bc1e4f233254a4c66fcf8480cd4186",
+      "bytes": 347,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_existing_Ward8.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_existing_Ward8.csv",
+      "source_sha256": "6f5c4c4863863c72aded3da29af371181dd302d7f772c974488d039e3d055237",
+      "publication_sha256": "6f5c4c4863863c72aded3da29af371181dd302d7f772c974488d039e3d055237",
+      "bytes": 373,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/build_completed_week05.py",
+      "source": ".week05_build/build_completed_week05.py",
+      "source_sha256": "d2cf18f026b535afb6d6e7fa517e9c584931d363b99d4f4218acd6a2495571f5",
+      "publication_sha256": "d2cf18f026b535afb6d6e7fa517e9c584931d363b99d4f4218acd6a2495571f5",
+      "bytes": 32100,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/save_heldout_discussion.py",
+      "source": ".week05_build/save_heldout_discussion.py",
+      "source_sha256": "2ea373fae77848ac265b171bcae52ce7a0401ffcaec621e2c34da60da580932a",
+      "publication_sha256": "2ea373fae77848ac265b171bcae52ce7a0401ffcaec621e2c34da60da580932a",
+      "bytes": 12550,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_refresh_incident.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_refresh_incident.json",
+      "source_sha256": "695832e61f20b8bd7884445565794537be8e84e107467eb3233cfba9fe7576bb",
+      "publication_sha256": "695832e61f20b8bd7884445565794537be8e84e107467eb3233cfba9fe7576bb",
+      "bytes": 508,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/original_category_profiles.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/original_category_profiles.csv",
+      "source_sha256": "e0b22f10a34ade8665658e63289555c87bf08e1ae3fa659ad4dcb91bf1e50e14",
+      "publication_sha256": "e0b22f10a34ade8665658e63289555c87bf08e1ae3fa659ad4dcb91bf1e50e14",
+      "bytes": 316927,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_rules.txt",
+      "source_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "publication_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "bytes": 316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/fit_audit.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/fit_audit.json",
+      "source_sha256": "802fea49346cbe3ae42535114a8d715470c99048c258747c4da372b1e9240441",
+      "publication_sha256": "802fea49346cbe3ae42535114a8d715470c99048c258747c4da372b1e9240441",
+      "bytes": 587,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/all_pilot_results.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/all_pilot_results.csv",
+      "source_sha256": "8a8eddf58dd8dd0b6666c727f25d7435184edcad99b19f17cf278a3a2a457276",
+      "publication_sha256": "8a8eddf58dd8dd0b6666c727f25d7435184edcad99b19f17cf278a3a2a457276",
+      "bytes": 88132,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_weighted_confusion.csv",
+      "source_sha256": "f3309e91a500a34acf4b3e02619e6c2c711cc199605bbd9a6a34a97115672bd0",
+      "publication_sha256": "f3309e91a500a34acf4b3e02619e6c2c711cc199605bbd9a6a34a97115672bd0",
+      "bytes": 520,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/test_profile_evaluation.py",
+      "source": ".week04_parameter_search/test_profile_evaluation.py",
+      "source_sha256": "b218b5c79d6c359bbed300e2e279ccdc0454eb91b3f176444b7c20bff8ab44be",
+      "publication_sha256": "b218b5c79d6c359bbed300e2e279ccdc0454eb91b3f176444b7c20bff8ab44be",
+      "bytes": 4788,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/document_ari_decision.py",
+      "source": ".week05_build/document_ari_decision.py",
+      "source_sha256": "d32d7fff8f39657b09b6525677a4ee2d21c35eec361061c509ea90bc4e08c810",
+      "publication_sha256": "d32d7fff8f39657b09b6525677a4ee2d21c35eec361061c509ea90bc4e08c810",
+      "bytes": 20105,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_weighted_confusion.csv",
+      "source_sha256": "c2f08672037c9ebfd4d574ee7ef21cb63690758e228e8f8ac6e1636b5e85cfcd",
+      "publication_sha256": "c2f08672037c9ebfd4d574ee7ef21cb63690758e228e8f8ac6e1636b5e85cfcd",
+      "bytes": 447,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/individual_profile_stability.png",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/individual_profile_stability.png",
+      "source_sha256": "0ba8782e1e9931a7327b62156dcf0437f453a129d859d147b75a97ee41305098",
+      "publication_sha256": "0ba8782e1e9931a7327b62156dcf0437f453a129d859d147b75a97ee41305098",
+      "bytes": 456368,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_folds.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_folds.csv",
+      "source_sha256": "b4918a57dec1be5c16f07313a3a8e1bf4a7587c1134292aba1736ceedd051ded",
+      "publication_sha256": "b4918a57dec1be5c16f07313a3a8e1bf4a7587c1134292aba1736ceedd051ded",
+      "bytes": 2654,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_overlaps.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_overlaps.csv",
+      "source_sha256": "4b651cad39959f2e5b4840c01f9c5b9982572eff11f8b831865c712c24246792",
+      "publication_sha256": "4b651cad39959f2e5b4840c01f9c5b9982572eff11f8b831865c712c24246792",
+      "bytes": 81217,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_rules.txt",
+      "source_sha256": "e483e85dccbdbeb090e31f904c1cba37cccba961d7b4544717eaaf21c04e6999",
+      "publication_sha256": "e483e85dccbdbeb090e31f904c1cba37cccba961d7b4544717eaaf21c04e6999",
+      "bytes": 4058,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/burden_tree_summary.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/burden_tree_summary.csv",
+      "source_sha256": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+      "publication_sha256": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+      "bytes": 248,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protected_sources.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protected_sources.json",
+      "source_sha256": "bd3f9ba7cb433a03a4ec2ecdd1cfa9a5d5bf40442fa0a78583f570e26c304da3",
+      "publication_sha256": "bd3f9ba7cb433a03a4ec2ecdd1cfa9a5d5bf40442fa0a78583f570e26c304da3",
+      "bytes": 1124008,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/update_adaptive_notebook.py",
+      "source": ".week04_parameter_search/update_adaptive_notebook.py",
+      "source_sha256": "c6c9fab6ea67e7579b60a69a32d7d14dcdfff753a98470da1b1bd0789554eba2",
+      "publication_sha256": "c6c9fab6ea67e7579b60a69a32d7d14dcdfff753a98470da1b1bd0789554eba2",
+      "bytes": 9966,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/search.py",
+      "source": ".week04_parameter_search/search.py",
+      "source_sha256": "ff2d706dff807ce3c9603f4e8843d8ba1ffd8fa897e7597481fa901dbabf6603",
+      "publication_sha256": "ff2d706dff807ce3c9603f4e8843d8ba1ffd8fa897e7597481fa901dbabf6603",
+      "bytes": 12456,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_search_surfaces.png",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_search_surfaces.png",
+      "source_sha256": "0fdb015772968996f57d5444f99cec6c96bac7e5fa569130a15692381f213ac6",
+      "publication_sha256": "0fdb015772968996f57d5444f99cec6c96bac7e5fa569130a15692381f213ac6",
+      "bytes": 155498,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/frozen_baselines_on_confirmation_samples.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/frozen_baselines_on_confirmation_samples.csv",
+      "source_sha256": "bd003e0ef48d8611ed544fa5f6dffa2dd9955a746684fc4a4f6dbdd9342c7bf5",
+      "publication_sha256": "bd003e0ef48d8611ed544fa5f6dffa2dd9955a746684fc4a4f6dbdd9342c7bf5",
+      "bytes": 1011,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/runtime.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/runtime.json",
+      "source_sha256": "de4fe5cbfede29a4ba271a8ceee89bf5f861f45b569d3698e01aaf46b226189c",
+      "publication_sha256": "de4fe5cbfede29a4ba271a8ceee89bf5f861f45b569d3698e01aaf46b226189c",
+      "bytes": 181,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_sampling_audit.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_sampling_audit.csv",
+      "source_sha256": "c48e01c98eae7d1c88c7e4cfd9b06ba35530a193da89913050322392fbd28717",
+      "publication_sha256": "c48e01c98eae7d1c88c7e4cfd9b06ba35530a193da89913050322392fbd28717",
+      "bytes": 42977,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/runtime.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/runtime.json",
+      "source_sha256": "816ac4e9a344243549af7e7504089ef11be05bf9fec35c50d8c893243a3aef12",
+      "publication_sha256": "816ac4e9a344243549af7e7504089ef11be05bf9fec35c50d8c893243a3aef12",
+      "bytes": 140,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_weighted_confusion.csv",
+      "source_sha256": "ebf3c917017cbcda7c32f8c464a3da10933ea532a919d08be4e6346bd6f98548",
+      "publication_sha256": "ebf3c917017cbcda7c32f8c464a3da10933ea532a919d08be4e6346bd6f98548",
+      "bytes": 298,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/full_confirmation_results.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/full_confirmation_results.csv",
+      "source_sha256": "e2a3e3f42ae8f3537852d60ddf56c892c3428c605985521ad0faaa1c65e8f1ce",
+      "publication_sha256": "e2a3e3f42ae8f3537852d60ddf56c892c3428c605985521ad0faaa1c65e8f1ce",
+      "bytes": 6887,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_quality.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_quality.csv",
+      "source_sha256": "04e8d12cc71cbcf2acc3f4f4218b4a3825f88339263ca412178fe4297f5d745d",
+      "publication_sha256": "04e8d12cc71cbcf2acc3f4f4218b4a3825f88339263ca412178fe4297f5d745d",
+      "bytes": 2456,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_results.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_results.csv",
+      "source_sha256": "4f9039324363d4a6c9cf248fb0265c82b9652bb29f475c48f158f858df009475",
+      "publication_sha256": "4f9039324363d4a6c9cf248fb0265c82b9652bb29f475c48f158f858df009475",
+      "bytes": 68328,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_rules.txt",
+      "source_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "publication_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "bytes": 316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/verification.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/verification.json",
+      "source_sha256": "23ed93c6a20c09d0db9d202b2c7e366429c9d8c25961f1621046b1834d948e66",
+      "publication_sha256": "23ed93c6a20c09d0db9d202b2c7e366429c9d8c25961f1621046b1834d948e66",
+      "bytes": 355,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_folds.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_folds.csv",
+      "source_sha256": "73a695a46311bea55fb78e618d2de5ef78bb2de47b83f849d9cd511bc8c60b05",
+      "publication_sha256": "73a695a46311bea55fb78e618d2de5ef78bb2de47b83f849d9cd511bc8c60b05",
+      "bytes": 18235,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/all_pilot_results.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/all_pilot_results.csv",
+      "source_sha256": "d4befbd92bb210ddf2d00797d1e36cae2a200e4a13199b17aad6f5cffeb3d762",
+      "publication_sha256": "d4befbd92bb210ddf2d00797d1e36cae2a200e4a13199b17aad6f5cffeb3d762",
+      "bytes": 170089,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cached_centres_full_population_inertia.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cached_centres_full_population_inertia.csv",
+      "source_sha256": "e6ca323076223f374dd82b2f985c77e6177d6cdfd03c3bdfffbc2613605cf66e",
+      "publication_sha256": "e6ca323076223f374dd82b2f985c77e6177d6cdfd03c3bdfffbc2613605cf66e",
+      "bytes": 158260,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/current_run.json",
+      "source": "course_artifacts/week04_t5_shallow_explanations/current_run.json",
+      "source_sha256": "5e9a287b3e04a0b4addfefeb178855af2a41db79bb869e1daaca6604974d6a9a",
+      "publication_sha256": "5e9a287b3e04a0b4addfefeb178855af2a41db79bb869e1daaca6604974d6a9a",
+      "bytes": 163,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/reporting_complete.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/reporting_complete.json",
+      "source_sha256": "d1b2ba5435c1e1f06ba98f1922ba1e71aa33dadad9dcce73ca5d430361a59e48",
+      "publication_sha256": "d1b2ba5435c1e1f06ba98f1922ba1e71aa33dadad9dcce73ca5d430361a59e48",
+      "bytes": 206,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_rules.txt",
+      "source_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "publication_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "bytes": 88,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_before_confirmation.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_before_confirmation.csv",
+      "source_sha256": "36207d1d4d4bc35975d71f2d492fba0ac0828193799cc94733d17ac2e491a9dd",
+      "publication_sha256": "36207d1d4d4bc35975d71f2d492fba0ac0828193799cc94733d17ac2e491a9dd",
+      "bytes": 6633,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/specification.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/specification.json",
+      "source_sha256": "65420aeeb97a43102b858b10d1f3e7f9aa6eb3dc4462e1b06e49312618a1a250",
+      "publication_sha256": "65420aeeb97a43102b858b10d1f3e7f9aa6eb3dc4462e1b06e49312618a1a250",
+      "bytes": 6758,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/check_t5_shallow_trees.py",
+      "source": ".week04_parameter_search/check_t5_shallow_trees.py",
+      "source_sha256": "3e5af559e8968de5166256889d50bd444f7b10a133356b62659c081ee94b1617",
+      "publication_sha256": "3e5af559e8968de5166256889d50bd444f7b10a133356b62659c081ee94b1617",
+      "bytes": 6258,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison.csv",
+      "source_sha256": "c3f61160742eb8a6951284c6a949f146fe3bfd9bc9e63d2dbd1b4514b7f465e2",
+      "publication_sha256": "c3f61160742eb8a6951284c6a949f146fe3bfd9bc9e63d2dbd1b4514b7f465e2",
+      "bytes": 144272,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/freeze_seal.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/freeze_seal.json",
+      "source_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840",
+      "publication_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840",
+      "bytes": 1775,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/selected_reference_specs.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/selected_reference_specs.json",
+      "source_sha256": "9497e189d9dbbe21eb792761569cceed72a4a5127723cc0326e037e0b5a6bb94",
+      "publication_sha256": "9497e189d9dbbe21eb792761569cceed72a4a5127723cc0326e037e0b5a6bb94",
+      "bytes": 2031,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_category_profiles.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_category_profiles.csv",
+      "source_sha256": "86ee4c3279c8ff76bfe54775dd41ffefbc01ce1effb36bb254c3fe8ee8f7c3c0",
+      "publication_sha256": "86ee4c3279c8ff76bfe54775dd41ffefbc01ce1effb36bb254c3fe8ee8f7c3c0",
+      "bytes": 1389279,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/finish_t5_secondary_transfer.py",
+      "source": ".week05_build/finish_t5_secondary_transfer.py",
+      "source_sha256": "6cb43a3a639283f2bd5e54ba67d41a7dff7d235792b79ba5801774f5cd1e967b",
+      "publication_sha256": "6cb43a3a639283f2bd5e54ba67d41a7dff7d235792b79ba5801774f5cd1e967b",
+      "bytes": 2233,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_repetitions.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_repetitions.csv",
+      "source_sha256": "2c76411e2547e810feb06203b955509dd9e595a726df3109371aa1b481e0e84f",
+      "publication_sha256": "2c76411e2547e810feb06203b955509dd9e595a726df3109371aa1b481e0e84f",
+      "bytes": 661199,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison_before_scope_column_repair.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison_before_scope_column_repair.csv",
+      "source_sha256": "6adc03702b3b711cc0d7402e2c9428ccb9c58be5f7ac1f3cf349f1d1daa1bb14",
+      "publication_sha256": "6adc03702b3b711cc0d7402e2c9428ccb9c58be5f7ac1f3cf349f1d1daa1bb14",
+      "bytes": 166097,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_added_distinctions.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_added_distinctions.csv",
+      "source_sha256": "6c09a5ca5bf32a78504ad9a35a60a2f11e064aa51859448509c07eb00ee38d87",
+      "publication_sha256": "6c09a5ca5bf32a78504ad9a35a60a2f11e064aa51859448509c07eb00ee38d87",
+      "bytes": 1330959,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_rules.txt",
+      "source_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "publication_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "bytes": 88,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/runtime.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/runtime.json",
+      "source_sha256": "695e927303ff9adb1460f1a2961d6cb67b3ca54edc480a67e4aa83e90be53aaa",
+      "publication_sha256": "695e927303ff9adb1460f1a2961d6cb67b3ca54edc480a67e4aa83e90be53aaa",
+      "bytes": 294,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reporting_complete.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reporting_complete.json",
+      "source_sha256": "c992a98800872693dad1d0998d1053c99ab185dd8670ce4dfb6eb41a514cf4b4",
+      "publication_sha256": "c992a98800872693dad1d0998d1053c99ab185dd8670ce4dfb6eb41a514cf4b4",
+      "bytes": 206,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/completion.json",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/completion.json",
+      "source_sha256": "0fad1ae8ce0596bae045a21fa4600dd529c1eace8c2bd37c66a02de68896a78d",
+      "publication_sha256": "0fad1ae8ce0596bae045a21fa4600dd529c1eace8c2bd37c66a02de68896a78d",
+      "bytes": 5278,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_complete.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_complete.json",
+      "source_sha256": "b29a7aceddd118c54504dbddfd1653b44a23cf0e9c70c6deb57224da594478c4",
+      "publication_sha256": "b29a7aceddd118c54504dbddfd1653b44a23cf0e9c70c6deb57224da594478c4",
+      "bytes": 2933,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/all_feature_tree_summary.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/all_feature_tree_summary.csv",
+      "source_sha256": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+      "publication_sha256": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+      "bytes": 341,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/run_search.py",
+      "source": ".week04_parameter_search/run_search.py",
+      "source_sha256": "cfd160d85758bb73e19b7693e3e672cf3f76b3cd14dc77aa97d516423e643c14",
+      "publication_sha256": "cfd160d85758bb73e19b7693e3e672cf3f76b3cd14dc77aa97d516423e643c14",
+      "bytes": 8244,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_weighted_confusion.csv",
+      "source_sha256": "af3411189178cf6f099b03b30444c4bda0000212fa177fe8bf04e19bcdf68a8a",
+      "publication_sha256": "af3411189178cf6f099b03b30444c4bda0000212fa177fe8bf04e19bcdf68a8a",
+      "bytes": 431,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_quality_and_retention.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_quality_and_retention.csv",
+      "source_sha256": "ce1862cee5c3f18e81ef8d2e9a44ad44088dd624b3dcfc5456673b4b85280af9",
+      "publication_sha256": "ce1862cee5c3f18e81ef8d2e9a44ad44088dd624b3dcfc5456673b4b85280af9",
+      "bytes": 6297,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/largest_overlap_source_comparisons.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/largest_overlap_source_comparisons.csv",
+      "source_sha256": "1901ebb4179e73fc2ba9d46ee115f8d7a78e0f2c19e81ef3a0924f700fbedfbf",
+      "publication_sha256": "1901ebb4179e73fc2ba9d46ee115f8d7a78e0f2c19e81ef3a0924f700fbedfbf",
+      "bytes": 54372,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_retention.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_retention.csv",
+      "source_sha256": "28d0f0c5e2cce1e526cd2f69891345af61347c2960f469cde66da6aae512db4c",
+      "publication_sha256": "28d0f0c5e2cce1e526cd2f69891345af61347c2960f469cde66da6aae512db4c",
+      "bytes": 1760,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_complete.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_complete.json",
+      "source_sha256": "beb183c0d45d32a3f5b00f8b54fa9d9ceb53e8703aa929964ef8b2ad61c81903",
+      "publication_sha256": "beb183c0d45d32a3f5b00f8b54fa9d9ceb53e8703aa929964ef8b2ad61c81903",
+      "bytes": 220,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_profile_heatmap.png",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_profile_heatmap.png",
+      "source_sha256": "e8dce501ab9a401652b310105d3c87087f265accc393079e1c6d29fe3223cc64",
+      "publication_sha256": "e8dce501ab9a401652b310105d3c87087f265accc393079e1c6d29fe3223cc64",
+      "bytes": 237856,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_incident.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_incident.json",
+      "source_sha256": "1c17d5629555a3a3aceddc9ef4d8c3954bafa37fe05378ace6fc440e067f3f1c",
+      "publication_sha256": "1c17d5629555a3a3aceddc9ef4d8c3954bafa37fe05378ace6fc440e067f3f1c",
+      "bytes": 466,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/completion.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/completion.json",
+      "source_sha256": "f1cbe09eaf187d36b51ad757baea55e3ee8083b56603e156cbc77ac3c0ae3ccf",
+      "publication_sha256": "f1cbe09eaf187d36b51ad757baea55e3ee8083b56603e156cbc77ac3c0ae3ccf",
+      "bytes": 339,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_summary.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_summary.csv",
+      "source_sha256": "214c7b575012618e0e38c34ba674dc764fb584c8903a251bbe0143325a5d387c",
+      "publication_sha256": "214c7b575012618e0e38c34ba674dc764fb584c8903a251bbe0143325a5d387c",
+      "bytes": 37624,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/evaluate_profiles.py",
+      "source": ".week04_parameter_search/evaluate_profiles.py",
+      "source_sha256": "c73c8eb181a08121c345150bbd81707fd9100bf170fac2a087c06b8dd140d0f7",
+      "publication_sha256": "c73c8eb181a08121c345150bbd81707fd9100bf170fac2a087c06b8dd140d0f7",
+      "bytes": 19586,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_rules.txt",
+      "source_sha256": "894cf72505373bd871480d25db10ef0240457f83cdc7f1bf7a69fe36f5ab1b5e",
+      "publication_sha256": "894cf72505373bd871480d25db10ef0240457f83cdc7f1bf7a69fe36f5ab1b5e",
+      "bytes": 4132,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_partition_agreement.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_partition_agreement.csv",
+      "source_sha256": "5a4cd00ee97ecfe411f21214392fc0b00927e822af825deae800b5b81e06cba9",
+      "publication_sha256": "5a4cd00ee97ecfe411f21214392fc0b00927e822af825deae800b5b81e06cba9",
+      "bytes": 71574,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protocol.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protocol.json",
+      "source_sha256": "0436e0ce2057a6a6a9bede0fd9ea73e9c3f7490c285651f614d450f6167ee559",
+      "publication_sha256": "0436e0ce2057a6a6a9bede0fd9ea73e9c3f7490c285651f614d450f6167ee559",
+      "bytes": 4249,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_feature_total_variation.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_feature_total_variation.csv",
+      "source_sha256": "c5bcc04f6e74b44913d5602b15d61371119b0d971acafcc136b4385d1a6da86b",
+      "publication_sha256": "c5bcc04f6e74b44913d5602b15d61371119b0d971acafcc136b4385d1a6da86b",
+      "bytes": 300013,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/single_feature_summary.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/single_feature_summary.csv",
+      "source_sha256": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463",
+      "publication_sha256": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463",
+      "bytes": 486,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_prevalence.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_prevalence.csv",
+      "source_sha256": "1278ffd5e5808bf4bef3a6d38315adbae988e22f7909733b377bb54aad9f75a5",
+      "publication_sha256": "1278ffd5e5808bf4bef3a6d38315adbae988e22f7909733b377bb54aad9f75a5",
+      "bytes": 23537,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/audit_fits.py",
+      "source": ".week04_parameter_search/audit_fits.py",
+      "source_sha256": "84f2f4ee51995f90752aa233a029c64e091064caff7744f472c3d9e7ee78c7f5",
+      "publication_sha256": "84f2f4ee51995f90752aa233a029c64e091064caff7744f472c3d9e7ee78c7f5",
+      "bytes": 2264,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary_with_baselines.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary_with_baselines.csv",
+      "source_sha256": "35cf9a4d3281eabed63223bcbeac699afcf1dec2226f0ef1e3a7e0eb390f7042",
+      "publication_sha256": "35cf9a4d3281eabed63223bcbeac699afcf1dec2226f0ef1e3a7e0eb390f7042",
+      "bytes": 1863,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/execute_local_notebook.py",
+      "source": ".week05_build/execute_local_notebook.py",
+      "source_sha256": "2a1b533144ca19091ac7240542dbbaecfc24a896894c8082a1d8329828739d08",
+      "publication_sha256": "2a1b533144ca19091ac7240542dbbaecfc24a896894c8082a1d8329828739d08",
+      "bytes": 1033,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/test_adaptive.py",
+      "source": ".week04_parameter_search/test_adaptive.py",
+      "source_sha256": "421ad7dfe5e6d083a81245937354dc005eaf05ee2d2bbf3c67174322963b58c7",
+      "publication_sha256": "421ad7dfe5e6d083a81245937354dc005eaf05ee2d2bbf3c67174322963b58c7",
+      "bytes": 6113,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/full_confirmation_results.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/full_confirmation_results.csv",
+      "source_sha256": "27962f8089007a3d4cff2db2d0cd9e4496a59db7a49e4185c878f836e31eecb4",
+      "publication_sha256": "27962f8089007a3d4cff2db2d0cd9e4496a59db7a49e4185c878f836e31eecb4",
+      "bytes": 6499,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_rules.txt",
+      "source_sha256": "a8b92277417b89c4643861e32d492e76b5418aa6161628c3cf801cf834f9b480",
+      "publication_sha256": "a8b92277417b89c4643861e32d492e76b5418aa6161628c3cf801cf834f9b480",
+      "bytes": 4158,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_stability.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_stability.json",
+      "source_sha256": "7780f38d0fa4f32dc41f4d1d321a1ff4f1a26a412ddbe92e7c4f1993b8b674f2",
+      "publication_sha256": "7780f38d0fa4f32dc41f4d1d321a1ff4f1a26a412ddbe92e7c4f1993b8b674f2",
+      "bytes": 830,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/new_partition_comparisons.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/new_partition_comparisons.csv",
+      "source_sha256": "44c4d0875d2f53bc948fb853a239e62148862282828a2986a756f523fb0fe369",
+      "publication_sha256": "44c4d0875d2f53bc948fb853a239e62148862282828a2986a756f523fb0fe369",
+      "bytes": 1503,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_worry_category_distributions.png",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_worry_category_distributions.png",
+      "source_sha256": "3e831858c64e11ae9b0a18cf116140b70556e8513323320c4afd231b0a65d395",
+      "publication_sha256": "3e831858c64e11ae9b0a18cf116140b70556e8513323320c4afd231b0a65d395",
+      "bytes": 188859,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/refresh_figures.py",
+      "source": ".week05_build/refresh_figures.py",
+      "source_sha256": "01b440b961e823075b80a971e3f651f22f2babbe7b1f29b6c291749bc385f6a3",
+      "publication_sha256": "01b440b961e823075b80a971e3f651f22f2babbe7b1f29b6c291749bc385f6a3",
+      "bytes": 1034,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_reporting_complete.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_reporting_complete.json",
+      "source_sha256": "a1dcbc20cddf43f9cf72a2835baebe4d0aace54960d8071c28108ada2dd6ea72",
+      "publication_sha256": "a1dcbc20cddf43f9cf72a2835baebe4d0aace54960d8071c28108ada2dd6ea72",
+      "bytes": 104,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary.csv",
+      "source_sha256": "3c55decb6379e11ebe67baabaf50af580e4f1e3b2b1c4b279604de8cfb5e8ede",
+      "publication_sha256": "3c55decb6379e11ebe67baabaf50af580e4f1e3b2b1c4b279604de8cfb5e8ede",
+      "bytes": 1558,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_plan.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_plan.csv",
+      "source_sha256": "e1902e3089add1fe81b91506ecf1973c5fc72daf06a91882b29dbbbede146672",
+      "publication_sha256": "e1902e3089add1fe81b91506ecf1973c5fc72daf06a91882b29dbbbede146672",
+      "bytes": 602,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/parameter_neighbourhoods.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/parameter_neighbourhoods.csv",
+      "source_sha256": "2bd6b8382777b91c82527490475f5bed51f5c42ab8c4a404b1c45ab46a0cb58c",
+      "publication_sha256": "2bd6b8382777b91c82527490475f5bed51f5c42ab8c4a404b1c45ab46a0cb58c",
+      "bytes": 6433,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/frozen_baselines_on_confirmation_samples.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/frozen_baselines_on_confirmation_samples.csv",
+      "source_sha256": "8ce3ff20c19eb96f74abe2806274e60dcdaaba979b279cbc666bdeea3dfe6b26",
+      "publication_sha256": "8ce3ff20c19eb96f74abe2806274e60dcdaaba979b279cbc666bdeea3dfe6b26",
+      "bytes": 1006,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protected_sources.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protected_sources.json",
+      "source_sha256": "625f3e962c3a38caa1afadf5780ce90ea207e5b9129f0c7ade5601943a550d63",
+      "publication_sha256": "625f3e962c3a38caa1afadf5780ce90ea207e5b9129f0c7ade5601943a550d63",
+      "bytes": 2986,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/evaluation_country_folds.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/evaluation_country_folds.csv",
+      "source_sha256": "2fae29d32fdfdc397faefa5bcdac1524ca2804ce369f3def11799681e5e7dfb6",
+      "publication_sha256": "2fae29d32fdfdc397faefa5bcdac1524ca2804ce369f3def11799681e5e7dfb6",
+      "bytes": 702,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/profile_transfer_summary.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/profile_transfer_summary.csv",
+      "source_sha256": "d9c07597d325d2ca80ee56eb9b41ebac8c9eedfcd817764ff0b1496decca7c25",
+      "publication_sha256": "d9c07597d325d2ca80ee56eb9b41ebac8c9eedfcd817764ff0b1496decca7c25",
+      "bytes": 1015,
+      "modified_for_publication": false
+    },
+    {
+      "path": "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb",
+      "source": "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb",
+      "source_sha256": "014ec621d8b26c61d6d275742c243506426a750da48d3e894809706e5dbb1e5b",
+      "publication_sha256": "470041b4a0c38dd66287ca63d503b7a1db69e040df1866c4f3e98b2ccd5ded5c",
+      "bytes": 71118,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_plan.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_plan.csv",
+      "source_sha256": "5c96c2471a5324966a85a85524ac27591d18ad3e73d831e6354c2169652ff493",
+      "publication_sha256": "5c96c2471a5324966a85a85524ac27591d18ad3e73d831e6354c2169652ff493",
+      "bytes": 1685,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_weighted_confusion.csv",
+      "source_sha256": "2c04c0668c332015f32eebc2e8bfdfd3d0d8fde2069300cbef4549342aeb9993",
+      "publication_sha256": "2c04c0668c332015f32eebc2e8bfdfd3d0d8fde2069300cbef4549342aeb9993",
+      "bytes": 500,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/adaptive_search.py",
+      "source": ".week04_parameter_search/adaptive_search.py",
+      "source_sha256": "7915b43c30b723a9b5a0ac1e693f558a823dfd16dfc9235003df714b1ac897d3",
+      "publication_sha256": "7915b43c30b723a9b5a0ac1e693f558a823dfd16dfc9235003df714b1ac897d3",
+      "bytes": 14992,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/build_week05.py",
+      "source": ".week05_build/build_week05.py",
+      "source_sha256": "3478141fbc1af8d12e0856f236777262df4319a5f2edee9891a16a3383ab4af5",
+      "publication_sha256": "3478141fbc1af8d12e0856f236777262df4319a5f2edee9891a16a3383ab4af5",
+      "bytes": 32376,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_stratum_quotas.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_stratum_quotas.csv",
+      "source_sha256": "635dc10733c5d5ed0c090c739d25d77de7bc1e4f233254a4c66fcf8480cd4186",
+      "publication_sha256": "635dc10733c5d5ed0c090c739d25d77de7bc1e4f233254a4c66fcf8480cd4186",
+      "bytes": 347,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary.csv",
+      "source_sha256": "5e12534c49f0400fab5bb4a5586ab14e37e2e35bb62a191c3e0050e5c9ee34ad",
+      "publication_sha256": "5e12534c49f0400fab5bb4a5586ab14e37e2e35bb62a191c3e0050e5c9ee34ad",
+      "bytes": 3374,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_rules.txt",
+      "source_sha256": "883a1066c4db4de4ba091daabcfc8809a2b16c07efd2a5970a371a9c25046e1c",
+      "publication_sha256": "883a1066c4db4de4ba091daabcfc8809a2b16c07efd2a5970a371a9c25046e1c",
+      "bytes": 782,
+      "modified_for_publication": false
+    },
+    {
+      "path": "weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb",
+      "source": "weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb",
+      "source_sha256": "af9299cb72bd641dd1f409e74bc6d4ccee5ebbed195ab2c28b62941386cd326a",
+      "publication_sha256": "eb86371d4ad711c958c719b1e2bded0ec156df4957c7031ac13db4795199e683",
+      "bytes": 31037,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/original_category_profiles.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/original_category_profiles.csv",
+      "source_sha256": "0d2f6d0fc9e6c9a9563c02af6454f663b08e7f21073172955b0290a0c9c37461",
+      "publication_sha256": "0d2f6d0fc9e6c9a9563c02af6454f663b08e7f21073172955b0290a0c9c37461",
+      "bytes": 191066,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/transfer_complete.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/transfer_complete.json",
+      "source_sha256": "0c7c49bd18984ee1358ef83d017d589fc63fd6b3b085b39139bd6103dcc796b3",
+      "publication_sha256": "0c7c49bd18984ee1358ef83d017d589fc63fd6b3b085b39139bd6103dcc796b3",
+      "bytes": 3072,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/interpretation.txt",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/interpretation.txt",
+      "source_sha256": "d0cde6517a1ce3f723247ed53a4d94a7a74a310e447c72d78302a337245cc657",
+      "publication_sha256": "d0cde6517a1ce3f723247ed53a4d94a7a74a310e447c72d78302a337245cc657",
+      "bytes": 5280,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary_with_baselines.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary_with_baselines.csv",
+      "source_sha256": "b03b3da0f0780d1ee456705d29eafe82d91360bd6e76e2bfe267b9a116787d38",
+      "publication_sha256": "b03b3da0f0780d1ee456705d29eafe82d91360bd6e76e2bfe267b9a116787d38",
+      "bytes": 4234,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_rules.txt",
+      "source_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "publication_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "bytes": 88,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_summary.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_summary.csv",
+      "source_sha256": "fe4f59e529f1434c68a9612f1c5e923a12b2fa6ffd3979b703a632480da50012",
+      "publication_sha256": "fe4f59e529f1434c68a9612f1c5e923a12b2fa6ffd3979b703a632480da50012",
+      "bytes": 1075,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_summary.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_summary.csv",
+      "source_sha256": "035e8eed7a26bee96ebf7c91c302edc1225b651d25a5108e2ec9b18ee9b99b79",
+      "publication_sha256": "035e8eed7a26bee96ebf7c91c302edc1225b651d25a5108e2ec9b18ee9b99b79",
+      "bytes": 2096,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_summary.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_summary.csv",
+      "source_sha256": "07016e8f3959af9ab4879d9a04ea6f27431b62e0a27c0b2772853a02fd6403a7",
+      "publication_sha256": "07016e8f3959af9ab4879d9a04ea6f27431b62e0a27c0b2772853a02fd6403a7",
+      "bytes": 1120,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_results.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_results.csv",
+      "source_sha256": "4f9039324363d4a6c9cf248fb0265c82b9652bb29f475c48f158f858df009475",
+      "publication_sha256": "4f9039324363d4a6c9cf248fb0265c82b9652bb29f475c48f158f858df009475",
+      "bytes": 68328,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/new_partition_comparisons.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/new_partition_comparisons.csv",
+      "source_sha256": "d1cddeffefa81d6a6abb6386d232fbdb48e894ac95703675ee5fad73e124bb08",
+      "publication_sha256": "d1cddeffefa81d6a6abb6386d232fbdb48e894ac95703675ee5fad73e124bb08",
+      "bytes": 3096,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protocol.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protocol.json",
+      "source_sha256": "f1b3c52633d84709b7006d878c4b34e37e116485274d52117916b7644335bab4",
+      "publication_sha256": "f1b3c52633d84709b7006d878c4b34e37e116485274d52117916b7644335bab4",
+      "bytes": 3970,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/interpretation.txt",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/interpretation.txt",
+      "source_sha256": "7a1a284853c6c41bd8b821c467309015524c578556fb47b7aff1aa0cd3a4033a",
+      "publication_sha256": "7a1a284853c6c41bd8b821c467309015524c578556fb47b7aff1aa0cd3a4033a",
+      "bytes": 10150,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/notebook_verification.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/notebook_verification.json",
+      "source_sha256": "7580ad2cdc820e63817f66ca67b286e13979c50d4d0d476971e2618bd2c0dc45",
+      "publication_sha256": "7580ad2cdc820e63817f66ca67b286e13979c50d4d0d476971e2618bd2c0dc45",
+      "bytes": 243,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/completion.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/completion.json",
+      "source_sha256": "d3da2b188be36bf20b6669adee889daf7a56c2896d9715efe397133b7ca0a515",
+      "publication_sha256": "524e93e93e7f6a83c3eeec569d233ff80caa531cd7890551678d407e125e7cd7",
+      "bytes": 393,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/primary_model_decision.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/primary_model_decision.json",
+      "source_sha256": "ba8b1aca074d3482b0b574a4911df7509c532948cb1e355a5032a65c6b396e03",
+      "publication_sha256": "ba8b1aca074d3482b0b574a4911df7509c532948cb1e355a5032a65c6b396e03",
+      "bytes": 585,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/test_t5_secondary_transfer.py",
+      "source": ".week05_build/test_t5_secondary_transfer.py",
+      "source_sha256": "665c2547e5ca543c707575a4885434070fede8b7240b033f8985e0781bcf9290",
+      "publication_sha256": "665c2547e5ca543c707575a4885434070fede8b7240b033f8985e0781bcf9290",
+      "bytes": 7377,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_registry.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_registry.json",
+      "source_sha256": "89804043dd9df6f4584add946246120ea3333a05e2c34278ec199a150f9e57d0",
+      "publication_sha256": "89804043dd9df6f4584add946246120ea3333a05e2c34278ec199a150f9e57d0",
+      "bytes": 2531,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_weighted_confusion.csv",
+      "source_sha256": "9e73061b75c511fcf72d20d95f6a00bd221f9e2c809026bdbe6023b101244fd9",
+      "publication_sha256": "9e73061b75c511fcf72d20d95f6a00bd221f9e2c809026bdbe6023b101244fd9",
+      "bytes": 435,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/document_t5_secondary_transfer.py",
+      "source": ".week05_build/document_t5_secondary_transfer.py",
+      "source_sha256": "08285c57e9b0cb7c78963de29aca86c3a27fa18c59de65d91c9bac75496409bf",
+      "publication_sha256": "08285c57e9b0cb7c78963de29aca86c3a27fa18c59de65d91c9bac75496409bf",
+      "bytes": 16482,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_summary.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_summary.csv",
+      "source_sha256": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+      "publication_sha256": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+      "bytes": 341,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/weighted_overlaps_with_frozen_BE.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/weighted_overlaps_with_frozen_BE.csv",
+      "source_sha256": "ca7638a5f48d8804a9abe4d4d46d173ccd0af3173521d428b44574655e77dad1",
+      "publication_sha256": "ca7638a5f48d8804a9abe4d4d46d173ccd0af3173521d428b44574655e77dad1",
+      "bytes": 31606,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/verification.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/verification.json",
+      "source_sha256": "3903199f72d27b8e347e64d88d4dff29e8da0b33ef895aaf4bc2c47881f5248b",
+      "publication_sha256": "3903199f72d27b8e347e64d88d4dff29e8da0b33ef895aaf4bc2c47881f5248b",
+      "bytes": 484,
+      "modified_for_publication": false
+    },
+    {
+      "path": "weekly_notebooks/week04_profile_robustness_and_selection.ipynb",
+      "source": "weekly_notebooks/week04_profile_robustness_and_selection.ipynb",
+      "source_sha256": "c2fc436ff5202bcfe166f973cc88cf6585bd27f83932abef73d8a54edba905f5",
+      "publication_sha256": "498c05c944385a91b3f8bff2a1e134017699a4b82269a08dabbe40e151ea9ac0",
+      "bytes": 49308,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_stability_surfaces.png",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_stability_surfaces.png",
+      "source_sha256": "3ac1776da70a23bb43fd100ef3aa0e4943238a36f652a849a4f08b1835191f2d",
+      "publication_sha256": "3ac1776da70a23bb43fd100ef3aa0e4943238a36f652a849a4f08b1835191f2d",
+      "bytes": 80589,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/shortlist_before_confirmation.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/shortlist_before_confirmation.csv",
+      "source_sha256": "79e5a0b0a1467f66b8130356e51148ab4b7f80737f18af144273d2dec0dfbb2f",
+      "publication_sha256": "79e5a0b0a1467f66b8130356e51148ab4b7f80737f18af144273d2dec0dfbb2f",
+      "bytes": 5989,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_frozen_BE.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_frozen_BE.csv",
+      "source_sha256": "5669b4c0cdf8f96a82302fb089b720f98f3f3442673e4df0ac3497cc3488c2b7",
+      "publication_sha256": "5669b4c0cdf8f96a82302fb089b720f98f3f3442673e4df0ac3497cc3488c2b7",
+      "bytes": 440,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/best_tested_setting_per_k.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/best_tested_setting_per_k.csv",
+      "source_sha256": "d44f70d5750ad7f66b4487816664b81e43aed382c8598f6f3cf34f1f9710bd28",
+      "publication_sha256": "d44f70d5750ad7f66b4487816664b81e43aed382c8598f6f3cf34f1f9710bd28",
+      "bytes": 3793,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/burden_tree_summary.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/burden_tree_summary.csv",
+      "source_sha256": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+      "publication_sha256": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+      "bytes": 248,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/report_adaptive.py",
+      "source": ".week04_parameter_search/report_adaptive.py",
+      "source_sha256": "7f4dc66e3c3a5ede58ad4d030544435ef1172ee56915000ab8788945215ae0e1",
+      "publication_sha256": "7f4dc66e3c3a5ede58ad4d030544435ef1172ee56915000ab8788945215ae0e1",
+      "bytes": 14836,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_original_category_profiles.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_original_category_profiles.csv",
+      "source_sha256": "c7fd104f013645dbcc3bc553e480ccdb6a2a5496b40744b68d34986218b50229",
+      "publication_sha256": "c7fd104f013645dbcc3bc553e480ccdb6a2a5496b40744b68d34986218b50229",
+      "bytes": 4025182,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/diagnose_reference_profiles.py",
+      "source": ".week04_parameter_search/diagnose_reference_profiles.py",
+      "source_sha256": "4a6faaa344c42ad9ea83bc3479be5872d86ea4e0ee801fbf007c35e28707bfac",
+      "publication_sha256": "4a6faaa344c42ad9ea83bc3479be5872d86ea4e0ee801fbf007c35e28707bfac",
+      "bytes": 4592,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_prevalence.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_prevalence.csv",
+      "source_sha256": "1e3855092e1d5d0c22fd7e20c0056348f01fceb9c631b7d1b8da4713faf13e0b",
+      "publication_sha256": "1e3855092e1d5d0c22fd7e20c0056348f01fceb9c631b7d1b8da4713faf13e0b",
+      "bytes": 977,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_weighted_confusion.csv",
+      "source_sha256": "c689376674217db29067aeb65296c4e6dba154880dbf2b18b7a7774baa2dba42",
+      "publication_sha256": "c689376674217db29067aeb65296c4e6dba154880dbf2b18b7a7774baa2dba42",
+      "bytes": 295,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/document_country_response_distances.py",
+      "source": ".week05_build/document_country_response_distances.py",
+      "source_sha256": "869b276adcfd3895755b0b9731c46cf065f9fa4ec7fdb994d3877ef24d684429",
+      "publication_sha256": "869b276adcfd3895755b0b9731c46cf065f9fa4ec7fdb994d3877ef24d684429",
+      "bytes": 9569,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/build_local_notebook.py",
+      "source": ".week05_build/build_local_notebook.py",
+      "source_sha256": "9ca23140b979f3b485237051a6b144217168cd3e89cfc78c47d1bdf7adaaf90c",
+      "publication_sha256": "9ca23140b979f3b485237051a6b144217168cd3e89cfc78c47d1bdf7adaaf90c",
+      "bytes": 35560,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_category_profiles.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_category_profiles.csv",
+      "source_sha256": "22306bd45248baf5deb88dda34d970d7238dce2c2f44cd9b757592a955569df9",
+      "publication_sha256": "22306bd45248baf5deb88dda34d970d7238dce2c2f44cd9b757592a955569df9",
+      "bytes": 269117,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_rules.txt",
+      "source_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "publication_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "bytes": 316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_folds.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_folds.csv",
+      "source_sha256": "2a62db179957e2b069765091aaffc90969bd9baf90a8c1f86b7ccc5448277903",
+      "publication_sha256": "2a62db179957e2b069765091aaffc90969bd9baf90a8c1f86b7ccc5448277903",
+      "bytes": 5426,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/organize_week05_optimization_workflow.py",
+      "source": ".week05_build/organize_week05_optimization_workflow.py",
+      "source_sha256": "ef827b246af26844701fefa113adcf8d0c1954a810cd61f8e1cb7ed2b6887446",
+      "publication_sha256": "ef827b246af26844701fefa113adcf8d0c1954a810cd61f8e1cb7ed2b6887446",
+      "bytes": 9311,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_assignment_quality.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_assignment_quality.csv",
+      "source_sha256": "293fe3a2d388d36022a113c527bf8be9afb3f052fbb0f57dfb1fd0a8bad5abe2",
+      "publication_sha256": "293fe3a2d388d36022a113c527bf8be9afb3f052fbb0f57dfb1fd0a8bad5abe2",
+      "bytes": 120300,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/burden_tree_summary.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/burden_tree_summary.csv",
+      "source_sha256": "35cf9a4d3281eabed63223bcbeac699afcf1dec2226f0ef1e3a7e0eb390f7042",
+      "publication_sha256": "35cf9a4d3281eabed63223bcbeac699afcf1dec2226f0ef1e3a7e0eb390f7042",
+      "bytes": 1863,
+      "modified_for_publication": false
+    },
+    {
+      "path": "weekly_notebooks/requirements-objective1.txt",
+      "source": "weekly_notebooks/requirements-objective1.txt",
+      "source_sha256": "20f4042413662c2eaad2ade19e6036b730744de482424f9c51ab9097fce5f16f",
+      "publication_sha256": "20f4042413662c2eaad2ade19e6036b730744de482424f9c51ab9097fce5f16f",
+      "bytes": 296,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_folds.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_folds.csv",
+      "source_sha256": "5109b877889e7df0ae444baeebd4b946f43766ad4eeb5d9ebaf2924094752f78",
+      "publication_sha256": "5109b877889e7df0ae444baeebd4b946f43766ad4eeb5d9ebaf2924094752f78",
+      "bytes": 762,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_profile_semantic_differences.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_profile_semantic_differences.csv",
+      "source_sha256": "3908879f6bee730205d76b519f07c416e948eeb9ac4d7cac6167369b7a9cd59f",
+      "publication_sha256": "3908879f6bee730205d76b519f07c416e948eeb9ac4d7cac6167369b7a9cd59f",
+      "bytes": 19639,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/bootstrap_design.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/bootstrap_design.json",
+      "source_sha256": "f80be6ad1fe9a9232636be42400f398a7f2f1bb5c7500318d2b458bea29dd560",
+      "publication_sha256": "f80be6ad1fe9a9232636be42400f398a7f2f1bb5c7500318d2b458bea29dd560",
+      "bytes": 819,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/t5_secondary_transfer.py",
+      "source": ".week05_build/t5_secondary_transfer.py",
+      "source_sha256": "1a6c3fbae157a557503faa1913664f6a4316ab6f86ed46f161639f5d66741804",
+      "publication_sha256": "1a6c3fbae157a557503faa1913664f6a4316ab6f86ed46f161639f5d66741804",
+      "bytes": 22068,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/notebook_verification.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/notebook_verification.json",
+      "source_sha256": "aeb974e82a70e33089f17491a8441da767f776a26181bd70810b9b60355f198f",
+      "publication_sha256": "aeb974e82a70e33089f17491a8441da767f776a26181bd70810b9b60355f198f",
+      "bytes": 184,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_previous_tuned_models.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_previous_tuned_models.csv",
+      "source_sha256": "a35538831ba055d2c78d5e61298a6c3b4d0aac0074ab9ba7980879071471dc15",
+      "publication_sha256": "a35538831ba055d2c78d5e61298a6c3b4d0aac0074ab9ba7980879071471dc15",
+      "bytes": 1624,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/aligned_membership_flows.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/aligned_membership_flows.csv",
+      "source_sha256": "4173db6fcb741252f83b5c734973cf20c87315d9f19e0679fd6a64596f39cfbb",
+      "publication_sha256": "4173db6fcb741252f83b5c734973cf20c87315d9f19e0679fd6a64596f39cfbb",
+      "bytes": 109407,
+      "modified_for_publication": false
+    },
+    {
+      "path": "frozen_models/T5_models.json",
+      "source": "publication-source:frozen_models/T5_models.json",
+      "source_sha256": "25085423ee0937fe66003eea49207cb6ed7d595be867ba7eaed65c4d31634846",
+      "publication_sha256": "25085423ee0937fe66003eea49207cb6ed7d595be867ba7eaed65c4d31634846",
+      "bytes": 5869,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_evaluation_overview.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_evaluation_overview.csv",
+      "source_sha256": "eb1b8f7a75485f8de405afd723b56a707b10e9587c22f76ac5ab773d4370d65a",
+      "publication_sha256": "eb1b8f7a75485f8de405afd723b56a707b10e9587c22f76ac5ab773d4370d65a",
+      "bytes": 4163,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_weighted_confusion.csv",
+      "source_sha256": "caf648e388210e8251fa1fe2cbfc8f07f577f18a15ae0fb199fa3e9d255d28e7",
+      "publication_sha256": "caf648e388210e8251fa1fe2cbfc8f07f577f18a15ae0fb199fa3e9d255d28e7",
+      "bytes": 522,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_sampling_audit.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_sampling_audit.csv",
+      "source_sha256": "7293a5bc5b90961d96544adda6e48e710e624100e8ac10bb8bf2b0df39502f94",
+      "publication_sha256": "7293a5bc5b90961d96544adda6e48e710e624100e8ac10bb8bf2b0df39502f94",
+      "bytes": 42977,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/completion.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/completion.json",
+      "source_sha256": "ff2de08ebff0fc84ae4685715ff1bbb0780eb37a93ab79870969e2d6768ab35a",
+      "publication_sha256": "ff2de08ebff0fc84ae4685715ff1bbb0780eb37a93ab79870969e2d6768ab35a",
+      "bytes": 320,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/profile_interpretations.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/profile_interpretations.csv",
+      "source_sha256": "829f177ba8ee2fd4a768ee83099f6d2abce96b83c3c5bbb20bc3e92d32ec986c",
+      "publication_sha256": "829f177ba8ee2fd4a768ee83099f6d2abce96b83c3c5bbb20bc3e92d32ec986c",
+      "bytes": 8030,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/test_search.py",
+      "source": ".week04_parameter_search/test_search.py",
+      "source_sha256": "1a2435668b6762ddea5848c2aac92cd0d58b3a4f0e828ef05fc24d783c8b03fd",
+      "publication_sha256": "1a2435668b6762ddea5848c2aac92cd0d58b3a4f0e828ef05fc24d783c8b03fd",
+      "bytes": 3253,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/current_run.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/current_run.json",
+      "source_sha256": "5157de1f7cb114a2d3477c62429a18a70cdacdc5e803ad05ce0fe1966be7c383",
+      "publication_sha256": "5157de1f7cb114a2d3477c62429a18a70cdacdc5e803ad05ce0fe1966be7c383",
+      "bytes": 172,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/parameter_neighbourhoods.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/parameter_neighbourhoods.csv",
+      "source_sha256": "c09d7dac7d58abbb810bf53419744198114ec0708ce96cea8ff93c51ac0586ff",
+      "publication_sha256": "c09d7dac7d58abbb810bf53419744198114ec0708ce96cea8ff93c51ac0586ff",
+      "bytes": 10313,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/verification.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/verification.json",
+      "source_sha256": "1ee924a6ed90b8b90e3cb37c7c953cf72ccee15ba730c0d5229c96f0a58c4529",
+      "publication_sha256": "1ee924a6ed90b8b90e3cb37c7c953cf72ccee15ba730c0d5229c96f0a58c4529",
+      "bytes": 365,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_assignment_quality.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_assignment_quality.csv",
+      "source_sha256": "f2755f164076921ac941a7e4128d5c295c14f4dffb1e5c5f6ee26288a2d46540",
+      "publication_sha256": "f2755f164076921ac941a7e4128d5c295c14f4dffb1e5c5f6ee26288a2d46540",
+      "bytes": 41797,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_bootstrap_intervals.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_bootstrap_intervals.csv",
+      "source_sha256": "ccc5ed262ab54c9993e757fcff269ffa11b6fd734176fd1a07a29774ad26a6d6",
+      "publication_sha256": "ccc5ed262ab54c9993e757fcff269ffa11b6fd734176fd1a07a29774ad26a6d6",
+      "bytes": 28250,
+      "modified_for_publication": false
+    },
+    {
+      "path": "research/T5_RESULTS.md",
+      "source": "publication-source:research/T5_RESULTS.md",
+      "source_sha256": "05cbba813f98c83660d09949c7cdcba689a8b8e61418e0cbc3996dd111d43a93",
+      "publication_sha256": "05cbba813f98c83660d09949c7cdcba689a8b8e61418e0cbc3996dd111d43a93",
+      "bytes": 7224,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/notebook_verification.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/notebook_verification.json",
+      "source_sha256": "7e53586ea2986917b803cddd5e9f9f872e2c38a587b929d5a892dadb5c1030c1",
+      "publication_sha256": "7e53586ea2986917b803cddd5e9f9f872e2c38a587b929d5a892dadb5c1030c1",
+      "bytes": 449,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_seeds.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_seeds.csv",
+      "source_sha256": "0d08bf63db57f82da07e5cbf39d8697fb5401224004d906e7eefbf12aa1c8f42",
+      "publication_sha256": "0d08bf63db57f82da07e5cbf39d8697fb5401224004d906e7eefbf12aa1c8f42",
+      "bytes": 3145,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_rules.txt",
+      "source_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "publication_sha256": "849dea49f617aca71a1bbc12c28848c105df25961f5207dc9678cbd462833ae6",
+      "bytes": 88,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/notebook_verification.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/notebook_verification.json",
+      "source_sha256": "a49ca72448f7e5371063de093a01310c5747f0578b3cb63b25f9a345eee11851",
+      "publication_sha256": "a49ca72448f7e5371063de093a01310c5747f0578b3cb63b25f9a345eee11851",
+      "bytes": 188,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/progress.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/progress.json",
+      "source_sha256": "34cfdd37e3e3d9ae8fb7f0c803a2cce215ddba0ae7902f48844f63d0c58301a6",
+      "publication_sha256": "34cfdd37e3e3d9ae8fb7f0c803a2cce215ddba0ae7902f48844f63d0c58301a6",
+      "bytes": 279,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_prevalence.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_prevalence.csv",
+      "source_sha256": "5f19e0d4533a269b03d0db8211915156b20c74e55133a359f734dfe756fb2c99",
+      "publication_sha256": "5f19e0d4533a269b03d0db8211915156b20c74e55133a359f734dfe756fb2c99",
+      "bytes": 68101,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protected_sources.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protected_sources.json",
+      "source_sha256": "834be106485397149ea9ff8059ff2c0387c71e9fd3feb0cb7cf25bbd9c652366",
+      "publication_sha256": "834be106485397149ea9ff8059ff2c0387c71e9fd3feb0cb7cf25bbd9c652366",
+      "bytes": 900,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/single_feature_summary.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/single_feature_summary.csv",
+      "source_sha256": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463",
+      "publication_sha256": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463",
+      "bytes": 486,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_weighted_confusion.csv",
+      "source_sha256": "e8b6347dfdaefa98e9e391e2a80b394e08afd8d6f686b38ec738eb920f236d7f",
+      "publication_sha256": "e8b6347dfdaefa98e9e391e2a80b394e08afd8d6f686b38ec738eb920f236d7f",
+      "bytes": 499,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/execute_audit.py",
+      "source": ".week05_build/execute_audit.py",
+      "source_sha256": "7d26fc47aa79b4d37b1ac8b3eb0a04e05dc076728dbbe8105bfd26e83b98dd92",
+      "publication_sha256": "7d26fc47aa79b4d37b1ac8b3eb0a04e05dc076728dbbe8105bfd26e83b98dd92",
+      "bytes": 731,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/current_run.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/current_run.json",
+      "source_sha256": "d455dbb2865572d87762e87c38373c3fb344c5e5ed7ab7935fc183d83f8c5638",
+      "publication_sha256": "d455dbb2865572d87762e87c38373c3fb344c5e5ed7ab7935fc183d83f8c5638",
+      "bytes": 173,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_rules.txt",
+      "source_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "publication_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "bytes": 316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_rules.txt",
+      "source_sha256": "59405f2f6f7959979157e25d17bebdc595e2f684bcde85902859255e5e327511",
+      "publication_sha256": "59405f2f6f7959979157e25d17bebdc595e2f684bcde85902859255e5e327511",
+      "bytes": 4166,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/interpretation.txt",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/interpretation.txt",
+      "source_sha256": "1dcb64b7c0c3f36cecc5165af67d8be385a87984aeb3648b8d1c2735a92e97c4",
+      "publication_sha256": "1dcb64b7c0c3f36cecc5165af67d8be385a87984aeb3648b8d1c2735a92e97c4",
+      "bytes": 5010,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/fit_audit.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/fit_audit.json",
+      "source_sha256": "c4c75dc60b3a0b921dc98a453f296ca5251aa2086ec2ada754c9299c50c62f2f",
+      "publication_sha256": "c4c75dc60b3a0b921dc98a453f296ca5251aa2086ec2ada754c9299c50c62f2f",
+      "bytes": 879,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_comparisons.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_comparisons.csv",
+      "source_sha256": "a2c02942dea7a3ddb90f5fb5024ebd7833ca1f913ef84d056e5587326991994a",
+      "publication_sha256": "a2c02942dea7a3ddb90f5fb5024ebd7833ca1f913ef84d056e5587326991994a",
+      "bytes": 5338,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/summarize_profile_evaluation.py",
+      "source": ".week04_parameter_search/summarize_profile_evaluation.py",
+      "source_sha256": "401cbcb61405a324feafc02cecd242c18e9147b5a65452c0d3ef0b483ba5530c",
+      "publication_sha256": "401cbcb61405a324feafc02cecd242c18e9147b5a65452c0d3ef0b483ba5530c",
+      "bytes": 19036,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_folds.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_folds.csv",
+      "source_sha256": "430dfbc701f032cf1421f7737068562c814587d8ba19b8a0b6d82d171de91c64",
+      "publication_sha256": "430dfbc701f032cf1421f7737068562c814587d8ba19b8a0b6d82d171de91c64",
+      "bytes": 11274,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_review_summary.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_review_summary.csv",
+      "source_sha256": "d938336b777be251a335bdf858f2515336b4d8bfa2ea7420a6d39a4b7c9025d9",
+      "publication_sha256": "d938336b777be251a335bdf858f2515336b4d8bfa2ea7420a6d39a4b7c9025d9",
+      "bytes": 4622,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_original_response_transfer.png",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_original_response_transfer.png",
+      "source_sha256": "029677bf3c94daf5b0dfd47df2361e11dd5483dabb6abd031f40acde10c23ece",
+      "publication_sha256": "029677bf3c94daf5b0dfd47df2361e11dd5483dabb6abd031f40acde10c23ece",
+      "bytes": 114206,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/rename_canonical_week05.py",
+      "source": ".week05_build/rename_canonical_week05.py",
+      "source_sha256": "21d6672bbed5b2e14e88ef68abefbd75d3223436a2a5580182acdbe8d043f16b",
+      "publication_sha256": "21d6672bbed5b2e14e88ef68abefbd75d3223436a2a5580182acdbe8d043f16b",
+      "bytes": 1993,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/report_t5_secondary_transfer.py",
+      "source": ".week05_build/report_t5_secondary_transfer.py",
+      "source_sha256": "2233f2ba9809fcc55c869754b4f529bc2b272cdd4c7cc4c357882361b06a4ca0",
+      "publication_sha256": "2233f2ba9809fcc55c869754b4f529bc2b272cdd4c7cc4c357882361b06a4ca0",
+      "bytes": 13908,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/interpretation.txt",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/interpretation.txt",
+      "source_sha256": "26e221ff24817d72c2fa7efe3536cdf3405935a81afc0aa43c970014ba9b8056",
+      "publication_sha256": "26e221ff24817d72c2fa7efe3536cdf3405935a81afc0aa43c970014ba9b8056",
+      "bytes": 10447,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_weighted_confusion.csv",
+      "source_sha256": "223c8e1eab698dcb4ced823fe415a345b830877d30d0eca865dc9ac7a75360ab",
+      "publication_sha256": "223c8e1eab698dcb4ced823fe415a345b830877d30d0eca865dc9ac7a75360ab",
+      "bytes": 298,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_stability_surfaces.png",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_stability_surfaces.png",
+      "source_sha256": "3ac1776da70a23bb43fd100ef3aa0e4943238a36f652a849a4f08b1835191f2d",
+      "publication_sha256": "3ac1776da70a23bb43fd100ef3aa0e4943238a36f652a849a4f08b1835191f2d",
+      "bytes": 80589,
+      "modified_for_publication": false
+    },
+    {
+      "path": "requirements.txt",
+      "source": "publication-source:requirements.txt",
+      "source_sha256": "20f4042413662c2eaad2ade19e6036b730744de482424f9c51ab9097fce5f16f",
+      "publication_sha256": "20f4042413662c2eaad2ade19e6036b730744de482424f9c51ab9097fce5f16f",
+      "bytes": 296,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_rules.txt",
+      "source_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "publication_sha256": "4864df65eac15f86275121a7c23a1dd3dacb256d38df4aa13aa25f98c4468de8",
+      "bytes": 316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_weighted_confusion.csv",
+      "source_sha256": "01864fc6f88f6ae2871847eea922ffca4c187080ef2342b364ee11ff44533802",
+      "publication_sha256": "01864fc6f88f6ae2871847eea922ffca4c187080ef2342b364ee11ff44533802",
+      "bytes": 451,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_weighted_confusion.csv",
+      "source_sha256": "a876ecbb7f1b79b0f0c7724e1844054c3d20bc9f789ba2f2eb628f03252d3c9c",
+      "publication_sha256": "a876ecbb7f1b79b0f0c7724e1844054c3d20bc9f789ba2f2eb628f03252d3c9c",
+      "bytes": 513,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/finish_profile_evaluation.py",
+      "source": ".week04_parameter_search/finish_profile_evaluation.py",
+      "source_sha256": "fff8a7e73fc21643a9a3c44a382e232297bfdbc7891bc328cc2cecd699a59c53",
+      "publication_sha256": "fff8a7e73fc21643a9a3c44a382e232297bfdbc7891bc328cc2cecd699a59c53",
+      "bytes": 2330,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/analyze_country_income_similarity.py",
+      "source": ".week05_build/analyze_country_income_similarity.py",
+      "source_sha256": "fb493f5672b784383bd8517ef15a1b795b0d13f4c55093f59cf7be7b814dc5d0",
+      "publication_sha256": "fb493f5672b784383bd8517ef15a1b795b0d13f4c55093f59cf7be7b814dc5d0",
+      "bytes": 14352,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_existing_Ward8.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_existing_Ward8.csv",
+      "source_sha256": "f398307500150028ebf1451b83a60ddd987f5bc2679b390d9648c4f6a2284379",
+      "publication_sha256": "f398307500150028ebf1451b83a60ddd987f5bc2679b390d9648c4f6a2284379",
+      "bytes": 374,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_inertia_diagnostic.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_inertia_diagnostic.csv",
+      "source_sha256": "0bee49d95898c23387140c13397034a7760cd4f8ff3a1c6c586901004ceb3ff6",
+      "publication_sha256": "0bee49d95898c23387140c13397034a7760cd4f8ff3a1c6c586901004ceb3ff6",
+      "bytes": 1613,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/single_feature_summary.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/single_feature_summary.csv",
+      "source_sha256": "b03b3da0f0780d1ee456705d29eafe82d91360bd6e76e2bfe267b9a116787d38",
+      "publication_sha256": "b03b3da0f0780d1ee456705d29eafe82d91360bd6e76e2bfe267b9a116787d38",
+      "bytes": 4234,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_results.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_results.csv",
+      "source_sha256": "a7405021d7a3d3479daab6d96a4d880171c41d1d6311d5cc5f8f2ccce95dd9b3",
+      "publication_sha256": "a7405021d7a3d3479daab6d96a4d880171c41d1d6311d5cc5f8f2ccce95dd9b3",
+      "bytes": 20096,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/update_profile_evaluation_notebook.py",
+      "source": ".week04_parameter_search/update_profile_evaluation_notebook.py",
+      "source_sha256": "52ea49b3ba0aa415ae3ace6dbc4438b4306da475fb134691561523227e1918e3",
+      "publication_sha256": "52ea49b3ba0aa415ae3ace6dbc4438b4306da475fb134691561523227e1918e3",
+      "bytes": 10316,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_rules.txt",
+      "source_sha256": "29e1ff66290b0aa52392d1d3f07fa4502410dc36f2b8851cca8d6599a0fa3fc7",
+      "publication_sha256": "29e1ff66290b0aa52392d1d3f07fa4502410dc36f2b8851cca8d6599a0fa3fc7",
+      "bytes": 784,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_weighted_confusion.csv",
+      "source_sha256": "88e68fce31a8ab3e26595f92aaa0dace86ca4cb56d511339eeaa07a2de61548b",
+      "publication_sha256": "88e68fce31a8ab3e26595f92aaa0dace86ca4cb56d511339eeaa07a2de61548b",
+      "bytes": 453,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/profile_interpretations.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/profile_interpretations.csv",
+      "source_sha256": "54c73331c7a567b08b4f78e9e5110c9b636025213a112f3303010ddbaa114267",
+      "publication_sha256": "54c73331c7a567b08b4f78e9e5110c9b636025213a112f3303010ddbaa114267",
+      "bytes": 12693,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_country_retention.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_country_retention.csv",
+      "source_sha256": "71b2bba2e87712754cd1e2635342987c2d32c688d8d7e4bb69e88939e7be1996",
+      "publication_sha256": "71b2bba2e87712754cd1e2635342987c2d32c688d8d7e4bb69e88939e7be1996",
+      "bytes": 4513,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_defining_anchors.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_defining_anchors.csv",
+      "source_sha256": "dad6abf3ac324f7dab9c608dc6e118c406d775b81e21a1968a578e38e33fa945",
+      "publication_sha256": "dad6abf3ac324f7dab9c608dc6e118c406d775b81e21a1968a578e38e33fa945",
+      "bytes": 2338,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_frozen_BE.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_frozen_BE.csv",
+      "source_sha256": "ee0a628e931bccd76fcfdecbffb6449a30859d81460c36b87d0171d87bf9b264",
+      "publication_sha256": "ee0a628e931bccd76fcfdecbffb6449a30859d81460c36b87d0171d87bf9b264",
+      "bytes": 335,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_weighted_confusion.csv",
+      "source_sha256": "c541031221e8a8f8974dc5aa7a5a930a87e81558f1213a6aadc8a7f47e415216",
+      "publication_sha256": "c541031221e8a8f8974dc5aa7a5a930a87e81558f1213a6aadc8a7f47e415216",
+      "bytes": 523,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/document_completed_extensions.py",
+      "source": ".week05_build/document_completed_extensions.py",
+      "source_sha256": "f51eaf79c0959258dadacd213c7590bb697ac37a2d122f299ff9bf2bcca72ddf",
+      "publication_sha256": "f51eaf79c0959258dadacd213c7590bb697ac37a2d122f299ff9bf2bcca72ddf",
+      "bytes": 23923,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_folds.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_folds.csv",
+      "source_sha256": "47436ba1e501a4f69a5e7571590cf799264c10b299b7e25a432539a449741b5f",
+      "publication_sha256": "47436ba1e501a4f69a5e7571590cf799264c10b299b7e25a432539a449741b5f",
+      "bytes": 3708,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_seal.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_seal.json",
+      "source_sha256": "3c98d2c2da677952a5454e582a28c908fa9808abc14120a3e6ef50a14786421a",
+      "publication_sha256": "3c98d2c2da677952a5454e582a28c908fa9808abc14120a3e6ef50a14786421a",
+      "bytes": 291,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_weighted_confusion.csv",
+      "source_sha256": "4a8411c17558e4a3cf701dd30b1f2b55b234c87ab1a51ff221124bc8553028e5",
+      "publication_sha256": "4a8411c17558e4a3cf701dd30b1f2b55b234c87ab1a51ff221124bc8553028e5",
+      "bytes": 522,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/added_profile_review.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/added_profile_review.csv",
+      "source_sha256": "6e23355c7720b0702a782d179112e0e256d14c9950f9fce284a2e31fcf9ca1be",
+      "publication_sha256": "6e23355c7720b0702a782d179112e0e256d14c9950f9fce284a2e31fcf9ca1be",
+      "bytes": 27002,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/verify_week05_workflow.py",
+      "source": ".week05_build/verify_week05_workflow.py",
+      "source_sha256": "ce17e16e2ef7c2822e899ed4720da490845064f8e1841c9f4ef6337261f28701",
+      "publication_sha256": "ce17e16e2ef7c2822e899ed4720da490845064f8e1841c9f4ef6337261f28701",
+      "bytes": 2718,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_representativeness.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_representativeness.csv",
+      "source_sha256": "847c67e2f39f953503bcf9e05c5d8140c96c183038f139245ec518189f3bee07",
+      "publication_sha256": "847c67e2f39f953503bcf9e05c5d8140c96c183038f139245ec518189f3bee07",
+      "bytes": 5238,
+      "modified_for_publication": false
+    },
+    {
+      "path": "research/OBJECTIVES.md",
+      "source": "publication-source:research/OBJECTIVES.md",
+      "source_sha256": "052c1d2f38348cb3d3a98faf3b26faf7bf55b7081688861c4b1be93790c7d5ec",
+      "publication_sha256": "052c1d2f38348cb3d3a98faf3b26faf7bf55b7081688861c4b1be93790c7d5ec",
+      "bytes": 3701,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/update_nearest_five_notebook.py",
+      "source": ".week05_build/update_nearest_five_notebook.py",
+      "source_sha256": "cb0847b2915f8ea82cfb13e6c0fb9a467791ab034822536c14719793efa7abc2",
+      "publication_sha256": "cb0847b2915f8ea82cfb13e6c0fb9a467791ab034822536c14719793efa7abc2",
+      "bytes": 1009,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_rules.txt",
+      "source_sha256": "c44dc534ec9fc0cae8d1b66c4739d4599d9f8770b88f6b24811caeee3cfd9ac1",
+      "publication_sha256": "c44dc534ec9fc0cae8d1b66c4739d4599d9f8770b88f6b24811caeee3cfd9ac1",
+      "bytes": 780,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/frozen_country_split.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/frozen_country_split.csv",
+      "source_sha256": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+      "publication_sha256": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+      "bytes": 4395,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/publish_t5_results.py",
+      "source": ".week05_build/publish_t5_results.py",
+      "source_sha256": "c732b137effc091eb45bb6e6a68107f565de06c44cb238d531ce8ba5c0af4f05",
+      "publication_sha256": "c732b137effc091eb45bb6e6a68107f565de06c44cb238d531ce8ba5c0af4f05",
+      "bytes": 17564,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_prevalence_transfer.png",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_prevalence_transfer.png",
+      "source_sha256": "4ad8d5d8a0fc302dbe51e30c34d2876360fa05cd374835447e853c785ef61a26",
+      "publication_sha256": "4ad8d5d8a0fc302dbe51e30c34d2876360fa05cd374835447e853c785ef61a26",
+      "bytes": 61262,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_diagnostic_verification.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_diagnostic_verification.json",
+      "source_sha256": "382d202cbf3c14f20c22703465ee86cc02f6ecac4574a97c5008b4453140c994",
+      "publication_sha256": "382d202cbf3c14f20c22703465ee86cc02f6ecac4574a97c5008b4453140c994",
+      "bytes": 324,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_weighted_confusion.csv",
+      "source_sha256": "d8d1269528b5ad292c1ca434b43a639d9ad737805b6310b61e89b76e456c1914",
+      "publication_sha256": "d8d1269528b5ad292c1ca434b43a639d9ad737805b6310b61e89b76e456c1914",
+      "bytes": 520,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_weighted_confusion.csv",
+      "source_sha256": "5b07ce7319742f4e363da0ee6c813fb1a27973a2afefe727e73660214e1e23ee",
+      "publication_sha256": "5b07ce7319742f4e363da0ee6c813fb1a27973a2afefe727e73660214e1e23ee",
+      "bytes": 295,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/progress.json",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/progress.json",
+      "source_sha256": "db81f1549fca491e2625fd534a27bf149781c995ae1dcfc65ce19e493389f255",
+      "publication_sha256": "db81f1549fca491e2625fd534a27bf149781c995ae1dcfc65ce19e493389f255",
+      "bytes": 151,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/update_notebook.py",
+      "source": ".week04_parameter_search/update_notebook.py",
+      "source_sha256": "6ef0760d5b4b465ce9bd61953d829ba1a0ad31dff8ff812806cf756f3fa65f12",
+      "publication_sha256": "6ef0760d5b4b465ce9bd61953d829ba1a0ad31dff8ff812806cf756f3fa65f12",
+      "bytes": 8245,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protected_sources.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protected_sources.json",
+      "source_sha256": "834be106485397149ea9ff8059ff2c0387c71e9fd3feb0cb7cf25bbd9c652366",
+      "publication_sha256": "834be106485397149ea9ff8059ff2c0387c71e9fd3feb0cb7cf25bbd9c652366",
+      "bytes": 900,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/protocol.json",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/protocol.json",
+      "source_sha256": "4714231f5fb806f5447d0222d802f5f2e25d66730d84887a2550b93cfc103530",
+      "publication_sha256": "4714231f5fb806f5447d0222d802f5f2e25d66730d84887a2550b93cfc103530",
+      "bytes": 1807,
+      "modified_for_publication": false
+    },
+    {
+      "path": "frozen_models/public_assignment.py",
+      "source": "publication-source:frozen_models/public_assignment.py",
+      "source_sha256": "024bf9c696fc64e1390d524712a8d247a94ca077d3fbfd6f01d9db932665bc06",
+      "publication_sha256": "024bf9c696fc64e1390d524712a8d247a94ca077d3fbfd6f01d9db932665bc06",
+      "bytes": 1186,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/finish.py",
+      "source": ".week04_parameter_search/finish.py",
+      "source_sha256": "743d3bb65d5686a22d2c0c7a32982e5f978a63f3b3fd965b1fb585f2bc1f4b85",
+      "publication_sha256": "743d3bb65d5686a22d2c0c7a32982e5f978a63f3b3fd965b1fb585f2bc1f4b85",
+      "bytes": 2643,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protocol.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protocol.json",
+      "source_sha256": "65064397d390ccce192508791f3989693a685eff52d83c80bc666ed55869b5d2",
+      "publication_sha256": "65064397d390ccce192508791f3989693a685eff52d83c80bc666ed55869b5d2",
+      "bytes": 2693,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/update_country_map_modes_notebook.py",
+      "source": ".week05_build/update_country_map_modes_notebook.py",
+      "source_sha256": "540cbd292a6c9c5196ab512fd917327b754cc1691b03f1ad92bbcc3484586e31",
+      "publication_sha256": "540cbd292a6c9c5196ab512fd917327b754cc1691b03f1ad92bbcc3484586e31",
+      "bytes": 2248,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_weighted_confusion.csv",
+      "source_sha256": "19feee18ab46ee2e1159a41f12289c3206275b2f4dc988b714ba69cab694fdc1",
+      "publication_sha256": "19feee18ab46ee2e1159a41f12289c3206275b2f4dc988b714ba69cab694fdc1",
+      "bytes": 294,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_rules.txt",
+      "source_sha256": "37efed94c7e8cbc0a79f73ef359318cb1ab8905deff9c57538ff1a6f42d50f9f",
+      "publication_sha256": "37efed94c7e8cbc0a79f73ef359318cb1ab8905deff9c57538ff1a6f42d50f9f",
+      "bytes": 756,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_summaries.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_summaries.csv",
+      "source_sha256": "5ac414cea4d66079f9385d9a5d505baf8b31a4df81fad045ad6393eb70ef3bd3",
+      "publication_sha256": "5ac414cea4d66079f9385d9a5d505baf8b31a4df81fad045ad6393eb70ef3bd3",
+      "bytes": 18176,
+      "modified_for_publication": false
+    },
+    {
+      "path": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
+      "source": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
+      "source_sha256": "0d323fd77a82dee4d084de6265cd3e93b23bb35f49f65b8aedae7400d01d41bb",
+      "publication_sha256": "25d3494ff4c6ea483fe87131a96f4286249137cbc1649a1cf0b8a240d04a89e5",
+      "bytes": 132266,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protocol.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protocol.json",
+      "source_sha256": "950a71887f87fcb94f2936c7b5131377bb06a2a042a5b38ed552ccfdab54a23e",
+      "publication_sha256": "950a71887f87fcb94f2936c7b5131377bb06a2a042a5b38ed552ccfdab54a23e",
+      "bytes": 191652,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/current_run.json",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/current_run.json",
+      "source_sha256": "8db184629c9e64a279c3b5bebd4b48d5caa78c223a4fe1c7c1a1df0bc9eea706",
+      "publication_sha256": "8db184629c9e64a279c3b5bebd4b48d5caa78c223a4fe1c7c1a1df0bc9eea706",
+      "bytes": 169,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_weighted_confusion.csv",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_weighted_confusion.csv",
+      "source_sha256": "b3b22e863dfcaeafa3d7b351e42fd9fae095341dea326280e841dab7776f1166",
+      "publication_sha256": "b3b22e863dfcaeafa3d7b351e42fd9fae095341dea326280e841dab7776f1166",
+      "bytes": 503,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/document_continuous_country_maps.py",
+      "source": ".week05_build/document_continuous_country_maps.py",
+      "source_sha256": "172502585951e72936b6956d99ced9270732a8413e4c07c8d9940bf8895c2ec2",
+      "publication_sha256": "172502585951e72936b6956d99ced9270732a8413e4c07c8d9940bf8895c2ec2",
+      "bytes": 6927,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_rules.txt",
+      "source": "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_rules.txt",
+      "source_sha256": "2af72eb5c88500d83044c2c7589713484da7523a738ab284e42b8db913b3cccd",
+      "publication_sha256": "2af72eb5c88500d83044c2c7589713484da7523a738ab284e42b8db913b3cccd",
+      "bytes": 782,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/best_tested_setting_per_k.csv",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/best_tested_setting_per_k.csv",
+      "source_sha256": "5fbf7df740103101a58fc951dc8833ab7879324f89b03a0b9f5524bbf40224d3",
+      "publication_sha256": "5fbf7df740103101a58fc951dc8833ab7879324f89b03a0b9f5524bbf40224d3",
+      "bytes": 3575,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/selected_reference_specs.json",
+      "source": "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/selected_reference_specs.json",
+      "source_sha256": "8411f18087ae7f7ead6891fc879347a9548f88f52d5b045851be2faa1d87b90f",
+      "publication_sha256": "8411f18087ae7f7ead6891fc879347a9548f88f52d5b045851be2faa1d87b90f",
+      "bytes": 1332,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/finish_adaptive.py",
+      "source": ".week04_parameter_search/finish_adaptive.py",
+      "source_sha256": "d38eb217fce5406144107b0a68fdfd7de7d8b26a072978f6a986490badf2b198",
+      "publication_sha256": "d38eb217fce5406144107b0a68fdfd7de7d8b26a072978f6a986490badf2b198",
+      "bytes": 5070,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/current_run.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/current_run.json",
+      "source_sha256": "1d08785eec7c69933c81b64840d269d80bc938cb2a2f1b43ca2cbd527cb70e36",
+      "publication_sha256": "1d08785eec7c69933c81b64840d269d80bc938cb2a2f1b43ca2cbd527cb70e36",
+      "bytes": 161,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_review_cards.csv",
+      "source": "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_review_cards.csv",
+      "source_sha256": "691eef286689eb1a6051cefafbbc4e0cf3736c839c98cd14e35a9bd4b5ff39f6",
+      "publication_sha256": "691eef286689eb1a6051cefafbbc4e0cf3736c839c98cd14e35a9bd4b5ff39f6",
+      "bytes": 23027,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_category_differences.csv",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_category_differences.csv",
+      "source_sha256": "d1c7c17d2bd1924aefa2651fd8c6e2dac1642069ec9d55cb47a3806d194838be",
+      "publication_sha256": "d1c7c17d2bd1924aefa2651fd8c6e2dac1642069ec9d55cb47a3806d194838be",
+      "bytes": 1979323,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week04_parameter_search/report_results.py",
+      "source": ".week04_parameter_search/report_results.py",
+      "source_sha256": "ea99fc3079b742c3381f1b092f24633a5258292d809574edcbc48ddce34a0f21",
+      "publication_sha256": "ea99fc3079b742c3381f1b092f24633a5258292d809574edcbc48ddce34a0f21",
+      "bytes": 13465,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_plan.csv",
+      "source": "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_plan.csv",
+      "source_sha256": "16dbbfa7ad4b0e66e1a0670e10dae896ff2397cf2c744601803b45a961fec953",
+      "publication_sha256": "16dbbfa7ad4b0e66e1a0670e10dae896ff2397cf2c744601803b45a961fec953",
+      "bytes": 888,
+      "modified_for_publication": false
+    },
+    {
+      "path": "LICENSE",
+      "source": "publication-source:LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "publication_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "modified_for_publication": false
+    },
+    {
+      "path": "CITATION.cff",
+      "source": "publication-source:CITATION.cff",
+      "source_sha256": "bfb3babd1600c07f888bf41f70be99deda479ce7427bb1d6a0cc50afec9734ec",
+      "publication_sha256": "bfb3babd1600c07f888bf41f70be99deda479ce7427bb1d6a0cc50afec9734ec",
+      "bytes": 552,
+      "modified_for_publication": false
+    },
+    {
+      "path": "publication_profile_test.json",
+      "source": "publication-source:publication_profile_test.json",
+      "source_sha256": "005fe397ad014a36c6ca85f4d9423f205cf935f0b36f8e1a59aaea9cef49da9f",
+      "publication_sha256": "005fe397ad014a36c6ca85f4d9423f205cf935f0b36f8e1a59aaea9cef49da9f",
+      "bytes": 298,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".gitignore",
+      "source": "publication-source:.gitignore",
+      "source_sha256": "021d916ec9d49723aeb67ccdd14f226baba0ae87aa25e5b651410488e9b44e85",
+      "publication_sha256": "021d916ec9d49723aeb67ccdd14f226baba0ae87aa25e5b651410488e9b44e85",
+      "bytes": 249,
+      "modified_for_publication": false
+    },
+    {
+      "path": "publication_map_test.json",
+      "source": "publication-source:publication_map_test.json",
+      "source_sha256": "81cdd03c5b10c71a59091d364596485a067859462e7afb279b28efc498db20c9",
+      "publication_sha256": "81cdd03c5b10c71a59091d364596485a067859462e7afb279b28efc498db20c9",
+      "bytes": 8166,
+      "modified_for_publication": false
+    },
+    {
+      "path": "research/DATA_AND_ATTRIBUTION.md",
+      "source": "publication-source:research/DATA_AND_ATTRIBUTION.md",
+      "source_sha256": "20fd9e936a9d973b76f5fc7c20e64cbd84ea2e33d17f2793f1e081c2b04f7b13",
+      "publication_sha256": "20fd9e936a9d973b76f5fc7c20e64cbd84ea2e33d17f2793f1e081c2b04f7b13",
+      "bytes": 3150,
+      "modified_for_publication": false
+    },
+    {
+      "path": "research/data_dictionary/WRP_2023_data_dictionary.csv",
+      "source": "publication-source:research/data_dictionary/WRP_2023_data_dictionary.csv",
+      "source_sha256": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d",
+      "publication_sha256": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d",
+      "bytes": 116515,
+      "modified_for_publication": false
+    },
+    {
+      "path": "frozen_models/models.json",
+      "source": "publication-source:frozen_models/models.json",
+      "source_sha256": "0d76f966d2fcb0f9add8e35b29d2e19fcd6ca11d0bb0a444e49e27179b60bd33",
+      "publication_sha256": "0d76f966d2fcb0f9add8e35b29d2e19fcd6ca11d0bb0a444e49e27179b60bd33",
+      "bytes": 11429,
+      "modified_for_publication": false
+    },
+    {
+      "path": "frozen_models/__pycache__/public_assignment.cpython-311.pyc",
+      "source": "publication-source:frozen_models/__pycache__/public_assignment.cpython-311.pyc",
+      "source_sha256": "9a565abb69063835082fb8e04187b5e7563c566a3a512df2de0a2e15a885fb50",
+      "publication_sha256": "9a565abb69063835082fb8e04187b5e7563c566a3a512df2de0a2e15a885fb50",
+      "bytes": 2839,
+      "modified_for_publication": false
+    },
+    {
+      "path": "frozen_models/__pycache__/assignment.cpython-311.pyc",
+      "source": "publication-source:frozen_models/__pycache__/assignment.cpython-311.pyc",
+      "source_sha256": "14909bfd49a4a54b6e0fd4ea77d9efd4e44f52fb6a41d781c63f6a40236adde9",
+      "publication_sha256": "14909bfd49a4a54b6e0fd4ea77d9efd4e44f52fb6a41d781c63f6a40236adde9",
+      "bytes": 10813,
+      "modified_for_publication": false
+    },
+    {
+      "path": "docs/.nojekyll",
+      "source": "publication-source:docs/.nojekyll",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publication_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified_for_publication": false
+    },
+    {
+      "path": "docs/vendor/TOPOJSON-LICENSE",
+      "source": "publication-source:docs/vendor/TOPOJSON-LICENSE",
+      "source_sha256": "4c4d15b635e04e691825a76db7d33f7f2033b55669a7430011694f31e6c65999",
+      "publication_sha256": "4c4d15b635e04e691825a76db7d33f7f2033b55669a7430011694f31e6c65999",
+      "bytes": 734,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/cartography/ne_50m_admin_0_countries.geojson",
+      "source": "course_artifacts/cartography/ne_50m_admin_0_countries.geojson",
+      "source_sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+      "publication_sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+      "bytes": 3083490,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/country_map_geometry.json",
+      "source": ".week05_build/country_map_geometry.json",
+      "source_sha256": "c4a470db8833367c68cbe3ffb4758775a5453ef94f0a64d072e72a53d6749b20",
+      "publication_sha256": "c4a470db8833367c68cbe3ffb4758775a5453ef94f0a64d072e72a53d6749b20",
+      "bytes": 633525,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/country_map_numerical_data.json",
+      "source": ".week05_build/country_map_numerical_data.json",
+      "source_sha256": "e5fcf6742db5046b63e3cbd68f208af2be654fe6fd8b43e040aa8fa6e03d31ad",
+      "publication_sha256": "e5fcf6742db5046b63e3cbd68f208af2be654fe6fd8b43e040aa8fa6e03d31ad",
+      "bytes": 375416,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/t5_profile_payload.py",
+      "source": ".week05_build/t5_profile_payload.py",
+      "source_sha256": "3eceb700434e64107807e0b145f743c636fd7a1b5007b0bb11108fedc2223050",
+      "publication_sha256": "3eceb700434e64107807e0b145f743c636fd7a1b5007b0bb11108fedc2223050",
+      "bytes": 2797,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/cartography_assets/topojson-client.min.js",
+      "source": ".week05_build/cartography_assets/topojson-client.min.js",
+      "source_sha256": "25cd02ae486cc5063e0215a4e4cfb15de83700c87ac48bac4d57dc6aaf3ebb89",
+      "publication_sha256": "25cd02ae486cc5063e0215a4e4cfb15de83700c87ac48bac4d57dc6aaf3ebb89",
+      "bytes": 7169,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/cartography_assets/world-countries-110m.mjs",
+      "source": ".week05_build/cartography_assets/world-countries-110m.mjs",
+      "source_sha256": "27cdb506ced81110995ebec0e6a127f5626dd55fd0e063ba3f95a3e6e25f8e18",
+      "publication_sha256": "27cdb506ced81110995ebec0e6a127f5626dd55fd0e063ba3f95a3e6e25f8e18",
+      "bytes": 108734,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/__pycache__/export_country_response_maps.cpython-311.pyc",
+      "source": "publication-source:.week05_build/__pycache__/export_country_response_maps.cpython-311.pyc",
+      "source_sha256": "9d4f1940e333e199bf3c81b087f2008fc1f0013bc48d4eb39e75bc11803b9829",
+      "publication_sha256": "9d4f1940e333e199bf3c81b087f2008fc1f0013bc48d4eb39e75bc11803b9829",
+      "bytes": 9211,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/__pycache__/country_response_distances.cpython-311.pyc",
+      "source": ".week05_build/__pycache__/country_response_distances.cpython-311.pyc",
+      "source_sha256": "a621dcb60c55ad60108045eb1ab53f61dae21f4bb02019d977adeda98279d9af",
+      "publication_sha256": "64eb6c7ccba192ca5f33844e78cd25a8e277aa9df72ed172eb39a3f5d672bdcb",
+      "bytes": 26583,
+      "modified_for_publication": true
+    },
+    {
+      "path": ".week05_build/__pycache__/t5_profile_payload.cpython-311.pyc",
+      "source": "publication-source:.week05_build/__pycache__/t5_profile_payload.cpython-311.pyc",
+      "source_sha256": "fae80b7b506b57d2a1d9303ad5d36caf7f43ab64dd1a8e668d039ff4bab2d68a",
+      "publication_sha256": "fae80b7b506b57d2a1d9303ad5d36caf7f43ab64dd1a8e668d039ff4bab2d68a",
+      "bytes": 7054,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/__pycache__/export_response_profiles.cpython-311.pyc",
+      "source": ".week05_build/__pycache__/export_response_profiles.cpython-311.pyc",
+      "source_sha256": "13a5905246a9de3c9fb96d9f89cb65b755a7c8d5ac671d1952572ad3e6af244f",
+      "publication_sha256": "3b04c87d729ff2c06495cd3f4723d547b8986e94fee27af4c15646df1ac9534e",
+      "bytes": 13485,
+      "modified_for_publication": true
+    },
+    {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/evaluation_finalization.json",
+      "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/evaluation_finalization.json",
+      "source_sha256": "85af9bda2e276d86b6ade1a8e316b959db1cfa51730d655184346e572b1d14c8",
+      "publication_sha256": "85af9bda2e276d86b6ade1a8e316b959db1cfa51730d655184346e572b1d14c8",
+      "bytes": 1953,
+      "modified_for_publication": false
+    },
+    {
+      "path": ".week05_build/test_t5_publication.cjs",
+      "source": ".week05_build/test_t5_publication.cjs",
+      "source_sha256": "262b169e33b3d4908e26f893546385325f6cf14c5a155c8dde1e806527dff9bd",
+      "publication_sha256": "cf8a4fcf14d172bc62cd6a38673488d11572448b35961dc4652316c41bd8424d",
+      "bytes": 3816,
+      "modified_for_publication": true
     }
   ],
   "excluded_aggregate_candidates": [
@@ -8375,7 +10566,7 @@
   ],
   "warning": "Historical artifacts are not all current specifications. Clearing notebook outputs and sanitising paths changes publication hashes, not the underlying scientific results. Original recorded hashes refer to the original protected artifacts.",
   "standalone_map_notes": "Supported standalone export, followed by embedding D3 and removal of unused online utility libraries; original map geometry/data and resize repair retained.",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-16",
   "country_response_extension": {
     "context": "e1ecf01551bcf2da",
     "aggregate_probabilities_only": true,
@@ -8539,5 +10730,303 @@
     "respondent_records": false,
     "models_refitted": false,
     "repository_action": "Prepared local files only; user will commit and push."
-  }
+  },
+  "primary_model": "T5",
+  "T5_context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "secondary_transfer": true,
+  "respondent_data_published": false,
+  "country_maps": "historical B/E metrics, labelled",
+  "Week6": "historical B/E draft; not T5 results",
+  "changed_paths": [
+    ".week04_parameter_search/adaptive_search.py",
+    ".week04_parameter_search/audit_fits.py",
+    ".week04_parameter_search/check_t5_shallow_trees.py",
+    ".week04_parameter_search/diagnose_reference_profiles.py",
+    ".week04_parameter_search/evaluate_profiles.py",
+    ".week04_parameter_search/finish.py",
+    ".week04_parameter_search/finish_adaptive.py",
+    ".week04_parameter_search/finish_profile_evaluation.py",
+    ".week04_parameter_search/report_adaptive.py",
+    ".week04_parameter_search/report_results.py",
+    ".week04_parameter_search/run_search.py",
+    ".week04_parameter_search/search.py",
+    ".week04_parameter_search/summarize_profile_evaluation.py",
+    ".week04_parameter_search/test_adaptive.py",
+    ".week04_parameter_search/test_profile_evaluation.py",
+    ".week04_parameter_search/test_search.py",
+    ".week04_parameter_search/update_adaptive_notebook.py",
+    ".week04_parameter_search/update_notebook.py",
+    ".week04_parameter_search/update_profile_evaluation_notebook.py",
+    ".week05_build/analyze_country_income_similarity.py",
+    ".week05_build/build_completed_week05.py",
+    ".week05_build/build_country_income_reporting.py",
+    ".week05_build/build_local_notebook.py",
+    ".week05_build/build_response_maps.py",
+    ".week05_build/build_week05.py",
+    ".week05_build/complete_week05_extensions.py",
+    ".week05_build/country_distance_normalization.py",
+    ".week05_build/country_median_scaling.py",
+    ".week05_build/country_response_distances.py",
+    ".week05_build/create_continuous_country_maps.py",
+    ".week05_build/create_country_distance_maps.py",
+    ".week05_build/create_objective1_handoff.py",
+    ".week05_build/document_ari_decision.py",
+    ".week05_build/document_completed_extensions.py",
+    ".week05_build/document_continuous_country_maps.py",
+    ".week05_build/document_country_response_distances.py",
+    ".week05_build/document_t5_secondary_transfer.py",
+    ".week05_build/execute_audit.py",
+    ".week05_build/execute_local_notebook.py",
+    ".week05_build/export_country_response_maps.py",
+    ".week05_build/export_response_profiles.py",
+    ".week05_build/finish_t5_secondary_transfer.py",
+    ".week05_build/frozen_assignment.py",
+    ".week05_build/frozen_transfer.py",
+    ".week05_build/local_resolution.py",
+    ".week05_build/local_resolution_documentation.py",
+    ".week05_build/organize_week05_optimization_workflow.py",
+    ".week05_build/prepare_income_page_publication.py",
+    ".week05_build/publish_t5_results.py",
+    ".week05_build/refresh_figures.py",
+    ".week05_build/rename_canonical_week05.py",
+    ".week05_build/report_t5_secondary_transfer.py",
+    ".week05_build/run_frozen_transfer.py",
+    ".week05_build/run_local_selection.py",
+    ".week05_build/run_points12.py",
+    ".week05_build/run_transfer_reporting.py",
+    ".week05_build/save_heldout_discussion.py",
+    ".week05_build/sync_country_distance_display.py",
+    ".week05_build/t5_secondary_transfer.py",
+    ".week05_build/test_country_distance_normalization.py",
+    ".week05_build/test_country_median_scaling.py",
+    ".week05_build/test_country_response_distances.py",
+    ".week05_build/test_local_resolution.py",
+    ".week05_build/test_research_page_links.py",
+    ".week05_build/test_t5_secondary_transfer.py",
+    ".week05_build/test_week05.py",
+    ".week05_build/transfer_documentation.py",
+    ".week05_build/update_country_map_modes_notebook.py",
+    ".week05_build/update_nearest_five_notebook.py",
+    ".week05_build/verify_week05_workflow.py",
+    ".week05_build/week05_core.py",
+    "README.md",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_reporting_complete.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/adaptive_search_surfaces.png",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/all_pilot_results.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/best_tested_setting_per_k.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_folds.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/burden_tree_summary_with_baselines.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_results.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/coarse_stability_surfaces.png",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_existing_Ward8.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_frozen_BE.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/comparison_with_previous_tuned_models.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/completion.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_plan.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_sampling_audit.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation_stratum_quotas.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/fit_audit.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/frozen_baselines_on_confirmation_samples.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/full_confirmation_results.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/interpretation.txt",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/new_partition_comparisons.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/notebook_verification.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/original_category_profiles.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/parameter_neighbourhoods.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/profile_interpretations.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/progress.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protected_sources.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/protocol.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_complete.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/reporting_refresh_incident.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/runtime.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/selected_reference_specs.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_before_confirmation.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/shortlist_seal.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_folds.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/single_feature_summary_with_baselines.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/verification.json",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/weighted_overlaps_with_frozen_BE.csv",
+    "course_artifacts/week04_kmeans_adaptive_optimization/current_run.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/all_pilot_results.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/best_tested_setting_per_k.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_folds.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/burden_tree_summary.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_results.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/coarse_stability_surfaces.png",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_existing_Ward8.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/comparison_with_frozen_BE.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/completion.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_plan.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_sampling_audit.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/confirmation_stratum_quotas.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/fit_audit.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/frozen_baselines_on_confirmation_samples.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/full_confirmation_results.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/interpretation.txt",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/new_partition_comparisons.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/notebook_verification.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/original_category_profiles.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/parameter_neighbourhoods.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/profile_interpretations.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/progress.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protected_sources.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/protocol.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_plan.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_results.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/refinement_seeds.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/reporting_complete.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/runtime.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/selected_reference_specs.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/shortlist_before_confirmation.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_folds.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/single_feature_summary.csv",
+    "course_artifacts/week04_kmeans_parameter_optimization/8ecb97fd957f69f8/verification.json",
+    "course_artifacts/week04_kmeans_parameter_optimization/current_run.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/added_profile_review.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/aligned_membership_flows.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/burden_tree_summary.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cached_centres_full_population_inertia.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_repetitions.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cluster_stability_summary.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/completion.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/cross_resolution_membership_overlaps.png",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/individual_profile_stability.png",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/interpretation.txt",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/largest_overlap_source_comparisons.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_evaluation_overview.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_registry.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/model_review_summary.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/notebook_verification.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_category_profiles.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_added_distinctions.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_unit_profile_heatmap.png",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/original_worry_category_distributions.png",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_comparisons.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/partition_overlaps.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_review_cards.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_summaries.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protected_sources.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/protocol.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_diagnostic_verification.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_inertia_diagnostic.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_partition_agreement.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reference_representativeness.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/reporting_complete.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/runtime.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/single_feature_summary.csv",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/verification.json",
+    "course_artifacts/week04_kmeans_profile_evaluation/current_run.json",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_folds.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_folds.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_per_cluster_summary.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_summary.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/burden_tree_summary.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/completion.json",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold1_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold2_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold3_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold4_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth1_fold5_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold1_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold2_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold3_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold4_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth2_fold5_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold1_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold2_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold3_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold4_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth3_fold5_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold1_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold2_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold3_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold4_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_rules.txt",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/depth5_fold5_weighted_confusion.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/evaluation_country_folds.csv",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/protocol.json",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/single_feature_summary.csv",
+    "course_artifacts/week04_t5_shallow_explanations/current_run.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/bootstrap_design.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/all_feature_tree_summary.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/burden_tree_summary.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_assignment_quality.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_country_retention.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_defining_anchors.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_original_category_profiles.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_prevalence.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/development_stability.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/freeze_seal.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/frozen_country_split.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/single_feature_summary.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/specification.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_assignment_quality.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_bootstrap_intervals.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_quality_and_retention.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_retention.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_frozen_anchor_comparison_before_scope_column_repair.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_category_profiles.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_original_feature_total_variation.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_prevalence.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_profile_semantic_differences.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_category_differences.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_prevalence.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_vs_development_quality.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/interpretation.txt",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/notebook_verification.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/primary_model_decision.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/profile_transfer_summary.csv",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protected_sources.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protocol.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_complete.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/reporting_incident.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_original_response_transfer.png",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/t5_prevalence_transfer.png",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/transfer_complete.json",
+    "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/verification.json",
+    "course_artifacts/week05_t5_secondary_transfer/current_run.json",
+    "docs/README.md",
+    "docs/countries.html",
+    "docs/country-income.html",
+    "docs/index.html",
+    "frozen_models/T5_models.json",
+    "frozen_models/public_assignment.py",
+    "requirements.txt",
+    "research/METHODS.md",
+    "research/OBJECTIVES.md",
+    "research/REPRODUCING.md",
+    "research/RESULTS.md",
+    "research/T5_RESULTS.md",
+    "weekly_notebooks/requirements-objective1.txt",
+    "weekly_notebooks/week01_understand_2023_and_develop_questions.ipynb",
+    "weekly_notebooks/week02_define_the_research_design.ipynb",
+    "weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb",
+    "weekly_notebooks/week04_profile_robustness_and_selection.ipynb",
+    "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
+    "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb"
+  ],
+  "T5_public_assignment_reproduced_all_27972_labels": true
 }

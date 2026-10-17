@@ -52,6 +52,8 @@ def export_response_maps(root, output, inline_dir=None):
             rendered=re.sub(r'<header class="research-header">.*?</header>',lambda _:header.rstrip(),rendered,count=1,flags=re.S)
         else:
             rendered=re.sub(r'<nav aria-label="Country maps">.*?</nav>',lambda _:header.rstrip(),rendered,count=1,flags=re.S)
+        if (docs.parent/'frozen_models/T5_models.json').exists() and 'id="historical-distance-note"' not in rendered:
+            rendered=rendered.replace('</header>','</header><p id="historical-distance-note" style="max-width:1120px;margin:1rem auto;padding:0 1rem">Country comparisons retain the historical B/E allocations and profile mixtures. They are not T5-specific distances. <a href="./index.html">Explore the primary five-profile model</a>.</p>',1)
         css=(root/'.week05_build/research-page-style.css').read_text()
         rendered=re.sub(r'<style>nav\{.*?</style>','',rendered,count=1,flags=re.S)
         if '<style id="wrp-research-page-style">' in rendered:

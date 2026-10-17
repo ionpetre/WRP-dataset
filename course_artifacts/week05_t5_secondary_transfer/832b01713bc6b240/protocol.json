@@ -1,0 +1,62 @@
+{
+  "development_inputs": {
+    ".week04_parameter_search/search.py": "ff2d706dff807ce3c9603f4e8843d8ba1ffd8fa897e7597481fa901dbabf6603",
+    ".week05_build/frozen_assignment.py": "291af7d66e2bac4ebefc458df59d0f11e731990160cf822f9fe45034aafbeef5",
+    ".week05_build/frozen_transfer.py": "796e40bd97ea880ffff268efc459f28e70dc19b0e1e2913d38928bddc7ee0e72",
+    ".week05_build/t5_secondary_transfer.py": "a0366bca1096ac0d7c3161e391ce2e36f8d7c53c7ce0b1e79784272a73b18ef2",
+    ".week05_build/week05_core.py": "15c2c6acc9c426e08ada198aa69b87292071295fd4367f43328f3f257fafe958",
+    "course_artifacts/week03_country_split.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "course_artifacts/week03_development_data.parquet": "0021476a9548e3f19aa496e3c24d8c44942d665b12d7d0923b00dc729987ffb0",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/confirmation/k5_3259ff3d7dbb806a.json": "9284bdc2863f47f8f1d25de992824c75eee6b8d852cfd5afe29d1cc415af2a13",
+    "course_artifacts/week04_kmeans_adaptive_optimization/54d309fe37735497/references/k5_3259ff3d7dbb806a.joblib": "81227ea9e6e7ebef27ae5dab3f2043b66a3055e84f026d814325a8ba737b93d8",
+    "course_artifacts/week04_kmeans_profile_evaluation/59d97cff396076a4/profile_review_cards.csv": "691eef286689eb1a6051cefafbbc4e0cf3736c839c98cd14e35a9bd4b5ff39f6",
+    "course_artifacts/week04_search_v4/stage1_eligible_development.parquet": "aaa4c03f43395a15be57e6fd0a0742d48910ce0fa42fdd49371864fe7ed70d31",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/all_feature_tree_summary.csv": "8fa77688a30425964abeb04972345e050ec446a54bea511387ccc400787b664a",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/burden_tree_summary.csv": "c9e3d99a97dac4092de5254c0fd66c62436d487ad8c82add0c9770bb668a12a3",
+    "course_artifacts/week04_t5_shallow_explanations/4f0f385fb4cbe644/single_feature_summary.csv": "63446f685c22154a81b5e33f70aaebddde401ad70501866d4584adcb08657463"
+  },
+  "plan": {
+    "ARI_as_transfer_threshold": false,
+    "anchors": "three largest positive development category-versus-outside contrasts per profile, distinct features",
+    "approval": "User: did you check whether shallow decision trees can give trivial explanations to T5? proceed as you suggested",
+    "assignment": "nearest stored development centre; first stored centre on an exact tie; preserve cluster order",
+    "automatic_transfer_cutoff": null,
+    "distance_flag": "distance exceeds assigned-profile development weighted p95; diagnostic, not exclusion",
+    "eligibility": "all 20 original-unit profile features observed; incomplete respondents remain unassigned",
+    "heldout_previously_examined_for_BE": true,
+    "historical_BE_models_and_handoffs": "preserved; no silent downstream replacement",
+    "interpretation": "descriptive transfer under a fixed classifier; not independent re-emergence of the groups",
+    "model": "T5",
+    "model_refits": 0,
+    "no_pristine_external_validation_claim": true,
+    "profile_ids": "T5_C0,...,T5_C4; never renumber by prevalence; never substitute for B/E IDs",
+    "retuning": false,
+    "role": "approved primary candidate; assess transfer before downstream migration",
+    "secondary_assessment": true,
+    "transfer_review": "original categories, anchor directions, prevalence, distances, margins, country problems, missingness",
+    "uncertainty": {
+      "draws": 1000,
+      "interpretation": "variation over the observed held-out countries; not worldwide population or fitting uncertainty",
+      "interval_percentiles": [
+        2.5,
+        97.5
+      ],
+      "model_fixed": true,
+      "seed": 20261012,
+      "unit": "countries, uniformly with replacement",
+      "within_country": "preserve relative survey weights among complete cases"
+    },
+    "version": 1,
+    "weights": "WGT normalized within complete-case country, equal country totals within each reporting area"
+  },
+  "spec": {
+    "alpha": 0.5837857862168715,
+    "fingerprint": "54d309fe37735497fb01171a68c415efefa156917fc38ab4c6f05cb615f2430f",
+    "k": 5,
+    "model": "T5",
+    "q": 0.41670089020376244,
+    "status": "provisional, not frozen",
+    "t": 2.399802888616365,
+    "trial": "k5_3259ff3d7dbb806a"
+  }
+}

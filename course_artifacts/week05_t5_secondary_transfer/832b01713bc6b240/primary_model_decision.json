@@ -1,0 +1,20 @@
+{
+  "conclusion": "broad aggregate descriptive transfer, qualified by country and complete-case limitations",
+  "context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "fine_resolution": "T8 exploratory only",
+  "historical_models": [
+    "B4",
+    "E8",
+    "other evaluated models"
+  ],
+  "operational_downstream_migration": "pending; no Week 6, map, paper or publication replacement in this task",
+  "primary_model": "T5",
+  "profile_ids": [
+    "T5_C0",
+    "T5_C1",
+    "T5_C2",
+    "T5_C3",
+    "T5_C4"
+  ],
+  "secondary_not_untouched_validation": true
+}

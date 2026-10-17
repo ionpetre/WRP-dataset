@@ -1,0 +1,57 @@
+The adaptive search imported 301 earlier settings and evaluated exactly 20 additional pairs for each k, 160 in total. The two strongest eligible pilots per k were fixed before fresh confirmation; B4/E8 were included unchanged. No new grid was run and no search bounds, structural filters or ARI thresholds were changed.
+
+The resolutions whose best confirmed setting passes every numerical filter are: 3, 4, 5, 6, 7, 8, 9. Other resolutions are reported as best tested but not retained. This bounded search cannot establish that no acceptable setting exists elsewhere.
+
+For k=3, the strongest confirmed setting has q=0.622606, t=1.606152, alpha=0.739962; lower-decile respondent ARI=0.9856, country ARI=0.9811, and largest cluster=35.8%. It passes all numerical filters. 
+
+For k=4, the strongest confirmed setting has q=0.592946, t=1.686495, alpha=0.430382; lower-decile respondent ARI=0.9815, country ARI=0.9703, and largest cluster=37.3%. It passes all numerical filters. 
+
+For k=5, the strongest confirmed setting has q=0.416701, t=2.399803, alpha=0.583786; lower-decile respondent ARI=0.9465, country ARI=0.9131, and largest cluster=36.3%. It passes all numerical filters. 
+
+For k=6, the strongest confirmed setting has q=0.315149, t=3.173098, alpha=0.664834; lower-decile respondent ARI=0.8486, country ARI=0.8424, and largest cluster=36.2%. It passes all numerical filters. 
+
+For k=7, the strongest confirmed setting has q=0.333333, t=3.000000, alpha=0.625000; lower-decile respondent ARI=0.8799, country ARI=0.9335, and largest cluster=34.0%. It passes all numerical filters. 
+
+For k=8, the strongest confirmed setting has q=0.369154, t=2.708900, alpha=0.626338; lower-decile respondent ARI=0.8647, country ARI=0.8599, and largest cluster=33.1%. It passes all numerical filters. 
+
+For k=9, the strongest confirmed setting has q=0.380574, t=2.627611, alpha=0.669347; lower-decile respondent ARI=0.8201, country ARI=0.8129, and largest cluster=32.3%. It passes all numerical filters. 
+
+For k=10, the strongest confirmed setting has q=0.634330, t=1.576466, alpha=0.798567; lower-decile respondent ARI=0.6686, country ARI=0.6814, and largest cluster=21.4%. It fails the unchanged stability requirements. 
+
+On the same fresh samples, original B4 has score 0.9145, compared with 0.9703 for the best confirmed k=4 setting. The reference partitions have ARI 0.3318 and matched equal-country-weighted agreement 55.2%. A stability increase alone does not establish that the new profiles are scientifically preferable.
+
+On the same fresh samples, original E8 has score 0.8162, compared with 0.8599 for the best confirmed k=8 setting. The reference partitions have ARI 0.8074 and matched equal-country-weighted agreement 82.5%. A stability increase alone does not establish that the new profiles are scientifically preferable.
+
+For T3, the strongest single-feature reconstruction is cluster 2, usually using worry_crime (5/5 folds): balanced accuracy 97.7%, precision 92.8%, recall 98.8%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T4, the strongest single-feature reconstruction is cluster 3, usually using harm_traffic_known_person (5/5 folds): balanced accuracy 94.2%, precision 67.4%, recall 100.0%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T5, the strongest single-feature reconstruction is cluster 4, usually using worry_water (5/5 folds): balanced accuracy 88.3%, precision 67.4%, recall 84.3%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T6, the strongest single-feature reconstruction is cluster 4, usually using worry_mental_health (5/5 folds): balanced accuracy 94.0%, precision 59.1%, recall 99.5%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T7, the strongest single-feature reconstruction is cluster 3, usually using worry_mental_health (5/5 folds): balanced accuracy 93.4%, precision 52.4%, recall 100.0%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T8, the strongest single-feature reconstruction is cluster 2, usually using worry_mental_health (5/5 folds): balanced accuracy 92.7%, precision 46.5%, recall 99.9%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+For T9, the strongest single-feature reconstruction is cluster 8, usually using worry_food (5/5 folds): balanced accuracy 92.5%, precision 36.5%, recall 99.8%. Read precision and recall together. This is a diagnostic of existing cluster membership, not a new clustering or an automatic rejection rule.
+
+T7 agrees with the existing Ward8 partition at ARI 0.6782. Ward was not refitted at the new parameters: this is agreement between existing partitions with possibly different geometries, not a new matched-geometry algorithm validation.
+
+T8 agrees with the existing Ward8 partition at ARI 0.7399. Ward was not refitted at the new parameters: this is agreement between existing partitions with possibly different geometries, not a new matched-geometry algorithm validation.
+
+Scientific reading of the coarser solutions. T3 is extremely stable, but one of its three groups is almost identified by not worrying about crime (97.7% balanced accuracy and 92.8% precision). This is a strong feature-dependence concern, not evidence that the numerical tests failed. T4 is not a small adjustment of B4: their ARI is only .332 and matched weighted agreement is 55.2%. Its four groups distinguish low food/water worry with more traffic/weather worry (28.6%), broad self/known-person harm exposure (14.7%), generally lower worry and harm (37.3%), and known-person traffic harm (19.4%). All members of the last group report known-person traffic harm, but that response also occurs outside the group: rule precision is only 67.4%. It is therefore a necessary marker in this fitted group, not a unique single-feature definition. The high stability supports this alternative partition; it does not make it the same scientific result as B4.
+
+Newly supported intermediate resolution. T5 passes both full tests at score .9131. Its provisional groups are lower worry (36.3%), broad known-person harm exposure (13.8%), stronger crime/weather worry (18.5%), stronger mental-health/traffic/weather worry (15.8%), and stronger water/food worry (15.5%). These descriptions summarize contrasts in the original categories, not final profile names. Its strongest single-feature rule has 88.3% balanced accuracy, 67.4% precision and 84.3% recall; the depth-2 burden tree has 46.0% balanced accuracy. It is a useful intermediate-resolution candidate to compare substantively with B/E, not an automatically adopted replacement.
+
+Stability and method agreement do not identify the same winner. The selected adaptive T8 has score .8599, above E8 at .8162 on the same samples, while retaining a low-worry group, a broad known-person harm group and domain-specific worry combinations. The depth-2 burden tree has only 29.7% balanced accuracy. However, agreement with existing Ward8 falls to .7399, from approximately .8201 for E8. The earlier grid-selected eight-cluster alternative had Ward8 ARI .9010 but was not one of the two strongest pilots in this extension, so it was not reconfirmed on the new samples. There is a real tradeoff between this stability objective, cross-method agreement and profile meaning. Ward uses its original geometry, so this comparison must not be described as a new matched-geometry test.
+
+Newly supported fine resolution. T9 passes at score .8129, only .0129 above the working threshold. It includes an additional strongly food-worried group (7.8%). A food-worry rule has recall 99.8% but precision 36.5%: food worry is shared with other groups and does not uniquely define this cluster. Sampled neighbouring settings have substantially different partitions and pilot stability. This is not evidence of a broad stable parameter plateau, and a ninth cluster must earn its place through a useful substantive distinction.
+
+Why fresh confirmation matters. For k=5, the highest pilot score (.9332) fell to .6486 and failed, whereas the other shortlisted setting confirmed at .9131. Likewise, the highest k=8 pilot did not have the strongest confirmation score. T7 remains exactly the previously selected reference partition (reference ARI 1), despite a changed confirmation score. Unchanged B4 scored .8559 in the previous confirmation and .9145 here. Different resampling draws and initialization seeds can materially change these finite-repetition summaries. Compare B/E and tuned models within the same confirmation batch; do not interpret a score change across batches as a change in the frozen model or an improvement caused by tuning.
+
+Neighbourhood evidence is descriptive. The saved table contains the nearest already tested parameter settings, their pilot stability and their reference ARI to the selected partition. It is not a complete local surface or a new automatic plateau threshold. Different k can have different geometries; comparisons are approximate refinements, not a strict lattice.
+
+Decision: retain original B4/E8 as frozen references until explicit scientific review. Numerical eligibility is necessary under this protocol, not sufficient for adoption. Review profile meaning in original response units, single-feature dependence and nearby settings before changing downstream assignments. Do not select k solely by the highest stability score or treat the tuned worry coding as an estimated psychological scale.
+
+Limitations: these are the same development countries; fresh resampling is not independent external-country validation. Earlier held-out findings were already known. Pairwise ARIs share fitted partitions and are not independent observations. Comparisons with earlier tuning scores use different confirmation samples, except where the unchanged B/E benchmarks were explicitly rerun on the new common samples. Frozen models, respondent IDs, handoff assignments, held-out results, maps, Week 6 and the manuscript remain unchanged.

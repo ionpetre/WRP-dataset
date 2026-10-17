@@ -60,11 +60,13 @@ def export_profiles(root):
         for p in payload['models'][model]['profiles']:
             marginal=sum(r[2] for r in payload['links'] if r[column]==p['id'])
             assert abs(marginal-p['share'])<1e-10, 'Overlap labels or reference population differ from frozen profiles'
+    from t5_profile_payload import add_t5
+    payload=add_t5(payload,public)
     fragment=(build/'response-profiles-template.html').read_text().replace('__WRP_PROFILE_DATA__',json.dumps(payload,separators=(',',':')))
     assert len(fragment.encode())<1_000_000
     header=(build/'research-page-header.html').read_text()
     replacements={'__PAGE_TITLE__':'What do the response profiles mean?',
-        '__PAGE_DESCRIPTION__':'Explore two frozen descriptions of worry and reported harm. The clusters group respondents—not countries.',
+        '__PAGE_DESCRIPTION__':'Explore the primary five-profile model and historical four- and eight-profile comparisons. The clusters group respondents—not countries.',
         '__PROFILE_CLASS__':'is-current','__PROFILE_CURRENT__':'aria-current="page"',
         '__COUNTRY_CLASS__':'','__COUNTRY_CURRENT__':'','__INCOME_CLASS__':'','__INCOME_CURRENT__':''}
     for key,value in replacements.items():header=header.replace(key,value)

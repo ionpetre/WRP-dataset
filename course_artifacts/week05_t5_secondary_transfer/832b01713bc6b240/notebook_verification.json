@@ -1,0 +1,17 @@
+{
+  "notebooks": [
+    {
+      "model_fits_during_execution": 0,
+      "new_section_executed": true,
+      "notebook": "week04_profile_robustness_and_selection.ipynb",
+      "preceding_cells_and_outputs_preserved": 76
+    },
+    {
+      "model_fits_during_execution": 0,
+      "new_section_executed": true,
+      "notebook": "week05_validate_frozen_profiles.ipynb",
+      "preceding_cells_and_outputs_preserved": 30
+    }
+  ],
+  "status": "passed"
+}

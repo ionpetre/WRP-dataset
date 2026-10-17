@@ -1,5 +1,9 @@
 # Results through Week 5
 
+## Update: primary T5 model
+
+The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
+
 This release records Objective 1 results through 12 October 2026 and the exploratory direct-response extension added on 14 October. Current final conclusions take precedence over older experiment folders, which are retained as an audit trail.
 
 ## Week 3 — A useful baseline, not a frozen typology
@@ -8,7 +12,7 @@ Equal-country-weighted K-means explored k=2,…,10 on median-imputed, standardiz
 
 The retained k=4 water-harm cluster was particularly reconstructible: the selected single-feature rule achieved about 98.8% balanced accuracy, 85.2% precision and 100% recall. This is a warning about interpretation, not evidence that more clusters are necessarily better. Week 4 changed the representation and eligibility rather than freezing this baseline.
 
-Authoritative starting notebook: [Week 3](../weekly_notebooks/week03_prepare_the_2023_analysis_data_v16.ipynb). Aggregate tables use the `week03_` prefix; `week03_v11` holds additional reconstruction diagnostics.
+Authoritative starting notebook: [Week 3](../weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb). Aggregate tables use the `week03_` prefix; `week03_v11` holds additional reconstruction diagnostics.
 
 ## Week 4 — Two complementary K-means descriptions and a Ward corroboration
 
@@ -105,4 +109,9 @@ Authoritative extension: `course_artifacts/week05_country_response_distances_v1/
 
 ## What is frozen, and what comes next
 
-Objective 1 is closed with B4 as the stronger core description and E8 as a complementary thematic description. Subsequent objectives use these centres and stable profile IDs. No clustering was refitted on all countries: a full-data refit would define a new model not validated by the already-used held-out countries. Objectives 2–4 require new work and are not claimed as results here.
+The original Objective 1 closure used B4 as the core and E8 as a complementary
+description. The subsequent Week 5 extension selects **T5 as the primary model**;
+its evidence and secondary-transfer limitations are in [T5 results](T5_RESULTS.md).
+B4/E8 remain historical benchmarks. No clustering was refitted on all countries.
+The existing country-distance pages retain historical B/E metrics, explicitly
+labelled, and the Week 6 B/E prediction draft is not a T5 prediction result.

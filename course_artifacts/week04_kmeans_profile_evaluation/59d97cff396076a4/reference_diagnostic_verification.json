@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "cached_fits": 900,
+  "all_saved_assignments_match_centres": true,
+  "new_fits": 0,
+  "no_representatives_or_frozen_models_changed": true,
+  "raw_inertia_compared_only_within_identical_geometry": true,
+  "diagnostic_code_sha256": "4a6faaa344c42ad9ea83bc3479be5872d86ea4e0ee801fbf007c35e28707bfac"
+}

@@ -4,18 +4,18 @@ import json
 import numpy as np
 from assignment import derive_frozen_features, assign_frozen
 
-def load_public_models(folder=None):
+def load_public_models(folder=None, filename='T5_models.json'):
     folder=Path(folder) if folder is not None else Path(__file__).resolve().parent
-    bundle=json.loads((folder/'models.json').read_text())
+    bundle=json.loads((folder/filename).read_text())
     for model in bundle['models'].values():
         model['centres']=np.asarray(model['centres'],dtype=float)
         model['profile_names']={int(k):v for k,v in model['profile_names'].items()}
         model['profile_distance_p95']={int(k):float(v) for k,v in model['profile_distance_p95'].items()}
     return bundle
 
-def assign_complete_cases(prepared, folder=None):
+def assign_complete_cases(prepared, folder=None, filename='T5_models.json'):
     """Return eligible assignments only, plus the eligibility mask for transparent exclusions."""
-    bundle=load_public_models(folder)
+    bundle=load_public_models(folder, filename=filename)
     features=derive_frozen_features(prepared)
     eligible=features[bundle['feature_order']].notna().all(axis=1)
     if not eligible.any(): return {},eligible

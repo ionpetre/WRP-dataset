@@ -1,5 +1,58 @@
 # Encodings, weighting and validation
 
+## Update: primary T5 model
+
+The 16 October development extension selects T5 as the primary model. See [T5 evidence, parameters and secondary-validation limitations](T5_RESULTS.md). B4/E8 findings below remain historical evidence, not the current primary-model decision.
+
+### Week 5 parameter optimization and model selection
+
+For each $k=3,\ldots,10$, optimize the middle worry-category position
+$q=1/t\in[0.1,0.9]$ and worry allocation $\alpha\in[0.2,0.8]$.
+The original worry categories become $(0,q,1)$. Keep the same complete-response
+development population, equal-country weights, separate harm indicators and
+reduced-mean worry geometry. Each reference uses K-means with 20 initializations,
+maximum 300 iterations and seed 20231006.
+
+The objective is
+
+$$S(q,\alpha;k)=\min\{Q_{0.10}(\operatorname{ARI}_{respondents}),
+Q_{0.10}(\operatorname{ARI}_{countries})\}.$$
+
+The initial grid and local refinement evaluated 301 settings. The subsequent
+Optuna multivariate TPE search proposed 20 additional pairs per k, 160 in total.
+Eligible pilots use ten samples per test (45 pairwise ARIs). Before confirmation,
+seal the two strongest eligible pilots per k and include unchanged B4/E8 as
+benchmarks. Confirm this shortlist with 50 fresh respondent and 50 fresh country
+samples, 1,225 pairwise ARIs per test. The original structural filters and
+median/lower-decile ARI requirements remain unchanged. Fresh resamples are not
+independent countries, and the best tested geometry is not a guaranteed global
+optimum or an estimated psychological response scale. Raw inertia is not used
+to compare different geometries.
+
+Scientific review additionally considers original-category meanings, membership
+overlaps and each fixed reference profile's recovery. One-to-one maximum-weight
+matching is followed by equal-country-weighted membership Jaccard, precision and
+recall. Each profile has 50 reference-versus-repetition comparisons per test;
+these are not the 1,225 pairwise ARIs. Best-any matching diagnoses one-to-one
+matching artefacts. No new 0.80 Jaccard cutoff is introduced.
+
+T5 is the selected primary description: $k=5$,
+$t=2.399802888616365$, $q=0.41670089020376244$,
+$\alpha=0.5837857862168715$. Shallow explanatory trees and single-feature rules
+use all five country-grouped folds with fold-specific equal-country weights.
+They reconstruct fixed reference labels, not independently estimated clusters.
+Ordinary trees use Gini, minimum leaf size 200 and depths 1/2/3/5. The custom
+one-feature rules maximize training balanced accuracy over feature, threshold
+and direction. No new automatic rejection threshold is imposed.
+
+The exact T5 development centres are frozen without refitting. Held-out
+assessment uses unchanged assignment, development-selected anchors and distance
+thresholds. These held-out countries had already been examined for B/E before
+the new search: this is **secondary transfer assessment**, not untouched external
+confirmation. T5 has no new independent regional clustering or matched-geometry
+Ward experiment in this extension. The regional B/E results below must not be
+presented as T5 validation.
+
 ## Data and country split
 
 The curated 2023 dataset contains 146,910 respondents in 142 countries. A country-level split was selected once and then reused: 113 development countries (116,820 respondents) and 29 held-out countries (30,090 respondents). Countries, not individual respondents, are the split unit. The allocation balances the original global-region and country-income composition; its exact country list is in `course_artifacts/week03_country_split.csv`.
