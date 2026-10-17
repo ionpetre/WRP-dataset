@@ -2,15 +2,13 @@
 
 Research code and results from the 2026–2027 Machine Learning Project Course, maintained by Ion Petre. This repository records the work completed through Week 5 using the **2023 World Risk Poll**. It is a research record, not the original survey-data repository.
 
-**Current conclusion (16 October 2026):** T5 is the primary five-profile description after development-only optimization of worry coding and worry–harm allocation. Its secondary held-out assessment supports broad aggregate transfer, with important country-specific limitations. B4/E8 remain historical benchmarks. See [T5 results and limitations](research/T5_RESULTS.md). Week 6 is an earlier B/E prediction draft, not a T5 evaluation.
+**Current conclusion (17 October 2026):** T5 is the primary five-profile description after development-only optimization of worry coding and worry–harm allocation. Its secondary held-out assessment supports broad aggregate transfer, with important country-specific limitations. B4/E8 remain historical benchmarks. See [T5 results and limitations](research/T5_RESULTS.md). Week 5 regional and country analyses now also use T5. Week 6 evaluates prediction of T5 membership; held-out balanced accuracy is 0.261 and macro-F1 0.223, so individual prediction remains weak.
 
 For this update, upload the contents of this `github_publication` folder to the
 repository root, preserving its directories and hidden source folders. Do not
 upload the parent course folder, raw data, respondent assignments or fit caches.
 The local package has not been committed or pushed. The T5 profile explorer is
-in `docs/index.html`; country-distance pages intentionally retain clearly labelled
-historical B/E comparisons. Current audit records are `publication_audit.json`
-and `publication_profile_test.json`.
+in `docs/index.html`; country and income pages now include T5 alongside the historical E8 comparison. Current audit records include the T5 completion verification and browser checks.
 
 ## Start here
 
@@ -32,7 +30,7 @@ and `publication_profile_test.json`.
 | 3 | Curate data and establish the baseline | [Week 3](weekly_notebooks/week03_prepare_2023_data_and_kmeans.ipynb) |
 | 4 | Compare encodings, block allocation and clustering methods | [Week 4](weekly_notebooks/week04_profile_robustness_and_selection.ipynb) |
 | 5 | Optimize t/alpha, confirm, review, select T5, freeze and assess transfer | [Week 5](weekly_notebooks/week05_validate_frozen_profiles.ipynb) |
-| 6 | Earlier B/E prediction draft; not yet migrated to T5 | [Week 6](weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb) |
+| 6 | Predict frozen T5 membership from background variables | [Week 6](weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb) |
 
 Notebook code and analytical explanations are retained. Stored execution outputs are cleared to prevent accidental publication of respondent previews; aggregate results and figures are published separately under `course_artifacts/`. Fully executed originals remain in the course workspace. No scientific models were refitted for publication.
 
@@ -47,3 +45,5 @@ The 14 October country-distance extension is in `course_artifacts/week05_country
 Raw responses, respondent-level assignments, sampling indices and fit caches are not included. Obtain the survey data from [Lloyd’s Register Foundation](https://www.lrfoundation.org.uk/wrp/world-risk-poll-data), retain its attribution and terms, and follow the reproduction guide.
 
 The existing repository [Apache 2.0 licence](LICENSE) is preserved for project code. Survey data and third-party components retain their own terms; see [attribution](research/DATA_AND_ATTRIBUTION.md).
+
+T5 geographical analyses are complete. Independent regional k=5 fits do not pass both full stability tests; six coarser cases do. This limits universality claims without changing the frozen global model. See [regional and country evidence](research/T5_RESULTS.md).

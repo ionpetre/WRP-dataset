@@ -1,0 +1,1276 @@
+candidate,scope,country,iso3,region_name,rank,neighbour,neighbour_iso3,neighbour_region,same_region,hellinger,map_label_distance_km,retention,neighbour_retention
+T5,development,Afghanistan,AFG,Southern Asia,1,Yemen,YEM,Middle East,False,0.1128665068779623,2941.255446897086,0.7994011976047904,0.924
+T5,development,Afghanistan,AFG,Southern Asia,2,Vietnam,VNM,Southeastern Asia,False,0.1327009714066271,4034.53014096086,0.7994011976047904,0.945
+T5,development,Afghanistan,AFG,Southern Asia,3,China,CHN,Eastern Asia,False,0.13640037777740976,3682.4835044413157,0.7994011976047904,1.0
+T5,development,Afghanistan,AFG,Southern Asia,4,Nigeria,NGA,Central/Western Africa,False,0.16901866967987814,6578.8234101515645,0.7994011976047904,0.937
+T5,development,Afghanistan,AFG,Southern Asia,5,Kenya,KEN,Eastern Africa,False,0.1692612625406299,4776.334076124526,0.7994011976047904,0.968
+T5,development,Albania,ALB,Southern Europe,1,Pakistan,PAK,Southern Asia,False,0.0993429915531881,4527.273022439274,0.905,0.913086913086913
+T5,development,Albania,ALB,Southern Europe,2,South Korea,KOR,Eastern Asia,False,0.11370081262460349,8740.4088788574,0.905,0.9503407984420644
+T5,development,Albania,ALB,Southern Europe,3,Kyrgyzstan,KGZ,Central Asia,False,0.13899832984055552,4479.114132426154,0.905,0.888
+T5,development,Albania,ALB,Southern Europe,4,Ethiopia,ETH,Eastern Africa,False,0.14300301963345047,4084.586566763703,0.905,0.954
+T5,development,Albania,ALB,Southern Europe,5,India,IND,Southern Asia,False,0.15020677546780875,5834.063554465211,0.905,0.97
+T5,development,United Arab Emirates,ARE,Middle East,1,Hong Kong,HKG,Eastern Asia,False,0.07025449860704597,6052.34437647552,0.989,0.9950199203187252
+T5,development,United Arab Emirates,ARE,Middle East,2,Armenia,ARM,Central Asia,False,0.07122325565394753,2098.005034978013,0.989,0.919
+T5,development,United Arab Emirates,ARE,Middle East,3,Azerbaijan,AZE,Central Asia,False,0.08064193033627994,2004.4901694709392,0.989,0.841
+T5,development,United Arab Emirates,ARE,Middle East,4,Denmark,DNK,Northern/Western Europe,False,0.08569041155474359,5159.174993775194,0.989,0.991044776119403
+T5,development,United Arab Emirates,ARE,Middle East,5,Singapore,SGP,Southeastern Asia,False,0.09835392110198206,5844.968634181927,0.989,0.9815712900096992
+T5,development,Argentina,ARG,Latin America & the Caribbean,1,Guatemala,GTM,Latin America & the Caribbean,True,0.050734218057862504,6071.049712708799,0.9661016949152542,0.939
+T5,development,Argentina,ARG,Latin America & the Caribbean,2,Colombia,COL,Latin America & the Caribbean,True,0.058214757483049266,4207.867170143194,0.9661016949152542,0.9246031746031746
+T5,development,Argentina,ARG,Latin America & the Caribbean,3,Venezuela,VEN,Latin America & the Caribbean,True,0.05887456432580132,4524.043597251164,0.9661016949152542,0.956
+T5,development,Argentina,ARG,Latin America & the Caribbean,4,Spain,ESP,Southern Europe,False,0.06922892527482534,10283.827560908245,0.9661016949152542,0.998
+T5,development,Argentina,ARG,Latin America & the Caribbean,5,Cyprus,CYP,Southern Europe,False,0.07062851552451026,12645.236341335363,0.9661016949152542,0.9660523763336566
+T5,development,Armenia,ARM,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.07122325565394753,2098.005034978013,0.919,0.989
+T5,development,Armenia,ARM,Central Asia,2,El Salvador,SLV,Latin America & the Caribbean,False,0.07239323135983632,12334.249564597629,0.919,0.925
+T5,development,Armenia,ARM,Central Asia,3,Hong Kong,HKG,Eastern Asia,False,0.07308117712682781,6698.235510631538,0.919,0.9950199203187252
+T5,development,Armenia,ARM,Central Asia,4,Azerbaijan,AZE,Central Asia,True,0.08646359898143081,204.11135889250482,0.919,0.841
+T5,development,Armenia,ARM,Central Asia,5,Hungary,HUN,Eastern Europe,False,0.09529707033506257,2153.3697350163916,0.919,0.9861523244312562
+T5,development,Austria,AUT,Northern/Western Europe,1,Germany,DEU,Northern/Western Europe,True,0.05956788960139625,500.84002201369395,0.991,0.993
+T5,development,Austria,AUT,Northern/Western Europe,2,Bosnia Herzegovina,BIH,Southern Europe,False,0.06364906464537139,488.17853979580684,0.991,0.891
+T5,development,Austria,AUT,Northern/Western Europe,3,Uruguay,URY,Latin America & the Caribbean,False,0.06377574457613581,11344.778385344223,0.991,0.955
+T5,development,Austria,AUT,Northern/Western Europe,4,North Macedonia,MKD,Southern Europe,False,0.06777427715905057,885.5411107399298,0.991,0.914
+T5,development,Austria,AUT,Northern/Western Europe,5,Belgium,BEL,Northern/Western Europe,True,0.06823377657251323,768.8666354520642,0.991,0.97
+T5,development,Azerbaijan,AZE,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.08064193033627994,2004.4901694709392,0.841,0.989
+T5,development,Azerbaijan,AZE,Central Asia,2,Armenia,ARM,Central Asia,True,0.08646359898143081,204.11135889250482,0.841,0.919
+T5,development,Azerbaijan,AZE,Central Asia,3,El Salvador,SLV,Latin America & the Caribbean,False,0.11321017594130912,12489.530804138998,0.841,0.925
+T5,development,Azerbaijan,AZE,Central Asia,4,Hong Kong,HKG,Eastern Asia,False,0.1151612069509744,6495.331931325244,0.841,0.9950199203187252
+T5,development,Azerbaijan,AZE,Central Asia,5,United Kingdom,GBR,Northern/Western Europe,False,0.12154186785726158,3927.565613863668,0.841,0.988
+T5,development,Belgium,BEL,Northern/Western Europe,1,Germany,DEU,Northern/Western Europe,True,0.031023421910795945,342.77012780993994,0.97,0.993
+T5,development,Belgium,BEL,Northern/Western Europe,2,Latvia,LVA,Northern/Western Europe,True,0.0432637129790191,1514.0179917290309,0.97,0.9480392156862744
+T5,development,Belgium,BEL,Northern/Western Europe,3,France,FRA,Northern/Western Europe,True,0.05806516453919986,483.60993078915016,0.97,0.979
+T5,development,Belgium,BEL,Northern/Western Europe,4,Czech Republic,CZE,Eastern Europe,False,0.06799022175216914,756.7511574628088,0.97,0.9631474103585658
+T5,development,Belgium,BEL,Northern/Western Europe,5,Austria,AUT,Northern/Western Europe,True,0.06823377657251323,768.8666354520642,0.97,0.991
+T5,development,Burkina Faso,BFA,Central/Western Africa,1,Kenya,KEN,Eastern Africa,False,0.06512415630782525,4533.174948328645,0.939,0.968
+T5,development,Burkina Faso,BFA,Central/Western Africa,2,Gambia,GMB,Central/Western Africa,True,0.07500197718846112,1480.0057307491377,0.939,0.876
+T5,development,Burkina Faso,BFA,Central/Western Africa,3,Eswatini,SWZ,Southern Africa,False,0.09104069416000035,5620.5563902870335,0.939,0.934
+T5,development,Burkina Faso,BFA,Central/Western Africa,4,Philippines,PHL,Southeastern Asia,False,0.1007027005735076,13271.591588306988,0.939,0.9720837487537388
+T5,development,Burkina Faso,BFA,Central/Western Africa,5,Zimbabwe,ZWE,Eastern Africa,False,0.10608129124902269,4908.28356022794,0.939,0.98
+T5,development,Bulgaria,BGR,Eastern Europe,1,Libya,LBY,Northern Africa,False,0.033829525749034174,1880.2171435140579,0.831,0.9502487562189056
+T5,development,Bulgaria,BGR,Eastern Europe,2,Poland,POL,Eastern Europe,True,0.03994928647991859,1136.8913764255315,0.831,0.818
+T5,development,Bulgaria,BGR,Eastern Europe,3,Egypt,EGY,Northern Africa,False,0.05600565225645351,1856.5229818047399,0.831,0.992
+T5,development,Bulgaria,BGR,Eastern Europe,4,Bosnia Herzegovina,BIH,Southern Europe,False,0.06322026834263335,599.796298178266,0.831,0.891
+T5,development,Bulgaria,BGR,Eastern Europe,5,Thailand,THA,Southeastern Asia,False,0.07395387389999951,7708.975712201794,0.831,0.936
+T5,development,Bosnia Herzegovina,BIH,Southern Europe,1,United States,USA,Northern America,False,0.055525919486872764,8698.432324529353,0.891,0.9601196410767696
+T5,development,Bosnia Herzegovina,BIH,Southern Europe,2,Bulgaria,BGR,Eastern Europe,False,0.06322026834263335,599.796298178266,0.891,0.831
+T5,development,Bosnia Herzegovina,BIH,Southern Europe,3,Austria,AUT,Northern/Western Europe,False,0.06364906464537139,488.17853979580684,0.891,0.991
+T5,development,Bosnia Herzegovina,BIH,Southern Europe,4,Libya,LBY,Northern Africa,False,0.07382884460966221,1940.595280731554,0.891,0.9502487562189056
+T5,development,Bosnia Herzegovina,BIH,Southern Europe,5,Iran,IRN,Southern Asia,False,0.07574155971609413,3450.7887096862914,0.891,0.9801390268123138
+T5,development,Brazil,BRA,Latin America & the Caribbean,1,Ecuador,ECU,Latin America & the Caribbean,True,0.06067893276288863,3378.69998550925,0.973,0.944
+T5,development,Brazil,BRA,Latin America & the Caribbean,2,Peru,PER,Latin America & the Caribbean,True,0.06226800170816716,2534.4951660730335,0.973,0.953
+T5,development,Brazil,BRA,Latin America & the Caribbean,3,South Africa,ZAF,Southern Africa,False,0.08881470395598892,7736.398710137627,0.973,0.904
+T5,development,Brazil,BRA,Latin America & the Caribbean,4,Chile,CHL,Latin America & the Caribbean,True,0.08930694086861622,3671.2202320426436,0.973,0.958
+T5,development,Brazil,BRA,Latin America & the Caribbean,5,Cameroon,CMR,Central/Western Africa,False,0.11846807884290732,7102.628076537018,0.973,0.962
+T5,development,Botswana,BWA,Southern Africa,1,Senegal,SEN,Central/Western Africa,False,0.07708266668137102,5930.058701198459,0.9623389494549058,0.976
+T5,development,Botswana,BWA,Southern Africa,2,Eswatini,SWZ,Southern Africa,True,0.08897200388470132,887.4507047792054,0.9623389494549058,0.934
+T5,development,Botswana,BWA,Southern Africa,3,Comoros,COM,Eastern Africa,False,0.09242866089968368,2336.384384556517,0.9623389494549058,0.774
+T5,development,Botswana,BWA,Southern Africa,4,Peru,PER,Latin America & the Caribbean,False,0.10206129874988462,10178.184676246,0.9623389494549058,0.953
+T5,development,Botswana,BWA,Southern Africa,5,Chile,CHL,Latin America & the Caribbean,False,0.10361219120644952,9048.39278145094,0.9623389494549058,0.958
+T5,development,Switzerland,CHE,Northern/Western Europe,1,Lithuania,LTU,Northern/Western Europe,True,0.05759039587361392,1486.2026592560512,0.975,0.795
+T5,development,Switzerland,CHE,Northern/Western Europe,2,Czech Republic,CZE,Eastern Europe,False,0.06271048365823502,682.384789730563,0.975,0.9631474103585658
+T5,development,Switzerland,CHE,Northern/Western Europe,3,Thailand,THA,Southeastern Asia,False,0.06475975274809424,9032.426589963201,0.975,0.936
+T5,development,Switzerland,CHE,Northern/Western Europe,4,Estonia,EST,Northern/Western Europe,True,0.06623817579062724,1809.7669389448236,0.975,0.9692765113974232
+T5,development,Switzerland,CHE,Northern/Western Europe,5,Slovenia,SVN,Southern Europe,False,0.06849670314832416,575.9384013533424,0.975,0.981018981018981
+T5,development,Chile,CHL,Latin America & the Caribbean,1,Peru,PER,Latin America & the Caribbean,True,0.031590607222970024,2799.936960782053,0.958,0.953
+T5,development,Chile,CHL,Latin America & the Caribbean,2,Ivory Coast,CIV,Central/Western Africa,False,0.06448470777751746,8547.150542482883,0.958,0.982
+T5,development,Chile,CHL,Latin America & the Caribbean,3,Brazil,BRA,Latin America & the Caribbean,True,0.08930694086861622,3671.2202320426436,0.958,0.973
+T5,development,Chile,CHL,Latin America & the Caribbean,4,Ecuador,ECU,Latin America & the Caribbean,True,0.08985579011339577,4145.830450763065,0.958,0.944
+T5,development,Chile,CHL,Latin America & the Caribbean,5,Cyprus,CYP,Southern Europe,False,0.09013771261928691,13527.671033487752,0.958,0.9660523763336566
+T5,development,China,CHN,Eastern Asia,1,Yemen,YEM,Middle East,False,0.1322055192589059,6350.3674896332095,1.0,0.924
+T5,development,China,CHN,Eastern Asia,2,Madagascar,MDG,Eastern Africa,False,0.1334851224274007,8513.163104384234,1.0,0.923
+T5,development,China,CHN,Eastern Asia,3,Afghanistan,AFG,Southern Asia,False,0.13640037777740976,3682.4835044413157,1.0,0.7994011976047904
+T5,development,China,CHN,Eastern Asia,4,United States,USA,Northern America,False,0.1582653365772567,11637.160455938778,1.0,0.9601196410767696
+T5,development,China,CHN,Eastern Asia,5,Turkey,TUR,Middle East,False,0.1657287092884338,6342.737201066758,1.0,0.882
+T5,development,Ivory Coast,CIV,Central/Western Africa,1,Portugal,PRT,Southern Europe,False,0.052955468007348495,3581.234636855814,0.982,0.976023976023976
+T5,development,Ivory Coast,CIV,Central/Western Africa,2,Zimbabwe,ZWE,Eastern Africa,False,0.05438497389252441,4873.702524287541,0.982,0.98
+T5,development,Ivory Coast,CIV,Central/Western Africa,3,Chile,CHL,Latin America & the Caribbean,False,0.06448470777751746,8547.150542482883,0.982,0.958
+T5,development,Ivory Coast,CIV,Central/Western Africa,4,Cyprus,CYP,Southern Europe,False,0.07987863440525442,4981.787623516461,0.982,0.9660523763336566
+T5,development,Ivory Coast,CIV,Central/Western Africa,5,Peru,PER,Latin America & the Caribbean,False,0.09008455101442876,7776.513907974549,0.982,0.953
+T5,development,Cameroon,CMR,Central/Western Africa,1,South Africa,ZAF,Southern Africa,False,0.04598405340713796,3995.6867890309272,0.962,0.904
+T5,development,Cameroon,CMR,Central/Western Africa,2,Zambia,ZMB,Eastern Africa,False,0.06634758939830873,2633.378459152634,0.962,0.873
+T5,development,Cameroon,CMR,Central/Western Africa,3,Gabon,GAB,Central/Western Africa,True,0.09165387316726803,562.9809705734785,0.962,0.99
+T5,development,Cameroon,CMR,Central/Western Africa,4,Congo Kinshasa,COD,Central/Western Africa,True,0.0989524820878862,1415.2678454120605,0.962,0.9
+T5,development,Cameroon,CMR,Central/Western Africa,5,Niger,NER,Central/Western Africa,True,0.10204468448756061,1466.1876666544104,0.962,0.931
+T5,development,Congo Kinshasa,COD,Central/Western Africa,1,Philippines,PHL,Southeastern Asia,False,0.08019269626200426,11029.878787362793,0.9,0.9720837487537388
+T5,development,Congo Kinshasa,COD,Central/Western Africa,2,Zambia,ZMB,Eastern Africa,False,0.09836487815257092,1459.6444645189154,0.9,0.873
+T5,development,Congo Kinshasa,COD,Central/Western Africa,3,Cameroon,CMR,Central/Western Africa,True,0.0989524820878862,1415.2678454120605,0.9,0.962
+T5,development,Congo Kinshasa,COD,Central/Western Africa,4,Niger,NER,Central/Western Africa,True,0.10075193384102185,2635.7473938587427,0.9,0.931
+T5,development,Congo Kinshasa,COD,Central/Western Africa,5,Guinea,GIN,Central/Western Africa,True,0.10482589816298463,3954.890091690428,0.9,0.944
+T5,development,Colombia,COL,Latin America & the Caribbean,1,Guatemala,GTM,Latin America & the Caribbean,True,0.02519766392017153,2295.244923573796,0.9246031746031746,0.939
+T5,development,Colombia,COL,Latin America & the Caribbean,2,Iraq,IRQ,Middle East,False,0.03512275502022295,12219.159849607335,0.9246031746031746,0.9884057971014492
+T5,development,Colombia,COL,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.039124882852809774,8451.947748271163,0.9246031746031746,0.904
+T5,development,Colombia,COL,Latin America & the Caribbean,4,Togo,TGO,Central/Western Africa,False,0.055391045178542916,8218.908540805982,0.9246031746031746,0.909
+T5,development,Colombia,COL,Latin America & the Caribbean,5,Argentina,ARG,Latin America & the Caribbean,True,0.058214757483049266,4207.867170143194,0.9246031746031746,0.9661016949152542
+T5,development,Comoros,COM,Eastern Africa,1,Mali,MLI,Central/Western Africa,False,0.04053160255466333,6013.958128191795,0.774,0.995
+T5,development,Comoros,COM,Eastern Africa,2,Senegal,SEN,Central/Western Africa,False,0.07701914562527924,7059.31850416631,0.774,0.976
+T5,development,Comoros,COM,Eastern Africa,3,Eswatini,SWZ,Southern Africa,False,0.07725523820363002,2061.0872668017555,0.774,0.934
+T5,development,Comoros,COM,Eastern Africa,4,Botswana,BWA,Southern Africa,False,0.09242866089968368,2336.384384556517,0.774,0.9623389494549058
+T5,development,Comoros,COM,Eastern Africa,5,Congo Kinshasa,COD,Central/Western Africa,False,0.10587622288449912,2449.372196418578,0.774,0.9
+T5,development,Costa Rica,CRI,Latin America & the Caribbean,1,Mexico,MEX,Latin America & the Caribbean,True,0.07274899707181448,2469.3601265750954,0.961,0.975
+T5,development,Costa Rica,CRI,Latin America & the Caribbean,2,Italy,ITA,Southern Europe,False,0.08065633051896273,9624.076014365335,0.961,0.994
+T5,development,Costa Rica,CRI,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.09183417650775813,9190.430333157734,0.961,0.904
+T5,development,Costa Rica,CRI,Latin America & the Caribbean,4,Mongolia,MNG,Eastern Asia,False,0.09591529382007145,13727.311564304737,0.961,0.944
+T5,development,Costa Rica,CRI,Latin America & the Caribbean,5,Iraq,IRQ,Middle East,False,0.0962368772188383,12663.426003135974,0.961,0.9884057971014492
+T5,development,Cyprus,CYP,Southern Europe,1,Mongolia,MNG,Eastern Asia,False,0.047409199771878116,5935.417894882498,0.9660523763336566,0.944
+T5,development,Cyprus,CYP,Southern Europe,2,Ukraine,UKR,Eastern Europe,False,0.06759591423769097,1648.7454891337454,0.9660523763336566,0.923
+T5,development,Cyprus,CYP,Southern Europe,3,Argentina,ARG,Latin America & the Caribbean,False,0.07062851552451026,12645.236341335363,0.9660523763336566,0.9661016949152542
+T5,development,Cyprus,CYP,Southern Europe,4,Italy,ITA,Southern Europe,True,0.07328372542056436,2163.273279786079,0.9660523763336566,0.994
+T5,development,Cyprus,CYP,Southern Europe,5,Guatemala,GTM,Latin America & the Caribbean,False,0.07724891601400335,11883.35106164325,0.9660523763336566,0.939
+T5,development,Czech Republic,CZE,Eastern Europe,1,Estonia,EST,Northern/Western Europe,False,0.04944665488890668,1192.8241516643084,0.9631474103585658,0.9692765113974232
+T5,development,Czech Republic,CZE,Eastern Europe,2,Switzerland,CHE,Northern/Western Europe,False,0.06271048365823502,682.384789730563,0.9631474103585658,0.975
+T5,development,Czech Republic,CZE,Eastern Europe,3,Israel,ISR,Middle East,False,0.065248981721461,2660.4933574934003,0.9631474103585658,0.903
+T5,development,Czech Republic,CZE,Eastern Europe,4,Belgium,BEL,Northern/Western Europe,False,0.06799022175216914,756.7511574628088,0.9631474103585658,0.97
+T5,development,Czech Republic,CZE,Eastern Europe,5,Lithuania,LTU,Northern/Western Europe,False,0.07580449378436754,826.5047289205545,0.9631474103585658,0.795
+T5,development,Germany,DEU,Northern/Western Europe,1,Belgium,BEL,Northern/Western Europe,True,0.031023421910795945,342.77012780993994,0.993,0.97
+T5,development,Germany,DEU,Northern/Western Europe,2,Latvia,LVA,Northern/Western Europe,True,0.04830069308333189,1229.9423676707163,0.993,0.9480392156862744
+T5,development,Germany,DEU,Northern/Western Europe,3,Myanmar,MMR,Southeastern Asia,False,0.04947347675425067,7897.512709436568,0.993,0.871
+T5,development,Germany,DEU,Northern/Western Europe,4,Austria,AUT,Northern/Western Europe,True,0.05956788960139625,500.84002201369395,0.993,0.991
+T5,development,Germany,DEU,Northern/Western Europe,5,France,FRA,Northern/Western Europe,True,0.0629367491818776,704.4574029574846,0.993,0.979
+T5,development,Denmark,DNK,Northern/Western Europe,1,Lithuania,LTU,Northern/Western Europe,True,0.06085516265537096,951.3194010745904,0.991044776119403,0.795
+T5,development,Denmark,DNK,Northern/Western Europe,2,Singapore,SGP,Southeastern Asia,False,0.07548551826497177,10179.866256893822,0.991044776119403,0.9815712900096992
+T5,development,Denmark,DNK,Northern/Western Europe,3,Norway,NOR,Northern/Western Europe,True,0.07654723384237674,600.568179505227,0.991044776119403,0.99
+T5,development,Denmark,DNK,Northern/Western Europe,4,Estonia,EST,Northern/Western Europe,True,0.08094171304740108,1053.1297273806933,0.991044776119403,0.9692765113974232
+T5,development,Denmark,DNK,Northern/Western Europe,5,United Arab Emirates,ARE,Middle East,False,0.08569041155474359,5159.174993775194,0.991044776119403,0.989
+T5,development,Dominican Republic,DOM,Latin America & the Caribbean,1,Iraq,IRQ,Middle East,False,0.057677677693830205,10916.73149371049,0.897,0.9884057971014492
+T5,development,Dominican Republic,DOM,Latin America & the Caribbean,2,Algeria,DZA,Northern Africa,False,0.06578334386167786,7459.242852411033,0.897,0.904
+T5,development,Dominican Republic,DOM,Latin America & the Caribbean,3,Jordan,JOR,Middle East,False,0.06773462744446768,10454.461065491907,0.897,0.918
+T5,development,Dominican Republic,DOM,Latin America & the Caribbean,4,Togo,TGO,Central/Western Africa,False,0.0683414825008024,7776.166262402941,0.897,0.909
+T5,development,Dominican Republic,DOM,Latin America & the Caribbean,5,Italy,ITA,Southern Europe,False,0.07026554152350381,7885.957643133585,0.897,0.994
+T5,development,Algeria,DZA,Northern Africa,1,Iraq,IRQ,Middle East,False,0.025977264733453468,3913.006199741499,0.904,0.9884057971014492
+T5,development,Algeria,DZA,Northern Africa,2,Colombia,COL,Latin America & the Caribbean,False,0.039124882852809774,8451.947748271163,0.904,0.9246031746031746
+T5,development,Algeria,DZA,Northern Africa,3,Togo,TGO,Central/Western Africa,False,0.045238853647473626,2075.300791198974,0.904,0.909
+T5,development,Algeria,DZA,Northern Africa,4,Guatemala,GTM,Latin America & the Caribbean,False,0.050606453296759765,9564.357249552695,0.904,0.939
+T5,development,Algeria,DZA,Northern Africa,5,Mexico,MEX,Latin America & the Caribbean,False,0.05282717611003646,10165.655304841794,0.904,0.975
+T5,development,Ecuador,ECU,Latin America & the Caribbean,1,Brazil,BRA,Latin America & the Caribbean,True,0.06067893276288863,3378.69998550925,0.944,0.973
+T5,development,Ecuador,ECU,Latin America & the Caribbean,2,Peru,PER,Latin America & the Caribbean,True,0.06767009019169262,1427.1887460248586,0.944,0.953
+T5,development,Ecuador,ECU,Latin America & the Caribbean,3,Chile,CHL,Latin America & the Caribbean,True,0.08985579011339577,4145.830450763065,0.944,0.958
+T5,development,Ecuador,ECU,Latin America & the Caribbean,4,South Africa,ZAF,Southern Africa,False,0.12699643308536493,11079.666018393456,0.944,0.904
+T5,development,Ecuador,ECU,Latin America & the Caribbean,5,Argentina,ARG,Latin America & the Caribbean,True,0.13912670399757238,3871.4225986029896,0.944,0.9661016949152542
+T5,development,Egypt,EGY,Northern Africa,1,Bulgaria,BGR,Eastern Europe,False,0.05600565225645351,1856.5229818047399,0.992,0.831
+T5,development,Egypt,EGY,Northern Africa,2,Poland,POL,Eastern Europe,False,0.05826824199248689,2988.763781583156,0.992,0.818
+T5,development,Egypt,EGY,Northern Africa,3,Libya,LBY,Northern Africa,True,0.07717872106466875,1139.502387496089,0.992,0.9502487562189056
+T5,development,Egypt,EGY,Northern Africa,4,Nicaragua,NIC,Latin America & the Caribbean,False,0.08535661102859146,11726.094702406692,0.992,0.951
+T5,development,Egypt,EGY,Northern Africa,5,France,FRA,Northern/Western Europe,False,0.08627623482595802,3284.2473711349685,0.992,0.979
+T5,development,Spain,ESP,Southern Europe,1,Ukraine,UKR,Eastern Europe,False,0.04273293164151667,2967.976535363372,0.998,0.923
+T5,development,Spain,ESP,Southern Europe,2,Uruguay,URY,Latin America & the Caribbean,False,0.060687165566223535,9750.401669285566,0.998,0.955
+T5,development,Spain,ESP,Southern Europe,3,Guatemala,GTM,Latin America & the Caribbean,False,0.06376639613287316,8693.829455641986,0.998,0.939
+T5,development,Spain,ESP,Southern Europe,4,Argentina,ARG,Latin America & the Caribbean,False,0.06922892527482534,10283.827560908245,0.998,0.9661016949152542
+T5,development,Spain,ESP,Southern Europe,5,North Macedonia,MKD,Southern Europe,True,0.07128299380881192,2104.2301959694223,0.998,0.914
+T5,development,Estonia,EST,Northern/Western Europe,1,Czech Republic,CZE,Eastern Europe,False,0.04944665488890668,1192.8241516643084,0.9692765113974232,0.9631474103585658
+T5,development,Estonia,EST,Northern/Western Europe,2,Lithuania,LTU,Northern/Western Europe,True,0.05309489610649132,416.8175372082922,0.9692765113974232,0.795
+T5,development,Estonia,EST,Northern/Western Europe,3,Switzerland,CHE,Northern/Western Europe,True,0.06623817579062724,1809.7669389448236,0.9692765113974232,0.975
+T5,development,Estonia,EST,Northern/Western Europe,4,Croatia,HRV,Southern Europe,False,0.08064423290988577,1571.5813420701656,0.9692765113974232,0.798804780876494
+T5,development,Estonia,EST,Northern/Western Europe,5,Denmark,DNK,Northern/Western Europe,True,0.08094171304740108,1053.1297273806933,0.9692765113974232,0.991044776119403
+T5,development,Ethiopia,ETH,Eastern Africa,1,North Macedonia,MKD,Southern Europe,False,0.07536984284743388,4108.023063047776,0.954,0.914
+T5,development,Ethiopia,ETH,Eastern Africa,2,Iran,IRN,Southern Asia,False,0.0896407038328718,3143.0774427594592,0.954,0.9801390268123138
+T5,development,Ethiopia,ETH,Eastern Africa,3,Madagascar,MDG,Eastern Africa,True,0.09250300528480937,3080.017896736367,0.954,0.923
+T5,development,Ethiopia,ETH,Eastern Africa,4,Romania,ROU,Eastern Europe,False,0.09603676939519815,4404.96809453713,0.954,0.857
+T5,development,Ethiopia,ETH,Eastern Africa,5,United States,USA,Northern America,False,0.09812111753324773,13093.208673174702,0.954,0.9601196410767696
+T5,development,Finland,FIN,Northern/Western Europe,1,Iceland,ISL,Northern/Western Europe,True,0.07282626049818815,2195.495305304345,0.9780658025922232,0.984158415841584
+T5,development,Finland,FIN,Northern/Western Europe,2,Czech Republic,CZE,Eastern Europe,False,0.08103343440910134,1649.612189497448,0.9780658025922232,0.9631474103585658
+T5,development,Finland,FIN,Northern/Western Europe,3,Estonia,EST,Northern/Western Europe,True,0.08852822301973862,509.1078186061401,0.9780658025922232,0.9692765113974232
+T5,development,Finland,FIN,Northern/Western Europe,4,Lithuania,LTU,Northern/Western Europe,True,0.09911638706234996,923.8120065296507,0.9780658025922232,0.795
+T5,development,Finland,FIN,Northern/Western Europe,5,Kuwait,KWT,Middle East,False,0.10036142917172988,4026.161517628666,0.9780658025922232,0.8993414863593603
+T5,development,France,FRA,Northern/Western Europe,1,Latvia,LVA,Northern/Western Europe,True,0.02275351758170936,1934.3996657295052,0.979,0.9480392156862744
+T5,development,France,FRA,Northern/Western Europe,2,Belgium,BEL,Northern/Western Europe,True,0.05806516453919986,483.60993078915016,0.979,0.97
+T5,development,France,FRA,Northern/Western Europe,3,Japan,JPN,Eastern Asia,False,0.059213965702285494,9806.667906586468,0.979,0.9601593625498008
+T5,development,France,FRA,Northern/Western Europe,4,Germany,DEU,Northern/Western Europe,True,0.0629367491818776,704.4574029574846,0.979,0.993
+T5,development,France,FRA,Northern/Western Europe,5,Poland,POL,Eastern Europe,False,0.0705551370270524,1356.6924449834755,0.979,0.818
+T5,development,Gabon,GAB,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.06709668487168335,2250.055025082793,0.99,0.873
+T5,development,Gabon,GAB,Central/Western Africa,2,Mozambique,MOZ,Eastern Africa,False,0.07018426415074451,3231.32285290149,0.99,0.928
+T5,development,Gabon,GAB,Central/Western Africa,3,Cameroon,CMR,Central/Western Africa,True,0.09165387316726803,562.9809705734785,0.99,0.962
+T5,development,Gabon,GAB,Central/Western Africa,4,South Africa,ZAF,Southern Africa,False,0.09315954967498107,3487.6232850540277,0.99,0.904
+T5,development,Gabon,GAB,Central/Western Africa,5,Ghana,GHA,Central/Western Africa,True,0.09854900993656253,1690.999487806196,0.99,0.917
+T5,development,United Kingdom,GBR,Northern/Western Europe,1,Saudi Arabia,SAU,Middle East,False,0.054168204333514776,5132.5171047700005,0.988,0.9823182711198428
+T5,development,United Kingdom,GBR,Northern/Western Europe,2,Lithuania,LTU,Northern/Western Europe,True,0.07097769939985231,1673.5875252543315,0.988,0.795
+T5,development,United Kingdom,GBR,Northern/Western Europe,3,Switzerland,CHE,Northern/Western Europe,True,0.07268004677152073,1087.9158359211813,0.988,0.975
+T5,development,United Kingdom,GBR,Northern/Western Europe,4,Thailand,THA,Southeastern Asia,False,0.08502589245458828,9441.46146535667,0.988,0.936
+T5,development,United Kingdom,GBR,Northern/Western Europe,5,Kuwait,KWT,Middle East,False,0.08962608053057483,4802.324538508392,0.988,0.8993414863593603
+T5,development,Ghana,GHA,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.07065921797626348,3916.8605836846086,0.917,0.873
+T5,development,Ghana,GHA,Central/Western Africa,2,Niger,NER,Central/Western Africa,True,0.07166516592995982,1573.2590178876524,0.917,0.931
+T5,development,Ghana,GHA,Central/Western Africa,3,Mauritania,MRT,Central/Western Africa,True,0.09636377770736881,1619.4158936895114,0.917,0.97
+T5,development,Ghana,GHA,Central/Western Africa,4,Mozambique,MOZ,Eastern Africa,False,0.09759254986857349,4919.698439742134,0.917,0.928
+T5,development,Ghana,GHA,Central/Western Africa,5,Gabon,GAB,Central/Western Africa,True,0.09854900993656253,1690.999487806196,0.917,0.99
+T5,development,Guinea,GIN,Central/Western Africa,1,Chad,TCD,Central/Western Africa,True,0.08654659759791608,3144.7296179583896,0.944,0.948
+T5,development,Guinea,GIN,Central/Western Africa,2,Mozambique,MOZ,Eastern Africa,False,0.08709406207846378,5942.035835678395,0.944,0.928
+T5,development,Guinea,GIN,Central/Western Africa,3,Zambia,ZMB,Eastern Africa,False,0.09861381231561135,4899.364989045755,0.944,0.873
+T5,development,Guinea,GIN,Central/Western Africa,4,Congo Kinshasa,COD,Central/Western Africa,True,0.10482589816298463,3954.890091690428,0.944,0.9
+T5,development,Guinea,GIN,Central/Western Africa,5,Cameroon,CMR,Central/Western Africa,True,0.10913305288933273,2566.530889023587,0.944,0.962
+T5,development,Gambia,GMB,Central/Western Africa,1,Tanzania,TZA,Eastern Africa,False,0.05856189867124748,5932.8027472149215,0.876,0.936127744510978
+T5,development,Gambia,GMB,Central/Western Africa,2,Zimbabwe,ZWE,Eastern Africa,False,0.061272509741653915,6108.6290084343855,0.876,0.98
+T5,development,Gambia,GMB,Central/Western Africa,3,Kenya,KEN,Eastern Africa,False,0.06681165228005023,6000.134515609226,0.876,0.968
+T5,development,Gambia,GMB,Central/Western Africa,4,Burkina Faso,BFA,Central/Western Africa,True,0.07500197718846112,1480.0057307491377,0.876,0.939
+T5,development,Gambia,GMB,Central/Western Africa,5,Nepal,NPL,Southern Asia,False,0.08974907934637336,10114.01622347267,0.876,0.925
+T5,development,Guatemala,GTM,Latin America & the Caribbean,1,Colombia,COL,Latin America & the Caribbean,True,0.02519766392017153,2295.244923573796,0.939,0.9246031746031746
+T5,development,Guatemala,GTM,Latin America & the Caribbean,2,Iraq,IRQ,Middle East,False,0.03261006221120814,12759.047655517868,0.939,0.9884057971014492
+T5,development,Guatemala,GTM,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.050606453296759765,9564.357249552695,0.939,0.904
+T5,development,Guatemala,GTM,Latin America & the Caribbean,4,Argentina,ARG,Latin America & the Caribbean,True,0.050734218057862504,6071.049712708799,0.939,0.9661016949152542
+T5,development,Guatemala,GTM,Latin America & the Caribbean,5,Togo,TGO,Central/Western Africa,False,0.06086392637546894,9920.445873029728,0.939,0.909
+T5,development,Hong Kong,HKG,Eastern Asia,1,Hungary,HUN,Eastern Europe,False,0.04889178212480258,8537.805378138679,0.9950199203187252,0.9861523244312562
+T5,development,Hong Kong,HKG,Eastern Asia,2,United Arab Emirates,ARE,Middle East,False,0.07025449860704597,6052.34437647552,0.9950199203187252,0.989
+T5,development,Hong Kong,HKG,Eastern Asia,3,Slovenia,SVN,Southern Europe,False,0.07032665928906968,8902.212348174497,0.9950199203187252,0.981018981018981
+T5,development,Hong Kong,HKG,Eastern Asia,4,Switzerland,CHE,Northern/Western Europe,False,0.07283238485653507,9391.052210905445,0.9950199203187252,0.975
+T5,development,Hong Kong,HKG,Eastern Asia,5,Armenia,ARM,Central Asia,False,0.07308117712682781,6698.235510631538,0.9950199203187252,0.919
+T5,development,Croatia,HRV,Southern Europe,1,Montenegro,MNE,Southern Europe,True,0.06815066044123272,400.08095336969996,0.798804780876494,0.934
+T5,development,Croatia,HRV,Southern Europe,2,Estonia,EST,Northern/Western Europe,False,0.08064423290988577,1571.5813420701656,0.798804780876494,0.9692765113974232
+T5,development,Croatia,HRV,Southern Europe,3,Hungary,HUN,Eastern Europe,False,0.09828288720340173,275.31178586240907,0.798804780876494,0.9861523244312562
+T5,development,Croatia,HRV,Southern Europe,4,Iran,IRN,Southern Asia,False,0.09928558786620612,3616.8475796468333,0.798804780876494,0.9801390268123138
+T5,development,Croatia,HRV,Southern Europe,5,Switzerland,CHE,Northern/Western Europe,False,0.10156068982706665,691.9419157523558,0.798804780876494,0.975
+T5,development,Hungary,HUN,Eastern Europe,1,Hong Kong,HKG,Eastern Asia,False,0.04889178212480258,8537.805378138679,0.9861523244312562,0.9950199203187252
+T5,development,Hungary,HUN,Eastern Europe,2,Singapore,SGP,Southeastern Asia,False,0.08736471902677012,9470.118641759245,0.9861523244312562,0.9815712900096992
+T5,development,Hungary,HUN,Eastern Europe,3,Slovenia,SVN,Southern Europe,False,0.09034228873215991,364.6969830680877,0.9861523244312562,0.981018981018981
+T5,development,Hungary,HUN,Eastern Europe,4,Iran,IRN,Southern Asia,False,0.09187013637479428,3421.3281112182635,0.9861523244312562,0.9801390268123138
+T5,development,Hungary,HUN,Eastern Europe,5,Armenia,ARM,Central Asia,False,0.09529707033506257,2153.3697350163916,0.9861523244312562,0.919
+T5,development,Indonesia,IDN,Southeastern Asia,1,Malaysia,MYS,Southeastern Asia,True,0.07282004003112931,1383.130218507064,0.955,0.921
+T5,development,Indonesia,IDN,Southeastern Asia,2,Sri Lanka,LKA,Southern Asia,False,0.11173748406195129,2534.263619417783,0.955,0.92
+T5,development,Indonesia,IDN,Southeastern Asia,3,Botswana,BWA,Southern Africa,False,0.12114542768702315,8702.600466019068,0.955,0.9623389494549058
+T5,development,Indonesia,IDN,Southeastern Asia,4,Tanzania,TZA,Eastern Africa,False,0.12201626791563165,7446.039183665239,0.955,0.936127744510978
+T5,development,Indonesia,IDN,Southeastern Asia,5,Nepal,NPL,Southern Asia,False,0.13825879790574658,3790.414445676871,0.955,0.925
+T5,development,India,IND,Southern Asia,1,Portugal,PRT,Southern Europe,False,0.051067532267515287,8230.793087702736,0.97,0.976023976023976
+T5,development,India,IND,Southern Asia,2,Nepal,NPL,Southern Asia,True,0.060738883855582744,757.4380138939673,0.97,0.925
+T5,development,India,IND,Southern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.0641881849138887,2158.0076271199573,0.97,0.888
+T5,development,India,IND,Southern Asia,4,North Macedonia,MKD,Southern Europe,False,0.07809972819437971,5716.656095699428,0.97,0.914
+T5,development,India,IND,Southern Asia,5,Uruguay,URY,Latin America & the Caribbean,False,0.08158035958983523,15510.94041155211,0.97,0.955
+T5,development,Iran,IRN,Southern Asia,1,United States,USA,Northern America,False,0.06258175224271291,11549.702591237852,0.9801390268123138,0.9601196410767696
+T5,development,Iran,IRN,Southern Asia,2,Bosnia Herzegovina,BIH,Southern Europe,False,0.07574155971609413,3450.7887096862914,0.9801390268123138,0.891
+T5,development,Iran,IRN,Southern Asia,3,Austria,AUT,Northern/Western Europe,False,0.08123176550790276,3822.041496765197,0.9801390268123138,0.991
+T5,development,Iran,IRN,Southern Asia,4,North Macedonia,MKD,Southern Europe,False,0.082668581011645,3124.520412923241,0.9801390268123138,0.914
+T5,development,Iran,IRN,Southern Asia,5,Ethiopia,ETH,Eastern Africa,False,0.0896407038328718,3143.0774427594592,0.9801390268123138,0.954
+T5,development,Iraq,IRQ,Middle East,1,Algeria,DZA,Northern Africa,False,0.025977264733453468,3913.006199741499,0.9884057971014492,0.904
+T5,development,Iraq,IRQ,Middle East,2,Guatemala,GTM,Latin America & the Caribbean,False,0.03261006221120814,12759.047655517868,0.9884057971014492,0.939
+T5,development,Iraq,IRQ,Middle East,3,Colombia,COL,Latin America & the Caribbean,False,0.03512275502022295,12219.159849607335,0.9884057971014492,0.9246031746031746
+T5,development,Iraq,IRQ,Middle East,4,Togo,TGO,Central/Western Africa,False,0.04087809748161186,5095.313304268559,0.9884057971014492,0.909
+T5,development,Iraq,IRQ,Middle East,5,Mexico,MEX,Latin America & the Caribbean,False,0.0549628402372382,12699.949966433122,0.9884057971014492,0.975
+T5,development,Iceland,ISL,Northern/Western Europe,1,Norway,NOR,Northern/Western Europe,True,0.07068461811664206,1464.0285702544877,0.984158415841584,0.99
+T5,development,Iceland,ISL,Northern/Western Europe,2,Finland,FIN,Northern/Western Europe,True,0.07282626049818815,2195.495305304345,0.984158415841584,0.9780658025922232
+T5,development,Iceland,ISL,Northern/Western Europe,3,Denmark,DNK,Northern/Western Europe,True,0.1039295661416316,1787.9240732957505,0.984158415841584,0.991044776119403
+T5,development,Iceland,ISL,Northern/Western Europe,4,Lithuania,LTU,Northern/Western Europe,True,0.12076106209399909,2549.8765867631505,0.984158415841584,0.795
+T5,development,Iceland,ISL,Northern/Western Europe,5,Estonia,EST,Northern/Western Europe,True,0.1283916626597732,2382.659072374803,0.984158415841584,0.9692765113974232
+T5,development,Israel,ISR,Middle East,1,Czech Republic,CZE,Eastern Europe,False,0.065248981721461,2660.4933574934003,0.903,0.9631474103585658
+T5,development,Israel,ISR,Middle East,2,Libya,LBY,Northern Africa,False,0.08700794383328611,1706.353831906187,0.903,0.9502487562189056
+T5,development,Israel,ISR,Middle East,3,Kuwait,KWT,Middle East,True,0.08911222041753432,1209.3381887654014,0.903,0.8993414863593603
+T5,development,Israel,ISR,Middle East,4,Belgium,BEL,Northern/Western Europe,False,0.09326582128838236,3316.4441538129026,0.903,0.97
+T5,development,Israel,ISR,Middle East,5,Finland,FIN,Northern/Western Europe,False,0.10125151567095377,3636.0808786124344,0.903,0.9780658025922232
+T5,development,Italy,ITA,Southern Europe,1,Mongolia,MNG,Eastern Asia,False,0.046271371620781,6819.422871083432,0.994,0.944
+T5,development,Italy,ITA,Southern Europe,2,Iraq,IRQ,Middle East,False,0.05960980562641658,3044.402787339717,0.994,0.9884057971014492
+T5,development,Italy,ITA,Southern Europe,3,Guatemala,GTM,Latin America & the Caribbean,False,0.06512167304069989,9725.492185859446,0.994,0.939
+T5,development,Italy,ITA,Southern Europe,4,Dominican Republic,DOM,Latin America & the Caribbean,False,0.07026554152350381,7885.957643133585,0.994,0.897
+T5,development,Italy,ITA,Southern Europe,5,Cyprus,CYP,Southern Europe,True,0.07328372542056436,2163.273279786079,0.994,0.9660523763336566
+T5,development,Jordan,JOR,Middle East,1,Mexico,MEX,Latin America & the Caribbean,False,0.0490156197034781,12504.009648066267,0.918,0.975
+T5,development,Jordan,JOR,Middle East,2,Paraguay,PRY,Latin America & the Caribbean,False,0.057013691382887206,11814.347823558566,0.918,0.971
+T5,development,Jordan,JOR,Middle East,3,Dominican Republic,DOM,Latin America & the Caribbean,False,0.06773462744446768,10454.461065491907,0.918,0.897
+T5,development,Jordan,JOR,Middle East,4,Mongolia,MNG,Eastern Asia,False,0.07593868483263909,5954.917123422305,0.918,0.944
+T5,development,Jordan,JOR,Middle East,5,Uruguay,URY,Latin America & the Caribbean,False,0.0760832862048502,12002.854467177085,0.918,0.955
+T5,development,Japan,JPN,Eastern Asia,1,France,FRA,Northern/Western Europe,False,0.059213965702285494,9806.667906586468,0.9601593625498008,0.979
+T5,development,Japan,JPN,Eastern Asia,2,Paraguay,PRY,Latin America & the Caribbean,False,0.0719716366572092,17602.26546145482,0.9601593625498008,0.971
+T5,development,Japan,JPN,Eastern Asia,3,Latvia,LVA,Northern/Western Europe,False,0.07452498525994038,7908.162728624835,0.9601593625498008,0.9480392156862744
+T5,development,Japan,JPN,Eastern Asia,4,Jordan,JOR,Middle East,False,0.09978876871768169,9002.828867572527,0.9601593625498008,0.918
+T5,development,Japan,JPN,Eastern Asia,5,Poland,POL,Eastern Europe,False,0.10604900394926153,8568.358130946612,0.9601593625498008,0.818
+T5,development,Kazakhstan,KAZ,Central Asia,1,Romania,ROU,Eastern Europe,False,0.029600602299945857,3265.081558807108,0.759,0.857
+T5,development,Kazakhstan,KAZ,Central Asia,2,Nicaragua,NIC,Latin America & the Caribbean,False,0.05838511695515435,12683.603886424875,0.759,0.951
+T5,development,Kazakhstan,KAZ,Central Asia,3,El Salvador,SLV,Latin America & the Caribbean,False,0.07872693428618738,12698.239638889992,0.759,0.925
+T5,development,Kazakhstan,KAZ,Central Asia,4,Egypt,EGY,Northern Africa,False,0.08832411437795834,4217.306593532318,0.759,0.992
+T5,development,Kazakhstan,KAZ,Central Asia,5,Kosovo,XKX,Eastern Europe,False,0.08937383170100043,3710.7992329848157,0.759,0.851
+T5,development,Kenya,KEN,Eastern Africa,1,Burkina Faso,BFA,Central/Western Africa,False,0.06512415630782525,4533.174948328645,0.968,0.939
+T5,development,Kenya,KEN,Eastern Africa,2,Gambia,GMB,Central/Western Africa,False,0.06681165228005023,6000.134515609226,0.968,0.876
+T5,development,Kenya,KEN,Eastern Africa,3,Zimbabwe,ZWE,Eastern Africa,True,0.07494049820492123,2332.880322370217,0.968,0.98
+T5,development,Kenya,KEN,Eastern Africa,4,Vietnam,VNM,Southeastern Asia,False,0.08156442742432679,7665.693366316612,0.968,0.945
+T5,development,Kenya,KEN,Eastern Africa,5,Tanzania,TZA,Eastern Africa,True,0.09471545580579054,803.653952477897,0.968,0.936127744510978
+T5,development,Kyrgyzstan,KGZ,Central Asia,1,Luxembourg,LUX,Northern/Western Europe,False,0.03556461227122663,5203.496322822437,0.888,0.98
+T5,development,Kyrgyzstan,KGZ,Central Asia,2,Ukraine,UKR,Eastern Europe,False,0.04791438870001573,3363.1414203154523,0.888,0.923
+T5,development,Kyrgyzstan,KGZ,Central Asia,3,Uruguay,URY,Latin America & the Caribbean,False,0.05700694395103181,15594.263884519907,0.888,0.955
+T5,development,Kyrgyzstan,KGZ,Central Asia,4,North Macedonia,MKD,Southern Europe,False,0.06209318889094467,4331.951001566943,0.888,0.914
+T5,development,Kyrgyzstan,KGZ,Central Asia,5,India,IND,Southern Asia,False,0.0641881849138887,2158.0076271199573,0.888,0.97
+T5,development,South Korea,KOR,Eastern Asia,1,Pakistan,PAK,Southern Asia,False,0.07184403110840223,5533.835597365571,0.9503407984420644,0.913086913086913
+T5,development,South Korea,KOR,Eastern Asia,2,Spain,ESP,Southern Europe,False,0.08500069520418752,10178.490022396925,0.9503407984420644,0.998
+T5,development,South Korea,KOR,Eastern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.0924826133886952,4592.301786947268,0.9503407984420644,0.888
+T5,development,South Korea,KOR,Eastern Asia,4,Ukraine,UKR,Eastern Europe,False,0.09380481087386047,7397.672485247488,0.9503407984420644,0.923
+T5,development,South Korea,KOR,Eastern Asia,5,Cyprus,CYP,Southern Europe,False,0.09886303226185435,8189.82715833588,0.9503407984420644,0.9660523763336566
+T5,development,Kuwait,KWT,Middle East,1,Saudi Arabia,SAU,Middle East,True,0.040626200691278196,675.3782699050627,0.8993414863593603,0.9823182711198428
+T5,development,Kuwait,KWT,Middle East,2,Thailand,THA,Southeastern Asia,False,0.08532923612348477,5687.8746286631385,0.8993414863593603,0.936
+T5,development,Kuwait,KWT,Middle East,3,Israel,ISR,Middle East,True,0.08911222041753432,1209.3381887654014,0.8993414863593603,0.903
+T5,development,Kuwait,KWT,Middle East,4,United Kingdom,GBR,Northern/Western Europe,False,0.08962608053057483,4802.324538508392,0.8993414863593603,0.988
+T5,development,Kuwait,KWT,Middle East,5,Lithuania,LTU,Northern/Western Europe,False,0.092793407152758,3402.20870077208,0.8993414863593603,0.795
+T5,development,Libya,LBY,Northern Africa,1,Bulgaria,BGR,Eastern Europe,False,0.033829525749034174,1880.2171435140579,0.9502487562189056,0.831
+T5,development,Libya,LBY,Northern Africa,2,Poland,POL,Eastern Europe,False,0.045364445780374636,2821.6768263583012,0.9502487562189056,0.818
+T5,development,Libya,LBY,Northern Africa,3,Bosnia Herzegovina,BIH,Southern Europe,False,0.07382884460966221,1940.595280731554,0.9502487562189056,0.891
+T5,development,Libya,LBY,Northern Africa,4,France,FRA,Northern/Western Europe,False,0.07695271152352677,2611.2970162033166,0.9502487562189056,0.979
+T5,development,Libya,LBY,Northern Africa,5,Egypt,EGY,Northern Africa,True,0.07717872106466875,1139.502387496089,0.9502487562189056,0.992
+T5,development,Sri Lanka,LKA,Southern Asia,1,Myanmar,MMR,Southeastern Asia,False,0.06471938490622023,2246.0158072944755,0.92,0.871
+T5,development,Sri Lanka,LKA,Southern Asia,2,Malaysia,MYS,Southeastern Asia,False,0.08749020300379229,3710.952964091535,0.92,0.921
+T5,development,Sri Lanka,LKA,Southern Asia,3,Tanzania,TZA,Eastern Africa,False,0.09797820826520089,5295.659262143898,0.92,0.936127744510978
+T5,development,Sri Lanka,LKA,Southern Asia,4,Nepal,NPL,Southern Asia,True,0.10619240907555794,2324.1423934555114,0.92,0.925
+T5,development,Sri Lanka,LKA,Southern Asia,5,Germany,DEU,Northern/Western Europe,False,0.10691177590492162,8029.836803036538,0.92,0.993
+T5,development,Lithuania,LTU,Northern/Western Europe,1,Estonia,EST,Northern/Western Europe,True,0.05309489610649132,416.8175372082922,0.795,0.9692765113974232
+T5,development,Lithuania,LTU,Northern/Western Europe,2,Switzerland,CHE,Northern/Western Europe,True,0.05759039587361392,1486.2026592560512,0.795,0.975
+T5,development,Lithuania,LTU,Northern/Western Europe,3,Denmark,DNK,Northern/Western Europe,True,0.06085516265537096,951.3194010745904,0.795,0.991044776119403
+T5,development,Lithuania,LTU,Northern/Western Europe,4,United Kingdom,GBR,Northern/Western Europe,True,0.07097769939985231,1673.5875252543315,0.795,0.988
+T5,development,Lithuania,LTU,Northern/Western Europe,5,Czech Republic,CZE,Eastern Europe,False,0.07580449378436754,826.5047289205545,0.795,0.9631474103585658
+T5,development,Luxembourg,LUX,Northern/Western Europe,1,Kyrgyzstan,KGZ,Central Asia,False,0.03556461227122663,5203.496322822437,0.98,0.888
+T5,development,Luxembourg,LUX,Northern/Western Europe,2,Kosovo,XKX,Eastern Europe,False,0.047327585512209926,1384.072360670325,0.98,0.851
+T5,development,Luxembourg,LUX,Northern/Western Europe,3,Ukraine,UKR,Eastern Europe,False,0.04759349773135192,1863.866500629124,0.98,0.923
+T5,development,Luxembourg,LUX,Northern/Western Europe,4,Uruguay,URY,Latin America & the Caribbean,False,0.05577366314201717,11037.304949284271,0.98,0.955
+T5,development,Luxembourg,LUX,Northern/Western Europe,5,North Macedonia,MKD,Southern Europe,False,0.05984864991968801,1503.1426817579993,0.98,0.914
+T5,development,Latvia,LVA,Northern/Western Europe,1,France,FRA,Northern/Western Europe,True,0.02275351758170936,1934.3996657295052,0.9480392156862744,0.979
+T5,development,Latvia,LVA,Northern/Western Europe,2,Belgium,BEL,Northern/Western Europe,True,0.0432637129790191,1514.0179917290309,0.9480392156862744,0.97
+T5,development,Latvia,LVA,Northern/Western Europe,3,Germany,DEU,Northern/Western Europe,True,0.04830069308333189,1229.9423676707163,0.9480392156862744,0.993
+T5,development,Latvia,LVA,Northern/Western Europe,4,Slovenia,SVN,Southern Europe,False,0.06131406073083554,1420.7553473857654,0.9480392156862744,0.981018981018981
+T5,development,Latvia,LVA,Northern/Western Europe,5,Japan,JPN,Eastern Asia,False,0.07452498525994038,7908.162728624835,0.9480392156862744,0.9601593625498008
+T5,development,Madagascar,MDG,Eastern Africa,1,Ethiopia,ETH,Eastern Africa,True,0.09250300528480937,3080.017896736367,0.923,0.954
+T5,development,Madagascar,MDG,Eastern Africa,2,China,CHN,Eastern Asia,False,0.1334851224274007,8513.163104384234,0.923,1.0
+T5,development,Madagascar,MDG,Eastern Africa,3,Mauritania,MRT,Central/Western Africa,False,0.14965739594897648,7480.073532841164,0.923,0.97
+T5,development,Madagascar,MDG,Eastern Africa,4,Iran,IRN,Southern Asia,False,0.15078647577158194,5715.68543567254,0.923,0.9801390268123138
+T5,development,Madagascar,MDG,Eastern Africa,5,Ghana,GHA,Central/Western Africa,False,0.15080957608638423,5998.262008016981,0.923,0.917
+T5,development,Mexico,MEX,Latin America & the Caribbean,1,Jordan,JOR,Middle East,False,0.0490156197034781,12504.009648066267,0.975,0.918
+T5,development,Mexico,MEX,Latin America & the Caribbean,2,Algeria,DZA,Northern Africa,False,0.05282717611003646,10165.655304841794,0.975,0.904
+T5,development,Mexico,MEX,Latin America & the Caribbean,3,Iraq,IRQ,Middle East,False,0.0549628402372382,12699.949966433122,0.975,0.9884057971014492
+T5,development,Mexico,MEX,Latin America & the Caribbean,4,Colombia,COL,Latin America & the Caribbean,True,0.0609575693921359,3870.3405640454553,0.975,0.9246031746031746
+T5,development,Mexico,MEX,Latin America & the Caribbean,5,Guatemala,GTM,Latin America & the Caribbean,True,0.06154999875073197,1584.7931643494019,0.975,0.939
+T5,development,North Macedonia,MKD,Southern Europe,1,Uruguay,URY,Latin America & the Caribbean,False,0.04489464548693758,11455.245057624068,0.914,0.955
+T5,development,North Macedonia,MKD,Southern Europe,2,Luxembourg,LUX,Northern/Western Europe,False,0.05984864991968801,1503.1426817579993,0.914,0.98
+T5,development,North Macedonia,MKD,Southern Europe,3,Kyrgyzstan,KGZ,Central Asia,False,0.06209318889094467,4331.951001566943,0.914,0.888
+T5,development,North Macedonia,MKD,Southern Europe,4,Austria,AUT,Northern/Western Europe,False,0.06777427715905057,885.5411107399298,0.914,0.991
+T5,development,North Macedonia,MKD,Southern Europe,5,Ukraine,UKR,Eastern Europe,False,0.06809061043944281,1223.1222644289544,0.914,0.923
+T5,development,Mali,MLI,Central/Western Africa,1,Comoros,COM,Eastern Africa,False,0.04053160255466333,6013.958128191795,0.995,0.774
+T5,development,Mali,MLI,Central/Western Africa,2,Congo Kinshasa,COD,Central/Western Africa,True,0.10640454543184946,3604.806129668466,0.995,0.9
+T5,development,Mali,MLI,Central/Western Africa,3,Senegal,SEN,Central/Western Africa,True,0.11045460399898932,1411.311305076762,0.995,0.976
+T5,development,Mali,MLI,Central/Western Africa,4,Eswatini,SWZ,Southern Africa,False,0.11228940401699357,6193.902865840301,0.995,0.934
+T5,development,Mali,MLI,Central/Western Africa,5,Botswana,BWA,Southern Africa,False,0.11672651360235628,5357.670651030841,0.995,0.9623389494549058
+T5,development,Myanmar,MMR,Southeastern Asia,1,Germany,DEU,Northern/Western Europe,False,0.04947347675425067,7897.512709436568,0.871,0.993
+T5,development,Myanmar,MMR,Southeastern Asia,2,Sri Lanka,LKA,Southern Asia,False,0.06471938490622023,2246.0158072944755,0.871,0.92
+T5,development,Myanmar,MMR,Southeastern Asia,3,Belgium,BEL,Northern/Western Europe,False,0.07533720142062533,8235.405769136747,0.871,0.97
+T5,development,Myanmar,MMR,Southeastern Asia,4,Latvia,LVA,Northern/Western Europe,False,0.08817331299855902,6827.616581939799,0.871,0.9480392156862744
+T5,development,Myanmar,MMR,Southeastern Asia,5,New Zealand,NZL,Australia & New Zealand,False,0.09109541388924249,10480.33154226192,0.871,0.975
+T5,development,Montenegro,MNE,Southern Europe,1,Croatia,HRV,Southern Europe,True,0.06815066044123272,400.08095336969996,0.934,0.798804780876494
+T5,development,Montenegro,MNE,Southern Europe,2,Estonia,EST,Northern/Western Europe,False,0.11445611723433863,1830.2722427997564,0.934,0.9692765113974232
+T5,development,Montenegro,MNE,Southern Europe,3,Lithuania,LTU,Northern/Western Europe,False,0.12875473768119064,1413.7497814169938,0.934,0.795
+T5,development,Montenegro,MNE,Southern Europe,4,Hungary,HUN,Eastern Europe,False,0.12993510635989847,476.9307437578475,0.934,0.9861523244312562
+T5,development,Montenegro,MNE,Southern Europe,5,Hong Kong,HKG,Eastern Asia,False,0.1377198114671828,8718.803310464307,0.934,0.9950199203187252
+T5,development,Mongolia,MNG,Eastern Asia,1,Italy,ITA,Southern Europe,False,0.046271371620781,6819.422871083432,0.944,0.994
+T5,development,Mongolia,MNG,Eastern Asia,2,Cyprus,CYP,Southern Europe,False,0.047409199771878116,5935.417894882498,0.944,0.9660523763336566
+T5,development,Mongolia,MNG,Eastern Asia,3,Uruguay,URY,Latin America & the Caribbean,False,0.06382844815945407,17787.306578601325,0.944,0.955
+T5,development,Mongolia,MNG,Eastern Asia,4,Mexico,MEX,Latin America & the Caribbean,False,0.06457183051428816,11795.387342060016,0.944,0.975
+T5,development,Mongolia,MNG,Eastern Asia,5,Guatemala,GTM,Latin America & the Caribbean,False,0.06547967399107556,13076.645657753614,0.944,0.939
+T5,development,Mozambique,MOZ,Eastern Africa,1,Zambia,ZMB,Eastern Africa,True,0.05936721767176461,1235.3700617647085,0.928,0.873
+T5,development,Mozambique,MOZ,Eastern Africa,2,Gabon,GAB,Central/Western Africa,False,0.07018426415074451,3231.32285290149,0.928,0.99
+T5,development,Mozambique,MOZ,Eastern Africa,3,Guinea,GIN,Central/Western Africa,False,0.08709406207846378,5942.035835678395,0.928,0.944
+T5,development,Mozambique,MOZ,Eastern Africa,4,Niger,NER,Central/Western Africa,False,0.09208050047117741,4674.187781382743,0.928,0.931
+T5,development,Mozambique,MOZ,Eastern Africa,5,Ghana,GHA,Central/Western Africa,False,0.09759254986857349,4919.698439742134,0.928,0.917
+T5,development,Mauritania,MRT,Central/Western Africa,1,Ghana,GHA,Central/Western Africa,True,0.09636377770736881,1619.4158936895114,0.97,0.917
+T5,development,Mauritania,MRT,Central/Western Africa,2,Togo,TGO,Central/Western Africa,True,0.11204956199657334,1669.3749903171918,0.97,0.909
+T5,development,Mauritania,MRT,Central/Western Africa,3,Guatemala,GTM,Latin America & the Caribbean,False,0.11988247668168579,8510.317977591889,0.97,0.939
+T5,development,Mauritania,MRT,Central/Western Africa,4,Pakistan,PAK,Southern Asia,False,0.1243367039260059,7858.435836596181,0.97,0.913086913086913
+T5,development,Mauritania,MRT,Central/Western Africa,5,Turkey,TUR,Middle East,False,0.12551293930253513,4752.479986913528,0.97,0.882
+T5,development,Malawi,MWI,Eastern Africa,1,Philippines,PHL,Southeastern Asia,False,0.13208286942353112,10172.737894936188,0.948,0.9720837487537388
+T5,development,Malawi,MWI,Eastern Africa,2,Congo Kinshasa,COD,Central/Western Africa,False,0.1890945840480707,1700.0049841922187,0.948,0.9
+T5,development,Malawi,MWI,Eastern Africa,3,Chad,TCD,Central/Western Africa,False,0.19031027054599856,3574.071013472321,0.948,0.948
+T5,development,Malawi,MWI,Eastern Africa,4,Burkina Faso,BFA,Central/Western Africa,False,0.19605347741508583,4822.344776067179,0.948,0.939
+T5,development,Malawi,MWI,Eastern Africa,5,Guinea,GIN,Central/Western Africa,False,0.2000275326839145,5503.825408473152,0.948,0.944
+T5,development,Malaysia,MYS,Southeastern Asia,1,Indonesia,IDN,Southeastern Asia,True,0.07282004003112931,1383.130218507064,0.921,0.955
+T5,development,Malaysia,MYS,Southeastern Asia,2,Sri Lanka,LKA,Southern Asia,False,0.08749020300379229,3710.952964091535,0.921,0.92
+T5,development,Malaysia,MYS,Southeastern Asia,3,Nepal,NPL,Southern Asia,False,0.09319606956119184,4295.553517758145,0.921,0.925
+T5,development,Malaysia,MYS,Southeastern Asia,4,Portugal,PRT,Southern Europe,False,0.11119265539229502,12497.741650634785,0.921,0.976023976023976
+T5,development,Malaysia,MYS,Southeastern Asia,5,Tanzania,TZA,Eastern Africa,False,0.11248148693231583,8809.206275420202,0.921,0.936127744510978
+T5,development,Niger,NER,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.05881532159436026,4022.2327274226045,0.931,0.873
+T5,development,Niger,NER,Central/Western Africa,2,Ghana,GHA,Central/Western Africa,True,0.07166516592995982,1573.2590178876524,0.931,0.917
+T5,development,Niger,NER,Central/Western Africa,3,Mozambique,MOZ,Eastern Africa,False,0.09208050047117741,4674.187781382743,0.931,0.928
+T5,development,Niger,NER,Central/Western Africa,4,Congo Kinshasa,COD,Central/Western Africa,True,0.10075193384102185,2635.7473938587427,0.931,0.9
+T5,development,Niger,NER,Central/Western Africa,5,Cameroon,CMR,Central/Western Africa,True,0.10204468448756061,1466.1876666544104,0.931,0.962
+T5,development,Nigeria,NGA,Central/Western Africa,1,Turkey,TUR,Middle East,False,0.04202572592439928,4270.129811312251,0.937,0.882
+T5,development,Nigeria,NGA,Central/Western Africa,2,Uganda,UGA,Eastern Africa,False,0.05916262051382026,2933.062431744647,0.937,0.841
+T5,development,Nigeria,NGA,Central/Western Africa,3,Yemen,YEM,Middle East,False,0.08277081435580738,4212.739782569065,0.937,0.924
+T5,development,Nigeria,NGA,Central/Western Africa,4,United States,USA,Northern America,False,0.09593192565136578,10596.483388837656,0.937,0.9601196410767696
+T5,development,Nigeria,NGA,Central/Western Africa,5,Togo,TGO,Central/Western Africa,True,0.10004189316909197,711.0718590198258,0.937,0.909
+T5,development,Nicaragua,NIC,Latin America & the Caribbean,1,Romania,ROU,Eastern Europe,False,0.04136292214594625,10494.207497877973,0.951,0.857
+T5,development,Nicaragua,NIC,Latin America & the Caribbean,2,Kosovo,XKX,Eastern Europe,False,0.04638932992661916,10317.816738276875,0.951,0.851
+T5,development,Nicaragua,NIC,Latin America & the Caribbean,3,Kazakhstan,KAZ,Central Asia,False,0.05838511695515435,12683.603886424875,0.951,0.759
+T5,development,Nicaragua,NIC,Latin America & the Caribbean,4,Slovenia,SVN,Southern Europe,False,0.06814672178879051,9749.039984009962,0.951,0.981018981018981
+T5,development,Nicaragua,NIC,Latin America & the Caribbean,5,El Salvador,SLV,Latin America & the Caribbean,True,0.07139234063051421,428.76455916512214,0.951,0.925
+T5,development,Norway,NOR,Northern/Western Europe,1,Iceland,ISL,Northern/Western Europe,True,0.07068461811664206,1464.0285702544877,0.99,0.984158415841584
+T5,development,Norway,NOR,Northern/Western Europe,2,Denmark,DNK,Northern/Western Europe,True,0.07654723384237674,600.568179505227,0.99,0.991044776119403
+T5,development,Norway,NOR,Northern/Western Europe,3,Lithuania,LTU,Northern/Western Europe,True,0.10754022394789069,1089.1639831947932,0.99,0.795
+T5,development,Norway,NOR,Northern/Western Europe,4,Finland,FIN,Northern/Western Europe,True,0.11835645951641861,930.2743732194084,0.99,0.9780658025922232
+T5,development,Norway,NOR,Northern/Western Europe,5,United Kingdom,GBR,Northern/Western Europe,True,0.11959826784666881,1038.2682717461075,0.99,0.988
+T5,development,Nepal,NPL,Southern Asia,1,Portugal,PRT,Southern Europe,False,0.055501720187243815,8202.23673817779,0.925,0.976023976023976
+T5,development,Nepal,NPL,Southern Asia,2,India,IND,Southern Asia,True,0.060738883855582744,757.4380138939673,0.925,0.97
+T5,development,Nepal,NPL,Southern Asia,3,Tanzania,TZA,Eastern Africa,False,0.0675319229353604,6462.738756612395,0.925,0.936127744510978
+T5,development,Nepal,NPL,Southern Asia,4,Zimbabwe,ZWE,Eastern Africa,False,0.07177418911410044,7802.017075018985,0.925,0.98
+T5,development,Nepal,NPL,Southern Asia,5,Gambia,GMB,Central/Western Africa,False,0.08974907934637336,10114.01622347267,0.925,0.876
+T5,development,New Zealand,NZL,Australia & New Zealand,1,Myanmar,MMR,Southeastern Asia,False,0.09109541388924249,10480.33154226192,0.975,0.871
+T5,development,New Zealand,NZL,Australia & New Zealand,2,Germany,DEU,Northern/Western Europe,False,0.10223722040857842,18208.356794201205,0.975,0.993
+T5,development,New Zealand,NZL,Australia & New Zealand,3,Belgium,BEL,Northern/Western Europe,False,0.10644765331115674,18474.238449537388,0.975,0.97
+T5,development,New Zealand,NZL,Australia & New Zealand,4,Sri Lanka,LKA,Southern Asia,False,0.10822734345890782,10723.015278597988,0.975,0.92
+T5,development,New Zealand,NZL,Australia & New Zealand,5,Dominican Republic,DOM,Latin America & the Caribbean,False,0.11835128811574416,13597.315328059634,0.975,0.897
+T5,development,Pakistan,PAK,Southern Asia,1,South Korea,KOR,Eastern Asia,False,0.07184403110840223,5533.835597365571,0.913086913086913,0.9503407984420644
+T5,development,Pakistan,PAK,Southern Asia,2,Spain,ESP,Southern Europe,False,0.07615835593737316,6512.881304810954,0.913086913086913,0.998
+T5,development,Pakistan,PAK,Southern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.09103335660615673,1474.3196568684207,0.913086913086913,0.888
+T5,development,Pakistan,PAK,Southern Asia,4,Cyprus,CYP,Southern Europe,False,0.09147409805939873,3378.7301778126334,0.913086913086913,0.9660523763336566
+T5,development,Pakistan,PAK,Southern Asia,5,Ivory Coast,CIV,Central/Western Africa,False,0.09503016958062102,8063.284116746373,0.913086913086913,0.982
+T5,development,Peru,PER,Latin America & the Caribbean,1,Chile,CHL,Latin America & the Caribbean,True,0.031590607222970024,2799.936960782053,0.953,0.958
+T5,development,Peru,PER,Latin America & the Caribbean,2,Brazil,BRA,Latin America & the Caribbean,True,0.06226800170816716,2534.4951660730335,0.953,0.973
+T5,development,Peru,PER,Latin America & the Caribbean,3,Ecuador,ECU,Latin America & the Caribbean,True,0.06767009019169262,1427.1887460248586,0.953,0.944
+T5,development,Peru,PER,Latin America & the Caribbean,4,Ivory Coast,CIV,Central/Western Africa,False,0.09008455101442876,7776.513907974549,0.953,0.982
+T5,development,Peru,PER,Latin America & the Caribbean,5,Italy,ITA,Southern Europe,False,0.09790454714144592,10552.33455408443,0.953,0.994
+T5,development,Philippines,PHL,Southeastern Asia,1,Congo Kinshasa,COD,Central/Western Africa,False,0.08019269626200426,11029.878787362793,0.9720837487537388,0.9
+T5,development,Philippines,PHL,Southeastern Asia,2,Burkina Faso,BFA,Central/Western Africa,False,0.1007027005735076,13271.591588306988,0.9720837487537388,0.939
+T5,development,Philippines,PHL,Southeastern Asia,3,Eswatini,SWZ,Southern Africa,False,0.10402487871680167,10658.763069634793,0.9720837487537388,0.934
+T5,development,Philippines,PHL,Southeastern Asia,4,Cameroon,CMR,Central/Western Africa,False,0.10621449290325709,12074.545561146197,0.9720837487537388,0.962
+T5,development,Philippines,PHL,Southeastern Asia,5,Guinea,GIN,Central/Western Africa,False,0.12390051860159501,14230.563825874871,0.9720837487537388,0.944
+T5,development,Poland,POL,Eastern Europe,1,Bulgaria,BGR,Eastern Europe,True,0.03994928647991859,1136.8913764255315,0.818,0.831
+T5,development,Poland,POL,Eastern Europe,2,Libya,LBY,Northern Africa,False,0.045364445780374636,2821.6768263583012,0.818,0.9502487562189056
+T5,development,Poland,POL,Eastern Europe,3,Thailand,THA,Southeastern Asia,False,0.051979437590960686,8087.019913149168,0.818,0.936
+T5,development,Poland,POL,Eastern Europe,4,Egypt,EGY,Northern Africa,False,0.05826824199248689,2988.763781583156,0.818,0.992
+T5,development,Poland,POL,Eastern Europe,5,France,FRA,Northern/Western Europe,False,0.0705551370270524,1356.6924449834755,0.818,0.979
+T5,development,Portugal,PRT,Southern Europe,1,Zimbabwe,ZWE,Eastern Africa,False,0.0504082511777019,7619.132580286708,0.976023976023976,0.98
+T5,development,Portugal,PRT,Southern Europe,2,India,IND,Southern Asia,False,0.051067532267515287,8230.793087702736,0.976023976023976,0.97
+T5,development,Portugal,PRT,Southern Europe,3,Ivory Coast,CIV,Central/Western Africa,False,0.052955468007348495,3581.234636855814,0.976023976023976,0.982
+T5,development,Portugal,PRT,Southern Europe,4,Nepal,NPL,Southern Asia,False,0.055501720187243815,8202.23673817779,0.976023976023976,0.925
+T5,development,Portugal,PRT,Southern Europe,5,Cyprus,CYP,Southern Europe,True,0.0884322169304847,3664.47403186346,0.976023976023976,0.9660523763336566
+T5,development,Paraguay,PRY,Latin America & the Caribbean,1,Jordan,JOR,Middle East,False,0.057013691382887206,11814.347823558566,0.971,0.918
+T5,development,Paraguay,PRY,Latin America & the Caribbean,2,Japan,JPN,Eastern Asia,False,0.0719716366572092,17602.26546145482,0.971,0.9601593625498008
+T5,development,Paraguay,PRY,Latin America & the Caribbean,3,Mexico,MEX,Latin America & the Caribbean,True,0.08393859238569283,6817.032371919765,0.971,0.975
+T5,development,Paraguay,PRY,Latin America & the Caribbean,4,France,FRA,Northern/Western Europe,False,0.0919356560575363,9857.37058778942,0.971,0.979
+T5,development,Paraguay,PRY,Latin America & the Caribbean,5,Mongolia,MNG,Eastern Asia,False,0.10180064193003455,16959.076456903458,0.971,0.944
+T5,development,Romania,ROU,Eastern Europe,1,Kazakhstan,KAZ,Central Asia,False,0.029600602299945857,3265.081558807108,0.857,0.759
+T5,development,Romania,ROU,Eastern Europe,2,Nicaragua,NIC,Latin America & the Caribbean,False,0.04136292214594625,10494.207497877973,0.857,0.951
+T5,development,Romania,ROU,Eastern Europe,3,Kosovo,XKX,Eastern Europe,True,0.06387247132890163,478.8877891202587,0.857,0.851
+T5,development,Romania,ROU,Eastern Europe,4,El Salvador,SLV,Latin America & the Caribbean,False,0.06723609088298677,10677.335391277094,0.857,0.925
+T5,development,Romania,ROU,Eastern Europe,5,Luxembourg,LUX,Northern/Western Europe,False,0.08016715092871568,1476.845119809625,0.857,0.98
+T5,development,Saudi Arabia,SAU,Middle East,1,Kuwait,KWT,Middle East,True,0.040626200691278196,675.3782699050627,0.9823182711198428,0.8993414863593603
+T5,development,Saudi Arabia,SAU,Middle East,2,United Kingdom,GBR,Northern/Western Europe,False,0.054168204333514776,5132.5171047700005,0.9823182711198428,0.988
+T5,development,Saudi Arabia,SAU,Middle East,3,Thailand,THA,Southeastern Asia,False,0.08216657331987752,5940.218577809462,0.9823182711198428,0.936
+T5,development,Saudi Arabia,SAU,Middle East,4,Lithuania,LTU,Northern/Western Europe,False,0.0824260872271831,3871.371639712161,0.9823182711198428,0.795
+T5,development,Saudi Arabia,SAU,Middle East,5,Switzerland,CHE,Northern/Western Europe,False,0.09023322086277381,4170.982335027923,0.9823182711198428,0.975
+T5,development,Senegal,SEN,Central/Western Africa,1,Eswatini,SWZ,Southern Africa,False,0.057631427078297666,6813.571874834405,0.976,0.934
+T5,development,Senegal,SEN,Central/Western Africa,2,Comoros,COM,Eastern Africa,False,0.07701914562527924,7059.31850416631,0.976,0.774
+T5,development,Senegal,SEN,Central/Western Africa,3,Botswana,BWA,Southern Africa,False,0.07708266668137102,5930.058701198459,0.976,0.9623389494549058
+T5,development,Senegal,SEN,Central/Western Africa,4,Mali,MLI,Central/Western Africa,True,0.11045460399898932,1411.311305076762,0.976,0.995
+T5,development,Senegal,SEN,Central/Western Africa,5,Gambia,GMB,Central/Western Africa,True,0.11818236439845436,168.06730824329307,0.976,0.876
+T5,development,Singapore,SGP,Southeastern Asia,1,Denmark,DNK,Northern/Western Europe,False,0.07548551826497177,10179.866256893822,0.9815712900096992,0.991044776119403
+T5,development,Singapore,SGP,Southeastern Asia,2,Hong Kong,HKG,Eastern Asia,False,0.08532562033025029,2594.3171290219693,0.9815712900096992,0.9950199203187252
+T5,development,Singapore,SGP,Southeastern Asia,3,Hungary,HUN,Eastern Europe,False,0.08736471902677012,9470.118641759245,0.9815712900096992,0.9861523244312562
+T5,development,Singapore,SGP,Southeastern Asia,4,United Arab Emirates,ARE,Middle East,False,0.09835392110198206,5844.968634181927,0.9815712900096992,0.989
+T5,development,Singapore,SGP,Southeastern Asia,5,Estonia,EST,Northern/Western Europe,False,0.10080090386721588,9185.105733278966,0.9815712900096992,0.9692765113974232
+T5,development,El Salvador,SLV,Latin America & the Caribbean,1,Romania,ROU,Eastern Europe,False,0.06723609088298677,10677.335391277094,0.925,0.857
+T5,development,El Salvador,SLV,Latin America & the Caribbean,2,Nicaragua,NIC,Latin America & the Caribbean,True,0.07139234063051421,428.76455916512214,0.925,0.951
+T5,development,El Salvador,SLV,Latin America & the Caribbean,3,Armenia,ARM,Central Asia,False,0.07239323135983632,12334.249564597629,0.925,0.919
+T5,development,El Salvador,SLV,Latin America & the Caribbean,4,Kazakhstan,KAZ,Central Asia,False,0.07872693428618738,12698.239638889992,0.925,0.759
+T5,development,El Salvador,SLV,Latin America & the Caribbean,5,Kosovo,XKX,Eastern Europe,False,0.0956500743590842,10527.945135109283,0.925,0.851
+T5,development,Serbia,SRB,Southern Europe,1,Bosnia Herzegovina,BIH,Southern Europe,True,0.08349873394004266,217.2836793050214,0.89,0.891
+T5,development,Serbia,SRB,Southern Europe,2,Bulgaria,BGR,Eastern Europe,False,0.09834060526694068,399.61297156319614,0.89,0.831
+T5,development,Serbia,SRB,Southern Europe,3,Libya,LBY,Northern Africa,False,0.09885560446315107,1967.4210416878223,0.89,0.9502487562189056
+T5,development,Serbia,SRB,Southern Europe,4,United States,USA,Northern America,False,0.10188582194926643,8842.676097152618,0.89,0.9601196410767696
+T5,development,Serbia,SRB,Southern Europe,5,Israel,ISR,Middle East,False,0.10620883266125128,1922.0995370004885,0.89,0.903
+T5,development,Slovakia,SVK,Eastern Europe,1,Israel,ISR,Middle East,False,0.12623074327006312,2386.9550728090535,0.8671328671328671,0.903
+T5,development,Slovakia,SVK,Eastern Europe,2,Serbia,SRB,Southern Europe,False,0.1475219321742345,522.4896271284231,0.8671328671328671,0.89
+T5,development,Slovakia,SVK,Eastern Europe,3,Yemen,YEM,Middle East,False,0.15335335466118719,4444.835433147885,0.8671328671328671,0.924
+T5,development,Slovakia,SVK,Eastern Europe,4,Czech Republic,CZE,Eastern Europe,True,0.15896743473810684,295.2279449723886,0.8671328671328671,0.9631474103585658
+T5,development,Slovakia,SVK,Eastern Europe,5,Finland,FIN,Northern/Western Europe,False,0.1620402390778378,1690.249048015926,0.8671328671328671,0.9780658025922232
+T5,development,Slovenia,SVN,Southern Europe,1,Latvia,LVA,Northern/Western Europe,False,0.06131406073083554,1420.7553473857654,0.981018981018981,0.9480392156862744
+T5,development,Slovenia,SVN,Southern Europe,2,Kosovo,XKX,Eastern Europe,False,0.06364651525696326,609.8624143129688,0.981018981018981,0.851
+T5,development,Slovenia,SVN,Southern Europe,3,Nicaragua,NIC,Latin America & the Caribbean,False,0.06814672178879051,9749.039984009962,0.981018981018981,0.951
+T5,development,Slovenia,SVN,Southern Europe,4,Switzerland,CHE,Northern/Western Europe,False,0.06849670314832416,575.9384013533424,0.981018981018981,0.975
+T5,development,Slovenia,SVN,Southern Europe,5,Hong Kong,HKG,Eastern Asia,False,0.07032665928906968,8902.212348174497,0.981018981018981,0.9950199203187252
+T5,development,Eswatini,SWZ,Southern Africa,1,Senegal,SEN,Central/Western Africa,False,0.057631427078297666,6813.571874834405,0.934,0.976
+T5,development,Eswatini,SWZ,Southern Africa,2,Comoros,COM,Eastern Africa,False,0.07725523820363002,2061.0872668017555,0.934,0.774
+T5,development,Eswatini,SWZ,Southern Africa,3,Botswana,BWA,Southern Africa,True,0.08897200388470132,887.4507047792054,0.934,0.9623389494549058
+T5,development,Eswatini,SWZ,Southern Africa,4,Burkina Faso,BFA,Central/Western Africa,False,0.09104069416000035,5620.5563902870335,0.934,0.939
+T5,development,Eswatini,SWZ,Southern Africa,5,Philippines,PHL,Southeastern Asia,False,0.10402487871680167,10658.763069634793,0.934,0.9720837487537388
+T5,development,Chad,TCD,Central/Western Africa,1,Guinea,GIN,Central/Western Africa,True,0.08654659759791608,3144.7296179583896,0.948,0.944
+T5,development,Chad,TCD,Central/Western Africa,2,Cameroon,CMR,Central/Western Africa,True,0.11629141617381272,1354.2294475426527,0.948,0.962
+T5,development,Chad,TCD,Central/Western Africa,3,Philippines,PHL,Southeastern Asia,False,0.12749037275491792,11131.212290818517,0.948,0.9720837487537388
+T5,development,Chad,TCD,Central/Western Africa,4,Zambia,ZMB,Eastern Africa,False,0.12993443027778998,3421.7902519601985,0.948,0.873
+T5,development,Chad,TCD,Central/Western Africa,5,South Africa,ZAF,Southern Africa,False,0.13558515370436178,5016.284597291408,0.948,0.904
+T5,development,Togo,TGO,Central/Western Africa,1,Iraq,IRQ,Middle East,False,0.04087809748161186,5095.313304268559,0.909,0.9884057971014492
+T5,development,Togo,TGO,Central/Western Africa,2,Algeria,DZA,Northern Africa,False,0.045238853647473626,2075.300791198974,0.909,0.904
+T5,development,Togo,TGO,Central/Western Africa,3,Colombia,COL,Latin America & the Caribbean,False,0.055391045178542916,8218.908540805982,0.909,0.9246031746031746
+T5,development,Togo,TGO,Central/Western Africa,4,Guatemala,GTM,Latin America & the Caribbean,False,0.06086392637546894,9920.445873029728,0.909,0.939
+T5,development,Togo,TGO,Central/Western Africa,5,Dominican Republic,DOM,Latin America & the Caribbean,False,0.0683414825008024,7776.166262402941,0.909,0.897
+T5,development,Thailand,THA,Southeastern Asia,1,Poland,POL,Eastern Europe,False,0.051979437590960686,8087.019913149168,0.936,0.818
+T5,development,Thailand,THA,Southeastern Asia,2,Switzerland,CHE,Northern/Western Europe,False,0.06475975274809424,9032.426589963201,0.936,0.975
+T5,development,Thailand,THA,Southeastern Asia,3,Bulgaria,BGR,Eastern Europe,False,0.07395387389999951,7708.975712201794,0.936,0.831
+T5,development,Thailand,THA,Southeastern Asia,4,France,FRA,Northern/Western Europe,False,0.08202452846034192,9394.771862738458,0.936,0.979
+T5,development,Thailand,THA,Southeastern Asia,5,Saudi Arabia,SAU,Middle East,False,0.08216657331987752,5940.218577809462,0.936,0.9823182711198428
+T5,development,Tunisia,TUN,Northern Africa,1,Venezuela,VEN,Latin America & the Caribbean,False,0.06804092660423632,8050.756771806777,0.983,0.956
+T5,development,Tunisia,TUN,Northern Africa,2,Argentina,ARG,Latin America & the Caribbean,False,0.1242776707116578,10680.211243107295,0.983,0.9661016949152542
+T5,development,Tunisia,TUN,Northern Africa,3,South Korea,KOR,Eastern Asia,False,0.13181311339290508,9988.262260303196,0.983,0.9503407984420644
+T5,development,Tunisia,TUN,Northern Africa,4,Spain,ESP,Southern Europe,False,0.13696186022619586,1316.1399809304392,0.983,0.998
+T5,development,Tunisia,TUN,Northern Africa,5,Pakistan,PAK,Southern Asia,False,0.14210002729164284,5587.457294115481,0.983,0.913086913086913
+T5,development,Turkey,TUR,Middle East,1,Nigeria,NGA,Central/Western Africa,False,0.04202572592439928,4270.129811312251,0.882,0.937
+T5,development,Turkey,TUR,Middle East,2,United States,USA,Northern America,False,0.058920791164157583,9978.24000097293,0.882,0.9601196410767696
+T5,development,Turkey,TUR,Middle East,3,Yemen,YEM,Middle East,True,0.07338273138921711,2891.0390215454063,0.882,0.924
+T5,development,Turkey,TUR,Middle East,4,Togo,TGO,Central/Western Africa,False,0.07887895591390402,4749.953353930769,0.882,0.909
+T5,development,Turkey,TUR,Middle East,5,Uganda,UGA,Eastern Africa,False,0.08752775684234658,4158.675977406891,0.882,0.841
+T5,development,Tanzania,TZA,Eastern Africa,1,Gambia,GMB,Central/Western Africa,False,0.05856189867124748,5932.8027472149215,0.936127744510978,0.876
+T5,development,Tanzania,TZA,Eastern Africa,2,Nepal,NPL,Southern Asia,False,0.0675319229353604,6462.738756612395,0.936127744510978,0.925
+T5,development,Tanzania,TZA,Eastern Africa,3,Zimbabwe,ZWE,Eastern Africa,True,0.07461395848598958,1530.3429166234578,0.936127744510978,0.98
+T5,development,Tanzania,TZA,Eastern Africa,4,Kenya,KEN,Eastern Africa,True,0.09471545580579054,803.653952477897,0.936127744510978,0.968
+T5,development,Tanzania,TZA,Eastern Africa,5,Portugal,PRT,Southern Europe,False,0.09665255028360026,6737.715677305353,0.936127744510978,0.976023976023976
+T5,development,Uganda,UGA,Eastern Africa,1,Nigeria,NGA,Central/Western Africa,False,0.05916262051382026,2933.062431744647,0.841,0.937
+T5,development,Uganda,UGA,Eastern Africa,2,Turkey,TUR,Middle East,False,0.08752775684234658,4158.675977406891,0.841,0.882
+T5,development,Uganda,UGA,Eastern Africa,3,Vietnam,VNM,Southeastern Asia,False,0.09954842399974363,8113.837362069812,0.841,0.945
+T5,development,Uganda,UGA,Eastern Africa,4,Dominican Republic,DOM,Latin America & the Caribbean,False,0.1113713816884366,11360.946862953324,0.841,0.897
+T5,development,Uganda,UGA,Eastern Africa,5,Yemen,YEM,Middle East,False,0.11284913925924912,2052.9344975787276,0.841,0.924
+T5,development,Ukraine,UKR,Eastern Europe,1,Uruguay,URY,Latin America & the Caribbean,False,0.0379202250735162,12609.794180953082,0.923,0.955
+T5,development,Ukraine,UKR,Eastern Europe,2,Spain,ESP,Southern Europe,False,0.04273293164151667,2967.976535363372,0.923,0.998
+T5,development,Ukraine,UKR,Eastern Europe,3,Luxembourg,LUX,Northern/Western Europe,False,0.04759349773135192,1863.866500629124,0.923,0.98
+T5,development,Ukraine,UKR,Eastern Europe,4,Kyrgyzstan,KGZ,Central Asia,False,0.04791438870001573,3363.1414203154523,0.923,0.888
+T5,development,Ukraine,UKR,Eastern Europe,5,Cyprus,CYP,Southern Europe,False,0.06759591423769097,1648.7454891337454,0.923,0.9660523763336566
+T5,development,Uruguay,URY,Latin America & the Caribbean,1,Ukraine,UKR,Eastern Europe,False,0.0379202250735162,12609.794180953082,0.955,0.923
+T5,development,Uruguay,URY,Latin America & the Caribbean,2,North Macedonia,MKD,Southern Europe,False,0.04489464548693758,11455.245057624068,0.955,0.914
+T5,development,Uruguay,URY,Latin America & the Caribbean,3,Luxembourg,LUX,Northern/Western Europe,False,0.05577366314201717,11037.304949284271,0.955,0.98
+T5,development,Uruguay,URY,Latin America & the Caribbean,4,Kyrgyzstan,KGZ,Central Asia,False,0.05700694395103181,15594.263884519907,0.955,0.888
+T5,development,Uruguay,URY,Latin America & the Caribbean,5,Spain,ESP,Southern Europe,False,0.060687165566223535,9750.401669285566,0.955,0.998
+T5,development,United States,USA,Northern America,1,Bosnia Herzegovina,BIH,Southern Europe,False,0.055525919486872764,8698.432324529353,0.9601196410767696,0.891
+T5,development,United States,USA,Northern America,2,Turkey,TUR,Middle East,False,0.058920791164157583,9978.24000097293,0.9601196410767696,0.882
+T5,development,United States,USA,Northern America,3,Iran,IRN,Southern Asia,False,0.06258175224271291,11549.702591237852,0.9601196410767696,0.9801390268123138
+T5,development,United States,USA,Northern America,4,Yemen,YEM,Middle East,False,0.07223348154844524,12828.775320712277,0.9601196410767696,0.924
+T5,development,United States,USA,Northern America,5,Austria,AUT,Northern/Western Europe,False,0.08617991673281938,8215.093841679907,0.9601196410767696,0.991
+T5,development,Uzbekistan,UZB,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.10194784541086234,2208.5950008527866,0.913,0.989
+T5,development,Uzbekistan,UZB,Central Asia,2,Denmark,DNK,Northern/Western Europe,False,0.1074644563254522,4194.3981909512695,0.913,0.991044776119403
+T5,development,Uzbekistan,UZB,Central Asia,3,United Kingdom,GBR,Northern/Western Europe,False,0.12186872194669929,4915.892063919828,0.913,0.988
+T5,development,Uzbekistan,UZB,Central Asia,4,Norway,NOR,Northern/Western Europe,False,0.1237632378196141,4178.838315672005,0.913,0.99
+T5,development,Uzbekistan,UZB,Central Asia,5,Singapore,SGP,Southeastern Asia,False,0.1317373914522403,5992.668369661478,0.913,0.9815712900096992
+T5,development,Venezuela,VEN,Latin America & the Caribbean,1,Argentina,ARG,Latin America & the Caribbean,True,0.05887456432580132,4524.043597251164,0.956,0.9661016949152542
+T5,development,Venezuela,VEN,Latin America & the Caribbean,2,Tunisia,TUN,Northern Africa,False,0.06804092660423632,8050.756771806777,0.956,0.983
+T5,development,Venezuela,VEN,Latin America & the Caribbean,3,Spain,ESP,Southern Europe,False,0.08841101806355929,7055.614043357078,0.956,0.998
+T5,development,Venezuela,VEN,Latin America & the Caribbean,4,Guatemala,GTM,Latin America & the Caribbean,True,0.09406676599925978,2952.8853751612,0.956,0.939
+T5,development,Venezuela,VEN,Latin America & the Caribbean,5,Colombia,COL,Latin America & the Caribbean,True,0.09585356063243636,1039.48335481924,0.956,0.9246031746031746
+T5,development,Vietnam,VNM,Southeastern Asia,1,Yemen,YEM,Middle East,False,0.0666800156944832,6279.131364684399,0.945,0.924
+T5,development,Vietnam,VNM,Southeastern Asia,2,Kenya,KEN,Eastern Africa,False,0.08156442742432679,7665.693366316612,0.945,0.968
+T5,development,Vietnam,VNM,Southeastern Asia,3,United States,USA,Northern America,False,0.09730856318697369,12801.42470289847,0.945,0.9601196410767696
+T5,development,Vietnam,VNM,Southeastern Asia,4,Uganda,UGA,Eastern Africa,False,0.09954842399974363,8113.837362069812,0.945,0.841
+T5,development,Vietnam,VNM,Southeastern Asia,5,Turkey,TUR,Middle East,False,0.10195005306554629,6890.887360786507,0.945,0.882
+T5,development,Kosovo,XKX,Eastern Europe,1,Nicaragua,NIC,Latin America & the Caribbean,False,0.04638932992661916,10317.816738276875,0.851,0.951
+T5,development,Kosovo,XKX,Eastern Europe,2,Luxembourg,LUX,Northern/Western Europe,False,0.047327585512209926,1384.072360670325,0.851,0.98
+T5,development,Kosovo,XKX,Eastern Europe,3,Slovenia,SVN,Southern Europe,False,0.06364651525696326,609.8624143129688,0.851,0.981018981018981
+T5,development,Kosovo,XKX,Eastern Europe,4,Romania,ROU,Eastern Europe,True,0.06387247132890163,478.8877891202587,0.851,0.857
+T5,development,Kosovo,XKX,Eastern Europe,5,Kyrgyzstan,KGZ,Central Asia,False,0.07504624174033107,4350.970561636382,0.851,0.888
+T5,development,Yemen,YEM,Middle East,1,Vietnam,VNM,Southeastern Asia,False,0.0666800156944832,6279.131364684399,0.924,0.945
+T5,development,Yemen,YEM,Middle East,2,United States,USA,Northern America,False,0.07223348154844524,12828.775320712277,0.924,0.9601196410767696
+T5,development,Yemen,YEM,Middle East,3,Turkey,TUR,Middle East,True,0.07338273138921711,2891.0390215454063,0.924,0.882
+T5,development,Yemen,YEM,Middle East,4,Nigeria,NGA,Central/Western Africa,False,0.08277081435580738,4212.739782569065,0.924,0.937
+T5,development,Yemen,YEM,Middle East,5,Iran,IRN,Southern Asia,False,0.10294912108104791,2084.539186637028,0.924,0.9801390268123138
+T5,development,South Africa,ZAF,Southern Africa,1,Cameroon,CMR,Central/Western Africa,False,0.04598405340713796,3995.6867890309272,0.904,0.962
+T5,development,South Africa,ZAF,Southern Africa,2,Brazil,BRA,Latin America & the Caribbean,False,0.08881470395598892,7736.398710137627,0.904,0.973
+T5,development,South Africa,ZAF,Southern Africa,3,Gabon,GAB,Central/Western Africa,False,0.09315954967498107,3487.6232850540277,0.904,0.99
+T5,development,South Africa,ZAF,Southern Africa,4,Zambia,ZMB,Eastern Africa,False,0.09827529912247557,1696.4971059283705,0.904,0.873
+T5,development,South Africa,ZAF,Southern Africa,5,Peru,PER,Latin America & the Caribbean,False,0.10925969634169365,9915.123443981976,0.904,0.953
+T5,development,Zambia,ZMB,Eastern Africa,1,Niger,NER,Central/Western Africa,False,0.05881532159436026,4022.2327274226045,0.873,0.931
+T5,development,Zambia,ZMB,Eastern Africa,2,Mozambique,MOZ,Eastern Africa,True,0.05936721767176461,1235.3700617647085,0.873,0.928
+T5,development,Zambia,ZMB,Eastern Africa,3,Cameroon,CMR,Central/Western Africa,False,0.06634758939830873,2633.378459152634,0.873,0.962
+T5,development,Zambia,ZMB,Eastern Africa,4,Gabon,GAB,Central/Western Africa,False,0.06709668487168335,2250.055025082793,0.873,0.99
+T5,development,Zambia,ZMB,Eastern Africa,5,Ghana,GHA,Central/Western Africa,False,0.07065921797626348,3916.8605836846086,0.873,0.917
+T5,development,Zimbabwe,ZWE,Eastern Africa,1,Portugal,PRT,Southern Europe,False,0.0504082511777019,7619.132580286708,0.98,0.976023976023976
+T5,development,Zimbabwe,ZWE,Eastern Africa,2,Ivory Coast,CIV,Central/Western Africa,False,0.05438497389252441,4873.702524287541,0.98,0.982
+T5,development,Zimbabwe,ZWE,Eastern Africa,3,Gambia,GMB,Central/Western Africa,False,0.061272509741653915,6108.6290084343855,0.98,0.876
+T5,development,Zimbabwe,ZWE,Eastern Africa,4,Nepal,NPL,Southern Asia,False,0.07177418911410044,7802.017075018985,0.98,0.925
+T5,development,Zimbabwe,ZWE,Eastern Africa,5,Tanzania,TZA,Eastern Africa,True,0.07461395848598958,1530.3429166234578,0.98,0.936127744510978
+T5,all_countries_post_validation,Afghanistan,AFG,Southern Asia,1,Yemen,YEM,Middle East,False,0.1128665068779623,2941.255446897086,0.7994011976047904,0.924
+T5,all_countries_post_validation,Afghanistan,AFG,Southern Asia,2,Vietnam,VNM,Southeastern Asia,False,0.1327009714066271,4034.53014096086,0.7994011976047904,0.945
+T5,all_countries_post_validation,Afghanistan,AFG,Southern Asia,3,China,CHN,Eastern Asia,False,0.13640037777740976,3682.4835044413157,0.7994011976047904,1.0
+T5,all_countries_post_validation,Afghanistan,AFG,Southern Asia,4,Nigeria,NGA,Central/Western Africa,False,0.16901866967987814,6578.8234101515645,0.7994011976047904,0.937
+T5,all_countries_post_validation,Afghanistan,AFG,Southern Asia,5,Kenya,KEN,Eastern Africa,False,0.1692612625406299,4776.334076124526,0.7994011976047904,0.968
+T5,all_countries_post_validation,Albania,ALB,Southern Europe,1,Pakistan,PAK,Southern Asia,False,0.0993429915531881,4527.273022439274,0.905,0.913086913086913
+T5,all_countries_post_validation,Albania,ALB,Southern Europe,2,South Korea,KOR,Eastern Asia,False,0.11370081262460349,8740.4088788574,0.905,0.9503407984420644
+T5,all_countries_post_validation,Albania,ALB,Southern Europe,3,Kyrgyzstan,KGZ,Central Asia,False,0.13899832984055552,4479.114132426154,0.905,0.888
+T5,all_countries_post_validation,Albania,ALB,Southern Europe,4,Ethiopia,ETH,Eastern Africa,False,0.14300301963345047,4084.586566763703,0.905,0.954
+T5,all_countries_post_validation,Albania,ALB,Southern Europe,5,India,IND,Southern Asia,False,0.15020677546780875,5834.063554465211,0.905,0.97
+T5,all_countries_post_validation,United Arab Emirates,ARE,Middle East,1,Hong Kong,HKG,Eastern Asia,False,0.07025449860704597,6052.34437647552,0.989,0.9950199203187252
+T5,all_countries_post_validation,United Arab Emirates,ARE,Middle East,2,Armenia,ARM,Central Asia,False,0.07122325565394753,2098.005034978013,0.989,0.919
+T5,all_countries_post_validation,United Arab Emirates,ARE,Middle East,3,Azerbaijan,AZE,Central Asia,False,0.08064193033627994,2004.4901694709392,0.989,0.841
+T5,all_countries_post_validation,United Arab Emirates,ARE,Middle East,4,Denmark,DNK,Northern/Western Europe,False,0.08569041155474359,5159.174993775194,0.989,0.991044776119403
+T5,all_countries_post_validation,United Arab Emirates,ARE,Middle East,5,Singapore,SGP,Southeastern Asia,False,0.09835392110198206,5844.968634181927,0.989,0.9815712900096992
+T5,all_countries_post_validation,Argentina,ARG,Latin America & the Caribbean,1,Guatemala,GTM,Latin America & the Caribbean,True,0.050734218057862504,6071.049712708799,0.9661016949152542,0.939
+T5,all_countries_post_validation,Argentina,ARG,Latin America & the Caribbean,2,Colombia,COL,Latin America & the Caribbean,True,0.058214757483049266,4207.867170143194,0.9661016949152542,0.9246031746031746
+T5,all_countries_post_validation,Argentina,ARG,Latin America & the Caribbean,3,Venezuela,VEN,Latin America & the Caribbean,True,0.05887456432580132,4524.043597251164,0.9661016949152542,0.956
+T5,all_countries_post_validation,Argentina,ARG,Latin America & the Caribbean,4,Spain,ESP,Southern Europe,False,0.06922892527482534,10283.827560908245,0.9661016949152542,0.998
+T5,all_countries_post_validation,Argentina,ARG,Latin America & the Caribbean,5,Cyprus,CYP,Southern Europe,False,0.07062851552451026,12645.236341335363,0.9661016949152542,0.9660523763336566
+T5,all_countries_post_validation,Armenia,ARM,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.07122325565394753,2098.005034978013,0.919,0.989
+T5,all_countries_post_validation,Armenia,ARM,Central Asia,2,El Salvador,SLV,Latin America & the Caribbean,False,0.07239323135983632,12334.249564597629,0.919,0.925
+T5,all_countries_post_validation,Armenia,ARM,Central Asia,3,Hong Kong,HKG,Eastern Asia,False,0.07308117712682781,6698.235510631538,0.919,0.9950199203187252
+T5,all_countries_post_validation,Armenia,ARM,Central Asia,4,Azerbaijan,AZE,Central Asia,True,0.08646359898143081,204.11135889250482,0.919,0.841
+T5,all_countries_post_validation,Armenia,ARM,Central Asia,5,Ireland,IRL,Northern/Western Europe,False,0.09280301833318977,4137.914701349735,0.919,0.998
+T5,all_countries_post_validation,Australia,AUS,Australia & New Zealand,1,Canada,CAN,Northern America,False,0.034421086749988374,14172.083385687345,0.9830339321357284,0.9890547263681592
+T5,all_countries_post_validation,Australia,AUS,Australia & New Zealand,2,Bahrain,BHR,Middle East,False,0.06564799528714786,10560.496494729714,0.9830339321357284,0.9265143992055612
+T5,all_countries_post_validation,Australia,AUS,Australia & New Zealand,3,Belgium,BEL,Northern/Western Europe,False,0.07719325280401075,14787.112817996422,0.9830339321357284,0.97
+T5,all_countries_post_validation,Australia,AUS,Australia & New Zealand,4,Czech Republic,CZE,Eastern Europe,False,0.08357469511470712,14065.741022214,0.9830339321357284,0.9631474103585658
+T5,all_countries_post_validation,Australia,AUS,Australia & New Zealand,5,Germany,DEU,Northern/Western Europe,False,0.08424366564150432,14449.107894525014,0.9830339321357284,0.993
+T5,all_countries_post_validation,Austria,AUT,Northern/Western Europe,1,Laos,LAO,Southeastern Asia,False,0.035724727064288544,8311.378229676204,0.991,0.805
+T5,all_countries_post_validation,Austria,AUT,Northern/Western Europe,2,Russia,RUS,Eastern Europe,False,0.05611516327047358,2342.5100375074444,0.991,0.9649209486166008
+T5,all_countries_post_validation,Austria,AUT,Northern/Western Europe,3,Germany,DEU,Northern/Western Europe,True,0.05956788960139625,500.84002201369395,0.991,0.993
+T5,all_countries_post_validation,Austria,AUT,Northern/Western Europe,4,Netherlands,NLD,Northern/Western Europe,True,0.05988501854026218,816.6370207658094,0.991,0.9900695134061568
+T5,all_countries_post_validation,Austria,AUT,Northern/Western Europe,5,Palestine,PSE,Middle East,False,0.061501480244761035,2480.3997775573926,0.991,0.945
+T5,all_countries_post_validation,Azerbaijan,AZE,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.08064193033627994,2004.4901694709392,0.841,0.989
+T5,all_countries_post_validation,Azerbaijan,AZE,Central Asia,2,Armenia,ARM,Central Asia,True,0.08646359898143081,204.11135889250482,0.841,0.919
+T5,all_countries_post_validation,Azerbaijan,AZE,Central Asia,3,El Salvador,SLV,Latin America & the Caribbean,False,0.11321017594130912,12489.530804138998,0.841,0.925
+T5,all_countries_post_validation,Azerbaijan,AZE,Central Asia,4,Hong Kong,HKG,Eastern Asia,False,0.1151612069509744,6495.331931325244,0.841,0.9950199203187252
+T5,all_countries_post_validation,Azerbaijan,AZE,Central Asia,5,United Kingdom,GBR,Northern/Western Europe,False,0.12154186785726158,3927.565613863668,0.841,0.988
+T5,all_countries_post_validation,Belgium,BEL,Northern/Western Europe,1,Germany,DEU,Northern/Western Europe,True,0.031023421910795945,342.77012780993994,0.97,0.993
+T5,all_countries_post_validation,Belgium,BEL,Northern/Western Europe,2,Latvia,LVA,Northern/Western Europe,True,0.0432637129790191,1514.0179917290309,0.97,0.9480392156862744
+T5,all_countries_post_validation,Belgium,BEL,Northern/Western Europe,3,Canada,CAN,Northern America,False,0.056567520368485766,6040.891084459087,0.97,0.9890547263681592
+T5,all_countries_post_validation,Belgium,BEL,Northern/Western Europe,4,France,FRA,Northern/Western Europe,True,0.05806516453919986,483.60993078915016,0.97,0.979
+T5,all_countries_post_validation,Belgium,BEL,Northern/Western Europe,5,Netherlands,NLD,Northern/Western Europe,True,0.061234989992305616,190.42596834604092,0.97,0.9900695134061568
+T5,all_countries_post_validation,Benin,BEN,Central/Western Africa,1,Niger,NER,Central/Western Africa,True,0.060414840324226844,1105.5235596560287,0.987,0.931
+T5,all_countries_post_validation,Benin,BEN,Central/Western Africa,2,Zimbabwe,ZWE,Eastern Africa,False,0.0676345952651005,4439.304029071344,0.987,0.98
+T5,all_countries_post_validation,Benin,BEN,Central/Western Africa,3,Gambia,GMB,Central/Western Africa,True,0.0751468806707492,1922.330958716041,0.987,0.876
+T5,all_countries_post_validation,Benin,BEN,Central/Western Africa,4,Burkina Faso,BFA,Central/Western Africa,True,0.07568695342001053,481.7620315595239,0.987,0.939
+T5,all_countries_post_validation,Benin,BEN,Central/Western Africa,5,Kenya,KEN,Eastern Africa,False,0.07958784028201334,4077.8394037320227,0.987,0.968
+T5,all_countries_post_validation,Burkina Faso,BFA,Central/Western Africa,1,Kenya,KEN,Eastern Africa,False,0.06512415630782525,4533.174948328645,0.939,0.968
+T5,all_countries_post_validation,Burkina Faso,BFA,Central/Western Africa,2,Gambia,GMB,Central/Western Africa,True,0.07500197718846112,1480.0057307491377,0.939,0.876
+T5,all_countries_post_validation,Burkina Faso,BFA,Central/Western Africa,3,Benin,BEN,Central/Western Africa,True,0.07568695342001053,481.7620315595239,0.939,0.987
+T5,all_countries_post_validation,Burkina Faso,BFA,Central/Western Africa,4,Eswatini,SWZ,Southern Africa,False,0.09104069416000035,5620.5563902870335,0.939,0.934
+T5,all_countries_post_validation,Burkina Faso,BFA,Central/Western Africa,5,Philippines,PHL,Southeastern Asia,False,0.1007027005735076,13271.591588306988,0.939,0.9720837487537388
+T5,all_countries_post_validation,Bangladesh,BGD,Southern Asia,1,Myanmar,MMR,Southeastern Asia,False,0.07947917399531988,692.1224160266031,0.934,0.871
+T5,all_countries_post_validation,Bangladesh,BGD,Southern Asia,2,Laos,LAO,Southeastern Asia,False,0.08168794887304125,1428.1236314555924,0.934,0.805
+T5,all_countries_post_validation,Bangladesh,BGD,Southern Asia,3,Canada,CAN,Northern America,False,0.0855402958992617,10555.812098117514,0.934,0.9890547263681592
+T5,all_countries_post_validation,Bangladesh,BGD,Southern Asia,4,Germany,DEU,Northern/Western Europe,False,0.08955343431616296,7258.251118949507,0.934,0.993
+T5,all_countries_post_validation,Bangladesh,BGD,Southern Asia,5,Bahrain,BHR,Middle East,False,0.09170645320659024,3929.7662930243546,0.934,0.9265143992055612
+T5,all_countries_post_validation,Bulgaria,BGR,Eastern Europe,1,Libya,LBY,Northern Africa,False,0.033829525749034174,1880.2171435140579,0.831,0.9502487562189056
+T5,all_countries_post_validation,Bulgaria,BGR,Eastern Europe,2,Poland,POL,Eastern Europe,True,0.03994928647991859,1136.8913764255315,0.831,0.818
+T5,all_countries_post_validation,Bulgaria,BGR,Eastern Europe,3,Egypt,EGY,Northern Africa,False,0.05600565225645351,1856.5229818047399,0.831,0.992
+T5,all_countries_post_validation,Bulgaria,BGR,Eastern Europe,4,Bosnia Herzegovina,BIH,Southern Europe,False,0.06322026834263335,599.796298178266,0.831,0.891
+T5,all_countries_post_validation,Bulgaria,BGR,Eastern Europe,5,Thailand,THA,Southeastern Asia,False,0.07395387389999951,7708.975712201794,0.831,0.936
+T5,all_countries_post_validation,Bahrain,BHR,Middle East,1,Canada,CAN,Northern America,False,0.04983676108205904,10088.82977341798,0.9265143992055612,0.9890547263681592
+T5,all_countries_post_validation,Bahrain,BHR,Middle East,2,Estonia,EST,Northern/Western Europe,False,0.060030841381993126,4108.498790289831,0.9265143992055612,0.9692765113974232
+T5,all_countries_post_validation,Bahrain,BHR,Middle East,3,Czech Republic,CZE,Eastern Europe,False,0.062393152136753706,4002.591734237586,0.9265143992055612,0.9631474103585658
+T5,all_countries_post_validation,Bahrain,BHR,Middle East,4,Australia,AUS,Australia & New Zealand,False,0.06564799528714786,10560.496494729714,0.9265143992055612,0.9830339321357284
+T5,all_countries_post_validation,Bahrain,BHR,Middle East,5,Belgium,BEL,Northern/Western Europe,False,0.08079545052265022,4732.021295054582,0.9265143992055612,0.97
+T5,all_countries_post_validation,Bosnia Herzegovina,BIH,Southern Europe,1,Russia,RUS,Eastern Europe,False,0.050754421412097725,2405.460528715795,0.891,0.9649209486166008
+T5,all_countries_post_validation,Bosnia Herzegovina,BIH,Southern Europe,2,United States,USA,Northern America,False,0.055525919486872764,8698.432324529353,0.891,0.9601196410767696
+T5,all_countries_post_validation,Bosnia Herzegovina,BIH,Southern Europe,3,Bulgaria,BGR,Eastern Europe,False,0.06322026834263335,599.796298178266,0.891,0.831
+T5,all_countries_post_validation,Bosnia Herzegovina,BIH,Southern Europe,4,Austria,AUT,Northern/Western Europe,False,0.06364906464537139,488.17853979580684,0.891,0.991
+T5,all_countries_post_validation,Bosnia Herzegovina,BIH,Southern Europe,5,Libya,LBY,Northern Africa,False,0.07382884460966221,1940.595280731554,0.891,0.9502487562189056
+T5,all_countries_post_validation,Bolivia,BOL,Latin America & the Caribbean,1,Chile,CHL,Latin America & the Caribbean,True,0.04372377831477167,2505.3584522471156,0.889,0.958
+T5,all_countries_post_validation,Bolivia,BOL,Latin America & the Caribbean,2,Ivory Coast,CIV,Central/Western Africa,False,0.05484493316089682,7023.460521299507,0.889,0.982
+T5,all_countries_post_validation,Bolivia,BOL,Latin America & the Caribbean,3,Peru,PER,Latin America & the Caribbean,True,0.05985786785696099,982.4466869243429,0.889,0.953
+T5,all_countries_post_validation,Bolivia,BOL,Latin America & the Caribbean,4,Greece,GRC,Southern Europe,False,0.06810896866041656,10869.84398915189,0.889,0.9861523244312562
+T5,all_countries_post_validation,Bolivia,BOL,Latin America & the Caribbean,5,Cyprus,CYP,Southern Europe,False,0.07076327414939226,11743.348739771907,0.889,0.9660523763336566
+T5,all_countries_post_validation,Brazil,BRA,Latin America & the Caribbean,1,Ecuador,ECU,Latin America & the Caribbean,True,0.06067893276288863,3378.69998550925,0.973,0.944
+T5,all_countries_post_validation,Brazil,BRA,Latin America & the Caribbean,2,Peru,PER,Latin America & the Caribbean,True,0.06226800170816716,2534.4951660730335,0.973,0.953
+T5,all_countries_post_validation,Brazil,BRA,Latin America & the Caribbean,3,Greece,GRC,Southern Europe,False,0.08226360484145781,9312.956745721547,0.973,0.9861523244312562
+T5,all_countries_post_validation,Brazil,BRA,Latin America & the Caribbean,4,South Africa,ZAF,Southern Africa,False,0.08881470395598892,7736.398710137627,0.973,0.904
+T5,all_countries_post_validation,Brazil,BRA,Latin America & the Caribbean,5,Chile,CHL,Latin America & the Caribbean,True,0.08930694086861622,3671.2202320426436,0.973,0.958
+T5,all_countries_post_validation,Botswana,BWA,Southern Africa,1,Namibia,NAM,Southern Africa,True,0.05608852643599894,751.7057547553047,0.9623389494549058,0.9441117764471058
+T5,all_countries_post_validation,Botswana,BWA,Southern Africa,2,Senegal,SEN,Central/Western Africa,False,0.07708266668137102,5930.058701198459,0.9623389494549058,0.976
+T5,all_countries_post_validation,Botswana,BWA,Southern Africa,3,Eswatini,SWZ,Southern Africa,True,0.08897200388470132,887.4507047792054,0.9623389494549058,0.934
+T5,all_countries_post_validation,Botswana,BWA,Southern Africa,4,Comoros,COM,Eastern Africa,False,0.09242866089968368,2336.384384556517,0.9623389494549058,0.774
+T5,all_countries_post_validation,Botswana,BWA,Southern Africa,5,Greece,GRC,Southern Europe,False,0.09570626403501062,6853.851635372767,0.9623389494549058,0.9861523244312562
+T5,all_countries_post_validation,Canada,CAN,Northern America,1,Australia,AUS,Australia & New Zealand,False,0.034421086749988374,14172.083385687345,0.9890547263681592,0.9830339321357284
+T5,all_countries_post_validation,Canada,CAN,Northern America,2,Bahrain,BHR,Middle East,False,0.04983676108205904,10088.82977341798,0.9890547263681592,0.9265143992055612
+T5,all_countries_post_validation,Canada,CAN,Northern America,3,Belgium,BEL,Northern/Western Europe,False,0.056567520368485766,6040.891084459087,0.9890547263681592,0.97
+T5,all_countries_post_validation,Canada,CAN,Northern America,4,Germany,DEU,Northern/Western Europe,False,0.05922404044273985,6219.832677296931,0.9890547263681592,0.993
+T5,all_countries_post_validation,Canada,CAN,Northern America,5,Myanmar,MMR,Southeastern Asia,False,0.07530449090859988,10768.1576810965,0.9890547263681592,0.871
+T5,all_countries_post_validation,Switzerland,CHE,Northern/Western Europe,1,Lithuania,LTU,Northern/Western Europe,True,0.05759039587361392,1486.2026592560512,0.975,0.795
+T5,all_countries_post_validation,Switzerland,CHE,Northern/Western Europe,2,Taiwan,TWN,Eastern Asia,False,0.058983009448390376,9735.946352340457,0.975,0.975
+T5,all_countries_post_validation,Switzerland,CHE,Northern/Western Europe,3,Czech Republic,CZE,Eastern Europe,False,0.06271048365823502,682.384789730563,0.975,0.9631474103585658
+T5,all_countries_post_validation,Switzerland,CHE,Northern/Western Europe,4,Thailand,THA,Southeastern Asia,False,0.06475975274809424,9032.426589963201,0.975,0.936
+T5,all_countries_post_validation,Switzerland,CHE,Northern/Western Europe,5,Estonia,EST,Northern/Western Europe,True,0.06623817579062724,1809.7669389448236,0.975,0.9692765113974232
+T5,all_countries_post_validation,Chile,CHL,Latin America & the Caribbean,1,Peru,PER,Latin America & the Caribbean,True,0.031590607222970024,2799.936960782053,0.958,0.953
+T5,all_countries_post_validation,Chile,CHL,Latin America & the Caribbean,2,Bolivia,BOL,Latin America & the Caribbean,True,0.04372377831477167,2505.3584522471156,0.958,0.889
+T5,all_countries_post_validation,Chile,CHL,Latin America & the Caribbean,3,Greece,GRC,Southern Europe,False,0.060146135528592354,12879.549524846978,0.958,0.9861523244312562
+T5,all_countries_post_validation,Chile,CHL,Latin America & the Caribbean,4,Ivory Coast,CIV,Central/Western Africa,False,0.06448470777751746,8547.150542482883,0.958,0.982
+T5,all_countries_post_validation,Chile,CHL,Latin America & the Caribbean,5,Brazil,BRA,Latin America & the Caribbean,True,0.08930694086861622,3671.2202320426436,0.958,0.973
+T5,all_countries_post_validation,China,CHN,Eastern Asia,1,Yemen,YEM,Middle East,False,0.1322055192589059,6350.3674896332095,1.0,0.924
+T5,all_countries_post_validation,China,CHN,Eastern Asia,2,Madagascar,MDG,Eastern Africa,False,0.1334851224274007,8513.163104384234,1.0,0.923
+T5,all_countries_post_validation,China,CHN,Eastern Asia,3,Afghanistan,AFG,Southern Asia,False,0.13640037777740976,3682.4835044413157,1.0,0.7994011976047904
+T5,all_countries_post_validation,China,CHN,Eastern Asia,4,United States,USA,Northern America,False,0.1582653365772567,11637.160455938778,1.0,0.9601196410767696
+T5,all_countries_post_validation,China,CHN,Eastern Asia,5,Somalia,SOM,Eastern Africa,False,0.16275865098529738,7107.196672012636,1.0,0.829
+T5,all_countries_post_validation,Ivory Coast,CIV,Central/Western Africa,1,Portugal,PRT,Southern Europe,False,0.052955468007348495,3581.234636855814,0.982,0.976023976023976
+T5,all_countries_post_validation,Ivory Coast,CIV,Central/Western Africa,2,Zimbabwe,ZWE,Eastern Africa,False,0.05438497389252441,4873.702524287541,0.982,0.98
+T5,all_countries_post_validation,Ivory Coast,CIV,Central/Western Africa,3,Bolivia,BOL,Latin America & the Caribbean,False,0.05484493316089682,7023.460521299507,0.982,0.889
+T5,all_countries_post_validation,Ivory Coast,CIV,Central/Western Africa,4,Chile,CHL,Latin America & the Caribbean,False,0.06448470777751746,8547.150542482883,0.982,0.958
+T5,all_countries_post_validation,Ivory Coast,CIV,Central/Western Africa,5,Greece,GRC,Southern Europe,False,0.07492176846031239,4479.378290694523,0.982,0.9861523244312562
+T5,all_countries_post_validation,Cameroon,CMR,Central/Western Africa,1,South Africa,ZAF,Southern Africa,False,0.04598405340713796,3995.6867890309272,0.962,0.904
+T5,all_countries_post_validation,Cameroon,CMR,Central/Western Africa,2,Zambia,ZMB,Eastern Africa,False,0.06634758939830873,2633.378459152634,0.962,0.873
+T5,all_countries_post_validation,Cameroon,CMR,Central/Western Africa,3,Greece,GRC,Southern Europe,False,0.07638029083707047,3991.625958126897,0.962,0.9861523244312562
+T5,all_countries_post_validation,Cameroon,CMR,Central/Western Africa,4,Gabon,GAB,Central/Western Africa,True,0.09165387316726803,562.9809705734785,0.962,0.99
+T5,all_countries_post_validation,Cameroon,CMR,Central/Western Africa,5,Congo Kinshasa,COD,Central/Western Africa,True,0.0989524820878862,1415.2678454120605,0.962,0.9
+T5,all_countries_post_validation,Congo Kinshasa,COD,Central/Western Africa,1,Philippines,PHL,Southeastern Asia,False,0.08019269626200426,11029.878787362793,0.9,0.9720837487537388
+T5,all_countries_post_validation,Congo Kinshasa,COD,Central/Western Africa,2,Liberia,LBR,Central/Western Africa,True,0.0896614427467298,3769.0896168502027,0.9,0.9870259481037924
+T5,all_countries_post_validation,Congo Kinshasa,COD,Central/Western Africa,3,Zambia,ZMB,Eastern Africa,False,0.09836487815257092,1459.6444645189154,0.9,0.873
+T5,all_countries_post_validation,Congo Kinshasa,COD,Central/Western Africa,4,Cameroon,CMR,Central/Western Africa,True,0.0989524820878862,1415.2678454120605,0.9,0.962
+T5,all_countries_post_validation,Congo Kinshasa,COD,Central/Western Africa,5,Niger,NER,Central/Western Africa,True,0.10075193384102185,2635.7473938587427,0.9,0.931
+T5,all_countries_post_validation,Congo Brazzaville,COG,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.10833345757903379,2010.3772477344855,0.915,0.873
+T5,all_countries_post_validation,Congo Brazzaville,COG,Central/Western Africa,2,Mali,MLI,Central/Western Africa,True,0.10907586385402555,2844.2121135302177,0.915,0.995
+T5,all_countries_post_validation,Congo Brazzaville,COG,Central/Western Africa,3,Congo Kinshasa,COD,Central/Western Africa,True,0.11603855051987826,869.2560828851283,0.915,0.9
+T5,all_countries_post_validation,Congo Brazzaville,COG,Central/Western Africa,4,Niger,NER,Central/Western Africa,True,0.1165929331948156,2047.472359841976,0.915,0.931
+T5,all_countries_post_validation,Congo Brazzaville,COG,Central/Western Africa,5,Mozambique,MOZ,Eastern Africa,False,0.11975464851700608,2878.4651648151726,0.915,0.928
+T5,all_countries_post_validation,Colombia,COL,Latin America & the Caribbean,1,Guatemala,GTM,Latin America & the Caribbean,True,0.02519766392017153,2295.244923573796,0.9246031746031746,0.939
+T5,all_countries_post_validation,Colombia,COL,Latin America & the Caribbean,2,Iraq,IRQ,Middle East,False,0.03512275502022295,12219.159849607335,0.9246031746031746,0.9884057971014492
+T5,all_countries_post_validation,Colombia,COL,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.039124882852809774,8451.947748271163,0.9246031746031746,0.904
+T5,all_countries_post_validation,Colombia,COL,Latin America & the Caribbean,4,Togo,TGO,Central/Western Africa,False,0.055391045178542916,8218.908540805982,0.9246031746031746,0.909
+T5,all_countries_post_validation,Colombia,COL,Latin America & the Caribbean,5,Panama,PAN,Latin America & the Caribbean,True,0.056906678037992424,991.5694593588124,0.9246031746031746,0.949
+T5,all_countries_post_validation,Comoros,COM,Eastern Africa,1,Mali,MLI,Central/Western Africa,False,0.04053160255466333,6013.958128191795,0.774,0.995
+T5,all_countries_post_validation,Comoros,COM,Eastern Africa,2,Senegal,SEN,Central/Western Africa,False,0.07701914562527924,7059.31850416631,0.774,0.976
+T5,all_countries_post_validation,Comoros,COM,Eastern Africa,3,Eswatini,SWZ,Southern Africa,False,0.07725523820363002,2061.0872668017555,0.774,0.934
+T5,all_countries_post_validation,Comoros,COM,Eastern Africa,4,Botswana,BWA,Southern Africa,False,0.09242866089968368,2336.384384556517,0.774,0.9623389494549058
+T5,all_countries_post_validation,Comoros,COM,Eastern Africa,5,Benin,BEN,Central/Western Africa,False,0.09637527470075177,5147.881596574726,0.774,0.987
+T5,all_countries_post_validation,Costa Rica,CRI,Latin America & the Caribbean,1,Mexico,MEX,Latin America & the Caribbean,True,0.07274899707181448,2469.3601265750954,0.961,0.975
+T5,all_countries_post_validation,Costa Rica,CRI,Latin America & the Caribbean,2,Italy,ITA,Southern Europe,False,0.08065633051896273,9624.076014365335,0.961,0.994
+T5,all_countries_post_validation,Costa Rica,CRI,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.09183417650775813,9190.430333157734,0.961,0.904
+T5,all_countries_post_validation,Costa Rica,CRI,Latin America & the Caribbean,4,Mongolia,MNG,Eastern Asia,False,0.09591529382007145,13727.311564304737,0.961,0.944
+T5,all_countries_post_validation,Costa Rica,CRI,Latin America & the Caribbean,5,Iraq,IRQ,Middle East,False,0.0962368772188383,12663.426003135974,0.961,0.9884057971014492
+T5,all_countries_post_validation,Cyprus,CYP,Southern Europe,1,Mongolia,MNG,Eastern Asia,False,0.047409199771878116,5935.417894882498,0.9660523763336566,0.944
+T5,all_countries_post_validation,Cyprus,CYP,Southern Europe,2,Ukraine,UKR,Eastern Europe,False,0.06759591423769097,1648.7454891337454,0.9660523763336566,0.923
+T5,all_countries_post_validation,Cyprus,CYP,Southern Europe,3,Argentina,ARG,Latin America & the Caribbean,False,0.07062851552451026,12645.236341335363,0.9660523763336566,0.9661016949152542
+T5,all_countries_post_validation,Cyprus,CYP,Southern Europe,4,Bolivia,BOL,Latin America & the Caribbean,False,0.07076327414939226,11743.348739771907,0.9660523763336566,0.889
+T5,all_countries_post_validation,Cyprus,CYP,Southern Europe,5,Italy,ITA,Southern Europe,True,0.07328372542056436,2163.273279786079,0.9660523763336566,0.994
+T5,all_countries_post_validation,Czech Republic,CZE,Eastern Europe,1,Estonia,EST,Northern/Western Europe,False,0.04944665488890668,1192.8241516643084,0.9631474103585658,0.9692765113974232
+T5,all_countries_post_validation,Czech Republic,CZE,Eastern Europe,2,Bahrain,BHR,Middle East,False,0.062393152136753706,4002.591734237586,0.9631474103585658,0.9265143992055612
+T5,all_countries_post_validation,Czech Republic,CZE,Eastern Europe,3,Switzerland,CHE,Northern/Western Europe,False,0.06271048365823502,682.384789730563,0.9631474103585658,0.975
+T5,all_countries_post_validation,Czech Republic,CZE,Eastern Europe,4,Israel,ISR,Middle East,False,0.065248981721461,2660.4933574934003,0.9631474103585658,0.903
+T5,all_countries_post_validation,Czech Republic,CZE,Eastern Europe,5,Belgium,BEL,Northern/Western Europe,False,0.06799022175216914,756.7511574628088,0.9631474103585658,0.97
+T5,all_countries_post_validation,Germany,DEU,Northern/Western Europe,1,Belgium,BEL,Northern/Western Europe,True,0.031023421910795945,342.77012780993994,0.993,0.97
+T5,all_countries_post_validation,Germany,DEU,Northern/Western Europe,2,Latvia,LVA,Northern/Western Europe,True,0.04830069308333189,1229.9423676707163,0.993,0.9480392156862744
+T5,all_countries_post_validation,Germany,DEU,Northern/Western Europe,3,Myanmar,MMR,Southeastern Asia,False,0.04947347675425067,7897.512709436568,0.993,0.871
+T5,all_countries_post_validation,Germany,DEU,Northern/Western Europe,4,Laos,LAO,Southeastern Asia,False,0.049556306514121705,8536.74723230655,0.993,0.805
+T5,all_countries_post_validation,Germany,DEU,Northern/Western Europe,5,Canada,CAN,Northern America,False,0.05922404044273985,6219.832677296931,0.993,0.9890547263681592
+T5,all_countries_post_validation,Denmark,DNK,Northern/Western Europe,1,Tajikistan,TJK,Central Asia,False,0.05950567916571652,4993.4229760882245,0.991044776119403,0.8121878121878122
+T5,all_countries_post_validation,Denmark,DNK,Northern/Western Europe,2,Lithuania,LTU,Northern/Western Europe,True,0.06085516265537096,951.3194010745904,0.991044776119403,0.795
+T5,all_countries_post_validation,Denmark,DNK,Northern/Western Europe,3,Singapore,SGP,Southeastern Asia,False,0.07548551826497177,10179.866256893822,0.991044776119403,0.9815712900096992
+T5,all_countries_post_validation,Denmark,DNK,Northern/Western Europe,4,Norway,NOR,Northern/Western Europe,True,0.07654723384237674,600.568179505227,0.991044776119403,0.99
+T5,all_countries_post_validation,Denmark,DNK,Northern/Western Europe,5,Estonia,EST,Northern/Western Europe,True,0.08094171304740108,1053.1297273806933,0.991044776119403,0.9692765113974232
+T5,all_countries_post_validation,Dominican Republic,DOM,Latin America & the Caribbean,1,Iraq,IRQ,Middle East,False,0.057677677693830205,10916.73149371049,0.897,0.9884057971014492
+T5,all_countries_post_validation,Dominican Republic,DOM,Latin America & the Caribbean,2,Algeria,DZA,Northern Africa,False,0.06578334386167786,7459.242852411033,0.897,0.904
+T5,all_countries_post_validation,Dominican Republic,DOM,Latin America & the Caribbean,3,Jordan,JOR,Middle East,False,0.06773462744446768,10454.461065491907,0.897,0.918
+T5,all_countries_post_validation,Dominican Republic,DOM,Latin America & the Caribbean,4,Togo,TGO,Central/Western Africa,False,0.0683414825008024,7776.166262402941,0.897,0.909
+T5,all_countries_post_validation,Dominican Republic,DOM,Latin America & the Caribbean,5,Italy,ITA,Southern Europe,False,0.07026554152350381,7885.957643133585,0.897,0.994
+T5,all_countries_post_validation,Algeria,DZA,Northern Africa,1,Iraq,IRQ,Middle East,False,0.025977264733453468,3913.006199741499,0.904,0.9884057971014492
+T5,all_countries_post_validation,Algeria,DZA,Northern Africa,2,Colombia,COL,Latin America & the Caribbean,False,0.039124882852809774,8451.947748271163,0.904,0.9246031746031746
+T5,all_countries_post_validation,Algeria,DZA,Northern Africa,3,Togo,TGO,Central/Western Africa,False,0.045238853647473626,2075.300791198974,0.904,0.909
+T5,all_countries_post_validation,Algeria,DZA,Northern Africa,4,Guatemala,GTM,Latin America & the Caribbean,False,0.050606453296759765,9564.357249552695,0.904,0.939
+T5,all_countries_post_validation,Algeria,DZA,Northern Africa,5,Mexico,MEX,Latin America & the Caribbean,False,0.05282717611003646,10165.655304841794,0.904,0.975
+T5,all_countries_post_validation,Ecuador,ECU,Latin America & the Caribbean,1,Brazil,BRA,Latin America & the Caribbean,True,0.06067893276288863,3378.69998550925,0.944,0.973
+T5,all_countries_post_validation,Ecuador,ECU,Latin America & the Caribbean,2,Peru,PER,Latin America & the Caribbean,True,0.06767009019169262,1427.1887460248586,0.944,0.953
+T5,all_countries_post_validation,Ecuador,ECU,Latin America & the Caribbean,3,Chile,CHL,Latin America & the Caribbean,True,0.08985579011339577,4145.830450763065,0.944,0.958
+T5,all_countries_post_validation,Ecuador,ECU,Latin America & the Caribbean,4,Bolivia,BOL,Latin America & the Caribbean,True,0.11089374264661737,2269.3581780710315,0.944,0.889
+T5,all_countries_post_validation,Ecuador,ECU,Latin America & the Caribbean,5,Greece,GRC,Southern Europe,False,0.11822088532588976,10946.261816917222,0.944,0.9861523244312562
+T5,all_countries_post_validation,Egypt,EGY,Northern Africa,1,Bulgaria,BGR,Eastern Europe,False,0.05600565225645351,1856.5229818047399,0.992,0.831
+T5,all_countries_post_validation,Egypt,EGY,Northern Africa,2,Poland,POL,Eastern Europe,False,0.05826824199248689,2988.763781583156,0.992,0.818
+T5,all_countries_post_validation,Egypt,EGY,Northern Africa,3,Libya,LBY,Northern Africa,True,0.07717872106466875,1139.502387496089,0.992,0.9502487562189056
+T5,all_countries_post_validation,Egypt,EGY,Northern Africa,4,Nicaragua,NIC,Latin America & the Caribbean,False,0.08535661102859146,11726.094702406692,0.992,0.951
+T5,all_countries_post_validation,Egypt,EGY,Northern Africa,5,France,FRA,Northern/Western Europe,False,0.08627623482595802,3284.2473711349685,0.992,0.979
+T5,all_countries_post_validation,Spain,ESP,Southern Europe,1,Ukraine,UKR,Eastern Europe,False,0.04273293164151667,2967.976535363372,0.998,0.923
+T5,all_countries_post_validation,Spain,ESP,Southern Europe,2,Uruguay,URY,Latin America & the Caribbean,False,0.060687165566223535,9750.401669285566,0.998,0.955
+T5,all_countries_post_validation,Spain,ESP,Southern Europe,3,Palestine,PSE,Middle East,False,0.06294138217956197,3566.1789758052596,0.998,0.945
+T5,all_countries_post_validation,Spain,ESP,Southern Europe,4,Guatemala,GTM,Latin America & the Caribbean,False,0.06376639613287316,8693.829455641986,0.998,0.939
+T5,all_countries_post_validation,Spain,ESP,Southern Europe,5,Panama,PAN,Latin America & the Caribbean,False,0.06784780800288304,8271.014005314702,0.998,0.949
+T5,all_countries_post_validation,Estonia,EST,Northern/Western Europe,1,Czech Republic,CZE,Eastern Europe,False,0.04944665488890668,1192.8241516643084,0.9692765113974232,0.9631474103585658
+T5,all_countries_post_validation,Estonia,EST,Northern/Western Europe,2,Lithuania,LTU,Northern/Western Europe,True,0.05309489610649132,416.8175372082922,0.9692765113974232,0.795
+T5,all_countries_post_validation,Estonia,EST,Northern/Western Europe,3,Bahrain,BHR,Middle East,False,0.060030841381993126,4108.498790289831,0.9692765113974232,0.9265143992055612
+T5,all_countries_post_validation,Estonia,EST,Northern/Western Europe,4,Tajikistan,TJK,Central Asia,False,0.0617738732399649,4011.4832018201546,0.9692765113974232,0.8121878121878122
+T5,all_countries_post_validation,Estonia,EST,Northern/Western Europe,5,Switzerland,CHE,Northern/Western Europe,True,0.06623817579062724,1809.7669389448236,0.9692765113974232,0.975
+T5,all_countries_post_validation,Ethiopia,ETH,Eastern Africa,1,Somalia,SOM,Eastern Africa,True,0.05470005532886414,837.8981817094988,0.954,0.829
+T5,all_countries_post_validation,Ethiopia,ETH,Eastern Africa,2,North Macedonia,MKD,Southern Europe,False,0.07536984284743388,4108.023063047776,0.954,0.914
+T5,all_countries_post_validation,Ethiopia,ETH,Eastern Africa,3,Russia,RUS,Eastern Europe,False,0.07703546070988856,5604.408324407453,0.954,0.9649209486166008
+T5,all_countries_post_validation,Ethiopia,ETH,Eastern Africa,4,Cambodia,KHM,Southeastern Asia,False,0.0862048851891034,7157.7424139610275,0.954,0.947
+T5,all_countries_post_validation,Ethiopia,ETH,Eastern Africa,5,Iran,IRN,Southern Asia,False,0.0896407038328718,3143.0774427594592,0.954,0.9801390268123138
+T5,all_countries_post_validation,Finland,FIN,Northern/Western Europe,1,Tajikistan,TJK,Central Asia,False,0.06646846724657489,4089.4651923114143,0.9780658025922232,0.8121878121878122
+T5,all_countries_post_validation,Finland,FIN,Northern/Western Europe,2,Sweden,SWE,Northern/Western Europe,True,0.06882240553690054,488.98895386612156,0.9780658025922232,0.9950248756218906
+T5,all_countries_post_validation,Finland,FIN,Northern/Western Europe,3,Iceland,ISL,Northern/Western Europe,True,0.07282626049818815,2195.495305304345,0.9780658025922232,0.984158415841584
+T5,all_countries_post_validation,Finland,FIN,Northern/Western Europe,4,Czech Republic,CZE,Eastern Europe,False,0.08103343440910134,1649.612189497448,0.9780658025922232,0.9631474103585658
+T5,all_countries_post_validation,Finland,FIN,Northern/Western Europe,5,Estonia,EST,Northern/Western Europe,True,0.08852822301973862,509.1078186061401,0.9780658025922232,0.9692765113974232
+T5,all_countries_post_validation,France,FRA,Northern/Western Europe,1,Latvia,LVA,Northern/Western Europe,True,0.02275351758170936,1934.3996657295052,0.979,0.9480392156862744
+T5,all_countries_post_validation,France,FRA,Northern/Western Europe,2,Taiwan,TWN,Eastern Asia,False,0.05225200057818115,10046.079060698417,0.979,0.975
+T5,all_countries_post_validation,France,FRA,Northern/Western Europe,3,Belgium,BEL,Northern/Western Europe,True,0.05806516453919986,483.60993078915016,0.979,0.97
+T5,all_countries_post_validation,France,FRA,Northern/Western Europe,4,Japan,JPN,Eastern Asia,False,0.059213965702285494,9806.667906586468,0.979,0.9601593625498008
+T5,all_countries_post_validation,France,FRA,Northern/Western Europe,5,Germany,DEU,Northern/Western Europe,True,0.0629367491818776,704.4574029574846,0.979,0.993
+T5,all_countries_post_validation,Gabon,GAB,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.06709668487168335,2250.055025082793,0.99,0.873
+T5,all_countries_post_validation,Gabon,GAB,Central/Western Africa,2,Mozambique,MOZ,Eastern Africa,False,0.07018426415074451,3231.32285290149,0.99,0.928
+T5,all_countries_post_validation,Gabon,GAB,Central/Western Africa,3,Sierra Leone,SLE,Central/Western Africa,True,0.07418800040968607,2801.7846540598307,0.99,0.787
+T5,all_countries_post_validation,Gabon,GAB,Central/Western Africa,4,Cameroon,CMR,Central/Western Africa,True,0.09165387316726803,562.9809705734785,0.99,0.962
+T5,all_countries_post_validation,Gabon,GAB,Central/Western Africa,5,South Africa,ZAF,Southern Africa,False,0.09315954967498107,3487.6232850540277,0.99,0.904
+T5,all_countries_post_validation,United Kingdom,GBR,Northern/Western Europe,1,Saudi Arabia,SAU,Middle East,False,0.054168204333514776,5132.5171047700005,0.988,0.9823182711198428
+T5,all_countries_post_validation,United Kingdom,GBR,Northern/Western Europe,2,Lithuania,LTU,Northern/Western Europe,True,0.07097769939985231,1673.5875252543315,0.988,0.795
+T5,all_countries_post_validation,United Kingdom,GBR,Northern/Western Europe,3,Switzerland,CHE,Northern/Western Europe,True,0.07268004677152073,1087.9158359211813,0.988,0.975
+T5,all_countries_post_validation,United Kingdom,GBR,Northern/Western Europe,4,Tajikistan,TJK,Central Asia,False,0.07780217752309197,5718.351502057745,0.988,0.8121878121878122
+T5,all_countries_post_validation,United Kingdom,GBR,Northern/Western Europe,5,Thailand,THA,Southeastern Asia,False,0.08502589245458828,9441.46146535667,0.988,0.936
+T5,all_countries_post_validation,Georgia,GEO,Central Asia,1,Slovenia,SVN,Southern Europe,False,0.021696897034437113,2339.662638954406,0.934,0.981018981018981
+T5,all_countries_post_validation,Georgia,GEO,Central Asia,2,Taiwan,TWN,Eastern Asia,False,0.050099250159784066,7248.367989901442,0.934,0.975
+T5,all_countries_post_validation,Georgia,GEO,Central Asia,3,Latvia,LVA,Northern/Western Europe,False,0.06329619775907293,2130.463029997526,0.934,0.9480392156862744
+T5,all_countries_post_validation,Georgia,GEO,Central Asia,4,Kosovo,XKX,Eastern Europe,False,0.06428188011630084,1879.3359099435347,0.934,0.851
+T5,all_countries_post_validation,Georgia,GEO,Central Asia,5,Ireland,IRL,Northern/Western Europe,False,0.0748458702480863,3972.152104245827,0.934,0.998
+T5,all_countries_post_validation,Ghana,GHA,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.07065921797626348,3916.8605836846086,0.917,0.873
+T5,all_countries_post_validation,Ghana,GHA,Central/Western Africa,2,Niger,NER,Central/Western Africa,True,0.07166516592995982,1573.2590178876524,0.917,0.931
+T5,all_countries_post_validation,Ghana,GHA,Central/Western Africa,3,Mauritania,MRT,Central/Western Africa,True,0.09636377770736881,1619.4158936895114,0.917,0.97
+T5,all_countries_post_validation,Ghana,GHA,Central/Western Africa,4,Mozambique,MOZ,Eastern Africa,False,0.09759254986857349,4919.698439742134,0.917,0.928
+T5,all_countries_post_validation,Ghana,GHA,Central/Western Africa,5,Benin,BEN,Central/Western Africa,True,0.09847846239670816,471.73020331942894,0.917,0.987
+T5,all_countries_post_validation,Guinea,GIN,Central/Western Africa,1,Sierra Leone,SLE,Central/Western Africa,True,0.06706587321630834,293.5988325116173,0.944,0.787
+T5,all_countries_post_validation,Guinea,GIN,Central/Western Africa,2,Chad,TCD,Central/Western Africa,True,0.08654659759791608,3144.7296179583896,0.944,0.948
+T5,all_countries_post_validation,Guinea,GIN,Central/Western Africa,3,Mozambique,MOZ,Eastern Africa,False,0.08709406207846378,5942.035835678395,0.944,0.928
+T5,all_countries_post_validation,Guinea,GIN,Central/Western Africa,4,Zambia,ZMB,Eastern Africa,False,0.09861381231561135,4899.364989045755,0.944,0.873
+T5,all_countries_post_validation,Guinea,GIN,Central/Western Africa,5,Congo Kinshasa,COD,Central/Western Africa,True,0.10482589816298463,3954.890091690428,0.944,0.9
+T5,all_countries_post_validation,Gambia,GMB,Central/Western Africa,1,Tanzania,TZA,Eastern Africa,False,0.05856189867124748,5932.8027472149215,0.876,0.936127744510978
+T5,all_countries_post_validation,Gambia,GMB,Central/Western Africa,2,Zimbabwe,ZWE,Eastern Africa,False,0.061272509741653915,6108.6290084343855,0.876,0.98
+T5,all_countries_post_validation,Gambia,GMB,Central/Western Africa,3,Kenya,KEN,Eastern Africa,False,0.06681165228005023,6000.134515609226,0.876,0.968
+T5,all_countries_post_validation,Gambia,GMB,Central/Western Africa,4,Burkina Faso,BFA,Central/Western Africa,True,0.07500197718846112,1480.0057307491377,0.876,0.939
+T5,all_countries_post_validation,Gambia,GMB,Central/Western Africa,5,Benin,BEN,Central/Western Africa,True,0.0751468806707492,1922.330958716041,0.876,0.987
+T5,all_countries_post_validation,Greece,GRC,Southern Europe,1,Chile,CHL,Latin America & the Caribbean,False,0.060146135528592354,12879.549524846978,0.9861523244312562,0.958
+T5,all_countries_post_validation,Greece,GRC,Southern Europe,2,Peru,PER,Latin America & the Caribbean,False,0.06147158993928283,11312.914632992293,0.9861523244312562,0.953
+T5,all_countries_post_validation,Greece,GRC,Southern Europe,3,Bolivia,BOL,Latin America & the Caribbean,False,0.06810896866041656,10869.84398915189,0.9861523244312562,0.889
+T5,all_countries_post_validation,Greece,GRC,Southern Europe,4,Ivory Coast,CIV,Central/Western Africa,False,0.07492176846031239,4479.378290694523,0.9861523244312562,0.982
+T5,all_countries_post_validation,Greece,GRC,Southern Europe,5,Cameroon,CMR,Central/Western Africa,False,0.07638029083707047,3991.625958126897,0.9861523244312562,0.962
+T5,all_countries_post_validation,Guatemala,GTM,Latin America & the Caribbean,1,Colombia,COL,Latin America & the Caribbean,True,0.02519766392017153,2295.244923573796,0.939,0.9246031746031746
+T5,all_countries_post_validation,Guatemala,GTM,Latin America & the Caribbean,2,Iraq,IRQ,Middle East,False,0.03261006221120814,12759.047655517868,0.939,0.9884057971014492
+T5,all_countries_post_validation,Guatemala,GTM,Latin America & the Caribbean,3,Algeria,DZA,Northern Africa,False,0.050606453296759765,9564.357249552695,0.939,0.904
+T5,all_countries_post_validation,Guatemala,GTM,Latin America & the Caribbean,4,Argentina,ARG,Latin America & the Caribbean,True,0.050734218057862504,6071.049712708799,0.939,0.9661016949152542
+T5,all_countries_post_validation,Guatemala,GTM,Latin America & the Caribbean,5,Panama,PAN,Latin America & the Caribbean,True,0.054285206977735895,1304.5771938337891,0.939,0.949
+T5,all_countries_post_validation,Hong Kong,HKG,Eastern Asia,1,Hungary,HUN,Eastern Europe,False,0.04889178212480258,8537.805378138679,0.9950199203187252,0.9861523244312562
+T5,all_countries_post_validation,Hong Kong,HKG,Eastern Asia,2,United Arab Emirates,ARE,Middle East,False,0.07025449860704597,6052.34437647552,0.9950199203187252,0.989
+T5,all_countries_post_validation,Hong Kong,HKG,Eastern Asia,3,Slovenia,SVN,Southern Europe,False,0.07032665928906968,8902.212348174497,0.9950199203187252,0.981018981018981
+T5,all_countries_post_validation,Hong Kong,HKG,Eastern Asia,4,Ireland,IRL,Northern/Western Europe,False,0.07226068122277125,9931.584734621114,0.9950199203187252,0.998
+T5,all_countries_post_validation,Hong Kong,HKG,Eastern Asia,5,Switzerland,CHE,Northern/Western Europe,False,0.07283238485653507,9391.052210905445,0.9950199203187252,0.975
+T5,all_countries_post_validation,Honduras,HND,Latin America & the Caribbean,1,Ukraine,UKR,Eastern Europe,False,0.09266413666811597,10699.959933593476,0.922,0.923
+T5,all_countries_post_validation,Honduras,HND,Latin America & the Caribbean,2,Spain,ESP,Southern Europe,False,0.09630242045608207,8403.17532772891,0.922,0.998
+T5,all_countries_post_validation,Honduras,HND,Latin America & the Caribbean,3,Egypt,EGY,Northern Africa,False,0.09971597291585008,11763.788832630904,0.922,0.992
+T5,all_countries_post_validation,Honduras,HND,Latin America & the Caribbean,4,Argentina,ARG,Latin America & the Caribbean,True,0.09974335019190027,5885.849805296968,0.922,0.9661016949152542
+T5,all_countries_post_validation,Honduras,HND,Latin America & the Caribbean,5,Mexico,MEX,Latin America & the Caribbean,True,0.0998648072908431,1905.5288845273901,0.922,0.975
+T5,all_countries_post_validation,Croatia,HRV,Southern Europe,1,Montenegro,MNE,Southern Europe,True,0.06815066044123272,400.08095336969996,0.798804780876494,0.934
+T5,all_countries_post_validation,Croatia,HRV,Southern Europe,2,Estonia,EST,Northern/Western Europe,False,0.08064423290988577,1571.5813420701656,0.798804780876494,0.9692765113974232
+T5,all_countries_post_validation,Croatia,HRV,Southern Europe,3,Bahrain,BHR,Middle East,False,0.09661720018818028,3735.301035276692,0.798804780876494,0.9265143992055612
+T5,all_countries_post_validation,Croatia,HRV,Southern Europe,4,Hungary,HUN,Eastern Europe,False,0.09828288720340173,275.31178586240907,0.798804780876494,0.9861523244312562
+T5,all_countries_post_validation,Croatia,HRV,Southern Europe,5,Iran,IRN,Southern Asia,False,0.09928558786620612,3616.8475796468333,0.798804780876494,0.9801390268123138
+T5,all_countries_post_validation,Hungary,HUN,Eastern Europe,1,Hong Kong,HKG,Eastern Asia,False,0.04889178212480258,8537.805378138679,0.9861523244312562,0.9950199203187252
+T5,all_countries_post_validation,Hungary,HUN,Eastern Europe,2,Bahrain,BHR,Middle East,False,0.08717394453334058,3589.6038146304572,0.9861523244312562,0.9265143992055612
+T5,all_countries_post_validation,Hungary,HUN,Eastern Europe,3,Singapore,SGP,Southeastern Asia,False,0.08736471902677012,9470.118641759245,0.9861523244312562,0.9815712900096992
+T5,all_countries_post_validation,Hungary,HUN,Eastern Europe,4,Slovenia,SVN,Southern Europe,False,0.09034228873215991,364.6969830680877,0.9861523244312562,0.981018981018981
+T5,all_countries_post_validation,Hungary,HUN,Eastern Europe,5,Iran,IRN,Southern Asia,False,0.09187013637479428,3421.3281112182635,0.9861523244312562,0.9801390268123138
+T5,all_countries_post_validation,Indonesia,IDN,Southeastern Asia,1,Malaysia,MYS,Southeastern Asia,True,0.07282004003112931,1383.130218507064,0.955,0.921
+T5,all_countries_post_validation,Indonesia,IDN,Southeastern Asia,2,Malta,MLT,Southern Europe,False,0.095526272969616,9841.050048607261,0.955,0.994
+T5,all_countries_post_validation,Indonesia,IDN,Southeastern Asia,3,Mauritius,MUS,Eastern Africa,False,0.10927691962353492,5272.878140082647,0.955,0.918
+T5,all_countries_post_validation,Indonesia,IDN,Southeastern Asia,4,Morocco,MAR,Northern Africa,False,0.1107993031882282,11861.93676334253,0.955,0.8846153846153846
+T5,all_countries_post_validation,Indonesia,IDN,Southeastern Asia,5,Sri Lanka,LKA,Southern Asia,False,0.11173748406195129,2534.263619417783,0.955,0.92
+T5,all_countries_post_validation,India,IND,Southern Asia,1,Portugal,PRT,Southern Europe,False,0.051067532267515287,8230.793087702736,0.97,0.976023976023976
+T5,all_countries_post_validation,India,IND,Southern Asia,2,Nepal,NPL,Southern Asia,True,0.060738883855582744,757.4380138939673,0.97,0.925
+T5,all_countries_post_validation,India,IND,Southern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.0641881849138887,2158.0076271199573,0.97,0.888
+T5,all_countries_post_validation,India,IND,Southern Asia,4,Cambodia,KHM,Southeastern Asia,False,0.06664207827143473,2882.750470363781,0.97,0.947
+T5,all_countries_post_validation,India,IND,Southern Asia,5,North Macedonia,MKD,Southern Europe,False,0.07809972819437971,5716.656095699428,0.97,0.914
+T5,all_countries_post_validation,Ireland,IRL,Northern/Western Europe,1,Nicaragua,NIC,Latin America & the Caribbean,False,0.027667331473324657,8036.276903564863,0.998,0.951
+T5,all_countries_post_validation,Ireland,IRL,Northern/Western Europe,2,Moldova,MDA,Eastern Europe,False,0.03411299254235164,2624.4050836716647,0.998,0.806
+T5,all_countries_post_validation,Ireland,IRL,Northern/Western Europe,3,Kosovo,XKX,Eastern Europe,False,0.052490614188307534,2413.0977585537225,0.998,0.851
+T5,all_countries_post_validation,Ireland,IRL,Northern/Western Europe,4,Romania,ROU,Eastern Europe,False,0.05252457307269544,2482.216166279308,0.998,0.857
+T5,all_countries_post_validation,Ireland,IRL,Northern/Western Europe,5,El Salvador,SLV,Latin America & the Caribbean,False,0.05737437676791194,8202.63113220643,0.998,0.925
+T5,all_countries_post_validation,Iran,IRN,Southern Asia,1,United States,USA,Northern America,False,0.06258175224271291,11549.702591237852,0.9801390268123138,0.9601196410767696
+T5,all_countries_post_validation,Iran,IRN,Southern Asia,2,Laos,LAO,Southeastern Asia,False,0.06981303143810672,4928.822873640953,0.9801390268123138,0.805
+T5,all_countries_post_validation,Iran,IRN,Southern Asia,3,Cambodia,KHM,Southeastern Asia,False,0.07072972510447878,5481.200013953415,0.9801390268123138,0.947
+T5,all_countries_post_validation,Iran,IRN,Southern Asia,4,Russia,RUS,Eastern Europe,False,0.07199941884077878,3001.5891533680287,0.9801390268123138,0.9649209486166008
+T5,all_countries_post_validation,Iran,IRN,Southern Asia,5,Bosnia Herzegovina,BIH,Southern Europe,False,0.07574155971609413,3450.7887096862914,0.9801390268123138,0.891
+T5,all_countries_post_validation,Iraq,IRQ,Middle East,1,Algeria,DZA,Northern Africa,False,0.025977264733453468,3913.006199741499,0.9884057971014492,0.904
+T5,all_countries_post_validation,Iraq,IRQ,Middle East,2,Guatemala,GTM,Latin America & the Caribbean,False,0.03261006221120814,12759.047655517868,0.9884057971014492,0.939
+T5,all_countries_post_validation,Iraq,IRQ,Middle East,3,Colombia,COL,Latin America & the Caribbean,False,0.03512275502022295,12219.159849607335,0.9884057971014492,0.9246031746031746
+T5,all_countries_post_validation,Iraq,IRQ,Middle East,4,Togo,TGO,Central/Western Africa,False,0.04087809748161186,5095.313304268559,0.9884057971014492,0.909
+T5,all_countries_post_validation,Iraq,IRQ,Middle East,5,Panama,PAN,Latin America & the Caribbean,False,0.054106467335116364,12460.858010277798,0.9884057971014492,0.949
+T5,all_countries_post_validation,Iceland,ISL,Northern/Western Europe,1,Sweden,SWE,Northern/Western Europe,True,0.06929921788920397,1727.6720508358596,0.984158415841584,0.9950248756218906
+T5,all_countries_post_validation,Iceland,ISL,Northern/Western Europe,2,Norway,NOR,Northern/Western Europe,True,0.07068461811664206,1464.0285702544877,0.984158415841584,0.99
+T5,all_countries_post_validation,Iceland,ISL,Northern/Western Europe,3,Finland,FIN,Northern/Western Europe,True,0.07282626049818815,2195.495305304345,0.984158415841584,0.9780658025922232
+T5,all_countries_post_validation,Iceland,ISL,Northern/Western Europe,4,Tajikistan,TJK,Central Asia,False,0.0904285106576276,6281.381537125725,0.984158415841584,0.8121878121878122
+T5,all_countries_post_validation,Iceland,ISL,Northern/Western Europe,5,Denmark,DNK,Northern/Western Europe,True,0.1039295661416316,1787.9240732957505,0.984158415841584,0.991044776119403
+T5,all_countries_post_validation,Israel,ISR,Middle East,1,Czech Republic,CZE,Eastern Europe,False,0.065248981721461,2660.4933574934003,0.903,0.9631474103585658
+T5,all_countries_post_validation,Israel,ISR,Middle East,2,Libya,LBY,Northern Africa,False,0.08700794383328611,1706.353831906187,0.903,0.9502487562189056
+T5,all_countries_post_validation,Israel,ISR,Middle East,3,Kuwait,KWT,Middle East,True,0.08911222041753432,1209.3381887654014,0.903,0.8993414863593603
+T5,all_countries_post_validation,Israel,ISR,Middle East,4,Belgium,BEL,Northern/Western Europe,False,0.09326582128838236,3316.4441538129026,0.903,0.97
+T5,all_countries_post_validation,Israel,ISR,Middle East,5,Finland,FIN,Northern/Western Europe,False,0.10125151567095377,3636.0808786124344,0.903,0.9780658025922232
+T5,all_countries_post_validation,Italy,ITA,Southern Europe,1,Mongolia,MNG,Eastern Asia,False,0.046271371620781,6819.422871083432,0.994,0.944
+T5,all_countries_post_validation,Italy,ITA,Southern Europe,2,Iraq,IRQ,Middle East,False,0.05960980562641658,3044.402787339717,0.994,0.9884057971014492
+T5,all_countries_post_validation,Italy,ITA,Southern Europe,3,Guatemala,GTM,Latin America & the Caribbean,False,0.06512167304069989,9725.492185859446,0.994,0.939
+T5,all_countries_post_validation,Italy,ITA,Southern Europe,4,Dominican Republic,DOM,Latin America & the Caribbean,False,0.07026554152350381,7885.957643133585,0.994,0.897
+T5,all_countries_post_validation,Italy,ITA,Southern Europe,5,Bolivia,BOL,Latin America & the Caribbean,False,0.07286323082271055,10220.420828051021,0.994,0.889
+T5,all_countries_post_validation,Jordan,JOR,Middle East,1,Mexico,MEX,Latin America & the Caribbean,False,0.0490156197034781,12504.009648066267,0.918,0.975
+T5,all_countries_post_validation,Jordan,JOR,Middle East,2,Paraguay,PRY,Latin America & the Caribbean,False,0.057013691382887206,11814.347823558566,0.918,0.971
+T5,all_countries_post_validation,Jordan,JOR,Middle East,3,Palestine,PSE,Middle East,True,0.05736794279007418,172.26728038739688,0.918,0.945
+T5,all_countries_post_validation,Jordan,JOR,Middle East,4,Netherlands,NLD,Northern/Western Europe,False,0.0673225282367779,3462.0117106431544,0.918,0.9900695134061568
+T5,all_countries_post_validation,Jordan,JOR,Middle East,5,Dominican Republic,DOM,Latin America & the Caribbean,False,0.06773462744446768,10454.461065491907,0.918,0.897
+T5,all_countries_post_validation,Japan,JPN,Eastern Asia,1,France,FRA,Northern/Western Europe,False,0.059213965702285494,9806.667906586468,0.9601593625498008,0.979
+T5,all_countries_post_validation,Japan,JPN,Eastern Asia,2,Paraguay,PRY,Latin America & the Caribbean,False,0.0719716366572092,17602.26546145482,0.9601593625498008,0.971
+T5,all_countries_post_validation,Japan,JPN,Eastern Asia,3,Latvia,LVA,Northern/Western Europe,False,0.07452498525994038,7908.162728624835,0.9601593625498008,0.9480392156862744
+T5,all_countries_post_validation,Japan,JPN,Eastern Asia,4,Taiwan,TWN,Eastern Asia,True,0.08756511733162527,2184.1320318064377,0.9601593625498008,0.975
+T5,all_countries_post_validation,Japan,JPN,Eastern Asia,5,Jordan,JOR,Middle East,False,0.09978876871768169,9002.828867572527,0.9601593625498008,0.918
+T5,all_countries_post_validation,Kazakhstan,KAZ,Central Asia,1,Romania,ROU,Eastern Europe,False,0.029600602299945857,3265.081558807108,0.759,0.857
+T5,all_countries_post_validation,Kazakhstan,KAZ,Central Asia,2,Nicaragua,NIC,Latin America & the Caribbean,False,0.05838511695515435,12683.603886424875,0.759,0.951
+T5,all_countries_post_validation,Kazakhstan,KAZ,Central Asia,3,Moldova,MDA,Eastern Europe,False,0.0651930026845286,2947.089401300314,0.759,0.806
+T5,all_countries_post_validation,Kazakhstan,KAZ,Central Asia,4,Ireland,IRL,Northern/Western Europe,False,0.07364779150362157,5104.279011234631,0.759,0.998
+T5,all_countries_post_validation,Kazakhstan,KAZ,Central Asia,5,El Salvador,SLV,Latin America & the Caribbean,False,0.07872693428618738,12698.239638889992,0.759,0.925
+T5,all_countries_post_validation,Kenya,KEN,Eastern Africa,1,Burkina Faso,BFA,Central/Western Africa,False,0.06512415630782525,4533.174948328645,0.968,0.939
+T5,all_countries_post_validation,Kenya,KEN,Eastern Africa,2,Gambia,GMB,Central/Western Africa,False,0.06681165228005023,6000.134515609226,0.968,0.876
+T5,all_countries_post_validation,Kenya,KEN,Eastern Africa,3,Zimbabwe,ZWE,Eastern Africa,True,0.07494049820492123,2332.880322370217,0.968,0.98
+T5,all_countries_post_validation,Kenya,KEN,Eastern Africa,4,Benin,BEN,Central/Western Africa,False,0.07958784028201334,4077.8394037320227,0.968,0.987
+T5,all_countries_post_validation,Kenya,KEN,Eastern Africa,5,Vietnam,VNM,Southeastern Asia,False,0.08156442742432679,7665.693366316612,0.968,0.945
+T5,all_countries_post_validation,Kyrgyzstan,KGZ,Central Asia,1,Luxembourg,LUX,Northern/Western Europe,False,0.03556461227122663,5203.496322822437,0.888,0.98
+T5,all_countries_post_validation,Kyrgyzstan,KGZ,Central Asia,2,Ukraine,UKR,Eastern Europe,False,0.04791438870001573,3363.1414203154523,0.888,0.923
+T5,all_countries_post_validation,Kyrgyzstan,KGZ,Central Asia,3,Uruguay,URY,Latin America & the Caribbean,False,0.05700694395103181,15594.263884519907,0.888,0.955
+T5,all_countries_post_validation,Kyrgyzstan,KGZ,Central Asia,4,North Macedonia,MKD,Southern Europe,False,0.06209318889094467,4331.951001566943,0.888,0.914
+T5,all_countries_post_validation,Kyrgyzstan,KGZ,Central Asia,5,India,IND,Southern Asia,False,0.0641881849138887,2158.0076271199573,0.888,0.97
+T5,all_countries_post_validation,Cambodia,KHM,Southeastern Asia,1,North Macedonia,MKD,Southern Europe,False,0.03803192121488719,8497.060536200974,0.947,0.914
+T5,all_countries_post_validation,Cambodia,KHM,Southeastern Asia,2,Uruguay,URY,Latin America & the Caribbean,False,0.06449299906090208,17008.745508388532,0.947,0.955
+T5,all_countries_post_validation,Cambodia,KHM,Southeastern Asia,3,India,IND,Southern Asia,False,0.06664207827143473,2882.750470363781,0.947,0.97
+T5,all_countries_post_validation,Cambodia,KHM,Southeastern Asia,4,Laos,LAO,Southeastern Asia,True,0.06968080884216563,783.1853702912698,0.947,0.805
+T5,all_countries_post_validation,Cambodia,KHM,Southeastern Asia,5,Iran,IRN,Southern Asia,False,0.07072972510447878,5481.200013953415,0.947,0.9801390268123138
+T5,all_countries_post_validation,South Korea,KOR,Eastern Asia,1,Pakistan,PAK,Southern Asia,False,0.07184403110840223,5533.835597365571,0.9503407984420644,0.913086913086913
+T5,all_countries_post_validation,South Korea,KOR,Eastern Asia,2,Spain,ESP,Southern Europe,False,0.08500069520418752,10178.490022396925,0.9503407984420644,0.998
+T5,all_countries_post_validation,South Korea,KOR,Eastern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.0924826133886952,4592.301786947268,0.9503407984420644,0.888
+T5,all_countries_post_validation,South Korea,KOR,Eastern Asia,4,Ukraine,UKR,Eastern Europe,False,0.09380481087386047,7397.672485247488,0.9503407984420644,0.923
+T5,all_countries_post_validation,South Korea,KOR,Eastern Asia,5,Cyprus,CYP,Southern Europe,False,0.09886303226185435,8189.82715833588,0.9503407984420644,0.9660523763336566
+T5,all_countries_post_validation,Kuwait,KWT,Middle East,1,Saudi Arabia,SAU,Middle East,True,0.040626200691278196,675.3782699050627,0.8993414863593603,0.9823182711198428
+T5,all_countries_post_validation,Kuwait,KWT,Middle East,2,Tajikistan,TJK,Central Asia,False,0.08019531658901927,2520.786347684381,0.8993414863593603,0.8121878121878122
+T5,all_countries_post_validation,Kuwait,KWT,Middle East,3,Sweden,SWE,Northern/Western Europe,False,0.08127794952770696,4489.222464982507,0.8993414863593603,0.9950248756218906
+T5,all_countries_post_validation,Kuwait,KWT,Middle East,4,Thailand,THA,Southeastern Asia,False,0.08532923612348477,5687.8746286631385,0.8993414863593603,0.936
+T5,all_countries_post_validation,Kuwait,KWT,Middle East,5,Israel,ISR,Middle East,True,0.08911222041753432,1209.3381887654014,0.8993414863593603,0.903
+T5,all_countries_post_validation,Laos,LAO,Southeastern Asia,1,Austria,AUT,Northern/Western Europe,False,0.035724727064288544,8311.378229676204,0.805,0.991
+T5,all_countries_post_validation,Laos,LAO,Southeastern Asia,2,Germany,DEU,Northern/Western Europe,False,0.049556306514121705,8536.74723230655,0.805,0.993
+T5,all_countries_post_validation,Laos,LAO,Southeastern Asia,3,North Macedonia,MKD,Southern Europe,False,0.0662145602515476,7855.8317241344685,0.805,0.914
+T5,all_countries_post_validation,Laos,LAO,Southeastern Asia,4,Belgium,BEL,Northern/Western Europe,False,0.0666120511288646,8870.48997216637,0.805,0.97
+T5,all_countries_post_validation,Laos,LAO,Southeastern Asia,5,Slovenia,SVN,Southern Europe,False,0.06685100739917299,8287.272984039717,0.805,0.981018981018981
+T5,all_countries_post_validation,Lebanon,LBN,Middle East,1,Venezuela,VEN,Latin America & the Caribbean,False,0.062234898387062615,10522.910576791499,0.9247524752475248,0.956
+T5,all_countries_post_validation,Lebanon,LBN,Middle East,2,Argentina,ARG,Latin America & the Caribbean,False,0.07490417393750519,12850.303476435818,0.9247524752475248,0.9661016949152542
+T5,all_countries_post_validation,Lebanon,LBN,Middle East,3,Colombia,COL,Latin America & the Caribbean,False,0.08403774653977243,11540.393089363997,0.9247524752475248,0.9246031746031746
+T5,all_countries_post_validation,Lebanon,LBN,Middle East,4,Guatemala,GTM,Latin America & the Caribbean,False,0.09195978024286067,12153.162454058242,0.9247524752475248,0.939
+T5,all_countries_post_validation,Lebanon,LBN,Middle East,5,Tunisia,TUN,Northern Africa,False,0.10732519323008172,2483.4463533578846,0.9247524752475248,0.983
+T5,all_countries_post_validation,Liberia,LBR,Central/Western Africa,1,Philippines,PHL,Southeastern Asia,False,0.08209847312183743,14345.558730294213,0.9870259481037924,0.9720837487537388
+T5,all_countries_post_validation,Liberia,LBR,Central/Western Africa,2,Congo Kinshasa,COD,Central/Western Africa,True,0.0896614427467298,3769.0896168502027,0.9870259481037924,0.9
+T5,all_countries_post_validation,Liberia,LBR,Central/Western Africa,3,Malawi,MWI,Eastern Africa,False,0.11532303275097593,5241.837525530813,0.9870259481037924,0.948
+T5,all_countries_post_validation,Liberia,LBR,Central/Western Africa,4,Guinea,GIN,Central/Western Africa,True,0.12222935828349449,467.8430642291169,0.9870259481037924,0.944
+T5,all_countries_post_validation,Liberia,LBR,Central/Western Africa,5,Burkina Faso,BFA,Central/Western Africa,True,0.1273979567503313,1125.41041830347,0.9870259481037924,0.939
+T5,all_countries_post_validation,Libya,LBY,Northern Africa,1,Bulgaria,BGR,Eastern Europe,False,0.033829525749034174,1880.2171435140579,0.9502487562189056,0.831
+T5,all_countries_post_validation,Libya,LBY,Northern Africa,2,Poland,POL,Eastern Europe,False,0.045364445780374636,2821.6768263583012,0.9502487562189056,0.818
+T5,all_countries_post_validation,Libya,LBY,Northern Africa,3,Netherlands,NLD,Northern/Western Europe,False,0.05646669563936983,3047.917562741503,0.9502487562189056,0.9900695134061568
+T5,all_countries_post_validation,Libya,LBY,Northern Africa,4,Bosnia Herzegovina,BIH,Southern Europe,False,0.07382884460966221,1940.595280731554,0.9502487562189056,0.891
+T5,all_countries_post_validation,Libya,LBY,Northern Africa,5,France,FRA,Northern/Western Europe,False,0.07695271152352677,2611.2970162033166,0.9502487562189056,0.979
+T5,all_countries_post_validation,Sri Lanka,LKA,Southern Asia,1,Malta,MLT,Southern Europe,False,0.025392908839541192,7382.404110152715,0.92,0.994
+T5,all_countries_post_validation,Sri Lanka,LKA,Southern Asia,2,Myanmar,MMR,Southeastern Asia,False,0.06471938490622023,2246.0158072944755,0.92,0.871
+T5,all_countries_post_validation,Sri Lanka,LKA,Southern Asia,3,Malaysia,MYS,Southeastern Asia,False,0.08749020300379229,3710.952964091535,0.92,0.921
+T5,all_countries_post_validation,Sri Lanka,LKA,Southern Asia,4,Tanzania,TZA,Eastern Africa,False,0.09797820826520089,5295.659262143898,0.92,0.936127744510978
+T5,all_countries_post_validation,Sri Lanka,LKA,Southern Asia,5,Nepal,NPL,Southern Asia,True,0.10619240907555794,2324.1423934555114,0.92,0.925
+T5,all_countries_post_validation,Lithuania,LTU,Northern/Western Europe,1,Tajikistan,TJK,Central Asia,False,0.03781942657546493,4044.9762680473623,0.795,0.8121878121878122
+T5,all_countries_post_validation,Lithuania,LTU,Northern/Western Europe,2,Estonia,EST,Northern/Western Europe,True,0.05309489610649132,416.8175372082922,0.795,0.9692765113974232
+T5,all_countries_post_validation,Lithuania,LTU,Northern/Western Europe,3,Switzerland,CHE,Northern/Western Europe,True,0.05759039587361392,1486.2026592560512,0.795,0.975
+T5,all_countries_post_validation,Lithuania,LTU,Northern/Western Europe,4,Denmark,DNK,Northern/Western Europe,True,0.06085516265537096,951.3194010745904,0.795,0.991044776119403
+T5,all_countries_post_validation,Lithuania,LTU,Northern/Western Europe,5,United Kingdom,GBR,Northern/Western Europe,True,0.07097769939985231,1673.5875252543315,0.795,0.988
+T5,all_countries_post_validation,Luxembourg,LUX,Northern/Western Europe,1,Kyrgyzstan,KGZ,Central Asia,False,0.03556461227122663,5203.496322822437,0.98,0.888
+T5,all_countries_post_validation,Luxembourg,LUX,Northern/Western Europe,2,Kosovo,XKX,Eastern Europe,False,0.047327585512209926,1384.072360670325,0.98,0.851
+T5,all_countries_post_validation,Luxembourg,LUX,Northern/Western Europe,3,Ukraine,UKR,Eastern Europe,False,0.04759349773135192,1863.866500629124,0.98,0.923
+T5,all_countries_post_validation,Luxembourg,LUX,Northern/Western Europe,4,Uruguay,URY,Latin America & the Caribbean,False,0.05577366314201717,11037.304949284271,0.98,0.955
+T5,all_countries_post_validation,Luxembourg,LUX,Northern/Western Europe,5,North Macedonia,MKD,Southern Europe,False,0.05984864991968801,1503.1426817579993,0.98,0.914
+T5,all_countries_post_validation,Latvia,LVA,Northern/Western Europe,1,France,FRA,Northern/Western Europe,True,0.02275351758170936,1934.3996657295052,0.9480392156862744,0.979
+T5,all_countries_post_validation,Latvia,LVA,Northern/Western Europe,2,Taiwan,TWN,Eastern Asia,False,0.042374418001932604,8134.556525925886,0.9480392156862744,0.975
+T5,all_countries_post_validation,Latvia,LVA,Northern/Western Europe,3,Belgium,BEL,Northern/Western Europe,True,0.0432637129790191,1514.0179917290309,0.9480392156862744,0.97
+T5,all_countries_post_validation,Latvia,LVA,Northern/Western Europe,4,Germany,DEU,Northern/Western Europe,True,0.04830069308333189,1229.9423676707163,0.9480392156862744,0.993
+T5,all_countries_post_validation,Latvia,LVA,Northern/Western Europe,5,Slovenia,SVN,Southern Europe,False,0.06131406073083554,1420.7553473857654,0.9480392156862744,0.981018981018981
+T5,all_countries_post_validation,Morocco,MAR,Northern Africa,1,Malaysia,MYS,Southeastern Asia,False,0.056710766023629566,12735.138469249274,0.8846153846153846,0.921
+T5,all_countries_post_validation,Morocco,MAR,Northern Africa,2,Cyprus,CYP,Southern Europe,False,0.08489235682987237,3736.005989804256,0.8846153846153846,0.9660523763336566
+T5,all_countries_post_validation,Morocco,MAR,Northern Africa,3,Portugal,PRT,Southern Europe,False,0.10135850497483605,890.0536255209904,0.8846153846153846,0.976023976023976
+T5,all_countries_post_validation,Morocco,MAR,Northern Africa,4,Malta,MLT,Southern Europe,False,0.10402156710406671,2048.6771621926127,0.8846153846153846,0.994
+T5,all_countries_post_validation,Morocco,MAR,Northern Africa,5,Mongolia,MNG,Eastern Asia,False,0.10518446604938601,8969.11533598878,0.8846153846153846,0.944
+T5,all_countries_post_validation,Moldova,MDA,Eastern Europe,1,Nicaragua,NIC,Latin America & the Caribbean,False,0.021070395479909423,10659.86922741359,0.806,0.951
+T5,all_countries_post_validation,Moldova,MDA,Eastern Europe,2,Ireland,IRL,Northern/Western Europe,False,0.03411299254235164,2624.4050836716647,0.806,0.998
+T5,all_countries_post_validation,Moldova,MDA,Eastern Europe,3,Kosovo,XKX,Eastern Europe,True,0.041126824593739335,805.0783141232304,0.806,0.851
+T5,all_countries_post_validation,Moldova,MDA,Eastern Europe,4,Romania,ROU,Eastern Europe,True,0.04642322073477656,328.54860634471794,0.806,0.857
+T5,all_countries_post_validation,Moldova,MDA,Eastern Europe,5,Kazakhstan,KAZ,Central Asia,False,0.0651930026845286,2947.089401300314,0.806,0.759
+T5,all_countries_post_validation,Madagascar,MDG,Eastern Africa,1,Ethiopia,ETH,Eastern Africa,True,0.09250300528480937,3080.017896736367,0.923,0.954
+T5,all_countries_post_validation,Madagascar,MDG,Eastern Africa,2,Somalia,SOM,Eastern Africa,True,0.11955168275787963,2473.7671167096655,0.923,0.829
+T5,all_countries_post_validation,Madagascar,MDG,Eastern Africa,3,China,CHN,Eastern Asia,False,0.1334851224274007,8513.163104384234,0.923,1.0
+T5,all_countries_post_validation,Madagascar,MDG,Eastern Africa,4,Mauritania,MRT,Central/Western Africa,False,0.14965739594897648,7480.073532841164,0.923,0.97
+T5,all_countries_post_validation,Madagascar,MDG,Eastern Africa,5,Iran,IRN,Southern Asia,False,0.15078647577158194,5715.68543567254,0.923,0.9801390268123138
+T5,all_countries_post_validation,Mexico,MEX,Latin America & the Caribbean,1,Jordan,JOR,Middle East,False,0.0490156197034781,12504.009648066267,0.975,0.918
+T5,all_countries_post_validation,Mexico,MEX,Latin America & the Caribbean,2,Algeria,DZA,Northern Africa,False,0.05282717611003646,10165.655304841794,0.975,0.904
+T5,all_countries_post_validation,Mexico,MEX,Latin America & the Caribbean,3,Iraq,IRQ,Middle East,False,0.0549628402372382,12699.949966433122,0.975,0.9884057971014492
+T5,all_countries_post_validation,Mexico,MEX,Latin America & the Caribbean,4,Colombia,COL,Latin America & the Caribbean,True,0.0609575693921359,3870.3405640454553,0.975,0.9246031746031746
+T5,all_countries_post_validation,Mexico,MEX,Latin America & the Caribbean,5,Guatemala,GTM,Latin America & the Caribbean,True,0.06154999875073197,1584.7931643494019,0.975,0.939
+T5,all_countries_post_validation,North Macedonia,MKD,Southern Europe,1,Cambodia,KHM,Southeastern Asia,False,0.03803192121488719,8497.060536200974,0.914,0.947
+T5,all_countries_post_validation,North Macedonia,MKD,Southern Europe,2,Uruguay,URY,Latin America & the Caribbean,False,0.04489464548693758,11455.245057624068,0.914,0.955
+T5,all_countries_post_validation,North Macedonia,MKD,Southern Europe,3,Russia,RUS,Eastern Europe,False,0.05312961803994894,2462.751722375501,0.914,0.9649209486166008
+T5,all_countries_post_validation,North Macedonia,MKD,Southern Europe,4,Luxembourg,LUX,Northern/Western Europe,False,0.05984864991968801,1503.1426817579993,0.914,0.98
+T5,all_countries_post_validation,North Macedonia,MKD,Southern Europe,5,Kyrgyzstan,KGZ,Central Asia,False,0.06209318889094467,4331.951001566943,0.914,0.888
+T5,all_countries_post_validation,Mali,MLI,Central/Western Africa,1,Comoros,COM,Eastern Africa,False,0.04053160255466333,6013.958128191795,0.995,0.774
+T5,all_countries_post_validation,Mali,MLI,Central/Western Africa,2,Benin,BEN,Central/Western Africa,True,0.088390641929496,1043.3964408873162,0.995,0.987
+T5,all_countries_post_validation,Mali,MLI,Central/Western Africa,3,Congo Kinshasa,COD,Central/Western Africa,True,0.10640454543184946,3604.806129668466,0.995,0.9
+T5,all_countries_post_validation,Mali,MLI,Central/Western Africa,4,Congo Brazzaville,COG,Central/Western Africa,True,0.10907586385402555,2844.2121135302177,0.995,0.915
+T5,all_countries_post_validation,Mali,MLI,Central/Western Africa,5,Senegal,SEN,Central/Western Africa,True,0.11045460399898932,1411.311305076762,0.995,0.976
+T5,all_countries_post_validation,Malta,MLT,Southern Europe,1,Sri Lanka,LKA,Southern Asia,False,0.025392908839541192,7382.404110152715,0.994,0.92
+T5,all_countries_post_validation,Malta,MLT,Southern Europe,2,Malaysia,MYS,Southeastern Asia,False,0.06640275293405301,10686.556729119908,0.994,0.921
+T5,all_countries_post_validation,Malta,MLT,Southern Europe,3,Myanmar,MMR,Southeastern Asia,False,0.08308936911059296,7874.430450187361,0.994,0.871
+T5,all_countries_post_validation,Malta,MLT,Southern Europe,4,Tanzania,TZA,Eastern Africa,False,0.08988224252903591,5132.791671330595,0.994,0.936127744510978
+T5,all_countries_post_validation,Malta,MLT,Southern Europe,5,Nepal,NPL,Southern Asia,False,0.09497200376272513,6440.111859118746,0.994,0.925
+T5,all_countries_post_validation,Myanmar,MMR,Southeastern Asia,1,Germany,DEU,Northern/Western Europe,False,0.04947347675425067,7897.512709436568,0.871,0.993
+T5,all_countries_post_validation,Myanmar,MMR,Southeastern Asia,2,Sri Lanka,LKA,Southern Asia,False,0.06471938490622023,2246.0158072944755,0.871,0.92
+T5,all_countries_post_validation,Myanmar,MMR,Southeastern Asia,3,Canada,CAN,Northern America,False,0.07530449090859988,10768.1576810965,0.871,0.9890547263681592
+T5,all_countries_post_validation,Myanmar,MMR,Southeastern Asia,4,Belgium,BEL,Northern/Western Europe,False,0.07533720142062533,8235.405769136747,0.871,0.97
+T5,all_countries_post_validation,Myanmar,MMR,Southeastern Asia,5,Bangladesh,BGD,Southern Asia,False,0.07947917399531988,692.1224160266031,0.871,0.934
+T5,all_countries_post_validation,Montenegro,MNE,Southern Europe,1,Croatia,HRV,Southern Europe,True,0.06815066044123272,400.08095336969996,0.934,0.798804780876494
+T5,all_countries_post_validation,Montenegro,MNE,Southern Europe,2,Estonia,EST,Northern/Western Europe,False,0.11445611723433863,1830.2722427997564,0.934,0.9692765113974232
+T5,all_countries_post_validation,Montenegro,MNE,Southern Europe,3,Lithuania,LTU,Northern/Western Europe,False,0.12875473768119064,1413.7497814169938,0.934,0.795
+T5,all_countries_post_validation,Montenegro,MNE,Southern Europe,4,Hungary,HUN,Eastern Europe,False,0.12993510635989847,476.9307437578475,0.934,0.9861523244312562
+T5,all_countries_post_validation,Montenegro,MNE,Southern Europe,5,Hong Kong,HKG,Eastern Asia,False,0.1377198114671828,8718.803310464307,0.934,0.9950199203187252
+T5,all_countries_post_validation,Mongolia,MNG,Eastern Asia,1,Italy,ITA,Southern Europe,False,0.046271371620781,6819.422871083432,0.944,0.994
+T5,all_countries_post_validation,Mongolia,MNG,Eastern Asia,2,Cyprus,CYP,Southern Europe,False,0.047409199771878116,5935.417894882498,0.944,0.9660523763336566
+T5,all_countries_post_validation,Mongolia,MNG,Eastern Asia,3,Uruguay,URY,Latin America & the Caribbean,False,0.06382844815945407,17787.306578601325,0.944,0.955
+T5,all_countries_post_validation,Mongolia,MNG,Eastern Asia,4,Mexico,MEX,Latin America & the Caribbean,False,0.06457183051428816,11795.387342060016,0.944,0.975
+T5,all_countries_post_validation,Mongolia,MNG,Eastern Asia,5,Guatemala,GTM,Latin America & the Caribbean,False,0.06547967399107556,13076.645657753614,0.944,0.939
+T5,all_countries_post_validation,Mozambique,MOZ,Eastern Africa,1,Sierra Leone,SLE,Central/Western Africa,False,0.04769909019127246,6020.1762179053785,0.928,0.787
+T5,all_countries_post_validation,Mozambique,MOZ,Eastern Africa,2,Zambia,ZMB,Eastern Africa,True,0.05936721767176461,1235.3700617647085,0.928,0.873
+T5,all_countries_post_validation,Mozambique,MOZ,Eastern Africa,3,Gabon,GAB,Central/Western Africa,False,0.07018426415074451,3231.32285290149,0.928,0.99
+T5,all_countries_post_validation,Mozambique,MOZ,Eastern Africa,4,Guinea,GIN,Central/Western Africa,False,0.08709406207846378,5942.035835678395,0.928,0.944
+T5,all_countries_post_validation,Mozambique,MOZ,Eastern Africa,5,Niger,NER,Central/Western Africa,False,0.09208050047117741,4674.187781382743,0.928,0.931
+T5,all_countries_post_validation,Mauritania,MRT,Central/Western Africa,1,Ghana,GHA,Central/Western Africa,True,0.09636377770736881,1619.4158936895114,0.97,0.917
+T5,all_countries_post_validation,Mauritania,MRT,Central/Western Africa,2,Panama,PAN,Latin America & the Caribbean,False,0.10795192965446862,7661.4849780044115,0.97,0.949
+T5,all_countries_post_validation,Mauritania,MRT,Central/Western Africa,3,Somalia,SOM,Eastern Africa,False,0.11151883579650952,6212.177361720444,0.97,0.829
+T5,all_countries_post_validation,Mauritania,MRT,Central/Western Africa,4,Togo,TGO,Central/Western Africa,True,0.11204956199657334,1669.3749903171918,0.97,0.909
+T5,all_countries_post_validation,Mauritania,MRT,Central/Western Africa,5,Bolivia,BOL,Latin America & the Caribbean,False,0.11509522150085726,7221.9391019350205,0.97,0.889
+T5,all_countries_post_validation,Mauritius,MUS,Eastern Africa,1,Senegal,SEN,Central/Western Africa,False,0.10023606712390337,8828.657218552076,0.918,0.976
+T5,all_countries_post_validation,Mauritius,MUS,Eastern Africa,2,Indonesia,IDN,Southeastern Asia,False,0.10927691962353492,5272.878140082647,0.918,0.955
+T5,all_countries_post_validation,Mauritius,MUS,Eastern Africa,3,Botswana,BWA,Southern Africa,False,0.11053151918416836,3460.1706901914727,0.918,0.9623389494549058
+T5,all_countries_post_validation,Mauritius,MUS,Eastern Africa,4,Comoros,COM,Eastern Africa,True,0.1369884205844959,1794.7417222149052,0.918,0.774
+T5,all_countries_post_validation,Mauritius,MUS,Eastern Africa,5,Namibia,NAM,Southern Africa,False,0.14783438229201248,4204.470064354134,0.918,0.9441117764471058
+T5,all_countries_post_validation,Malawi,MWI,Eastern Africa,1,Liberia,LBR,Central/Western Africa,False,0.11532303275097593,5241.837525530813,0.948,0.9870259481037924
+T5,all_countries_post_validation,Malawi,MWI,Eastern Africa,2,Philippines,PHL,Southeastern Asia,False,0.13208286942353112,10172.737894936188,0.948,0.9720837487537388
+T5,all_countries_post_validation,Malawi,MWI,Eastern Africa,3,Congo Kinshasa,COD,Central/Western Africa,False,0.1890945840480707,1700.0049841922187,0.948,0.9
+T5,all_countries_post_validation,Malawi,MWI,Eastern Africa,4,Chad,TCD,Central/Western Africa,False,0.19031027054599856,3574.071013472321,0.948,0.948
+T5,all_countries_post_validation,Malawi,MWI,Eastern Africa,5,Burkina Faso,BFA,Central/Western Africa,False,0.19605347741508583,4822.344776067179,0.948,0.939
+T5,all_countries_post_validation,Malaysia,MYS,Southeastern Asia,1,Morocco,MAR,Northern Africa,False,0.056710766023629566,12735.138469249274,0.921,0.8846153846153846
+T5,all_countries_post_validation,Malaysia,MYS,Southeastern Asia,2,Malta,MLT,Southern Europe,False,0.06640275293405301,10686.556729119908,0.921,0.994
+T5,all_countries_post_validation,Malaysia,MYS,Southeastern Asia,3,Indonesia,IDN,Southeastern Asia,True,0.07282004003112931,1383.130218507064,0.921,0.955
+T5,all_countries_post_validation,Malaysia,MYS,Southeastern Asia,4,Sri Lanka,LKA,Southern Asia,False,0.08749020300379229,3710.952964091535,0.921,0.92
+T5,all_countries_post_validation,Malaysia,MYS,Southeastern Asia,5,Nepal,NPL,Southern Asia,False,0.09319606956119184,4295.553517758145,0.921,0.925
+T5,all_countries_post_validation,Namibia,NAM,Southern Africa,1,Botswana,BWA,Southern Africa,True,0.05608852643599894,751.7057547553047,0.9441117764471058,0.9623389494549058
+T5,all_countries_post_validation,Namibia,NAM,Southern Africa,2,Italy,ITA,Southern Europe,False,0.0912082096634407,7287.694719219995,0.9441117764471058,0.994
+T5,all_countries_post_validation,Namibia,NAM,Southern Africa,3,Peru,PER,Latin America & the Caribbean,False,0.09733299779446193,9505.100392256658,0.9441117764471058,0.953
+T5,all_countries_post_validation,Namibia,NAM,Southern Africa,4,Greece,GRC,Southern Europe,False,0.10200402738512622,6696.498445601796,0.9441117764471058,0.9861523244312562
+T5,all_countries_post_validation,Namibia,NAM,Southern Africa,5,Chile,CHL,Latin America & the Caribbean,False,0.10421031125842313,8565.220136989865,0.9441117764471058,0.958
+T5,all_countries_post_validation,Niger,NER,Central/Western Africa,1,Zambia,ZMB,Eastern Africa,False,0.05881532159436026,4022.2327274226045,0.931,0.873
+T5,all_countries_post_validation,Niger,NER,Central/Western Africa,2,Benin,BEN,Central/Western Africa,True,0.060414840324226844,1105.5235596560287,0.931,0.987
+T5,all_countries_post_validation,Niger,NER,Central/Western Africa,3,Ghana,GHA,Central/Western Africa,True,0.07166516592995982,1573.2590178876524,0.931,0.917
+T5,all_countries_post_validation,Niger,NER,Central/Western Africa,4,Mozambique,MOZ,Eastern Africa,False,0.09208050047117741,4674.187781382743,0.931,0.928
+T5,all_countries_post_validation,Niger,NER,Central/Western Africa,5,Congo Kinshasa,COD,Central/Western Africa,True,0.10075193384102185,2635.7473938587427,0.931,0.9
+T5,all_countries_post_validation,Nigeria,NGA,Central/Western Africa,1,Turkey,TUR,Middle East,False,0.04202572592439928,4270.129811312251,0.937,0.882
+T5,all_countries_post_validation,Nigeria,NGA,Central/Western Africa,2,Uganda,UGA,Eastern Africa,False,0.05916262051382026,2933.062431744647,0.937,0.841
+T5,all_countries_post_validation,Nigeria,NGA,Central/Western Africa,3,Yemen,YEM,Middle East,False,0.08277081435580738,4212.739782569065,0.937,0.924
+T5,all_countries_post_validation,Nigeria,NGA,Central/Western Africa,4,United States,USA,Northern America,False,0.09593192565136578,10596.483388837656,0.937,0.9601196410767696
+T5,all_countries_post_validation,Nigeria,NGA,Central/Western Africa,5,Togo,TGO,Central/Western Africa,True,0.10004189316909197,711.0718590198258,0.937,0.909
+T5,all_countries_post_validation,Nicaragua,NIC,Latin America & the Caribbean,1,Moldova,MDA,Eastern Europe,False,0.021070395479909423,10659.86922741359,0.951,0.806
+T5,all_countries_post_validation,Nicaragua,NIC,Latin America & the Caribbean,2,Ireland,IRL,Northern/Western Europe,False,0.027667331473324657,8036.276903564863,0.951,0.998
+T5,all_countries_post_validation,Nicaragua,NIC,Latin America & the Caribbean,3,Romania,ROU,Eastern Europe,False,0.04136292214594625,10494.207497877973,0.951,0.857
+T5,all_countries_post_validation,Nicaragua,NIC,Latin America & the Caribbean,4,Kosovo,XKX,Eastern Europe,False,0.04638932992661916,10317.816738276875,0.951,0.851
+T5,all_countries_post_validation,Nicaragua,NIC,Latin America & the Caribbean,5,Kazakhstan,KAZ,Central Asia,False,0.05838511695515435,12683.603886424875,0.951,0.759
+T5,all_countries_post_validation,Netherlands,NLD,Northern/Western Europe,1,Libya,LBY,Northern Africa,False,0.05646669563936983,3047.917562741503,0.9900695134061568,0.9502487562189056
+T5,all_countries_post_validation,Netherlands,NLD,Northern/Western Europe,2,Austria,AUT,Northern/Western Europe,True,0.05988501854026218,816.6370207658094,0.9900695134061568,0.991
+T5,all_countries_post_validation,Netherlands,NLD,Northern/Western Europe,3,Belgium,BEL,Northern/Western Europe,True,0.061234989992305616,190.42596834604092,0.9900695134061568,0.97
+T5,all_countries_post_validation,Netherlands,NLD,Northern/Western Europe,4,Jordan,JOR,Middle East,False,0.0673225282367779,3462.0117106431544,0.9900695134061568,0.918
+T5,all_countries_post_validation,Netherlands,NLD,Northern/Western Europe,5,France,FRA,Northern/Western Europe,True,0.06765467109876472,673.7040021399547,0.9900695134061568,0.979
+T5,all_countries_post_validation,Norway,NOR,Northern/Western Europe,1,Iceland,ISL,Northern/Western Europe,True,0.07068461811664206,1464.0285702544877,0.99,0.984158415841584
+T5,all_countries_post_validation,Norway,NOR,Northern/Western Europe,2,Denmark,DNK,Northern/Western Europe,True,0.07654723384237674,600.568179505227,0.99,0.991044776119403
+T5,all_countries_post_validation,Norway,NOR,Northern/Western Europe,3,Sweden,SWE,Northern/Western Europe,True,0.08223381404253961,679.5405079703163,0.99,0.9950248756218906
+T5,all_countries_post_validation,Norway,NOR,Northern/Western Europe,4,Tajikistan,TJK,Central Asia,False,0.08983806970474531,4938.7285178951015,0.99,0.8121878121878122
+T5,all_countries_post_validation,Norway,NOR,Northern/Western Europe,5,Lithuania,LTU,Northern/Western Europe,True,0.10754022394789069,1089.1639831947932,0.99,0.795
+T5,all_countries_post_validation,Nepal,NPL,Southern Asia,1,Portugal,PRT,Southern Europe,False,0.055501720187243815,8202.23673817779,0.925,0.976023976023976
+T5,all_countries_post_validation,Nepal,NPL,Southern Asia,2,India,IND,Southern Asia,True,0.060738883855582744,757.4380138939673,0.925,0.97
+T5,all_countries_post_validation,Nepal,NPL,Southern Asia,3,Tanzania,TZA,Eastern Africa,False,0.0675319229353604,6462.738756612395,0.925,0.936127744510978
+T5,all_countries_post_validation,Nepal,NPL,Southern Asia,4,Zimbabwe,ZWE,Eastern Africa,False,0.07177418911410044,7802.017075018985,0.925,0.98
+T5,all_countries_post_validation,Nepal,NPL,Southern Asia,5,Gambia,GMB,Central/Western Africa,False,0.08974907934637336,10114.01622347267,0.925,0.876
+T5,all_countries_post_validation,New Zealand,NZL,Australia & New Zealand,1,Myanmar,MMR,Southeastern Asia,False,0.09109541388924249,10480.33154226192,0.975,0.871
+T5,all_countries_post_validation,New Zealand,NZL,Australia & New Zealand,2,Netherlands,NLD,Northern/Western Europe,False,0.0965459344316407,18299.96727994968,0.975,0.9900695134061568
+T5,all_countries_post_validation,New Zealand,NZL,Australia & New Zealand,3,Germany,DEU,Northern/Western Europe,False,0.10223722040857842,18208.356794201205,0.975,0.993
+T5,all_countries_post_validation,New Zealand,NZL,Australia & New Zealand,4,Canada,CAN,Northern America,False,0.10597907695316143,13525.211001773796,0.975,0.9890547263681592
+T5,all_countries_post_validation,New Zealand,NZL,Australia & New Zealand,5,Belgium,BEL,Northern/Western Europe,False,0.10644765331115674,18474.238449537388,0.975,0.97
+T5,all_countries_post_validation,Pakistan,PAK,Southern Asia,1,South Korea,KOR,Eastern Asia,False,0.07184403110840223,5533.835597365571,0.913086913086913,0.9503407984420644
+T5,all_countries_post_validation,Pakistan,PAK,Southern Asia,2,Spain,ESP,Southern Europe,False,0.07615835593737316,6512.881304810954,0.913086913086913,0.998
+T5,all_countries_post_validation,Pakistan,PAK,Southern Asia,3,Kyrgyzstan,KGZ,Central Asia,False,0.09103335660615673,1474.3196568684207,0.913086913086913,0.888
+T5,all_countries_post_validation,Pakistan,PAK,Southern Asia,4,Cyprus,CYP,Southern Europe,False,0.09147409805939873,3378.7301778126334,0.913086913086913,0.9660523763336566
+T5,all_countries_post_validation,Pakistan,PAK,Southern Asia,5,Ivory Coast,CIV,Central/Western Africa,False,0.09503016958062102,8063.284116746373,0.913086913086913,0.982
+T5,all_countries_post_validation,Panama,PAN,Latin America & the Caribbean,1,Togo,TGO,Central/Western Africa,False,0.04385180843452112,8924.961684821114,0.949,0.909
+T5,all_countries_post_validation,Panama,PAN,Latin America & the Caribbean,2,Palestine,PSE,Middle East,False,0.04459890725584198,11829.645897383836,0.949,0.945
+T5,all_countries_post_validation,Panama,PAN,Latin America & the Caribbean,3,Iraq,IRQ,Middle East,False,0.054106467335116364,12460.858010277798,0.949,0.9884057971014492
+T5,all_countries_post_validation,Panama,PAN,Latin America & the Caribbean,4,Guatemala,GTM,Latin America & the Caribbean,True,0.054285206977735895,1304.5771938337891,0.949,0.939
+T5,all_countries_post_validation,Panama,PAN,Latin America & the Caribbean,5,Colombia,COL,Latin America & the Caribbean,True,0.056906678037992424,991.5694593588124,0.949,0.9246031746031746
+T5,all_countries_post_validation,Peru,PER,Latin America & the Caribbean,1,Chile,CHL,Latin America & the Caribbean,True,0.031590607222970024,2799.936960782053,0.953,0.958
+T5,all_countries_post_validation,Peru,PER,Latin America & the Caribbean,2,Bolivia,BOL,Latin America & the Caribbean,True,0.05985786785696099,982.4466869243429,0.953,0.889
+T5,all_countries_post_validation,Peru,PER,Latin America & the Caribbean,3,Greece,GRC,Southern Europe,False,0.06147158993928283,11312.914632992293,0.953,0.9861523244312562
+T5,all_countries_post_validation,Peru,PER,Latin America & the Caribbean,4,Brazil,BRA,Latin America & the Caribbean,True,0.06226800170816716,2534.4951660730335,0.953,0.973
+T5,all_countries_post_validation,Peru,PER,Latin America & the Caribbean,5,Ecuador,ECU,Latin America & the Caribbean,True,0.06767009019169262,1427.1887460248586,0.953,0.944
+T5,all_countries_post_validation,Philippines,PHL,Southeastern Asia,1,Congo Kinshasa,COD,Central/Western Africa,False,0.08019269626200426,11029.878787362793,0.9720837487537388,0.9
+T5,all_countries_post_validation,Philippines,PHL,Southeastern Asia,2,Liberia,LBR,Central/Western Africa,False,0.08209847312183743,14345.558730294213,0.9720837487537388,0.9870259481037924
+T5,all_countries_post_validation,Philippines,PHL,Southeastern Asia,3,Burkina Faso,BFA,Central/Western Africa,False,0.1007027005735076,13271.591588306988,0.9720837487537388,0.939
+T5,all_countries_post_validation,Philippines,PHL,Southeastern Asia,4,Eswatini,SWZ,Southern Africa,False,0.10402487871680167,10658.763069634793,0.9720837487537388,0.934
+T5,all_countries_post_validation,Philippines,PHL,Southeastern Asia,5,Cameroon,CMR,Central/Western Africa,False,0.10621449290325709,12074.545561146197,0.9720837487537388,0.962
+T5,all_countries_post_validation,Poland,POL,Eastern Europe,1,Bulgaria,BGR,Eastern Europe,True,0.03994928647991859,1136.8913764255315,0.818,0.831
+T5,all_countries_post_validation,Poland,POL,Eastern Europe,2,Libya,LBY,Northern Africa,False,0.045364445780374636,2821.6768263583012,0.818,0.9502487562189056
+T5,all_countries_post_validation,Poland,POL,Eastern Europe,3,Thailand,THA,Southeastern Asia,False,0.051979437590960686,8087.019913149168,0.818,0.936
+T5,all_countries_post_validation,Poland,POL,Eastern Europe,4,Egypt,EGY,Northern Africa,False,0.05826824199248689,2988.763781583156,0.818,0.992
+T5,all_countries_post_validation,Poland,POL,Eastern Europe,5,France,FRA,Northern/Western Europe,False,0.0705551370270524,1356.6924449834755,0.818,0.979
+T5,all_countries_post_validation,Portugal,PRT,Southern Europe,1,Zimbabwe,ZWE,Eastern Africa,False,0.0504082511777019,7619.132580286708,0.976023976023976,0.98
+T5,all_countries_post_validation,Portugal,PRT,Southern Europe,2,India,IND,Southern Asia,False,0.051067532267515287,8230.793087702736,0.976023976023976,0.97
+T5,all_countries_post_validation,Portugal,PRT,Southern Europe,3,Ivory Coast,CIV,Central/Western Africa,False,0.052955468007348495,3581.234636855814,0.976023976023976,0.982
+T5,all_countries_post_validation,Portugal,PRT,Southern Europe,4,Nepal,NPL,Southern Asia,False,0.055501720187243815,8202.23673817779,0.976023976023976,0.925
+T5,all_countries_post_validation,Portugal,PRT,Southern Europe,5,Cyprus,CYP,Southern Europe,True,0.0884322169304847,3664.47403186346,0.976023976023976,0.9660523763336566
+T5,all_countries_post_validation,Paraguay,PRY,Latin America & the Caribbean,1,Jordan,JOR,Middle East,False,0.057013691382887206,11814.347823558566,0.971,0.918
+T5,all_countries_post_validation,Paraguay,PRY,Latin America & the Caribbean,2,Japan,JPN,Eastern Asia,False,0.0719716366572092,17602.26546145482,0.971,0.9601593625498008
+T5,all_countries_post_validation,Paraguay,PRY,Latin America & the Caribbean,3,Mexico,MEX,Latin America & the Caribbean,True,0.08393859238569283,6817.032371919765,0.971,0.975
+T5,all_countries_post_validation,Paraguay,PRY,Latin America & the Caribbean,4,France,FRA,Northern/Western Europe,False,0.0919356560575363,9857.37058778942,0.971,0.979
+T5,all_countries_post_validation,Paraguay,PRY,Latin America & the Caribbean,5,Netherlands,NLD,Northern/Western Europe,False,0.0941749900311372,10390.137728873016,0.971,0.9900695134061568
+T5,all_countries_post_validation,Palestine,PSE,Middle East,1,Uruguay,URY,Latin America & the Caribbean,False,0.031810954039525885,11977.575873858368,0.945,0.955
+T5,all_countries_post_validation,Palestine,PSE,Middle East,2,Panama,PAN,Latin America & the Caribbean,False,0.04459890725584198,11829.645897383836,0.945,0.949
+T5,all_countries_post_validation,Palestine,PSE,Middle East,3,Ukraine,UKR,Eastern Europe,False,0.04874262575217197,1982.9312745617233,0.945,0.923
+T5,all_countries_post_validation,Palestine,PSE,Middle East,4,Jordan,JOR,Middle East,True,0.05736794279007418,172.26728038739688,0.945,0.918
+T5,all_countries_post_validation,Palestine,PSE,Middle East,5,Guatemala,GTM,Latin America & the Caribbean,False,0.05796588214556773,12228.96538522565,0.945,0.939
+T5,all_countries_post_validation,Romania,ROU,Eastern Europe,1,Kazakhstan,KAZ,Central Asia,False,0.029600602299945857,3265.081558807108,0.857,0.759
+T5,all_countries_post_validation,Romania,ROU,Eastern Europe,2,Nicaragua,NIC,Latin America & the Caribbean,False,0.04136292214594625,10494.207497877973,0.857,0.951
+T5,all_countries_post_validation,Romania,ROU,Eastern Europe,3,Moldova,MDA,Eastern Europe,True,0.04642322073477656,328.54860634471794,0.857,0.806
+T5,all_countries_post_validation,Romania,ROU,Eastern Europe,4,Ireland,IRL,Northern/Western Europe,False,0.05252457307269544,2482.216166279308,0.857,0.998
+T5,all_countries_post_validation,Romania,ROU,Eastern Europe,5,Kosovo,XKX,Eastern Europe,True,0.06387247132890163,478.8877891202587,0.857,0.851
+T5,all_countries_post_validation,Russia,RUS,Eastern Europe,1,Bosnia Herzegovina,BIH,Southern Europe,False,0.050754421412097725,2405.460528715795,0.9649209486166008,0.891
+T5,all_countries_post_validation,Russia,RUS,Eastern Europe,2,North Macedonia,MKD,Southern Europe,False,0.05312961803994894,2462.751722375501,0.9649209486166008,0.914
+T5,all_countries_post_validation,Russia,RUS,Eastern Europe,3,Austria,AUT,Northern/Western Europe,False,0.05611516327047358,2342.5100375074444,0.9649209486166008,0.991
+T5,all_countries_post_validation,Russia,RUS,Eastern Europe,4,Somalia,SOM,Eastern Africa,False,0.061069380004659925,6080.3548847370885,0.9649209486166008,0.829
+T5,all_countries_post_validation,Russia,RUS,Eastern Europe,5,Laos,LAO,Southeastern Asia,False,0.0676770999855855,6320.253262316353,0.9649209486166008,0.805
+T5,all_countries_post_validation,Saudi Arabia,SAU,Middle East,1,Kuwait,KWT,Middle East,True,0.040626200691278196,675.3782699050627,0.9823182711198428,0.8993414863593603
+T5,all_countries_post_validation,Saudi Arabia,SAU,Middle East,2,United Kingdom,GBR,Northern/Western Europe,False,0.054168204333514776,5132.5171047700005,0.9823182711198428,0.988
+T5,all_countries_post_validation,Saudi Arabia,SAU,Middle East,3,Tajikistan,TJK,Central Asia,False,0.07131122159396847,3083.9234965936994,0.9823182711198428,0.8121878121878122
+T5,all_countries_post_validation,Saudi Arabia,SAU,Middle East,4,Thailand,THA,Southeastern Asia,False,0.08216657331987752,5940.218577809462,0.9823182711198428,0.936
+T5,all_countries_post_validation,Saudi Arabia,SAU,Middle East,5,Lithuania,LTU,Northern/Western Europe,False,0.0824260872271831,3871.371639712161,0.9823182711198428,0.795
+T5,all_countries_post_validation,Senegal,SEN,Central/Western Africa,1,Eswatini,SWZ,Southern Africa,False,0.057631427078297666,6813.571874834405,0.976,0.934
+T5,all_countries_post_validation,Senegal,SEN,Central/Western Africa,2,Comoros,COM,Eastern Africa,False,0.07701914562527924,7059.31850416631,0.976,0.774
+T5,all_countries_post_validation,Senegal,SEN,Central/Western Africa,3,Botswana,BWA,Southern Africa,False,0.07708266668137102,5930.058701198459,0.976,0.9623389494549058
+T5,all_countries_post_validation,Senegal,SEN,Central/Western Africa,4,Mauritius,MUS,Eastern Africa,False,0.10023606712390337,8828.657218552076,0.976,0.918
+T5,all_countries_post_validation,Senegal,SEN,Central/Western Africa,5,Mali,MLI,Central/Western Africa,True,0.11045460399898932,1411.311305076762,0.976,0.995
+T5,all_countries_post_validation,Singapore,SGP,Southeastern Asia,1,Denmark,DNK,Northern/Western Europe,False,0.07548551826497177,10179.866256893822,0.9815712900096992,0.991044776119403
+T5,all_countries_post_validation,Singapore,SGP,Southeastern Asia,2,Hong Kong,HKG,Eastern Asia,False,0.08532562033025029,2594.3171290219693,0.9815712900096992,0.9950199203187252
+T5,all_countries_post_validation,Singapore,SGP,Southeastern Asia,3,Hungary,HUN,Eastern Europe,False,0.08736471902677012,9470.118641759245,0.9815712900096992,0.9861523244312562
+T5,all_countries_post_validation,Singapore,SGP,Southeastern Asia,4,United Arab Emirates,ARE,Middle East,False,0.09835392110198206,5844.968634181927,0.9815712900096992,0.989
+T5,all_countries_post_validation,Singapore,SGP,Southeastern Asia,5,Estonia,EST,Northern/Western Europe,False,0.10080090386721588,9185.105733278966,0.9815712900096992,0.9692765113974232
+T5,all_countries_post_validation,Sierra Leone,SLE,Central/Western Africa,1,Mozambique,MOZ,Eastern Africa,False,0.04769909019127246,6020.1762179053785,0.787,0.928
+T5,all_countries_post_validation,Sierra Leone,SLE,Central/Western Africa,2,Guinea,GIN,Central/Western Africa,True,0.06706587321630834,293.5988325116173,0.787,0.944
+T5,all_countries_post_validation,Sierra Leone,SLE,Central/Western Africa,3,Gabon,GAB,Central/Western Africa,True,0.07418800040968607,2801.7846540598307,0.787,0.99
+T5,all_countries_post_validation,Sierra Leone,SLE,Central/Western Africa,4,Zambia,ZMB,Eastern Africa,False,0.08623476639101509,4939.655617003697,0.787,0.873
+T5,all_countries_post_validation,Sierra Leone,SLE,Central/Western Africa,5,Chad,TCD,Central/Western Africa,True,0.10914710092758681,3383.85386056024,0.787,0.948
+T5,all_countries_post_validation,El Salvador,SLV,Latin America & the Caribbean,1,Ireland,IRL,Northern/Western Europe,False,0.05737437676791194,8202.63113220643,0.925,0.998
+T5,all_countries_post_validation,El Salvador,SLV,Latin America & the Caribbean,2,Romania,ROU,Eastern Europe,False,0.06723609088298677,10677.335391277094,0.925,0.857
+T5,all_countries_post_validation,El Salvador,SLV,Latin America & the Caribbean,3,Moldova,MDA,Eastern Europe,False,0.06725501783068236,10825.152659213802,0.925,0.806
+T5,all_countries_post_validation,El Salvador,SLV,Latin America & the Caribbean,4,Nicaragua,NIC,Latin America & the Caribbean,True,0.07139234063051421,428.76455916512214,0.925,0.951
+T5,all_countries_post_validation,El Salvador,SLV,Latin America & the Caribbean,5,Armenia,ARM,Central Asia,False,0.07239323135983632,12334.249564597629,0.925,0.919
+T5,all_countries_post_validation,Somalia,SOM,Eastern Africa,1,Ethiopia,ETH,Eastern Africa,True,0.05470005532886414,837.8981817094988,0.829,0.954
+T5,all_countries_post_validation,Somalia,SOM,Eastern Africa,2,Russia,RUS,Eastern Europe,False,0.061069380004659925,6080.3548847370885,0.829,0.9649209486166008
+T5,all_countries_post_validation,Somalia,SOM,Eastern Africa,3,United States,USA,Northern America,False,0.0647566142522403,13890.596163602226,0.829,0.9601196410767696
+T5,all_countries_post_validation,Somalia,SOM,Eastern Africa,4,Bosnia Herzegovina,BIH,Southern Europe,False,0.07632964844044847,5232.089865864376,0.829,0.891
+T5,all_countries_post_validation,Somalia,SOM,Eastern Africa,5,Panama,PAN,Latin America & the Caribbean,False,0.07951658354995457,13825.654547905686,0.829,0.949
+T5,all_countries_post_validation,Serbia,SRB,Southern Europe,1,Bosnia Herzegovina,BIH,Southern Europe,True,0.08349873394004266,217.2836793050214,0.89,0.891
+T5,all_countries_post_validation,Serbia,SRB,Southern Europe,2,Bulgaria,BGR,Eastern Europe,False,0.09834060526694068,399.61297156319614,0.89,0.831
+T5,all_countries_post_validation,Serbia,SRB,Southern Europe,3,Libya,LBY,Northern Africa,False,0.09885560446315107,1967.4210416878223,0.89,0.9502487562189056
+T5,all_countries_post_validation,Serbia,SRB,Southern Europe,4,United States,USA,Northern America,False,0.10188582194926643,8842.676097152618,0.89,0.9601196410767696
+T5,all_countries_post_validation,Serbia,SRB,Southern Europe,5,Israel,ISR,Middle East,False,0.10620883266125128,1922.0995370004885,0.89,0.903
+T5,all_countries_post_validation,Slovakia,SVK,Eastern Europe,1,Israel,ISR,Middle East,False,0.12623074327006312,2386.9550728090535,0.8671328671328671,0.903
+T5,all_countries_post_validation,Slovakia,SVK,Eastern Europe,2,Australia,AUS,Australia & New Zealand,False,0.14051811669679312,13807.175676072364,0.8671328671328671,0.9830339321357284
+T5,all_countries_post_validation,Slovakia,SVK,Eastern Europe,3,Serbia,SRB,Southern Europe,False,0.1475219321742345,522.4896271284231,0.8671328671328671,0.89
+T5,all_countries_post_validation,Slovakia,SVK,Eastern Europe,4,Yemen,YEM,Middle East,False,0.15335335466118719,4444.835433147885,0.8671328671328671,0.924
+T5,all_countries_post_validation,Slovakia,SVK,Eastern Europe,5,Canada,CAN,Northern America,False,0.15429649763605308,6780.912293209106,0.8671328671328671,0.9890547263681592
+T5,all_countries_post_validation,Slovenia,SVN,Southern Europe,1,Georgia,GEO,Central Asia,False,0.021696897034437113,2339.662638954406,0.981018981018981,0.934
+T5,all_countries_post_validation,Slovenia,SVN,Southern Europe,2,Taiwan,TWN,Eastern Asia,False,0.052665365605496305,9278.454705782688,0.981018981018981,0.975
+T5,all_countries_post_validation,Slovenia,SVN,Southern Europe,3,Latvia,LVA,Northern/Western Europe,False,0.06131406073083554,1420.7553473857654,0.981018981018981,0.9480392156862744
+T5,all_countries_post_validation,Slovenia,SVN,Southern Europe,4,Kosovo,XKX,Eastern Europe,False,0.06364651525696326,609.8624143129688,0.981018981018981,0.851
+T5,all_countries_post_validation,Slovenia,SVN,Southern Europe,5,Ireland,IRL,Northern/Western Europe,False,0.06413053814813341,1803.9536422439876,0.981018981018981,0.998
+T5,all_countries_post_validation,Sweden,SWE,Northern/Western Europe,1,Tajikistan,TJK,Central Asia,False,0.04961198039491598,4554.408173282774,0.9950248756218906,0.8121878121878122
+T5,all_countries_post_validation,Sweden,SWE,Northern/Western Europe,2,Finland,FIN,Northern/Western Europe,True,0.06882240553690054,488.98895386612156,0.9950248756218906,0.9780658025922232
+T5,all_countries_post_validation,Sweden,SWE,Northern/Western Europe,3,Iceland,ISL,Northern/Western Europe,True,0.06929921788920397,1727.6720508358596,0.9950248756218906,0.984158415841584
+T5,all_countries_post_validation,Sweden,SWE,Northern/Western Europe,4,Lithuania,LTU,Northern/Western Europe,True,0.07214539024514491,1226.8497055583587,0.9950248756218906,0.795
+T5,all_countries_post_validation,Sweden,SWE,Northern/Western Europe,5,Kuwait,KWT,Middle East,False,0.08127794952770696,4489.222464982507,0.9950248756218906,0.8993414863593603
+T5,all_countries_post_validation,Eswatini,SWZ,Southern Africa,1,Senegal,SEN,Central/Western Africa,False,0.057631427078297666,6813.571874834405,0.934,0.976
+T5,all_countries_post_validation,Eswatini,SWZ,Southern Africa,2,Comoros,COM,Eastern Africa,False,0.07725523820363002,2061.0872668017555,0.934,0.774
+T5,all_countries_post_validation,Eswatini,SWZ,Southern Africa,3,Botswana,BWA,Southern Africa,True,0.08897200388470132,887.4507047792054,0.934,0.9623389494549058
+T5,all_countries_post_validation,Eswatini,SWZ,Southern Africa,4,Burkina Faso,BFA,Central/Western Africa,False,0.09104069416000035,5620.5563902870335,0.934,0.939
+T5,all_countries_post_validation,Eswatini,SWZ,Southern Africa,5,Philippines,PHL,Southeastern Asia,False,0.10402487871680167,10658.763069634793,0.934,0.9720837487537388
+T5,all_countries_post_validation,Chad,TCD,Central/Western Africa,1,Guinea,GIN,Central/Western Africa,True,0.08654659759791608,3144.7296179583896,0.948,0.944
+T5,all_countries_post_validation,Chad,TCD,Central/Western Africa,2,Sierra Leone,SLE,Central/Western Africa,True,0.10914710092758681,3383.85386056024,0.948,0.787
+T5,all_countries_post_validation,Chad,TCD,Central/Western Africa,3,Cameroon,CMR,Central/Western Africa,True,0.11629141617381272,1354.2294475426527,0.948,0.962
+T5,all_countries_post_validation,Chad,TCD,Central/Western Africa,4,Philippines,PHL,Southeastern Asia,False,0.12749037275491792,11131.212290818517,0.948,0.9720837487537388
+T5,all_countries_post_validation,Chad,TCD,Central/Western Africa,5,Zambia,ZMB,Eastern Africa,False,0.12993443027778998,3421.7902519601985,0.948,0.873
+T5,all_countries_post_validation,Togo,TGO,Central/Western Africa,1,Iraq,IRQ,Middle East,False,0.04087809748161186,5095.313304268559,0.909,0.9884057971014492
+T5,all_countries_post_validation,Togo,TGO,Central/Western Africa,2,Panama,PAN,Latin America & the Caribbean,False,0.04385180843452112,8924.961684821114,0.909,0.949
+T5,all_countries_post_validation,Togo,TGO,Central/Western Africa,3,Algeria,DZA,Northern Africa,False,0.045238853647473626,2075.300791198974,0.909,0.904
+T5,all_countries_post_validation,Togo,TGO,Central/Western Africa,4,Colombia,COL,Latin America & the Caribbean,False,0.055391045178542916,8218.908540805982,0.909,0.9246031746031746
+T5,all_countries_post_validation,Togo,TGO,Central/Western Africa,5,Guatemala,GTM,Latin America & the Caribbean,False,0.06086392637546894,9920.445873029728,0.909,0.939
+T5,all_countries_post_validation,Thailand,THA,Southeastern Asia,1,Poland,POL,Eastern Europe,False,0.051979437590960686,8087.019913149168,0.936,0.818
+T5,all_countries_post_validation,Thailand,THA,Southeastern Asia,2,Taiwan,TWN,Eastern Asia,False,0.06469038863306037,2262.0668964214065,0.936,0.975
+T5,all_countries_post_validation,Thailand,THA,Southeastern Asia,3,Switzerland,CHE,Northern/Western Europe,False,0.06475975274809424,9032.426589963201,0.936,0.975
+T5,all_countries_post_validation,Thailand,THA,Southeastern Asia,4,Bulgaria,BGR,Eastern Europe,False,0.07395387389999951,7708.975712201794,0.936,0.831
+T5,all_countries_post_validation,Thailand,THA,Southeastern Asia,5,France,FRA,Northern/Western Europe,False,0.08202452846034192,9394.771862738458,0.936,0.979
+T5,all_countries_post_validation,Tajikistan,TJK,Central Asia,1,Lithuania,LTU,Northern/Western Europe,False,0.03781942657546493,4044.9762680473623,0.8121878121878122,0.795
+T5,all_countries_post_validation,Tajikistan,TJK,Central Asia,2,Sweden,SWE,Northern/Western Europe,False,0.04961198039491598,4554.408173282774,0.8121878121878122,0.9950248756218906
+T5,all_countries_post_validation,Tajikistan,TJK,Central Asia,3,Denmark,DNK,Northern/Western Europe,False,0.05950567916571652,4993.4229760882245,0.8121878121878122,0.991044776119403
+T5,all_countries_post_validation,Tajikistan,TJK,Central Asia,4,Estonia,EST,Northern/Western Europe,False,0.0617738732399649,4011.4832018201546,0.8121878121878122,0.9692765113974232
+T5,all_countries_post_validation,Tajikistan,TJK,Central Asia,5,Finland,FIN,Northern/Western Europe,False,0.06646846724657489,4089.4651923114143,0.8121878121878122,0.9780658025922232
+T5,all_countries_post_validation,Tunisia,TUN,Northern Africa,1,Venezuela,VEN,Latin America & the Caribbean,False,0.06804092660423632,8050.756771806777,0.983,0.956
+T5,all_countries_post_validation,Tunisia,TUN,Northern Africa,2,Lebanon,LBN,Middle East,False,0.10732519323008172,2483.4463533578846,0.983,0.9247524752475248
+T5,all_countries_post_validation,Tunisia,TUN,Northern Africa,3,Argentina,ARG,Latin America & the Caribbean,False,0.1242776707116578,10680.211243107295,0.983,0.9661016949152542
+T5,all_countries_post_validation,Tunisia,TUN,Northern Africa,4,South Korea,KOR,Eastern Asia,False,0.13181311339290508,9988.262260303196,0.983,0.9503407984420644
+T5,all_countries_post_validation,Tunisia,TUN,Northern Africa,5,Spain,ESP,Southern Europe,False,0.13696186022619586,1316.1399809304392,0.983,0.998
+T5,all_countries_post_validation,Turkey,TUR,Middle East,1,Nigeria,NGA,Central/Western Africa,False,0.04202572592439928,4270.129811312251,0.882,0.937
+T5,all_countries_post_validation,Turkey,TUR,Middle East,2,United States,USA,Northern America,False,0.058920791164157583,9978.24000097293,0.882,0.9601196410767696
+T5,all_countries_post_validation,Turkey,TUR,Middle East,3,Yemen,YEM,Middle East,True,0.07338273138921711,2891.0390215454063,0.882,0.924
+T5,all_countries_post_validation,Turkey,TUR,Middle East,4,Togo,TGO,Central/Western Africa,False,0.07887895591390402,4749.953353930769,0.882,0.909
+T5,all_countries_post_validation,Turkey,TUR,Middle East,5,Uganda,UGA,Eastern Africa,False,0.08752775684234658,4158.675977406891,0.882,0.841
+T5,all_countries_post_validation,Taiwan,TWN,Eastern Asia,1,Latvia,LVA,Northern/Western Europe,False,0.042374418001932604,8134.556525925886,0.975,0.9480392156862744
+T5,all_countries_post_validation,Taiwan,TWN,Eastern Asia,2,Georgia,GEO,Central Asia,False,0.050099250159784066,7248.367989901442,0.975,0.934
+T5,all_countries_post_validation,Taiwan,TWN,Eastern Asia,3,France,FRA,Northern/Western Europe,False,0.05225200057818115,10046.079060698417,0.975,0.979
+T5,all_countries_post_validation,Taiwan,TWN,Eastern Asia,4,Slovenia,SVN,Southern Europe,False,0.052665365605496305,9278.454705782688,0.975,0.981018981018981
+T5,all_countries_post_validation,Taiwan,TWN,Eastern Asia,5,Switzerland,CHE,Northern/Western Europe,False,0.058983009448390376,9735.946352340457,0.975,0.975
+T5,all_countries_post_validation,Tanzania,TZA,Eastern Africa,1,Gambia,GMB,Central/Western Africa,False,0.05856189867124748,5932.8027472149215,0.936127744510978,0.876
+T5,all_countries_post_validation,Tanzania,TZA,Eastern Africa,2,Nepal,NPL,Southern Asia,False,0.0675319229353604,6462.738756612395,0.936127744510978,0.925
+T5,all_countries_post_validation,Tanzania,TZA,Eastern Africa,3,Zimbabwe,ZWE,Eastern Africa,True,0.07461395848598958,1530.3429166234578,0.936127744510978,0.98
+T5,all_countries_post_validation,Tanzania,TZA,Eastern Africa,4,Malta,MLT,Southern Europe,False,0.08988224252903591,5132.791671330595,0.936127744510978,0.994
+T5,all_countries_post_validation,Tanzania,TZA,Eastern Africa,5,Kenya,KEN,Eastern Africa,True,0.09471545580579054,803.653952477897,0.936127744510978,0.968
+T5,all_countries_post_validation,Uganda,UGA,Eastern Africa,1,Nigeria,NGA,Central/Western Africa,False,0.05916262051382026,2933.062431744647,0.841,0.937
+T5,all_countries_post_validation,Uganda,UGA,Eastern Africa,2,Turkey,TUR,Middle East,False,0.08752775684234658,4158.675977406891,0.841,0.882
+T5,all_countries_post_validation,Uganda,UGA,Eastern Africa,3,Vietnam,VNM,Southeastern Asia,False,0.09954842399974363,8113.837362069812,0.841,0.945
+T5,all_countries_post_validation,Uganda,UGA,Eastern Africa,4,Dominican Republic,DOM,Latin America & the Caribbean,False,0.1113713816884366,11360.946862953324,0.841,0.897
+T5,all_countries_post_validation,Uganda,UGA,Eastern Africa,5,Yemen,YEM,Middle East,False,0.11284913925924912,2052.9344975787276,0.841,0.924
+T5,all_countries_post_validation,Ukraine,UKR,Eastern Europe,1,Uruguay,URY,Latin America & the Caribbean,False,0.0379202250735162,12609.794180953082,0.923,0.955
+T5,all_countries_post_validation,Ukraine,UKR,Eastern Europe,2,Spain,ESP,Southern Europe,False,0.04273293164151667,2967.976535363372,0.923,0.998
+T5,all_countries_post_validation,Ukraine,UKR,Eastern Europe,3,Luxembourg,LUX,Northern/Western Europe,False,0.04759349773135192,1863.866500629124,0.923,0.98
+T5,all_countries_post_validation,Ukraine,UKR,Eastern Europe,4,Kyrgyzstan,KGZ,Central Asia,False,0.04791438870001573,3363.1414203154523,0.923,0.888
+T5,all_countries_post_validation,Ukraine,UKR,Eastern Europe,5,Palestine,PSE,Middle East,False,0.04874262575217197,1982.9312745617233,0.923,0.945
+T5,all_countries_post_validation,Uruguay,URY,Latin America & the Caribbean,1,Palestine,PSE,Middle East,False,0.031810954039525885,11977.575873858368,0.955,0.945
+T5,all_countries_post_validation,Uruguay,URY,Latin America & the Caribbean,2,Ukraine,UKR,Eastern Europe,False,0.0379202250735162,12609.794180953082,0.955,0.923
+T5,all_countries_post_validation,Uruguay,URY,Latin America & the Caribbean,3,North Macedonia,MKD,Southern Europe,False,0.04489464548693758,11455.245057624068,0.955,0.914
+T5,all_countries_post_validation,Uruguay,URY,Latin America & the Caribbean,4,Luxembourg,LUX,Northern/Western Europe,False,0.05577366314201717,11037.304949284271,0.955,0.98
+T5,all_countries_post_validation,Uruguay,URY,Latin America & the Caribbean,5,Kyrgyzstan,KGZ,Central Asia,False,0.05700694395103181,15594.263884519907,0.955,0.888
+T5,all_countries_post_validation,United States,USA,Northern America,1,Bosnia Herzegovina,BIH,Southern Europe,False,0.055525919486872764,8698.432324529353,0.9601196410767696,0.891
+T5,all_countries_post_validation,United States,USA,Northern America,2,Turkey,TUR,Middle East,False,0.058920791164157583,9978.24000097293,0.9601196410767696,0.882
+T5,all_countries_post_validation,United States,USA,Northern America,3,Iran,IRN,Southern Asia,False,0.06258175224271291,11549.702591237852,0.9601196410767696,0.9801390268123138
+T5,all_countries_post_validation,United States,USA,Northern America,4,Somalia,SOM,Eastern Africa,False,0.0647566142522403,13890.596163602226,0.9601196410767696,0.829
+T5,all_countries_post_validation,United States,USA,Northern America,5,Russia,RUS,Eastern Europe,False,0.07169902038555812,8589.15470742092,0.9601196410767696,0.9649209486166008
+T5,all_countries_post_validation,Uzbekistan,UZB,Central Asia,1,United Arab Emirates,ARE,Middle East,False,0.10194784541086234,2208.5950008527866,0.913,0.989
+T5,all_countries_post_validation,Uzbekistan,UZB,Central Asia,2,Denmark,DNK,Northern/Western Europe,False,0.1074644563254522,4194.3981909512695,0.913,0.991044776119403
+T5,all_countries_post_validation,Uzbekistan,UZB,Central Asia,3,United Kingdom,GBR,Northern/Western Europe,False,0.12186872194669929,4915.892063919828,0.913,0.988
+T5,all_countries_post_validation,Uzbekistan,UZB,Central Asia,4,Norway,NOR,Northern/Western Europe,False,0.1237632378196141,4178.838315672005,0.913,0.99
+T5,all_countries_post_validation,Uzbekistan,UZB,Central Asia,5,Singapore,SGP,Southeastern Asia,False,0.1317373914522403,5992.668369661478,0.913,0.9815712900096992
+T5,all_countries_post_validation,Venezuela,VEN,Latin America & the Caribbean,1,Argentina,ARG,Latin America & the Caribbean,True,0.05887456432580132,4524.043597251164,0.956,0.9661016949152542
+T5,all_countries_post_validation,Venezuela,VEN,Latin America & the Caribbean,2,Lebanon,LBN,Middle East,False,0.062234898387062615,10522.910576791499,0.956,0.9247524752475248
+T5,all_countries_post_validation,Venezuela,VEN,Latin America & the Caribbean,3,Tunisia,TUN,Northern Africa,False,0.06804092660423632,8050.756771806777,0.956,0.983
+T5,all_countries_post_validation,Venezuela,VEN,Latin America & the Caribbean,4,Spain,ESP,Southern Europe,False,0.08841101806355929,7055.614043357078,0.956,0.998
+T5,all_countries_post_validation,Venezuela,VEN,Latin America & the Caribbean,5,Guatemala,GTM,Latin America & the Caribbean,True,0.09406676599925978,2952.8853751612,0.956,0.939
+T5,all_countries_post_validation,Vietnam,VNM,Southeastern Asia,1,Yemen,YEM,Middle East,False,0.0666800156944832,6279.131364684399,0.945,0.924
+T5,all_countries_post_validation,Vietnam,VNM,Southeastern Asia,2,Kenya,KEN,Eastern Africa,False,0.08156442742432679,7665.693366316612,0.945,0.968
+T5,all_countries_post_validation,Vietnam,VNM,Southeastern Asia,3,United States,USA,Northern America,False,0.09730856318697369,12801.42470289847,0.945,0.9601196410767696
+T5,all_countries_post_validation,Vietnam,VNM,Southeastern Asia,4,Uganda,UGA,Eastern Africa,False,0.09954842399974363,8113.837362069812,0.945,0.841
+T5,all_countries_post_validation,Vietnam,VNM,Southeastern Asia,5,Turkey,TUR,Middle East,False,0.10195005306554629,6890.887360786507,0.945,0.882
+T5,all_countries_post_validation,Kosovo,XKX,Eastern Europe,1,Moldova,MDA,Eastern Europe,True,0.041126824593739335,805.0783141232304,0.851,0.806
+T5,all_countries_post_validation,Kosovo,XKX,Eastern Europe,2,Nicaragua,NIC,Latin America & the Caribbean,False,0.04638932992661916,10317.816738276875,0.851,0.951
+T5,all_countries_post_validation,Kosovo,XKX,Eastern Europe,3,Luxembourg,LUX,Northern/Western Europe,False,0.047327585512209926,1384.072360670325,0.851,0.98
+T5,all_countries_post_validation,Kosovo,XKX,Eastern Europe,4,Ireland,IRL,Northern/Western Europe,False,0.052490614188307534,2413.0977585537225,0.851,0.998
+T5,all_countries_post_validation,Kosovo,XKX,Eastern Europe,5,Slovenia,SVN,Southern Europe,False,0.06364651525696326,609.8624143129688,0.851,0.981018981018981
+T5,all_countries_post_validation,Yemen,YEM,Middle East,1,Vietnam,VNM,Southeastern Asia,False,0.0666800156944832,6279.131364684399,0.924,0.945
+T5,all_countries_post_validation,Yemen,YEM,Middle East,2,United States,USA,Northern America,False,0.07223348154844524,12828.775320712277,0.924,0.9601196410767696
+T5,all_countries_post_validation,Yemen,YEM,Middle East,3,Turkey,TUR,Middle East,True,0.07338273138921711,2891.0390215454063,0.924,0.882
+T5,all_countries_post_validation,Yemen,YEM,Middle East,4,Nigeria,NGA,Central/Western Africa,False,0.08277081435580738,4212.739782569065,0.924,0.937
+T5,all_countries_post_validation,Yemen,YEM,Middle East,5,Iran,IRN,Southern Asia,False,0.10294912108104791,2084.539186637028,0.924,0.9801390268123138
+T5,all_countries_post_validation,South Africa,ZAF,Southern Africa,1,Cameroon,CMR,Central/Western Africa,False,0.04598405340713796,3995.6867890309272,0.904,0.962
+T5,all_countries_post_validation,South Africa,ZAF,Southern Africa,2,Greece,GRC,Southern Europe,False,0.07917717306699537,7697.488858626594,0.904,0.9861523244312562
+T5,all_countries_post_validation,South Africa,ZAF,Southern Africa,3,Brazil,BRA,Latin America & the Caribbean,False,0.08881470395598892,7736.398710137627,0.904,0.973
+T5,all_countries_post_validation,South Africa,ZAF,Southern Africa,4,Gabon,GAB,Central/Western Africa,False,0.09315954967498107,3487.6232850540277,0.904,0.99
+T5,all_countries_post_validation,South Africa,ZAF,Southern Africa,5,Zambia,ZMB,Eastern Africa,False,0.09827529912247557,1696.4971059283705,0.904,0.873
+T5,all_countries_post_validation,Zambia,ZMB,Eastern Africa,1,Niger,NER,Central/Western Africa,False,0.05881532159436026,4022.2327274226045,0.873,0.931
+T5,all_countries_post_validation,Zambia,ZMB,Eastern Africa,2,Mozambique,MOZ,Eastern Africa,True,0.05936721767176461,1235.3700617647085,0.873,0.928
+T5,all_countries_post_validation,Zambia,ZMB,Eastern Africa,3,Cameroon,CMR,Central/Western Africa,False,0.06634758939830873,2633.378459152634,0.873,0.962
+T5,all_countries_post_validation,Zambia,ZMB,Eastern Africa,4,Gabon,GAB,Central/Western Africa,False,0.06709668487168335,2250.055025082793,0.873,0.99
+T5,all_countries_post_validation,Zambia,ZMB,Eastern Africa,5,Ghana,GHA,Central/Western Africa,False,0.07065921797626348,3916.8605836846086,0.873,0.917
+T5,all_countries_post_validation,Zimbabwe,ZWE,Eastern Africa,1,Portugal,PRT,Southern Europe,False,0.0504082511777019,7619.132580286708,0.98,0.976023976023976
+T5,all_countries_post_validation,Zimbabwe,ZWE,Eastern Africa,2,Ivory Coast,CIV,Central/Western Africa,False,0.05438497389252441,4873.702524287541,0.98,0.982
+T5,all_countries_post_validation,Zimbabwe,ZWE,Eastern Africa,3,Gambia,GMB,Central/Western Africa,False,0.061272509741653915,6108.6290084343855,0.98,0.876
+T5,all_countries_post_validation,Zimbabwe,ZWE,Eastern Africa,4,Benin,BEN,Central/Western Africa,False,0.0676345952651005,4439.304029071344,0.98,0.987
+T5,all_countries_post_validation,Zimbabwe,ZWE,Eastern Africa,5,Nepal,NPL,Southern Asia,False,0.07177418911410044,7802.017075018985,0.98,0.925

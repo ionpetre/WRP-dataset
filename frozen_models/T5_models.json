@@ -53,11 +53,12 @@
         "k": 5,
         "model": "T5",
         "q": 0.41670089020376244,
-        "status": "provisional, not frozen",
+        "status": "frozen; primary course specification",
         "t": 2.399802888616365,
         "trial": "k5_3259ff3d7dbb806a",
         "top": 2.399802888616365,
-        "global_k": 5
+        "global_k": 5,
+        "source_search_status": "provisional, not frozen"
       },
       "centres": [
         [

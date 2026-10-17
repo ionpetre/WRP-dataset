@@ -113,5 +113,24 @@ The original Objective 1 closure used B4 as the core and E8 as a complementary
 description. The subsequent Week 5 extension selects **T5 as the primary model**;
 its evidence and secondary-transfer limitations are in [T5 results](T5_RESULTS.md).
 B4/E8 remain historical benchmarks. No clustering was refitted on all countries.
-The existing country-distance pages retain historical B/E metrics, explicitly
-labelled, and the Week 6 B/E prediction draft is not a T5 prediction result.
+The country-distance pages now include T5 alongside the historical E8 comparison. Week 6 now predicts T5 membership; older B/E supervised results remain historical.
+
+
+## T5 geographical completion — 17 October 2026
+T5 regional completion: 6 cases pass both full stability tests; 0 failed stability fits. Small-region LOO and respondent-only diagnostics are not full geographic confirmation. Global T5 was not refitted.
+
+The same frozen T5 geometry is used for all independent regional fits. The regional protocol selects alternatives without using agreement with the global labels. Country mixtures, region-wise original responses, 200 conditional respondent bootstraps, exploratory country groups, original-response distances and 999 whole-country income-label permutations are saved. Small regions have limited or unavailable country tests. Global profiles, local profiles and country groups must not be treated as the same objects.
+
+Country original-response distance gives worry alpha=0.5837857862168715, and personal/known-person harm half of the remaining allocation each. Total variation uses category probabilities and deliberately does not depend on numeric worry spacing t. The established cross-model median scales are retained. Pairwise correlations do not have independent-pair significance tests.
+
+Across 141 income-classified countries, income-gap Spearman correlation is 0.2469 for T5 mixture Hellinger distance and 0.2977 for original-response distance. These are exploratory associations, not causal explanations.
+
+See [Week 5 notebook](../weekly_notebooks/week05_validate_frozen_profiles.ipynb) and [completion tables](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_complete.json). Week 6 logistic prediction remains weak: held-out balanced accuracy 0.2608 and macro-F1 0.2230.
+
+### Interpretation of the completed T5 geographical analyses
+
+No regional k=5 solution qualifies for both full stability tests. Six settings in four regions pass: Eastern Africa k=3; Central/Western Africa k=3/4; Latin America/Caribbean k=3/4; Northern/Western Europe k=2. Small-region diagnostics remain limited. The European binary split is almost defined by known-person mental-health harm. These results limit a universal interpretation of the global five-profile description, rather than refitting or invalidating that fixed model.
+
+T5 country mixtures partly follow geography: within-region mean Hellinger distance 0.174 versus 0.233 across regions; nearest-country same-region rate 23.9% versus 8.1% random reference. Country groups are exploratory, not new regions. Unexpected profile-mixture neighbours show compression: USA–Bosnia Herzegovina and Finland–Tajikistan are nearest, while original-response distance makes Canada and Iceland nearest respectively. Exact-neighbour bootstrap repeat rates for the USA and Finland are only 29.5%.
+
+Income-gap correlations are 0.247 for mixtures and 0.298 for original responses. The analyses preserve fixed denominators and disclose uncertainty, complete-case limits and pair dependence. See [full interpretation](T5_RESULTS.md) and the completed Week 5 notebook.

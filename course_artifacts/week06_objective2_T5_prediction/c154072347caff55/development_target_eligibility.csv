@@ -1,0 +1,5 @@
+exclusion_reason,respondents,split
+fewer than four observed worry or harm domains,660,train
+included complete case,109488,train
+remaining missing profile responses,6660,train
+zero observed profile responses,12,train

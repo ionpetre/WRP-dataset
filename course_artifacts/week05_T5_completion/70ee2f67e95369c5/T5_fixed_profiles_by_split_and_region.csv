@@ -1,0 +1,241 @@
+split,area,region_name,cluster,countries,respondents,equal_country_share
+train,global,Global,0,113,39306,0.3631945747362393
+train,global,Global,1,113,15677,0.13841807836597425
+train,global,Global,2,113,20426,0.18491310495525223
+train,global,Global,3,113,17184,0.1579767451591483
+train,global,Global,4,113,16895,0.15549749678338598
+train,1,Eastern Africa,0,10,1936,0.2236470703420127
+train,1,Eastern Africa,1,10,2156,0.23037082259504946
+train,1,Eastern Africa,2,10,1334,0.14173634575914135
+train,1,Eastern Africa,3,10,1955,0.20902247946166375
+train,1,Eastern Africa,4,10,1746,0.19522328184213275
+train,2,Central/Western Africa,0,15,2532,0.18137210758181432
+train,2,Central/Western Africa,1,15,3240,0.22765373167175554
+train,2,Central/Western Africa,2,15,2402,0.16230253513561574
+train,2,Central/Western Africa,3,15,3046,0.21233626823492133
+train,2,Central/Western Africa,4,15,2956,0.2163353573758931
+train,3,Northern Africa,0,4,1418,0.36651309507538726
+train,3,Northern Africa,1,4,334,0.09176154566702552
+train,3,Northern Africa,2,4,994,0.26295890044305903
+train,3,Northern Africa,3,4,319,0.08418533849461698
+train,3,Northern Africa,4,4,769,0.19458112031991123
+train,4,Southern Africa,0,3,332,0.12516154927006834
+train,4,Southern Africa,1,3,594,0.1995121328774888
+train,4,Southern Africa,2,3,667,0.2318060795369019
+train,4,Southern Africa,3,3,698,0.25769136512830165
+train,4,Southern Africa,4,3,518,0.18582887318723926
+train,5,Latin America & the Caribbean,0,15,3884,0.2792932032030794
+train,5,Latin America & the Caribbean,1,15,1443,0.10097328528665422
+train,5,Latin America & the Caribbean,2,15,3905,0.27219393886319343
+train,5,Latin America & the Caribbean,3,15,2077,0.144119738329387
+train,5,Latin America & the Caribbean,4,15,2950,0.20341983431768593
+train,6,Northern America,0,1,428,0.3906734642426423
+train,6,Northern America,1,1,140,0.19022856273015853
+train,6,Northern America,2,1,184,0.17495247895593163
+train,6,Northern America,3,1,91,0.10337617800061483
+train,6,Northern America,4,1,120,0.14076931607065268
+train,7,Central Asia,0,5,2364,0.5620709295398568
+train,7,Central Asia,1,5,221,0.05215971521513901
+train,7,Central Asia,2,5,516,0.11949908745762097
+train,7,Central Asia,3,5,495,0.10546762873716341
+train,7,Central Asia,4,5,724,0.1608026390502198
+train,8,Eastern Asia,0,5,2698,0.3953769567580051
+train,8,Eastern Asia,1,5,1334,0.11873003751007807
+train,8,Eastern Asia,2,5,1016,0.1809548142400298
+train,8,Eastern Asia,3,5,778,0.137129624008261
+train,8,Eastern Asia,4,5,1057,0.16780856748362608
+train,9,Southeastern Asia,0,7,2304,0.35250820173137565
+train,9,Southeastern Asia,1,7,928,0.13642369305375876
+train,9,Southeastern Asia,2,7,1220,0.17912504871215745
+train,9,Southeastern Asia,3,7,1487,0.2294246824496143
+train,9,Southeastern Asia,4,7,676,0.10251837405309383
+train,10,Southern Asia,0,6,2413,0.3354233654704863
+train,10,Southern Asia,1,6,1108,0.1595225175468694
+train,10,Southern Asia,2,6,1160,0.14987671647374484
+train,10,Southern Asia,3,6,1638,0.2088475885652499
+train,10,Southern Asia,4,6,1138,0.14632981194364963
+train,11,Middle East,0,8,3565,0.4772641901419343
+train,11,Middle East,1,8,951,0.12593271781600685
+train,11,Middle East,2,8,1614,0.20378878852021567
+train,11,Middle East,3,8,739,0.09903611344688174
+train,11,Middle East,4,8,726,0.09397819007496144
+train,12,Eastern Europe,0,8,3426,0.4760106074802005
+train,12,Eastern Europe,1,8,792,0.1082708314813357
+train,12,Eastern Europe,2,8,1252,0.18174853022630422
+train,12,Eastern Europe,3,8,783,0.1112733304312036
+train,12,Eastern Europe,4,8,859,0.12269670038095598
+train,13,Northern/Western Europe,0,14,7580,0.5696152708069742
+train,13,Northern/Western Europe,1,14,1045,0.08051210567105117
+train,13,Northern/Western Europe,2,14,2019,0.15391197648583865
+train,13,Northern/Western Europe,3,14,1558,0.12591422063781
+train,13,Northern/Western Europe,4,14,878,0.07004642639832606
+train,14,Southern Europe,0,11,4037,0.40345103634635143
+train,14,Southern Europe,1,11,1273,0.12105246523659793
+train,14,Southern Europe,2,11,1871,0.17244668767726712
+train,14,Southern Europe,3,11,1358,0.1349102569652106
+train,14,Southern Europe,4,11,1744,0.1681395537745729
+train,15,Australia & New Zealand,0,1,389,0.35621547913066853
+train,15,Australia & New Zealand,1,1,118,0.15339351933807316
+train,15,Australia & New Zealand,2,1,272,0.24677903949141355
+train,15,Australia & New Zealand,3,1,162,0.19978364370124832
+train,15,Australia & New Zealand,4,1,34,0.04382831833859659
+heldout_country,global,Global,0,29,10221,0.35860698279814973
+heldout_country,global,Global,1,29,3423,0.12520744424684072
+heldout_country,global,Global,2,29,5233,0.18341068597766202
+heldout_country,global,Global,3,29,4822,0.17859048635963629
+heldout_country,global,Global,4,29,4273,0.15418440061771121
+heldout_country,1,Eastern Africa,0,2,436,0.25074112156017025
+heldout_country,1,Eastern Africa,1,2,221,0.12536032460923244
+heldout_country,1,Eastern Africa,2,2,355,0.20329172995674658
+heldout_country,1,Eastern Africa,3,2,467,0.26572865795407763
+heldout_country,1,Eastern Africa,4,2,268,0.1548781659197731
+heldout_country,2,Central/Western Africa,0,4,467,0.13244810783713454
+heldout_country,2,Central/Western Africa,1,4,977,0.2559964849168657
+heldout_country,2,Central/Western Africa,2,4,390,0.10031560430989085
+heldout_country,2,Central/Western Africa,3,4,944,0.2502824215199257
+heldout_country,2,Central/Western Africa,4,4,900,0.26095738141618324
+heldout_country,3,Northern Africa,0,1,211,0.23460597807792216
+heldout_country,3,Northern Africa,1,1,45,0.05886130871637201
+heldout_country,3,Northern Africa,2,1,214,0.2354293827091959
+heldout_country,3,Northern Africa,3,1,267,0.2958489790691979
+heldout_country,3,Northern Africa,4,1,160,0.17525435142731205
+heldout_country,4,Southern Africa,0,1,165,0.17621908256257926
+heldout_country,4,Southern Africa,1,1,138,0.13030185719120868
+heldout_country,4,Southern Africa,2,1,271,0.30157511891123556
+heldout_country,4,Southern Africa,3,1,235,0.2577365856321887
+heldout_country,4,Southern Africa,4,1,137,0.13416735570278776
+heldout_country,5,Latin America & the Caribbean,0,3,822,0.3037224175765186
+heldout_country,5,Latin America & the Caribbean,1,3,250,0.10040588218173549
+heldout_country,5,Latin America & the Caribbean,2,3,729,0.25266494952599194
+heldout_country,5,Latin America & the Caribbean,3,3,355,0.13266142475182274
+heldout_country,5,Latin America & the Caribbean,4,3,604,0.21054532596393122
+heldout_country,6,Northern America,0,1,500,0.4739989980415702
+heldout_country,6,Northern America,1,1,121,0.1373355256305753
+heldout_country,6,Northern America,2,1,156,0.15298513973679206
+heldout_country,6,Northern America,3,1,163,0.1737763242657115
+heldout_country,6,Northern America,4,1,54,0.06190401232535095
+heldout_country,7,Central Asia,0,2,1021,0.587384691624319
+heldout_country,7,Central Asia,1,2,108,0.06654279280070372
+heldout_country,7,Central Asia,2,2,269,0.1426245523499063
+heldout_country,7,Central Asia,3,2,222,0.12722822612124313
+heldout_country,7,Central Asia,4,2,127,0.07621973710382779
+heldout_country,8,Eastern Asia,0,1,535,0.5439954693895062
+heldout_country,8,Eastern Asia,1,1,66,0.057115375558164795
+heldout_country,8,Eastern Asia,2,1,176,0.18847949523419466
+heldout_country,8,Eastern Asia,3,1,114,0.1283155527558631
+heldout_country,8,Eastern Asia,4,1,84,0.08209410706227138
+heldout_country,9,Southeastern Asia,0,2,717,0.4011351051502303
+heldout_country,9,Southeastern Asia,1,2,220,0.12612866738453204
+heldout_country,9,Southeastern Asia,2,2,239,0.1636192739511163
+heldout_country,9,Southeastern Asia,3,2,306,0.1658077226643489
+heldout_country,9,Southeastern Asia,4,2,270,0.14330923084977243
+heldout_country,10,Southern Asia,0,1,428,0.44875706836443124
+heldout_country,10,Southern Asia,1,1,84,0.10388561410406667
+heldout_country,10,Southern Asia,2,1,97,0.11403855205573507
+heldout_country,10,Southern Asia,3,1,219,0.23114586753291572
+heldout_country,10,Southern Asia,4,1,106,0.10217289794285124
+heldout_country,11,Middle East,0,3,1031,0.36894633434345425
+heldout_country,11,Middle East,1,3,328,0.11425365048721478
+heldout_country,11,Middle East,2,3,631,0.22240078925630385
+heldout_country,11,Middle East,3,3,321,0.12032906698762152
+heldout_country,11,Middle East,4,3,501,0.17407015892540564
+heldout_country,12,Eastern Europe,0,2,1227,0.46264366296595294
+heldout_country,12,Eastern Europe,1,2,289,0.0840498615664084
+heldout_country,12,Eastern Europe,2,2,495,0.17190323490714227
+heldout_country,12,Eastern Europe,3,2,278,0.10662901338416045
+heldout_country,12,Eastern Europe,4,2,470,0.174774227176336
+heldout_country,13,Northern/Western Europe,0,3,1662,0.5387630048869612
+heldout_country,13,Northern/Western Europe,1,3,238,0.08846750780560439
+heldout_country,13,Northern/Western Europe,2,3,564,0.17570358820514015
+heldout_country,13,Northern/Western Europe,3,3,278,0.10580276352856695
+heldout_country,13,Northern/Western Europe,4,3,253,0.09126313557372742
+heldout_country,14,Southern Europe,0,2,475,0.23356422633066393
+heldout_country,14,Southern Europe,1,2,232,0.13251208189159494
+heldout_country,14,Southern Europe,2,2,488,0.23048184038173944
+heldout_country,14,Southern Europe,3,2,493,0.25099857876439485
+heldout_country,14,Southern Europe,4,2,303,0.15244327263160684
+heldout_country,15,Australia & New Zealand,0,1,524,0.48700058767832155
+heldout_country,15,Australia & New Zealand,1,1,106,0.14096168436192302
+heldout_country,15,Australia & New Zealand,2,1,159,0.14899054340987186
+heldout_country,15,Australia & New Zealand,3,1,160,0.18200694551338972
+heldout_country,15,Australia & New Zealand,4,1,36,0.04104023903649378
+all,global,Global,0,142,49527,0.3622576721573336
+all,global,Global,1,142,19100,0.13572013196136246
+all,global,Global,2,142,25659,0.1846062729105331
+all,global,Global,3,142,22006,0.16218659371417754
+all,global,Global,4,142,21168,0.15522932925659325
+all,1,Eastern Africa,0,12,2372,0.22816274554503896
+all,1,Eastern Africa,1,12,2377,0.21286907293074664
+all,1,Eastern Africa,2,12,1689,0.15199557645874223
+all,1,Eastern Africa,3,12,2422,0.21847350921039937
+all,1,Eastern Africa,4,12,2014,0.1884990958550728
+all,2,Central/Western Africa,0,19,2999,0.17107231816188176
+all,2,Central/Western Africa,1,19,4217,0.23362062709177872
+all,2,Central/Western Africa,2,19,2792,0.14925265496177892
+all,2,Central/Western Africa,3,19,3990,0.2203249320843959
+all,2,Central/Western Africa,4,19,3856,0.22572946770016472
+all,3,Northern Africa,0,5,1629,0.34013167167589425
+all,3,Northern Africa,1,5,379,0.08518149827689482
+all,3,Northern Africa,2,5,1208,0.2574529968962864
+all,3,Northern Africa,3,5,586,0.12651806660953316
+all,3,Northern Africa,4,5,929,0.19071576654139138
+all,4,Southern Africa,0,4,497,0.13792593259319605
+all,4,Southern Africa,1,4,732,0.18220956395591878
+all,4,Southern Africa,2,4,938,0.24924833938048532
+all,4,Southern Africa,3,4,933,0.2577026702542734
+all,4,Southern Africa,4,4,655,0.17291349381612636
+all,5,Latin America & the Caribbean,0,18,4706,0.28336473893198594
+all,5,Latin America & the Caribbean,1,18,1693,0.1008787181025011
+all,5,Latin America & the Caribbean,2,18,4634,0.2689391073069932
+all,5,Latin America & the Caribbean,3,18,2432,0.14221001939979294
+all,5,Latin America & the Caribbean,4,18,3554,0.2046074162587268
+all,6,Northern America,0,2,928,0.4323362311421062
+all,6,Northern America,1,2,261,0.16378204418036693
+all,6,Northern America,2,2,340,0.16396880934636185
+all,6,Northern America,3,2,254,0.13857625113316316
+all,6,Northern America,4,2,174,0.10133666419800183
+all,7,Central Asia,0,7,3385,0.5693034329925604
+all,7,Central Asia,1,7,329,0.05626916595387178
+all,7,Central Asia,2,7,785,0.12610636314113105
+all,7,Central Asia,3,7,717,0.1116849422754719
+all,7,Central Asia,4,7,851,0.13663609563696494
+all,8,Eastern Asia,0,6,3233,0.4201467088632552
+all,8,Eastern Asia,1,6,1400,0.10846092718475919
+all,8,Eastern Asia,2,6,1192,0.18220892773905728
+all,8,Eastern Asia,3,6,892,0.13566061213286135
+all,8,Eastern Asia,4,6,1141,0.15352282408006696
+all,9,Southeastern Asia,0,9,3021,0.3633141802688989
+all,9,Southeastern Asia,1,9,1148,0.1341359095717084
+all,9,Southeastern Asia,2,9,1459,0.17567932098748162
+all,9,Southeastern Asia,3,9,1793,0.21528758027511088
+all,9,Southeastern Asia,4,9,946,0.1115830088968002
+all,10,Southern Asia,0,7,2841,0.35161389445533553
+all,10,Southern Asia,1,7,1192,0.15157438848361185
+all,10,Southern Asia,2,7,1257,0.14475697869974344
+all,10,Southern Asia,3,7,1857,0.21203305698920216
+all,10,Southern Asia,4,7,1244,0.14002168137210702
+all,11,Middle East,0,11,4596,0.44772295674234885
+all,11,Middle East,1,11,1279,0.1227475176354272
+all,11,Middle East,2,11,2245,0.208864788720967
+all,11,Middle East,3,11,1060,0.10484328259435623
+all,11,Middle East,4,11,1227,0.11582145430690077
+all,12,Eastern Europe,0,10,4653,0.473337218577351
+all,12,Eastern Europe,1,10,1081,0.10342663749835027
+all,12,Eastern Europe,2,10,1747,0.17977947116247184
+all,12,Eastern Europe,3,10,1061,0.11034446702179497
+all,12,Eastern Europe,4,10,1329,0.13311220574003196
+all,13,Northern/Western Europe,0,17,9242,0.5641707532916778
+all,13,Northern/Western Europe,1,17,1283,0.08191600016538408
+all,13,Northern/Western Europe,2,17,2583,0.15775755502453892
+all,13,Northern/Western Europe,3,17,1836,0.12236513997147298
+all,13,Northern/Western Europe,4,17,1131,0.0737905515469263
+all,14,Southern Europe,0,13,4512,0.3773146040362456
+all,14,Southern Europe,1,13,1505,0.12281548318352056
+all,14,Southern Europe,2,13,2359,0.18137517270872439
+all,14,Southern Europe,3,13,1851,0.1527699987804697
+all,14,Southern Europe,4,13,2047,0.16572474129103967
+all,15,Australia & New Zealand,0,2,913,0.421608033404495
+all,15,Australia & New Zealand,1,2,224,0.1471776018499981
+all,15,Australia & New Zealand,2,2,431,0.1978847914506427
+all,15,Australia & New Zealand,3,2,322,0.19089529460731902
+all,15,Australia & New Zealand,4,2,70,0.04243427868754519

@@ -1,0 +1,323 @@
+{
+  "alpha": 0.5837857862168715,
+  "assigned_respondents": 137460,
+  "colour_projection_quality": {
+    "distance_rank_spearman": 0.9123243494244859,
+    "relative_distance_error": 0.22259586043972984,
+    "variance_preserved": 0.7551121475010595
+  },
+  "countries": 142,
+  "country_bootstrap_repetitions": 200,
+  "distance_meaning": "profile mixtures: Hellinger; original responses: feature-marginal total variation",
+  "global_profile_refits": 0,
+  "income_cells": {
+    "T5_profiles:all_countries_post_validation": [
+      [
+        {
+          "distinct_pairs": 136,
+          "mean_distance": 0.20928771454134346
+        },
+        {
+          "distinct_pairs": 680,
+          "mean_distance": 0.23208410131887375
+        },
+        {
+          "distinct_pairs": 629,
+          "mean_distance": 0.26408576476577317
+        },
+        {
+          "distinct_pairs": 799,
+          "mean_distance": 0.2976244782306385
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 680,
+          "mean_distance": 0.23208410131887372
+        },
+        {
+          "distinct_pairs": 780,
+          "mean_distance": 0.2069024478037005
+        },
+        {
+          "distinct_pairs": 1480,
+          "mean_distance": 0.21932634301746473
+        },
+        {
+          "distinct_pairs": 1880,
+          "mean_distance": 0.2369822498405059
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 629,
+          "mean_distance": 0.26408576476577317
+        },
+        {
+          "distinct_pairs": 1480,
+          "mean_distance": 0.21932634301746473
+        },
+        {
+          "distinct_pairs": 666,
+          "mean_distance": 0.21551899544725733
+        },
+        {
+          "distinct_pairs": 1739,
+          "mean_distance": 0.2223999037306016
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 799,
+          "mean_distance": 0.2976244782306385
+        },
+        {
+          "distinct_pairs": 1880,
+          "mean_distance": 0.2369822498405059
+        },
+        {
+          "distinct_pairs": 1739,
+          "mean_distance": 0.2223999037306016
+        },
+        {
+          "distinct_pairs": 1081,
+          "mean_distance": 0.17948933524270713
+        }
+      ]
+    ],
+    "T5_profiles:development": [
+      [
+        {
+          "distinct_pairs": 91,
+          "mean_distance": 0.20919679733831295
+        },
+        {
+          "distinct_pairs": 420,
+          "mean_distance": 0.2228740197062959
+        },
+        {
+          "distinct_pairs": 434,
+          "mean_distance": 0.26068047238651715
+        },
+        {
+          "distinct_pairs": 518,
+          "mean_distance": 0.29892064649292654
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 420,
+          "mean_distance": 0.2228740197062959
+        },
+        {
+          "distinct_pairs": 435,
+          "mean_distance": 0.20484268780877338
+        },
+        {
+          "distinct_pairs": 930,
+          "mean_distance": 0.22196330957395288
+        },
+        {
+          "distinct_pairs": 1110,
+          "mean_distance": 0.24515768649523334
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 434,
+          "mean_distance": 0.2606804723865172
+        },
+        {
+          "distinct_pairs": 930,
+          "mean_distance": 0.22196330957395285
+        },
+        {
+          "distinct_pairs": 465,
+          "mean_distance": 0.21853224169759233
+        },
+        {
+          "distinct_pairs": 1147,
+          "mean_distance": 0.22750451425926974
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 518,
+          "mean_distance": 0.29892064649292654
+        },
+        {
+          "distinct_pairs": 1110,
+          "mean_distance": 0.24515768649523334
+        },
+        {
+          "distinct_pairs": 1147,
+          "mean_distance": 0.2275045142592698
+        },
+        {
+          "distinct_pairs": 666,
+          "mean_distance": 0.18051741190812182
+        }
+      ]
+    ],
+    "T5_responses:all_countries_post_validation": [
+      [
+        {
+          "distinct_pairs": 136,
+          "mean_distance": 0.16291963172900445
+        },
+        {
+          "distinct_pairs": 680,
+          "mean_distance": 0.16561458744211172
+        },
+        {
+          "distinct_pairs": 629,
+          "mean_distance": 0.17927184703533786
+        },
+        {
+          "distinct_pairs": 799,
+          "mean_distance": 0.2199235642660108
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 680,
+          "mean_distance": 0.16561458744211172
+        },
+        {
+          "distinct_pairs": 780,
+          "mean_distance": 0.15014141907486858
+        },
+        {
+          "distinct_pairs": 1480,
+          "mean_distance": 0.15085428229960096
+        },
+        {
+          "distinct_pairs": 1880,
+          "mean_distance": 0.18452118234082013
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 629,
+          "mean_distance": 0.17927184703533786
+        },
+        {
+          "distinct_pairs": 1480,
+          "mean_distance": 0.150854282299601
+        },
+        {
+          "distinct_pairs": 666,
+          "mean_distance": 0.14169150542956874
+        },
+        {
+          "distinct_pairs": 1739,
+          "mean_distance": 0.1606601628753951
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 799,
+          "mean_distance": 0.2199235642660108
+        },
+        {
+          "distinct_pairs": 1880,
+          "mean_distance": 0.18452118234082013
+        },
+        {
+          "distinct_pairs": 1739,
+          "mean_distance": 0.1606601628753951
+        },
+        {
+          "distinct_pairs": 1081,
+          "mean_distance": 0.13199893539896634
+        }
+      ]
+    ],
+    "T5_responses:development": [
+      [
+        {
+          "distinct_pairs": 91,
+          "mean_distance": 0.15798812066407067
+        },
+        {
+          "distinct_pairs": 420,
+          "mean_distance": 0.15609001448547005
+        },
+        {
+          "distinct_pairs": 434,
+          "mean_distance": 0.17312013196230902
+        },
+        {
+          "distinct_pairs": 518,
+          "mean_distance": 0.21369718344906624
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 420,
+          "mean_distance": 0.15609001448547
+        },
+        {
+          "distinct_pairs": 435,
+          "mean_distance": 0.14610091060098665
+        },
+        {
+          "distinct_pairs": 930,
+          "mean_distance": 0.15109656995677292
+        },
+        {
+          "distinct_pairs": 1110,
+          "mean_distance": 0.1868076595138678
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 434,
+          "mean_distance": 0.17312013196230905
+        },
+        {
+          "distinct_pairs": 930,
+          "mean_distance": 0.15109656995677292
+        },
+        {
+          "distinct_pairs": 465,
+          "mean_distance": 0.1434857763880938
+        },
+        {
+          "distinct_pairs": 1147,
+          "mean_distance": 0.16167211984452934
+        }
+      ],
+      [
+        {
+          "distinct_pairs": 518,
+          "mean_distance": 0.21369718344906624
+        },
+        {
+          "distinct_pairs": 1110,
+          "mean_distance": 0.18680765951386777
+        },
+        {
+          "distinct_pairs": 1147,
+          "mean_distance": 0.16167211984452934
+        },
+        {
+          "distinct_pairs": 666,
+          "mean_distance": 0.13103784818898973
+        }
+      ]
+    ]
+  },
+  "numeric_t_in_total_variation": false,
+  "scale_policy": "Existing fixed B/E reference medians preserved and extended to T5; never country-specific denominators.",
+  "scales": {
+    "T5_profiles": 0.2218094853108838,
+    "T5_responses": 0.1550977480973838,
+    "known": 0.0872275415556315,
+    "self": 0.0500960004811531,
+    "worry": 0.2019268502025546
+  },
+  "scope": "post-validation description, not untouched validation",
+  "source_registry_sha256": "b23e3d040dc91da14ef8b95c7786d937567402c9337d617335263c1a8e77a5b6",
+  "status": "complete"
+}

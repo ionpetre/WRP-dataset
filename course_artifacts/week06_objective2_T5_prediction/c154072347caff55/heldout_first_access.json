@@ -1,0 +1,10 @@
+{
+  "first_access_utc": "2026-10-17T08:13:39.642169+00:00",
+  "selection_fixed": {
+    "T5": {
+      "classifier": "logistic",
+      "development_macro_f1_mean": 0.21719014312231932
+    }
+  },
+  "supervised_freeze_sha256": "c678571e47b8f84dc635664171a5b5bd01a235535b5b1ad46ff1dbda95abf123"
+}

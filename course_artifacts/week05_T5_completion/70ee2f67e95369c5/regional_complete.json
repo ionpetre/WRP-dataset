@@ -1,0 +1,11 @@
+{
+  "both_full_tests_supported": 6,
+  "context": "70ee2f67e95369c523810cd7b851e1d3bfb2f0ec77758756f99a2b9c6e40718d",
+  "failed_stability_fits": 0,
+  "global_T5_refits": 0,
+  "limited_diagnostics": 3,
+  "reference_cases": 135,
+  "status": "regional_complete",
+  "successful_stability_fits": 5228,
+  "tested_stability_cases": 60
+}

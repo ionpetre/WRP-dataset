@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "primary_model": "T5",
   "secondary_transfer": true,
   "readable_T5_model_matches_27972_heldout_labels": true,
@@ -8,9 +8,9 @@
   "personal_absolute_paths": 0,
   "notebook_outputs_published": 0,
   "broken_guide_links": 0,
-  "historical_country_maps_explicitly_labelled": true,
+  "country_maps_include_T5_and_historical_E8": true,
   "commit_or_push": false,
-  "files": 1319,
+  "files": 1468,
   "maximum_file_bytes": 40703338,
   "scope_note": "Aggregate-only checks are not a formal disclosure-risk certification; some country/profile cells are small."
 }

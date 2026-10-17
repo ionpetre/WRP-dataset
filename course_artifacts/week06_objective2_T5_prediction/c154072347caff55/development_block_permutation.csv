@@ -1,0 +1,76 @@
+target,classifier,fold,block,repetition,base_macro_f1,permuted_macro_f1,macro_f1_drop,scheme
+T5,logistic,1,Demographics and household,1,0.20705132115874453,0.2030132882293459,0.004038032929398638,joint block shuffle within country
+T5,logistic,1,Demographics and household,2,0.20705132115874453,0.20211070827154382,0.004940612887200713,joint block shuffle within country
+T5,logistic,1,Demographics and household,3,0.20705132115874453,0.2040862140725684,0.0029651070861761164,joint block shuffle within country
+T5,logistic,1,Financial buffer,1,0.20705132115874453,0.20602062787490735,0.0010306932838371752,joint block shuffle within country
+T5,logistic,1,Financial buffer,2,0.20705132115874453,0.20395477320889496,0.003096547949849565,joint block shuffle within country
+T5,logistic,1,Financial buffer,3,0.20705132115874453,0.2059971776653374,0.001054143493407128,joint block shuffle within country
+T5,logistic,1,Government and neighbour support,1,0.20705132115874453,0.20646679836750453,0.0005845227912399942,joint block shuffle within country
+T5,logistic,1,Government and neighbour support,2,0.20705132115874453,0.20930064894264472,-0.00224932778390019,joint block shuffle within country
+T5,logistic,1,Government and neighbour support,3,0.20705132115874453,0.2024068057070611,0.004644515451683429,joint block shuffle within country
+T5,logistic,1,Discrimination,1,0.20705132115874453,0.19343037039074015,0.013620950768004375,joint block shuffle within country
+T5,logistic,1,Discrimination,2,0.20705132115874453,0.1938030340431528,0.013248287115591728,joint block shuffle within country
+T5,logistic,1,Discrimination,3,0.20705132115874453,0.19126806287822393,0.0157832582805206,joint block shuffle within country
+T5,logistic,1,Country income,1,0.20705132115874453,0.18625453872200046,0.02079678243674407,whole-country income reassignment
+T5,logistic,1,Country income,2,0.20705132115874453,0.1876363573232117,0.019414963835532817,whole-country income reassignment
+T5,logistic,1,Country income,3,0.20705132115874453,0.18586936253897063,0.0211819586197739,whole-country income reassignment
+T5,logistic,2,Demographics and household,1,0.19734180755884972,0.19290741945731854,0.004434388101531184,joint block shuffle within country
+T5,logistic,2,Demographics and household,2,0.19734180755884972,0.18948329934843816,0.007858508210411563,joint block shuffle within country
+T5,logistic,2,Demographics and household,3,0.19734180755884972,0.18995649991487126,0.0073853076439784615,joint block shuffle within country
+T5,logistic,2,Financial buffer,1,0.19734180755884972,0.1956425833929264,0.0016992241659233298,joint block shuffle within country
+T5,logistic,2,Financial buffer,2,0.19734180755884972,0.19346035193496589,0.0038814556238838394,joint block shuffle within country
+T5,logistic,2,Financial buffer,3,0.19734180755884972,0.19288235522868494,0.004459452330164787,joint block shuffle within country
+T5,logistic,2,Government and neighbour support,1,0.19734180755884972,0.19011427988942592,0.0072275276694238055,joint block shuffle within country
+T5,logistic,2,Government and neighbour support,2,0.19734180755884972,0.1908755526584856,0.006466254900364121,joint block shuffle within country
+T5,logistic,2,Government and neighbour support,3,0.19734180755884972,0.19108324903801388,0.006258558520835844,joint block shuffle within country
+T5,logistic,2,Discrimination,1,0.19734180755884972,0.18180719016049257,0.015534617398357153,joint block shuffle within country
+T5,logistic,2,Discrimination,2,0.19734180755884972,0.18569293153236496,0.011648876026484761,joint block shuffle within country
+T5,logistic,2,Discrimination,3,0.19734180755884972,0.1841664358991144,0.013175371659735313,joint block shuffle within country
+T5,logistic,2,Country income,1,0.19734180755884972,0.1761781832519771,0.02116362430687263,whole-country income reassignment
+T5,logistic,2,Country income,2,0.19734180755884972,0.16540156260482813,0.03194024495402159,whole-country income reassignment
+T5,logistic,2,Country income,3,0.19734180755884972,0.18271267791143672,0.014629129647413003,whole-country income reassignment
+T5,logistic,3,Demographics and household,1,0.23248992226853377,0.2213186419046082,0.011171280363925562,joint block shuffle within country
+T5,logistic,3,Demographics and household,2,0.23248992226853377,0.22627930716367625,0.006210615104857514,joint block shuffle within country
+T5,logistic,3,Demographics and household,3,0.23248992226853377,0.22216746182034255,0.010322460448191212,joint block shuffle within country
+T5,logistic,3,Financial buffer,1,0.23248992226853377,0.23159227277977443,0.0008976494887593389,joint block shuffle within country
+T5,logistic,3,Financial buffer,2,0.23248992226853377,0.23188521341218998,0.000604708856343783,joint block shuffle within country
+T5,logistic,3,Financial buffer,3,0.23248992226853377,0.22896697998239826,0.0035229422861355053,joint block shuffle within country
+T5,logistic,3,Government and neighbour support,1,0.23248992226853377,0.22291201818599057,0.009577904082543193,joint block shuffle within country
+T5,logistic,3,Government and neighbour support,2,0.23248992226853377,0.22672524873915573,0.005764673529378039,joint block shuffle within country
+T5,logistic,3,Government and neighbour support,3,0.23248992226853377,0.23330796706877793,-0.0008180448002441665,joint block shuffle within country
+T5,logistic,3,Discrimination,1,0.23248992226853377,0.21820968939442817,0.014280232874105597,joint block shuffle within country
+T5,logistic,3,Discrimination,2,0.23248992226853377,0.21590144802622957,0.016588474242304196,joint block shuffle within country
+T5,logistic,3,Discrimination,3,0.23248992226853377,0.21478467234619497,0.017705249922338795,joint block shuffle within country
+T5,logistic,3,Country income,1,0.23248992226853377,0.21950317209987552,0.012986750168658245,whole-country income reassignment
+T5,logistic,3,Country income,2,0.23248992226853377,0.20834415038596382,0.024145771882569944,whole-country income reassignment
+T5,logistic,3,Country income,3,0.23248992226853377,0.21242224412524552,0.020067678143288248,whole-country income reassignment
+T5,logistic,4,Demographics and household,1,0.22948091686509225,0.22297638853473828,0.006504528330353976,joint block shuffle within country
+T5,logistic,4,Demographics and household,2,0.22948091686509225,0.21519072782084486,0.014290189044247392,joint block shuffle within country
+T5,logistic,4,Demographics and household,3,0.22948091686509225,0.21484006546909082,0.014640851396001436,joint block shuffle within country
+T5,logistic,4,Financial buffer,1,0.22948091686509225,0.22640834771446908,0.003072569150623178,joint block shuffle within country
+T5,logistic,4,Financial buffer,2,0.22948091686509225,0.2253830041987263,0.004097912666365944,joint block shuffle within country
+T5,logistic,4,Financial buffer,3,0.22948091686509225,0.22764157573156876,0.0018393411335234922,joint block shuffle within country
+T5,logistic,4,Government and neighbour support,1,0.22948091686509225,0.22048457344827305,0.008996343416819208,joint block shuffle within country
+T5,logistic,4,Government and neighbour support,2,0.22948091686509225,0.2211788263171604,0.00830209054793185,joint block shuffle within country
+T5,logistic,4,Government and neighbour support,3,0.22948091686509225,0.2193812773952105,0.010099639469881766,joint block shuffle within country
+T5,logistic,4,Discrimination,1,0.22948091686509225,0.2127778513880727,0.016703065477019552,joint block shuffle within country
+T5,logistic,4,Discrimination,2,0.22948091686509225,0.21186374339484276,0.017617173470249492,joint block shuffle within country
+T5,logistic,4,Discrimination,3,0.22948091686509225,0.21173924300952254,0.017741673855569712,joint block shuffle within country
+T5,logistic,4,Country income,1,0.22948091686509225,0.2117232770697952,0.017757639795297042,whole-country income reassignment
+T5,logistic,4,Country income,2,0.22948091686509225,0.20731804578698662,0.022162871078105634,whole-country income reassignment
+T5,logistic,4,Country income,3,0.22948091686509225,0.1997069622861151,0.029773954578977163,whole-country income reassignment
+T5,logistic,5,Demographics and household,1,0.2195867477603764,0.22309269598220607,-0.0035059482218296745,joint block shuffle within country
+T5,logistic,5,Demographics and household,2,0.2195867477603764,0.22026312599033648,-0.000676378229960084,joint block shuffle within country
+T5,logistic,5,Demographics and household,3,0.2195867477603764,0.21951235598319196,7.43917771844349e-05,joint block shuffle within country
+T5,logistic,5,Financial buffer,1,0.2195867477603764,0.21841693180600003,0.0011698159543763742,joint block shuffle within country
+T5,logistic,5,Financial buffer,2,0.2195867477603764,0.2171741584312774,0.002412589329098991,joint block shuffle within country
+T5,logistic,5,Financial buffer,3,0.2195867477603764,0.22050898902395089,-0.0009222412635744859,joint block shuffle within country
+T5,logistic,5,Government and neighbour support,1,0.2195867477603764,0.21745497024893404,0.002131777511442362,joint block shuffle within country
+T5,logistic,5,Government and neighbour support,2,0.2195867477603764,0.2173509545089214,0.0022357932514550094,joint block shuffle within country
+T5,logistic,5,Government and neighbour support,3,0.2195867477603764,0.2141071338159753,0.005479613944401107,joint block shuffle within country
+T5,logistic,5,Discrimination,1,0.2195867477603764,0.2025067928847617,0.0170799548756147,joint block shuffle within country
+T5,logistic,5,Discrimination,2,0.2195867477603764,0.19989174874442778,0.019694999015948622,joint block shuffle within country
+T5,logistic,5,Discrimination,3,0.2195867477603764,0.20504853862263656,0.014538209137739844,joint block shuffle within country
+T5,logistic,5,Country income,1,0.2195867477603764,0.1870431462195623,0.03254360154081409,whole-country income reassignment
+T5,logistic,5,Country income,2,0.2195867477603764,0.21014632938358493,0.009440418376791465,whole-country income reassignment
+T5,logistic,5,Country income,3,0.2195867477603764,0.1922198409932905,0.02736690676708589,whole-country income reassignment

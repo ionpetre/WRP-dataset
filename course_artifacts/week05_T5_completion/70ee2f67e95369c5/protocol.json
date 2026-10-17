@@ -1,0 +1,88 @@
+{
+  "context": "70ee2f67e95369c523810cd7b851e1d3bfb2f0ec77758756f99a2b9c6e40718d",
+  "country_distance_heldout_role": "post-validation descriptive extension",
+  "frozen_global_model_refitted": false,
+  "local_selection": {
+    "cluster_recovery": "weighted Hungarian-overlap matching to each regional reference; descriptive Jaccard, no new threshold",
+    "coarse_k": [
+      2,
+      3
+    ],
+    "elbow_eligible_k": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "elbow_rule": "smallest eligible nonmatched k within 95% of maximum normalized chord-minus-inertia gap",
+    "global_ari_used_for_selection": false,
+    "max_additional_k_per_region_representation": 3,
+    "primary_stability": "existing median and lower-decile pairwise ARI >=0.80 in both tests",
+    "representation_algorithm_changes": false,
+    "search_status": "exploratory development selection after observing matched-resolution results; not independent confirmation",
+    "structural_global_rules_used_as_local_filters": false,
+    "version": 1
+  },
+  "provenance": {
+    "country_split_sha256": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "development_input": "course_artifacts/week04_search_v4/stage1_eligible_development.parquet",
+    "input_sha256": "aaa4c03f43395a15be57e6fd0a0742d48910ce0fa42fdd49371864fe7ed70d31",
+    "joblib": "1.5.3",
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "python": "3.11.15",
+    "reference_design_sha256": "5d678eb0f7f82a9c9fce9138ffdaa0b12bb192bc2a47612ce0a03546f42c2ef2",
+    "reference_sources": {
+      "B": "eb5438ded45160e615075b5695c5ba9c8172894afd67c626b1796c4af04ff6e8",
+      "E": "5b8c398c57d7fa6686b42001e26cb21cdb804719de2ae18906a00e2544b6b786"
+    },
+    "region_dictionary_sha256": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d",
+    "sklearn": "1.8.0"
+  },
+  "regional_design": {
+    "assignment": "nearest centre in unchanged 21-feature geometry",
+    "country_sampling": "50 uniform samples without replacement of floor(0.8*N) countries; repeats across samples allowed and reported",
+    "fraction": 0.8,
+    "global_structural_benchmark_only": {
+      "coverage_min": 0.9,
+      "dominance_max_exclusive": 3,
+      "k_max": 10,
+      "k_min": 3,
+      "largest_share_max": 0.4
+    },
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "max_iter": 300,
+    "n_init": 20,
+    "one_country_policy": "country stability unavailable",
+    "pairwise_ari_threshold": 0.8,
+    "repetitions": 50,
+    "respondent_sampling": "without replacement within each regional country",
+    "seed": 20261011,
+    "small_region_policy": "leave-one-country-out for 2 to 4 countries",
+    "specifications": {
+      "T5": {
+        "alpha": 0.5837857862168715,
+        "balance": "optimized",
+        "encoding": "optimized",
+        "global_k": 5,
+        "name": "T5",
+        "top": 2.399802888616365
+      }
+    },
+    "version": 4
+  },
+  "regional_fitting_uses_development_only": true
+}

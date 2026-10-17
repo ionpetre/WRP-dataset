@@ -1,0 +1,11 @@
+country,omitted_count,country_evaluations,diagnostic,region
+COM,12,50,random_country_subsamples,1
+ETH,11,50,random_country_subsamples,1
+KEN,13,50,random_country_subsamples,1
+MDG,5,50,random_country_subsamples,1
+MOZ,13,50,random_country_subsamples,1
+MWI,6,50,random_country_subsamples,1
+TZA,15,50,random_country_subsamples,1
+UGA,8,50,random_country_subsamples,1
+ZMB,5,50,random_country_subsamples,1
+ZWE,12,50,random_country_subsamples,1

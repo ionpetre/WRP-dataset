@@ -1,0 +1,6 @@
+country,omitted_count,country_evaluations,diagnostic,region
+CHN,12,50,random_country_subsamples,8
+HKG,14,50,random_country_subsamples,8
+JPN,10,50,random_country_subsamples,8
+KOR,6,50,random_country_subsamples,8
+MNG,8,50,random_country_subsamples,8

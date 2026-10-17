@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "regional_reference_fits": 135,
+  "regional_stability_fits": 5228,
+  "regional_fit_failures": 0,
+  "supported_full_test_cases": 6,
+  "supported_regional_k5_cases": 0,
+  "limited_diagnostic_cases": 3,
+  "country_profiles_recomputed_from_ID_registry": true,
+  "distance_symmetry_zero_diagonal_and_scope_invariance": true,
+  "fixed_scale_preserved": true,
+  "global_assignments_unchanged": true,
+  "sealed_global_files_unchanged": true,
+  "public_notebook_outputs_cleared": true,
+  "respondent_files_published": false,
+  "reporting_incident": "Initial reporting worker referenced an undefined pointer after writing outputs; corrected reporting-only replay. No scientific fits repeated.",
+  "pushed": false
+}

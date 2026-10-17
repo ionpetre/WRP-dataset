@@ -1,0 +1,5 @@
+exclusion_reason,respondents,split
+fewer than four observed worry or harm domains,202,heldout_country
+included complete case,27972,heldout_country
+remaining missing profile responses,1915,heldout_country
+zero observed profile responses,1,heldout_country

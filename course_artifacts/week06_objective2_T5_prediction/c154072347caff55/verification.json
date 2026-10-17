@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "models_fitted": 17,
+  "CV_fits": 15,
+  "final_development_fits": 2,
+  "classifier_failures": 0,
+  "convergence_warnings": 0,
+  "T5_assignments_unchanged": true,
+  "independent_prediction_metrics": "verified for all five saved prediction files",
+  "freeze_before_heldout": true,
+  "student_package_files": 2,
+  "notebooks": {
+    "week05_validate_frozen_profiles.ipynb": {
+      "code_cells_executed": 38,
+      "error_outputs": 0
+    },
+    "week06_predicting_frozen_risk_profile_membership.ipynb": {
+      "code_cells_executed": 22,
+      "error_outputs": 0
+    }
+  },
+  "verification_environment_note": "Jupyter socket denied by sandbox; ordinary Python cells replayed in-process. Agg used for static figures. No scientific fit failure."
+}

@@ -1,0 +1,93 @@
+{
+  "design": {
+    "categorical_preprocessing": "explicit missing category; training one-hot encoder; unknown levels ignored",
+    "country_folds": 5,
+    "cv_caution": "clustering targets were developed using all development countries; this is prediction of that fixed taxonomy, not a fully nested discovery evaluation",
+    "evaluation_weights": "equal country, relative WGT retained, recomputed within evaluation population",
+    "fitting_weights": "equal country, relative WGT retained, mean weight rescaled to one",
+    "heldout_uncertainty": "1000 uniform country bootstrap draws; fixed predictions and models",
+    "holdout_role": "supervised test outside selection; already used for Objective 1 validation",
+    "interpretation": "3 joint block permutations per fold on selected model; within-country for individual blocks, across countries for income",
+    "models": {
+      "logistic": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "solver": "lbfgs",
+        "tol": 1e-06
+      },
+      "majority": {
+        "strategy": "prior"
+      },
+      "random_forest": {
+        "bootstrap": true,
+        "class_weight": null,
+        "max_depth": 14,
+        "max_features": "sqrt",
+        "min_samples_leaf": 50,
+        "n_estimators": 120
+      }
+    },
+    "numeric_preprocessing": "training equal-country-weighted median; weighted mean/SD; fixed missing indicator",
+    "predictors": [
+      "Age",
+      "Gender",
+      "Education",
+      "Urbanicity2",
+      "EMP_2010",
+      "INCOME_5",
+      "HouseholdSize",
+      "ChildrenInHousehold",
+      "WP1223",
+      "WP22228",
+      "WP22231_ALL",
+      "WP22232",
+      "WP22259",
+      "WP22260",
+      "WP22261",
+      "WP22262",
+      "WP22263",
+      "CountryIncomeLevel"
+    ],
+    "profile_refits": false,
+    "profile_targets": {
+      "T5": 5
+    },
+    "seed": 20261014,
+    "selection": "largest mean development-fold macro-F1; exact ties prefer logistic then forest then majority",
+    "tuning": "none; fixed first-draft settings, not an optimized model search",
+    "version": 2
+  },
+  "fingerprint": "c154072347caff556c708f363e8d868427904ca88e10e5d9348b619dca3d5d94",
+  "frozen_cluster_context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "implementation_sha256": "b3408a2f9373cf7f248052fa53d28fb59d2374fe1dd6cc9726d62b809dcc35f4",
+  "inputs": {
+    "assignments": {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/all_respondents_T5_eligibility_and_frozen_profiles.parquet",
+      "sha256": "b23e3d040dc91da14ef8b95c7786d937567402c9337d617335263c1a8e77a5b6"
+    },
+    "development": {
+      "path": "course_artifacts/week03_development_data.parquet",
+      "sha256": "0021476a9548e3f19aa496e3c24d8c44942d665b12d7d0923b00dc729987ffb0"
+    },
+    "dictionary": {
+      "path": "23_wrp/WRP_2023_data_dictionary.csv",
+      "sha256": "4b78ca62dd780f0b377f7c4715fc8ac70bd89d8f9a7c00cb5a8e4dbb233cae6d"
+    },
+    "freeze_seal": {
+      "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/frozen_model/freeze_seal.json",
+      "sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840"
+    },
+    "heldout": {
+      "path": "course_artifacts/week03_heldout_country_data.parquet",
+      "sha256": "f57796fafca4e05a2d7b6c49e1ab21f5456957cea32aa093fe23a10eeb16df3e"
+    },
+    "split": {
+      "path": "course_artifacts/week03_country_split.csv",
+      "sha256": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457"
+    }
+  },
+  "numpy": "1.26.4",
+  "pandas": "3.0.3",
+  "python": "3.11.15",
+  "sklearn": "1.8.0"
+}

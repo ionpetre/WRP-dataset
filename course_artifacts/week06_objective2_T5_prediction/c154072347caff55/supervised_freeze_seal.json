@@ -1,0 +1,74 @@
+{
+  "fingerprint": "c154072347caff556c708f363e8d868427904ca88e10e5d9348b619dca3d5d94",
+  "frozen_at_utc": "2026-10-17T08:13:34.545430+00:00",
+  "heldout_predictions_used_for_selection": false,
+  "model_hashes": {
+    "T5_logistic_final_development.joblib": "9a4542e51a6f1390f389464a77759a88854ce6c122f9218a000af69103b8750d",
+    "T5_majority_final_development.joblib": "766b5055980034e16ca03877ebc2bc0779e596d86f3c0850a8a19b2a86863ed1"
+  },
+  "profile_context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
+  "selection": {
+    "T5": {
+      "classifier": "logistic",
+      "development_macro_f1_mean": 0.21719014312231932
+    }
+  },
+  "settings": {
+    "categorical_preprocessing": "explicit missing category; training one-hot encoder; unknown levels ignored",
+    "country_folds": 5,
+    "cv_caution": "clustering targets were developed using all development countries; this is prediction of that fixed taxonomy, not a fully nested discovery evaluation",
+    "evaluation_weights": "equal country, relative WGT retained, recomputed within evaluation population",
+    "fitting_weights": "equal country, relative WGT retained, mean weight rescaled to one",
+    "heldout_uncertainty": "1000 uniform country bootstrap draws; fixed predictions and models",
+    "holdout_role": "supervised test outside selection; already used for Objective 1 validation",
+    "interpretation": "3 joint block permutations per fold on selected model; within-country for individual blocks, across countries for income",
+    "models": {
+      "logistic": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "solver": "lbfgs",
+        "tol": 1e-06
+      },
+      "majority": {
+        "strategy": "prior"
+      },
+      "random_forest": {
+        "bootstrap": true,
+        "class_weight": null,
+        "max_depth": 14,
+        "max_features": "sqrt",
+        "min_samples_leaf": 50,
+        "n_estimators": 120
+      }
+    },
+    "numeric_preprocessing": "training equal-country-weighted median; weighted mean/SD; fixed missing indicator",
+    "predictors": [
+      "Age",
+      "Gender",
+      "Education",
+      "Urbanicity2",
+      "EMP_2010",
+      "INCOME_5",
+      "HouseholdSize",
+      "ChildrenInHousehold",
+      "WP1223",
+      "WP22228",
+      "WP22231_ALL",
+      "WP22232",
+      "WP22259",
+      "WP22260",
+      "WP22261",
+      "WP22262",
+      "WP22263",
+      "CountryIncomeLevel"
+    ],
+    "profile_refits": false,
+    "profile_targets": {
+      "T5": 5
+    },
+    "seed": 20261014,
+    "selection": "largest mean development-fold macro-F1; exact ties prefer logistic then forest then majority",
+    "tuning": "none; fixed first-draft settings, not an optimized model search",
+    "version": 2
+  }
+}

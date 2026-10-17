@@ -1,0 +1,10 @@
+{
+  "convergence_warning": false,
+  "fingerprint": "c154072347caff556c708f363e8d868427904ca88e10e5d9348b619dca3d5d94",
+  "fit_at_utc": "2026-10-17T08:13:21.607612+00:00",
+  "kind": "random_forest",
+  "model_sha256": "69005856b36e22b860be4d3f0daebe14be9e33bec11882c9581e1e71c277c384",
+  "seconds": 1.0446713750134222,
+  "training_respondents": 87417,
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+GlobalRegion,countries,prepared_respondents,input_respondents,complete_respondents,region_name,country_diagnostic
+1,10,10002,10002,9127,Eastern Africa,pending sampling-plan audit
+2,15,15000,14999,14176,Central/Western Africa,pending sampling-plan audit
+3,4,4005,4005,3834,Northern Africa,pending sampling-plan audit
+4,3,3009,3008,2809,Southern Africa,pending sampling-plan audit
+5,15,15011,15010,14259,Latin America & the Caribbean,pending sampling-plan audit
+6,1,1003,1003,963,Northern America,unavailable: one country
+7,5,5000,4999,4320,Central Asia,pending sampling-plan audit
+8,5,7035,7035,6883,Eastern Asia,pending sampling-plan audit
+9,7,7034,7034,6615,Southeastern Asia,pending sampling-plan audit
+10,6,8010,8009,7457,Southern Asia,pending sampling-plan audit
+11,8,8116,8114,7595,Middle East,pending sampling-plan audit
+12,8,8016,8015,7112,Eastern Europe,pending sampling-plan audit
+13,14,13542,13541,13080,Northern/Western Europe,pending sampling-plan audit
+14,11,11037,11034,10283,Southern Europe,pending sampling-plan audit
+15,1,1000,1000,975,Australia & New Zealand,unavailable: one country

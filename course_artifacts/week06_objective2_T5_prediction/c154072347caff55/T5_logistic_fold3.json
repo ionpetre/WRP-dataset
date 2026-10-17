@@ -1,0 +1,10 @@
+{
+  "convergence_warning": false,
+  "fingerprint": "c154072347caff556c708f363e8d868427904ca88e10e5d9348b619dca3d5d94",
+  "fit_at_utc": "2026-10-17T08:12:58.742074+00:00",
+  "kind": "logistic",
+  "model_sha256": "ca946c769e6ffa8578846c6142b52f332898110aebe691f9c4cd84eee2d79f24",
+  "seconds": 9.750439374998678,
+  "training_respondents": 87664,
+  "warnings": []
+}

@@ -1,0 +1,256 @@
+candidate,scope,COUNTRY_ISO3,Country,GlobalRegion,CountryIncomeLevel,respondents,country_split,complete_respondents,prepared_respondents,retained_fraction,region_name,cluster,profile_share,profile_respondents,country_group,illustrative_k
+B,development,AFG,Afghanistan,10,1,1002,train,801,1002,0.7994011976047904,Southern Asia,0,0.4801681866052249,382,1,2
+B,development,ALB,Albania,14,3,1000,train,905,1000,0.905,Southern Europe,0,0.0960130628378378,71,1,2
+B,development,ARE,United Arab Emirates,11,4,1000,train,989,1000,0.989,Middle East,0,0.077096713903012,74,1,2
+B,development,ARG,Argentina,5,3,1003,train,969,1003,0.9661016949152542,Latin America & the Caribbean,0,0.1190661238249462,124,1,2
+B,development,ARM,Armenia,7,3,1000,train,919,1000,0.919,Central Asia,0,0.0760570278833262,64,1,2
+B,development,AUT,Austria,13,4,1000,train,991,1000,0.991,Northern/Western Europe,0,0.1674712789474286,170,1,2
+B,development,AZE,Azerbaijan,7,3,1000,train,841,1000,0.841,Central Asia,0,0.0755357258296746,57,1,2
+B,development,BEL,Belgium,13,4,1000,train,970,1000,0.97,Northern/Western Europe,0,0.1459100844155357,126,1,2
+B,development,BFA,Burkina Faso,2,1,1000,train,939,1000,0.939,Central/Western Africa,0,0.3784953581705569,343,2,2
+B,development,BGR,Bulgaria,12,3,1000,train,831,1000,0.831,Eastern Europe,0,0.1314873998283992,113,1,2
+B,development,BIH,Bosnia Herzegovina,14,3,1000,train,891,1000,0.891,Southern Europe,0,0.1745105994124719,148,1,2
+B,development,BRA,Brazil,5,3,1000,train,973,1000,0.973,Latin America & the Caribbean,0,0.2260538551187279,232,2,2
+B,development,BWA,Botswana,4,3,1009,train,971,1009,0.9623389494549058,Southern Africa,0,0.2256844705182403,235,2,2
+B,development,CHE,Switzerland,13,4,1000,train,975,1000,0.975,Northern/Western Europe,0,0.0964897808074616,102,1,2
+B,development,CHL,Chile,5,4,1000,train,958,1000,0.958,Latin America & the Caribbean,0,0.1715564685036019,146,2,2
+B,development,CHN,China,8,3,3000,train,3000,3000,1.0,Eastern Asia,0,0.3795383296741449,1244,1,2
+B,development,CIV,Ivory Coast,2,2,1000,train,982,1000,0.982,Central/Western Africa,0,0.1935443489995593,213,2,2
+B,development,CMR,Cameroon,2,2,1000,train,962,1000,0.962,Central/Western Africa,0,0.311983242118296,311,2,2
+B,development,COD,Congo Kinshasa,2,1,1000,train,900,1000,0.9,Central/Western Africa,0,0.3383475136636619,316,2,2
+B,development,COL,Colombia,5,3,1008,train,932,1008,0.9246031746031746,Latin America & the Caribbean,0,0.1299440276357769,111,1,2
+B,development,COM,Comoros,1,2,1000,train,774,1000,0.774,Eastern Africa,0,0.2464307666149918,215,2,2
+B,development,CRI,Costa Rica,5,3,1000,train,961,1000,0.961,Latin America & the Caribbean,0,0.1229485751579132,104,1,2
+B,development,CYP,Cyprus,14,4,1031,train,996,1031,0.9660523763336566,Southern Europe,0,0.1281779329335909,104,1,2
+B,development,CZE,Czech Republic,12,4,1004,train,967,1004,0.9631474103585658,Eastern Europe,0,0.1481769097793543,147,1,2
+B,development,DEU,Germany,13,4,1000,train,993,1000,0.993,Northern/Western Europe,0,0.1427432014640256,135,1,2
+B,development,DNK,Denmark,13,4,1005,train,996,1005,0.991044776119403,Northern/Western Europe,0,0.1092648313190386,106,1,2
+B,development,DOM,Dominican Republic,5,3,1000,train,897,1000,0.897,Latin America & the Caribbean,0,0.1905533902809753,182,1,2
+B,development,DZA,Algeria,3,2,1000,train,904,1000,0.904,Northern Africa,0,0.1680103996939242,138,1,2
+B,development,ECU,Ecuador,5,3,1000,train,944,1000,0.944,Latin America & the Caribbean,0,0.151278894769266,140,2,2
+B,development,EGY,Egypt,3,2,1000,train,992,1000,0.992,Northern Africa,0,0.1190557490409229,111,1,2
+B,development,ESP,Spain,14,4,1000,train,998,1000,0.998,Southern Europe,0,0.127443617196961,147,1,2
+B,development,EST,Estonia,13,4,1009,train,978,1009,0.9692765113974232,Northern/Western Europe,0,0.1668451126812392,165,1,2
+B,development,ETH,Ethiopia,1,1,1000,train,954,1000,0.954,Eastern Africa,0,0.1894214037275624,186,1,2
+B,development,FIN,Finland,13,4,1003,train,981,1003,0.9780658025922232,Northern/Western Europe,0,0.1633485356217759,140,1,2
+B,development,FRA,France,13,4,1000,train,979,1000,0.979,Northern/Western Europe,0,0.0917209391949614,87,1,2
+B,development,GAB,Gabon,2,3,1000,train,990,1000,0.99,Central/Western Africa,0,0.2420977046546429,255,2,2
+B,development,GBR,United Kingdom,13,4,1000,train,988,1000,0.988,Northern/Western Europe,0,0.0557112720607551,56,1,2
+B,development,GHA,Ghana,2,2,1000,train,917,1000,0.917,Central/Western Africa,0,0.2613831840739809,225,2,2
+B,development,GIN,Guinea,2,2,1000,train,944,1000,0.944,Central/Western Africa,0,0.3894690518611073,349,2,2
+B,development,GMB,Gambia,2,1,1000,train,876,1000,0.876,Central/Western Africa,0,0.2868556458435994,265,2,2
+B,development,GTM,Guatemala,5,3,1000,train,939,1000,0.939,Latin America & the Caribbean,0,0.1452932425462221,156,1,2
+B,development,HKG,Hong Kong,8,4,1004,train,999,1004,0.9950199203187252,Eastern Asia,0,0.0948928937458643,99,1,2
+B,development,HRV,Croatia,14,4,1004,train,802,1004,0.798804780876494,Southern Europe,0,0.1923166905691271,156,1,2
+B,development,HUN,Hungary,12,4,1011,train,997,1011,0.9861523244312562,Eastern Europe,0,0.146214659000874,139,1,2
+B,development,IDN,Indonesia,9,3,1000,train,955,1000,0.955,Southeastern Asia,0,0.1197720633434098,119,2,2
+B,development,IND,India,10,2,3000,train,2910,3000,0.97,Southern Asia,0,0.1346892577316851,389,2,2
+B,development,IRN,Iran,10,2,1007,train,987,1007,0.9801390268123138,Southern Asia,0,0.2370965309184685,250,1,2
+B,development,IRQ,Iraq,11,3,1035,train,1023,1035,0.9884057971014492,Middle East,0,0.1746428898296143,170,1,2
+B,development,ISL,Iceland,13,4,505,train,497,505,0.984158415841584,Northern/Western Europe,0,0.1265071675386331,66,1,2
+B,development,ISR,Israel,11,4,1000,train,903,1000,0.903,Middle East,0,0.1953468413982903,176,1,2
+B,development,ITA,Italy,14,4,1000,train,994,1000,0.994,Southern Europe,0,0.18535301446458,185,1,2
+B,development,JOR,Jordan,11,2,1000,train,918,1000,0.918,Middle East,0,0.1272420264354437,104,1,2
+B,development,JPN,Japan,8,4,1004,train,964,1004,0.9601593625498008,Eastern Asia,0,0.0518453071495549,49,1,2
+B,development,KAZ,Kazakhstan,7,3,1000,train,759,1000,0.759,Central Asia,0,0.0855619437923268,76,1,2
+B,development,KEN,Kenya,1,2,1000,train,968,1000,0.968,Eastern Africa,0,0.2921264496324044,288,2,2
+B,development,KGZ,Kyrgyzstan,7,2,1000,train,888,1000,0.888,Central Asia,0,0.1175955008046152,102,1,2
+B,development,KOR,South Korea,8,4,1027,train,976,1027,0.9503407984420644,Eastern Asia,0,0.0647939846926971,53,1,2
+B,development,KWT,Kuwait,11,4,1063,train,956,1063,0.8993414863593603,Middle East,0,0.104905218772104,111,1,2
+B,development,LBY,Libya,3,3,1005,train,955,1005,0.9502487562189056,Northern Africa,0,0.1627845084973104,158,1,2
+B,development,LKA,Sri Lanka,10,2,1000,train,920,1000,0.92,Southern Asia,0,0.1383171547055398,135,1,2
+B,development,LTU,Lithuania,13,4,1000,train,795,1000,0.795,Northern/Western Europe,0,0.1067657737284059,90,1,2
+B,development,LUX,Luxembourg,13,4,1000,train,980,1000,0.98,Northern/Western Europe,0,0.1095021357353127,116,1,2
+B,development,LVA,Latvia,13,4,1020,train,967,1020,0.9480392156862744,Northern/Western Europe,0,0.1046237622813589,113,1,2
+B,development,MDG,Madagascar,1,1,1000,train,923,1000,0.923,Eastern Africa,0,0.2371493722245601,215,1,2
+B,development,MEX,Mexico,5,3,1000,train,975,1000,0.975,Latin America & the Caribbean,0,0.1138168022688727,96,1,2
+B,development,MKD,North Macedonia,14,3,1000,train,914,1000,0.914,Southern Europe,0,0.1577533132575115,162,1,2
+B,development,MLI,Mali,2,1,1000,train,995,1000,0.995,Central/Western Africa,0,0.2552136160889977,244,2,2
+B,development,MMR,Myanmar,9,2,1000,train,871,1000,0.871,Southeastern Asia,0,0.1459930482700383,160,1,2
+B,development,MNE,Montenegro,14,3,1000,train,934,1000,0.934,Southern Europe,0,0.185846538311313,183,1,2
+B,development,MNG,Mongolia,8,2,1000,train,944,1000,0.944,Eastern Asia,0,0.1354750096974964,120,1,2
+B,development,MOZ,Mozambique,1,1,1000,train,928,1000,0.928,Eastern Africa,0,0.3172094329102209,317,2,2
+B,development,MRT,Mauritania,2,2,1000,train,970,1000,0.97,Central/Western Africa,0,0.2407716437403842,252,1,2
+B,development,MWI,Malawi,1,1,1000,train,948,1000,0.948,Eastern Africa,0,0.5814634712940241,554,2,2
+B,development,MYS,Malaysia,9,3,1000,train,921,1000,0.921,Southeastern Asia,0,0.0803584837062377,74,2,2
+B,development,NER,Niger,2,1,1000,train,931,1000,0.931,Central/Western Africa,0,0.2944650048286677,286,2,2
+B,development,NGA,Nigeria,2,2,1000,train,937,1000,0.937,Central/Western Africa,0,0.3248339298141061,310,1,2
+B,development,NIC,Nicaragua,5,2,1000,train,951,1000,0.951,Latin America & the Caribbean,0,0.0838626356269216,89,1,2
+B,development,NOR,Norway,13,4,1000,train,990,1000,0.99,Northern/Western Europe,0,0.087790644655237,70,1,2
+B,development,NPL,Nepal,10,2,1000,train,925,1000,0.925,Southern Asia,0,0.1875672558851886,171,2,2
+B,development,NZL,New Zealand,15,4,1000,train,975,1000,0.975,Australia & New Zealand,0,0.2364360822267898,183,1,2
+B,development,PAK,Pakistan,10,2,1001,train,914,1001,0.913086913086913,Southern Asia,0,0.1546492741943994,164,1,2
+B,development,PER,Peru,5,3,1000,train,953,1000,0.953,Latin America & the Caribbean,0,0.1831378546999499,167,2,2
+B,development,PHL,Philippines,9,2,1003,train,975,1003,0.9720837487537388,Southeastern Asia,0,0.3948713098927016,375,2,2
+B,development,POL,Poland,12,4,1000,train,818,1000,0.818,Eastern Europe,0,0.1296966628722992,100,1,2
+B,development,PRT,Portugal,14,4,1001,train,977,1001,0.976023976023976,Southern Europe,0,0.1669394409022796,187,2,2
+B,development,PRY,Paraguay,5,3,1000,train,971,1000,0.971,Latin America & the Caribbean,0,0.1015789730441676,95,1,2
+B,development,ROU,Romania,12,4,1000,train,857,1000,0.857,Eastern Europe,0,0.0681918563824269,45,1,2
+B,development,SAU,Saudi Arabia,11,4,1018,train,1000,1018,0.9823182711198428,Middle East,0,0.0719378928052585,69,1,2
+B,development,SEN,Senegal,2,2,1000,train,976,1000,0.976,Central/Western Africa,0,0.2690928497106934,269,2,2
+B,development,SGP,Singapore,9,4,1031,train,1012,1031,0.9815712900096992,Southeastern Asia,0,0.1159716736388166,131,1,2
+B,development,SLV,El Salvador,5,3,1000,train,925,1000,0.925,Latin America & the Caribbean,0,0.0770138609149084,74,1,2
+B,development,SRB,Serbia,14,3,1000,train,890,1000,0.89,Southern Europe,0,0.2434477710661505,226,1,2
+B,development,SVK,Slovakia,12,4,1001,train,868,1001,0.8671328671328671,Eastern Europe,0,0.3191851389827894,272,1,2
+B,development,SVN,Slovenia,14,4,1001,train,982,1001,0.981018981018981,Southern Europe,0,0.1019466860373333,113,1,2
+B,development,SWZ,Eswatini,4,2,1000,train,934,1000,0.934,Southern Africa,0,0.3319744927285438,326,2,2
+B,development,TCD,Chad,2,1,1000,train,948,1000,0.948,Central/Western Africa,0,0.4540127169087457,432,2,2
+B,development,TGO,Togo,2,1,1000,train,909,1000,0.909,Central/Western Africa,0,0.1992712634891729,208,1,2
+B,development,THA,Thailand,9,3,1000,train,936,1000,0.936,Southeastern Asia,0,0.0790307917764732,76,1,2
+B,development,TUN,Tunisia,3,2,1000,train,983,1000,0.983,Northern Africa,0,0.1078616637656405,102,1,2
+B,development,TUR,Turkey,11,3,1000,train,882,1000,0.882,Middle East,0,0.2644734860879093,243,1,2
+B,development,TZA,Tanzania,1,2,1002,train,938,1002,0.936127744510978,Eastern Africa,0,0.2235017915493622,212,2,2
+B,development,UGA,Uganda,1,1,1000,train,841,1000,0.841,Eastern Africa,0,0.3489702014945863,298,1,2
+B,development,UKR,Ukraine,12,2,1000,train,923,1000,0.923,Eastern Europe,0,0.1184804318272459,139,1,2
+B,development,URY,Uruguay,5,4,1000,train,955,1000,0.955,Latin America & the Caribbean,0,0.1380542420383175,122,1,2
+B,development,USA,United States,6,4,1003,train,963,1003,0.9601196410767696,Northern America,0,0.2435867308638275,184,1,2
+B,development,UZB,Uzbekistan,7,2,1000,train,913,1000,0.913,Central Asia,0,0.0267939727971236,24,1,2
+B,development,VEN,Venezuela,5,9,1000,train,956,1000,0.956,Latin America & the Caribbean,0,0.092494104785515,87,1,2
+B,development,VNM,Vietnam,9,2,1000,train,945,1000,0.945,Southeastern Asia,0,0.292295413144889,267,1,2
+B,development,XKX,Kosovo,12,3,1000,train,851,1000,0.851,Eastern Europe,0,0.0754670100650534,71,1,2
+B,development,YEM,Yemen,11,1,1000,train,924,1000,0.924,Middle East,0,0.3307092608288257,318,1,2
+B,development,ZAF,South Africa,4,3,1000,train,904,1000,0.904,Southern Africa,0,0.2843607354620456,261,2,2
+B,development,ZMB,Zambia,1,2,1000,train,873,1000,0.873,Eastern Africa,0,0.3061441682419468,278,2,2
+B,development,ZWE,Zimbabwe,1,2,1000,train,980,1000,0.98,Eastern Africa,0,0.2412603550886234,233,2,2
+B,all_countries_post_validation,AFG,Afghanistan,10,1,1002,train,801,1002,0.7994011976047904,Southern Asia,0,0.4801681866052249,382,1,2
+B,all_countries_post_validation,ALB,Albania,14,3,1000,train,905,1000,0.905,Southern Europe,0,0.0960130628378378,71,1,2
+B,all_countries_post_validation,ARE,United Arab Emirates,11,4,1000,train,989,1000,0.989,Middle East,0,0.077096713903012,74,1,2
+B,all_countries_post_validation,ARG,Argentina,5,3,1003,train,969,1003,0.9661016949152542,Latin America & the Caribbean,0,0.1190661238249462,124,1,2
+B,all_countries_post_validation,ARM,Armenia,7,3,1000,train,919,1000,0.919,Central Asia,0,0.0760570278833262,64,1,2
+B,all_countries_post_validation,AUS,Australia,15,4,1002,heldout_country,985,1002,0.9830339321357284,Australia & New Zealand,0,0.2205790322078236,173,1,2
+B,all_countries_post_validation,AUT,Austria,13,4,1000,train,991,1000,0.991,Northern/Western Europe,0,0.1674712789474286,170,1,2
+B,all_countries_post_validation,AZE,Azerbaijan,7,3,1000,train,841,1000,0.841,Central Asia,0,0.0755357258296746,57,1,2
+B,all_countries_post_validation,BEL,Belgium,13,4,1000,train,970,1000,0.97,Northern/Western Europe,0,0.1459100844155357,126,1,2
+B,all_countries_post_validation,BEN,Benin,2,2,1000,heldout_country,987,1000,0.987,Central/Western Africa,0,0.2542761367274282,261,2,2
+B,all_countries_post_validation,BFA,Burkina Faso,2,1,1000,train,939,1000,0.939,Central/Western Africa,0,0.3784953581705569,343,2,2
+B,all_countries_post_validation,BGD,Bangladesh,10,2,1000,heldout_country,934,1000,0.934,Southern Asia,0,0.1324599596845373,110,1,2
+B,all_countries_post_validation,BGR,Bulgaria,12,3,1000,train,831,1000,0.831,Eastern Europe,0,0.1314873998283992,113,1,2
+B,all_countries_post_validation,BHR,Bahrain,11,4,1007,heldout_country,933,1007,0.9265143992055612,Middle East,0,0.1925431801598213,182,1,2
+B,all_countries_post_validation,BIH,Bosnia Herzegovina,14,3,1000,train,891,1000,0.891,Southern Europe,0,0.1745105994124719,148,1,2
+B,all_countries_post_validation,BOL,Bolivia,5,2,1000,heldout_country,889,1000,0.889,Latin America & the Caribbean,0,0.1712992129574364,143,2,2
+B,all_countries_post_validation,BRA,Brazil,5,3,1000,train,973,1000,0.973,Latin America & the Caribbean,0,0.2260538551187279,232,2,2
+B,all_countries_post_validation,BWA,Botswana,4,3,1009,train,971,1009,0.9623389494549058,Southern Africa,0,0.2256844705182403,235,2,2
+B,all_countries_post_validation,CAN,Canada,6,4,1005,heldout_country,994,1005,0.9890547263681592,Northern America,0,0.2090578203110655,186,1,2
+B,all_countries_post_validation,CHE,Switzerland,13,4,1000,train,975,1000,0.975,Northern/Western Europe,0,0.0964897808074616,102,1,2
+B,all_countries_post_validation,CHL,Chile,5,4,1000,train,958,1000,0.958,Latin America & the Caribbean,0,0.1715564685036019,146,2,2
+B,all_countries_post_validation,CHN,China,8,3,3000,train,3000,3000,1.0,Eastern Asia,0,0.3795383296741449,1244,1,2
+B,all_countries_post_validation,CIV,Ivory Coast,2,2,1000,train,982,1000,0.982,Central/Western Africa,0,0.1935443489995593,213,2,2
+B,all_countries_post_validation,CMR,Cameroon,2,2,1000,train,962,1000,0.962,Central/Western Africa,0,0.311983242118296,311,2,2
+B,all_countries_post_validation,COD,Congo Kinshasa,2,1,1000,train,900,1000,0.9,Central/Western Africa,0,0.3383475136636619,316,2,2
+B,all_countries_post_validation,COG,Congo Brazzaville,2,2,1000,heldout_country,915,1000,0.915,Central/Western Africa,0,0.2091674398415626,192,2,2
+B,all_countries_post_validation,COL,Colombia,5,3,1008,train,932,1008,0.9246031746031746,Latin America & the Caribbean,0,0.1299440276357769,111,1,2
+B,all_countries_post_validation,COM,Comoros,1,2,1000,train,774,1000,0.774,Eastern Africa,0,0.2464307666149918,215,2,2
+B,all_countries_post_validation,CRI,Costa Rica,5,3,1000,train,961,1000,0.961,Latin America & the Caribbean,0,0.1229485751579132,104,1,2
+B,all_countries_post_validation,CYP,Cyprus,14,4,1031,train,996,1031,0.9660523763336566,Southern Europe,0,0.1281779329335909,104,1,2
+B,all_countries_post_validation,CZE,Czech Republic,12,4,1004,train,967,1004,0.9631474103585658,Eastern Europe,0,0.1481769097793543,147,1,2
+B,all_countries_post_validation,DEU,Germany,13,4,1000,train,993,1000,0.993,Northern/Western Europe,0,0.1427432014640256,135,1,2
+B,all_countries_post_validation,DNK,Denmark,13,4,1005,train,996,1005,0.991044776119403,Northern/Western Europe,0,0.1092648313190386,106,1,2
+B,all_countries_post_validation,DOM,Dominican Republic,5,3,1000,train,897,1000,0.897,Latin America & the Caribbean,0,0.1905533902809753,182,1,2
+B,all_countries_post_validation,DZA,Algeria,3,2,1000,train,904,1000,0.904,Northern Africa,0,0.1680103996939242,138,1,2
+B,all_countries_post_validation,ECU,Ecuador,5,3,1000,train,944,1000,0.944,Latin America & the Caribbean,0,0.151278894769266,140,2,2
+B,all_countries_post_validation,EGY,Egypt,3,2,1000,train,992,1000,0.992,Northern Africa,0,0.1190557490409229,111,1,2
+B,all_countries_post_validation,ESP,Spain,14,4,1000,train,998,1000,0.998,Southern Europe,0,0.127443617196961,147,1,2
+B,all_countries_post_validation,EST,Estonia,13,4,1009,train,978,1009,0.9692765113974232,Northern/Western Europe,0,0.1668451126812392,165,1,2
+B,all_countries_post_validation,ETH,Ethiopia,1,1,1000,train,954,1000,0.954,Eastern Africa,0,0.1894214037275624,186,1,2
+B,all_countries_post_validation,FIN,Finland,13,4,1003,train,981,1003,0.9780658025922232,Northern/Western Europe,0,0.1633485356217759,140,1,2
+B,all_countries_post_validation,FRA,France,13,4,1000,train,979,1000,0.979,Northern/Western Europe,0,0.0917209391949614,87,1,2
+B,all_countries_post_validation,GAB,Gabon,2,3,1000,train,990,1000,0.99,Central/Western Africa,0,0.2420977046546429,255,2,2
+B,all_countries_post_validation,GBR,United Kingdom,13,4,1000,train,988,1000,0.988,Northern/Western Europe,0,0.0557112720607551,56,1,2
+B,all_countries_post_validation,GEO,Georgia,7,3,1000,heldout_country,934,1000,0.934,Central Asia,0,0.0867702462139164,76,1,2
+B,all_countries_post_validation,GHA,Ghana,2,2,1000,train,917,1000,0.917,Central/Western Africa,0,0.2613831840739809,225,2,2
+B,all_countries_post_validation,GIN,Guinea,2,2,1000,train,944,1000,0.944,Central/Western Africa,0,0.3894690518611073,349,2,2
+B,all_countries_post_validation,GMB,Gambia,2,1,1000,train,876,1000,0.876,Central/Western Africa,0,0.2868556458435994,265,2,2
+B,all_countries_post_validation,GRC,Greece,14,4,1011,heldout_country,997,1011,0.9861523244312562,Southern Europe,0,0.2437411964281582,223,2,2
+B,all_countries_post_validation,GTM,Guatemala,5,3,1000,train,939,1000,0.939,Latin America & the Caribbean,0,0.1452932425462221,156,1,2
+B,all_countries_post_validation,HKG,Hong Kong,8,4,1004,train,999,1004,0.9950199203187252,Eastern Asia,0,0.0948928937458643,99,1,2
+B,all_countries_post_validation,HND,Honduras,5,2,1000,heldout_country,922,1000,0.922,Latin America & the Caribbean,0,0.0470355627626261,47,1,2
+B,all_countries_post_validation,HRV,Croatia,14,4,1004,train,802,1004,0.798804780876494,Southern Europe,0,0.1923166905691271,156,1,2
+B,all_countries_post_validation,HUN,Hungary,12,4,1011,train,997,1011,0.9861523244312562,Eastern Europe,0,0.146214659000874,139,1,2
+B,all_countries_post_validation,IDN,Indonesia,9,3,1000,train,955,1000,0.955,Southeastern Asia,0,0.1197720633434098,119,2,2
+B,all_countries_post_validation,IND,India,10,2,3000,train,2910,3000,0.97,Southern Asia,0,0.1346892577316851,389,2,2
+B,all_countries_post_validation,IRL,Ireland,13,4,1000,heldout_country,998,1000,0.998,Northern/Western Europe,0,0.093818907719231,84,1,2
+B,all_countries_post_validation,IRN,Iran,10,2,1007,train,987,1007,0.9801390268123138,Southern Asia,0,0.2370965309184685,250,1,2
+B,all_countries_post_validation,IRQ,Iraq,11,3,1035,train,1023,1035,0.9884057971014492,Middle East,0,0.1746428898296143,170,1,2
+B,all_countries_post_validation,ISL,Iceland,13,4,505,train,497,505,0.984158415841584,Northern/Western Europe,0,0.1265071675386331,66,1,2
+B,all_countries_post_validation,ISR,Israel,11,4,1000,train,903,1000,0.903,Middle East,0,0.1953468413982903,176,1,2
+B,all_countries_post_validation,ITA,Italy,14,4,1000,train,994,1000,0.994,Southern Europe,0,0.18535301446458,185,1,2
+B,all_countries_post_validation,JOR,Jordan,11,2,1000,train,918,1000,0.918,Middle East,0,0.1272420264354437,104,1,2
+B,all_countries_post_validation,JPN,Japan,8,4,1004,train,964,1004,0.9601593625498008,Eastern Asia,0,0.0518453071495549,49,1,2
+B,all_countries_post_validation,KAZ,Kazakhstan,7,3,1000,train,759,1000,0.759,Central Asia,0,0.0855619437923268,76,1,2
+B,all_countries_post_validation,KEN,Kenya,1,2,1000,train,968,1000,0.968,Eastern Africa,0,0.2921264496324044,288,2,2
+B,all_countries_post_validation,KGZ,Kyrgyzstan,7,2,1000,train,888,1000,0.888,Central Asia,0,0.1175955008046152,102,1,2
+B,all_countries_post_validation,KHM,Cambodia,9,2,1000,heldout_country,947,1000,0.947,Southeastern Asia,0,0.1894875338598572,185,1,2
+B,all_countries_post_validation,KOR,South Korea,8,4,1027,train,976,1027,0.9503407984420644,Eastern Asia,0,0.0647939846926971,53,1,2
+B,all_countries_post_validation,KWT,Kuwait,11,4,1063,train,956,1063,0.8993414863593603,Middle East,0,0.104905218772104,111,1,2
+B,all_countries_post_validation,LAO,Laos,9,2,1000,heldout_country,805,1000,0.805,Southeastern Asia,0,0.1357734896904384,101,1,2
+B,all_countries_post_validation,LBN,Lebanon,11,2,1010,heldout_country,934,1010,0.9247524752475248,Middle East,0,0.1377494189378334,135,1,2
+B,all_countries_post_validation,LBR,Liberia,2,1,1002,heldout_country,989,1002,0.9870259481037924,Central/Western Africa,0,0.4953391498291094,522,2,2
+B,all_countries_post_validation,LBY,Libya,3,3,1005,train,955,1005,0.9502487562189056,Northern Africa,0,0.1627845084973104,158,1,2
+B,all_countries_post_validation,LKA,Sri Lanka,10,2,1000,train,920,1000,0.92,Southern Asia,0,0.1383171547055398,135,2,2
+B,all_countries_post_validation,LTU,Lithuania,13,4,1000,train,795,1000,0.795,Northern/Western Europe,0,0.1067657737284059,90,1,2
+B,all_countries_post_validation,LUX,Luxembourg,13,4,1000,train,980,1000,0.98,Northern/Western Europe,0,0.1095021357353127,116,1,2
+B,all_countries_post_validation,LVA,Latvia,13,4,1020,train,967,1020,0.9480392156862744,Northern/Western Europe,0,0.1046237622813589,113,1,2
+B,all_countries_post_validation,MAR,Morocco,3,2,1014,heldout_country,897,1014,0.8846153846153846,Northern Africa,0,0.0861193483908053,69,2,2
+B,all_countries_post_validation,MDA,Moldova,12,3,1000,heldout_country,806,1000,0.806,Eastern Europe,0,0.0758933952331045,86,1,2
+B,all_countries_post_validation,MDG,Madagascar,1,1,1000,train,923,1000,0.923,Eastern Africa,0,0.2371493722245601,215,1,2
+B,all_countries_post_validation,MEX,Mexico,5,3,1000,train,975,1000,0.975,Latin America & the Caribbean,0,0.1138168022688727,96,1,2
+B,all_countries_post_validation,MKD,North Macedonia,14,3,1000,train,914,1000,0.914,Southern Europe,0,0.1577533132575115,162,1,2
+B,all_countries_post_validation,MLI,Mali,2,1,1000,train,995,1000,0.995,Central/Western Africa,0,0.2552136160889977,244,2,2
+B,all_countries_post_validation,MLT,Malta,14,4,1000,heldout_country,994,1000,0.994,Southern Europe,0,0.1295037294013381,120,2,2
+B,all_countries_post_validation,MMR,Myanmar,9,2,1000,train,871,1000,0.871,Southeastern Asia,0,0.1459930482700383,160,2,2
+B,all_countries_post_validation,MNE,Montenegro,14,3,1000,train,934,1000,0.934,Southern Europe,0,0.185846538311313,183,1,2
+B,all_countries_post_validation,MNG,Mongolia,8,2,1000,train,944,1000,0.944,Eastern Asia,0,0.1354750096974964,120,1,2
+B,all_countries_post_validation,MOZ,Mozambique,1,1,1000,train,928,1000,0.928,Eastern Africa,0,0.3172094329102209,317,2,2
+B,all_countries_post_validation,MRT,Mauritania,2,2,1000,train,970,1000,0.97,Central/Western Africa,0,0.2407716437403842,252,1,2
+B,all_countries_post_validation,MUS,Mauritius,1,3,1000,heldout_country,918,1000,0.918,Eastern Africa,0,0.18156133310186,145,2,2
+B,all_countries_post_validation,MWI,Malawi,1,1,1000,train,948,1000,0.948,Eastern Africa,0,0.5814634712940241,554,2,2
+B,all_countries_post_validation,MYS,Malaysia,9,3,1000,train,921,1000,0.921,Southeastern Asia,0,0.0803584837062377,74,2,2
+B,all_countries_post_validation,NAM,Namibia,4,3,1002,heldout_country,946,1002,0.9441117764471058,Southern Africa,0,0.2002498664675027,212,2,2
+B,all_countries_post_validation,NER,Niger,2,1,1000,train,931,1000,0.931,Central/Western Africa,0,0.2944650048286677,286,2,2
+B,all_countries_post_validation,NGA,Nigeria,2,2,1000,train,937,1000,0.937,Central/Western Africa,0,0.3248339298141061,310,1,2
+B,all_countries_post_validation,NIC,Nicaragua,5,2,1000,train,951,1000,0.951,Latin America & the Caribbean,0,0.0838626356269216,89,1,2
+B,all_countries_post_validation,NLD,Netherlands,13,4,1007,heldout_country,997,1007,0.9900695134061568,Northern/Western Europe,0,0.1541468105008969,139,1,2
+B,all_countries_post_validation,NOR,Norway,13,4,1000,train,990,1000,0.99,Northern/Western Europe,0,0.087790644655237,70,1,2
+B,all_countries_post_validation,NPL,Nepal,10,2,1000,train,925,1000,0.925,Southern Asia,0,0.1875672558851886,171,2,2
+B,all_countries_post_validation,NZL,New Zealand,15,4,1000,train,975,1000,0.975,Australia & New Zealand,0,0.2364360822267898,183,2,2
+B,all_countries_post_validation,PAK,Pakistan,10,2,1001,train,914,1001,0.913086913086913,Southern Asia,0,0.1546492741943994,164,1,2
+B,all_countries_post_validation,PAN,Panama,5,4,1000,heldout_country,949,1000,0.949,Latin America & the Caribbean,0,0.1526211716100148,123,1,2
+B,all_countries_post_validation,PER,Peru,5,3,1000,train,953,1000,0.953,Latin America & the Caribbean,0,0.1831378546999499,167,2,2
+B,all_countries_post_validation,PHL,Philippines,9,2,1003,train,975,1003,0.9720837487537388,Southeastern Asia,0,0.3948713098927016,375,2,2
+B,all_countries_post_validation,POL,Poland,12,4,1000,train,818,1000,0.818,Eastern Europe,0,0.1296966628722992,100,1,2
+B,all_countries_post_validation,PRT,Portugal,14,4,1001,train,977,1001,0.976023976023976,Southern Europe,0,0.1669394409022796,187,2,2
+B,all_countries_post_validation,PRY,Paraguay,5,3,1000,train,971,1000,0.971,Latin America & the Caribbean,0,0.1015789730441676,95,1,2
+B,all_countries_post_validation,PSE,Palestine,11,3,1000,heldout_country,945,1000,0.945,Middle East,0,0.1499974927973568,135,1,2
+B,all_countries_post_validation,ROU,Romania,12,4,1000,train,857,1000,0.857,Eastern Europe,0,0.0681918563824269,45,1,2
+B,all_countries_post_validation,RUS,Russia,12,3,2024,heldout_country,1953,2024,0.9649209486166008,Eastern Europe,0,0.1539420688927313,317,1,2
+B,all_countries_post_validation,SAU,Saudi Arabia,11,4,1018,train,1000,1018,0.9823182711198428,Middle East,0,0.0719378928052585,69,1,2
+B,all_countries_post_validation,SEN,Senegal,2,2,1000,train,976,1000,0.976,Central/Western Africa,0,0.2690928497106934,269,2,2
+B,all_countries_post_validation,SGP,Singapore,9,4,1031,train,1012,1031,0.9815712900096992,Southeastern Asia,0,0.1159716736388166,131,1,2
+B,all_countries_post_validation,SLE,Sierra Leone,2,1,1000,heldout_country,787,1000,0.787,Central/Western Africa,0,0.3514499629198718,272,2,2
+B,all_countries_post_validation,SLV,El Salvador,5,3,1000,train,925,1000,0.925,Latin America & the Caribbean,0,0.0770138609149084,74,1,2
+B,all_countries_post_validation,SOM,Somalia,1,1,1000,heldout_country,829,1000,0.829,Eastern Africa,0,0.1968533463757654,166,1,2
+B,all_countries_post_validation,SRB,Serbia,14,3,1000,train,890,1000,0.89,Southern Europe,0,0.2434477710661505,226,1,2
+B,all_countries_post_validation,SVK,Slovakia,12,4,1001,train,868,1001,0.8671328671328671,Eastern Europe,0,0.3191851389827894,272,1,2
+B,all_countries_post_validation,SVN,Slovenia,14,4,1001,train,982,1001,0.981018981018981,Southern Europe,0,0.1019466860373333,113,1,2
+B,all_countries_post_validation,SWE,Sweden,13,4,1005,heldout_country,1000,1005,0.9950248756218906,Northern/Western Europe,0,0.1234898879701258,110,1,2
+B,all_countries_post_validation,SWZ,Eswatini,4,2,1000,train,934,1000,0.934,Southern Africa,0,0.3319744927285438,326,2,2
+B,all_countries_post_validation,TCD,Chad,2,1,1000,train,948,1000,0.948,Central/Western Africa,0,0.4540127169087457,432,2,2
+B,all_countries_post_validation,TGO,Togo,2,1,1000,train,909,1000,0.909,Central/Western Africa,0,0.1992712634891729,208,1,2
+B,all_countries_post_validation,THA,Thailand,9,3,1000,train,936,1000,0.936,Southeastern Asia,0,0.0790307917764732,76,1,2
+B,all_countries_post_validation,TJK,Tajikistan,7,2,1001,heldout_country,813,1001,0.8121878121878122,Central Asia,0,0.1095047797145713,89,1,2
+B,all_countries_post_validation,TUN,Tunisia,3,2,1000,train,983,1000,0.983,Northern Africa,0,0.1078616637656405,102,1,2
+B,all_countries_post_validation,TUR,Turkey,11,3,1000,train,882,1000,0.882,Middle East,0,0.2644734860879093,243,1,2
+B,all_countries_post_validation,TWN,Taiwan,8,4,1000,heldout_country,975,1000,0.975,Eastern Asia,0,0.0927695152824302,99,1,2
+B,all_countries_post_validation,TZA,Tanzania,1,2,1002,train,938,1002,0.936127744510978,Eastern Africa,0,0.2235017915493622,212,2,2
+B,all_countries_post_validation,UGA,Uganda,1,1,1000,train,841,1000,0.841,Eastern Africa,0,0.3489702014945863,298,1,2
+B,all_countries_post_validation,UKR,Ukraine,12,2,1000,train,923,1000,0.923,Eastern Europe,0,0.1184804318272459,139,1,2
+B,all_countries_post_validation,URY,Uruguay,5,4,1000,train,955,1000,0.955,Latin America & the Caribbean,0,0.1380542420383175,122,1,2
+B,all_countries_post_validation,USA,United States,6,4,1003,train,963,1003,0.9601196410767696,Northern America,0,0.2435867308638275,184,1,2
+B,all_countries_post_validation,UZB,Uzbekistan,7,2,1000,train,913,1000,0.913,Central Asia,0,0.0267939727971236,24,1,2
+B,all_countries_post_validation,VEN,Venezuela,5,9,1000,train,956,1000,0.956,Latin America & the Caribbean,0,0.092494104785515,87,1,2
+B,all_countries_post_validation,VNM,Vietnam,9,2,1000,train,945,1000,0.945,Southeastern Asia,0,0.292295413144889,267,1,2
+B,all_countries_post_validation,XKX,Kosovo,12,3,1000,train,851,1000,0.851,Eastern Europe,0,0.0754670100650534,71,1,2
+B,all_countries_post_validation,YEM,Yemen,11,1,1000,train,924,1000,0.924,Middle East,0,0.3307092608288257,318,1,2
+B,all_countries_post_validation,ZAF,South Africa,4,3,1000,train,904,1000,0.904,Southern Africa,0,0.2843607354620456,261,2,2
+B,all_countries_post_validation,ZMB,Zambia,1,2,1000,train,873,1000,0.873,Eastern Africa,0,0.3061441682419468,278,2,2
+B,all_countries_post_validation,ZWE,Zimbabwe,1,2,1000,train,980,1000,0.98,Eastern Africa,0,0.2412603550886234,233,2,2

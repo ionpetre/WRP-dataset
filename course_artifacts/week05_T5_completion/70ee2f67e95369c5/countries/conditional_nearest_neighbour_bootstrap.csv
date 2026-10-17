@@ -1,0 +1,256 @@
+candidate,scope,iso3,country,reference_neighbour,reference_neighbour_same_region,exact_nearest_repeated_fraction,nearest_outside_region_fraction,bootstrap_repetitions,status
+T5,development,AFG,Afghanistan,Yemen,False,0.655,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ALB,Albania,Pakistan,False,0.655,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ARE,United Arab Emirates,Hong Kong,False,0.33,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ARG,Argentina,Guatemala,True,0.255,0.255,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ARM,Armenia,United Arab Emirates,False,0.315,0.94,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,AUT,Austria,Germany,True,0.16,0.59,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,AZE,Azerbaijan,United Arab Emirates,False,0.52,0.64,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BEL,Belgium,Germany,True,0.425,0.145,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BFA,Burkina Faso,Kenya,False,0.555,0.77,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BGR,Bulgaria,Libya,False,0.44,0.675,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BIH,Bosnia Herzegovina,United States,False,0.36,0.92,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BRA,Brazil,Ecuador,True,0.425,0.085,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,BWA,Botswana,Senegal,False,0.385,0.855,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CHE,Switzerland,Lithuania,True,0.2,0.585,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CHL,Chile,Peru,True,0.765,0.22,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CHN,China,Yemen,False,0.375,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CIV,Ivory Coast,Portugal,False,0.3,0.985,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CMR,Cameroon,South Africa,False,0.67,0.915,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,COD,Congo Kinshasa,Philippines,False,0.51,0.71,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,COL,Colombia,Guatemala,True,0.37,0.475,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,COM,Comoros,Mali,False,0.7,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CRI,Costa Rica,Mexico,True,0.5,0.425,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CYP,Cyprus,Mongolia,False,0.43,0.855,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,CZE,Czech Republic,Estonia,False,0.41,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,DEU,Germany,Belgium,True,0.4,0.32,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,DNK,Denmark,Lithuania,True,0.39,0.29,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,DOM,Dominican Republic,Iraq,False,0.225,0.915,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,DZA,Algeria,Iraq,False,0.41,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ECU,Ecuador,Brazil,True,0.525,0.005,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,EGY,Egypt,Bulgaria,False,0.32,0.955,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ESP,Spain,Ukraine,False,0.425,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,EST,Estonia,Czech Republic,False,0.425,0.545,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ETH,Ethiopia,North Macedonia,False,0.4,0.79,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,FIN,Finland,Iceland,True,0.45,0.415,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,FRA,France,Latvia,True,0.625,0.23,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GAB,Gabon,Zambia,False,0.46,0.885,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GBR,United Kingdom,Saudi Arabia,False,0.585,0.68,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GHA,Ghana,Zambia,False,0.38,0.495,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GIN,Guinea,Chad,True,0.365,0.48,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GMB,Gambia,Tanzania,False,0.365,0.85,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,GTM,Guatemala,Colombia,True,0.37,0.505,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,HKG,Hong Kong,Hungary,False,0.425,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,HRV,Croatia,Montenegro,True,0.495,0.455,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,HUN,Hungary,Hong Kong,False,0.76,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,IDN,Indonesia,Malaysia,True,0.895,0.105,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,IND,India,Portugal,False,0.455,0.735,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,IRN,Iran,United States,False,0.465,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,IRQ,Iraq,Algeria,False,0.27,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ISL,Iceland,Norway,True,0.46,0.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ISR,Israel,Czech Republic,False,0.575,0.87,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ITA,Italy,Mongolia,False,0.395,0.955,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,JOR,Jordan,Mexico,False,0.325,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,JPN,Japan,France,False,0.505,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,KAZ,Kazakhstan,Romania,False,0.775,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,KEN,Kenya,Burkina Faso,False,0.385,0.77,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,KGZ,Kyrgyzstan,Luxembourg,False,0.445,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,KOR,South Korea,Pakistan,False,0.445,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,KWT,Kuwait,Saudi Arabia,True,0.8,0.13,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,LBY,Libya,Bulgaria,False,0.55,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,LKA,Sri Lanka,Myanmar,False,0.6,0.965,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,LTU,Lithuania,Estonia,True,0.325,0.125,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,LUX,Luxembourg,Kyrgyzstan,False,0.365,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,LVA,Latvia,France,True,0.555,0.11,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MDG,Madagascar,Ethiopia,True,0.905,0.09,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MEX,Mexico,Jordan,False,0.27,0.725,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MKD,North Macedonia,Uruguay,False,0.415,0.945,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MLI,Mali,Comoros,False,0.955,0.97,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MMR,Myanmar,Germany,False,0.55,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MNE,Montenegro,Croatia,True,0.95,0.05,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MNG,Mongolia,Italy,False,0.305,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MOZ,Mozambique,Zambia,True,0.52,0.48,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MRT,Mauritania,Ghana,True,0.38,0.35,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MWI,Malawi,Philippines,False,0.975,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,MYS,Malaysia,Indonesia,True,0.575,0.425,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NER,Niger,Zambia,False,0.515,0.59,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NGA,Nigeria,Turkey,False,0.58,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NIC,Nicaragua,Romania,False,0.395,0.925,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NOR,Norway,Iceland,True,0.545,0.02,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NPL,Nepal,Portugal,False,0.35,0.685,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,NZL,New Zealand,Myanmar,False,0.395,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,PAK,Pakistan,South Korea,False,0.3,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,PER,Peru,Chile,True,0.74,0.015,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,PHL,Philippines,Congo Kinshasa,False,0.61,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,POL,Poland,Bulgaria,True,0.3,0.7,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,PRT,Portugal,Zimbabwe,False,0.27,0.97,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,PRY,Paraguay,Jordan,False,0.635,0.935,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ROU,Romania,Kazakhstan,False,0.47,0.91,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SAU,Saudi Arabia,Kuwait,True,0.57,0.43,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SEN,Senegal,Eswatini,False,0.58,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SGP,Singapore,Denmark,False,0.42,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SLV,El Salvador,Romania,False,0.27,0.76,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SRB,Serbia,Bosnia Herzegovina,True,0.45,0.51,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SVK,Slovakia,Israel,False,0.745,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SVN,Slovenia,Latvia,False,0.21,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,SWZ,Eswatini,Senegal,False,0.51,0.9,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,TCD,Chad,Guinea,True,0.76,0.105,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,TGO,Togo,Iraq,False,0.385,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,THA,Thailand,Poland,False,0.455,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,TUN,Tunisia,Venezuela,False,0.985,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,TUR,Turkey,Nigeria,False,0.545,0.93,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,TZA,Tanzania,Gambia,False,0.495,0.855,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,UGA,Uganda,Nigeria,False,0.765,0.985,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,UKR,Ukraine,Uruguay,False,0.34,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,URY,Uruguay,Ukraine,False,0.365,0.985,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,USA,United States,Bosnia Herzegovina,False,0.365,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,UZB,Uzbekistan,United Arab Emirates,False,0.515,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,VEN,Venezuela,Argentina,True,0.52,0.44,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,VNM,Vietnam,Yemen,False,0.525,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,XKX,Kosovo,Nicaragua,False,0.34,0.885,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,YEM,Yemen,Vietnam,False,0.355,0.815,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ZAF,South Africa,Cameroon,False,0.835,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ZMB,Zambia,Niger,False,0.265,0.74,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,development,ZWE,Zimbabwe,Portugal,False,0.345,0.85,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,AFG,Afghanistan,Yemen,False,0.655,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ALB,Albania,Pakistan,False,0.655,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ARE,United Arab Emirates,Hong Kong,False,0.33,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ARG,Argentina,Guatemala,True,0.24,0.295,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ARM,Armenia,United Arab Emirates,False,0.315,0.94,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,AUS,Australia,Canada,False,0.795,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,AUT,Austria,Laos,False,0.37,0.735,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,AZE,Azerbaijan,United Arab Emirates,False,0.515,0.64,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BEL,Belgium,Germany,True,0.3,0.245,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BEN,Benin,Niger,True,0.33,0.32,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BFA,Burkina Faso,Kenya,False,0.45,0.645,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BGD,Bangladesh,Myanmar,False,0.24,0.88,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BGR,Bulgaria,Libya,False,0.43,0.665,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BHR,Bahrain,Canada,False,0.4,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BIH,Bosnia Herzegovina,Russia,False,0.345,0.94,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BOL,Bolivia,Chile,True,0.405,0.49,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BRA,Brazil,Ecuador,True,0.405,0.16,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,BWA,Botswana,Namibia,True,0.595,0.33,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CAN,Canada,Australia,False,0.465,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CHE,Switzerland,Lithuania,True,0.165,0.665,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CHL,Chile,Peru,True,0.535,0.19,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CHN,China,Yemen,False,0.37,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CIV,Ivory Coast,Portugal,False,0.235,0.96,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CMR,Cameroon,South Africa,False,0.595,0.93,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,COD,Congo Kinshasa,Philippines,False,0.375,0.525,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,COG,Congo Brazzaville,Zambia,False,0.315,0.46,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,COL,Colombia,Guatemala,True,0.36,0.455,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,COM,Comoros,Mali,False,0.695,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CRI,Costa Rica,Mexico,True,0.49,0.435,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CYP,Cyprus,Mongolia,False,0.38,0.88,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,CZE,Czech Republic,Estonia,False,0.29,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,DEU,Germany,Belgium,True,0.285,0.455,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,DNK,Denmark,Tajikistan,False,0.26,0.505,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,DOM,Dominican Republic,Iraq,False,0.205,0.89,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,DZA,Algeria,Iraq,False,0.395,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ECU,Ecuador,Brazil,True,0.515,0.015,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,EGY,Egypt,Bulgaria,False,0.315,0.965,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ESP,Spain,Ukraine,False,0.4,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,EST,Estonia,Czech Republic,False,0.31,0.655,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ETH,Ethiopia,Somalia,True,0.575,0.36,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,FIN,Finland,Tajikistan,False,0.295,0.515,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,FRA,France,Latvia,True,0.515,0.31,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GAB,Gabon,Zambia,False,0.395,0.7,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GBR,United Kingdom,Saudi Arabia,False,0.55,0.725,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GEO,Georgia,Slovenia,False,0.625,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GHA,Ghana,Zambia,False,0.37,0.485,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GIN,Guinea,Sierra Leone,True,0.555,0.185,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GMB,Gambia,Tanzania,False,0.35,0.76,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GRC,Greece,Chile,False,0.235,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,GTM,Guatemala,Colombia,True,0.33,0.485,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,HKG,Hong Kong,Hungary,False,0.39,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,HND,Honduras,Ukraine,False,0.12,0.68,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,HRV,Croatia,Montenegro,True,0.485,0.465,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,HUN,Hungary,Hong Kong,False,0.69,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,IDN,Indonesia,Malaysia,True,0.67,0.33,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,IND,India,Portugal,False,0.405,0.76,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,IRL,Ireland,Nicaragua,False,0.385,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,IRN,Iran,United States,False,0.215,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,IRQ,Iraq,Algeria,False,0.25,0.96,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ISL,Iceland,Sweden,True,0.3,0.04,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ISR,Israel,Czech Republic,False,0.55,0.87,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ITA,Italy,Mongolia,False,0.345,0.955,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,JOR,Jordan,Mexico,False,0.255,0.845,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,JPN,Japan,France,False,0.47,0.945,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KAZ,Kazakhstan,Romania,False,0.7,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KEN,Kenya,Burkina Faso,False,0.345,0.805,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KGZ,Kyrgyzstan,Luxembourg,False,0.445,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KHM,Cambodia,North Macedonia,False,0.505,0.94,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KOR,South Korea,Pakistan,False,0.445,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,KWT,Kuwait,Saudi Arabia,True,0.74,0.2,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LAO,Laos,Austria,False,0.445,0.945,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LBN,Lebanon,Venezuela,False,0.62,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LBR,Liberia,Philippines,False,0.575,0.62,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LBY,Libya,Bulgaria,False,0.48,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LKA,Sri Lanka,Malta,False,0.91,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LTU,Lithuania,Tajikistan,False,0.445,0.485,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LUX,Luxembourg,Kyrgyzstan,False,0.355,0.965,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,LVA,Latvia,France,True,0.445,0.27,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MAR,Morocco,Malaysia,False,0.74,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MDA,Moldova,Nicaragua,False,0.43,0.72,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MDG,Madagascar,Ethiopia,True,0.83,0.075,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MEX,Mexico,Jordan,False,0.255,0.72,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MKD,North Macedonia,Cambodia,False,0.33,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MLI,Mali,Comoros,False,0.885,0.89,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MLT,Malta,Sri Lanka,False,0.82,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MMR,Myanmar,Germany,False,0.41,0.96,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MNE,Montenegro,Croatia,True,0.95,0.05,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MNG,Mongolia,Italy,False,0.3,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MOZ,Mozambique,Sierra Leone,False,0.555,0.745,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MRT,Mauritania,Ghana,True,0.275,0.525,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MUS,Mauritius,Senegal,False,0.535,0.985,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MWI,Malawi,Liberia,False,0.805,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,MYS,Malaysia,Morocco,False,0.46,0.815,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NAM,Namibia,Botswana,True,0.77,0.23,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NER,Niger,Zambia,False,0.39,0.43,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NGA,Nigeria,Turkey,False,0.58,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NIC,Nicaragua,Moldova,False,0.315,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NLD,Netherlands,Libya,False,0.235,0.51,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NOR,Norway,Iceland,True,0.415,0.07,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NPL,Nepal,Portugal,False,0.35,0.685,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,NZL,New Zealand,Myanmar,False,0.28,0.925,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PAK,Pakistan,South Korea,False,0.3,0.995,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PAN,Panama,Togo,False,0.225,0.8,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PER,Peru,Chile,True,0.63,0.075,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PHL,Philippines,Congo Kinshasa,False,0.4,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,POL,Poland,Bulgaria,True,0.295,0.705,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PRT,Portugal,Zimbabwe,False,0.27,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PRY,Paraguay,Jordan,False,0.61,0.935,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,PSE,Palestine,Uruguay,False,0.34,0.89,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ROU,Romania,Kazakhstan,False,0.36,0.77,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,RUS,Russia,Bosnia Herzegovina,False,0.225,0.95,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SAU,Saudi Arabia,Kuwait,True,0.565,0.435,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SEN,Senegal,Eswatini,False,0.555,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SGP,Singapore,Denmark,False,0.38,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SLE,Sierra Leone,Mozambique,False,0.575,0.61,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SLV,El Salvador,Ireland,False,0.265,0.85,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SOM,Somalia,Ethiopia,True,0.425,0.575,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SRB,Serbia,Bosnia Herzegovina,True,0.45,0.51,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SVK,Slovakia,Israel,False,0.555,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SVN,Slovenia,Georgia,False,0.51,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SWE,Sweden,Tajikistan,False,0.405,0.54,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,SWZ,Eswatini,Senegal,False,0.5,0.905,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TCD,Chad,Guinea,True,0.685,0.095,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TGO,Togo,Iraq,False,0.295,0.975,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,THA,Thailand,Poland,False,0.39,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TJK,Tajikistan,Lithuania,False,0.44,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TUN,Tunisia,Venezuela,False,0.95,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TUR,Turkey,Nigeria,False,0.545,0.935,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TWN,Taiwan,Latvia,False,0.29,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,TZA,Tanzania,Gambia,False,0.48,0.865,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,UGA,Uganda,Nigeria,False,0.765,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,UKR,Ukraine,Uruguay,False,0.29,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,URY,Uruguay,Palestine,False,0.285,0.97,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,USA,United States,Bosnia Herzegovina,False,0.295,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,UZB,Uzbekistan,United Arab Emirates,False,0.515,0.99,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,VEN,Venezuela,Argentina,True,0.36,0.61,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,VNM,Vietnam,Yemen,False,0.515,0.98,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,XKX,Kosovo,Moldova,True,0.2,0.745,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,YEM,Yemen,Vietnam,False,0.355,0.815,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ZAF,South Africa,Cameroon,False,0.735,1.0,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ZMB,Zambia,Niger,False,0.255,0.745,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty
+T5,all_countries_post_validation,ZWE,Zimbabwe,Portugal,False,0.32,0.86,200,conditional IID respondent sensitivity; not survey-design confidence or model-fit uncertainty

@@ -15,19 +15,29 @@
     "sha256": "bfb3babd1600c07f888bf41f70be99deda479ce7427bb1d6a0cc50afec9734ec"
   },
   {
+    "path": "T5_completion_publication.json",
+    "bytes": 8775,
+    "sha256": "55be177586b904874463eb93f6e13aac27120648d2d4f654fc44b3815b5ab103"
+  },
+  {
     "path": "publication_profile_test.json",
     "bytes": 298,
     "sha256": "005fe397ad014a36c6ca85f4d9423f205cf935f0b36f8e1a59aaea9cef49da9f"
   },
   {
     "path": "README.md",
-    "bytes": 5327,
-    "sha256": "3269dd4d53c2c67bfe31fdcb53e76c5f0c083cb842738cd27e42016a383e2a00"
+    "bytes": 5710,
+    "sha256": "48db9dfe4309e87ce8323c1b5a367f12d5acedffb27aaf40b108ad16ac593cbd"
   },
   {
     "path": "publication_manifest.json",
-    "bytes": 643834,
-    "sha256": "7f6d3b6c0514fc39eb4e6509a8d6358e08a654131c01c4047f954bef0816fd8c"
+    "bytes": 716046,
+    "sha256": "bf75f6f6dfbe2e446aa8f7a6e70cac4f8164f4624dfe9321a2b703769a7acc71"
+  },
+  {
+    "path": "T5_completion_browser_checks.json",
+    "bytes": 313,
+    "sha256": "0803075b1b1b7a2956658826ec420719cd73a20b93c96b715e3c2fc2b132bf48"
   },
   {
     "path": ".gitignore",
@@ -51,13 +61,13 @@
   },
   {
     "path": "research/METHODS.md",
-    "bytes": 16281,
-    "sha256": "4626d0727b33311bd0d36ed337f77b39b422ea4fb50dd0b4804749531b675962"
+    "bytes": 19337,
+    "sha256": "5641e299da5fffcea34e8095761f7a2ffda34069fae28467bce67752ab0e1eed"
   },
   {
     "path": "research/RESULTS.md",
-    "bytes": 13096,
-    "sha256": "863850753d7af4a95e9f273ae80ae7fa0967a0b516ee25084c37f99520342953"
+    "bytes": 16080,
+    "sha256": "7b35b26686fe54c18aa3646c432771f3af72b597c87c7c8746b2c57aa68671ae"
   },
   {
     "path": "research/REPRODUCING.md",
@@ -66,8 +76,8 @@
   },
   {
     "path": "research/T5_RESULTS.md",
-    "bytes": 7224,
-    "sha256": "05cbba813f98c83660d09949c7cdcba689a8b8e61418e0cbc3996dd111d43a93"
+    "bytes": 13463,
+    "sha256": "c114213ce27f60e036788efb219ebe3e25d3351da2218c6d6a0f2138cb67baa2"
   },
   {
     "path": "research/data_dictionary/WRP_2023_data_dictionary.csv",
@@ -81,8 +91,8 @@
   },
   {
     "path": "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb",
-    "bytes": 71118,
-    "sha256": "470041b4a0c38dd66287ca63d503b7a1db69e040df1866c4f3e98b2ccd5ded5c"
+    "bytes": 55195,
+    "sha256": "d9743c284269c8404a03c636a26253e00d8c0531ee4af1fc431cbb4a1decb546"
   },
   {
     "path": "weekly_notebooks/week02_define_the_research_design.ipynb",
@@ -131,8 +141,8 @@
   },
   {
     "path": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
-    "bytes": 132266,
-    "sha256": "25d3494ff4c6ea483fe87131a96f4286249137cbc1649a1cf0b8a240d04a89e5"
+    "bytes": 78883,
+    "sha256": "11c7dbe07256cac2be4b64a5f8ef7140c9a9e07f069912be8f419026a388df55"
   },
   {
     "path": "frozen_models/models.json",
@@ -156,8 +166,8 @@
   },
   {
     "path": "frozen_models/T5_models.json",
-    "bytes": 5869,
-    "sha256": "25085423ee0937fe66003eea49207cb6ed7d595be867ba7eaed65c4d31634846"
+    "bytes": 5941,
+    "sha256": "6590740341a92e9185b61f7f6c57e249d1238c6411f85d61f4d26b9bb53887d3"
   },
   {
     "path": "frozen_models/__pycache__/public_assignment.cpython-311.pyc",
@@ -176,8 +186,8 @@
   },
   {
     "path": "docs/country-similarity-fragment.html",
-    "bytes": 972054,
-    "sha256": "4bbbc52096523a373b79431567bea69a6c0514b596788a86b90e1b8c6af25e71"
+    "bytes": 1642873,
+    "sha256": "c71ea3868a2376b03d791699199616d7a8c1221bc1cf7850a49ec308b5fb9bd8"
   },
   {
     "path": "docs/response-profiles-fragment.html",
@@ -191,13 +201,13 @@
   },
   {
     "path": "docs/country-income-fragment.html",
-    "bytes": 986119,
-    "sha256": "bf6cd92cd88771db9a5adb6de0e898bc0b5977ca8a33c161679e653f462af43f"
+    "bytes": 1651010,
+    "sha256": "a0aa3639d884da7665a7263269b863e221ed862eb63fdce05de827a4fd6de262"
   },
   {
     "path": "docs/countries.html",
-    "bytes": 1403907,
-    "sha256": "ac171bd7c41d9d2ac775a8f5fe6c9962d6d14151cb69bd2ad7b46cc1dececa53"
+    "bytes": 1797107,
+    "sha256": "18f3a8aeae19b189dd44cb516d263bfafe88b17a8caed326b4ed05d64fcbfbba"
   },
   {
     "path": "docs/.nojekyll",
@@ -206,8 +216,8 @@
   },
   {
     "path": "docs/country-income.html",
-    "bytes": 1429565,
-    "sha256": "22c20da26221e9c3ddfa6d87cee1b0671e1711c845e3b412f732dfbdf3b75696"
+    "bytes": 1816777,
+    "sha256": "d89e59564d0edd63ad378fd7f94826b1693061531c746ceca9c013325ebac3ba"
   },
   {
     "path": "docs/vendor/d3.min.js",
@@ -318,6 +328,26 @@
     "path": ".week04_parameter_search/finish.py",
     "bytes": 2643,
     "sha256": "743d3bb65d5686a22d2c0c7a32982e5f978a63f3b3fd965b1fb585f2bc1f4b85"
+  },
+  {
+    "path": ".week06_build/replay_notebooks.py",
+    "bytes": 1782,
+    "sha256": "198ed6a9a87a3e087dcd81507a3bdb2bfdb85ea1fff2cfbb9057e7636d483941"
+  },
+  {
+    "path": ".week06_build/build_T5_notebook.py",
+    "bytes": 15002,
+    "sha256": "a14ba19ae50f4afcae873a8514757b796ff08a29bf3fa29f549657ba17a873dc"
+  },
+  {
+    "path": ".week06_build/run_T5.py",
+    "bytes": 1870,
+    "sha256": "860bd73042a4adac60db4de0d8ab07121f09bbe2a1ba3f917e7796a01906973d"
+  },
+  {
+    "path": ".week06_build/week06_t5_core.py",
+    "bytes": 31352,
+    "sha256": "b3408a2f9373cf7f248052fa53d28fb59d2374fe1dd6cc9726d62b809dcc35f4"
   },
   {
     "path": "course_artifacts/week03_country_split.csv",
@@ -1410,6 +1440,436 @@
     "sha256": "6cb8d2128bf98e5846f48694ab6fd9b6872bcad364a619ca8f0142d77119a2ee"
   },
   {
+    "path": "course_artifacts/week05_T5_completion/current_run.json",
+    "bytes": 177,
+    "sha256": "29cdafc489f46f1a285f5240b8c957afdb836cf4d2f0db3a26019ba18f3d2874"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_11_country_omissions.csv",
+    "bytes": 369,
+    "sha256": "981efda9f09c66b680d82bc14b6e0a88c19569e8476b9e488b43f3762b3b53b4"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/T5_original_categories_by_split_and_region.csv",
+    "bytes": 1267566,
+    "sha256": "ba1fb4857a2dd098fc9e48eebc7dcb80d58dfeee78c7a2073ef9bed5a4a4a737"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_sampling_plan_audit.csv",
+    "bytes": 118193,
+    "sha256": "92648600b16b5b088345e09773fb4270e5c865413a095bfe2e122eb04aa2239d"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_original_profiles.csv",
+    "bytes": 4133684,
+    "sha256": "c9ef0487e4b7d3de26f6cf19d9e5bf3411fbcc7172cb08293639c1011022dedb"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_8_country_omissions.csv",
+    "bytes": 248,
+    "sha256": "9f207f04936375396cbbe5a1b4afb5eb5e7c9d4bd9bb6fe77d27b6e23324ce4a"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_complete.json",
+    "bytes": 328,
+    "sha256": "6d3320246a507a1d12e52070f465be945633fc73a9d9056209a942459a0c7aeb"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_13_country_omissions.csv",
+    "bytes": 600,
+    "sha256": "5f3705ce35389d1094afc09f1557187c6cdffff4956b296933172a28f5c14dc0"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/development_regions.csv",
+    "bytes": 1102,
+    "sha256": "1c0a48fd133acb62ce3ca2bcb60b16fabce7ad339fd9ded51977f0048befdb8b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_2_country_omissions.csv",
+    "bytes": 622,
+    "sha256": "e4045a36db8123d3ebb284947418ababadd7f4da3db210cfc2726c472cbe038b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_overlaps.csv",
+    "bytes": 270693,
+    "sha256": "085c38d5dd32f771e14d0ca08a03ce3853317348ac5e4246ca9f7829ea222ca1"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/shortlisted_profile_review.csv",
+    "bytes": 44965,
+    "sha256": "a8638a241014d8640fbd732808e82efc91d9f1ce9623257ce8ed50a9e6e1997c"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/supported_local_semantic_correspondence.csv",
+    "bytes": 11435,
+    "sha256": "76ff94c29d97e0a9a36c46ea23add0b978a8391371f724de0fcf0b6fba6369df"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_4_country_omissions.csv",
+    "bytes": 156,
+    "sha256": "0e680d1f559f66ce95020968bb6ccbf80e0ba054647837fbdf89523e2624f682"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_15_country_omissions.csv",
+    "bytes": 95,
+    "sha256": "c295b4c5fc3d95655beb6be76a291dd45e71fa7617451124c555c7fb6d8744bb"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/cluster_recovery_summary.csv",
+    "bytes": 34314,
+    "sha256": "5d198f082911ccab382ec28e69c69a01b04a36e34176a5ea0dd32253cc39a83f"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_pairwise_ari.csv",
+    "bytes": 5299425,
+    "sha256": "94621e943e005206718d79a0c9e79e5a0ca13c9218434e129e93e49b7ba11671"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/supported_local_resolutions.csv",
+    "bytes": 15399,
+    "sha256": "daef0c037cb2105e3129bee8ed0a3c58c0f6ac7f793e1eb0cda1871716d84877"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/matched_regional_semantic_correspondence.csv",
+    "bytes": 9898,
+    "sha256": "3eeb735ceb52da0c8def71bbd1f23a8b7c9b5d0181536b07c3b3d2c37a86d5f5"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_6_country_omissions.csv",
+    "bytes": 94,
+    "sha256": "95ffd93e1f085208588df9022fa55e396691e272ff98240d15a1441cf110ceab"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_9_country_omissions.csv",
+    "bytes": 326,
+    "sha256": "caabcd17050b12a62294503fd97f0ecc988dcc8f48faa6f3684989e18f860839"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_10_country_omissions.csv",
+    "bytes": 294,
+    "sha256": "3c563084e09fe5907270323180adb9ccffe0836412fc958bb5da03ad2bbfe3cf"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_stability_summary.csv",
+    "bytes": 21879,
+    "sha256": "766786170d52b6b3d873b3415496ce1ca7ac83c4832c3f4e513165459d3886ab"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_1_country_omissions.csv",
+    "bytes": 436,
+    "sha256": "e9201e57c071ec207734675cc6b8c80c0784eee009ca0f8cf331f2e21a50a905"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/fixed_global_original_profiles_by_region.csv",
+    "bytes": 633032,
+    "sha256": "610392224d70957ef4e9e5124e0d4d1eb46ad321ddf4de455cc41e564fbf6df2"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/T5_fixed_profiles_by_split_and_region.csv",
+    "bytes": 13731,
+    "sha256": "1688350c90113021a4337f8f0d7b87c633cae02a38cfc15c7a8c6be5be3cc84f"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/protocol.json",
+    "bytes": 3033,
+    "sha256": "119699def8850fae4d897ad8e999042db780c19935b6a94083efecfb29f1b537"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_12_country_omissions.csv",
+    "bytes": 370,
+    "sha256": "d34d5cd5755f22275ec8b2610a77b1bfbb0ca6147943209b38836eccfbf5ab5b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_3_country_omissions.csv",
+    "bytes": 188,
+    "sha256": "ac02fa348064cf5adc33b3215f0c01d04eec158c3a59fbff8666d33611b12fce"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/fixed_global_profile_prevalence.csv",
+    "bytes": 60432,
+    "sha256": "4a0bf566275e8ae3e0e0da0a4022a1082e448d40f50dc33344bd7a8e610ba79b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/verification.json",
+    "bytes": 731,
+    "sha256": "a576066f64f1dc15e1d22c39bc9223f581fb0af51ab3f5146f4b44a6bdf817f9"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_5_country_omissions.csv",
+    "bytes": 623,
+    "sha256": "b41522fbffbcaa059595808282a55023a7209807ed5173adf10546049efe3a9d"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/all_local_resolution_diagnostics.csv",
+    "bytes": 21751,
+    "sha256": "586be9db82ee26af35b7f23022d61c07840143c337845eec946e8e4f02d55ba9"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_14_country_omissions.csv",
+    "bytes": 489,
+    "sha256": "c58978548c12dd41b03543f3001ccb4f3a3b096592edb547bda3052ea503c9a1"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_reference_summary.csv",
+    "bytes": 23645,
+    "sha256": "4e7b9d650a4a018247af82aa8353d299562abf83c4b227eecc2c936a7f9f95d3"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/fixed_global_regional_semantic_differences.csv",
+    "bytes": 10696,
+    "sha256": "c5840a5f7e64a2b708c541d16db7c3d312a62d9704110ec3e0b424d1aeefbcf0"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/regional_stability_shortlist.csv",
+    "bytes": 463,
+    "sha256": "85e185589a327ee6d74c07c34a21a973c961edb4534153c0f9b555fed74ab2b6"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/additional_local_shortlist.csv",
+    "bytes": 10757,
+    "sha256": "24abbbd23aff14bfbb65f06f1b0dfd6551cc5e127f7a1738d16ec1fbcfdfc093"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/region_7_country_omissions.csv",
+    "bytes": 248,
+    "sha256": "c74edd5c225765a616935e60960e32cebc3058f981f5d4d5d7c3452b643c8dd7"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/completion.json",
+    "bytes": 9100,
+    "sha256": "c7d75f3b400f7e374d35ac1a4cb870c1fa312d8b7ffc45e3b6af99fe15729660"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/figures/T5_region_prevalence.png",
+    "bytes": 85143,
+    "sha256": "67e9b73b1f7799d6cbb364eef451411095d539987aeaecff97aa95d04942b1a6"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/figures/T5_local_resolution_stability.png",
+    "bytes": 202367,
+    "sha256": "28b4e44e69aca0c638029d5bff34a96c92dbbf0bb494ce5859f165b0a00d7fe7"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/profile_burden_and_heterogeneity.csv",
+    "bytes": 2102,
+    "sha256": "f24d18f370c7298d1694a4202e431aeab0f219b40d7d9ef0d949ef1d5b3a98a2"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/self_all_countries_post_validation_median_relative_matrix.csv",
+    "bytes": 378293,
+    "sha256": "f01d98f04af844415566567c630afdee91edb7a78e2fde15331183b6cfcc1d9d"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_profile_vectors.csv",
+    "bytes": 68050,
+    "sha256": "4d95a3b940d3042013a284b1b30364c0d9c9af88df3302003177c623de8d5cd4"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_development_hellinger_matrix.csv",
+    "bytes": 249421,
+    "sha256": "3bfb8335e2f74c63e7df53265a3dd754480c67fc2dd557873c6b8bebd5a766fe"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/same_burden_profile_composition.csv",
+    "bytes": 62279,
+    "sha256": "4b3936575515ff263273e7b1b20ebcf371c60ce1a3b7e4d3095eb61338952fe6"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_profiles_all_countries_post_validation_raw_matrix.csv",
+    "bytes": 379933,
+    "sha256": "6d0470707f621295344e7259035e613ce08786ad2056fece0460e1ef814265f5"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/all_country_neighbour_rankings.csv",
+    "bytes": 13148657,
+    "sha256": "e4ad65d7b56a3c0c676a622025cd8e6925f84045d60ee91adf41bc9a7d2f8306"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/self_all_countries_post_validation_raw_matrix.csv",
+    "bytes": 379891,
+    "sha256": "2b51e7aa0f914fc4c4a0df89f6df72b58a77d5f3cd748783c54516ba0316d05b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/conditional_nearest_neighbour_bootstrap.csv",
+    "bytes": 41341,
+    "sha256": "09f8c08cc169a6283a54beab4430ad632ed5f925841ad06dd87e337744929dc3"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/illustrative_country_groups.csv",
+    "bytes": 30787,
+    "sha256": "06f1e9bc433e624f1918972510724009fef3345f6fcfbc2847ee8aa14c668d95"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_geography_summary.csv",
+    "bytes": 745,
+    "sha256": "49f5100d0cb14b9a874845c200d7964cd27eb52c40411af4ecd5df979adffb67"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/self_development_raw_matrix.csv",
+    "bytes": 240449,
+    "sha256": "0b60f6866a1609fae00f5ca987c972249b4466c8a1a2acb578fed885300777ba"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/burden_only_information_loss.csv",
+    "bytes": 472,
+    "sha256": "7f8b93c280fcaaddb2559df993e78edd0bd20c04c6b0177382c04663667b1995"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_completion.json",
+    "bytes": 7934,
+    "sha256": "d5a47d57b9440ee254bb925840ae8f677a0889118f941217fca6948be1cd5260"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/worry_development_raw_matrix.csv",
+    "bytes": 240473,
+    "sha256": "2e5abbb847143e4e5ec18b9cc2bbaaa5738cb8223c6cff59912566fcce622ee5"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/income_country_label_permutations.csv",
+    "bytes": 1266,
+    "sha256": "cef978384015ed6efdc0a6302f5b71180c6a4b84dcaf267ccb48348ed7cd7e16"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/known_all_countries_post_validation_raw_matrix.csv",
+    "bytes": 379987,
+    "sha256": "5380dcc455eaa7e4cc17089fefde12bffca42723479376c562c493a1e774a295"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_group_profile_meanings.csv",
+    "bytes": 1087,
+    "sha256": "d2cd3fc772b7793928a63c25ca66594e340f8e23b713dbaf961006f7188e94e5"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_responses_development_raw_matrix.csv",
+    "bytes": 250851,
+    "sha256": "3fd99a1220fb4286feca72d238275cb7bf20531bee0d477ce32f5f25eef1386d"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/known_development_median_relative_matrix.csv",
+    "bytes": 239751,
+    "sha256": "84edcd7e935ccbba5b7240a62dbb8aa868196197676c4ff9b442ed48887baf6b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_distance_from_FIN_regions.png",
+    "bytes": 236302,
+    "sha256": "e23e44f4d66ae1ce0366b8042f2e2e0432f654cdd71f49f143670b1449bc8f24"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/conditional_country_group_bootstrap.csv",
+    "bytes": 19648,
+    "sha256": "93ef080e7eeebc689358757672f01b5e986c7362273ed0e28b31d5370363981f"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_all_countries_post_validation_hellinger_matrix.csv",
+    "bytes": 394283,
+    "sha256": "f9c6d6b03fcff127c0cc14b4ebf43019971859b4a244ad38726f01fb70b46fb9"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/worry_all_countries_post_validation_raw_matrix.csv",
+    "bytes": 380009,
+    "sha256": "8eda2cdd5bd28fd91d0b78f30a4c9639e66d20205e85eb5e3b3d466efd64c2eb"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_responses_all_countries_post_validation_raw_matrix.csv",
+    "bytes": 396289,
+    "sha256": "1e76a61ca8e41ca620d838cbcae5857f34b8c0f1958cb2ae6acb192e4c88ffdf"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_responses_development_median_relative_matrix.csv",
+    "bytes": 239645,
+    "sha256": "98849e9bb959cb7cb0f152097b7e5683aa8fa0463bd840d72f15567e80c8d42b"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_profiles_development_median_relative_matrix.csv",
+    "bytes": 240015,
+    "sha256": "923546d2424824d2a91a4b4e431f2f3bca52465b52edec929ad6fa3d4c7af8ce"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/profile_burden_distributions.csv",
+    "bytes": 18332,
+    "sha256": "0245507461d62de36c1e362dcdcace7229f2e66999973f0c98c39cd76f98d0b9"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_profiles_all_countries_post_validation_median_relative_matrix.csv",
+    "bytes": 379381,
+    "sha256": "272cd93962a0ed558abb885d66b26b002b003ce8540541cd939948cb902d46e8"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/income_distance_summary.csv",
+    "bytes": 801,
+    "sha256": "17cd7b99a64cb9f075bebaf4509cbd2c4abfc6773201389fe3ee2e4eabf49727"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_profiles_development_raw_matrix.csv",
+    "bytes": 240451,
+    "sha256": "347350fe3a1d7708cf0c193a126272c15503c3f888cc8c8a2d5264172cbd3a2e"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/worry_development_median_relative_matrix.csv",
+    "bytes": 239649,
+    "sha256": "cb0965adc5a6ed5c41a2451838e83187da4d362573e6c3ef8b27f18f776d4344"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_all_countries_post_validation_average_linkage.csv",
+    "bytes": 5036,
+    "sha256": "94d44cbcaee6b4b7db9535b45022fb4f205fe8032bbac19b20647608d24ba7cb"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/known_development_raw_matrix.csv",
+    "bytes": 240475,
+    "sha256": "9ce31a5160795cd8de13dd04aabfb1cf6eb1ebe69bc15c38e9bb903be0015d31"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_development_average_linkage.csv",
+    "bytes": 3978,
+    "sha256": "a5fbc3683ea8c16cc200a6675801c5ee6a37652d8d2210c99249a46bfdc0db61"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/nearest_country_neighbours.csv",
+    "bytes": 197296,
+    "sha256": "f0758e26c0774d2fda0b0bd1a65af76387a579609f2c8c8f0e508bb7265930c5"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/known_all_countries_post_validation_median_relative_matrix.csv",
+    "bytes": 378893,
+    "sha256": "1bb8591a161fde79f75b4bba9393fcdb8b1c052571b8a78f1955bd64db77f62e"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_pair_distances.csv",
+    "bytes": 1271875,
+    "sha256": "04dd082629a0495566141c73a0683b3f523993e4a007374495ff2320bd6cecf3"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/self_development_median_relative_matrix.csv",
+    "bytes": 239635,
+    "sha256": "f8bff326efe5d93c3c61933ee60eb9c5603465b90a587af41c8d4e65b5319982"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_responses_all_countries_post_validation_median_relative_matrix.csv",
+    "bytes": 378665,
+    "sha256": "8030424235c5c2b2fbf4847cfc832b6c0af776c75ab1b7bf7b906623c3b21e59"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_colour_coordinates.csv",
+    "bytes": 6473,
+    "sha256": "3dc8539db098d9d06d354345ca2595272fdf01011594281cf8b9768707ca1640"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_distance_from_USA_regions.png",
+    "bytes": 235444,
+    "sha256": "b3c421cf68c2f86230886f607bb3e9341f6379e520133b586c0fb3f280d93da1"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/worry_all_countries_post_validation_median_relative_matrix.csv",
+    "bytes": 378587,
+    "sha256": "3848ea05d0e40fa7b38b91ff2ca2703a1bd71255c59983e4202a258db3893c36"
+  },
+  {
+    "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/country_tree_cut_diagnostics.csv",
+    "bytes": 2345,
+    "sha256": "065d2277aa912579a044a60e1a98e669232d83f486a7706c40d63065b6681363"
+  },
+  {
     "path": "course_artifacts/week04_experiment1_encoding_profiles_v2/profile_descriptions_all_candidates.csv",
     "bytes": 149724,
     "sha256": "8fc830d01c23658152430f5988fc45df6fc1b5fe765b4ad9f41bb4fdda12f052"
@@ -1968,6 +2428,266 @@
     "path": "course_artifacts/week04_experiment1_encoding_profiles_v2/profiles/012_worry_emphasized_k2.png",
     "bytes": 86436,
     "sha256": "2ca2135a61d56e7f81d7f748b672e7d6aa26ef6d93337f1f417181a192d185d3"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/supervised_freeze_seal.json",
+    "bytes": 2723,
+    "sha256": "c678571e47b8f84dc635664171a5b5bd01a235535b5b1ad46ff1dbda95abf123"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/fit_warnings_and_times.csv",
+    "bytes": 3476,
+    "sha256": "1c9077f831e9eee4d747c8a1c4294f3c5bd6872fc13b60d9a48829f1dee2d836"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_fold1.json",
+    "bytes": 369,
+    "sha256": "e25d424a7f8ed58f5cd6b6236667c2dc888a66ee494ef878e3338c2303d63687"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_fold4.json",
+    "bytes": 363,
+    "sha256": "1e1c66b51867bf3906b5c54b7a424f6446f5b5cb70497a75f31ba6ad5406dec1"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_heldout_confusion_joint.csv",
+    "bytes": 591,
+    "sha256": "1eeae41afadcae3bef1f5233e7f151354154934dea03ddf5b2c5a38873902afa"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_first_access.json",
+    "bytes": 292,
+    "sha256": "26643b9a1d5a371ed8c25772d25720d95f9518d4a5c139081114385482502e82"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_predictor_missingness.csv",
+    "bytes": 1203,
+    "sha256": "54ba4abf684fd3180f12e6343ecf79c64eb50c8603b60569e7354cea61c44748"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_block_permutation.csv",
+    "bytes": 10052,
+    "sha256": "e06eaecffceebd0d54102881e19d639c513aa402ba48fbca95f27d3d0c729ebc"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_development_oof_confusion_joint.csv",
+    "bytes": 252,
+    "sha256": "0b3cbd41d3dece4a4da672cc382f0f4d684cd16afdc33359080b1a3a63abe678"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_fold5.json",
+    "bytes": 363,
+    "sha256": "681af1f2eaf379cc7bef41c8f78af1b40b1b2eeabb4bd6fdb0e8389806e51260"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_final_development.json",
+    "bytes": 366,
+    "sha256": "0ffd640479000378b1ceebdbc6a6cdb89f994d086b8044e0832c10f06495a1a1"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_fold2.json",
+    "bytes": 363,
+    "sha256": "5e5d247ca68d254790d81a7df9359fa3d460f086f04cf595c8f854e26749d02f"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_fold1.json",
+    "bytes": 365,
+    "sha256": "7ce4a818e8455795f859319f522e84a0afc5274036be77817e09b2453a5be914"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_per_profile_scores.csv",
+    "bytes": 1884,
+    "sha256": "5dcc1c04c562fcc7b817adb7145ef9ac65cd803ff3ae948eb6ea4f84e3295675"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_country_folds.csv",
+    "bytes": 707,
+    "sha256": "357622f271a21b3506b38d60f150a8485a82492005d26631ef729d01a827cdc4"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_fold_scores.csv",
+    "bytes": 1518,
+    "sha256": "47f3f68385c4336cbdcaa314b1775876594a9b5604fd3bb8e74d8bed772b7cee"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_per_profile_scores.csv",
+    "bytes": 1077,
+    "sha256": "deb98dc5b984cfcc9651577865df722e9cbda4150a2d18b0d56bd9409e9f1d71"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_pooled_oof_scores.csv",
+    "bytes": 323,
+    "sha256": "bcebeb19237d9f0474fd16f470008e32541651d831ac1b6cf5e4bec8add2cf1d"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_predictor_missingness.csv",
+    "bytes": 1284,
+    "sha256": "cec544597937f79370bf24744569e1a7448822a413ebbbde1d5de990ac48bc4e"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_fold3.json",
+    "bytes": 363,
+    "sha256": "74707d81d8eb8186529d0a52664447504a9dfd16d3c3580371852fcb3b5ecaa3"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_target_eligibility.csv",
+    "bytes": 254,
+    "sha256": "cd739ddf78947d2e55937489431dca8a45fc9b5b6491bfffc3417ae8aa8462b5"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_fold3.json",
+    "bytes": 367,
+    "sha256": "409437ea3e0ceb40cf0ebccb2b5ea74a09dcb83fe1e6ac72eaecf8f6cc3f935f"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_heldout_confusion_joint.csv",
+    "bytes": 248,
+    "sha256": "024f4a738b142295c1f2cd91d6bef59891094e7822b28d7626ccb91132262864"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_fold5.json",
+    "bytes": 369,
+    "sha256": "2194417cd151a6be99c7b0c8e7cb85019c0789790e882d126ae0e28ae2ce2310"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_development_oof_confusion_joint.csv",
+    "bytes": 589,
+    "sha256": "055d3134cee499a675de9386e79e416f9a16b83477d8955160a86d6314074e17"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_block_permutation_summary.csv",
+    "bytes": 413,
+    "sha256": "1aa64499125d5bf1a1aa9f1de381703088d05408516f0d056419e048661d6373"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_development_oof_confusion_recall.csv",
+    "bytes": 574,
+    "sha256": "d3eb09d280acc3ffd18dc12677bb0013956720b5f7e36c83b8732e82fc95b4e1"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/predictor_manifest.csv",
+    "bytes": 4174,
+    "sha256": "7ac05330ebfa52babf77cf4c16304d2530825cfff616f90c120f033e447371d7"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_target_eligibility.csv",
+    "bytes": 216,
+    "sha256": "22181a597b2a42d47fc2688a1f24824f989dc9e01e96cee189a547b52fcca694"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_country_scores.csv",
+    "bytes": 3194,
+    "sha256": "0bc28d465239747b86f93f011de67c7cb19d70669ddb886e1cf6561022143105"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_fold4.json",
+    "bytes": 369,
+    "sha256": "bf2e0a60a340a750b22aede897c638e53714ba9a2e1e4050c50229ca8fb563bc"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/context.json",
+    "bytes": 3599,
+    "sha256": "c642ab8ff7fa6800ea99aedfcb0c8a9b2ec092409d7716d9667980f2bba91a44"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_fold1.json",
+    "bytes": 362,
+    "sha256": "5b50b79f1d79b42ca4fde7cf4d3ad944e04041c808291bf9b346967ae60a46b2"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_fold2.json",
+    "bytes": 367,
+    "sha256": "a2804cd4de05e3c8cc723a04ad5a425ee6984ddbce5c3f42df4c070ae58bf4d6"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/development_cv_summary.csv",
+    "bytes": 633,
+    "sha256": "9c6809c4b640208081f258c180ae1be1ee4931dbaf48192717ca5e75a8be1bd9"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/verification.json",
+    "bytes": 769,
+    "sha256": "124f805b7e2004d7c66ea5231968b55e930c7b351a889da7e4423d7b105878ae"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_fold3.json",
+    "bytes": 366,
+    "sha256": "d8e97811f6dba2d9ce75458cb5eff6aa80392dc24db76799bba09011b21a54ad"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_scores.csv",
+    "bytes": 245,
+    "sha256": "4ca1af271ec330c084e9eb39dbe3d0e6b1978764b73cfb48846388bb84565f0b"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_development_oof_confusion_recall.csv",
+    "bytes": 173,
+    "sha256": "432d6e865af0d38d88f5bd65d181f9198af4fe5fc663f2627a9d6151f8854887"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_country_bootstrap_intervals.csv",
+    "bytes": 583,
+    "sha256": "13d6ef8b5b896e7ada8ae240f54d7bb08610a3f1184c3edc4215403697fe1d7b"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_development_oof_confusion_joint.csv",
+    "bytes": 595,
+    "sha256": "3b295d8db84f61c94e09f02263ba014cf2f0864b83644359b9fa7af1211a3a3d"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_fold5.json",
+    "bytes": 367,
+    "sha256": "f9bc8e7244ef82f53d49a7e1c0991b9f2a1261705c4473fe57ffc356e6b8afd8"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_heldout_confusion_recall.csv",
+    "bytes": 173,
+    "sha256": "432d6e865af0d38d88f5bd65d181f9198af4fe5fc663f2627a9d6151f8854887"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_majority_fold4.json",
+    "bytes": 367,
+    "sha256": "cd8f7c55d98c72a987deeec97d5cf6548987e0301fa1d1a353127573bc015853"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_development_oof_confusion_recall.csv",
+    "bytes": 580,
+    "sha256": "be5582fa31a2ca2129d04fcc7b04605bcb58b8db25dc596123c523e9c48b5c0f"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/heldout_complete.json",
+    "bytes": 357,
+    "sha256": "e3321a42a8b9349032c2aa984aed542511feb47d60877e43ea515a9bf421723a"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_final_development.json",
+    "bytes": 364,
+    "sha256": "e701687b29c070b864ac6ccca36fe423cf8f058c71847a118a0a51d5d3d7f887"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_logistic_heldout_confusion_recall.csv",
+    "bytes": 568,
+    "sha256": "d75998eb3fe197290c21f37616a8600b0a5c554e5f2c26a9740ea76b891f23fd"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/T5_random_forest_fold2.json",
+    "bytes": 369,
+    "sha256": "19ed1d44e96f5be44a566b82958b2ce6f6c93549147f51891bea0f7c5ae32d64"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/figures/development_predictor_block_importance.png",
+    "bytes": 37492,
+    "sha256": "bd3c9815e419d2501c0a6cc83e92a51b09b192b2f3699c5928faf50a7698331f"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/figures/T5_heldout_confusion.png",
+    "bytes": 74331,
+    "sha256": "efc6c4b6ad2844caa5eb8efa5844193ee7d4c7faad611be06cab0afe7b54aa2a"
+  },
+  {
+    "path": "course_artifacts/week06_objective2_T5_prediction/c154072347caff55/figures/development_classifier_comparison.png",
+    "bytes": 52538,
+    "sha256": "cb24ef18c921ffaf028467e38ee3bedf2d4aa8560c73fb463ca65e1167f88141"
   },
   {
     "path": "course_artifacts/week04_kmeans_adaptive_optimization/current_run.json",
@@ -6260,6 +6980,11 @@
     "sha256": "869b276adcfd3895755b0b9731c46cf065f9fa4ec7fdb994d3877ef24d684429"
   },
   {
+    "path": ".week05_build/complete_T5_countries.py",
+    "bytes": 8134,
+    "sha256": "33caf21a3f4f505c768341bbd6885be40adcb031ad7935adb8c73d9714280e26"
+  },
+  {
     "path": ".week05_build/analyze_country_income_similarity.py",
     "bytes": 14352,
     "sha256": "fb493f5672b784383bd8517ef15a1b795b0d13f4c55093f59cf7be7b814dc5d0"
@@ -6375,6 +7100,11 @@
     "sha256": "21d6672bbed5b2e14e88ef68abefbd75d3223436a2a5580182acdbe8d043f16b"
   },
   {
+    "path": ".week05_build/review_T5_completion.py",
+    "bytes": 18904,
+    "sha256": "2a92ff2c7e5c1f2e9512a071e679f287d4c3c7c64b767625bb775a6e682a3f6d"
+  },
+  {
     "path": ".week05_build/country-income-map-template.html",
     "bytes": 17884,
     "sha256": "4f795b67c0c00b68efd626377a22ac4d24aa3b95340f3e6eb31928cbc601b2f8"
@@ -6413,6 +7143,11 @@
     "path": ".week05_build/local_resolution_documentation.py",
     "bytes": 12876,
     "sha256": "981e1b60bd436266431f6400988112a6cd81f2cca4e2d4674bb9f123c38f3e4a"
+  },
+  {
+    "path": ".week05_build/T5_country_tools.py",
+    "bytes": 17218,
+    "sha256": "a5a240157612a425f115ba0c05277cd12310e933358b339b034214a2c896d435"
   },
   {
     "path": ".week05_build/build_country_map_data.mjs",
@@ -6458,6 +7193,16 @@
     "path": ".week05_build/build_week05.py",
     "bytes": 32376,
     "sha256": "3478141fbc1af8d12e0856f236777262df4319a5f2edee9891a16a3383ab4af5"
+  },
+  {
+    "path": ".week05_build/complete_T5_regions.py",
+    "bytes": 4435,
+    "sha256": "30ed2930e57e4c9992e6d5f271a928678a7eec27fec90f69171b763c5c01a2aa"
+  },
+  {
+    "path": ".week05_build/finalize_T5_completion.py",
+    "bytes": 18444,
+    "sha256": "588052629ceeb68652da4f8265392de5e5cb1bbdafb7f568193a85f50d66bc10"
   },
   {
     "path": ".week05_build/run_points12.py",
