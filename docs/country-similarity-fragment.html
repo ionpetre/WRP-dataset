@@ -172,8 +172,8 @@ try {
    while(multiplier>0.01 && embedding.coordinates.some(p=>{const c=labColor(...p).rgb();return c.r<3||c.r>252||c.g<3||c.g>252||c.b<3||c.b>252;}))multiplier*=.95;
    const stats=responseTools.statistics(basis,model,component),originalDistances=stats.matrix[selected.index];
    const scale=responseTools.scale(basis,component),prefix=responseTools.method(basis);
-   const distancePalette=d3.quantize(d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]),7);
-   const distanceColour=d3.scaleQuantize().domain([0,2]).range(distancePalette);
+   const distancePalette=d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]);
+   const distanceColour=d3.scaleSequential(distancePalette).domain([0,2]).clamp(true);
    const colors=mode==='overview'?embedding.coordinates.map(p=>labColor(...p).formatHex()):originalDistances.map(d=>distanceColour(scale.normalize(d)));
    const svg=d3.select(document.getElementById('wrp-sim-'+model));
    const width=svg.node().getBoundingClientRect().width;if(width<1)continue;
@@ -214,11 +214,14 @@ try {
     const parts=document.createElement('div');parts.textContent=responseTools.componentText(selected.index,peerIndex);li.appendChild(parts);
    }
    const key=d3.select(document.getElementById('wrp-sim-key-'+model));key.selectAll('*').remove();key.attr('viewBox',`0 0 ${width} 90`);
+   if(mode!=='distance')key.attr('data-distance-min',null).attr('data-distance-max',null).attr('data-reference-median',null).attr('data-colour-scale',null);
    if(mode==='distance'){
-    key.attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian);
-    key.append('title').text(`${prefix}; fixed colour scale from zero to two or more. Reference median uses all 142 countries. Numerical labels are not capped.`);
-    const palette=distancePalette;
-    key.selectAll('rect').data(palette).join('rect').attr('x',(_,i)=>16+i*(width-32)/palette.length).attr('y',18).attr('width',(width-32)/palette.length+.1).attr('height',14).attr('fill',v=>v);
+    key.attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian).attr('data-colour-scale','continuous').attr('aria-label',`${prefix}; continuous colour scale from zero to two or more`);
+    key.append('title').text(`${prefix}; continuous, fixed colour scale from zero to two or more. Reference calibration is unchanged. Numerical labels are not capped.`);
+    const gradientId='wrp-sim-distance-gradient-'+model;
+    const gradient=key.append('defs').append('linearGradient').attr('id',gradientId).attr('x1','0%').attr('x2','100%').attr('y1','0%').attr('y2','0%');
+    gradient.selectAll('stop').data(d3.range(65).map(i=>i/64)).join('stop').attr('offset',t=>100*t+'%').attr('stop-color',t=>distancePalette(t));
+    key.append('rect').attr('x',16).attr('y',18).attr('width',width-32).attr('height',14).attr('fill',`url(#${gradientId})`);
     key.append('text').attr('x',16).attr('y',52).text('0 · closer');
     key.append('text').attr('x',width/2).attr('y',52).attr('text-anchor','middle').text('1 · reference');
     key.append('text').attr('x',width-16).attr('y',52).attr('text-anchor','end').text('2 or more');

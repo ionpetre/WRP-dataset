@@ -27,7 +27,7 @@
   {
     "path": "publication_manifest.json",
     "bytes": 148790,
-    "sha256": "ca079a548f85badbd00bf3f447d661ecd325f4ed03bf017cec202c865753c29a"
+    "sha256": "795f478ec2ffdc974086296c7cd7d8f8c47bd214b39b0cce2a129538f8ab05a4"
   },
   {
     "path": ".gitignore",
@@ -37,7 +37,7 @@
   {
     "path": "publication_audit.json",
     "bytes": 652,
-    "sha256": "68bf27e26ad3822f16064abdd56ba45457d9dfb7196aedd0342093bbd3ad067f"
+    "sha256": "250ec502cb77d8776165411a33313e8df01e35e78104b63cfc284b4b0936cea3"
   },
   {
     "path": "research/DATA_AND_ATTRIBUTION.md",
@@ -51,8 +51,8 @@
   },
   {
     "path": "research/METHODS.md",
-    "bytes": 9378,
-    "sha256": "69d9d4f8d05c80ad1fe5f8867f191092a97f1f5a5134f77751c180872eb7f741"
+    "bytes": 9690,
+    "sha256": "a368d02fd7975326640ec50d55ec870ac04569b49f2abaa5aa4b31511d4bb41d"
   },
   {
     "path": "research/RESULTS.md",
@@ -126,8 +126,8 @@
   },
   {
     "path": "docs/country-similarity-fragment.html",
-    "bytes": 1062074,
-    "sha256": "6c7d271fae2a4df7484836d8cfc883b3fafd9a225bf6c057dd7f1553f0f72920"
+    "bytes": 1062601,
+    "sha256": "f62da1cdf40b94ee078a9ec67a3ce8e11f4840217c19624ec5280c128e70e86d"
   },
   {
     "path": "docs/response-profiles-fragment.html",
@@ -136,18 +136,18 @@
   },
   {
     "path": "docs/README.md",
-    "bytes": 3785,
-    "sha256": "3edf0ad70f3fc63093be72ac2b445bc79b5773f570af055e51c5198325ebde3b"
+    "bytes": 3978,
+    "sha256": "beab8a1504612b5cc0e1bffa693481bdc19d39e97ca281a4dbb5b4c6286915dd"
   },
   {
     "path": "docs/country-income-fragment.html",
-    "bytes": 1063101,
-    "sha256": "3f59ad92ca54c5f35bb7f1621a01f6edfe8cfb9f6a9e768ec77f7cbc79323f8d"
+    "bytes": 1063394,
+    "sha256": "65c56186c7cdb06af27e4f03821efe08c32c71bade87405abdf141bd9d82d0ea"
   },
   {
     "path": "docs/countries.html",
-    "bytes": 1214057,
-    "sha256": "963a581a22643f731ab58eb4181e82c5df294c1fef3fffa758b82808b28245da"
+    "bytes": 1214827,
+    "sha256": "0bb66458cbf4f33d66654de5801e0c45c626f70b2809ec0eb0708967eebe7204"
   },
   {
     "path": "docs/.nojekyll",
@@ -156,8 +156,8 @@
   },
   {
     "path": "docs/country-income.html",
-    "bytes": 1220111,
-    "sha256": "7b2c648da472774a49913b498e0c8c2b93515a5e823945b0713c951688fcccd4"
+    "bytes": 1220587,
+    "sha256": "4c7591db913d7ad78742a1a76616066d08a1221dfa25c4656c8bb9eaf370387c"
   },
   {
     "path": "docs/vendor/d3.min.js",

@@ -1983,8 +1983,8 @@ try {
    while(multiplier&gt;0.01 &amp;&amp; embedding.coordinates.some(p=&gt;{const c=labColor(...p).rgb();return c.r&lt;3||c.r&gt;252||c.g&lt;3||c.g&gt;252||c.b&lt;3||c.b&gt;252;}))multiplier*=.95;
    const stats=responseTools.statistics(basis,model,component),originalDistances=stats.matrix[selected.index];
    const scale=responseTools.scale(basis,component),prefix=responseTools.method(basis);
-   const distancePalette=d3.quantize(d3.piecewise(d3.interpolateLab,[token(&#x27;--blue&#x27;),token(&#x27;--green&#x27;),token(&#x27;--yellow&#x27;),token(&#x27;--orange&#x27;)]),7);
-   const distanceColour=d3.scaleQuantize().domain([0,2]).range(distancePalette);
+   const distancePalette=d3.piecewise(d3.interpolateLab,[token(&#x27;--blue&#x27;),token(&#x27;--green&#x27;),token(&#x27;--yellow&#x27;),token(&#x27;--orange&#x27;)]);
+   const distanceColour=d3.scaleSequential(distancePalette).domain([0,2]).clamp(true);
    const colors=mode===&#x27;overview&#x27;?embedding.coordinates.map(p=&gt;labColor(...p).formatHex()):originalDistances.map(d=&gt;distanceColour(scale.normalize(d)));
    const svg=d3.select(document.getElementById(&#x27;wrp-sim-&#x27;+model));
    const width=svg.node().getBoundingClientRect().width;if(width&lt;1)continue;
@@ -2025,11 +2025,14 @@ try {
     const parts=document.createElement(&#x27;div&#x27;);parts.textContent=responseTools.componentText(selected.index,peerIndex);li.appendChild(parts);
    }
    const key=d3.select(document.getElementById(&#x27;wrp-sim-key-&#x27;+model));key.selectAll(&#x27;*&#x27;).remove();key.attr(&#x27;viewBox&#x27;,`0 0 ${width} 90`);
+   if(mode!==&#x27;distance&#x27;)key.attr(&#x27;data-distance-min&#x27;,null).attr(&#x27;data-distance-max&#x27;,null).attr(&#x27;data-reference-median&#x27;,null).attr(&#x27;data-colour-scale&#x27;,null);
    if(mode===&#x27;distance&#x27;){
-    key.attr(&#x27;data-distance-min&#x27;,0).attr(&#x27;data-distance-max&#x27;,2).attr(&#x27;data-reference-median&#x27;,scale.referenceMedian);
-    key.append(&#x27;title&#x27;).text(`${prefix}; fixed colour scale from zero to two or more. Reference median uses all 142 countries. Numerical labels are not capped.`);
-    const palette=distancePalette;
-    key.selectAll(&#x27;rect&#x27;).data(palette).join(&#x27;rect&#x27;).attr(&#x27;x&#x27;,(_,i)=&gt;16+i*(width-32)/palette.length).attr(&#x27;y&#x27;,18).attr(&#x27;width&#x27;,(width-32)/palette.length+.1).attr(&#x27;height&#x27;,14).attr(&#x27;fill&#x27;,v=&gt;v);
+    key.attr(&#x27;data-distance-min&#x27;,0).attr(&#x27;data-distance-max&#x27;,2).attr(&#x27;data-reference-median&#x27;,scale.referenceMedian).attr(&#x27;data-colour-scale&#x27;,&#x27;continuous&#x27;).attr(&#x27;aria-label&#x27;,`${prefix}; continuous colour scale from zero to two or more`);
+    key.append(&#x27;title&#x27;).text(`${prefix}; continuous, fixed colour scale from zero to two or more. Reference calibration is unchanged. Numerical labels are not capped.`);
+    const gradientId=&#x27;wrp-sim-distance-gradient-&#x27;+model;
+    const gradient=key.append(&#x27;defs&#x27;).append(&#x27;linearGradient&#x27;).attr(&#x27;id&#x27;,gradientId).attr(&#x27;x1&#x27;,&#x27;0%&#x27;).attr(&#x27;x2&#x27;,&#x27;100%&#x27;).attr(&#x27;y1&#x27;,&#x27;0%&#x27;).attr(&#x27;y2&#x27;,&#x27;0%&#x27;);
+    gradient.selectAll(&#x27;stop&#x27;).data(d3.range(65).map(i=&gt;i/64)).join(&#x27;stop&#x27;).attr(&#x27;offset&#x27;,t=&gt;100*t+&#x27;%&#x27;).attr(&#x27;stop-color&#x27;,t=&gt;distancePalette(t));
+    key.append(&#x27;rect&#x27;).attr(&#x27;x&#x27;,16).attr(&#x27;y&#x27;,18).attr(&#x27;width&#x27;,width-32).attr(&#x27;height&#x27;,14).attr(&#x27;fill&#x27;,`url(#${gradientId})`);
     key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,16).attr(&#x27;y&#x27;,52).text(&#x27;0 · closer&#x27;);
     key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,width/2).attr(&#x27;y&#x27;,52).attr(&#x27;text-anchor&#x27;,&#x27;middle&#x27;).text(&#x27;1 · reference&#x27;);
     key.append(&#x27;text&#x27;).attr(&#x27;x&#x27;,width-16).attr(&#x27;y&#x27;,52).attr(&#x27;text-anchor&#x27;,&#x27;end&#x27;).text(&#x27;2 or more&#x27;);

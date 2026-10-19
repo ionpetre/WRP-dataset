@@ -167,8 +167,8 @@ function wrpResponseTools(data){
    hatch.append('rect').attr('width',6).attr('height',6).attr('fill','var(--muted)');
    hatch.append('path').attr('d','M-1,1L1,-1M0,6L6,0M5,7L7,5').attr('stroke','var(--foreground)').attr('stroke-width',.65).attr('opacity',.5);
    const dist=stats?stats.matrix[c.index]:null;
-   const palette=d3.quantize(d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]),7);
-   const distanceColor=d3.scaleQuantize().domain([0,2]).range(palette);
+   const palette=d3.piecewise(d3.interpolateLab,[token('--blue'),token('--green'),token('--yellow'),token('--orange')]);
+   const distanceColor=d3.scaleSequential(palette).domain([0,2]).clamp(true);
    const fill=iso=>{
     const peer=byCode.get(iso);if(!peer||!eligible(peer))return 'var(--muted)';
     if(mode==='income')return peer.income===9?'url(#wrp-inc-hatch)':`var(${incomeTokens[peer.income]})`;
@@ -189,9 +189,11 @@ function wrpResponseTools(data){
     }
    }else{
     const text=document.createElement('span');text.textContent=prefix+' · '+responseTools.description(basis,mapModel,component);legend.append(text);
-    const key=d3.select(legend).append('svg').attr('class','inc-key').attr('viewBox','0 0 210 32').attr('role','img').attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian).attr('aria-label',`${prefix}; fixed colour scale from zero to two or more`);
-    const colors=palette;
-    key.selectAll('rect').data(colors).join('rect').attr('x',(_,i)=>4+i*202/colors.length).attr('y',1).attr('width',202/colors.length+.1).attr('height',11).attr('fill',v=>v);
+    const key=d3.select(legend).append('svg').attr('class','inc-key').attr('viewBox','0 0 210 32').attr('role','img').attr('data-distance-min',0).attr('data-distance-max',2).attr('data-reference-median',scale.referenceMedian).attr('data-colour-scale','continuous').attr('aria-label',`${prefix}; continuous colour scale from zero to two or more`);
+    const gradientId='wrp-inc-distance-gradient';
+    const gradient=key.append('defs').append('linearGradient').attr('id',gradientId).attr('x1','0%').attr('x2','100%').attr('y1','0%').attr('y2','0%');
+    gradient.selectAll('stop').data(d3.range(65).map(i=>i/64)).join('stop').attr('offset',t=>100*t+'%').attr('stop-color',t=>palette(t));
+    key.append('rect').attr('x',4).attr('y',1).attr('width',202).attr('height',11).attr('fill',`url(#${gradientId})`);
     key.append('text').attr('x',4).attr('y',29).text('0 · closer');key.append('text').attr('x',105).attr('y',29).attr('text-anchor','middle').text('1 · reference');key.append('text').attr('x',206).attr('y',29).attr('text-anchor','end').text('2 or more');
     const note=document.createElement('span');note.textContent='Fixed scale · comparable across countries';legend.append(note);
    }

@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "date": "2026-10-17",
+  "date": "2026-10-19",
   "primary_and_only_published_model": "T5",
   "historical_alternative_records_published": false,
   "T5_public_assignment_matches_all_27972_heldout_labels": true,

@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "date": "2026-10-17",
+  "date": "2026-10-19",
   "publication_scope": "T5 only",
   "model_context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
   "historical_model_records_included": false,
@@ -72,9 +72,9 @@
     {
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
-      "source_sha256": "69d9d4f8d05c80ad1fe5f8867f191092a97f1f5a5134f77751c180872eb7f741",
-      "publication_sha256": "69d9d4f8d05c80ad1fe5f8867f191092a97f1f5a5134f77751c180872eb7f741",
-      "bytes": 9378,
+      "source_sha256": "a368d02fd7975326640ec50d55ec870ac04569b49f2abaa5aa4b31511d4bb41d",
+      "publication_sha256": "a368d02fd7975326640ec50d55ec870ac04569b49f2abaa5aa4b31511d4bb41d",
+      "bytes": 9690,
       "modified_for_publication": false
     },
     {
@@ -192,9 +192,9 @@
     {
       "path": "docs/country-similarity-fragment.html",
       "source": "publication-source:docs/country-similarity-fragment.html",
-      "source_sha256": "6c7d271fae2a4df7484836d8cfc883b3fafd9a225bf6c057dd7f1553f0f72920",
-      "publication_sha256": "6c7d271fae2a4df7484836d8cfc883b3fafd9a225bf6c057dd7f1553f0f72920",
-      "bytes": 1062074,
+      "source_sha256": "f62da1cdf40b94ee078a9ec67a3ce8e11f4840217c19624ec5280c128e70e86d",
+      "publication_sha256": "f62da1cdf40b94ee078a9ec67a3ce8e11f4840217c19624ec5280c128e70e86d",
+      "bytes": 1062601,
       "modified_for_publication": false
     },
     {
@@ -208,25 +208,25 @@
     {
       "path": "docs/README.md",
       "source": "publication-source:docs/README.md",
-      "source_sha256": "3edf0ad70f3fc63093be72ac2b445bc79b5773f570af055e51c5198325ebde3b",
-      "publication_sha256": "3edf0ad70f3fc63093be72ac2b445bc79b5773f570af055e51c5198325ebde3b",
-      "bytes": 3785,
+      "source_sha256": "beab8a1504612b5cc0e1bffa693481bdc19d39e97ca281a4dbb5b4c6286915dd",
+      "publication_sha256": "beab8a1504612b5cc0e1bffa693481bdc19d39e97ca281a4dbb5b4c6286915dd",
+      "bytes": 3978,
       "modified_for_publication": false
     },
     {
       "path": "docs/country-income-fragment.html",
       "source": "publication-source:docs/country-income-fragment.html",
-      "source_sha256": "3f59ad92ca54c5f35bb7f1621a01f6edfe8cfb9f6a9e768ec77f7cbc79323f8d",
-      "publication_sha256": "3f59ad92ca54c5f35bb7f1621a01f6edfe8cfb9f6a9e768ec77f7cbc79323f8d",
-      "bytes": 1063101,
+      "source_sha256": "65c56186c7cdb06af27e4f03821efe08c32c71bade87405abdf141bd9d82d0ea",
+      "publication_sha256": "65c56186c7cdb06af27e4f03821efe08c32c71bade87405abdf141bd9d82d0ea",
+      "bytes": 1063394,
       "modified_for_publication": false
     },
     {
       "path": "docs/countries.html",
       "source": "publication-source:docs/countries.html",
-      "source_sha256": "963a581a22643f731ab58eb4181e82c5df294c1fef3fffa758b82808b28245da",
-      "publication_sha256": "963a581a22643f731ab58eb4181e82c5df294c1fef3fffa758b82808b28245da",
-      "bytes": 1214057,
+      "source_sha256": "0bb66458cbf4f33d66654de5801e0c45c626f70b2809ec0eb0708967eebe7204",
+      "publication_sha256": "0bb66458cbf4f33d66654de5801e0c45c626f70b2809ec0eb0708967eebe7204",
+      "bytes": 1214827,
       "modified_for_publication": false
     },
     {
@@ -240,9 +240,9 @@
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "7b2c648da472774a49913b498e0c8c2b93515a5e823945b0713c951688fcccd4",
-      "publication_sha256": "7b2c648da472774a49913b498e0c8c2b93515a5e823945b0713c951688fcccd4",
-      "bytes": 1220111,
+      "source_sha256": "4c7591db913d7ad78742a1a76616066d08a1221dfa25c4656c8bb9eaf370387c",
+      "publication_sha256": "4c7591db913d7ad78742a1a76616066d08a1221dfa25c4656c8bb9eaf370387c",
+      "bytes": 1220587,
       "modified_for_publication": false
     },
     {

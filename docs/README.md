@@ -14,7 +14,7 @@ Every page uses frozen WARM-5. Overall original-response distance gives worry 58
 
 Values are raw distances divided by fixed calibration values: 0.1550977480973838 for overall original responses and 0.2218094853108838 for profile mixtures. Component reference values are 0.2019268502025546 for worry, 0.0500960004811531 for personal harm and 0.0872275415556315 for known-person harm. These are the previously fixed calibration values, not newly estimated WARM-5 medians.
 
-One means the fixed reference distance; two means twice that reference. Seven colour bands span zero to “2 or more”; numerical labels are uncapped. Changing country or scope never changes the denominator. A ratio is not a percentage of societal similarity. Component ratios use different denominators and therefore cannot be added.
+One means the fixed reference distance; two means twice that reference. A continuous colour gradient spans zero to “2 or more”; numerical labels are uncapped. Values above two share the endpoint colour. Changing country or scope never changes the denominator. A ratio is not a percentage of societal similarity. Component ratios use different denominators and therefore cannot be added. Income-group colours remain categorical, and the approximate profile-mixture overview retains its separate two-dimensional colour scheme.
 
 Lists show 10, 20 or all available peers. Country comparisons rank the chosen component. On the income page, component choice changes the map; income-group matrices and neighbour lists remain the overall WARM-5 comparison. The response/profile selector changes the type of summary, not the model.
 
