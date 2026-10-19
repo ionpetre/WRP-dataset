@@ -26,8 +26,8 @@
   },
   {
     "path": "publication_manifest.json",
-    "bytes": 148790,
-    "sha256": "795f478ec2ffdc974086296c7cd7d8f8c47bd214b39b0cce2a129538f8ab05a4"
+    "bytes": 148791,
+    "sha256": "e30b9ceaa3b1f1557b567d3e16beadcee3af864375f739776b75c56802b419a2"
   },
   {
     "path": ".gitignore",
@@ -51,8 +51,8 @@
   },
   {
     "path": "research/METHODS.md",
-    "bytes": 9690,
-    "sha256": "a368d02fd7975326640ec50d55ec870ac04569b49f2abaa5aa4b31511d4bb41d"
+    "bytes": 10473,
+    "sha256": "0180bbb9fb8a19b54eb227f66a0702df848d17954046ea53ff2c75fcb6b80592"
   },
   {
     "path": "research/RESULTS.md",
@@ -126,8 +126,8 @@
   },
   {
     "path": "docs/country-similarity-fragment.html",
-    "bytes": 1062601,
-    "sha256": "f62da1cdf40b94ee078a9ec67a3ce8e11f4840217c19624ec5280c128e70e86d"
+    "bytes": 1062805,
+    "sha256": "f72e1d47583eef53f316df03f8832ec7cdac9e7a3660976c258e4d942dd634a6"
   },
   {
     "path": "docs/response-profiles-fragment.html",
@@ -141,13 +141,13 @@
   },
   {
     "path": "docs/country-income-fragment.html",
-    "bytes": 1063394,
-    "sha256": "65c56186c7cdb06af27e4f03821efe08c32c71bade87405abdf141bd9d82d0ea"
+    "bytes": 1063598,
+    "sha256": "1553dd3127b2d0629dd6b78febaada6fa74b7503e1cd5f856cb03f702a58d931"
   },
   {
     "path": "docs/countries.html",
-    "bytes": 1214827,
-    "sha256": "0bb66458cbf4f33d66654de5801e0c45c626f70b2809ec0eb0708967eebe7204"
+    "bytes": 1215053,
+    "sha256": "a50a43777bd44e3975ddfe384dbb8c7f56bcdf6869cb29b3f855ab94bf5003f9"
   },
   {
     "path": "docs/.nojekyll",
@@ -156,8 +156,8 @@
   },
   {
     "path": "docs/country-income.html",
-    "bytes": 1220587,
-    "sha256": "4c7591db913d7ad78742a1a76616066d08a1221dfa25c4656c8bb9eaf370387c"
+    "bytes": 1220813,
+    "sha256": "048cd2281aa8b9d8bb063bcae6a92e8f4962022c12fa84bc17fbdc10bc7e7549"
   },
   {
     "path": "docs/vendor/d3.min.js",
