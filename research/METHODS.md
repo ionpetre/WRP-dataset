@@ -71,9 +71,13 @@ For country a, let $p_{aj}$ be the survey-weighted proportion of complete respon
 
 $$H(a,b)=\sqrt{\frac12\sum_{j=0}^4(\sqrt{p_{aj}}-\sqrt{p_{bj}})^2}.$$
 
+Each country response summary stores 32 values: three category probabilities for each of six worry questions (18 values), and one harm prevalence for each of seven personal and seven known-person harm indicators (14 values). These are summaries of 20 original variables, not 32 clustering features. Worry probabilities sum to one within each question; no-harm prevalence is one minus harm prevalence.
+
 For original feature f, let $P_{afc}$ be country a's weighted probability of category c. Feature total variation is
 
 $$V_f(a,b)=\frac12\sum_c|P_{afc}-P_{bfc}|.$$
+
+For a binary harm indicator with prevalence $p_{af}$, this simplifies exactly to $V_f(a,b)=|p_{af}-p_{bf}|$. Storing its complementary probability would add no information and is unnecessary in the calculation.
 
 Average separately over six worries, seven personal harms and seven known-person harms, giving $V_W,V_S,V_K$. Overall distance is
 
@@ -83,7 +87,7 @@ This uses WARM-5's allocation. Numeric spacing t deliberately does not enter ori
 
 Across all 10,011 pairs of the 142 countries, the two raw distances have Spearman rank correlation 0.824. They identify the same nearest country for 26 of 142 countries (18.3%), and share an average of 1.80 of the nearest five countries. Thus broad distance patterns agree more closely than exact neighbour identities. These are descriptive comparisons, not independent-pair significance tests. Stable respondent profiles need not preserve all country differences; the clustering was not optimized to reproduce country-distance rankings.
 
-Map display is $R=D/m_{\mathrm{ref}}$, with fixed calibration constants retained from the approved display protocol: 0.1550977480973838 for overall responses and 0.2218094853108838 for mixtures. Component constants are 0.2019268502025546 (worry), 0.0500960004811531 (personal harm), and 0.0872275415556315 (known-person harm). They are not newly recalculated WARM-5 medians. One means the fixed reference distance. Ratios are uncapped; a continuous colour gradient spans zero to “2 or more”, with larger values sharing the endpoint colour. The gradient interpolates in CIELAB colour space through the existing blue, green, yellow and orange palette. Selection/scope never changes the denominator. Scaling and colour interpolation do not change distances or ranks. Income-group colours remain categorical; the approximate two-dimensional profile-mixture overview is unchanged.
+Map display is $R=D/m_{\mathrm{ref}}$, with fixed calibration constants retained from the approved display protocol: 0.1550977480973838 for overall responses and 0.2218094853108838 for mixtures. Component constants are 0.2019268502025546 (worry), 0.0500960004811531 (personal harm), and 0.0872275415556315 (known-person harm). They are not newly recalculated WARM-5 medians. One means the fixed reference distance. Ratios are uncapped; a continuous colour gradient spans zero to “2 or more”, with larger values sharing the endpoint colour. The gradient interpolates in CIELAB colour space through blue, green, yellow and deep red. The high-distance endpoint is dark burgundy in light mode, with a lighter crimson in dark mode to remain visible against the background. Selection/scope never changes the denominator. Scaling and colour interpolation do not change distances or ranks. Income-group colours remain categorical; the approximate two-dimensional profile-mixture overview is unchanged.
 
 The overview colour projection is approximate; exact rankings use raw distances. No country grouping replaces dataset regions. The 200 within-country IID respondent bootstraps retain survey weights and fixed labels; these are conditional sensitivity checks, not full survey-design or model-selection confidence. Income associations use 999 whole-country label permutations, including within-region permutations. Country pairs are not independent, and the results are not causal.
 

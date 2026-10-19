@@ -4,7 +4,7 @@
 
 Open `docs/index.html`, `docs/countries.html` or `docs/country-income.html`. They work offline, including their controls, embedded aggregate data, map boundaries and D3 dependency. Supporting repository links require internet access.
 
-The profile explorer shows only WARM-5. Map code reconstructs original-response distances from 46 country-level category probabilities and compares fixed five-profile proportions. The overall allocation is always worry 58.38%, personal harm 20.81%, known-person harm 20.81%.
+The profile explorer shows only WARM-5. Map code reconstructs original-response distances from 32 country-level values: 18 category probabilities for the six worry questions and 14 harm prevalences. For binary harm, total variation is the absolute prevalence difference; the complementary no-harm probability need not be stored. This is a lossless storage simplification, not a change to clustering or distances. The overall allocation is always worry 58.38%, personal harm 20.81%, known-person harm 20.81%.
 
 Edit the map fragments under `docs/` and run:
 
@@ -13,6 +13,8 @@ python .week05_build/rebuild_T5_pages.py
 ```
 
 This refreshes the offline wrappers; it does not refit clustering or change aggregate inputs. Exact matrices are also published under `course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/`.
+
+The compact inputs are available as a [32-value country summary CSV](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.csv) and [map-input JSON](../course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.json). Each row describes one country, not one respondent. Historical full category tables remain valid: they also list the complementary no-harm probabilities, which current distance calculations do not need.
 
 ## Assign WARM-5 to separately supplied survey responses
 

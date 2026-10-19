@@ -72,9 +72,9 @@
     {
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
-      "source_sha256": "0180bbb9fb8a19b54eb227f66a0702df848d17954046ea53ff2c75fcb6b80592",
-      "publication_sha256": "0180bbb9fb8a19b54eb227f66a0702df848d17954046ea53ff2c75fcb6b80592",
-      "bytes": 10473,
+      "source_sha256": "cdbb88dc681c398a88014805fa08412a51290e5698e56be0ade6e37b8d91cfe3",
+      "publication_sha256": "cdbb88dc681c398a88014805fa08412a51290e5698e56be0ade6e37b8d91cfe3",
+      "bytes": 11205,
       "modified_for_publication": false
     },
     {
@@ -88,9 +88,9 @@
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
-      "source_sha256": "1374d808f226464eae0736dfe5e944178448f612d535e686319da81f07163d69",
-      "publication_sha256": "1374d808f226464eae0736dfe5e944178448f612d535e686319da81f07163d69",
-      "bytes": 3818,
+      "source_sha256": "375cb7a9cac718dc7cf46cc4031b42d03b0d2ea340a5af775d777906999782c5",
+      "publication_sha256": "375cb7a9cac718dc7cf46cc4031b42d03b0d2ea340a5af775d777906999782c5",
+      "bytes": 4553,
       "modified_for_publication": false
     },
     {
@@ -152,9 +152,9 @@
     {
       "path": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
       "source": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
-      "source_sha256": "b83e1f4fc69edc5d5d44fdf72452d5ee2938daba2a54369e4e5eae29fc6d5314",
-      "publication_sha256": "405829fa194e9f463e97f76119b1bd542770cba081c5189e041a9fbc51ae971b",
-      "bytes": 36918,
+      "source_sha256": "b816317929104e0b81b05c9185a213bb2fee66bcb2d90c576d9de80faa4c9889",
+      "publication_sha256": "0aa2a795a3ec1eb24e769578e989af70972f7805c3f2d23ed453c62215c54148",
+      "bytes": 37529,
       "modified_for_publication": true
     },
     {
@@ -192,9 +192,9 @@
     {
       "path": "docs/country-similarity-fragment.html",
       "source": "publication-source:docs/country-similarity-fragment.html",
-      "source_sha256": "f72e1d47583eef53f316df03f8832ec7cdac9e7a3660976c258e4d942dd634a6",
-      "publication_sha256": "f72e1d47583eef53f316df03f8832ec7cdac9e7a3660976c258e4d942dd634a6",
-      "bytes": 1062805,
+      "source_sha256": "967a9dfceb9751c733739c4c9d0984b717c0e8c64e21824e1c446923807b9410",
+      "publication_sha256": "967a9dfceb9751c733739c4c9d0984b717c0e8c64e21824e1c446923807b9410",
+      "bytes": 1042073,
       "modified_for_publication": false
     },
     {
@@ -216,17 +216,17 @@
     {
       "path": "docs/country-income-fragment.html",
       "source": "publication-source:docs/country-income-fragment.html",
-      "source_sha256": "1553dd3127b2d0629dd6b78febaada6fa74b7503e1cd5f856cb03f702a58d931",
-      "publication_sha256": "1553dd3127b2d0629dd6b78febaada6fa74b7503e1cd5f856cb03f702a58d931",
-      "bytes": 1063598,
+      "source_sha256": "5f8dab27db20b80ce3ad5cf48f02fdc1dc9a7bf853ca4f5db6b5f9ad79383923",
+      "publication_sha256": "5f8dab27db20b80ce3ad5cf48f02fdc1dc9a7bf853ca4f5db6b5f9ad79383923",
+      "bytes": 1042859,
       "modified_for_publication": false
     },
     {
       "path": "docs/countries.html",
       "source": "publication-source:docs/countries.html",
-      "source_sha256": "a50a43777bd44e3975ddfe384dbb8c7f56bcdf6869cb29b3f855ab94bf5003f9",
-      "publication_sha256": "a50a43777bd44e3975ddfe384dbb8c7f56bcdf6869cb29b3f855ab94bf5003f9",
-      "bytes": 1215053,
+      "source_sha256": "cec5422a6c506ba0fd952d4a7cd75977d4eb2406bf6aa77aec6e0c8345719dfc",
+      "publication_sha256": "cec5422a6c506ba0fd952d4a7cd75977d4eb2406bf6aa77aec6e0c8345719dfc",
+      "bytes": 1194378,
       "modified_for_publication": false
     },
     {
@@ -240,9 +240,9 @@
     {
       "path": "docs/country-income.html",
       "source": "publication-source:docs/country-income.html",
-      "source_sha256": "048cd2281aa8b9d8bb063bcae6a92e8f4962022c12fa84bc17fbdc10bc7e7549",
-      "publication_sha256": "048cd2281aa8b9d8bb063bcae6a92e8f4962022c12fa84bc17fbdc10bc7e7549",
-      "bytes": 1220813,
+      "source_sha256": "2512b0c0c681b45028a5befafc78fdc1b6a92940fd0466c87569d710383ee8f7",
+      "publication_sha256": "2512b0c0c681b45028a5befafc78fdc1b6a92940fd0466c87569d710383ee8f7",
+      "bytes": 1200131,
       "modified_for_publication": false
     },
     {
@@ -1350,6 +1350,14 @@
       "modified_for_publication": false
     },
     {
+      "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.csv",
+      "source": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.csv",
+      "source_sha256": "eb2516d2d75bd99c3095a03cdba34e7a04cbfbcbdd36f7994073bcab5d4c07cc",
+      "publication_sha256": "eb2516d2d75bd99c3095a03cdba34e7a04cbfbcbdd36f7994073bcab5d4c07cc",
+      "bytes": 90580,
+      "modified_for_publication": false
+    },
+    {
       "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/profile_burden_distributions.csv",
       "source": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/profile_burden_distributions.csv",
       "source_sha256": "0245507461d62de36c1e362dcdcace7229f2e66999973f0c98c39cd76f98d0b9",
@@ -1467,6 +1475,14 @@
       "source_sha256": "3dc8539db098d9d06d354345ca2595272fdf01011594281cf8b9768707ca1640",
       "publication_sha256": "3dc8539db098d9d06d354345ca2595272fdf01011594281cf8b9768707ca1640",
       "bytes": 6473,
+      "modified_for_publication": false
+    },
+    {
+      "path": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.json",
+      "source": "course_artifacts/week05_T5_completion/70ee2f67e95369c5/countries/T5_country_response_summary32.json",
+      "source_sha256": "3688cafedcab2cbc78bdfe7a9980b032c4f922a0cdcfb91c10ed04a8118ebab8",
+      "publication_sha256": "3688cafedcab2cbc78bdfe7a9980b032c4f922a0cdcfb91c10ed04a8118ebab8",
+      "bytes": 52148,
       "modified_for_publication": false
     },
     {
@@ -2552,10 +2568,10 @@
     {
       "path": ".week05_build/T5-response-distance-tools.js",
       "source": ".week05_build/T5-response-distance-tools.js",
-      "source_sha256": "45fcf7abd5a5554454527258ed7abb8e30a423b86416e23c12556fe5d834720a",
-      "publication_sha256": "413997667d144f0deef1f030348d8c98f8bbb643322c8a3eddfd84b23effe066",
-      "bytes": 4421,
-      "modified_for_publication": true
+      "source_sha256": "9e619e1f6788e2535fd304f3d33174564a5b17c4a44f1a7c7f7fe8996e32c71d",
+      "publication_sha256": "9e619e1f6788e2535fd304f3d33174564a5b17c4a44f1a7c7f7fe8996e32c71d",
+      "bytes": 4495,
+      "modified_for_publication": false
     },
     {
       "path": ".week05_build/add_T5_summary_charts.py",

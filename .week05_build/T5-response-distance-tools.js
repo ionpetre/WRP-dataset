@@ -1,21 +1,22 @@
 /* One frozen specification. All inputs are country aggregates; no fitting. */
 function wrpResponseTools(data){
  const source=data.responses, n=data.countries.length, alpha=source.alphas.T5;
- if(!source||source.shape[1]!==46||!Number.isFinite(alpha))throw new Error('Missing WARM-5 country response reference.');
+ if(!source||source.shape[1]!==32||!Number.isFinite(alpha))throw new Error('Missing 32-value WARM-5 country response reference.');
  if(source.country_order.some((iso,i)=>iso!==data.countries[i].iso))throw new Error('Country order differs from the map.');
  const bytes=Uint8Array.from(atob(source.probabilities_f64_base64),c=>c.charCodeAt(0));
- if(bytes.length!==n*46*8)throw new Error('Unexpected response reference length.');
+ if(bytes.length!==n*32*8)throw new Error('Unexpected response reference length.');
  const view=new DataView(bytes.buffer), q=Array.from({length:n},()=>[]);
- for(let i=0;i<n;i++)for(let j=0;j<46;j++)q[i][j]=view.getFloat64((i*46+j)*8,true);
+ for(let i=0;i<n;i++)for(let j=0;j<32;j++)q[i][j]=view.getFloat64((i*32+j)*8,true);
  const matrices={};
  for(const key of ['worry','self','known','T5'])matrices[key]=Array.from({length:n},()=>Array(n).fill(0));
  for(let i=0;i<n;i++)for(let j=i+1;j<n;j++){
-  let offset=0,w=0,s=0,k=0;
-  for(let f=0;f<20;f++){
-   let difference=0;
-   for(let r=0;r<source.category_counts[f];r++)difference+=Math.abs(q[i][offset+r]-q[j][offset+r])/2;
-   if(f<6)w+=difference/6;else if(f<13)s+=difference/7;else k+=difference/7;
-   offset+=source.category_counts[f];
+  let w=0,s=0,k=0;
+  // Six worry distributions: three categories each, with total variation / 2.
+  for(let f=0;f<6;f++)for(let r=0;r<3;r++)w+=Math.abs(q[i][3*f+r]-q[j][3*f+r])/12;
+  // Binary harm needs only P(harm=1); total variation is |p_i-p_j|.
+  for(let f=0;f<7;f++){
+   s+=Math.abs(q[i][18+f]-q[j][18+f])/7;
+   k+=Math.abs(q[i][25+f]-q[j][25+f])/7;
   }
   const values={worry:w,self:s,known:k,T5:alpha*w+(1-alpha)*(s+k)/2};
   for(const key of Object.keys(values))matrices[key][i][j]=matrices[key][j][i]=values[key];
