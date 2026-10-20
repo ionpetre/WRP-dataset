@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "publication_scope": "T5 only",
   "model_context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
   "historical_model_records_included": false,
@@ -73,33 +73,37 @@
       "path": "research/METHODS.md",
       "source": "publication-source:research/METHODS.md",
       "source_sha256": "cdbb88dc681c398a88014805fa08412a51290e5698e56be0ade6e37b8d91cfe3",
-      "publication_sha256": "cdbb88dc681c398a88014805fa08412a51290e5698e56be0ade6e37b8d91cfe3",
-      "bytes": 11205,
-      "modified_for_publication": false
+      "publication_sha256": "1be438a909d18362772dfa97b9106aa1283803b9829493173c64a688ee997426",
+      "bytes": 11298,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "research/RESULTS.md",
       "source": "publication-source:research/RESULTS.md",
       "source_sha256": "8a1579994d430835f992e162659f40be26a99bdd5187332cdb029949d004b776",
-      "publication_sha256": "8a1579994d430835f992e162659f40be26a99bdd5187332cdb029949d004b776",
-      "bytes": 2615,
-      "modified_for_publication": false
+      "publication_sha256": "ed813bf1acdb63d6d1e415598205349c63d37fea6e5637481ccc42009ee40673",
+      "bytes": 2755,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "research/REPRODUCING.md",
       "source": "publication-source:research/REPRODUCING.md",
       "source_sha256": "375cb7a9cac718dc7cf46cc4031b42d03b0d2ea340a5af775d777906999782c5",
-      "publication_sha256": "375cb7a9cac718dc7cf46cc4031b42d03b0d2ea340a5af775d777906999782c5",
-      "bytes": 4553,
-      "modified_for_publication": false
+      "publication_sha256": "d8e01a02470482bf0711901dbe345df779f48f6eeecdf7035008cebfb8c8c535",
+      "bytes": 4631,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "research/T5_RESULTS.md",
       "source": "publication-source:research/T5_RESULTS.md",
       "source_sha256": "11bdd7b71098196762c6f2df3a2848ac1d83d39fda1a548dcb475d0112b42d5e",
-      "publication_sha256": "11bdd7b71098196762c6f2df3a2848ac1d83d39fda1a548dcb475d0112b42d5e",
-      "bytes": 13355,
-      "modified_for_publication": false
+      "publication_sha256": "a6ab75279204969d0d771498cf778c737f7ecdf340817d38cc373641fd80b810",
+      "bytes": 13432,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "research/data_dictionary/WRP_2023_data_dictionary.csv",
@@ -121,9 +125,10 @@
       "path": "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb",
       "source": "weekly_notebooks/week06_predicting_frozen_risk_profile_membership.ipynb",
       "source_sha256": "279bd83c5644c50a11eafd4b0c3f9f5c5870728157764239e602b95b7b6e5f81",
-      "publication_sha256": "e240f44114d054be797dd9f4b01a5289205f39be679a173578d3f795c610e746",
-      "bytes": 55145,
-      "modified_for_publication": true
+      "publication_sha256": "235dc8113f5efe1c50e5d44a989b7e9a5ce58d54d9f47f988f2164508a7e379f",
+      "bytes": 55175,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "weekly_notebooks/week02_define_the_research_design.ipynb",
@@ -153,9 +158,10 @@
       "path": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
       "source": "weekly_notebooks/week05_validate_frozen_profiles.ipynb",
       "source_sha256": "b816317929104e0b81b05c9185a213bb2fee66bcb2d90c576d9de80faa4c9889",
-      "publication_sha256": "0aa2a795a3ec1eb24e769578e989af70972f7805c3f2d23ed453c62215c54148",
-      "bytes": 37529,
-      "modified_for_publication": true
+      "publication_sha256": "9d99fda32e2e8284570bb5dec0a97e0ff369d29395f410b578ea1543ccf028d9",
+      "bytes": 37598,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "frozen_models/assignment.py",
@@ -177,17 +183,19 @@
       "path": "frozen_models/T5_models.json",
       "source": "publication-source:frozen_models/T5_models.json",
       "source_sha256": "43758953aac42ccbdaa14cf499037a07c5aaff496a580876cba785bb2f92f7a7",
-      "publication_sha256": "43758953aac42ccbdaa14cf499037a07c5aaff496a580876cba785bb2f92f7a7",
-      "bytes": 5947,
-      "modified_for_publication": false
+      "publication_sha256": "92609299537f6611622fbad7042d85e9bdb19f6c94040ce25a697f6b469391ca",
+      "bytes": 6089,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "docs/index.html",
       "source": "publication-source:docs/index.html",
       "source_sha256": "0f7323706b59fc7ebac629036881668610f0f37ec45d53d512926181a50f11da",
-      "publication_sha256": "0f7323706b59fc7ebac629036881668610f0f37ec45d53d512926181a50f11da",
-      "bytes": 56537,
-      "modified_for_publication": false
+      "publication_sha256": "4db53dc5cd4cfc1632fc2cf2c10357fd1c1ddb82624b4429f10a6540caa1ae39",
+      "bytes": 56689,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "docs/country-similarity-fragment.html",
@@ -201,9 +209,10 @@
       "path": "docs/response-profiles-fragment.html",
       "source": "publication-source:docs/response-profiles-fragment.html",
       "source_sha256": "09695c412cecf0d7f99ef9b84155145c3c99b9d3748331e6736da9c0344502a0",
-      "publication_sha256": "09695c412cecf0d7f99ef9b84155145c3c99b9d3748331e6736da9c0344502a0",
-      "bytes": 53303,
-      "modified_for_publication": false
+      "publication_sha256": "9d52ff14f0afe2c615b7f34e5abb95b2ed68e002e50293523b58dff8d1948bb0",
+      "bytes": 53455,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "docs/README.md",
@@ -281,9 +290,10 @@
       "path": ".week06_build/build_T5_notebook.py",
       "source": ".week06_build/build_T5_notebook.py",
       "source_sha256": "a14ba19ae50f4afcae873a8514757b796ff08a29bf3fa29f549657ba17a873dc",
-      "publication_sha256": "966d014351624a0764f433476f0a9ee2abcaf8d30ebc783bf74c17bdc3415911",
-      "bytes": 14952,
-      "modified_for_publication": true
+      "publication_sha256": "703cbd8dfdd85c36533503702b76ab7283dcec625568161c51d0913f492e5ad4",
+      "bytes": 14982,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": ".week06_build/run_T5.py",
@@ -561,9 +571,10 @@
       "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/evaluation_finalization.json",
       "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/evaluation_finalization.json",
       "source_sha256": "85af9bda2e276d86b6ade1a8e316b959db1cfa51730d655184346e572b1d14c8",
-      "publication_sha256": "83a098f2cc7d375c9f966f15b1603a622651d8eeac65fbcb73d0a58d87e253cc",
-      "bytes": 2143,
-      "modified_for_publication": true
+      "publication_sha256": "61fdc9efaeac69477e02341c77f1a35ecb310ac24a9ea0cdc3cff7bcdf842e1b",
+      "bytes": 2097,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/heldout_country_retention.csv",
@@ -625,9 +636,10 @@
       "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/primary_model_decision.json",
       "source": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/primary_model_decision.json",
       "source_sha256": "ba8b1aca074d3482b0b574a4911df7509c532948cb1e355a5032a65c6b396e03",
-      "publication_sha256": "2e039bc32ddd15ab9b23323977917224e3bcbc62bd3013a71f2e1ec7dca9c60f",
-      "bytes": 738,
-      "modified_for_publication": true
+      "publication_sha256": "6e97ad6e4d157ea66c75a9bf3b813940c48b8822660fe8e56a0eb6e05ddef214",
+      "bytes": 753,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     },
     {
       "path": "course_artifacts/week05_t5_secondary_transfer/832b01713bc6b240/protocol.json",
@@ -2577,12 +2589,14 @@
       "path": ".week05_build/add_T5_summary_charts.py",
       "source": "publication-source:.week05_build/add_T5_summary_charts.py",
       "source_sha256": "f39a714299a8310370339096fdbcd626ccd2e1865e72ff4a839665c4e2019343",
-      "publication_sha256": "f39a714299a8310370339096fdbcd626ccd2e1865e72ff4a839665c4e2019343",
-      "bytes": 12992,
-      "modified_for_publication": false
+      "publication_sha256": "9d85f85e9e3d116f54ae6c948debb2b4095f620cac809cf8a244d23b415f7822",
+      "bytes": 13132,
+      "modified_for_publication": true,
+      "publication_note": "Editorial correction: held out from T5 fitting and optimization; numerical results unchanged."
     }
   ],
   "publication_audit": "publication_audit.json",
   "browser_checks": "T5_only_browser_checks.json",
-  "commit_or_push": false
+  "commit_or_push": false,
+  "heldout_definition": "The 29 countries are excluded from WARM-5 fitting, model selection and optimization of worry coding and worry-harm allocation. Their evaluation results do not enter that optimization."
 }

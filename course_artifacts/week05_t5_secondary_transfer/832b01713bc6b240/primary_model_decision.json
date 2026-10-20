@@ -16,6 +16,6 @@
     "T5_C3",
     "T5_C4"
   ],
-  "secondary_not_untouched_validation": true,
+  "heldout_excluded_from_T5_fitting_and_optimization": true,
   "publication_note": "T5-only public view; full original provenance remains in the private course archive."
 }

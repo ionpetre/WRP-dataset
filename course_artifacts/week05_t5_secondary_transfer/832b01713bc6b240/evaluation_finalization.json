@@ -2,7 +2,7 @@
   "status": "completed_under_agreed_protocol",
   "primary_model": "T5",
   "context": "832b01713bc6b240367e89a0de15a3392859ea8c15d0b9b061246fa1541b0893",
-  "scope": "development parameter search, full confirmation, profile review, shallow explanations, exact freeze and secondary fixed-model transfer",
+  "scope": "development parameter search, full confirmation, profile review, shallow explanations, exact freeze and held-out fixed-model transfer",
   "structural_filters": {
     "k": 5,
     "largest_share": 0.3631945747362431,
@@ -25,12 +25,11 @@
     "assigned": 27972,
     "unassigned_missing_responses": 2118,
     "defining_anchor_directions_retained": "15/15",
-    "secondary_not_untouched_assessment": true
+    "heldout_excluded_from_T5_fitting_and_optimization": true
   },
   "limitations": [
     "country-specific semantic and distance problems",
     "complete-case selection",
-    "known prior prior alternative-model held-out results",
     "no new independent regional T5 clustering",
     "no assertion of unique natural types or a globally optimal geometry"
   ],

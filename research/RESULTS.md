@@ -16,7 +16,7 @@ Shares give each included country equal influence among complete-case respondent
 
 - Development respondent ARI median/lower decile is 0.974/0.946; country values are 0.956/0.913. The weakest profile's country-test lower-decile Jaccard overlap is 0.943.
 - All 15 defining contrasts retain their aggregate held-out direction. Mean per-feature category differences range from 0.008 to 0.028. Distance flags rise from 4.95% to 5.69%.
-- Transfer is qualified by complete-case selection, small country/profile cells and country-specific weaknesses. The held-out countries had been inspected before WARM-5 selection: this is secondary assessment.
+- Transfer is qualified by complete-case selection, small country/profile cells and country-specific weaknesses. The 29 countries are held out from T5 fitting and model selection. Worry coding and worry--harm allocation are optimized using only the 113 development countries; held-out responses and evaluation results do not enter that optimization.
 - Of 135 regional reference fits and 5,228 stability fits, none failed computationally. Six coarser alternatives pass both full stability tests; no regional k=5 does so where full tests are available. WARM-5 is a common description, not a universal regional taxonomy.
 - Mixture similarity only partly follows geography. The nearest country is in the same region for 23.9%, against an 8.1% random-peer reference.
 - Income-gap rank correlation is 0.247 for mixtures and 0.298 for original responses, not evidence of causation.

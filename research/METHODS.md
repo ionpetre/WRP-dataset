@@ -47,7 +47,7 @@ Use all five country-grouped folds and fold-specific equal-country weights to re
 
 All-feature trees use ordinary Gini decision trees, minimum leaf size 200, seed 2023 and depths 1/2/3/5, without class reweighting. Balanced accuracy is mean class recall. Depths 1 and 2 have at most two/four leaves, hence five-class balanced-accuracy ceilings of 40%/80%. These checks assess explanatory fidelity, not independently discovered clustering or every possible optimized rule set.
 
-## Frozen assignment and secondary transfer
+## Frozen assignment and held-out transfer
 
 Keep exact development centres and their order. Assign complete respondents to their nearest centre; exact ties choose the first stored centre. Keep IDs T5_C0–T5_C4. No held-out or all-country model is fitted.
 
@@ -55,7 +55,7 @@ A distance flag means distance above the assigned profile's development weighted
 
 Compare prevalence, original-category distributions and three development-selected descriptive contrasts per profile. Resample the 29 held-out countries 1,000 times, holding model/predictions fixed and preserving within-country relative weights. This describes variation over these observed countries, not worldwide, missingness or model-selection uncertainty. No automatic transfer-rejection cutoff was specified.
 
-The held-out countries had been inspected before WARM-5 selection. Report secondary descriptive transfer, not untouched external confirmation. Meanings partly persist because assignment uses these same features; this is not independent rediscovery.
+The 29 countries are held out from T5 fitting and model selection. Worry coding and worry--harm allocation are optimized using only the 113 development countries; held-out responses and evaluation results do not enter that optimization. Meanings partly persist because assignment uses these same features; this is not independent rediscovery.
 
 ## Regional analysis
 

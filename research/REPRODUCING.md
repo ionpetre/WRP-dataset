@@ -34,6 +34,6 @@ This release deliberately excludes historical alternative-model records and orig
 
 ## Validation and privacy
 
-The held-out countries had been inspected before WARM-5 selection. The frozen WARM-5 assessment is secondary transfer, not an untouched external confirmation. All-country maps are descriptive extensions. A full-data refit would create a different model and would not inherit this validation.
+The 29 countries are held out from T5 fitting and model selection. Worry coding and worry--harm allocation are optimized using only the 113 development countries; held-out responses and evaluation results do not enter that optimization. All-country maps are descriptive extensions. A full-data refit would create a different model and would not inherit this validation.
 
 Raw/curated responses, respondent-linked assignments, executable fits and sampling indices are excluded. Notebook outputs are cleared; aggregate tables and figures are supplied separately. `publication_manifest.json` records source/publication hashes and modified public views. Aggregate publication is not a formal disclosure-risk certification; some country/profile cells are small.

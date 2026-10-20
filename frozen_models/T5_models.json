@@ -193,6 +193,6 @@
       }
     }
   },
-  "validation_status": "secondary transfer assessment; these held-out countries had been inspected before T5 selection",
+  "validation_status": "The 29 countries are held out from T5 fitting and model selection. Worry coding and worry--harm allocation are optimized using only the 113 development countries; held-out responses and evaluation results do not enter that optimization.",
   "source_seal_sha256": "6b5e87a4ea0f15bbb87263008d0dff52fa113c96c3785dbfc53d7c113c6a3840"
 }

@@ -126,7 +126,7 @@ code('''PERMUTATION = block_permutation(development, X_development, FOLDS, SUPER
 display(pd.read_csv(OUTPUT / 'development_block_permutation_summary.csv').round(4))''')
 md('''## 9. Evaluate held-out prediction once
 
-**Purpose:** apply the saved classifier and preprocessing unchanged to the 29 held-out countries. These countries are outside supervised model selection but were used in Objective 1 transfer assessment; this is not a new untouched validation of profile discovery. Do not retune after this step.
+**Purpose:** apply the saved classifier and preprocessing unchanged to the 29 held-out countries. These countries are held out from T5 fitting and parameter optimization and from supervised model selection. This step evaluates a fixed background classifier, not a new clustering. Do not retune after this step.
 
 Report the same metrics for the selected classifier and training-majority comparator. Country-bootstrap intervals keep models and predictions fixed. They describe variation over the observed countries, not all uncertainty in the survey, missingness or fitted models.''')
 definitions('heldout_test')
@@ -159,7 +159,7 @@ The selected-model held-out country-bootstrap intervals are approximately 0.237â
 
 Development permutations show limited predictive information: discrimination drops macro-F1 by about 0.016, demographics/household by 0.006, support by 0.005 and financial buffer by 0.002. Across-country income reassignment drops it by 0.022 under a different perturbation. These are predictive associations, not causes or comparable effect sizes.
 
-**Conclusion:** retain the frozen T5 clustering as the descriptive target. These background variables do not accurately recover its five groups with the tested classifiers. Further development-only checks may examine missing-question sensitivity or a justified predictor/tuning change. This held-out result must not be used to select such changes and then reported as untouched confirmation. Objective 3's external-outcome comparison is separate and is not completed here.''')
+**Conclusion:** retain the frozen T5 clustering as the descriptive target. These background variables do not accurately recover its five groups with the tested classifiers. Further development-only checks may examine missing-question sensitivity or a justified predictor/tuning change. Keep any further classifier changes within development-country validation; held-out results do not select the settings. Objective 3's external-outcome comparison is separate and is not completed here.''')
 
 nb = nbformat.v4.new_notebook(cells=cells, metadata={
     'kernelspec': {'display_name':'Python 3', 'language':'python', 'name':'python3'},

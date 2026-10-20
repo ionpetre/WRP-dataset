@@ -113,7 +113,7 @@ def build():
 <figure aria-labelledby="sc-transfer-title"><h3 id="sc-transfer-title">Development and held-out frequencies</h3>
 <div class="sc-pair-legend"><span><i class="sc-first"></i>Development countries</span><span><i class="sc-second"></i>Held-out countries</span></div>
 <div class="sc-chart" id="sc-transfer"></div>
-<figcaption class="sc-caption">The model and profile definitions are unchanged. Each country receives equal total weight within its set. The largest difference is +2.1 percentage points for profile 4. Similar frequencies alone do not establish transfer. This is secondary assessment, because held-out countries had been inspected before selecting T5.</figcaption>
+<figcaption class="sc-caption">The model and profile definitions are unchanged. Each country receives equal total weight within its set. The largest difference is +2.1 percentage points for profile 4. Similar frequencies alone do not establish transfer. The 29 countries are held out from T5 fitting and model selection. Worry coding and worry--harm allocation are optimized using only the 113 development countries; held-out responses and evaluation results do not enter that optimization.</figcaption>
 ''' + table(['Profile', 'Development', 'Held-out'], [[str(i + 1) + ' · ' + p['name'], percent(transfer[i][0]), percent(transfer[i][1])] for i, p in enumerate(profiles)], 'Profile frequencies among complete-case respondents, with equal country weight within each set.') + '''
 </figure>
 <figure aria-labelledby="sc-harm-title"><h3 id="sc-harm-title">Personal and known-person harm</h3>
