@@ -8,7 +8,11 @@ The profile page also includes the three overview plots from the Week 6 slides: 
 
 Every page uses frozen WARM-5. Overall original-response distance gives worry 58.38%, personal harm 20.81% and known-person harm 20.81%. There is no balanced-versus-worry-emphasized choice. Worry-only and harm-only views isolate components; they are not different clustering models.
 
-**Original response distributions** compares the six worry-category distributions and 14 harm prevalences. **Frozen profile mixtures** compares proportions across the same five WARM-5 profiles using Hellinger distance. The approximate overview is available only for profile mixtures; rankings use exact distances.
+**Original response distributions** compares survey-weighted answers question by question: the not/somewhat/very-worried percentages for each worry and the personal/known-person harm percentages for each harm domain. Similar totals can hide different combinations of answers within the same people.
+
+**Cluster proportions (Hellinger)** compares each country's five survey-weighted WARM-5 cluster shares. Countries with identical shares have distance zero even if answers differ within those clusters. This can give different nearest countries from the original-response comparison. The approximate overview is available only for cluster proportions; rankings use exact distances.
+
+Both comparison pages show an expanded explanation directly below the controls. It updates with the selected distance, response component and map view. The explanation includes what is compared, what the summary leaves out, how to read the reference-relative numbers, and which distance applies to the map, matrix and nearest-country list. It is visible without opening a tooltip or help menu.
 
 ## Reading the scale
 

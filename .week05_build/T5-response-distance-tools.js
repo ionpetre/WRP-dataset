@@ -49,9 +49,34 @@ function wrpResponseTools(data){
  }
  const components=(i,j)=>({worry:matrices.worry[i][j],self:matrices.self[i][j],known:matrices.known[i][j],T5:matrices.T5[i][j]});
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
- return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
+ function renderExplanation(host,basis,component='overall',context=''){
+  const key=JSON.stringify([basis,component,context]);
+  if(host.dataset.explanationKey===key)return;
+  host.dataset.explanationKey=key;
+  const cluster=basis==='profiles';
+  const descriptions={
+   overall:`For each of six worries, compare the percentages answering not, somewhat or very worried. For each of seven harm domains, compare the percentages reporting personal harm and harm to someone known. Average the gaps within each component, then combine them: worry ${(100*alpha).toFixed(2)}%, personal harm ${(50*(1-alpha)).toFixed(2)}% and known-person harm ${(50*(1-alpha)).toFixed(2)}%.`,
+   worry:'Compare the percentages answering not, somewhat or very worried for each of the six worries, then average the six question-level gaps. Personal and known-person harm do not enter this component.',
+   self:'For each of the seven harm domains, compare the percentage reporting personal harm, then average the seven absolute percentage-point gaps. Known-person harm and worry do not enter this component.',
+   known:'For each of the seven harm domains, compare the percentage reporting harm to someone personally known, then average the seven absolute percentage-point gaps. Personal harm and worry do not enter this component.'
+  };
+  const title=document.createElement('h3');title.id=host.id+'-title';
+  title.textContent=cluster?'Cluster proportions (Hellinger distance)':component==='overall'?'Original response distributions':labels[component]+' only — original response distributions';
+  const question=document.createElement('p'),lead=document.createElement('strong');
+  lead.textContent=cluster?'Do the countries have similar proportions of people in the five WARM-5 clusters?':'Do people in the countries give similar answers to each survey question?';
+  question.append(lead);
+  const comparison=document.createElement('p');
+  comparison.textContent=cluster?'Summarize each country by five survey-weighted percentages, one per cluster, using the same fixed global cluster definitions everywhere. The distance is small when those five shares are alike and larger when they differ. It compares the mix of clusters, not the answers of individual people.':descriptions[component]+' All percentages use survey weights among respondents with complete clustering answers.';
+  const limitation=document.createElement('p');
+  limitation.textContent=cluster?'Countries with identical cluster shares have distance zero, even if answers differ within the clusters. This can give different nearest countries from the original-response comparison.':'Each question is compared separately. Similar answer totals can hide different combinations of answers within the same people. This can give different nearest countries from the cluster comparison.';
+  const reading=document.createElement('p'),label=document.createElement('strong');label.textContent='Reading the numbers. ';
+  reading.append(label,'0 means identical under this summary; smaller means closer. Displayed distances use a fixed reference: 0.5 is half the reference distance, 1 is the reference, and 2 is twice it. These are not percentages. Each distance and component has its own reference, so their numerical scales are not interchangeable. Changing countries keeps the reference fixed.');
+  const view=document.createElement('p');view.className='wrp-distance-view';view.textContent=context;
+  host.replaceChildren(title,question,comparison,limitation,reading,view);
+ }
+ return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,renderExplanation,
   method:basis=>basis==='profiles'?'Median-relative Hellinger distance':'Median-relative total variation distance',
-  title:(basis,model,component)=>basis==='profiles'?'WARM-5 · five frozen profiles':component==='overall'?'WARM-5 · overall worry and harm':`${labels[component]} · original responses`,
-  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen WARM-5 profiles.':component==='overall'?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
+  title:(basis,model,component)=>basis==='profiles'?'WARM-5 · five frozen clusters':component==='overall'?'WARM-5 · overall worry and harm':`${labels[component]} · original responses`,
+  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen WARM-5 clusters.':component==='overall'?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
   fingerprint:source.fingerprint};
 }

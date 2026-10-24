@@ -5,7 +5,7 @@
       <select class="form-select" id="wrp-sim-country" aria-label="Inspect country"></select>
     </label>
     <label class="form-label">Compare
-      <select class="form-select" id="wrp-sim-basis"><option value="responses">Original response distributions</option><option value="profiles">Frozen profile mixtures (Hellinger)</option></select>
+      <select class="form-select" id="wrp-sim-basis" aria-describedby="wrp-sim-explanation"><option value="responses">Original response distributions</option><option value="profiles">Cluster proportions (Hellinger)</option></select>
     </label>
     <label class="form-label">Distance component
       <select class="form-select" id="wrp-sim-component"><option value="overall">Overall · WARM-5 allocation</option><option value="worry">Worry</option><option value="self">Personal harm</option><option value="known">Known-person harm</option></select>
@@ -23,10 +23,10 @@
     </label>
     <label class="form-check"><input type="checkbox" class="form-check-input" id="wrp-sim-regions" checked><span class="form-check-label">Dataset region outlines</span></label>
   </div>
-  <p class="text-small">Profile proportions compare the five groups; original responses compare answer distributions. Their nearest countries can differ. The numerical scales are not interchangeable.</p>
+  <section id="wrp-sim-explanation" class="wrp-distance-explanation" aria-live="polite" aria-atomic="true" aria-labelledby="wrp-sim-explanation-title"></section>
   <div id="wrp-sim-detail" class="text-small" aria-live="polite"></div>
   <div id="wrp-sim-panels">
-    <section id="wrp-sim-panel-T5"><h3>WARM-5 · five frozen profiles</h3><svg class="wrp-sim-map" id="wrp-sim-T5" role="img" aria-label="World map of country similarity under WARM-5"></svg><div class="text-small" id="wrp-sim-summary-T5"></div><svg class="wrp-sim-key" id="wrp-sim-key-T5" role="img" aria-label="Two-dimensional colour key for T5"></svg><div class="text-small" id="wrp-sim-neighbours-title-T5"></div><ol class="text-small" id="wrp-sim-neighbours-T5" aria-labelledby="wrp-sim-neighbours-title-T5"></ol></section>
+    <section id="wrp-sim-panel-T5"><h3>WARM-5 · five frozen clusters</h3><svg class="wrp-sim-map" id="wrp-sim-T5" role="img" aria-label="World map of country similarity under WARM-5"></svg><div class="text-small" id="wrp-sim-summary-T5"></div><svg class="wrp-sim-key" id="wrp-sim-key-T5" role="img" aria-label="Two-dimensional colour key for T5"></svg><div class="text-small" id="wrp-sim-neighbours-title-T5"></div><ol class="text-small" id="wrp-sim-neighbours-T5" aria-labelledby="wrp-sim-neighbours-title-T5"></ol></section>
   </div>
   <div class="viz-row text-small"><span>Thin outlines · original dataset regions</span><span>Heavy outline · inspected country’s region</span><span>Uncoloured · no study data</span></div>
   <div class="text-small" id="wrp-sim-reading">Overview colours approximate similarity; rankings always use the original Hellinger distances.</div>
@@ -34,6 +34,10 @@
 </div>
 <style>
 #wrp-mixture-similarity { width:100%; --wrp-distance-high:#8B0015; }
+#wrp-mixture-similarity .wrp-distance-explanation { margin:1rem 0; padding:1rem 1.1rem; border:1px solid var(--border); border-left:4px solid var(--blue); border-radius:.5rem; line-height:1.5; }
+#wrp-mixture-similarity .wrp-distance-explanation h3 { margin:0 0 .5rem; font-size:1.1rem; }
+#wrp-mixture-similarity .wrp-distance-explanation p { margin:.6rem 0 0; }
+#wrp-mixture-similarity .wrp-distance-view { font-weight:500; }
 @media(prefers-color-scheme:dark){#wrp-mixture-similarity { --wrp-distance-high:#C52A3B; }}
 #wrp-mixture-similarity #wrp-sim-panels { display:grid; grid-template-columns:1fr; gap:1rem; }
 @media(min-width:850px){#wrp-mixture-similarity #wrp-sim-panels { grid-template-columns:1fr; }}
@@ -103,10 +107,35 @@ function wrpResponseTools(data){
  }
  const components=(i,j)=>({worry:matrices.worry[i][j],self:matrices.self[i][j],known:matrices.known[i][j],T5:matrices.T5[i][j]});
  function componentText(i,j){const v=components(i,j);return `Worry ${(100*v.worry).toFixed(2)} · Personal harm ${(100*v.self).toFixed(2)} pp · Known-person harm ${(100*v.known).toFixed(2)} pp`;}
- return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,
+ function renderExplanation(host,basis,component='overall',context=''){
+  const key=JSON.stringify([basis,component,context]);
+  if(host.dataset.explanationKey===key)return;
+  host.dataset.explanationKey=key;
+  const cluster=basis==='profiles';
+  const descriptions={
+   overall:`For each of six worries, compare the percentages answering not, somewhat or very worried. For each of seven harm domains, compare the percentages reporting personal harm and harm to someone known. Average the gaps within each component, then combine them: worry ${(100*alpha).toFixed(2)}%, personal harm ${(50*(1-alpha)).toFixed(2)}% and known-person harm ${(50*(1-alpha)).toFixed(2)}%.`,
+   worry:'Compare the percentages answering not, somewhat or very worried for each of the six worries, then average the six question-level gaps. Personal and known-person harm do not enter this component.',
+   self:'For each of the seven harm domains, compare the percentage reporting personal harm, then average the seven absolute percentage-point gaps. Known-person harm and worry do not enter this component.',
+   known:'For each of the seven harm domains, compare the percentage reporting harm to someone personally known, then average the seven absolute percentage-point gaps. Personal harm and worry do not enter this component.'
+  };
+  const title=document.createElement('h3');title.id=host.id+'-title';
+  title.textContent=cluster?'Cluster proportions (Hellinger distance)':component==='overall'?'Original response distributions':labels[component]+' only — original response distributions';
+  const question=document.createElement('p'),lead=document.createElement('strong');
+  lead.textContent=cluster?'Do the countries have similar proportions of people in the five WARM-5 clusters?':'Do people in the countries give similar answers to each survey question?';
+  question.append(lead);
+  const comparison=document.createElement('p');
+  comparison.textContent=cluster?'Summarize each country by five survey-weighted percentages, one per cluster, using the same fixed global cluster definitions everywhere. The distance is small when those five shares are alike and larger when they differ. It compares the mix of clusters, not the answers of individual people.':descriptions[component]+' All percentages use survey weights among respondents with complete clustering answers.';
+  const limitation=document.createElement('p');
+  limitation.textContent=cluster?'Countries with identical cluster shares have distance zero, even if answers differ within the clusters. This can give different nearest countries from the original-response comparison.':'Each question is compared separately. Similar answer totals can hide different combinations of answers within the same people. This can give different nearest countries from the cluster comparison.';
+  const reading=document.createElement('p'),label=document.createElement('strong');label.textContent='Reading the numbers. ';
+  reading.append(label,'0 means identical under this summary; smaller means closer. Displayed distances use a fixed reference: 0.5 is half the reference distance, 1 is the reference, and 2 is twice it. These are not percentages. Each distance and component has its own reference, so their numerical scales are not interchangeable. Changing countries keeps the reference fixed.');
+  const view=document.createElement('p');view.className='wrp-distance-view';view.textContent=context;
+  host.replaceChildren(title,question,comparison,limitation,reading,view);
+ }
+ return {matrices,labels,metric,statistics,components,componentText,scale,diameters,medians,renderExplanation,
   method:basis=>basis==='profiles'?'Median-relative Hellinger distance':'Median-relative total variation distance',
-  title:(basis,model,component)=>basis==='profiles'?'WARM-5 · five frozen profiles':component==='overall'?'WARM-5 · overall worry and harm':`${labels[component]} · original responses`,
-  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen WARM-5 profiles.':component==='overall'?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
+  title:(basis,model,component)=>basis==='profiles'?'WARM-5 · five frozen clusters':component==='overall'?'WARM-5 · overall worry and harm':`${labels[component]} · original responses`,
+  description:(basis,model,component)=>basis==='profiles'?'Compares country proportions across the same five frozen WARM-5 clusters.':component==='overall'?`One fixed WARM-5 allocation: worry ${(100*alpha).toFixed(2)}%; personal harm ${(50*(1-alpha)).toFixed(2)}%; known-person harm ${(50*(1-alpha)).toFixed(2)}%.`:'Uses only this response component; it is not a different clustering model.',
   fingerprint:source.fingerprint};
 }
 </script>
@@ -158,10 +187,12 @@ try {
  }
  function draw(){
   const selected=byCode.get(country);
+   const viewNote=mode==='overview'?'Overview colours are an approximate two-dimensional picture of cluster similarity. The nearest-country list still uses exact distances.':'Map colours show distance from the selected country. They do not show higher or lower worry or harm. The nearest-country list uses the selected distance and component.';
+   responseTools.renderExplanation(document.getElementById('wrp-sim-explanation'),basis,component,viewNote);
   document.getElementById('wrp-sim-detail').textContent=`${selected.name} · ${selected.region} · ${Math.round(selected.retention*1000)/10}% of prepared respondents retained`;
   document.getElementById('wrp-sim-reading').textContent=mode==='overview'
    ?'Overview colours are a 2D approximation, not country groups or a burden scale. Rankings use the original Hellinger distances.'
-   :basis==='profiles'?'These views compare countries by their proportions across the same five frozen WARM-5 profiles. The view uses one fixed reference median: 1 means the fixed reference distance; 2 means twice that distance. Numbers above 2 are retained.'
+    :basis==='profiles'?'These views compare countries by their proportions across the same five frozen WARM-5 clusters. The view uses one fixed reference median: 1 means the fixed reference distance; 2 means twice that distance. Numbers above 2 are retained.'
    :'The WARM-5 overall comparison uses one fixed reference median. Harm to the respondent and to someone personally known receive equal weight within the harm component. 1 = the fixed reference distance; 2 = twice that distance. Component views use their own medians. Numbers above 2 are retained. Worry: category mismatch ×100. Harm: mean prevalence gap in percentage points.';
   const single=true;root.classList.toggle('wrp-single-component',single);
   for(const model of ['T5']){
