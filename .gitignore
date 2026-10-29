@@ -21,3 +21,10 @@ processed/
 **/reference_cache/
 **/*sample_ids.csv
 **/*assignments*.csv
+
+# Explicitly published aggregates for the wave explorer. Other data stay ignored.
+!docs/data/
+docs/data/*
+!docs/data/wave-results.json
+!docs/data/wave-results.js
+!docs/data/wave-results.sources.json

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this research code and results separately from the original World Risk Poll survey."
-title: "The Worry–Harm Atlas: WARM-5 profiles from the World Risk Poll"
+title: "The Worry–Harm Atlas: clusters across World Risk Poll waves"
 authors:
   - family-names: Petre
     given-names: Ion
-date-released: 2026-10-12
+date-released: 2026-10-29
 repository-code: "https://github.com/ionpetre/WRP-dataset"
 type: software
 license: Apache-2.0
-abstract: "Research code, aggregate results and interactive country-similarity maps from Weeks 1–5 of the 2026–2027 Machine Learning Project Course, using the 2023 World Risk Poll."
+abstract: "Research code and aggregate results for independently selected 2019–2025 World Risk Poll clusters, cross-wave comparisons and the preserved 2023 country-similarity analyses."

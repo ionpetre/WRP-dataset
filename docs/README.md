@@ -1,37 +1,37 @@
-# WARM-5 profiles and country comparisons
+# The all-wave Worry–Harm Atlas
 
-Open `index.html` for the five profiles, `countries.html` for country comparisons or `country-income.html` for income patterns. All three work offline and use country/profile aggregates only.
+Open `index.html` to explore all seven wave/family models. It defaults to the original frozen 2025 full worry–harm benchmark. The two tabs are **Explore a wave** and **Compare with 2025**.
 
-The profile page also includes the three overview plots from the Week 6 slides: regional profile frequencies, development versus held-out frequencies, and personal versus known-person harm. Exact percentages are available in expandable tables. Regional bars use all 142 countries and the same frozen global centres. Harm bars average the seven domain prevalences; they do not measure the proportion reporting any harm.
+## Browser files
 
-## One model, one allocation
+- `index.html`: semantic page shell.
+- `wave-atlas.css`: responsive layout and light/dark appearance.
+- `wave-atlas.js`: year/family/cluster controls, fixed-definition paired bars, optional overlap tables and refit-ARI ranges.
+- `data/wave-results.json`: the public aggregate payload.
+- `data/wave-results.js`: the same payload as a script asset, so the page also works through `file://` without a server.
+- `data/wave-results.sources.json`: source checksums and scientific conventions.
+- `methods.html`, `wave-methods.js`: the local methods and downloads page.
 
-Every page uses frozen WARM-5. Overall original-response distance gives worry 58.38%, personal harm 20.81% and known-person harm 20.81%. There is no balanced-versus-worry-emphasized choice. Worry-only and harm-only views isolate components; they are not different clustering models.
+Selected view, question family, wave, cluster and earlier comparison wave are encoded in the URL. Unsupported parameters fall back to valid models. 2019 is available only for the five-common-worry family. There are no fitting controls and no browser-side clustering.
 
-**Original response distributions** compares survey-weighted answers question by question: the not/somewhat/very-worried percentages for each worry and the personal/known-person harm percentages for each harm domain. Similar totals can hide different combinations of answers within the same people.
+Run `python scripts/export_wave_atlas_data.py` from the repository root to rebuild the browser asset from the public JSON. With `--source-root /path/to/analysis/workspace`, the exporter reads pinned aggregate CSV/JSON files, checks their selected specifications and writes the public payload and provenance. It does not read respondent rows, refit models or reopen held-out assessment.
 
-**Cluster proportions (Hellinger)** compares each country's five survey-weighted WARM-5 cluster shares. Countries with identical shares have distance zero even if answers differ within those clusters. This can give different nearest countries from the original-response comparison. The approximate overview is available only for cluster proportions; rankings use exact distances.
+## Scientific scope
 
-Both comparison pages show an expanded explanation directly below the controls. It updates with the selected distance, response component and map view. The explanation includes what is compared, what the summary leaves out, how to read the reference-relative numbers, and which distance applies to the map, matrix and nearest-country list. It is visible without opening a tooltip or help menu.
+The wave cards describe each independently selected model's own complete development population. Full worry–harm has four/five/six clusters in 2021/2023/2025. Common worry has three in every wave from 2019 onward. IDs remain model-specific.
 
-## Reading the scale
+The main comparison holds the original 2025 model fixed and applies it to each wave's own respondents in 92 full or 90 common-worry development countries. Shares use equal-country/survey weights. The optional overlap table holds the 2025 reference answers fixed and compares original frozen assignments. The ARI ranges use separate matched-country refits; they use respondent counts and describe procedure variation, not confidence intervals. See `methods.html` and `research/ALL_WAVES.md`.
 
-Values are raw distances divided by fixed calibration values: 0.1550977480973838 for overall original responses and 0.2218094853108838 for profile mixtures. Component reference values are 0.2019268502025546 for worry, 0.0500960004811531 for personal harm and 0.0872275415556315 for known-person harm. These are the previously fixed calibration values, not newly estimated WARM-5 medians.
+## Historical 2023 pages
 
-One means the fixed reference distance; two means twice that reference. A continuous colour gradient spans zero to “2 or more”; numerical labels are uncapped. Values above two share the endpoint colour. Changing country or scope never changes the denominator. A ratio is not a percentage of societal similarity. Component ratios use different denominators and therefore cannot be added. Income-group colours remain categorical, and the approximate profile-mixture overview retains its separate two-dimensional colour scheme.
+`2023-clusters.html` preserves the original detailed WARM-5 explorer and its section anchors. `response-profiles-fragment.html` retains its historical source name. The summary-chart helper `.week05_build/add_T5_summary_charts.py` now writes to `2023-clusters.html`, not the all-wave home page.
 
-Lists show 10, 20 or all available peers. Country comparisons rank the chosen component. On the income page, component choice changes the map; income-group matrices and neighbour lists remain the overall WARM-5 comparison. The response/profile selector changes the type of summary, not the model.
+`countries.html` and `country-income.html` remain **2023 T5 analyses**. Their embedded models, response summaries, distance calculations, calibration constants and map interactions are unchanged. Their outer navigation labels their scope and links back to the all-wave explorer.
 
-## Interpretation
+The editable fragments are `country-similarity-fragment.html` and `country-income-fragment.html`. Run `python .week05_build/rebuild_T5_pages.py` from the repository root to refresh those wrappers. Keep the existing D3 dependency and licence under `vendor/`.
 
-Profile cards show equal-country-weighted development shares. Selecting a card shows original worry distributions, separate personal/known-person harm and differences from respondents outside that profile. Display labels start at 1; stored profile IDs remain T5_C0–T5_C4.
+Original-response distance retains worry 58.38%, personal harm 20.81% and known-person harm 20.81%. It is a comparison of marginal response distributions, distinct from Hellinger distance between the five T5 cluster proportions. Component views isolate parts of this original 2023 comparison; they do not fit different models.
 
-Country maps show similarity in selected survey responses, not social equivalence. Marginal response distributions can hide different within-person combinations. Mixtures compress responses further. Exact nearest-neighbour ranks are uncertain; the conditional bootstraps do not cover survey-design or model-selection uncertainty.
+The display calibration constants are unchanged: overall original responses 0.1550977480973838; cluster proportions 0.2218094853108838; worry 0.2019268502025546; personal harm 0.0500960004811531; known-person harm 0.0872275415556315. Raw distance divided by the corresponding reference gives the displayed ratio. Numbers are uncapped; colours saturate at two. Changing country or scope never changes the denominator. These ratios are not percentages of societal similarity.
 
-## Rebuild and publish
-
-`country-similarity-fragment.html` and `country-income-fragment.html` are the editable map fragments. Run `python .week05_build/rebuild_T5_pages.py` from the repository root to refresh the offline wrappers. The shared helper is `.week05_build/T5-response-distance-tools.js`. Keep the D3 dependency and licence under `docs/vendor/`.
-
-Run `python .week05_build/add_T5_summary_charts.py` to rebuild the three overview plots from the embedded profile aggregates and the saved regional frequencies. This updates `index.html` and `response-profiles-fragment.html`, without fitting a model. The profile page has no external chart dependencies.
-
-GitHub Pages publishes `docs/`; supporting files outside it link to their GitHub repository pages. These links need internet access, unlike the embedded interactions.
+GitHub Pages publishes this directory. New interactive charts and local methods work offline; external source links require internet access.

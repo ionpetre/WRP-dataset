@@ -10,7 +10,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGE = ROOT / "docs/index.html"
+PAGE = ROOT / "docs/2023-clusters.html"
 REGIONS = ROOT / "course_artifacts/week05_T5_completion/70ee2f67e95369c5/T5_fixed_profiles_by_split_and_region.csv"
 START = "<!-- WARM-5 summary charts: start -->"
 END = "<!-- WARM-5 summary charts: end -->"

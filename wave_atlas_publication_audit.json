@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "date": "2026-10-29",
+  "scope": "All-wave website update; prior publication audits retain their dated 2023 scope.",
+  "primary_benchmark": "WRP2025_K6",
+  "models": 7,
+  "clusters": 27,
+  "full_waves": [
+    2021,
+    2023,
+    2025
+  ],
+  "common_worry_waves": [
+    2019,
+    2021,
+    2023,
+    2025
+  ],
+  "common_country_frames": {
+    "full": 92,
+    "common_worry": 90
+  },
+  "browser": {
+    "status": "passed",
+    "models": 7,
+    "clustersChecked": 27,
+    "comparisonsChecked": 5,
+    "widths": [
+      1120,
+      736,
+      390,
+      320
+    ],
+    "offline": true,
+    "darkAppearance": true,
+    "deepLinks": true,
+    "invalidParameters": true,
+    "keyboardTabs": true,
+    "legacy2023Pages": true,
+    "errors": []
+  },
+  "scientific_verification": {
+    "status": "passed",
+    "date": "2026-10-29",
+    "checks": [
+      "All 291 historical published scientific files unchanged",
+      "All 112 checked analysis aggregates/notebooks/documentation files unchanged",
+      "Both map payloads and all original editable fragments preserved exactly",
+      "2023 explorer keeps the original aggregate payload",
+      "Fresh standard-library export matches the independent checked design aggregates",
+      "Published payload contains aggregate model and comparison fields only",
+      "All local navigation, data downloads and assets resolve; no duplicate IDs",
+      "Native offline-compatible page; no conversation host API or external data requests"
+    ],
+    "models": 7,
+    "clusters": 27,
+    "fits": 0,
+    "respondent_rows_read": 0,
+    "heldout_reassessment": false
+  },
+  "existing_T5_scientific_files_preserved": 291,
+  "source_files_sha256": {
+    "docs/index.html": "8a249749a65eb40abbf1ad123c2b1deff36a1c5f70d0a01afb1d9acbe33f0f4b",
+    "docs/wave-atlas.css": "d2b67acd69889baa20abaa425aa44d2bf838e58e26c4f2c705d82b533aac9f32",
+    "docs/wave-atlas.js": "bb61509cb2f5b512ed41984dd62cea8feceead1a2d1ae251a4a1f99228a5ac34",
+    "docs/wave-methods.js": "45007dabb6ea7614228ea1f28d1a651f725a6640d09f1f69a525fa842b9d3af2",
+    "docs/methods.html": "194ede56418bcc54794940277ffb4a94aafb19218887a06ecdc93f22e52e2b30",
+    "docs/2023-clusters.html": "3bf729e1f16b41c120762d747617628787876c4f3a0ff83d08aeaa194cf2cb92",
+    "docs/data/wave-results.json": "36e4fc1c413db8f37a95165574339a202dc4c533dfd86d62d5ba1b858e51994f",
+    "docs/data/wave-results.js": "29eb46c3bd1646cf2c2fb8a24d7172c57d3a5805027cb71f468175e9a11ba6df",
+    "docs/data/wave-results.sources.json": "c6fdc316b9600603733e618ef9942c772ef0d55e930d18df49fbe4d369d3d407",
+    "docs/countries.html": "4cb88bdf2b3d5b7bfabc7b5c7f5b4f5130750c25721b3902a187b522ac9c0b1d",
+    "docs/country-income.html": "2652d6cf9c9b45a0b336a114893915028c144a72ed5e769e5759b3a0b9884231",
+    "scripts/export_wave_atlas_data.py": "72b99e0f8115f5266b54062251b062e955aa9252308fe41b2b9281d638bdeffd",
+    "research/ALL_WAVES.md": "d04f0031214473f7fb15cc53c0844c5e80e6d572cf580e97f547c9bce2549ddc"
+  },
+  "respondent_files_added": 0,
+  "scientific_fits": 0,
+  "heldout_reassessment": false,
+  "existing_country_distance_payloads_unchanged": true
+}

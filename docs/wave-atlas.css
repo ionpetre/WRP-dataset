@@ -1,0 +1,94 @@
+#wrp-wave-atlas {color-scheme:light dark;--atlas-bg:light-dark(#ffffff,#181818);--atlas-ink:light-dark(#20252b,#f2f3f5);--atlas-muted:light-dark(#515b65,#b5bec8);--atlas-line:light-dark(#d9dfe5,#454d56);--atlas-soft:light-dark(#edf3f8,#263440);--atlas-blue:light-dark(#205d80,#a4cde5);--atlas-mid:light-dark(#699bbb,#729dbb);--atlas-low:light-dark(#dce7ef,#3c5364);--atlas-before:light-dark(#939da6,#8a949d);--atlas-track:light-dark(#edf0f2,#30363b);background:var(--atlas-bg);color:var(--atlas-ink);font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:28px 30px 22px;max-width:1120px;margin:auto;}
+#wrp-wave-atlas * {box-sizing:border-box;}
+#wrp-wave-atlas [hidden] {display:none!important;}
+#wrp-wave-atlas h1 {font-size:29px;line-height:1.2;font-weight:500;letter-spacing:-.7px;margin:9px 0;}
+#wrp-wave-atlas h2 {font-size:20px;font-weight:500;line-height:1.3;margin:0 0 7px;letter-spacing:-.25px;}
+#wrp-wave-atlas h3 {font-size:15px;font-weight:500;margin:0 0 12px;}
+#wrp-wave-atlas p {margin:0 0 12px;}
+#wrp-wave-atlas .aw-muted {color:var(--atlas-muted);}
+#wrp-wave-atlas .aw-small {font-size:12px;}
+#wrp-wave-atlas .aw-brand {font-size:11px;letter-spacing:1.1px;text-transform:uppercase;color:var(--atlas-muted);}
+#wrp-wave-atlas .aw-benchmark {font-size:12px;display:inline-block;background:var(--atlas-soft);padding:3px 9px;border-radius:4px;letter-spacing:0;white-space:nowrap;margin-left:9px;vertical-align:middle;}
+#wrp-wave-atlas .aw-intro {max-width:74ch;color:var(--atlas-muted);}
+#wrp-wave-atlas .aw-top {display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:23px 0 0;border-bottom:1px solid var(--atlas-line);}
+#wrp-wave-atlas button,#wrp-wave-atlas select {font:inherit;color:var(--atlas-ink);}
+#wrp-wave-atlas .aw-tabs {display:flex;gap:19px;flex-wrap:wrap;}
+#wrp-wave-atlas .aw-tab {padding:12px 0;background:none;border:0;border-bottom:2px solid transparent;white-space:nowrap;}
+#wrp-wave-atlas .aw-tab[aria-selected=true] {border-bottom-color:var(--atlas-blue);color:var(--atlas-blue);font-weight:500;}
+#wrp-wave-atlas .aw-family {display:flex;align-items:center;gap:9px;padding:6px 0 10px;}
+#wrp-wave-atlas select {background:var(--atlas-bg);padding:7px 28px 7px 10px;border:1px solid var(--atlas-line);border-radius:5px;max-width:100%;}
+#wrp-wave-atlas .aw-family select {min-width:0;flex:1;}
+#wrp-wave-atlas .aw-wavebar {display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:20px 0 8px;}
+#wrp-wave-atlas .aw-year {border:1px solid var(--atlas-line);border-radius:5px;background:var(--atlas-bg);padding:8px 19px;}
+#wrp-wave-atlas .aw-year[aria-pressed=true] {background:var(--atlas-soft);border-color:var(--atlas-blue);color:var(--atlas-blue);font-weight:500;}
+#wrp-wave-atlas button:disabled {opacity:.4;}
+#wrp-wave-atlas .aw-availability {margin:0 0 22px;}
+#wrp-wave-atlas .aw-panel-head {display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:0 0 14px;}
+#wrp-wave-atlas .aw-panel-head p {margin:0;}
+#wrp-wave-atlas .aw-cards {display:grid;grid-template-columns:repeat(var(--aw-columns,3),minmax(0,1fr));gap:10px;margin-bottom:24px;}
+#wrp-wave-atlas .aw-cluster {background:var(--atlas-bg);border:1px solid var(--atlas-line);border-radius:6px;padding:14px;text-align:left;min-width:0;display:flex;flex-direction:column;gap:6px;}
+#wrp-wave-atlas .aw-cluster[aria-pressed=true] {border-color:var(--atlas-blue);background:var(--atlas-soft);}
+#wrp-wave-atlas .aw-card-top {display:flex;align-items:center;justify-content:space-between;gap:8px;}
+#wrp-wave-atlas .aw-share {font-size:23px;line-height:1.2;font-variant-numeric:tabular-nums;font-weight:500;}
+#wrp-wave-atlas .aw-cname {font-weight:500;line-height:1.4;}
+#wrp-wave-atlas .aw-detail {border-top:1px solid var(--atlas-line);padding-top:21px;}
+#wrp-wave-atlas .aw-detail-grid {display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:20px;}
+#wrp-wave-atlas .aw-legend {display:flex;gap:12px;flex-wrap:wrap;color:var(--atlas-muted);font-size:12px;margin-bottom:15px;align-items:center;}
+#wrp-wave-atlas .aw-swatch {display:inline-block;width:14px;height:9px;vertical-align:middle;margin-right:5px;border-radius:1px;}
+#wrp-wave-atlas .aw-answer {margin:0 0 13px;}
+#wrp-wave-atlas .aw-answer-label {display:flex;justify-content:space-between;gap:10px;font-size:12px;margin-bottom:5px;}
+#wrp-wave-atlas .aw-stack {display:flex;height:13px;background:var(--atlas-track);overflow:hidden;border-radius:2px;}
+#wrp-wave-atlas .aw-stack span {height:100%;}
+#wrp-wave-atlas .aw-harm-row {display:grid;grid-template-columns:62px 1fr;gap:10px;margin:0 0 10px;align-items:center;}
+#wrp-wave-atlas .aw-harm-name {font-size:12px;line-height:1.2;}
+#wrp-wave-atlas .aw-harm-line {display:grid;grid-template-columns:1fr 33px;gap:7px;align-items:center;font-size:11px;margin:2px 0;}
+#wrp-wave-atlas .aw-track {height:7px;background:var(--atlas-track);border-radius:1px;overflow:hidden;}
+#wrp-wave-atlas .aw-fill {height:100%;background:var(--atlas-blue);}
+#wrp-wave-atlas .aw-harm-personal {background:var(--atlas-before);}
+#wrp-wave-atlas details {border-top:1px solid var(--atlas-line);padding-top:15px;margin-top:20px;}
+#wrp-wave-atlas summary {font-weight:500;padding:3px 0;}
+#wrp-wave-atlas details p {margin-top:12px;}
+#wrp-wave-atlas .aw-compare-head {margin:23px 0 20px;display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+#wrp-wave-atlas .aw-vs {display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;}
+#wrp-wave-atlas .aw-frozen-year {font-weight:500;padding:7px 11px;background:var(--atlas-soft);border-radius:5px;}
+#wrp-wave-atlas .aw-compare-key {margin-bottom:10px;}
+#wrp-wave-atlas .aw-pair-grid {display:grid;grid-template-columns:minmax(155px,1.25fr) minmax(160px,2.2fr) 100px;gap:16px;align-items:center;}
+#wrp-wave-atlas .aw-pair-head {font-size:12px;color:var(--atlas-muted);padding:9px 0;}
+#wrp-wave-atlas .aw-pair {border-top:1px solid var(--atlas-line);padding:13px 0;}
+#wrp-wave-atlas .aw-pair-title {line-height:1.3;}
+#wrp-wave-atlas .aw-pair-title small {display:block;color:var(--atlas-muted);font-size:11px;margin-bottom:3px;}
+#wrp-wave-atlas .aw-pair-bar {height:10px;position:relative;background:var(--atlas-track);margin:7px 44px 7px 0;}
+#wrp-wave-atlas .aw-pair-bar span {height:100%;display:block;}
+#wrp-wave-atlas .aw-pair-bar em {position:absolute;top:-4px;left:calc(var(--aw-width) + 7px);font-size:12px;font-style:normal;white-space:nowrap;font-variant-numeric:tabular-nums;}
+#wrp-wave-atlas .aw-delta {text-align:right;font-variant-numeric:tabular-nums;font-weight:500;}
+#wrp-wave-atlas .aw-axis {display:flex;justify-content:space-between;font-size:11px;color:var(--atlas-muted);padding:1px 44px 5px 0;}
+#wrp-wave-atlas .aw-note {font-size:12px;color:var(--atlas-muted);margin-top:13px;}
+#wrp-wave-atlas .aw-matrix-scroll {overflow-x:auto;}
+#wrp-wave-atlas .aw-matrix {border-collapse:separate;border-spacing:3px;min-width:540px;width:100%;font-size:12px;margin-top:15px;table-layout:fixed;}
+#wrp-wave-atlas .aw-matrix th {font-weight:400;color:var(--atlas-muted);padding:7px 5px;line-height:1.35;text-align:left;}
+#wrp-wave-atlas .aw-matrix th:first-child {width:190px;}
+#wrp-wave-atlas .aw-matrix td {position:relative;text-align:center;padding:14px 4px;color:var(--atlas-ink);font-variant-numeric:tabular-nums;}
+#wrp-wave-atlas .aw-matrix td::before {content:"";position:absolute;inset:0;background:var(--atlas-blue);opacity:var(--aw-cell);}
+#wrp-wave-atlas .aw-matrix td span {position:relative;}
+#wrp-wave-atlas .aw-stability {margin:22px 0 0;}
+#wrp-wave-atlas .aw-stab-row {display:grid;grid-template-columns:155px 1fr 50px;gap:15px;align-items:center;margin:13px 0;font-size:12px;}
+#wrp-wave-atlas .aw-stab-track {height:2px;background:var(--atlas-track);position:relative;}
+#wrp-wave-atlas .aw-stab-range {height:4px;background:var(--atlas-mid);position:absolute;top:-1px;left:var(--aw-left);width:var(--aw-range);}
+#wrp-wave-atlas .aw-stab-dot {position:absolute;width:8px;height:8px;border-radius:50%;background:var(--atlas-blue);top:-3px;left:calc(var(--aw-mid) - 4px);}
+#wrp-wave-atlas .aw-footer {margin-top:26px;padding-top:15px;border-top:1px solid var(--atlas-line);color:var(--atlas-muted);font-size:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+#wrp-wave-atlas .aw-footer a {color:var(--atlas-muted);text-underline-offset:3px;}
+@media(max-width:740px) {#wrp-wave-atlas{padding:20px 17px;}#wrp-wave-atlas .aw-cards{grid-template-columns:repeat(2,minmax(0,1fr));}#wrp-wave-atlas .aw-detail-grid{grid-template-columns:1fr;gap:22px;}#wrp-wave-atlas .aw-family{width:100%;}#wrp-wave-atlas .aw-pair-grid{grid-template-columns:minmax(125px,1fr) minmax(145px,1.5fr) 72px;gap:10px;}}
+@media(max-width:490px) {#wrp-wave-atlas h1{font-size:25px;}#wrp-wave-atlas .aw-benchmark{display:block;width:max-content;margin:9px 0 0;}#wrp-wave-atlas .aw-tabs{gap:15px;}#wrp-wave-atlas .aw-year{padding:8px 14px;}#wrp-wave-atlas .aw-pair-grid{grid-template-columns:1fr 72px;gap:5px;}#wrp-wave-atlas .aw-pair-plot{grid-column:1 / -1;grid-row:2;}#wrp-wave-atlas .aw-pair-head{display:none;}#wrp-wave-atlas .aw-pair{margin-bottom:4px;}#wrp-wave-atlas .aw-delta{grid-row:1;grid-column:2;}#wrp-wave-atlas .aw-stab-row{grid-template-columns:118px 1fr 42px;gap:10px;}#wrp-wave-atlas .aw-panel-head{display:block;}#wrp-wave-atlas .aw-harm-name{font-size:12px;}}
+@media(prefers-reduced-motion:no-preference) {#wrp-wave-atlas .aw-fill,#wrp-wave-atlas .aw-pair-bar span {transition:width .2s ease;}}
+
+/* Native page chrome and interaction states. */
+:root{color-scheme:light dark;background:light-dark(#fff,#181818);color:light-dark(#20252b,#f2f3f5)}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+#wrp-wave-atlas .aw-interactive,#wrp-wave-atlas select{cursor:pointer}
+#wrp-wave-atlas button:disabled{cursor:not-allowed}
+#wrp-wave-atlas button:focus-visible,#wrp-wave-atlas select:focus-visible,#wrp-wave-atlas summary:focus-visible{outline:2px solid var(--atlas-blue);outline-offset:3px}
+#wrp-wave-atlas .aw-sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#wrp-wave-atlas .aw-footer-links{display:flex;gap:14px;flex-wrap:wrap}
+#wrp-wave-atlas .aw-method-links{display:flex;gap:14px;flex-wrap:wrap;margin:13px 0 0}
+#wrp-wave-atlas a{color:var(--atlas-blue);text-underline-offset:3px}
+@media(hover:hover){#wrp-wave-atlas .aw-cluster:hover,#wrp-wave-atlas .aw-year:not(:disabled):hover{background:var(--atlas-soft)}}
