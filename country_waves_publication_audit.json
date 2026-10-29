@@ -1,0 +1,330 @@
+{
+  "status": "passed",
+  "date": "2026-10-29",
+  "scope": "Country distances and maps for seven frozen wave models",
+  "save_only": true,
+  "committed": false,
+  "uploaded": false,
+  "numerical": {
+    "status": "passed",
+    "source_checks": 37,
+    "existing_public_files_preserved": 307,
+    "notebooks_preserve_original_cells": true,
+    "notebook_cached_sections_execute": true,
+    "independent_country_and_income_formula_checks": true,
+    "independent_permutation_replay": true,
+    "models": [
+      {
+        "model": "full_2021",
+        "countries": 121,
+        "respondents": 117678,
+        "max_distance_error": 2.220446049250313e-16
+      },
+      {
+        "model": "full_2023",
+        "countries": 142,
+        "respondents": 137460,
+        "max_distance_error": 2.220446049250313e-16
+      },
+      {
+        "model": "full_2025",
+        "countries": 140,
+        "respondents": 134702,
+        "max_distance_error": 2.220446049250313e-16
+      },
+      {
+        "model": "common_worry_2019",
+        "countries": 142,
+        "respondents": 142042,
+        "max_distance_error": 2.7755575615628914e-16
+      },
+      {
+        "model": "common_worry_2021",
+        "countries": 121,
+        "respondents": 121167,
+        "max_distance_error": 2.220446049250313e-16
+      },
+      {
+        "model": "common_worry_2023",
+        "countries": 142,
+        "respondents": 141624,
+        "max_distance_error": 2.7755575615628914e-16
+      },
+      {
+        "model": "common_worry_2025",
+        "countries": 140,
+        "respondents": 138355,
+        "max_distance_error": 2.7755575615628914e-16
+      }
+    ],
+    "original_2023_raw_distance_reproduction": true,
+    "model_fits": 0,
+    "heldout_reassessment": false,
+    "independent_browser_distance_max_error": 2.220446049250313e-16
+  },
+  "browser": {
+    "status": "passed",
+    "offline": true,
+    "cases": [
+      {
+        "family": "full",
+        "year": 2021,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 121
+      },
+      {
+        "family": "full",
+        "year": 2021,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 121
+      },
+      {
+        "family": "full",
+        "year": 2021,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 96
+      },
+      {
+        "family": "full",
+        "year": 2021,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 96
+      },
+      {
+        "family": "full",
+        "year": 2023,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 142
+      },
+      {
+        "family": "full",
+        "year": 2023,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 142
+      },
+      {
+        "family": "full",
+        "year": 2023,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 113
+      },
+      {
+        "family": "full",
+        "year": 2023,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 113
+      },
+      {
+        "family": "full",
+        "year": 2025,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 140
+      },
+      {
+        "family": "full",
+        "year": 2025,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 140
+      },
+      {
+        "family": "full",
+        "year": 2025,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 111
+      },
+      {
+        "family": "full",
+        "year": 2025,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 111
+      },
+      {
+        "family": "common_worry",
+        "year": 2019,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 142
+      },
+      {
+        "family": "common_worry",
+        "year": 2019,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 142
+      },
+      {
+        "family": "common_worry",
+        "year": 2019,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 114
+      },
+      {
+        "family": "common_worry",
+        "year": 2019,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 114
+      },
+      {
+        "family": "common_worry",
+        "year": 2021,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 121
+      },
+      {
+        "family": "common_worry",
+        "year": 2021,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 121
+      },
+      {
+        "family": "common_worry",
+        "year": 2021,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 96
+      },
+      {
+        "family": "common_worry",
+        "year": 2021,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 96
+      },
+      {
+        "family": "common_worry",
+        "year": 2023,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 142
+      },
+      {
+        "family": "common_worry",
+        "year": 2023,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 142
+      },
+      {
+        "family": "common_worry",
+        "year": 2023,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 113
+      },
+      {
+        "family": "common_worry",
+        "year": 2023,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 113
+      },
+      {
+        "family": "common_worry",
+        "year": 2025,
+        "scope": "all",
+        "basis": "responses",
+        "countries": 140
+      },
+      {
+        "family": "common_worry",
+        "year": 2025,
+        "scope": "all",
+        "basis": "clusters",
+        "countries": 140
+      },
+      {
+        "family": "common_worry",
+        "year": 2025,
+        "scope": "development",
+        "basis": "responses",
+        "countries": 111
+      },
+      {
+        "family": "common_worry",
+        "year": 2025,
+        "scope": "development",
+        "basis": "clusters",
+        "countries": 111
+      }
+    ],
+    "errors": [],
+    "screenshots": [
+      "countries-1120.png",
+      "countries-736.png",
+      "countries-390.png",
+      "countries-320.png",
+      "income-2021.png",
+      "overview-2025.png",
+      "countries-dark.png"
+    ],
+    "downloadRows": 141,
+    "deepLinks": true,
+    "keyboard": true,
+    "responsiveWidths": [
+      1120,
+      736,
+      390,
+      320
+    ]
+  },
+  "final_browser": {
+    "status": "passed",
+    "httpStatus": 200,
+    "symmetryError": 0,
+    "denominatorChange": 0,
+    "saturation": true,
+    "fullCountryNames": true,
+    "tooltip": true,
+    "errors": []
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed": [
+      "desktop distance map and ranks",
+      "390px mobile layout",
+      "2021 income map and group matrix",
+      "2025 cluster overview and 2D colour key",
+      "dark mode"
+    ],
+    "table_behavior": "Tables scroll horizontally on narrow screens; the page itself does not overflow."
+  },
+  "local_link_checks": 36,
+  "public_aggregate_only": true,
+  "implementation_notebooks_sha256": {
+    "research_notebooks/wrp_2023_clustering_and_cluster_descriptions.ipynb": "20ceaf7f717f4a377e9f41bf54ddf0c0093ea6859d4193fee255abe202a5b3cd",
+    "research_notebooks/wrp_2025_clustering_and_cluster_descriptions.ipynb": "404f464a0abe5755bc4041b5dc9c0321a403e65e3e4bedc19721d05776854ffd",
+    "research_notebooks/wrp_2021_clustering_and_cluster_descriptions.ipynb": "5bd2a4c4ad1c8cddb458ff409606e598ab50cc7aaa541d32ca60bcf416387ddc",
+    "research_notebooks/wrp_2019_clustering_and_cluster_descriptions.ipynb": "86c6c136560da2e790943ca1e31721501ea34d4941bbec12629182d49bc029f5"
+  },
+  "files_sha256": {
+    "docs/countries-by-wave.html": "427e04d012a727fde45811342829e66fb97c92532c5959ab00a0a0fd0eb717a9",
+    "docs/country-waves.css": "f48d7852b03010c8b2f65b465fc75ad0295e199e2932a9aaabde35685e9147c9",
+    "docs/country-waves.js": "95826727a74f8c97d7cf484aa79869e4b46239f10f11aaa271d8b0bd822cf922",
+    "docs/data/country-waves.json": "4626078c74c9bc8a7c0d9e3c70836419fa94980c0bf415ca80e713930f95f5a2",
+    "docs/data/country-waves.js": "21139de20001795bae43391856d88d98f8643bec165a243e0774b2b0269d1057",
+    "docs/data/country-waves.sources.json": "224c46ced202f7eddd8a63fe54bef0743be3e7f3d7fb361dd153b4277d34447f",
+    "docs/data/country-geography.js": "00859006bd2d8274ee7b04546875088a9d1dbf345d80d12aa283bd10253582f0",
+    "scripts/export_country_wave_data.py": "26fc92afa1b7a5a2f7397c0020b84aa5bf6dafd15e8b8bf90c2df9a96d09fe9d",
+    "research/COUNTRY_WAVES.md": "537e8b52373b0c6bc1a20245a3dfd34d43cf6c4b53b5a16c611cd150d54c1316"
+  },
+  "geometry_source_sha256": {
+    ".week05_build/cartography_assets/world-countries-110m.mjs": "27cdb506ced81110995ebec0e6a127f5626dd55fd0e063ba3f95a3e6e25f8e18",
+    ".week05_build/country_map_geometry.json": "c4a470db8833367c68cbe3ffb4758775a5453ef94f0a64d072e72a53d6749b20"
+  }
+}

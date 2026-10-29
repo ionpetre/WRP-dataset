@@ -1,0 +1,23 @@
+{
+  "exported": "2026-10-29",
+  "aggregate_only": true,
+  "model_refits": 0,
+  "heldout_reassessment": false,
+  "source_files_sha256": {
+    "course_artifacts/wrp_country_maps_all_waves/index.json": "e3a8e57463a6a12e3ecca75092802d1139b88adda13edf737e0fc5921d586498",
+    "course_artifacts/wrp_country_maps_all_waves/99a9713ccd5d009d/full_2021/manifest.json": "5b6c7c947e46bde01173faae71a213cd8ea26d847df00f6ffbec7cc2049f8f6e",
+    "course_artifacts/wrp_country_maps_all_waves/99a9713ccd5d009d/full_2021/country_aggregates.json": "65800917d14d1e8345bc2aee63446f60e765b56c9ef1d66d100401deee578cc8",
+    "course_artifacts/wrp_country_maps_all_waves/b9f71a80459356a8/full_2023/manifest.json": "7830fd9daa83b6c7a3a3dfa4c2ac7990d4dcba94b9f8bb50c706ea85af793e2f",
+    "course_artifacts/wrp_country_maps_all_waves/b9f71a80459356a8/full_2023/country_aggregates.json": "bec4830d05f19e808fb4b2493d466fab5425e54da93841b3dac54234a067598c",
+    "course_artifacts/wrp_country_maps_all_waves/fec582bcce7350c6/full_2025/manifest.json": "55622301be407f14f580a4300df3932cd3b21b2ca031010dd66228bed7270ce3",
+    "course_artifacts/wrp_country_maps_all_waves/fec582bcce7350c6/full_2025/country_aggregates.json": "6ab418c928ea540d23dbf6d73f87f798a84d37bf6634e16c856d2a2979b59d05",
+    "course_artifacts/wrp_country_maps_all_waves/e7d1fc2f9eeb68a9/common_worry_2019/manifest.json": "cb83dcdf2a84b0161510fd00664b27c7b4b008f5ed07ad3d432f86852f2414c9",
+    "course_artifacts/wrp_country_maps_all_waves/e7d1fc2f9eeb68a9/common_worry_2019/country_aggregates.json": "e838cfdfb330c948c014685a5c246a539d65c7ec6c70db11d7dcda9d99edb3b7",
+    "course_artifacts/wrp_country_maps_all_waves/58f480e5706afdef/common_worry_2021/manifest.json": "4b43bea8963995e8b8ee8b43232bcfa84ae957c44b4d1a8b74f2b2e098441165",
+    "course_artifacts/wrp_country_maps_all_waves/58f480e5706afdef/common_worry_2021/country_aggregates.json": "f7404d157f0867150f51599db5b2aaf284d73539a5ade4c0e458739e1699a80f",
+    "course_artifacts/wrp_country_maps_all_waves/211ff9e8d818d6e3/common_worry_2023/manifest.json": "86963078a66a96caa526d1d3e881dfb03432cc2dacf73838e586b2baac55621c",
+    "course_artifacts/wrp_country_maps_all_waves/211ff9e8d818d6e3/common_worry_2023/country_aggregates.json": "e67e4d8a370c6a395591236121a6787e690744cd8ba08bbcf7ebfd10ab20d181",
+    "course_artifacts/wrp_country_maps_all_waves/c04f16c4d392727c/common_worry_2025/manifest.json": "544a05d75697e032d84e2061bd20e8400dbbdeedc6816fb2f63537f4d292db71",
+    "course_artifacts/wrp_country_maps_all_waves/c04f16c4d392727c/common_worry_2025/country_aggregates.json": "7a72327b588eda086512c2e9d94e48a3aa9032a0846e4c5df3eb3fa5bfe66172"
+  }
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Compare countries by frozen cluster proportions and original World Risk Poll answers in 2019, 2021, 2023 and 2025.">
+<title>Countries across waves · The Worry–Harm Atlas</title>
+<link rel="stylesheet" href="./wave-atlas.css?v=20261029"><link rel="stylesheet" href="./country-waves.css?v=20261029">
+<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/country-waves.js" defer></script><script src="./country-waves.js?v=20261029" defer></script>
+</head><body><main id="wrp-wave-atlas">
+<div class="aw-brand">World Risk Poll · 2019–2025</div>
+<p class="cw-back"><a href="./index.html">← The Worry–Harm Atlas</a></p>
+<h1>Countries across waves <span class="aw-benchmark">2025 reference</span></h1>
+<p class="aw-intro">Compare the mix of clusters, compare the original answers, or explore country income patterns.</p>
+<div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Country analysis">
+<button class="aw-tab" type="button" role="tab" id="cw-tab-country" aria-selected="true" aria-controls="cw-country-panel">Country distances</button>
+<button class="aw-tab" type="button" role="tab" id="cw-tab-income" aria-selected="false" aria-controls="cw-income-panel">Income patterns</button>
+</div><label class="aw-family"><span>Questions</span><select id="cw-family"><option value="full">Worry + harm</option><option value="common_worry">Worry only</option></select></label></div>
+<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year" type="button" data-year="2019" disabled aria-pressed="false">2019</button><button class="aw-year" type="button" data-year="2021" aria-pressed="false">2021</button><button class="aw-year" type="button" data-year="2023" aria-pressed="false">2023</button><button class="aw-year" type="button" data-year="2025" aria-pressed="true">2025</button></div>
+<p id="cw-population" class="aw-note"></p>
+<div class="cw-controls">
+<label>Compare countries using<select id="cw-basis"><option value="responses">Original answers</option><option value="clusters">Cluster proportions</option></select></label>
+<label id="cw-component-label">Answers to compare<select id="cw-component"><option value="responses">Overall worry + harm</option><option value="worry">Worry</option><option value="personal">Personal harm</option><option value="known">Known-person harm</option></select></label>
+<label>Country set<select id="cw-scope"><option value="all">All observed countries</option><option value="development">Development countries</option></select></label>
+<label>Selected country<select id="cw-country"></select></label>
+</div>
+<div class="cw-map-head"><div><h2 id="cw-map-title"></h2><p class="aw-small aw-muted" id="cw-map-subtitle"></p></div><label>Map colours<select id="cw-map-mode"><option value="distance">Distance from selected country</option><option value="overview">Cluster similarity overview</option><option value="income">Country income group</option></select></label></div>
+<div class="cw-map-wrap"><svg id="cw-map" role="img" aria-labelledby="cw-map-title cw-map-subtitle"></svg><div id="cw-tooltip" role="status" hidden></div></div>
+<div id="cw-legend" class="cw-legend"></div>
+<p class="aw-note" id="cw-map-note"></p>
+<p class="aw-note" id="cw-status" role="status" aria-live="polite"></p>
+<section id="cw-country-panel" role="tabpanel" aria-labelledby="cw-tab-country">
+<div class="cw-evidence" id="cw-comparison-stats"></div>
+<div class="aw-panel-head"><div><h2 id="cw-nearest-title"></h2><p class="aw-small aw-muted" id="cw-nearest-note"></p></div><label>Show<select id="cw-peers"><option value="10">10 nearest</option><option value="20">20 nearest</option><option value="all">All countries</option></select></label></div>
+<div class="cw-table-scroll"><table id="cw-neighbours"></table></div>
+<p id="cw-bootstrap" class="aw-note"></p>
+<details><summary>Cluster proportions in the selected country</summary><div id="cw-shares"></div><p class="aw-note">These IDs and definitions belong to the selected wave model. Its centres were frozen before the original held-out assessment.</p></details>
+</section>
+<section id="cw-income-panel" role="tabpanel" aria-labelledby="cw-tab-income" hidden>
+<div class="cw-evidence" id="cw-income-stats"></div>
+<h2>Average distance between income groups</h2>
+<p class="aw-small aw-muted">Every distinct country pair counts once. Diagonal cells compare different countries in the same income group.</p>
+<div class="cw-table-scroll"><table id="cw-income-table"></table></div>
+<p class="aw-note" id="cw-income-note"></p>
+<details><summary>Check the association by permuting country labels</summary><div id="cw-permutation"></div></details>
+</section>
+<details><summary>How to read these comparisons</summary><div id="cw-method"></div></details>
+<div class="aw-footer"><span>Frozen assignments · Survey weights within countries · Aggregate results</span><span class="aw-footer-links"><a href="./methods.html#country-waves">Methods</a><a href="./data/country-waves.json" download>Download country summaries</a><button id="cw-download" type="button">Download distance matrix</button></span><span>Original 2023 pages: <a href="./countries.html">Country comparisons</a> · <a href="./country-income.html">Income patterns</a></span></div>
+<noscript>This page needs JavaScript. Download the <a href="./data/country-waves.json">aggregate country results</a> or read the <a href="./methods.html#country-waves">methods</a>.</noscript>
+</main></body></html>

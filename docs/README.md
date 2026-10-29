@@ -35,3 +35,9 @@ Original-response distance retains worry 58.38%, personal harm 20.81% and known-
 The display calibration constants are unchanged: overall original responses 0.1550977480973838; cluster proportions 0.2218094853108838; worry 0.2019268502025546; personal harm 0.0500960004811531; known-person harm 0.0872275415556315. Raw distance divided by the corresponding reference gives the displayed ratio. Numbers are uncapped; colours saturate at two. Changing country or scope never changes the denominator. These ratios are not percentages of societal similarity.
 
 GitHub Pages publishes this directory. New interactive charts and local methods work offline; external source links require internet access.
+
+## Country comparisons across waves
+
+`countries-by-wave.html` extends both country-distance and income maps to all seven models. It defaults to the frozen 2025 full model. The same page has country and income tabs; all controls can be encoded in the URL. `country-waves.js` reconstructs exact Hellinger and marginal total-variation matrices from the safe aggregates in `data/country-waves.json`. `data/country-waves.js` provides offline loading, and `data/country-geography.js` contains existing Natural Earth geometry and source-region unions for each wave. Country and scope changes never recalibrate the new fixed 2025 distance references. Overview colours are independently projected for each model. The archived 2023 wrappers and their earlier constants remain unchanged.
+
+Use `python scripts/export_country_wave_data.py` to validate the public JSON and rebuild its script. With `--source-root`, the curator reads checked saved country aggregates. See `research/COUNTRY_WAVES.md` and `country_waves_publication_audit.json` for methods, results and verification. No survey rows are read by the public exporter or supplied to the website.

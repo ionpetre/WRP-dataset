@@ -28,3 +28,7 @@ docs/data/*
 !docs/data/wave-results.json
 !docs/data/wave-results.js
 !docs/data/wave-results.sources.json
+!docs/data/country-waves.json
+!docs/data/country-waves.js
+!docs/data/country-waves.sources.json
+!docs/data/country-geography.js

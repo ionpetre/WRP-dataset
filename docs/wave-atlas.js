@@ -57,6 +57,10 @@
   if(!years.includes(state.earlier))state.earlier=2023;
   el('aw-earlier').innerHTML=years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');el('aw-earlier').value=state.earlier;
   explore();compare();
+  const countryQuery=new URLSearchParams({inputs:state.family,wave:state.year});
+  el('aw-country-link').href='./countries-by-wave.html?'+countryQuery;
+  countryQuery.set('view','income');
+  el('aw-income-link').href='./countries-by-wave.html?'+countryQuery;
  }
  root.querySelectorAll('[data-year]').forEach(b=>b.addEventListener('click',()=>{state.year=Number(b.dataset.year);state.cluster=0;render();saveState();}));
  ['explore','compare'].forEach(v=>el('aw-tab-'+v).addEventListener('click',()=>{if(v==='compare'&&state.view!=='compare'&&state.year!==2025)state.earlier=state.year;state.view=v;render();saveState();}));

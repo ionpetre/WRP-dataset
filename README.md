@@ -55,3 +55,7 @@ The original [T5 results](research/T5_RESULTS.md), [mathematical methods](resear
 From this repository root, run `python scripts/export_wave_atlas_data.py` to rebuild the browser data from the public aggregate JSON. To export fresh copies of the pinned aggregate sources, use `python scripts/export_wave_atlas_data.py --source-root /path/to/analysis/workspace`.
 
 GitHub Pages publishes `docs/` from `main`. The new explorer works offline, including its data, comparisons and local methods page. Supporting external repository links need internet access. The editable historical map fragments remain in `docs/`; their rebuilding instructions are in [the website guide](docs/README.md).
+
+## Country maps in all waves
+
+The [country explorer](docs/countries-by-wave.html) now covers full worry–harm models in 2021, 2023 and 2025, and five-common-worry models in 2019, 2021, 2023 and 2025. Compare exact country distances, nearest countries, approximate cluster-similarity colours and source-wave income groups. Distance colours use fixed 2025 references; the original 2023 pages retain their original calibration. Read [the country methods and results](research/COUNTRY_WAVES.md).
