@@ -1,0 +1,16 @@
+{
+  "notebook_default_jupyter_run": "passed with KMeans.fit blocked",
+  "optional_rule_search": "all ten 2025 selected formulas and scores reproduced exhaustively",
+  "optional_fitting": "synthetic-data fitting and confirmation passed",
+  "new_scientific_fits": 0,
+  "heldout_risk_responses_used": false,
+  "source_paper_conflicts": [],
+  "overleaf_files_to_update": 35,
+  "web_export": "manifest and final-model checks passed",
+  "historical_pages": "outside docs publication root; exact source retained",
+  "publication": "local files only; owner uploads",
+  "overleaf_update": "completed; all 36 final live source hashes verified",
+  "pdf_checks": "main 18 pages and supplement 77 pages compiled; no undefined references, duplicate labels or overfull boxes",
+  "all_included_float_body_references": "8 main and 69 supplementary figures/tables verified",
+  "overleaf_files_updated": 36
+}

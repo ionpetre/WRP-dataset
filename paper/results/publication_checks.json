@@ -1,0 +1,17 @@
+{
+  "main": {
+    "floats": 8,
+    "unreferenced": [],
+    "undefined": [],
+    "duplicate_labels": []
+  },
+  "supplementary": {
+    "floats": 69,
+    "unreferenced": [],
+    "undefined": [],
+    "duplicate_labels": []
+  },
+  "website_local_links": "passed",
+  "notebook_saved_execution": "passed",
+  "historical_site_exact_snapshot": "passed"
+}

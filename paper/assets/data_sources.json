@@ -1,0 +1,81 @@
+{
+  "survey_repository": "https://github.com/lrfoundation/world_risk_poll_data",
+  "release_commit": "90449aaf3e6286de1240240d2f8fc8a646c5290fb212",
+  "note": "Obtain original survey files separately. This publication supplies global pattern aggregates, model centres and country aggregates, without respondent identifiers or respondent-linked weights/assignments.",
+  "feature_order": {
+    "full": "six worries, seven personal-harm indicators, seven known-person-harm indicators",
+    "common_worry": "food, water, crime, severe weather, mental health"
+  },
+  "coding": {
+    "worry": "source 1/2/3 -> 2/1/0 (very/somewhat/not)",
+    "harm": "1 personal only -> (1,0); 2 known person only -> (0,1); 3 both -> (1,1); 4 neither -> (0,0); missing/98/99 stay missing"
+  },
+  "original_source_manifests": {
+    "week9": {
+      "years": {
+        "2021": {
+          "source_data": "23_wrp/WRP_2021.parquet",
+          "source_data_sha256": "197f2c44b14bacbc6f52ae02572e1f733bdf5f3dfa3a230710c3bc64bd7463f7",
+          "source_csv": "23_wrp/WRP_2021.csv",
+          "source_csv_sha256": "572f32bb7ab165270f67b063442c21c4388bb5fc77be3a0c3504076dc2d5ad61",
+          "development_rows": 99870,
+          "development_countries": 96,
+          "eligible_rows": 93548,
+          "excluded_rows": 6322,
+          "selected_k": 4,
+          "selected_trial": "k4_7f2464461a4d5a5a"
+        },
+        "2025": {
+          "source_data": "23_wrp/WRP_2025.parquet",
+          "source_data_sha256": "07b4632826e13ec1975ec977b0e057b528547c6f7805c0838abc1586b78da56b",
+          "source_csv": "23_wrp/WRP_2025.csv",
+          "source_csv_sha256": "060331b39ced734dd5bf87b824950a07f2acc44d55d6db03c9c63d589c3a0553",
+          "development_rows": 114399,
+          "development_countries": 111,
+          "eligible_rows": 107507,
+          "excluded_rows": 6892,
+          "selected_k": 6,
+          "selected_trial": "k6_507c5dc4e2855ef4"
+        },
+        "2023": {
+          "source_data": "course_artifacts/week03_development_data.parquet",
+          "source_data_sha256": "0021476a9548e3f19aa496e3c24d8c44942d665b12d7d0923b00dc729987ffb0",
+          "development_rows": 116820,
+          "development_countries": 113,
+          "eligible_rows": 109488,
+          "excluded_rows": 7332,
+          "selected_k": 5,
+          "selected_trial": "k5_3259ff3d7dbb806a"
+        }
+      },
+      "input_files": {
+        "week9_country_split_2021.csv": "7248cc8f0aa4b4785f9f426169127545ec58fac600e96b68b0d36af67f028168",
+        "week9_2025_development.csv.gz": "86bec1c6c55366b086974fdc04ebf02ee068b4fa584bfef50e113206682110fd",
+        "week9_country_split_2025.csv": "6f805a02e04c48a217551e2d4dc7f2b03aa733bdb8a08fca84886a9e22387090",
+        "week9_2021_development.csv.gz": "d7d66c4dbb664fd7678103f944fa8d8aa8e9744e577110e036ee07a61bf8be31",
+        "week9_2023_development.csv.gz": "50359235d064b4a4b13fa474deb7d339f199989511517171046c26f17b61057c",
+        "week9_country_split_2023.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457"
+      }
+    },
+    "week10": {
+      "years": {
+        "2025": {
+          "development_countries": 111,
+          "selected_trial": "k3_46f07b8440d88f53"
+        },
+        "2023": {
+          "development_countries": 113,
+          "selected_trial": "k3_5d823d119f29e3b1"
+        },
+        "2021": {
+          "development_countries": 96,
+          "selected_trial": "k3_954cad7dc75698bc"
+        },
+        "2019": {
+          "development_countries": 114,
+          "selected_trial": "k3_e3f2e3465c263ff4"
+        }
+      }
+    }
+  }
+}

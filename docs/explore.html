@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The final World Risk Poll clustering results: recurring seven-cluster worry–harm structure and an identical later-wave worry-only partition, with their limits.">
+<title>Recurring clusters · The Worry–Harm Atlas</title>
+<link rel="stylesheet" href="./wave-atlas.css?v=20261118">
+<script src="./data/paper-results.js?v=20261118" defer></script><script src="./wave-atlas.js?v=20261118" defer></script>
+</head><body><main id="wrp-wave-atlas">
+<div class="aw-brand">World Risk Poll · 2019–2025</div>
+<p class="aw-small"><a href="./index.html">Overview</a> · <a href="./about.html">Reading the survey</a></p>
+<h1>Explore the clusters <span class="aw-benchmark">Final cross-wave results</span></h1>
+<p class="aw-intro">Independently fitted clusters, compared on the same reference answers. We use 2025 for reporting and correspondence.</p>
+<section class="aw-findings" aria-label="The main findings">
+<p><strong>2021–2025, worry + harm:</strong> seven clusters agree closely. Four form a stronger recurring core, covering 69.90% of the 2025 reference weight. Traffic, crime and weather divisions vary more under refitting.</p>
+<p><strong>2021–2025, worry only:</strong> the selected three-cluster point partitions are identical on all 243 answer patterns. Between 92.12% and 98.00% of cross-refit pairs are also identical.</p>
+<p><strong>Including 2019:</strong> we did not establish a comparably robust shared partition. Its independent clustering remains a separate comparison.</p>
+</section>
+<div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Explore the final clusters">
+<button class="aw-tab aw-interactive" id="aw-tab-explore" type="button" role="tab" aria-selected="true" aria-controls="aw-explore">Explore the clusters</button>
+<button class="aw-tab aw-interactive" id="aw-tab-compare" type="button" role="tab" aria-selected="false" aria-controls="aw-compare">Compare with 2025</button>
+</div><label class="aw-family"><span class="aw-small aw-muted">Questions</span><select id="aw-family" aria-label="Clustering inputs"><option value="full">Worry + harm · seven clusters</option><option value="common_worry">Worry only · three clusters</option></select></label></div>
+<section id="aw-explore" role="tabpanel" aria-labelledby="aw-tab-explore">
+<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year aw-interactive" data-year="2019" type="button" disabled aria-pressed="false">2019</button><button class="aw-year aw-interactive" data-year="2021" type="button" aria-pressed="false">2021</button><button class="aw-year aw-interactive" data-year="2023" type="button" aria-pressed="false">2023</button><button class="aw-year aw-interactive" data-year="2025" type="button" aria-pressed="true">2025</button></div>
+<p id="aw-availability" class="aw-small aw-muted aw-availability"></p>
+<div class="aw-panel-head"><div><h2 id="aw-model-title"></h2><p class="aw-muted aw-small" id="aw-model-pop"></p></div><span class="aw-muted aw-small">Select a cluster to inspect its answers and rule</span></div>
+<div id="aw-clusters" class="aw-cards" aria-label="Clusters in the selected wave"></div>
+<section id="aw-detail" class="aw-detail" aria-live="polite"></section>
+<details><summary class="aw-interactive">How these models were selected</summary><p class="aw-muted" id="aw-method"></p><p class="aw-muted aw-small">Stored numeric IDs remain local. Correspondence to 2025 uses maximum weighted overlap on the same 2025 reference respondents.</p><p><a href="./methods.html">Methods and data</a></p></details>
+</section>
+<section id="aw-compare" role="tabpanel" aria-labelledby="aw-tab-compare" hidden>
+<div class="aw-compare-head"><div><h2>Do the fitted cluster definitions recur?</h2><p class="aw-muted">Apply both independently fitted models to the same 2025 reference answers.</p><div class="aw-vs"><label class="aw-small aw-muted" for="aw-earlier">Earlier wave</label><select id="aw-earlier" aria-label="Earlier comparison wave"></select><span class="aw-muted">compared with</span><span class="aw-frozen-year">2025</span></div></div></div>
+<p id="aw-point" class="aw-point"></p>
+<p class="aw-muted" id="aw-overlap-note"></p><div class="aw-matrix-scroll" id="aw-matrix"></div>
+<div id="aw-stability" class="aw-stability"></div>
+<p class="aw-note">The dots are median ARIs; ranges are the 10th–90th percentiles. Fifty original confirmation refits per wave give 1,225 within-wave pairs and 2,500 cross-wave pairs. These conditional, dependent distributions describe fitting variation, not confidence intervals. ARI uses respondent counts; overlap uses country/survey weights.</p>
+<details id="aw-frequency-details"><summary class="aw-interactive">How common are the same fixed 2025 definitions?</summary>
+<p class="aw-muted" id="aw-prevalence-method"></p><div class="aw-legend aw-compare-key" id="aw-compare-key"></div><div id="aw-pairs" aria-live="polite"></div><p class="aw-note" id="aw-compare-note"></p>
+</details></section>
+<div class="aw-footer"><span>Complete answers · Equal country influence · Development evidence</span><span class="aw-footer-links"><a href="./methods.html">Methods</a><a href="./data/paper-results.json" download>Aggregate data</a><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_cross_wave_clustering.ipynb">Paper companion notebook</a></span><span><a href="./countries-by-wave.html" id="aw-country-link">Country comparisons</a> · <a href="./countries-by-wave.html?view=income" id="aw-income-link">Income patterns</a></span></div>
+<noscript>This explorer needs JavaScript. Read the <a href="./methods.html">methods and results</a> or download the <a href="./data/paper-results.json">aggregate data</a>.</noscript></main></body></html>

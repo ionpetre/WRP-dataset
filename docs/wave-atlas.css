@@ -92,3 +92,41 @@ body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",
 #wrp-wave-atlas .aw-method-links{display:flex;gap:14px;flex-wrap:wrap;margin:13px 0 0}
 #wrp-wave-atlas a{color:var(--atlas-blue);text-underline-offset:3px}
 @media(hover:hover){#wrp-wave-atlas .aw-cluster:hover,#wrp-wave-atlas .aw-year:not(:disabled):hover{background:var(--atlas-soft)}}
+#wrp-wave-atlas .aw-findings {border-block:1px solid var(--atlas-line);padding:17px 0 6px;margin:20px 0 23px;}
+#wrp-wave-atlas .aw-findings p {max-width:95ch;}
+#wrp-wave-atlas .aw-point {font-size:16px;color:var(--atlas-blue);padding:12px 0;}
+#wrp-wave-atlas .aw-rule {border-top:1px solid var(--atlas-line);padding-top:18px;margin-top:20px;}
+#wrp-wave-atlas .aw-rule-line {font-size:16px;font-weight:500;}
+#wrp-wave-atlas .aw-rule-scores {display:flex;gap:34px;margin:12px 0 16px;flex-wrap:wrap;}
+#wrp-wave-atlas .aw-rule-scores dt {color:var(--atlas-muted);font-size:12px;}
+#wrp-wave-atlas .aw-rule-scores dd {margin:2px 0 0;font-size:18px;}
+#wrp-wave-atlas.aw-overview {max-width:960px;padding-top:24px;}
+#wrp-wave-atlas .aw-simple-nav {display:flex;gap:19px;flex-wrap:wrap;border-bottom:1px solid var(--atlas-line);padding-bottom:17px;margin-bottom:32px;font-size:13px;}
+#wrp-wave-atlas .aw-simple-nav [aria-current="page"] {font-weight:650;text-decoration:none;}
+#wrp-wave-atlas.aw-overview h1 {font-size:clamp(31px,4.7vw,45px);max-width:23ch;line-height:1.13;letter-spacing:-1.1px;margin:16px 0 22px;}
+#wrp-wave-atlas .aw-lead {font-size:19px;line-height:1.6;max-width:67ch;margin-bottom:30px;}
+#wrp-wave-atlas .aw-reading-section {border-top:1px solid var(--atlas-line);padding-top:24px;margin:28px 0 36px;}
+#wrp-wave-atlas .aw-reading-section h2 {font-size:25px;margin-bottom:16px;}
+#wrp-wave-atlas .aw-reading-section p {font-size:16px;line-height:1.72;max-width:78ch;margin-bottom:16px;}
+#wrp-wave-atlas .aw-pattern-list {margin:22px 0;}
+#wrp-wave-atlas .aw-pattern-list>div {display:grid;grid-template-columns:230px 1fr;gap:24px;border-bottom:1px solid var(--atlas-line);padding:18px 0;}
+#wrp-wave-atlas .aw-pattern-list dt {font-size:17px;font-weight:600;color:var(--atlas-blue);}
+#wrp-wave-atlas .aw-pattern-list dd {font-size:15px;margin:0;line-height:1.65;}
+#wrp-wave-atlas .aw-simple-chart {max-width:650px;margin:22px 0 24px;}
+#wrp-wave-atlas .aw-simple-chart h3 {font-size:16px;font-weight:600;margin:22px 0 12px;}
+#wrp-wave-atlas .aw-simple-bar {height:18px;margin:11px 58px 11px 0;position:relative;background:var(--atlas-track);}
+#wrp-wave-atlas .aw-simple-bar span {display:block;height:100%;}
+#wrp-wave-atlas .aw-simple-bar strong {position:absolute;left:calc(100% + 10px);top:-3px;font-weight:500;}
+#wrp-wave-atlas .aw-reading-section .aw-note {font-size:12px;line-height:1.6;margin-top:20px;}
+@media(max-width:650px){#wrp-wave-atlas .aw-pattern-list>div{grid-template-columns:1fr;gap:7px;}#wrp-wave-atlas .aw-simple-nav{gap:12px;}#wrp-wave-atlas.aw-overview{padding:20px 18px;}#wrp-wave-atlas .aw-lead{font-size:18px;}}
+
+#wrp-wave-atlas .aw-overview-answer {background:var(--atlas-soft);border-left:3px solid var(--atlas-blue);padding:17px 20px;font-size:16px;line-height:1.7;margin:0 0 30px;}
+
+/* Introduce the survey before the analysis. */
+#wrp-wave-atlas .aw-wrp-intro {border-left:4px solid var(--atlas-blue);padding-left:1.4rem}
+#wrp-wave-atlas .aw-wrp-facts {display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.4rem 0}
+#wrp-wave-atlas .aw-wrp-facts div {padding:1rem;background:#eef5f8;border-radius:8px}
+#wrp-wave-atlas .aw-wrp-facts strong,#wrp-wave-atlas .aw-wrp-facts span {display:block}
+#wrp-wave-atlas .aw-wrp-facts strong {font-size:1.12rem;color:#164c65;margin-bottom:.35rem}
+#wrp-wave-atlas .aw-wrp-facts span {font-size:.9rem}
+@media(max-width:650px){#wrp-wave-atlas .aw-wrp-facts{grid-template-columns:1fr}#wrp-wave-atlas .aw-wrp-intro{padding-left:1rem}}

@@ -1,36 +1,43 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Explore independently selected World Risk Poll clusters across 2019–2025 and compare earlier waves with fixed 2025 definitions.">
-<title>All waves · The Worry–Harm Atlas</title>
-<link rel="stylesheet" href="./wave-atlas.css?v=20261029">
-<script src="./data/wave-results.js?v=20261029" defer></script><script src="./wave-atlas.js?v=20261029" defer></script>
-</head><body><main id="wrp-wave-atlas">
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="What international survey answers reveal about recurring combinations of worry and harmful experiences, and how those patterns compare over time.">
+<title>The Worry–Harm Atlas · What the survey tells us</title><link rel="stylesheet" href="./wave-atlas.css?v=20261118"></head><body><main id="wrp-wave-atlas" class="aw-overview">
+<nav class="aw-simple-nav" aria-label="Main navigation"><a href="./index.html" aria-current="page">Overview</a><a href="./about.html">Reading the survey</a><a href="./explore.html">Explore the clusters</a><a href="./countries-by-wave.html">Compare countries</a><a href="./methods.html">Methods and code</a></nav>
 <div class="aw-brand">World Risk Poll · 2019–2025</div>
-<h1>The Worry–Harm Atlas <span class="aw-benchmark">2025 benchmark</span></h1>
-<p class="aw-intro">Explore the clusters in each survey wave, then compare earlier waves with 2025.</p>
-<div class="aw-top">
- <div class="aw-tabs" role="tablist" aria-label="Explore the waves">
-  <button class="aw-tab aw-interactive" id="aw-tab-explore" type="button" role="tab" aria-selected="true" aria-controls="aw-explore">Explore a wave</button>
-  <button class="aw-tab aw-interactive" id="aw-tab-compare" type="button" role="tab" aria-selected="false" aria-controls="aw-compare">Compare with 2025</button>
- </div>
- <label class="aw-family"><span class="aw-small aw-muted">Questions</span><select id="aw-family" aria-label="Clustering inputs"><option value="full">Worry + harm</option><option value="common_worry">Worry only</option></select></label>
-</div>
-<section id="aw-explore" role="tabpanel" aria-labelledby="aw-tab-explore">
- <div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year aw-interactive" data-year="2019" type="button" disabled aria-pressed="false">2019</button><button class="aw-year aw-interactive" data-year="2021" type="button" aria-pressed="false">2021</button><button class="aw-year aw-interactive" data-year="2023" type="button" aria-pressed="false">2023</button><button class="aw-year aw-interactive" data-year="2025" type="button" aria-pressed="true">2025</button></div>
- <p id="aw-availability" class="aw-small aw-muted aw-availability"></p>
- <div class="aw-panel-head"><div><h2 id="aw-model-title"></h2><p class="aw-muted aw-small" id="aw-model-pop"></p></div><span class="aw-muted aw-small">Select a cluster to inspect its answers</span></div>
- <div id="aw-clusters" class="aw-cards" aria-label="Clusters in the selected wave"></div>
- <section id="aw-detail" class="aw-detail" aria-live="polite"></section>
- <details><summary class="aw-interactive">How this wave was analysed</summary><p class="aw-muted" id="aw-method"></p><p class="aw-muted aw-small">Cluster IDs belong to this model. The same ID in another wave need not describe the same people or answers.</p><p class="aw-method-links"><a href="./methods.html">Methods and data</a><a href="./2023-clusters.html">Detailed 2023 WARM-5 results</a></p></details>
-</section>
-<section id="aw-compare" role="tabpanel" aria-labelledby="aw-tab-compare" hidden>
- <div class="aw-compare-head"><div><h2>How common are the same clusters?</h2><p class="aw-muted">Keep the 2025 definitions fixed and compare their shares.</p><div class="aw-vs"><label class="aw-small aw-muted" for="aw-earlier">Earlier wave</label><select id="aw-earlier" aria-label="Earlier comparison wave"></select><span class="aw-muted">compared with</span><span class="aw-frozen-year">2025</span></div></div></div>
- <div class="aw-legend aw-compare-key" id="aw-compare-key"></div>
- <div id="aw-pairs" aria-live="polite"></div>
- <p class="aw-note" id="aw-compare-note"></p>
- <details id="aw-definition-details"><summary class="aw-interactive">Do the cluster definitions also change?</summary><p class="aw-muted" id="aw-overlap-note"></p><div class="aw-matrix-scroll" id="aw-matrix"></div><div id="aw-stability" class="aw-stability"></div><p class="aw-note">The overlap table compares the original frozen models with country/survey weights. ARI uses respondent counts. Its ranges come from repeated fits on the same country frame and show fitting variation, not confidence intervals.</p></details>
- <details><summary class="aw-interactive">How are these shares compared?</summary><p class="aw-muted" id="aw-prevalence-method"></p></details>
-</section>
-<div class="aw-footer"><span>Complete answers · Equal country influence · Aggregate results</span><span class="aw-footer-links"><a href="./methods.html">Methods</a><a href="./data/wave-results.json" download>Download aggregate data</a><a href="https://github.com/ionpetre/WRP-dataset">Research repository</a></span><span><a href="./countries-by-wave.html" id="aw-country-link">Country comparisons · all waves</a> · <a href="./countries-by-wave.html?view=income" id="aw-income-link">Income patterns · all waves</a></span></div>
-<noscript>This explorer needs JavaScript. The aggregate data and methods are available from <a href="./methods.html">Methods and data</a>.</noscript></main></body></html>
+<h1>Which patterns of worry recur over time?</h1>
+<p class="aw-lead">What makes people feel unsafe, and how does that relate to the harm they experience? The World Risk Poll gives people around the world a voice on these questions. We use its answers to study which combinations of concerns recur over time.</p>
+<section class="aw-reading-section aw-wrp-intro"><h2>Meet the World Risk Poll</h2>
+<p>The <strong>World Risk Poll (WRP)</strong> is a global survey from <strong>Lloyd’s Register Foundation</strong>, conducted by <strong>Gallup</strong>. It asks people about threats to their safety, how worried they feel, and the serious harm they or someone they know have experienced. It reaches countries where other evidence on everyday safety can be scarce.</p>
+<p>Its value is the view it provides from people’s own lives. Accident records can tell us about recorded events; the Poll also tells us what people fear and which experiences they report. This evidence can help researchers, public authorities and organisations working on safety understand concerns that national averages may overlook. <a href="https://www.gallup.com/analytics/357407/lloyd%27s-register-foundation-success-story.aspx">Read about the Poll’s purpose and origins</a>.</p>
+<div class="aw-wrp-facts" aria-label="Scope of the original World Risk Poll data"><div><strong>4 waves</strong><span>2019, 2021, 2023 and 2025</span></div><div><strong>140 countries and areas</strong><span>in the 2025 survey</span></div><div><strong>143,459 interviews</strong><span>in the 2025 survey</span></div></div>
+<p class="aw-note">These figures describe the original survey. Our comparisons use the respondents and countries with the answers required for each analysis. <a href="https://github.com/lrfoundation/world_risk_poll_data">See the official data and survey documentation</a>.</p>
+<p><strong>Our contribution:</strong> an average worry score can hide different concerns. We ask which worries and harmful experiences occur together, whether those combinations recur in another wave, and what they reveal about differences between countries and years.</p></section>
+<p class="aw-overview-answer"><strong>The main finding:</strong> four combinations recur most clearly across 2021, 2023 and 2025: food and water concerns, mental-health concern, harm across the social network, and fewer very-high-worry answers. The 2019 survey gives a different grouping.</p>
+<section class="aw-reading-section"><h2>Which parts of the Poll did we study?</h2>
+<p>The World Risk Poll asks people about risks in everyday life. Our main analysis combines worry about food, water, crime, severe weather, traffic and mental health with reports of harm to the respondent or to someone they personally know. Work-related harm is included too.</p>
+<p>We compared the 2021, 2023 and 2025 surveys using the same questions. A separate comparison uses five worry questions available in 2019 as well. These surveys interview different people, so they show population patterns rather than individual journeys.</p>
+<p><a href="./about.html">Read the short guide to the data and what the numbers mean</a></p></section>
+<section class="aw-reading-section"><h2>What we wanted to find out</h2>
+<p>Which combinations of concerns does one overall score miss? Do those combinations recur in another survey? Can we then compare countries or years using a definition that stays the same?</p>
+<p>We let each survey produce its own groups first. We then checked how closely the groups agreed and how much the result changed when we repeated the analysis on different samples. We call these groups <strong>clusters</strong>. They summarize answers, rather than defining fixed kinds of people.</p></section>
+<section class="aw-reading-section"><h2>Four combinations recur most clearly</h2>
+<p>The main analysis identifies seven clusters in each of the 2021, 2023 and 2025 waves. Four are more consistently recovered when we repeat the comparisons:</p>
+<dl class="aw-pattern-list"><div><dt>Food and water concerns</dt><dd>A combination centred on strong water concern, often alongside food concern, with less widespread reported harm in people’s networks.</dd></div><div><dt>Mental-health concern</dt><dd>Strong mental-health concern combined with less intense water concern.</dd></div><div><dt>Harm across the social network</dt><dd>Reports that personally known people experienced harm across several areas of life.</dd></div><div><dt>Fewer very-high-worry answers</dt><dd>Fewer concerns at the most intense level. People in this group can still report some worry or harmful experiences.</dd></div></dl>
+<p>Together, these four clusters account for about <strong>seven in ten</strong> respondents in our 2025 comparison when each country receives equal influence. The other clusters centre on traffic, crime and severe weather. Who falls into those three groups changes more when we repeat the analysis.</p>
+<p><a href="./explore.html?inputs=full&amp;wave=2025">Explore the seven clusters and the answers behind them</a></p></section>
+<section class="aw-reading-section"><h2>How common are the same definitions in different years?</h2>
+<p>To answer this, we kept the 2025 definitions unchanged and applied them to each survey in the same 92 countries. The mental-health-concern cluster became less common. The broad network-harm cluster stayed closer to its earlier share.</p>
+<div class="aw-simple-chart" role="img" aria-label="Average country shares under fixed 2025 definitions. Mental-health concern: 13.25% in 2021 and 11.44% in 2025. Broad known-person harm: 9.39% in 2021 and 9.58% in 2025.">
+<div class="aw-legend"><span><span class="aw-swatch" style="background:var(--atlas-before)"></span>2021</span><span><span class="aw-swatch" style="background:var(--atlas-blue)"></span>2025</span></div>
+<h3>Mental-health concern</h3><div class="aw-simple-bar"><span style="width:66.24%;background:var(--atlas-before)"></span><strong>13.25%</strong></div><div class="aw-simple-bar"><span style="width:57.21%;background:var(--atlas-blue)"></span><strong>11.44%</strong></div>
+<h3>Broad harm in the social network</h3><div class="aw-simple-bar"><span style="width:46.95%;background:var(--atlas-before)"></span><strong>9.39%</strong></div><div class="aw-simple-bar"><span style="width:47.91%;background:var(--atlas-blue)"></span><strong>9.58%</strong></div>
+<p class="aw-note">Bars share a 0–20% scale. These are average country shares among respondents with complete answers, with each country counting equally. They do not estimate the percentage of the world’s population. A group’s frequency is a different question from how reliably the analysis recovers its definition.</p></div>
+<p>These differences describe reported concerns and experience. They do not show that an individual changed groups or that actual future risk changed by the same amount.</p></section>
+<section class="aw-reading-section"><h2>A simpler worry-only pattern also recurs</h2>
+<p>When we use only the five common worry questions, the later surveys give the same three-way grouping: no crime worry, crime worry without water worry, and concern about both crime and water. This result is especially consistent across 2021, 2023 and 2025, although occasional repeated fits differ.</p>
+<p>The 2019 survey gives a different grouping. We have not found one equally reliable classification covering all four years. Including that difference helps define the limits of the result.</p></section>
+<section class="aw-reading-section"><h2>What this can help us understand</h2>
+<p>These summaries make it easier to see which concerns accompany one another and to compare the frequency of the same combination across countries or years. They also show why a single worry score or a country average can miss useful distinctions.</p>
+<p>The clusters describe survey answers. They do not diagnose people, predict who will be harmed, or establish why concerns differ. Missing answers, country coverage and how people interpret the questions all matter. We report the less reliable parts alongside the clearer findings.</p>
+<p><a href="./countries-by-wave.html">Compare countries</a> · <a href="./explore.html">Inspect the detailed results</a> · <a href="./methods.html">Read the methods and reproducible code</a></p></section>
+<footer class="aw-footer"><span>Survey source: <a href="https://github.com/lrfoundation/world_risk_poll_data">Lloyd’s Register Foundation World Risk Poll, conducted by Gallup</a></span><span>Analysis: Ion Petre and collaborators, University of Turku</span></footer>
+</main></body></html>

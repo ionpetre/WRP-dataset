@@ -1,0 +1,122 @@
+COUNTRY_ISO3,Country,GlobalRegion,CountryIncomeLevel,country_split,new_development_country
+AFG,Afghanistan,10,1,train,False
+ALB,Albania,14,3,train,False
+ARE,United Arab Emirates,11,4,train,False
+ARG,Argentina,5,3,train,False
+ARM,Armenia,7,3,train,False
+AUS,Australia,15,4,heldout_country,False
+AUT,Austria,13,4,train,False
+BEL,Belgium,13,4,train,False
+BEN,Benin,2,2,heldout_country,False
+BFA,Burkina Faso,2,1,train,False
+BGD,Bangladesh,10,2,heldout_country,False
+BGR,Bulgaria,12,3,train,False
+BIH,Bosnia Herzegovina,14,3,train,False
+BOL,Bolivia,5,2,heldout_country,False
+BRA,Brazil,5,3,train,False
+CAN,Canada,6,4,heldout_country,False
+CHE,Switzerland,13,4,train,False
+CHL,Chile,5,4,train,False
+CHN,China,8,3,train,False
+CIV,Ivory Coast,2,2,train,False
+CMR,Cameroon,2,2,train,False
+COG,Congo Brazzaville,2,2,heldout_country,False
+COL,Colombia,5,3,train,False
+CRI,Costa Rica,5,3,train,False
+CYP,Cyprus,14,4,train,False
+CZE,Czech Republic,12,4,train,False
+DEU,Germany,13,4,train,False
+DNK,Denmark,13,4,train,False
+DOM,Dominican Republic,5,3,train,False
+DZA,Algeria,3,2,train,False
+ECU,Ecuador,5,3,train,False
+EGY,Egypt,3,2,train,False
+ESP,Spain,14,4,train,False
+EST,Estonia,13,4,train,False
+FIN,Finland,13,4,train,False
+FRA,France,13,4,train,False
+GAB,Gabon,2,3,train,False
+GBR,United Kingdom,13,4,train,False
+GEO,Georgia,7,3,heldout_country,False
+GHA,Ghana,2,2,train,False
+GIN,Guinea,2,1,train,False
+GRC,Greece,14,4,heldout_country,False
+HKG,Hong Kong,8,4,train,False
+HND,Honduras,5,2,heldout_country,False
+HRV,Croatia,14,4,train,False
+HUN,Hungary,12,4,train,False
+IDN,Indonesia,9,2,train,False
+IND,India,10,2,train,False
+IRL,Ireland,13,4,heldout_country,False
+IRN,Iran,11,2,train,False
+IRQ,Iraq,11,3,train,False
+ISL,Iceland,13,4,train,False
+ISR,Israel,11,4,train,False
+ITA,Italy,14,4,train,False
+JAM,Jamaica,5,3,train,True
+JOR,Jordan,11,3,train,False
+JPN,Japan,8,4,train,False
+KAZ,Kazakhstan,7,3,train,False
+KEN,Kenya,1,2,train,False
+KGZ,Kyrgyzstan,7,2,train,False
+KHM,Cambodia,9,2,heldout_country,False
+KOR,South Korea,8,4,train,False
+LAO,Laos,9,2,heldout_country,False
+LBN,Lebanon,11,3,heldout_country,False
+LKA,Sri Lanka,10,2,train,False
+LTU,Lithuania,13,4,train,False
+LVA,Latvia,13,4,train,False
+MAR,Morocco,3,2,heldout_country,False
+MDA,Moldova,12,3,heldout_country,False
+MEX,Mexico,5,3,train,False
+MKD,North Macedonia,14,3,train,False
+MLI,Mali,2,1,train,False
+MLT,Malta,14,4,heldout_country,False
+MMR,Myanmar,9,2,train,False
+MNG,Mongolia,8,2,train,False
+MOZ,Mozambique,1,1,train,False
+MUS,Mauritius,1,3,heldout_country,False
+MYS,Malaysia,9,3,train,False
+NAM,Namibia,4,3,heldout_country,False
+NGA,Nigeria,2,2,train,False
+NIC,Nicaragua,5,2,train,False
+NLD,Netherlands,13,4,heldout_country,False
+NOR,Norway,13,4,train,False
+NPL,Nepal,10,2,train,False
+NZL,New Zealand,15,4,train,False
+PAK,Pakistan,10,2,train,False
+PAN,Panama,5,3,heldout_country,False
+PER,Peru,5,3,train,False
+PHL,Philippines,9,2,train,False
+POL,Poland,12,4,train,False
+PRT,Portugal,14,4,train,False
+PRY,Paraguay,5,3,train,False
+ROU,Romania,12,3,train,False
+RUS,Russia,12,3,heldout_country,False
+SAU,Saudi Arabia,11,4,train,False
+SEN,Senegal,2,2,train,False
+SGP,Singapore,9,4,train,False
+SLE,Sierra Leone,2,1,heldout_country,False
+SLV,El Salvador,5,2,train,False
+SRB,Serbia,14,3,train,False
+SVK,Slovakia,12,4,train,False
+SVN,Slovenia,14,4,train,False
+SWE,Sweden,13,4,heldout_country,False
+TGO,Togo,2,1,train,False
+THA,Thailand,9,3,train,False
+TJK,Tajikistan,7,2,heldout_country,False
+TUN,Tunisia,3,2,train,False
+TUR,Turkey,11,3,train,False
+TWN,Taiwan,8,4,heldout_country,False
+TZA,Tanzania,1,2,train,False
+UGA,Uganda,1,1,train,False
+UKR,Ukraine,12,2,train,False
+URY,Uruguay,5,4,train,False
+USA,United States,6,4,train,False
+UZB,Uzbekistan,7,2,train,False
+VEN,Venezuela,5,9,train,False
+VNM,Vietnam,9,2,train,False
+XKX,Kosovo,12,3,train,False
+ZAF,South Africa,4,3,train,False
+ZMB,Zambia,1,2,train,False
+ZWE,Zimbabwe,1,2,train,False

@@ -32,3 +32,17 @@ docs/data/*
 !docs/data/country-waves.js
 !docs/data/country-waves.sources.json
 !docs/data/country-geography.js
+
+# Manifest-checked global pattern aggregates; no respondent-level arrays.
+!paper/assets/*.npz
+!docs/data/paper-results.json
+!docs/data/paper-results.js
+!docs/data/paper-results.sources.json
+!docs/data/paper-country-results.json
+!docs/data/paper-country-results.js
+!docs/data/paper-country-results.sources.json
+
+# Exact archived website aggregates, retained outside the published Pages root.
+!archive/historical_benchmarks/docs/data/
+!archive/historical_benchmarks/docs/data/*.json
+!archive/historical_benchmarks/docs/data/*.js

@@ -1,0 +1,16 @@
+{
+  "exported": "2026-11-18",
+  "aggregate_only": true,
+  "scientific_refits": 0,
+  "heldout_reassessment": false,
+  "principal_full_clusters": 7,
+  "principal_later_worry_clusters": 3,
+  "no_shared_2019_partition_established": true,
+  "source_files_sha256": {
+    "paper/assets/manifest.json": "7e90e7816f335c5d08b652e6b1ce0be23bd72f682e92f2d9d50833352380dcfa",
+    "paper/assets/models.json": "b8ba0e16883b61c1b56d8588fee6facc94f6a492f99f2a6e766872381285e49b",
+    "paper/assets/primary_models.json": "57b60beb2f55245f665cc6b65008411c6700b1d4cb3c9212e5b8aafcbc871135",
+    "paper/assets/website_aggregates.json": "ea3ebc62ea94ee57c21f57ccd2025924343eb1722f2034c8945a9969203d4af4",
+    "paper/assets/country_aggregates.json": "50c800d1a61de0197bacb64b9b6dab91cb96090928044a0310e6439ea1a15623"
+  }
+}
