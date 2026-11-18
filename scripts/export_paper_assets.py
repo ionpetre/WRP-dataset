@@ -1,6 +1,6 @@
 """Validate final-model aggregates and rebuild offline browser assets. No fitting."""
 from pathlib import Path
-import hashlib,json,math
+import hashlib,json,math,csv
 ROOT=Path(__file__).resolve().parents[1]
 A=ROOT/'paper/assets';OUT=ROOT/'docs/data'
 PRIMARY=json.loads((A/'primary_models.json').read_text())
@@ -34,9 +34,17 @@ def validate(data,country):
 def main():
     data=json.loads((A/'website_aggregates.json').read_text());country=json.loads((A/'country_aggregates_all_surveyed.json').read_text())
     validate(data,country)
+    # Overview scores use its single 2025 common-country reporting population.
+    score_file=ROOT/'paper/results/unchanged_rule_transfer.csv'
+    selected=[r for r in csv.DictReader(score_file.open()) if r['family']=='full'
+        and r['target_wave']=='2025' and r['evaluation_wave']=='2025']
+    assert len(selected)==7 and {int(r['anchor_cluster']) for r in selected}==set(range(7))
+    data['overviewRuleScores']={str(int(r['anchor_cluster'])):
+        dict(precision=float(r['precision']),coverage=float(r['coverage'])) for r in selected}
+    data['overviewEvaluation']=dict(year=2025,countries=92,respondents=90395)
     manifest=json.loads((A/'manifest.json').read_text())
     for name,digest in manifest['files_sha256'].items():assert hashlib.sha256((A/name).read_bytes()).hexdigest()==digest,name
-    sources={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [A/'manifest.json',A/'models.json',A/'primary_models.json',A/'website_aggregates.json',A/'country_aggregates_all_surveyed.json']}
+    sources={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [A/'manifest.json',A/'models.json',A/'primary_models.json',A/'website_aggregates.json',A/'country_aggregates_all_surveyed.json',score_file]}
     provenance=dict(exported='2026-11-18',aggregate_only=True,scientific_refits=0,heldout_reassessment=False,all_surveyed_countries_displayed=True,grey_means="Not surveyed in selected WRP wave",
         principal_full_clusters=7,principal_later_worry_clusters=3,no_shared_2019_partition_established=True,
         source_files_sha256=sources)

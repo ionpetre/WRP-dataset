@@ -8,10 +8,5 @@
   "existing_development_aggregates_unchanged": true,
   "no_new_model_fits": true,
   "notebook_results_saved": true,
-  "local_links_passed": true,
-  "browser_2025_surveyed_countries": 140,
-  "browser_surveyed_countries_painted_grey": [],
-  "browser_console_errors": [],
-  "trend_chart_values_checked": true,
-  "optional_country_reproduction": "all seven model/wave aggregates reproduced from pinned surveys"
+  "local_links_passed": true
 }

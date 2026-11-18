@@ -13,6 +13,7 @@
     "paper/assets/models.json": "b8ba0e16883b61c1b56d8588fee6facc94f6a492f99f2a6e766872381285e49b",
     "paper/assets/primary_models.json": "57b60beb2f55245f665cc6b65008411c6700b1d4cb3c9212e5b8aafcbc871135",
     "paper/assets/website_aggregates.json": "ea3ebc62ea94ee57c21f57ccd2025924343eb1722f2034c8945a9969203d4af4",
-    "paper/assets/country_aggregates_all_surveyed.json": "6721c52acf20b64135fea7e040ad8d4cc35c9c15af8844e9b9c9e0eded10e315"
+    "paper/assets/country_aggregates_all_surveyed.json": "6721c52acf20b64135fea7e040ad8d4cc35c9c15af8844e9b9c9e0eded10e315",
+    "paper/results/unchanged_rule_transfer.csv": "a52b0d692a65f069c9daeb70a436acf3a9a67ef086142e576728d2ba286212ba"
   }
 }

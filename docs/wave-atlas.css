@@ -198,3 +198,24 @@ html{scroll-padding-top:100px}
 #wrp-wave-atlas .aw-overview-yaxis span:nth-child(3){top:50%}
 #wrp-wave-atlas .aw-overview-yaxis span:nth-child(4){top:75%}
 #wrp-wave-atlas .aw-overview-yaxis span:nth-child(5){top:100%}
+
+/* Show every cluster, with explicit conditions and descriptive rule fidelity. */
+#wrp-wave-atlas .aw-seven-chart{margin:24px 0}
+#wrp-wave-atlas .aw-seven-chart figcaption{font-size:15px;font-weight:600;margin-bottom:12px}
+#wrp-wave-atlas .aw-seven-stack{height:38px}
+#wrp-wave-atlas .aw-seven-stack>span{display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;min-width:0}
+#wrp-wave-atlas .aw-description-guide{background:var(--atlas-soft);padding:15px 18px;border-radius:6px;margin:22px 0}
+#wrp-wave-atlas .aw-description-guide p{font-size:14px;line-height:1.65;margin-bottom:9px}
+#wrp-wave-atlas .aw-description-guide p:last-child{margin-bottom:0}
+#wrp-wave-atlas .aw-all-clusters{align-items:stretch}
+#wrp-wave-atlas .aw-all-clusters .aw-core-card:last-child{grid-column:1/-1}
+#wrp-wave-atlas .aw-description-head h3{font-size:17px}
+#wrp-wave-atlas .aw-cluster-description .aw-rule-label{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--atlas-muted);margin:12px 0 8px}
+#wrp-wave-atlas .aw-cluster-description .aw-rule-literal{font-size:15px;line-height:1.8;padding:11px 12px;background:var(--atlas-soft);border-radius:4px;margin-bottom:14px}
+#wrp-wave-atlas .aw-rule-literal b{font-size:12px;color:var(--atlas-blue);padding-inline:3px}
+#wrp-wave-atlas .aw-cluster-description .aw-rule-reading{font-size:14px;line-height:1.65;margin-bottom:18px}
+#wrp-wave-atlas .aw-rule-reading>span{font-weight:600}
+#wrp-wave-atlas .aw-description-scores{display:flex;gap:30px;padding-top:13px;border-top:1px solid var(--atlas-line);margin:0 0 17px;margin-top:auto}
+#wrp-wave-atlas .aw-description-scores dt{font-size:12px;color:var(--atlas-muted)}
+#wrp-wave-atlas .aw-description-scores dd{font-size:18px;margin:3px 0 0;font-variant-numeric:tabular-nums}
+#wrp-wave-atlas .aw-reading-section>h3{font-size:19px;font-weight:600;margin-top:28px}

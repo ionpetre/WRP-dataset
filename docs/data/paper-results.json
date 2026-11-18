@@ -2786,5 +2786,40 @@
       98.0
     ],
     "allFourBestMinimumARI": 0.3751376764756451
+  },
+  "overviewRuleScores": {
+    "0": {
+      "precision": 0.9575996747656812,
+      "coverage": 0.8152496712549449
+    },
+    "1": {
+      "precision": 0.8182816102340569,
+      "coverage": 0.83797078910355
+    },
+    "2": {
+      "precision": 0.8503697899072734,
+      "coverage": 0.8786672052672228
+    },
+    "3": {
+      "precision": 0.8098922408848986,
+      "coverage": 0.9639346574528758
+    },
+    "4": {
+      "precision": 0.8574787279735092,
+      "coverage": 0.930984847502183
+    },
+    "5": {
+      "precision": 0.8020207675837164,
+      "coverage": 0.869494580620186
+    },
+    "6": {
+      "precision": 0.9102810731333726,
+      "coverage": 0.9895264606572766
+    }
+  },
+  "overviewEvaluation": {
+    "year": 2025,
+    "countries": 92,
+    "respondents": 90395
   }
 }
