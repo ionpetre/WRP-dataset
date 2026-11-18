@@ -3,14 +3,16 @@
   "aggregate_only": true,
   "scientific_refits": 0,
   "heldout_reassessment": false,
+  "all_surveyed_countries_displayed": true,
+  "grey_means": "Not surveyed in selected WRP wave",
   "principal_full_clusters": 7,
   "principal_later_worry_clusters": 3,
   "no_shared_2019_partition_established": true,
   "source_files_sha256": {
-    "paper/assets/manifest.json": "7e90e7816f335c5d08b652e6b1ce0be23bd72f682e92f2d9d50833352380dcfa",
+    "paper/assets/manifest.json": "99506f3c2a6afe7d7f08e6633bffe11182b72e296e66379c6db8f9cd70ccdb69",
     "paper/assets/models.json": "b8ba0e16883b61c1b56d8588fee6facc94f6a492f99f2a6e766872381285e49b",
     "paper/assets/primary_models.json": "57b60beb2f55245f665cc6b65008411c6700b1d4cb3c9212e5b8aafcbc871135",
     "paper/assets/website_aggregates.json": "ea3ebc62ea94ee57c21f57ccd2025924343eb1722f2034c8945a9969203d4af4",
-    "paper/assets/country_aggregates.json": "50c800d1a61de0197bacb64b9b6dab91cb96090928044a0310e6439ea1a15623"
+    "paper/assets/country_aggregates_all_surveyed.json": "6721c52acf20b64135fea7e040ad8d4cc35c9c15af8844e9b9c9e0eded10e315"
   }
 }

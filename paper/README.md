@@ -27,3 +27,9 @@ The runtime check used Python 3.11, NumPy 1.26.4, pandas 3.0.3, SciPy 1.17.1 and
 `../docs/index.html` is the nontechnical overview; `explore.html` and `countries-by-wave.html` show detailed results. `../scripts/export_paper_assets.py` validates and exports the same model aggregates for those pages.
 
 Historical website versions are outside the published site in `../archive/historical_benchmarks/`. Older prediction experiments remain supplementary archived work, documented in `../archive/README.md`. They are not required by this clustering companion.
+
+## Country-map coverage
+
+The country interface includes every surveyed country and area: 142 in 2019 (five worries), 121 in 2021, 142 in 2023 and 140 in 2025. The independently fitted model is applied unchanged to every country’s complete-answer respondents. Grey denotes places not surveyed in that wave. This descriptive application is separate from clustering selection and validation.
+
+`assets/country_aggregates_all_surveyed.json` supplies those maps. The original development-only `country_aggregates.json` is preserved; its shares and category probabilities agree exactly within numerical tolerance with the corresponding subset. The notebook verifies both sets and contains an optional, version-checked raw-CSV reproduction of all country summaries. The fixed colour reference remains the 2025 development-country median.

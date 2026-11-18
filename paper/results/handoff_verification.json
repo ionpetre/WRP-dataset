@@ -12,5 +12,17 @@
   "overleaf_update": "completed; all 36 final live source hashes verified",
   "pdf_checks": "main 18 pages and supplement 77 pages compiled; no undefined references, duplicate labels or overfull boxes",
   "all_included_float_body_references": "8 main and 69 supplementary figures/tables verified",
-  "overleaf_files_updated": 36
+  "overleaf_files_updated": 36,
+  "website_followup": {
+    "all_surveyed_countries_displayed": true,
+    "country_counts": {
+      "2019": 142,
+      "2021": 121,
+      "2023": 142,
+      "2025": 140
+    },
+    "models_refitted": false,
+    "development_aggregates_preserved": true,
+    "author_course_navigation_and_visuals_checked": true
+  }
 }

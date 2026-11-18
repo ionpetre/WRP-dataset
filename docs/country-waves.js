@@ -5,7 +5,7 @@
  const el=id=>root.querySelector('#cw-'+id),pct=v=>(100*v).toFixed(1)+'%',fmt=v=>v===null?'—':v.toFixed(3);
  const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
  const incomeLabels={1:'Low income',2:'Lower-middle income',3:'Upper-middle income',4:'High income',9:'Not classified'};
- const incomeColours={1:'#c17a50',2:'#e3b66a',3:'#7aa5b4',4:'#416d91',9:'#b9bdc2'};
+ const incomeColours={1:'#c17a50',2:'#e3b66a',3:'#7aa5b4',4:'#416d91',9:'#a06caa'};
  const metricLabels={responses:'Overall original answers',worry:'Worry answers',personal:'Personal harm',known:'Known-person harm',clusters:'Cluster proportions'};
  const palette=d3.piecewise(d3.interpolateLab,['#4d85b1','#64a779','#ead46c','#df8b45']);
  const colourPosition=ratio=>Math.min(1,Math.max(0,ratio/2));
@@ -36,7 +36,7 @@
  function overview(m){
   const points=m.embedding.coordinates;let scale=55/Math.max(...points.map(p=>Math.hypot(...p)));
   while(scale>.001&&points.some(p=>{const c=d3.lab(67,p[0]*scale,p[1]*scale).rgb();return c.r<3||c.r>252||c.g<3||c.g>252||c.b<3||c.b>252;}))scale*=.95;
-  return points.map(p=>d3.lab(67,p[0]*scale,p[1]*scale).formatHex());
+  return points.map(p=>{const colour=d3.hcl(d3.lab(67,p[0]*scale,p[1]*scale));colour.c=Math.max(25,colour.c||0);if(!Number.isFinite(colour.h))colour.h=210;return colour.formatHex();});
  }
  function save(){
   const url=new URL(location.href);for(const [k,v] of Object.entries({inputs:state.family,wave:state.year,basis:state.basis,component:state.component,scope:state.scope,country:state.country,map:state.map,view:state.view,peers:state.peers}))url.searchParams.set(k,v);
@@ -76,7 +76,7 @@
   }
   const lands=svg.append('g').selectAll('path').data(geography.world.features).join('path').attr('d',path).attr('class',f=>'cw-land'+(active(byISO.get(featureISO(f)))?' cw-country-active':''))
    .attr('fill',f=>fill(byISO.get(featureISO(f))));
-  lands.append('title').text(f=>{const i=byISO.get(featureISO(f));return set.has(i)?current.countries[i].name:((f.properties.name||featureISO(f))+': outside the selected eligible country set');});
+  lands.append('title').text(f=>{const i=byISO.get(featureISO(f));return set.has(i)?current.countries[i].name:((f.properties.name||featureISO(f))+': not surveyed in this WRP wave');});
   bind(lands,f=>byISO.get(featureISO(f)));
   svg.append('g').selectAll('path').data(geography.regions[String(current.year)]).join('path').attr('d',path).attr('class','cw-region');
   const drawn=new Set(geography.world.features.map(featureISO)),tiny=new Set(geography.tiny);
@@ -87,7 +87,7 @@
   el('tooltip').hidden=true;
   el('map-title').textContent=state.map==='income'?current.year+' · Country income groups':state.map==='overview'?current.year+' · Similar cluster mixtures, similar colours':current.year+' · Distances from '+c.name;
   el('map-subtitle').textContent=state.map==='income'?'Income classifications supplied with this survey wave':state.map==='overview'?current.k+' fixed clusters · Approximate two-dimensional view':metricLabels[metric]+' · Smaller distances mean closer countries';
-  const grey='<span><span class="cw-key-box" style="background:#cfd3d7"></span>Outside selected country set</span>';
+  const grey='<span><span class="cw-key-box" style="background:#cfd3d7"></span>Not surveyed in this WRP wave</span>';
   if(state.map==='distance'){
    el('legend').innerHTML='<div class="cw-gradient" style="background:linear-gradient(to right,'+Array.from({length:21},(_,i)=>distanceColour(i/10)+' '+i*5+'%').join(',')+')"></div><div class="cw-legend-ticks"><span>0 · identical</span><span>1 · reference</span><span>2+ · farther</span></div><div style="margin-top:8px">'+grey+'</div>';
    el('map-note').textContent='Fixed 2025 reference: '+reference.toFixed(6)+' raw '+(metric==='clusters'?'Hellinger':'total variation')+' distance. Divide raw distance by this reference. Colours stop changing at 2; numbers and ranks remain uncapped. Dark outlines show the survey’s regions; dots mark small countries. Select a country on the map or in the list.';
@@ -99,7 +99,7 @@
    const key=d3.select(el('colour-key')),points=current.embedding.coordinates;
    const x=d3.scaleLinear().domain(d3.extent(points,p=>p[0])).range([8,132]),y=d3.scaleLinear().domain(d3.extent(points,p=>p[1])).range([77,8]);
    key.selectAll('circle').data(indices).join('circle').attr('cx',i=>x(points[i][0])).attr('cy',i=>y(points[i][1])).attr('r',i=>i===selected?4:2.5).attr('fill',i=>overviewColours[i]).attr('stroke',i=>i===selected?'#20252b':'none');
-   el('map-note').textContent='The colour overview approximates country similarity in two dimensions. It is not a low-to-high risk scale. Its colour axes are fitted separately for each model; compare exact distances, rather than overview colours, across waves. The nearest-country list always uses the full Hellinger distance. The projection is fixed over this model’s development countries.';
+   el('map-note').textContent='The colour overview approximates country similarity in two dimensions. It is not a low-to-high risk scale. Its colour axes are fitted separately for each model; compare exact distances, rather than overview colours, across waves. The nearest-country list always uses the full Hellinger distance. The projection includes all surveyed countries with complete answers.';
   }
  }
  const evidence=(value,label)=>'<div><strong>'+value+'</strong><span>'+label+'</span></div>';
@@ -129,7 +129,7 @@
  }
  function method(){
   const n=current.worryDomains.length,full=current.family==='full';
-  el('method').innerHTML='<p><strong>Country summaries.</strong> Apply the final selected model to its eligible development respondents. Normalize WGT within each country. The same respondents and weights give cluster shares and original-answer probabilities. The final later-wave models were fitted independently and then selected jointly. These maps do not add held-out assessment.</p><p><strong>Cluster distance.</strong> H(p,q) = √[½ Σ (√p − √q)²]. There are '+current.k+' clusters in this model. Larger distances mean different mixtures of the fitted clusters.</p><p><strong>Original answers.</strong> Average total variation over '+n+' three-category worry distributions.'+(full?' Average absolute prevalence gaps separately over seven personal and seven known-person harm indicators. Combine them as αD<sub>W</sub> + (1−α)(D<sub>S</sub> + D<sub>K</sub>)/2, using this model’s α = '+current.alpha.toFixed(8)+'.':' The model has five worries and no harm block.')+' The numerical middle value q does not enter this categorical comparison.</p><p><strong>Colours.</strong> Divide each distance by the median over distinct development-country pairs under the final 2025 model of the same question family. Each component has its own fixed denominator. Colour ratios are not percentages and cannot be added. The cluster-similarity overview retains two principal coordinates of square-root shares, while ranks use complete Hellinger distances. Its colour axes are specific to each model.</p><p><strong>Interpretation.</strong> Country sets can differ between waves. A changing nearest country can reflect that coverage as well as changing answers. Question marginals and cluster mixtures summarize different information. Income associations are descriptive; pairs share countries. The 2019 worry model is a separate alternative and does not establish an invariant four-wave partition.</p><p><a href="./methods.html#country-waves">Methods and reproduction</a> · <a href="./data/paper-country-results.sources.json" download>Source checksums</a></p>';
+  el('method').innerHTML='<p><strong>Country summaries.</strong> Apply the same model, unchanged, to eligible respondents in every surveyed country. Normalize WGT within each country. The same respondents and weights give cluster shares and original-answer probabilities. Including a country in this descriptive map does not refit or alter the model.</p><p><strong>Cluster distance.</strong> H(p,q) = √[½ Σ (√p − √q)²]. There are '+current.k+' clusters in this model. Larger distances mean different mixtures of the fitted clusters.</p><p><strong>Original answers.</strong> Average total variation over '+n+' three-category worry distributions.'+(full?' Average absolute prevalence gaps separately over seven personal and seven known-person harm indicators. Combine them as αD<sub>W</sub> + (1−α)(D<sub>S</sub> + D<sub>K</sub>)/2, using this model’s α = '+current.alpha.toFixed(8)+'.':' The model has five worries and no harm block.')+' The numerical middle value q does not enter this categorical comparison.</p><p><strong>Colours.</strong> Divide each distance by the median over distinct development-country pairs under the fixed 2025 model of the same question family. Each component has its own fixed denominator. Colour ratios are not percentages and cannot be added. The cluster-similarity overview retains two principal coordinates of square-root shares, while ranks use complete Hellinger distances. Its colour axes are specific to each model.</p><p><strong>Interpretation.</strong> Country sets can differ between waves. A changing nearest country can reflect that coverage as well as changing answers. Question marginals and cluster mixtures summarize different information. Income associations are descriptive; pairs share countries. The 2019 worry model is a separate alternative and does not establish an invariant four-wave partition.</p><p><a href="./methods.html#country-waves">Methods and reproduction</a> · <a href="./data/paper-country-results.sources.json" download>Source checksums</a></p>';
  }
  function render(){
   current=model();matrices=calculate(current);overviewColours=overview(current);
@@ -138,7 +138,7 @@
   metric=state.basis==='clusters'?'clusters':state.component;reference=data.references[state.family][metric];
   indices=current.countries.map((_,i)=>i).filter(i=>state.scope==='all'||current.countries[i].split==='train');
   selected=indices.find(i=>current.countries[i].iso===state.country);
-  if(selected===undefined){const old=state.country;selected=indices.find(i=>current.countries[i].iso==='FIN')??indices[0];state.country=current.countries[selected].iso;statusMessage=old+' is outside this country set. Showing '+current.countries[selected].name+'.';}
+  if(selected===undefined){const old=state.country;selected=indices.find(i=>current.countries[i].iso==='FIN')??indices[0];state.country=current.countries[selected].iso;statusMessage=old+' is not available in the '+current.year+' survey. Showing '+current.countries[selected].name+'.';}
   el('status').textContent=statusMessage;statusMessage='';
   el('family').value=state.family;el('basis').value=state.basis;el('component').value=state.component;el('scope').value=state.scope;el('map-mode').value=state.map;el('peers').value=state.peers;
   el('component-label').hidden=state.basis==='clusters';
@@ -146,7 +146,8 @@
   el('map-mode').querySelector('[value="overview"]').disabled=state.basis!=='clusters';
   el('country').innerHTML=indices.slice().sort((a,b)=>current.countries[a].name.localeCompare(current.countries[b].name)).map(i=>'<option value="'+current.countries[i].iso+'">'+esc(current.countries[i].name)+'</option>').join('');el('country').value=state.country;
   root.querySelectorAll('[data-year]').forEach(b=>{b.disabled=state.family==='full'&&b.dataset.year==='2019';b.setAttribute('aria-pressed',String(Number(b.dataset.year)===state.year));});
-  el('population').textContent=current.year+' · '+current.k+' fixed clusters · '+indices.length+' '+'development'+' countries · '+indices.reduce((n,i)=>n+current.countries[i].respondents,0).toLocaleString('en-US')+' eligible respondents · '+(state.family==='full'?'Six worries + all 14 harm indicators.':'Five common worries; no harm or traffic.')+(current.year===2019?' Separate 2019 alternative, without established shared later-wave clusters.':' Final independently fitted cross-wave set.');
+  el('coverage').textContent='All '+current.surveyCountryCount+' countries and areas surveyed in '+current.year+' are included. Grey means not surveyed in this wave; it does not mean low worry, low harm or a large distance.';
+  el('population').textContent=current.year+' · '+current.k+' fixed clusters · '+indices.length+' surveyed countries and areas · '+indices.reduce((n,i)=>n+current.countries[i].respondents,0).toLocaleString('en-US')+' eligible respondents · '+(state.family==='full'?'Six worries + all 14 harm indicators.':'Five common worries; no harm or traffic.')+(current.year===2019?' Separate 2019 alternative, without established shared later-wave clusters.':'');
   for(const v of ['country','income']){el('tab-'+v).setAttribute('aria-selected',String(state.view===v));el('tab-'+v).tabIndex=state.view===v?0:-1;el(v+'-panel').hidden=state.view!==v;}
   drawMap();countryPanel();incomePanel();method();
  }

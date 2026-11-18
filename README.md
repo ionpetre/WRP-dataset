@@ -7,7 +7,7 @@ We study which worries and harmful experiences occur together, and whether simil
 - [Accessible overview](https://ionpetre.github.io/WRP-dataset/) introduces the Poll, our questions and the main findings.
 - [Reading the survey](https://ionpetre.github.io/WRP-dataset/about.html) explains worry, harm, weighting and the meaning of comparisons.
 - [Detailed cluster explorer](https://ionpetre.github.io/WRP-dataset/explore.html) shows all seven full-model clusters, the worry-only results, rules and cross-wave recurrence.
-- [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) use these same final models and development-country summaries.
+- [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) apply these same models to every surveyed country and area. Grey means not surveyed in the selected wave.
 - [One complete clustering notebook](paper/wrp_cross_wave_clustering.ipynb) contains code, narrative, numerical checks and saved results. See [reproduction instructions](paper/README.md).
 
 ## Main findings
@@ -29,3 +29,7 @@ The website uses `docs/` as its publication root. Export its final-model data wi
 [Archive guide](archive/README.md). Historical benchmark pages are outside `docs/` and outside public navigation. Older 2023 prediction notebooks remain supplementary provenance, separate from the complete clustering companion. Historical filenames, source keys and immutable model results are preserved.
 
 Survey attribution does not imply endorsement of this analysis. Percentages in our combined results give countries equal influence and concern complete-answer respondents; they are not world-population shares.
+
+## Course and author
+
+Project lead and course lecturer: **Ion Petre**, University of Turku. This atlas supports the **Machine Learning Project Course, 2026–2027**. The website presents the lecturer’s reference analysis; students develop and explain their own analyses.

@@ -48,6 +48,8 @@
     "resampling_groups.json": "7d23f1b8258df4d70cc265c0abaed42afd00309a8f18f5c9ef702a843667a695",
     "rule_conditions_common_worry.json": "3feed5716584a56c781e31b98209011ebf66e91001004e62aeab6d338f3d1fa1",
     "rule_conditions_full.json": "c37e51c46f622c051b147fb4d43d42105edb9d4abd3fed84da4d40877708bce6",
-    "website_aggregates.json": "ea3ebc62ea94ee57c21f57ccd2025924343eb1722f2034c8945a9969203d4af4"
+    "website_aggregates.json": "ea3ebc62ea94ee57c21f57ccd2025924343eb1722f2034c8945a9969203d4af4",
+    "country_aggregates_all_surveyed.json": "6721c52acf20b64135fea7e040ad8d4cc35c9c15af8844e9b9c9e0eded10e315",
+    "country_display_verification.json": "e7282ecd985c9634ce19818d94f33a6e687543b7db1b79f40d7816862799b9c0"
   }
 }
