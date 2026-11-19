@@ -5,21 +5,27 @@
   <meta name="description" content="Meet the five recurring clusters and inspect what their members report in each World Risk Poll survey.">
   <meta name="author" content="Ion Petre">
   <title>Meet the five clusters · Worry–Harm Atlas</title>
-  <link rel="stylesheet" href="./wave-atlas.css"><link rel="stylesheet" href="./atlas-editorial.css">
-  <script src="./data/shared-five-results.js" defer></script><script src="./wave-atlas.js?v=20261119-recurrence" defer></script>
+  <link rel="stylesheet" href="./wave-atlas.css"><link rel="stylesheet" href="./atlas-editorial.css?v=2">
+  <script src="./data/shared-five-results.js" defer></script><script src="./wave-atlas.js?v=2" defer></script>
 </head>
 <body class="atlas-site">
 <header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a class="atlas-wordmark" href="./index.html">Worry–Harm Atlas</a><a href="./explore.html" aria-current="page">Clusters</a><a href="./countries-by-wave.html">Countries</a><a href="./worry-only.html">Worry alone</a><a href="./background.html">Income &amp; education</a><a href="./methods.html">Methods</a></nav></header>
 <main id="wrp-wave-atlas">
-  <header class="atlas-page-head"><h1>Meet the five clusters</h1><p class="atlas-deck">Each cluster brings together people with similar answers. Select a cluster to see its shared description and what its members reported in each survey.</p></header>
-  <div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Cluster views">
-    <button class="aw-tab aw-interactive" id="aw-tab-explore" type="button" role="tab" aria-selected="true" aria-controls="aw-explore">What people reported</button>
-    <button class="aw-tab aw-interactive" id="aw-tab-compare" type="button" role="tab" aria-selected="false" aria-controls="aw-compare" tabindex="-1">Evidence across waves</button>
-  </div></div>
+  <div class="atlas-topic-menu">
+    <header class="atlas-page-head"><h1>Meet the five worry–harm clusters</h1><p class="atlas-deck">Each cluster brings together people with similar answers about worry and reported harm. All five recurred in 2021, 2023 and 2025.</p></header>
+    <ul class="atlas-topic-links">
+      <li><a class="atlas-topic-link" style="--pattern:#ee9974" data-cluster="0" href="?cluster=0"><strong>External hazards</strong><span>Very high worry about traffic, crime and severe weather is common. Water and mental-health worries are less prominent.</span></a></li>
+      <li><a class="atlas-topic-link" style="--pattern:#96bce2" data-cluster="1" href="?cluster=1"><strong>Basic necessities</strong><span>Water and food stand out. In all three surveys, a large majority of this cluster were very worried about each.</span></a></li>
+      <li><a class="atlas-topic-link" style="--pattern:#b9cc83" data-cluster="2" href="?cluster=2"><strong>Mental-health worry</strong><span>Almost everyone in this cluster is very worried about mental health. Very high worry about traffic is also common.</span></a></li>
+      <li><a class="atlas-topic-link" style="--pattern:#7acabd" data-cluster="3" href="?cluster=3"><strong>Harm to people they know</strong><span>Members often report serious harm to someone they know across several areas of life.</span></a></li>
+      <li><a class="atlas-topic-link" style="--pattern:#c7bed0" data-cluster="4" href="?cluster=4"><strong>Few very high worries</strong><span>Members rarely choose “very worried” across the six topics. Food can still be a very high worry for some members.</span></a></li>
+    </ul>
+    <p><a href="?view=compare">See the evidence across surveys</a></p>
+  </div>
 
-  <section id="aw-explore" role="tabpanel" aria-labelledby="aw-tab-explore">
-    <div id="aw-clusters" class="atlas-cluster-list" role="group" aria-label="Select a cluster"></div>
-    <section id="aw-detail" class="aw-detail" aria-label="Selected cluster"></section>
+  <section id="aw-explore" class="atlas-topic" aria-label="Selected cluster">
+    <a class="atlas-topic-back" href="./explore.html">← All five clusters</a>
+    <div id="aw-detail" class="aw-detail"></div>
     <details><summary>How to read the rules and percentages</summary>
       <p>The answer rule describes the cluster. Precision is the share of rule matches who belong to the cluster. Coverage is the share of cluster members who match the rule. The model assigns each complete respondent to one cluster. A person can meet several rules or meet none.</p>
       <p>Cluster sizes and answer distributions use each wave’s own development sample with equal total weight per country. Rule scores compare the rules on the same set of 92 countries in all three waves.</p>
@@ -27,7 +33,9 @@
     </details>
   </section>
 
-  <section id="aw-compare" role="tabpanel" aria-labelledby="aw-tab-compare" hidden>
+  <section id="aw-compare" class="atlas-topic" aria-label="Evidence across surveys">
+    <a class="atlas-topic-back" href="./explore.html">← All five clusters</a>
+    <header class="atlas-page-head"><h1>Evidence across surveys</h1><p class="atlas-deck">We checked whether the same five clusters recur across years and when we vary the people and countries included in the analysis.</p></header>
     <section class="aw-reading-section">
       <h2>Every pair of surveys supports the same five clusters</h2>
       <p>We fitted each survey independently and let each fit classify the same set of complete survey answers. The fitted labels agreed for about <strong>97–98%</strong> of the weighted respondents in every pair.</p>
@@ -53,7 +61,7 @@
     <p class="aw-note"><a href="./methods.html#reading-agreement">How we compare the independently fitted models</a></p>
   </section>
 
-  <noscript><p>This explorer needs JavaScript. <a href="./methods.html">Read the methods</a> or <a href="./data/shared-five-results.json">view the aggregate data</a>.</p></noscript>
+  <noscript><p>The detailed answer tables need JavaScript. <a href="./methods.html">Read the methods</a> or <a href="./data/shared-five-results.json">view the aggregate data</a>.</p></noscript>
   <footer class="atlas-credit"><span><strong>Ion Petre</strong> · University of Turku · <a href="./about.html#course">Machine Learning Project Course</a></span><a href="./countries-by-wave.html#over-time">Compare shares over time</a></footer>
 </main>
 </body>

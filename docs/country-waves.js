@@ -1,7 +1,14 @@
 /* All inputs are country aggregates. No respondent model is fitted here. */
 (()=>{'use strict';
  const root=document.getElementById('wrp-wave-atlas'),data=window.WRP_COUNTRY_WAVES,geography=window.WRP_COUNTRY_GEOGRAPHY;
- if(!data||!geography||!window.d3){root.innerHTML='<p>The country data could not be loaded. Please reload the page.</p>';return;}
+ const panel=document.getElementById('country-map'),query=new URLSearchParams(location.search);
+ const mapParams=['view','wave','country','map','basis','inputs','component','scope','peers'];
+ if(!mapParams.some(key=>query.has(key)))return;
+ panel.dataset.atlasCurrent='';
+ if(!data||!geography||!window.d3){
+  panel.querySelector('.atlas-page-head .atlas-deck').textContent='The country data could not be loaded. Please reload the page.';
+  return;
+ }
  const el=id=>root.querySelector('#cw-'+id),pct=v=>(100*v).toFixed(1)+'%',fmt=v=>v===null?'—':v.toFixed(3);
  const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
  const incomeLabels={1:'Low income',2:'Lower-middle income',3:'Upper-middle income',4:'High income',9:'Not classified'};
@@ -147,6 +154,7 @@
   root.querySelectorAll('[data-year]').forEach(b=>{b.setAttribute('aria-pressed',String(Number(b.dataset.year)===state.year));});
   el('coverage').textContent='All '+current.surveyCountryCount+' countries and areas surveyed in '+current.year+' are included. Grey means not surveyed in this wave; it does not mean low worry, low harm or a large distance.';
   el('population').textContent=current.year+' · '+current.k+' fixed clusters · '+indices.length+' surveyed countries and areas · '+indices.reduce((n,i)=>n+current.countries[i].respondents,0).toLocaleString('en-US')+' eligible respondents · '+(state.family!=='common_worry'?'Six worries + all 14 harm indicators.':'Five common worries; no harm or traffic.')+(current.year===2019?' Separate 2019 alternative, without established shared later-wave clusters.':'');
+  panel.querySelector('h1').textContent=state.view==='income'?'Compare countries by income group':'Explore the country map';
   for(const v of ['country','income']){el('tab-'+v).setAttribute('aria-selected',String(state.view===v));el('tab-'+v).tabIndex=state.view===v?0:-1;el(v+'-panel').hidden=state.view!==v;}
   drawMap();countryPanel();incomePanel();method();
  }
