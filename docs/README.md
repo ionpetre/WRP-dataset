@@ -1,11 +1,9 @@
-# Website
+# Worry–Harm Atlas
 
-`index.html` is the plain-language introduction and main findings. `about.html` explains how to read the survey. `explore.html` provides technical cluster results; `countries-by-wave.html` provides all-surveyed-country maps and distances; `methods.html` defines the analysis and links the complete companion notebook.
+The website presents the same five clusters in 2021, 2023 and 2025. The overview explains the survey, shared rules and trends. The explorer displays each wave’s clusters and compares the fitted definitions. The map displays all surveyed countries in the selected wave. Grey means a country was absent from that wave.
 
-All current analytical views load `data/paper-results.*` or `data/paper-country-results.*`, generated from `../paper/assets/` with `python ../scripts/export_paper_assets.py`. The exporter verifies source checksums and final model IDs. Current fixed-definition frequencies use the selected final 2025 seven/three models, not the archived six-cluster model.
+The pages use data/shared-five-results and data/shared-five-countries. Their JSON values come from the corresponding report and country display assets in the paper folder. The script files wrap those values for offline browser use. The public five-cluster notebook verifies the accompanying evidence.
 
-Serve this directory with a static server to preview. The repository owner handles GitHub upload and publication. Legacy URLs redirect to corresponding current views. Historical benchmark content is retained outside this publication root under `../archive/historical_benchmarks/docs/` and is absent from current navigation.
+Serve this directory locally to preview. The repository owner handles upload and publication. Earlier analyses are preserved outside the active page navigation.
 
-All five pages share the same sticky navigation. Author/course information is prominent and consistent. The overview timeline, recurring-cluster shares and interactive trend chart reuse the published aggregates. `overview.js` reads the same data as the cluster explorer.
-
-The overview shows every one of the seven worry–harm clusters. Literal Boolean rules are accompanied by restrained readings, precision and coverage. Its shares and rule scores use one 2025 reference population (90,395 complete respondents in 92 countries). `export_paper_assets.py` includes these verified scores from the companion’s rule-transfer table. The detailed explorer retains native-development reporting, explicitly identified on that page.
+The separate worry-only page covers 2019–2025 with four clusters under the 40% cap. It compares fitted labels and short rule overlap with the five worry–harm clusters.

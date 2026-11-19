@@ -1,0 +1,11 @@
+criterion,cluster,name,status,canonical_formula,rule,cost,questions,eligible_candidates,candidates_in_epsilon_band,best_coverage_2025
+native,0,"Crime, severe-weather or traffic worry",selected,"{""clauses"":[[9,29,58]]}",water: not very worried AND mental_health: not very worried AND V >= 1,3,6,2110,1,0.9180445041065796
+native,1,Water and food worry,selected,"{""clauses"":[[3,7,51]]}",food: at least somewhat worried AND water: very worried AND K <= 3,3,9,1464,1,0.8402114453542373
+native,2,Mental-health worry,selected,"{""clauses"":[[9,27,55]]}",water: not very worried AND mental_health: very worried AND K <= 5,3,9,634,2,0.925436261047132
+native,3,Broad known-person harm,selected,"{""clauses"":[[8,50],[52]]}",(water: at least somewhat worried AND K >= 4) OR K >= 5,3,8,25646,1,0.7568413994864674
+native,4,Little very high worry,selected,"{""clauses"":[[2,61],[59]]}",(food: very worried AND V <= 1) OR V <= 0,3,6,23568,6,0.996581049971615
+native_and_common,0,"Crime, severe-weather or traffic worry",selected,"{""clauses"":[[9,29,58]]}",water: not very worried AND mental_health: not very worried AND V >= 1,3,6,2090,1,0.9180445041065796
+native_and_common,1,Water and food worry,selected,"{""clauses"":[[3,7,51]]}",food: at least somewhat worried AND water: very worried AND K <= 3,3,9,1423,1,0.8402114453542373
+native_and_common,2,Mental-health worry,selected,"{""clauses"":[[9,27,55]]}",water: not very worried AND mental_health: very worried AND K <= 5,3,9,608,2,0.925436261047132
+native_and_common,3,Broad known-person harm,selected,"{""clauses"":[[8,50],[52]]}",(water: at least somewhat worried AND K >= 4) OR K >= 5,3,8,25164,1,0.7568413994864674
+native_and_common,4,Little very high worry,selected,"{""clauses"":[[2,61],[59]]}",(food: very worried AND V <= 1) OR V <= 0,3,6,23494,6,0.996581049971615

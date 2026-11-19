@@ -1,0 +1,2142 @@
+{
+  "csv_inputs": {
+    "2021": {
+      "name": "WRP_2021.csv",
+      "sha256": "572f32bb7ab165270f67b063442c21c4388bb5fc77be3a0c3504076dc2d5ad61",
+      "float_precision": "round_trip"
+    },
+    "2023": {
+      "name": "WRP_2023.csv",
+      "sha256": "1551cc8420aa8b12f4245094efeb85470078dc925892695925d12fb9799435db",
+      "float_precision": null
+    },
+    "2025": {
+      "name": "WRP_2025.csv",
+      "sha256": "060331b39ced734dd5bf87b824950a07f2acc44d55d6db03c9c63d589c3a0553",
+      "float_precision": "round_trip"
+    }
+  },
+  "tasks": [
+    {
+      "fit_seed": 2424861032,
+      "repeat": 0,
+      "sample_seed": 226909232,
+      "test": "point",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1461228403,
+      "repeat": 0,
+      "sample_seed": 4097027186,
+      "test": "point",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1616620868,
+      "repeat": 0,
+      "sample_seed": 1192265177,
+      "test": "point",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1490928601,
+      "repeat": 0,
+      "sample_seed": 3501897256,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1233312020,
+      "repeat": 1,
+      "sample_seed": 3980591310,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3605276978,
+      "repeat": 2,
+      "sample_seed": 815042352,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1972561000,
+      "repeat": 3,
+      "sample_seed": 482425025,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2286151417,
+      "repeat": 4,
+      "sample_seed": 2323886291,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2254053525,
+      "repeat": 5,
+      "sample_seed": 371299808,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3773257274,
+      "repeat": 6,
+      "sample_seed": 750891710,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1532140989,
+      "repeat": 7,
+      "sample_seed": 861349541,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 19875051,
+      "repeat": 8,
+      "sample_seed": 4111984522,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1774003373,
+      "repeat": 9,
+      "sample_seed": 185754339,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1699453166,
+      "repeat": 10,
+      "sample_seed": 3128668697,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1750019527,
+      "repeat": 11,
+      "sample_seed": 1557004487,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2244257642,
+      "repeat": 12,
+      "sample_seed": 379936302,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2301886142,
+      "repeat": 13,
+      "sample_seed": 1763133336,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1154070219,
+      "repeat": 14,
+      "sample_seed": 709588346,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1794258466,
+      "repeat": 15,
+      "sample_seed": 525886367,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3503477211,
+      "repeat": 16,
+      "sample_seed": 4049127303,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 470316253,
+      "repeat": 17,
+      "sample_seed": 3785957386,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 919691629,
+      "repeat": 18,
+      "sample_seed": 3199637937,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2979944764,
+      "repeat": 19,
+      "sample_seed": 2088153058,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1467756346,
+      "repeat": 20,
+      "sample_seed": 1158850502,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3645353757,
+      "repeat": 21,
+      "sample_seed": 1868892241,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 409228358,
+      "repeat": 22,
+      "sample_seed": 3318111703,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 955377138,
+      "repeat": 23,
+      "sample_seed": 347798259,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1397537270,
+      "repeat": 24,
+      "sample_seed": 1673197581,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1946336284,
+      "repeat": 25,
+      "sample_seed": 3018026416,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 825337541,
+      "repeat": 26,
+      "sample_seed": 3731345514,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1573468529,
+      "repeat": 27,
+      "sample_seed": 3854645583,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1874439503,
+      "repeat": 28,
+      "sample_seed": 3518446687,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3281248055,
+      "repeat": 29,
+      "sample_seed": 3252056752,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3151441077,
+      "repeat": 30,
+      "sample_seed": 3225657495,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3517455431,
+      "repeat": 31,
+      "sample_seed": 1168042439,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 415241483,
+      "repeat": 32,
+      "sample_seed": 943493341,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1281447516,
+      "repeat": 33,
+      "sample_seed": 2683610551,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3556564989,
+      "repeat": 34,
+      "sample_seed": 3557913542,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 340026357,
+      "repeat": 35,
+      "sample_seed": 2428048034,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3160127590,
+      "repeat": 36,
+      "sample_seed": 1429789271,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4115330629,
+      "repeat": 37,
+      "sample_seed": 3966198138,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3744259794,
+      "repeat": 38,
+      "sample_seed": 3769883487,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 685826427,
+      "repeat": 39,
+      "sample_seed": 3865322693,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3449372744,
+      "repeat": 40,
+      "sample_seed": 4072989707,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 279792450,
+      "repeat": 41,
+      "sample_seed": 1318980807,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 872746090,
+      "repeat": 42,
+      "sample_seed": 2878122238,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3976309507,
+      "repeat": 43,
+      "sample_seed": 2289768887,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2852346387,
+      "repeat": 44,
+      "sample_seed": 933161840,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4140153909,
+      "repeat": 45,
+      "sample_seed": 2991852311,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1527778297,
+      "repeat": 46,
+      "sample_seed": 1494254072,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2697903006,
+      "repeat": 47,
+      "sample_seed": 1663299474,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2422162510,
+      "repeat": 48,
+      "sample_seed": 3723258711,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 690730121,
+      "repeat": 49,
+      "sample_seed": 123476424,
+      "test": "respondents",
+      "year": 2021
+    },
+    {
+      "fit_seed": 996400329,
+      "repeat": 0,
+      "sample_seed": 3565606170,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1758997964,
+      "repeat": 1,
+      "sample_seed": 3106270803,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1704645986,
+      "repeat": 2,
+      "sample_seed": 3580659031,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1784392187,
+      "repeat": 3,
+      "sample_seed": 1144291522,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 170273054,
+      "repeat": 4,
+      "sample_seed": 3723367032,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4271307775,
+      "repeat": 5,
+      "sample_seed": 1963378846,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 996671231,
+      "repeat": 6,
+      "sample_seed": 2997955251,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1107390750,
+      "repeat": 7,
+      "sample_seed": 4281135845,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2705390722,
+      "repeat": 8,
+      "sample_seed": 1166950778,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 287337878,
+      "repeat": 9,
+      "sample_seed": 2736676662,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 687427770,
+      "repeat": 10,
+      "sample_seed": 2887323280,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 546542779,
+      "repeat": 11,
+      "sample_seed": 2039196789,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2990766647,
+      "repeat": 12,
+      "sample_seed": 2672832118,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3074267250,
+      "repeat": 13,
+      "sample_seed": 2661220047,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 491355368,
+      "repeat": 14,
+      "sample_seed": 1651852195,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2621182146,
+      "repeat": 15,
+      "sample_seed": 700435219,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 778505249,
+      "repeat": 16,
+      "sample_seed": 500520977,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3522302701,
+      "repeat": 17,
+      "sample_seed": 2116911645,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4269466320,
+      "repeat": 18,
+      "sample_seed": 769048854,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4150985751,
+      "repeat": 19,
+      "sample_seed": 2885469983,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2038083689,
+      "repeat": 20,
+      "sample_seed": 2855009051,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2299256748,
+      "repeat": 21,
+      "sample_seed": 2242891802,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3567662618,
+      "repeat": 22,
+      "sample_seed": 4162606870,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4186043073,
+      "repeat": 23,
+      "sample_seed": 2489934663,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 943109606,
+      "repeat": 24,
+      "sample_seed": 2870221426,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 158517204,
+      "repeat": 25,
+      "sample_seed": 3985128528,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2658930929,
+      "repeat": 26,
+      "sample_seed": 2278517228,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2768835301,
+      "repeat": 27,
+      "sample_seed": 139894692,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1471656652,
+      "repeat": 28,
+      "sample_seed": 94499184,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 747488855,
+      "repeat": 29,
+      "sample_seed": 2428696978,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3539781353,
+      "repeat": 30,
+      "sample_seed": 1815741254,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 797535421,
+      "repeat": 31,
+      "sample_seed": 3528258602,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 313386370,
+      "repeat": 32,
+      "sample_seed": 69058172,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3077300162,
+      "repeat": 33,
+      "sample_seed": 4043678870,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 389650574,
+      "repeat": 34,
+      "sample_seed": 3399065883,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1842635340,
+      "repeat": 35,
+      "sample_seed": 1920073820,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1036203787,
+      "repeat": 36,
+      "sample_seed": 2084944411,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2381666140,
+      "repeat": 37,
+      "sample_seed": 3144813304,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2455348171,
+      "repeat": 38,
+      "sample_seed": 2796658814,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3316883262,
+      "repeat": 39,
+      "sample_seed": 1986939418,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3718424221,
+      "repeat": 40,
+      "sample_seed": 1622074324,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 248972150,
+      "repeat": 41,
+      "sample_seed": 1588104355,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 201499935,
+      "repeat": 42,
+      "sample_seed": 3766206600,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 4119121922,
+      "repeat": 43,
+      "sample_seed": 584105184,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 1763660409,
+      "repeat": 44,
+      "sample_seed": 1325599655,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3632032382,
+      "repeat": 45,
+      "sample_seed": 2901341046,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3360339787,
+      "repeat": 46,
+      "sample_seed": 3757709522,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 525931850,
+      "repeat": 47,
+      "sample_seed": 581339595,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 2390926484,
+      "repeat": 48,
+      "sample_seed": 2087354763,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 365302534,
+      "repeat": 49,
+      "sample_seed": 3068421006,
+      "test": "countries",
+      "year": 2021
+    },
+    {
+      "fit_seed": 3846169115,
+      "repeat": 0,
+      "sample_seed": 1559424541,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1324267649,
+      "repeat": 1,
+      "sample_seed": 1671861900,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2247049061,
+      "repeat": 2,
+      "sample_seed": 3223488669,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1489191711,
+      "repeat": 3,
+      "sample_seed": 2196933272,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3330017760,
+      "repeat": 4,
+      "sample_seed": 1932867387,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3989406390,
+      "repeat": 5,
+      "sample_seed": 116687945,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 726851289,
+      "repeat": 6,
+      "sample_seed": 1783175928,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2248104967,
+      "repeat": 7,
+      "sample_seed": 3822078114,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3208819522,
+      "repeat": 8,
+      "sample_seed": 243460956,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4190950086,
+      "repeat": 9,
+      "sample_seed": 1986079837,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1075304445,
+      "repeat": 10,
+      "sample_seed": 1847858692,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 359485003,
+      "repeat": 11,
+      "sample_seed": 190263219,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2660119737,
+      "repeat": 12,
+      "sample_seed": 2204203332,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3728000892,
+      "repeat": 13,
+      "sample_seed": 1052528170,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 696517591,
+      "repeat": 14,
+      "sample_seed": 156575500,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2894544153,
+      "repeat": 15,
+      "sample_seed": 1643194269,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3798955926,
+      "repeat": 16,
+      "sample_seed": 3177611022,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3033772117,
+      "repeat": 17,
+      "sample_seed": 3078313419,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 742979761,
+      "repeat": 18,
+      "sample_seed": 3308541171,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 40377723,
+      "repeat": 19,
+      "sample_seed": 2940573276,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1090358298,
+      "repeat": 20,
+      "sample_seed": 1274171527,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 735707002,
+      "repeat": 21,
+      "sample_seed": 2858234788,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3423915467,
+      "repeat": 22,
+      "sample_seed": 4238706888,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2308094232,
+      "repeat": 23,
+      "sample_seed": 29328863,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 571934662,
+      "repeat": 24,
+      "sample_seed": 3014416199,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 570732258,
+      "repeat": 25,
+      "sample_seed": 424415825,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3135921586,
+      "repeat": 26,
+      "sample_seed": 923567390,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3332972527,
+      "repeat": 27,
+      "sample_seed": 1521550713,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2966942277,
+      "repeat": 28,
+      "sample_seed": 2647427412,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1266826242,
+      "repeat": 29,
+      "sample_seed": 3384323046,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4047388843,
+      "repeat": 30,
+      "sample_seed": 203611877,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 60337058,
+      "repeat": 31,
+      "sample_seed": 1467074865,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3701982184,
+      "repeat": 32,
+      "sample_seed": 1653640769,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2506535366,
+      "repeat": 33,
+      "sample_seed": 1429049335,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2425389723,
+      "repeat": 34,
+      "sample_seed": 1331305211,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2746026822,
+      "repeat": 35,
+      "sample_seed": 307963774,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3575367619,
+      "repeat": 36,
+      "sample_seed": 3949949313,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2780113181,
+      "repeat": 37,
+      "sample_seed": 2249370404,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2175505555,
+      "repeat": 38,
+      "sample_seed": 2493461629,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2552397388,
+      "repeat": 39,
+      "sample_seed": 3430907203,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 733750057,
+      "repeat": 40,
+      "sample_seed": 3558531633,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3740481495,
+      "repeat": 41,
+      "sample_seed": 1140622998,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1596684015,
+      "repeat": 42,
+      "sample_seed": 3580428090,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1103873878,
+      "repeat": 43,
+      "sample_seed": 4149278843,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3937457262,
+      "repeat": 44,
+      "sample_seed": 1054681109,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 150278776,
+      "repeat": 45,
+      "sample_seed": 1777589200,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 434340614,
+      "repeat": 46,
+      "sample_seed": 2976706491,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 688385538,
+      "repeat": 47,
+      "sample_seed": 3922675396,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2740338507,
+      "repeat": 48,
+      "sample_seed": 2522964578,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1383872948,
+      "repeat": 49,
+      "sample_seed": 3941164971,
+      "test": "respondents",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4050273989,
+      "repeat": 0,
+      "sample_seed": 2865192362,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 563558578,
+      "repeat": 1,
+      "sample_seed": 963035221,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2607965179,
+      "repeat": 2,
+      "sample_seed": 713306459,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 464156061,
+      "repeat": 3,
+      "sample_seed": 4004873648,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1878689205,
+      "repeat": 4,
+      "sample_seed": 3869421019,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2233950466,
+      "repeat": 5,
+      "sample_seed": 1127940652,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3084175557,
+      "repeat": 6,
+      "sample_seed": 446710315,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1742115058,
+      "repeat": 7,
+      "sample_seed": 457852775,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2358675076,
+      "repeat": 8,
+      "sample_seed": 553227901,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1298252848,
+      "repeat": 9,
+      "sample_seed": 1882849352,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1203265889,
+      "repeat": 10,
+      "sample_seed": 266167310,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3587160281,
+      "repeat": 11,
+      "sample_seed": 1743357033,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3618051588,
+      "repeat": 12,
+      "sample_seed": 596853574,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2537101214,
+      "repeat": 13,
+      "sample_seed": 584103653,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3933812905,
+      "repeat": 14,
+      "sample_seed": 972986831,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 880000631,
+      "repeat": 15,
+      "sample_seed": 3665735432,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 132932400,
+      "repeat": 16,
+      "sample_seed": 4174551271,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2846860669,
+      "repeat": 17,
+      "sample_seed": 3161684991,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2585920011,
+      "repeat": 18,
+      "sample_seed": 1939875871,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4079985682,
+      "repeat": 19,
+      "sample_seed": 963908715,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2083178544,
+      "repeat": 20,
+      "sample_seed": 80432783,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 956915282,
+      "repeat": 21,
+      "sample_seed": 2875403906,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3583527435,
+      "repeat": 22,
+      "sample_seed": 3060081443,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1487416261,
+      "repeat": 23,
+      "sample_seed": 2388490738,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3372941702,
+      "repeat": 24,
+      "sample_seed": 1584700807,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2457975157,
+      "repeat": 25,
+      "sample_seed": 3963613184,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 710317783,
+      "repeat": 26,
+      "sample_seed": 1661741292,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 316504836,
+      "repeat": 27,
+      "sample_seed": 4005947597,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3429279221,
+      "repeat": 28,
+      "sample_seed": 3817532867,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 148145029,
+      "repeat": 29,
+      "sample_seed": 3826218792,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2252065993,
+      "repeat": 30,
+      "sample_seed": 3741110912,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1978063770,
+      "repeat": 31,
+      "sample_seed": 4286683339,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1236373232,
+      "repeat": 32,
+      "sample_seed": 2628776388,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 875678189,
+      "repeat": 33,
+      "sample_seed": 1044218739,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3333777943,
+      "repeat": 34,
+      "sample_seed": 4150593181,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1365016446,
+      "repeat": 35,
+      "sample_seed": 16291732,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3240900398,
+      "repeat": 36,
+      "sample_seed": 2405704188,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 2234598148,
+      "repeat": 37,
+      "sample_seed": 3927845989,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 990853665,
+      "repeat": 38,
+      "sample_seed": 4156235739,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 53334307,
+      "repeat": 39,
+      "sample_seed": 2257832619,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1036278507,
+      "repeat": 40,
+      "sample_seed": 3589369401,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3199917445,
+      "repeat": 41,
+      "sample_seed": 3296207989,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 954569302,
+      "repeat": 42,
+      "sample_seed": 1892559911,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 337981083,
+      "repeat": 43,
+      "sample_seed": 2369949610,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 601790906,
+      "repeat": 44,
+      "sample_seed": 2497160621,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3449966666,
+      "repeat": 45,
+      "sample_seed": 678713290,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 1509440549,
+      "repeat": 46,
+      "sample_seed": 1448426979,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4156805490,
+      "repeat": 47,
+      "sample_seed": 748217107,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 4107005986,
+      "repeat": 48,
+      "sample_seed": 3890391717,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3045638391,
+      "repeat": 49,
+      "sample_seed": 1307859269,
+      "test": "countries",
+      "year": 2023
+    },
+    {
+      "fit_seed": 3123604449,
+      "repeat": 0,
+      "sample_seed": 3240499167,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1151928775,
+      "repeat": 1,
+      "sample_seed": 3290183200,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3293487142,
+      "repeat": 2,
+      "sample_seed": 3884100028,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 806145870,
+      "repeat": 3,
+      "sample_seed": 1289960799,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1211090841,
+      "repeat": 4,
+      "sample_seed": 3340060481,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1569939358,
+      "repeat": 5,
+      "sample_seed": 1710675840,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2308335682,
+      "repeat": 6,
+      "sample_seed": 1757277919,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1648657371,
+      "repeat": 7,
+      "sample_seed": 3451060730,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2485244397,
+      "repeat": 8,
+      "sample_seed": 1013544791,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 464438360,
+      "repeat": 9,
+      "sample_seed": 3340625725,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1114988432,
+      "repeat": 10,
+      "sample_seed": 3597031908,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1979221352,
+      "repeat": 11,
+      "sample_seed": 3582228653,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2553806133,
+      "repeat": 12,
+      "sample_seed": 2687002560,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2018285247,
+      "repeat": 13,
+      "sample_seed": 3785911960,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 629312056,
+      "repeat": 14,
+      "sample_seed": 1275762149,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2716076918,
+      "repeat": 15,
+      "sample_seed": 183287824,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 843840421,
+      "repeat": 16,
+      "sample_seed": 2449567761,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3688820730,
+      "repeat": 17,
+      "sample_seed": 2755625845,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2536961137,
+      "repeat": 18,
+      "sample_seed": 2412466049,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 938445467,
+      "repeat": 19,
+      "sample_seed": 3649131275,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2928503368,
+      "repeat": 20,
+      "sample_seed": 1586309839,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3394130849,
+      "repeat": 21,
+      "sample_seed": 2875928235,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1425432117,
+      "repeat": 22,
+      "sample_seed": 2909495149,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1799612580,
+      "repeat": 23,
+      "sample_seed": 3116824100,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3172530443,
+      "repeat": 24,
+      "sample_seed": 816232696,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2605230993,
+      "repeat": 25,
+      "sample_seed": 2003845240,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2873350608,
+      "repeat": 26,
+      "sample_seed": 3332007731,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2341445773,
+      "repeat": 27,
+      "sample_seed": 456788934,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3851334298,
+      "repeat": 28,
+      "sample_seed": 3794257354,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 869581622,
+      "repeat": 29,
+      "sample_seed": 4184303711,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 294463613,
+      "repeat": 30,
+      "sample_seed": 486492373,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2754454676,
+      "repeat": 31,
+      "sample_seed": 507647329,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3282526525,
+      "repeat": 32,
+      "sample_seed": 2046181242,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1256341800,
+      "repeat": 33,
+      "sample_seed": 4090483763,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1880904927,
+      "repeat": 34,
+      "sample_seed": 3101504804,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2899185005,
+      "repeat": 35,
+      "sample_seed": 3942061806,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3348621499,
+      "repeat": 36,
+      "sample_seed": 3294990395,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4023344376,
+      "repeat": 37,
+      "sample_seed": 2894144589,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1767154811,
+      "repeat": 38,
+      "sample_seed": 4042228670,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1897937122,
+      "repeat": 39,
+      "sample_seed": 2684799662,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2090782635,
+      "repeat": 40,
+      "sample_seed": 2540292430,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3873824517,
+      "repeat": 41,
+      "sample_seed": 3675793111,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 776447346,
+      "repeat": 42,
+      "sample_seed": 919875991,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1109915821,
+      "repeat": 43,
+      "sample_seed": 633085715,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3512553431,
+      "repeat": 44,
+      "sample_seed": 906036981,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 263466367,
+      "repeat": 45,
+      "sample_seed": 1280464175,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3262504889,
+      "repeat": 46,
+      "sample_seed": 45779736,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3407354776,
+      "repeat": 47,
+      "sample_seed": 1616794788,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1195936435,
+      "repeat": 48,
+      "sample_seed": 1306606220,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1946764493,
+      "repeat": 49,
+      "sample_seed": 2203170151,
+      "test": "respondents",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3000531726,
+      "repeat": 0,
+      "sample_seed": 2903108425,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2203186809,
+      "repeat": 1,
+      "sample_seed": 1819327798,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3254458688,
+      "repeat": 2,
+      "sample_seed": 905526207,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3630942174,
+      "repeat": 3,
+      "sample_seed": 3110059896,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4101990700,
+      "repeat": 4,
+      "sample_seed": 2625696261,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2291334006,
+      "repeat": 5,
+      "sample_seed": 3492971385,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1683338256,
+      "repeat": 6,
+      "sample_seed": 2678915686,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1892477192,
+      "repeat": 7,
+      "sample_seed": 92160456,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 527716606,
+      "repeat": 8,
+      "sample_seed": 60819356,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2402154195,
+      "repeat": 9,
+      "sample_seed": 300946265,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2458896104,
+      "repeat": 10,
+      "sample_seed": 4173753615,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1661475309,
+      "repeat": 11,
+      "sample_seed": 4088905353,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 552252225,
+      "repeat": 12,
+      "sample_seed": 621223522,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2095487179,
+      "repeat": 13,
+      "sample_seed": 4109330048,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2377588831,
+      "repeat": 14,
+      "sample_seed": 2717147446,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1986419339,
+      "repeat": 15,
+      "sample_seed": 1747694641,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1987813778,
+      "repeat": 16,
+      "sample_seed": 4139106303,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2553246098,
+      "repeat": 17,
+      "sample_seed": 2505860099,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 901523335,
+      "repeat": 18,
+      "sample_seed": 3096325263,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3941352924,
+      "repeat": 19,
+      "sample_seed": 1936023567,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2440923662,
+      "repeat": 20,
+      "sample_seed": 2104163063,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3928650033,
+      "repeat": 21,
+      "sample_seed": 3390677759,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2905940501,
+      "repeat": 22,
+      "sample_seed": 2817048626,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4189151552,
+      "repeat": 23,
+      "sample_seed": 1701742673,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 408207914,
+      "repeat": 24,
+      "sample_seed": 4273806129,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 275604155,
+      "repeat": 25,
+      "sample_seed": 3039154049,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 492702092,
+      "repeat": 26,
+      "sample_seed": 3767830089,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3611149668,
+      "repeat": 27,
+      "sample_seed": 1881718543,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3885633672,
+      "repeat": 28,
+      "sample_seed": 2571737989,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1929078379,
+      "repeat": 29,
+      "sample_seed": 1361450332,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 161356464,
+      "repeat": 30,
+      "sample_seed": 768181045,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1461581816,
+      "repeat": 31,
+      "sample_seed": 3382825462,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4273878995,
+      "repeat": 32,
+      "sample_seed": 574162022,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3658138169,
+      "repeat": 33,
+      "sample_seed": 110212404,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2513786147,
+      "repeat": 34,
+      "sample_seed": 4242614681,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4061120644,
+      "repeat": 35,
+      "sample_seed": 512525530,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3057561143,
+      "repeat": 36,
+      "sample_seed": 3367963644,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 422004515,
+      "repeat": 37,
+      "sample_seed": 1850980953,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3966503595,
+      "repeat": 38,
+      "sample_seed": 438938556,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 2943895515,
+      "repeat": 39,
+      "sample_seed": 304559118,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4052155386,
+      "repeat": 40,
+      "sample_seed": 1725103512,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3699374317,
+      "repeat": 41,
+      "sample_seed": 1558516193,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 1463554382,
+      "repeat": 42,
+      "sample_seed": 2782215281,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3803854554,
+      "repeat": 43,
+      "sample_seed": 3569757040,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 662285043,
+      "repeat": 44,
+      "sample_seed": 1424680814,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3110596318,
+      "repeat": 45,
+      "sample_seed": 2483062019,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 3556982185,
+      "repeat": 46,
+      "sample_seed": 1465191681,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 539871497,
+      "repeat": 47,
+      "sample_seed": 2875907180,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4095356811,
+      "repeat": 48,
+      "sample_seed": 432718437,
+      "test": "countries",
+      "year": 2025
+    },
+    {
+      "fit_seed": 4149275071,
+      "repeat": 49,
+      "sample_seed": 3973400936,
+      "test": "countries",
+      "year": 2025
+    }
+  ]
+}

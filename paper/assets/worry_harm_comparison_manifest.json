@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "shared_worry_strict40_report.json": "99c40f07b86cd66fa3e4638f6a1bba883f7775bd900b09524bd371a908b5fa61",
+    "worry_harm_comparison.json": "4deaa4d50578971dc3dec1b583ad541a7f890b3aa57ea6fec3cfd38ce54c9f03",
+    "shared_worry_strict40_evidence.npz": "6eb0a44af1b138a4d0148987c990716d4de18a4595e1448839c5889c55ff03a0",
+    "shared_five_evidence.npz": "f59bd25080f5e7d7715e69df1e211e9fd427891fb5f9cf9ffe25ad695d577104",
+    "shared_five_report.json": "ee5295492d43d985a79778e911b162bb9b424ff28df715d45a4d0e517e035578",
+    "reference_full.npz": "0958085b2cdf03307ac250cfe90f6dedf8cd593cd66e197b18deb80ff8713e28",
+    "shared_worry_only_conditions.json": "3feed5716584a56c781e31b98209011ebf66e91001004e62aeab6d338f3d1fa1",
+    "shared_five_rule_conditions.json": "c37e51c46f622c051b147fb4d43d42105edb9d4abd3fed84da4d40877708bce6",
+    "reference_common_worry.npz": "a6232f71cf64c5202c91f5c845fdbdf8816ab9b5bdae11e91c04f80c5b4305d1"
+  },
+  "aggregate_only": true,
+  "no_refits": true
+}

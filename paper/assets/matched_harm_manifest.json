@@ -1,0 +1,21 @@
+{
+  "files_sha256": {
+    "assets/matched_harm_centres.npz": "1520ea6e5ae17c8d89a5275d8e9e23534512c3bc87627388551d6c5b22912122",
+    "assets/matched_harm_schedule.json": "79e442eda91b6f820e3088b5fdce6ec0675de6f1421bb9cee94429c5bb8ee794",
+    "assets/country_split_full_2021.csv": "7248cc8f0aa4b4785f9f426169127545ec58fac600e96b68b0d36af67f028168",
+    "assets/country_split_full_2023.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "assets/country_split_full_2025.csv": "6f805a02e04c48a217551e2d4dc7f2b03aa733bdb8a08fca84886a9e22387090",
+    "results/matched_harm_ari.csv": "d1f16fd77f1eaff27341ca663c6cbb8476c281555980bdc2bfacef4e665a13f3",
+    "results/matched_harm_cluster_stability.csv": "236f455094b38781e05f0222a1ac459833b3f782ef5af053525f26c985e1d39c",
+    "results/matched_harm_redistribution.csv": "7b4712fc0a1e976816d9dd5808d3dac23d692c8fc1ca3e2093fd666e9a505067",
+    "results/matched_harm_stability.csv": "0708cbcf17028269257f9dc64c0b375156a7cae894f108105b8fdc0970f0bfbb"
+  },
+  "data": "Fitted centres, seed schedule, country splits and aggregate comparison results.",
+  "runtime": {
+    "python": "3.11",
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0"
+  }
+}

@@ -3,19 +3,19 @@
 <meta name="description" content="Compare all surveyed countries using recurring clusters and original World Risk Poll answers.">
 <title>Countries across waves · The Worry–Harm Atlas</title>
 <link rel="stylesheet" href="./wave-atlas.css?v=20261118b"><link rel="stylesheet" href="./country-waves.css?v=20261118">
-<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/paper-country-results.js" defer></script><script src="./country-waves.js?v=20261118b" defer></script>
+<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/shared-five-countries.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./country-waves.js?v=20261118f" defer></script>
 <meta name="author" content="Ion Petre"></head><body><header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a href="./index.html">Overview</a><a href="./about.html">Reading the survey</a><a href="./explore.html">Explore the clusters</a><a href="./countries-by-wave.html" aria-current="page">Compare countries</a><a href="./methods.html">Methods and code</a></nav></header><main id="wrp-wave-atlas">
-<div class="aw-brand">World Risk Poll · 2019–2025</div>
+<div class="aw-brand">World Risk Poll · 2021–2025</div>
 
 <h1>Countries across waves <span class="aw-benchmark">2025 reference</span></h1>
 <p class="aw-byline"><strong>Ion Petre</strong> <span>· University of Turku</span><br><span>Machine Learning Project Course · 2026–2027</span> <a href="./about.html#course">About the course</a></p>
 
-<p class="aw-intro">Compare every country and area included in each survey. The worry–harm view has seven clusters in 2021–2025; the worry-only view has three. The 2019 grouping differs from the later waves.</p>
+<p class="aw-intro">Compare surveyed countries and areas in 2021, 2023 and 2025. Choose a wave and compare original answers or the proportions in the five clusters.</p>
 <div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Country analysis">
 <button class="aw-tab" type="button" role="tab" id="cw-tab-country" aria-selected="true" aria-controls="cw-country-panel">Country distances</button>
 <button class="aw-tab" type="button" role="tab" id="cw-tab-income" aria-selected="false" aria-controls="cw-income-panel">Income patterns</button>
-</div><label class="aw-family"><span>Questions</span><select id="cw-family"><option value="full">Worry + harm</option><option value="common_worry">Worry only</option></select></label></div>
-<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year" type="button" data-year="2019" disabled aria-pressed="false">2019</button><button class="aw-year" type="button" data-year="2021" aria-pressed="false">2021</button><button class="aw-year" type="button" data-year="2023" aria-pressed="false">2023</button><button class="aw-year" type="button" data-year="2025" aria-pressed="true">2025</button></div>
+</div></div>
+<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year" type="button" data-year="2021" aria-pressed="false">2021</button><button class="aw-year" type="button" data-year="2023" aria-pressed="false">2023</button><button class="aw-year" type="button" data-year="2025" aria-pressed="true">2025</button></div>
 <p id="cw-population" class="aw-note"></p><p id="cw-coverage" class="aw-coverage-note"></p>
 <div class="cw-controls">
 <label>Compare countries using<select id="cw-basis"><option value="responses">Original answers</option><option value="clusters">Cluster proportions</option></select></label>
@@ -44,7 +44,7 @@
 <details><summary>Check the association by permuting country labels</summary><div id="cw-permutation"></div></details>
 </section>
 <details><summary>How to read these comparisons</summary><div id="cw-method"></div></details>
-<div class="aw-footer"><span>Cluster assignments · Survey weights within countries · Aggregate results</span><span class="aw-footer-links"><a href="./methods.html#country-waves">Methods</a><a href="./data/paper-country-results.json" download>Download country summaries</a><button id="cw-download" type="button">Download distance matrix</button></span><span><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_cross_wave_clustering.ipynb">Paper companion notebook</a></span></div>
-<noscript>This page needs JavaScript. Download the <a href="./data/paper-country-results.json">aggregate country results</a> or read the <a href="./methods.html#country-waves">methods</a>.</noscript>
+<div class="aw-footer"><span>Cluster assignments · Survey weights within countries · Aggregate results</span><span class="aw-footer-links"><a href="./methods.html#country-waves">Methods</a><a href="./data/shared-five-countries.json" download>Download country summaries</a><button id="cw-download" type="button">Download distance matrix</button></span><span><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_cross_wave_clustering.ipynb">Paper companion notebook</a></span></div>
+<noscript>This page needs JavaScript. Download the <a href="./data/shared-five-countries.json">aggregate country results</a> or read the <a href="./methods.html#country-waves">methods</a>.</noscript>
 <div class="aw-course-credit">Project lead and course lecturer: <strong>Ion Petre</strong> · <a href="./about.html#course">Machine Learning Project Course, University of Turku · 2026–2027</a></div>
 </main></body></html>

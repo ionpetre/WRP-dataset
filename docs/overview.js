@@ -2,14 +2,7 @@
 (()=>{'use strict';
  const data=window.WRP_WAVE_DATA,select=document.getElementById('overview-cluster');
  if(!data||!select)return;
- for(let cluster=0;cluster<7;cluster++){
-  const card=document.getElementById('cluster-c'+cluster),score=data.overviewRuleScores?.[cluster];
-  if(!card||!score)continue;
-  card.querySelector('.aw-description-head strong').textContent=(100*data.shares.full['2025'][cluster]).toFixed(2)+'%';
-  card.querySelector('[data-overview-precision]').textContent=(100*score.precision).toFixed(2)+'%';
-  card.querySelector('[data-overview-coverage]').textContent=(100*score.coverage).toFixed(2)+'%';
- }
- const years=[2021,2023,2025],names=["Traffic", "Food and water", "Crime", "Severe weather", "Mental health", "Known-person harm", "Very-worried answer count"];
+ const years=[2021,2023,2025],names=window.WRP_SHARED_FIVE.names;
  function render(){
   const cluster=Number(select.value),values=years.map(year=>data.shares.full[year][cluster]);
   document.getElementById('overview-trend-title').textContent='Cluster C'+cluster+' · '+names[cluster];

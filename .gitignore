@@ -46,3 +46,7 @@ docs/data/*
 !archive/historical_benchmarks/docs/data/
 !archive/historical_benchmarks/docs/data/*.json
 !archive/historical_benchmarks/docs/data/*.js
+
+# Shared five-cluster aggregate payload
+!docs/data/shared-five-*.json
+!docs/data/shared-five-*.js

@@ -1,0 +1,171 @@
+{
+  "waves": [
+    2019,
+    2021,
+    2023,
+    2025
+  ],
+  "names": [
+    "Crime worry without water worry",
+    "No crime worry",
+    "Crime, water and mental-health worry",
+    "Crime and water worry without mental-health worry"
+  ],
+  "selected": "h005",
+  "max_share": 0.34678957820365014,
+  "original_cap": 0.4,
+  "native_shares": [
+    [
+      0.2754751953097259,
+      0.27820585273740567,
+      0.30382939114312013,
+      0.14248956080974876
+    ],
+    [
+      0.2785666779103595,
+      0.34678957820365014,
+      0.2657113705234407,
+      0.10893237336254996
+    ],
+    [
+      0.2941980878576735,
+      0.33452412923429903,
+      0.2652813105347535,
+      0.10599647237327407
+    ],
+    [
+      0.28200201008526904,
+      0.32852899837792826,
+      0.27274565683626945,
+      0.11672333470053355
+    ]
+  ],
+  "native_examples": [
+    114428,
+    96196,
+    112753,
+    110436
+  ],
+  "native_countries": [
+    114,
+    96,
+    113,
+    111
+  ],
+  "q": 0.75,
+  "mean_parent": 1.5,
+  "mean_child": 0.0,
+  "k": 4,
+  "rules": [
+    {
+      "cluster": 0,
+      "name": "Crime worry without water worry",
+      "text": "water: not worried AND crime: at least somewhat worried",
+      "cost": 2,
+      "formula": {
+        "clauses": [
+          [
+            5,
+            13
+          ]
+        ]
+      },
+      "precision": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster": 1,
+      "name": "No crime worry",
+      "text": "crime: not worried",
+      "cost": 1,
+      "formula": {
+        "clauses": [
+          [
+            10
+          ]
+        ]
+      },
+      "precision": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster": 2,
+      "name": "Crime, water and mental-health worry",
+      "text": "water: at least somewhat worried AND mental health: at least somewhat worried",
+      "cost": 2,
+      "formula": {
+        "clauses": [
+          [
+            8,
+            23
+          ]
+        ]
+      },
+      "precision": [
+        0.917379866898928,
+        0.8933379021882316,
+        0.8926058335183207,
+        0.9059099866696312
+      ],
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster": 3,
+      "name": "Crime and water worry without mental-health worry",
+      "text": "water: at least somewhat worried AND crime: at least somewhat worried AND mental health: not worried",
+      "cost": 3,
+      "formula": {
+        "clauses": [
+          [
+            8,
+            13,
+            20
+          ]
+        ]
+      },
+      "precision": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coverage": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "exact_point_fits_per_batch": 4,
+  "total_refits": 800,
+  "exact_refits": 798,
+  "minimum_cross_ARI": 0.4216811055661955,
+  "min_pair_p10_ARI": 1.0,
+  "min_cluster_p10_Jaccard": 1.0
+}

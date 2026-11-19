@@ -1,10 +1,20 @@
-# Reproducible clustering companion
+# Reproduce the shared five-cluster result
+
+Open [wrp_shared_five_clusters.ipynb](wrp_shared_five_clusters.ipynb) with the libraries in requirements.txt. Run All verifies the five-cluster results from manifest-checked aggregates and frozen model centres. It calculates agreement over every saved refit pair, checks the common rules in all three native development populations and recomputes the fixed 2025 frequency comparisons. The optional rule cell repeats the exhaustive search.
+
+## Worry-only clusters and the effect of adding harm
+
+[wrp_shared_worry_only.ipynb](wrp_shared_worry_only.ipynb) verifies the four-wave worry-only result and compares it with the worry–harm clusters. It replays the matched ARI and stability results at the same cluster count and with the same worry questions. Its three-wave chart shows which worry-only groups the harm cluster draws from. Run All uses saved centres and aggregate evidence. The optional fitting section records the necessary survey CSVs and repeats the matched fits using the original draws and seeds.
+
+The material below documents the archived candidate catalogue and separate earlier analyses. The current website and main paper use the shared five-cluster result.
+
+## Archived candidate catalogue
 
 Open **wrp_cross_wave_clustering.ipynb**. It contains the narrative, all analytical code and saved results in one editable notebook. Run all cells from this directory after installing `requirements.txt`.
 
 The default run checks the aggregate inputs against their manifest, assigns stored models, reproduces all 3,310 candidate comparisons and resolution rankings, the principal conditional-refit distributions, all 259 native rule scores, rule transfer, final fixed-definition frequencies, figures and country summaries. It starts no clustering fits. The saved results are in `results/`; scientific figures are supplied as vector PDF and PNG.
 
-## Main findings
+## Findings from the archived analysis
 
 - The independently fitted seven-cluster models in 2021, 2023 and 2025 have point ARI 0.95–0.96. Four clusters recur more strongly under refitting; the remaining three have weaker recovery.
 - The later-wave five-worry models have identical three-way point assignment functions on all 243 complete patterns. Occasional confirmation refits differ.
@@ -33,3 +43,4 @@ Historical website versions are outside the published site in `../archive/histor
 The country interface includes every surveyed country and area: 142 in 2019 (five worries), 121 in 2021, 142 in 2023 and 140 in 2025. The independently fitted model is applied unchanged to every country’s complete-answer respondents. Grey denotes places not surveyed in that wave. This descriptive application is separate from clustering selection and validation.
 
 `assets/country_aggregates_all_surveyed.json` supplies those maps. The original development-only `country_aggregates.json` is preserved; its shares and category probabilities agree exactly within numerical tolerance with the corresponding subset. The notebook verifies both sets and contains an optional, version-checked raw-CSV reproduction of all country summaries. The fixed colour reference remains the 2025 development-country median.
+
