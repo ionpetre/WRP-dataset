@@ -1,55 +1,92 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Compare all surveyed countries using recurring clusters and original World Risk Poll answers.">
-<title>Countries across waves · World Worry Atlas</title>
-<link rel="stylesheet" href="./wave-atlas.css?v=20261118b"><link rel="stylesheet" href="./country-waves.css?v=20261118">
-<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/shared-five-countries.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./country-waves.js?v=2" defer></script><script src="./data/shared-five-results.js" defer></script><script src="./frequency.js" defer></script>
+<meta name="description" content="Choose a survey year and click a country to see where people gave similar answers about worry and harm.">
+<title>Compare countries and survey years · World Worry Atlas</title>
+<link rel="stylesheet" href="./wave-atlas.css?v=20261118b"><link rel="stylesheet" href="./country-waves.css?v=3">
+<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/shared-five-countries.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./country-waves.js?v=3" defer></script><script src="./data/shared-five-results.js" defer></script><script src="./frequency.js" defer></script>
 <meta name="author" content="Ion Petre"><link rel="stylesheet" href="./atlas-editorial.css?v=3"></head><body class="atlas-site"><header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a class="atlas-wordmark" href="./index.html">World Worry Atlas</a><a href="./explore.html">Clusters</a><a href="./countries-by-wave.html" aria-current="page">Countries</a><a href="./background.html">Income &amp; education</a><a href="./methods.html">Methods</a></nav></header><main id="wrp-wave-atlas">
 <div class="atlas-topic-menu">
   <header class="atlas-page-head"><h1>How do countries and years differ?</h1><p class="atlas-deck">The same patterns can be common in one place or year and less common in another. These country comparisons use the surveys with both worry and reported harm.</p></header>
   <ul class="atlas-topic-links">
-    <li><a class="atlas-topic-link" href="?view=country"><strong>Explore the country map</strong><span>Choose a country and see where people gave similar answers.</span></a></li>
+    <li><a class="atlas-topic-link" href="?view=country"><strong>Which countries answered alike?</strong><span>Pick a survey year and click a country on the map to find its closest matches.</span></a></li>
     <li><a class="atlas-topic-link" href="#over-time"><strong>Compare cluster shares over time</strong><span>See how common each cluster was across surveys in the same 92 countries.</span></a></li>
     <li><a class="atlas-topic-link" href="?view=income"><strong>Compare countries by income group</strong><span>See whether survey answers are more similar among countries at similar income levels.</span></a></li>
   </ul>
 </div>
 <section class="atlas-topic" id="country-map">
 <a class="atlas-topic-back" href="./countries-by-wave.html">← Countries overview</a>
-<header class="atlas-page-head"><h1>Explore the country map</h1><p class="atlas-deck">Compare any surveyed country with others by answers or cluster shares.</p></header>
-<div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Country analysis">
-<button class="aw-tab" type="button" role="tab" id="cw-tab-country" aria-selected="true" aria-controls="cw-country-panel">Country distances</button>
-<button class="aw-tab" type="button" role="tab" id="cw-tab-income" aria-selected="false" aria-controls="cw-income-panel">Country income groups</button>
+<header class="atlas-page-head"><h1>Which countries answered alike?</h1><p class="atlas-deck" id="cw-intro">Find out where people gave similar answers about worry and harm in the World Risk Poll.</p></header>
+<div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Country comparisons">
+  <button class="aw-tab" type="button" role="tab" id="cw-tab-country" aria-selected="true" aria-controls="cw-country-panel">Compare with a country</button>
+  <button class="aw-tab" type="button" role="tab" id="cw-tab-income" aria-selected="false" aria-controls="cw-income-panel">Compare by country income group</button>
 </div></div>
-<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year" type="button" data-year="2021" aria-pressed="false">2021</button><button class="aw-year" type="button" data-year="2023" aria-pressed="false">2023</button><button class="aw-year" type="button" data-year="2025" aria-pressed="true">2025</button></div>
-<p id="cw-population" class="aw-note"></p><p id="cw-coverage" class="aw-coverage-note"></p>
-<div class="cw-controls">
-<label>Compare countries using<select id="cw-basis"><option value="responses">Original answers</option><option value="clusters">Cluster proportions</option></select></label>
-<label id="cw-component-label">Answers to compare<select id="cw-component"><option value="responses">Overall worry + harm</option><option value="worry">Worry</option><option value="personal">Personal harm</option><option value="known">Known-person harm</option></select></label>
-<label hidden>Country set<select id="cw-scope"><option value="all">All surveyed countries</option></select></label>
-<label>Selected country<select id="cw-country"></select></label>
+<div class="cw-pickers">
+  <div role="group" aria-labelledby="cw-year-label">
+    <p class="cw-picker-label" id="cw-year-label">Choose a survey year</p>
+    <div class="aw-wavebar">
+      <button class="aw-year" type="button" data-year="2021" aria-pressed="false">2021</button>
+      <button class="aw-year" type="button" data-year="2023" aria-pressed="false">2023</button>
+      <button class="aw-year" type="button" data-year="2025" aria-pressed="true">2025</button>
+    </div>
+  </div>
+  <div>
+    <label class="cw-picker-label" for="cw-country">Choose a country to compare with</label>
+    <select id="cw-country"></select>
+  </div>
 </div>
-<div class="cw-map-head"><div><h2 id="cw-map-title"></h2><p class="aw-small aw-muted" id="cw-map-subtitle"></p></div><label>Map colours<select id="cw-map-mode"><option value="distance">Distance from selected country</option><option value="overview">Cluster similarity overview</option><option value="income">Country income group</option></select></label></div>
-<div class="cw-map-wrap"><svg id="cw-map" role="img" aria-labelledby="cw-map-title cw-map-subtitle"></svg><div id="cw-tooltip" role="status" hidden></div></div>
-<div id="cw-legend" class="cw-legend"></div>
-<p class="aw-note" id="cw-map-note"></p>
-<p class="aw-note" id="cw-status" role="status" aria-live="polite"></p>
+<p class="cw-status" id="cw-status" role="status"></p>
+<section class="cw-map-section" aria-labelledby="cw-map-title">
+  <div class="cw-map-head">
+    <h2 id="cw-map-title"></h2>
+    <p class="aw-small aw-muted" id="cw-map-subtitle"></p>
+    <p id="cw-map-explainer"></p>
+  </div>
+  <p class="cw-map-action"><strong>Click a coloured country on the map</strong> to compare it with the others. You can also use the country list above. <a id="cw-map-results-link" href="#cw-results">See the list of closest matches</a>.</p>
+  <div id="cw-legend" class="cw-legend"></div>
+  <div class="cw-map-wrap">
+    <svg id="cw-map" role="group" aria-labelledby="cw-map-title" aria-describedby="cw-map-subtitle"></svg>
+    <div id="cw-tooltip" aria-hidden="true" hidden></div>
+  </div>
+  <p class="aw-note" id="cw-map-note"></p>
+</section>
+<details class="cw-settings">
+  <summary>Change what the map compares</summary>
+  <p>You can compare answers to individual questions or compare how common each cluster of answers is in a country.</p>
+  <div class="cw-controls">
+    <label>Compare using<select id="cw-basis"><option value="responses">Survey answers</option><option value="clusters">How common each cluster is</option></select></label>
+    <label id="cw-component-label">Questions to compare<select id="cw-component"><option value="responses">Worry and reported harm</option><option value="worry">Worry alone</option><option value="personal">Harm to respondents</option><option value="known">Harm to people they know</option></select></label>
+    <label hidden>Country set<select id="cw-scope"><option value="all">All surveyed countries</option></select></label>
+    <label>Show map colours by<select id="cw-map-mode"><option value="distance">Difference from the selected country</option><option value="overview">Similar mixes of clusters</option><option value="income">Country income group</option></select></label>
+  </div>
+  <p class="aw-note">To colour the map by similar mixes of clusters, choose “How common each cluster is” first.</p>
+</details>
+<div id="cw-results" tabindex="-1">
 <section id="cw-country-panel" role="tabpanel" aria-labelledby="cw-tab-country">
-<div class="cw-evidence" id="cw-comparison-stats"></div>
-<div class="aw-panel-head"><div><h2 id="cw-nearest-title"></h2><p class="aw-small aw-muted" id="cw-nearest-note"></p></div><label>Show<select id="cw-peers"><option value="10">10 nearest</option><option value="20">20 nearest</option><option value="all">All countries</option></select></label></div>
+<div class="aw-panel-head"><div><h2 id="cw-nearest-title"></h2><p class="aw-small aw-muted" id="cw-nearest-note"></p></div><label>Countries to show<select id="cw-peers"><option value="10">10 closest matches</option><option value="20">20 closest matches</option><option value="all">All countries</option></select></label></div>
 <div class="cw-table-scroll"><table id="cw-neighbours"></table></div>
-<p id="cw-bootstrap" class="aw-note"></p>
-<details><summary>Cluster proportions in the selected country</summary><div id="cw-shares"></div><p class="aw-note">The model fitted for this survey assigns respondents in every surveyed country. Each country’s percentages use its respondents with complete answers and their survey weights. The five labels are matched across surveys.</p></details>
+<details><summary>How common is each cluster in this country?</summary><div id="cw-shares"></div><p class="aw-note">The percentages use complete answers and survey weights in this country. The cluster names match across surveys.</p></details>
+<details>
+  <summary>See detailed scores and checks</summary>
+  <div class="cw-table-scroll"><table id="cw-neighbour-details"></table></div>
+  <div class="cw-evidence" id="cw-comparison-stats"></div>
+  <p id="cw-bootstrap" class="aw-note"></p>
+</details>
 </section>
 <section id="cw-income-panel" role="tabpanel" aria-labelledby="cw-tab-income" hidden>
-<div class="cw-evidence" id="cw-income-stats"></div>
-<h2>Average distance between income groups</h2>
-<p class="aw-small aw-muted">Every distinct country pair counts once. Diagonal cells compare different countries in the same income group.</p>
+<h2>How similar are answers across country income groups?</h2>
+<p>Each box shows how different the answers were on average for countries in those two income groups. Smaller scores mean more similar answers. A box where the two labels match compares different countries in the same income group.</p>
 <div class="cw-table-scroll"><table id="cw-income-table"></table></div>
-<p class="aw-note" id="cw-income-note"></p>
-<details><summary>Check the association by permuting country labels</summary><div id="cw-permutation"></div></details>
+<details>
+  <summary>See the statistics behind this comparison</summary>
+  <div class="cw-evidence" id="cw-income-stats"></div>
+  <p class="aw-note" id="cw-income-note"></p>
+  <details><summary>What happens if we shuffle the income labels?</summary><div id="cw-permutation"></div></details>
+</details>
+<p><a href="./background.html">Explore differences between people on different incomes within countries</a></p>
 </section>
-<details><summary>How to read these comparisons</summary><div id="cw-method"></div></details>
-<div class="aw-footer"><span>Cluster assignments · Survey weights within countries · Aggregate results</span><span class="aw-footer-links"><a href="./methods.html#country-waves">Methods</a><a href="./data/shared-five-countries.json" download>Download country summaries</a><button id="cw-download" type="button">Download distance matrix</button></span><span><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_shared_five_clusters.ipynb">Paper companion notebook</a></span></div>
+</div>
+<details><summary>How we calculate the differences</summary><p class="aw-note" id="cw-population"></p><div id="cw-method"></div></details>
+<div class="aw-footer"><span class="aw-footer-links"><a href="./data/shared-five-countries.json" download>Download country summaries</a><button id="cw-download" type="button">Download all pairwise differences</button></span><span><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_shared_five_clusters.ipynb">Paper companion notebook</a></span></div>
 </section>
 <section class="atlas-topic" id="over-time" tabindex="-1">
 <a class="atlas-topic-back" href="./countries-by-wave.html">← Countries overview</a>
