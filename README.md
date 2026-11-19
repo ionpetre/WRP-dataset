@@ -4,10 +4,12 @@ We study which worries and harmful experiences occur together, and whether simil
 
 ## Start here
 
-- [Accessible overview](https://ionpetre.github.io/WRP-dataset/) introduces the Poll, our questions and the main findings.
+- [Worry–Harm Atlas](https://ionpetre.github.io/WRP-dataset/) introduces the World Risk Poll and the five recurring clusters.
 - [Reading the survey](https://ionpetre.github.io/WRP-dataset/about.html) explains worry, harm, weighting and the meaning of comparisons.
 - [Detailed cluster explorer](https://ionpetre.github.io/WRP-dataset/explore.html) shows the five shared clusters, their rules and cross-wave recurrence.
 - [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) apply these same models to every surveyed country and area. Grey means not surveyed in the selected wave.
+- [Worry alone](https://ionpetre.github.io/WRP-dataset/worry-only.html) follows four worry clusters back to 2019 and shows what asking about harm adds.
+- [Income and education](https://ionpetre.github.io/WRP-dataset/background.html) compares how the five clusters and reports of harm are distributed within countries.
 - [Five-cluster notebook](paper/wrp_shared_five_clusters.ipynb) reproduces the main comparisons and common rules. See [reproduction instructions](paper/README.md).
 
 ## Main findings
@@ -27,5 +29,3 @@ Survey attribution does not imply endorsement of this analysis. Percentages in o
 ## Course and author
 
 Project lead and course lecturer: **Ion Petre**, University of Turku. This atlas supports the **Machine Learning Project Course, 2026–2027**. The website presents the lecturer’s reference analysis; students develop and explain their own analyses.
-
-[Separate worry-only analysis](docs/worry-only.html) covers 2019–2025 with four clusters under the 40% size cap and compares them with the worry–harm clusters on matched respondents.

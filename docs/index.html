@@ -1,88 +1,60 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="What international survey answers reveal about recurring combinations of worry and harmful experiences, and how those patterns compare over time.">
-<title>The Worry–Harm Atlas · What the survey tells us</title><link rel="stylesheet" href="./wave-atlas.css?v=20261118c"><meta name="author" content="Ion Petre"><script src="./data/shared-five-results.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./overview.js?v=20261118f" defer></script></head><body><header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a href="./index.html" aria-current="page">Overview</a><a href="./about.html">Reading the survey</a><a href="./explore.html">Explore the clusters</a><a href="./countries-by-wave.html">Compare countries</a><a href="./methods.html">Methods and code</a></nav></header><main id="wrp-wave-atlas" class="aw-overview">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Five patterns of worry and reported harm recur across independently analysed World Risk Poll surveys. Explore what people reported and how the patterns vary by place, time and background.">
+  <meta name="author" content="Ion Petre">
+  <title>Recurring patterns of worry and harm · Worry–Harm Atlas</title>
+  <link rel="stylesheet" href="./wave-atlas.css">
+  <link rel="stylesheet" href="./atlas-editorial.css">
+</head>
+<body class="atlas-site">
+<header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a class="atlas-wordmark" href="./index.html" aria-current="page">Worry–Harm Atlas</a><a href="./explore.html">Clusters</a><a href="./countries-by-wave.html">Countries</a><a href="./worry-only.html">Worry alone</a><a href="./background.html">Income &amp; education</a><a href="./methods.html">Methods</a></nav></header>
+<main id="wrp-wave-atlas" class="atlas-cover">
+  <section class="atlas-hero" aria-labelledby="atlas-title">
+    <div class="atlas-hero-inner">
+      <div class="atlas-hero-copy">
+        <p class="atlas-context">World Risk Poll</p>
+        <h1 id="atlas-title">Five patterns of worry and harm keep recurring</h1>
+        <p class="atlas-deck">We grouped similar answers about worry and reported harm. When we analysed three global surveys separately, the same five clusters kept appearing.</p>
+        <a class="atlas-primary" href="./explore.html">Explore the five clusters</a>
+      </div>
+      <figure class="atlas-recurrence" id="five-clusters">
+        <figcaption>Five clusters recovered in each survey</figcaption>
+        <table>
+          <thead><tr><th scope="col"><span class="aw-sr-only">Cluster</span></th><th scope="col">2021</th><th scope="col">2023</th><th scope="col">2025</th></tr></thead>
+          <tbody>
+            <tr style="--pattern:#ee9974"><th scope="row"><a href="./explore.html?cluster=0">External hazards</a></th><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td></tr>
+            <tr style="--pattern:#96bce2"><th scope="row"><a href="./explore.html?cluster=1">Basic necessities</a></th><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td></tr>
+            <tr style="--pattern:#b9cc83"><th scope="row"><a href="./explore.html?cluster=2">Mental-health worry</a></th><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td></tr>
+            <tr style="--pattern:#7acabd"><th scope="row"><a href="./explore.html?cluster=3">Harm to people they know</a></th><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td></tr>
+            <tr style="--pattern:#c7bed0"><th scope="row"><a href="./explore.html?cluster=4">Few very high worries</a></th><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td><td><span class="aw-sr-only">Recovered</span></td></tr>
+          </tbody>
+        </table>
+        <a class="atlas-chart-link" href="./explore.html?view=compare">See how we tested recurrence</a>
+      </figure>
+    </div>
+  </section>
 
-<div class="aw-brand">World Risk Poll · 2019–2025</div>
-<h1>Which patterns of worry recur over time?</h1>
-<p class="aw-byline"><strong>Ion Petre</strong> <span>· University of Turku</span><br><span>Machine Learning Project Course · 2026–2027</span> <a href="./about.html#course">About the course</a></p>
-<p class="aw-lead">What makes people feel unsafe, and how does that relate to the harm they experience? The World Risk Poll gives people around the world a voice on these questions. We use its answers to study which combinations of concerns recur over time.</p>
-<section class="aw-reading-section aw-wrp-intro"><h2>Meet the World Risk Poll</h2>
-<p>The <strong>World Risk Poll (WRP)</strong> is a global survey from <strong>Lloyd’s Register Foundation</strong>, conducted by <strong>Gallup</strong>. It asks people about threats to their safety, how worried they feel, and the serious harm they or someone they know have experienced. It reaches countries where other evidence on everyday safety can be scarce.</p>
-<p>Its value is the view it provides from people’s own lives. Accident records can tell us about recorded events; the Poll also tells us what people fear and which experiences they report. This evidence can help researchers, public authorities and organisations working on safety understand concerns that national averages may overlook. <a href="https://www.gallup.com/analytics/357407/lloyd%27s-register-foundation-success-story.aspx">Read about the Poll’s purpose and origins</a>.</p>
-<figure class="aw-wave-timeline"><figcaption>Four surveys of everyday safety</figcaption><ol><li><strong>2019</strong><span class="aw-timeline-dot" aria-hidden="true"></span><b>142</b><span>countries and areas</span><small>154,195 interviews</small></li><li><strong>2021</strong><span class="aw-timeline-dot" aria-hidden="true"></span><b>121</b><span>countries and areas</span><small>125,911 interviews</small></li><li><strong>2023</strong><span class="aw-timeline-dot" aria-hidden="true"></span><b>142</b><span>countries and areas</span><small>146,910 interviews</small></li><li><strong>2025</strong><span class="aw-timeline-dot" aria-hidden="true"></span><b>140</b><span>countries and areas</span><small>143,459 interviews</small></li></ol></figure>
-<p class="aw-note">These figures describe the original survey. Our comparisons use the respondents and countries with the answers required for each analysis. <a href="https://github.com/lrfoundation/world_risk_poll_data">See the official data and survey documentation</a>.</p>
-<p><strong>Our contribution:</strong> an average worry score can hide different concerns. We ask which worries and harmful experiences occur together, whether those combinations recur in another wave, and what they reveal about differences between countries and years.</p></section>
-<p class="aw-overview-answer"><strong>Five clusters recur across 2021, 2023 and 2025.</strong> Each one is recovered consistently when we repeat the analysis. The same five answer rules describe the clusters in all three surveys with at least 80% precision.</p>
-<section class="aw-reading-section"><h2>Which parts of the Poll did we study?</h2>
-<p>The World Risk Poll asks people about risks in everyday life. Our main analysis combines worry about food, water, crime, severe weather, traffic and mental health with reports of harm to the respondent or to someone they personally know. Work-related harm is included too.</p>
-<p>We compared the 2021, 2023 and 2025 surveys using the same questions. The 2019 survey did not ask all of these questions in comparable form. These surveys interview different people, so they show population patterns rather than individual journeys.</p>
-<p><a href="./about.html">Read the short guide to the data and what the numbers mean</a></p></section>
-<section class="aw-reading-section"><h2>The questions behind the atlas</h2>
-<p>Which combinations of concerns does one overall score miss? Do those combinations recur in another survey? Can we then compare countries or years using a definition that stays the same?</p>
-<p><strong>Clusters</strong> bring together respondents with similar combinations of answers. Comparing several surveys shows which combinations recur and how reliably their boundaries can be recovered. They summarize answers, rather than defining fixed kinds of people.</p></section>
-<section class="aw-reading-section" id="five-clusters"><h2>Five clusters of worry and reported harm</h2>
-<p>We fitted each wave separately using the same encoding. Grouping traffic, crime and severe-weather worry together gave a more consistent result across surveys. The five clusters summarize distinctive answer patterns, and the rules below give an approximate way to describe each group.</p>
-<figure class="aw-seven-chart"><figcaption>Shares across the five clusters · 2025</figcaption><div class="aw-core-stack aw-seven-stack" role="img" aria-label="External hazards: 30.44%, Basic necessities: 12.19%, Mental-health worry: 11.56%, Harm to people they know: 8.90%, Few very high worries: 36.92%"><span style="width:30.435615930%;background:#a96045;color:#fff" title="External hazards: 30.44%">C0</span><span style="width:12.185747981%;background:#3979a9;color:#fff" title="Basic necessities: 12.19%">C1</span><span style="width:11.563617580%;background:#4e8b50;color:#fff" title="Mental-health worry: 11.56%">C2</span><span style="width:8.896743443%;background:#087c86;color:#fff" title="Harm to people they know: 8.90%">C3</span><span style="width:36.918275066%;background:#68717a;color:#fff" title="Few very high worries: 36.92%">C4</span></div></figure>
-<div class="aw-description-guide"><p><strong>Reading the rules.</strong> “Not very worried” includes not worried and somewhat worried. <strong>V</strong> counts very-worried answers across the six worry questions. <strong>K</strong> counts domains with reported harm to someone known, including work and answers reporting harm to both self and someone known.</p>
-<p><strong>Precision:</strong> among people meeting a rule, the share assigned to that cluster. <strong>Coverage:</strong> among people assigned to the cluster, the share meeting its rule. A respondent can meet more than one rule or none.</p></div>
-<div class="aw-core-cards aw-all-clusters"><article class="aw-core-card aw-cluster-description" id="cluster-c0" style="--cluster-color:#a96045">
-        <div class="aw-description-head"><h3>C0 · External hazards</h3><strong>30.44%</strong></div>
-        <p class="aw-small aw-muted">Crime, severe weather and traffic</p>
-        <p class="aw-rule-reading">At least one worry is rated “very worried.” Water and mental health are both below that level.</p>
-        <details class="aw-note"><summary>Boolean formula · cost 3</summary><p class="aw-rule-literal">Water: not very worried <b>AND</b> mental health: not very worried <b>AND</b> V ≥ 1</p>
-        </details>
-        <dl class="aw-description-scores"><div><dt>Precision</dt><dd>87.96%</dd></div>
-        <div><dt>Coverage</dt><dd>91.97%</dd></div></dl>
-        <a class="aw-card-link" href="./explore.html?inputs=full&amp;wave=2025&amp;cluster=0">Inspect cluster C0 →</a></article><article class="aw-core-card aw-cluster-description" id="cluster-c1" style="--cluster-color:#3979a9">
-        <div class="aw-description-head"><h3>C1 · Basic necessities</h3><strong>12.19%</strong></div>
-        <p class="aw-small aw-muted">Food and water</p>
-        <p class="aw-rule-reading">Water is rated “very worried,” food is at least “somewhat worried,” and harm to someone known is reported in no more than three domains.</p>
-        <details class="aw-note"><summary>Boolean formula · cost 3</summary><p class="aw-rule-literal">Food: at least somewhat worried <b>AND</b> water: very worried <b>AND</b> K ≤ 3</p>
-        </details>
-        <dl class="aw-description-scores"><div><dt>Precision</dt><dd>81.60%</dd></div>
-        <div><dt>Coverage</dt><dd>83.67%</dd></div></dl>
-        <a class="aw-card-link" href="./explore.html?inputs=full&amp;wave=2025&amp;cluster=1">Inspect cluster C1 →</a></article><article class="aw-core-card aw-cluster-description" id="cluster-c2" style="--cluster-color:#4e8b50">
-        <div class="aw-description-head"><h3>C2 · Mental-health worry</h3><strong>11.56%</strong></div>
-        <p class="aw-small aw-muted">Mental health</p>
-        <p class="aw-rule-reading">Mental health is rated “very worried,” water is below that level, and harm to someone known is reported in no more than five domains.</p>
-        <details class="aw-note"><summary>Boolean formula · cost 3</summary><p class="aw-rule-literal">Water: not very worried <b>AND</b> mental health: very worried <b>AND</b> K ≤ 5</p>
-        </details>
-        <dl class="aw-description-scores"><div><dt>Precision</dt><dd>88.78%</dd></div>
-        <div><dt>Coverage</dt><dd>92.87%</dd></div></dl>
-        <a class="aw-card-link" href="./explore.html?inputs=full&amp;wave=2025&amp;cluster=2">Inspect cluster C2 →</a></article><article class="aw-core-card aw-cluster-description" id="cluster-c3" style="--cluster-color:#087c86">
-        <div class="aw-description-head"><h3>C3 · Harm to people they know</h3><strong>8.90%</strong></div>
-        <p class="aw-small aw-muted">Harm across several domains</p>
-        <p class="aw-rule-reading">Harm to someone known is reported in five or more domains, or in exactly four with at least some water worry.</p>
-        <details class="aw-note"><summary>Boolean formula · cost 3</summary><p class="aw-rule-literal">(Water: at least somewhat worried <b>AND</b> K = 4) <b>OR</b> K ≥ 5</p>
-        </details>
-        <dl class="aw-description-scores"><div><dt>Precision</dt><dd>82.96%</dd></div>
-        <div><dt>Coverage</dt><dd>74.90%</dd></div></dl>
-        <a class="aw-card-link" href="./explore.html?inputs=full&amp;wave=2025&amp;cluster=3">Inspect cluster C3 →</a></article><article class="aw-core-card aw-cluster-description" id="cluster-c4" style="--cluster-color:#68717a">
-        <div class="aw-description-head"><h3>C4 · Few very high worries</h3><strong>36.92%</strong></div>
-        <p class="aw-small aw-muted">Food can be the exception</p>
-        <p class="aw-rule-reading">None of the five domains other than food is rated “very worried.” Food can be rated at any level.</p>
-        <details class="aw-note"><summary>Boolean formula · cost 3</summary><p class="aw-rule-literal">V = 0 <b>OR</b> (food: very worried <b>AND</b> V ≤ 1)</p>
-        <p>Food is the only domain that may be rated very worried. The search counted three condition occurrences: V = 0, food very worried and V ≤ 1.</p></details>
-        <dl class="aw-description-scores"><div><dt>Precision</dt><dd>91.57%</dd></div>
-        <div><dt>Coverage</dt><dd>98.89%</dd></div></dl>
-        <a class="aw-card-link" href="./explore.html?inputs=full&amp;wave=2025&amp;cluster=4">Inspect cluster C4 →</a></article></div>
-<p class="aw-note">Shares and rule scores in the cards use the same 90,395 complete 2025 respondents from 92 common development countries. Each country has equal weight.</p>
-<p><strong>Harm to people they know</strong> draws members from all four worry-only groups. <a href="./worry-only.html#harm-across-worry">See the mix in 2021, 2023 and 2025</a>.</p>
-<h3>How well do the same rules work in each survey?</h3>
-<div class="aw-table-scroll"><table class="aw-matrix"><caption>Precision / coverage among respondents in the same 92 countries</caption>
-<thead><tr><th scope="col">Cluster</th><th scope="col">2021</th><th scope="col">2023</th><th scope="col">2025</th></tr></thead><tbody><tr><th scope="row">External hazards</th><td>88.55% / 90.90%</td><td>89.02% / 90.46%</td><td>87.96% / 91.97%</td></tr><tr><th scope="row">Basic necessities</th><td>81.03% / 85.58%</td><td>82.55% / 84.15%</td><td>81.60% / 83.67%</td></tr><tr><th scope="row">Mental-health worry</th><td>86.47% / 92.38%</td><td>82.45% / 92.25%</td><td>88.78% / 92.87%</td></tr><tr><th scope="row">Harm to people they know</th><td>83.56% / 73.23%</td><td>80.81% / 71.98%</td><td>82.96% / 74.90%</td></tr><tr><th scope="row">Few very high worries</th><td>93.38% / 98.75%</td><td>91.85% / 98.26%</td><td>91.57% / 98.89%</td></tr></tbody></table></div>
-<p>The weakest cluster’s overlap score was 0.843 when we refitted the models on smaller samples. This measures the stability of the clustering. It is separate from the accuracy of a short rule.</p>
-</section>
-<section class="aw-reading-section"><h2>How common are the same definitions in different years?</h2>
-<p>The bars show the share assigned to each cluster using the same 2025 model in every wave. Choose a cluster to see how its share compares.</p>
-<figure class="aw-overview-trends"><div class="aw-trend-controls"><label for="overview-cluster">Choose a cluster</label><select id="overview-cluster"><option value="0">C0 · External hazards</option><option value="1">C1 · Basic necessities</option><option value="2" selected>C2 · Mental-health worry</option><option value="3">C3 · Harm to people they know</option><option value="4">C4 · Few very high worries</option></select></div><figcaption id="overview-trend-title">Mental-health worry</figcaption><p class="aw-axis-caption">Average country share (%)</p><div class="aw-overview-plot"><div class="aw-overview-yaxis" aria-hidden="true"><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span></div><div class="aw-overview-bars" id="overview-bars" role="img" aria-label="Mental-health worry: 13.40% in 2021, 13.58% in 2023, 11.56% in 2025"><div class="aw-overview-column"><div class="aw-overview-bar" style="height:33.48983187%"><strong>13.40%</strong></div><span>2021</span></div><div class="aw-overview-column"><div class="aw-overview-bar" style="height:33.93839398%"><strong>13.58%</strong></div><span>2023</span></div><div class="aw-overview-column"><div class="aw-overview-bar" style="height:28.90904395%"><strong>11.56%</strong></div><span>2025</span></div></div></div><p id="overview-change" class="aw-trend-change" aria-live="polite">2021 to 2025: a decrease of 1.83 percentage points.</p><p class="aw-note">The bars count assigned cluster members. The same 2025 clustering model is applied in all three surveys in the same 92 countries. All clusters share a 0–40% scale. These are average country shares among respondents with complete answers, with each country counting equally. They do not estimate the percentage of the world’s population.</p></figure>
-<p>These differences describe reported concerns and experience. They do not show that an individual changed groups or that actual future risk changed by the same amount.</p></section>
+  <div class="atlas-cover-content">
+    <section class="atlas-survey-brief" aria-labelledby="about-poll">
+      <div><h2 id="about-poll">What do people worry about together?</h2></div>
+      <div><p>Two people can be equally worried about very different things. The World Risk Poll, created by Lloyd’s Register Foundation and conducted by Gallup, asks people around the world about specific concerns and whether they or someone they know has experienced serious harm.</p>
+      <p>When the same combinations recur, we can follow how common they are over time and ask whether people from different backgrounds share them.</p>
+      <a href="./about.html">Read about the World Risk Poll</a></div>
+    </section>
 
-<section class="aw-reading-section"><h2>Separate analysis: worries from 2019 to 2025</h2><p>The five shared worry questions give four recurring groups under the original 40% size cap. <a href="./worry-only.html">Read the assignment rule</a> or <a href="./worry-only.html#compare">compare the worry-only and worry–harm clusters</a>.</p></section>
-<section class="aw-reading-section"><h2>What this can help us understand</h2>
-<p>These summaries make it easier to see which concerns accompany one another and to compare the frequency of the same combination across countries or years. They also show why a single worry score or a country average can miss useful distinctions.</p>
-<p>The clusters describe survey answers. They do not diagnose people, predict who will be harmed, or establish why concerns differ. Missing answers, country coverage and how people interpret the questions all matter. We report the less reliable parts alongside the clearer findings.</p>
-<p><a href="./countries-by-wave.html">Compare countries</a> · <a href="./explore.html">Inspect the detailed results</a> · <a href="./methods.html">Read the methods and reproducible code</a></p></section>
-<footer class="aw-footer"><span>Survey source: <a href="https://github.com/lrfoundation/world_risk_poll_data">Lloyd’s Register Foundation World Risk Poll, conducted by Gallup</a></span><span>Analysis: Ion Petre and collaborators, University of Turku</span></footer>
-<div class="aw-course-credit">Project lead and course lecturer: <strong>Ion Petre</strong> · <a href="./about.html#course">Machine Learning Project Course, University of Turku · 2026–2027</a></div>
-</main></body></html>
+    <section class="atlas-paths" aria-labelledby="next-questions">
+      <h2 id="next-questions">Explore the findings</h2>
+      <ul>
+        <li><a href="./countries-by-wave.html">How do countries and years differ?</a><p>Compare survey answers on the map, or see how often each cluster appears over time.</p></li>
+        <li><a href="./worry-only.html">What does asking about harm add?</a><p>Follow the worry questions back to 2019 and see how reported harm cuts across the worry groups.</p></li>
+        <li><a href="./background.html">Do the patterns cut across backgrounds?</a><p>Compare income and education groups within countries.</p></li>
+      </ul>
+    </section>
+    <footer class="atlas-credit"><div><strong>Ion Petre</strong><br>University of Turku<br><a href="./about.html#course">Machine Learning Project Course · 2026–2027</a></div><a href="./methods.html">Methods and code</a></footer>
+  </div>
+</main>
+</body>
+</html>

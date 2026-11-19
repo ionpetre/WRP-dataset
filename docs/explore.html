@@ -1,42 +1,60 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="World Risk Poll clustering results: Five recurring worry–harm clusters in the 2021, 2023 and 2025 surveys.">
-<title>Recurring clusters · The Worry–Harm Atlas</title>
-<link rel="stylesheet" href="./wave-atlas.css?v=20261118b">
-<script src="./data/shared-five-results.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./wave-atlas.js?v=20261118f" defer></script>
-<meta name="author" content="Ion Petre"></head><body><header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a href="./index.html">Overview</a><a href="./about.html">Reading the survey</a><a href="./explore.html" aria-current="page">Explore the clusters</a><a href="./countries-by-wave.html">Compare countries</a><a href="./methods.html">Methods and code</a></nav></header><main id="wrp-wave-atlas">
-<div class="aw-brand">World Risk Poll · 2021–2025</div>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Meet the five recurring clusters and inspect what their members report in each World Risk Poll survey.">
+  <meta name="author" content="Ion Petre">
+  <title>Meet the five clusters · Worry–Harm Atlas</title>
+  <link rel="stylesheet" href="./wave-atlas.css"><link rel="stylesheet" href="./atlas-editorial.css">
+  <script src="./data/shared-five-results.js" defer></script><script src="./wave-atlas.js?v=20261119-recurrence" defer></script>
+</head>
+<body class="atlas-site">
+<header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a class="atlas-wordmark" href="./index.html">Worry–Harm Atlas</a><a href="./explore.html" aria-current="page">Clusters</a><a href="./countries-by-wave.html">Countries</a><a href="./worry-only.html">Worry alone</a><a href="./background.html">Income &amp; education</a><a href="./methods.html">Methods</a></nav></header>
+<main id="wrp-wave-atlas">
+  <header class="atlas-page-head"><h1>Meet the five clusters</h1><p class="atlas-deck">Each cluster brings together people with similar answers. Select a cluster to see its shared description and what its members reported in each survey.</p></header>
+  <div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Cluster views">
+    <button class="aw-tab aw-interactive" id="aw-tab-explore" type="button" role="tab" aria-selected="true" aria-controls="aw-explore">What people reported</button>
+    <button class="aw-tab aw-interactive" id="aw-tab-compare" type="button" role="tab" aria-selected="false" aria-controls="aw-compare" tabindex="-1">Evidence across waves</button>
+  </div></div>
 
-<h1>Explore the clusters <span class="aw-benchmark">Patterns across waves</span></h1>
-<p class="aw-byline"><strong>Ion Petre</strong> <span>· University of Turku</span><br><span>Machine Learning Project Course · 2026–2027</span> <a href="./about.html#course">About the course</a></p>
-<p class="aw-intro">Independently fitted clusters, compared on the same reference answers. We use 2025 for reporting and correspondence.</p>
-<section class="aw-findings" aria-label="The main findings">
-<p>Five clusters recur across 2021, 2023 and 2025. Explore the answers in each cluster or compare fits on the same reference respondents.</p>
+  <section id="aw-explore" role="tabpanel" aria-labelledby="aw-tab-explore">
+    <div id="aw-clusters" class="atlas-cluster-list" role="group" aria-label="Select a cluster"></div>
+    <section id="aw-detail" class="aw-detail" aria-label="Selected cluster"></section>
+    <details><summary>How to read the rules and percentages</summary>
+      <p>The answer rule describes the cluster. Precision is the share of rule matches who belong to the cluster. Coverage is the share of cluster members who match the rule. The model assigns each complete respondent to one cluster. A person can meet several rules or meet none.</p>
+      <p>Cluster sizes and answer distributions use each wave’s own development sample with equal total weight per country. Rule scores compare the rules on the same set of 92 countries in all three waves.</p>
+      <p><a href="./methods.html#rules">Read the rule selection method</a></p>
+    </details>
+  </section>
 
+  <section id="aw-compare" role="tabpanel" aria-labelledby="aw-tab-compare" hidden>
+    <section class="aw-reading-section">
+      <h2>Every pair of surveys supports the same five clusters</h2>
+      <p>We fitted each survey independently and let each fit classify the same set of complete survey answers. The fitted labels agreed for about <strong>97–98%</strong> of the weighted respondents in every pair.</p>
+      <div class="aw-matrix-scroll" id="aw-point"></div>
+      <p class="aw-note">Adjusted Rand index (ARI) is 1 when two partitions agree exactly and near 0 for chance-level agreement. Weighted agreement gives the share with matching labels after we align the clusters.</p>
+    </section>
 
-</section>
-<div class="aw-top"><div class="aw-tabs" role="tablist" aria-label="Explore the clusters">
-<button class="aw-tab aw-interactive" id="aw-tab-explore" type="button" role="tab" aria-selected="true" aria-controls="aw-explore">Explore the clusters</button>
-<button class="aw-tab aw-interactive" id="aw-tab-compare" type="button" role="tab" aria-selected="false" aria-controls="aw-compare">Compare with 2025</button>
-</div></div>
-<section id="aw-explore" role="tabpanel" aria-labelledby="aw-tab-explore">
-<div class="aw-wavebar" role="group" aria-label="Survey wave"><button class="aw-year aw-interactive" data-year="2021" type="button" aria-pressed="false">2021</button><button class="aw-year aw-interactive" data-year="2023" type="button" aria-pressed="false">2023</button><button class="aw-year aw-interactive" data-year="2025" type="button" aria-pressed="true">2025</button></div>
-<p id="aw-availability" class="aw-small aw-muted aw-availability"></p>
-<div class="aw-panel-head"><div><h2 id="aw-model-title"></h2><p class="aw-muted aw-small" id="aw-model-pop"></p></div><span class="aw-muted aw-small">Select a cluster to inspect its answers and rule</span></div>
-<div id="aw-clusters" class="aw-cards" aria-label="Clusters in the selected wave"></div>
-<section id="aw-detail" class="aw-detail" aria-live="polite"></section>
-<details><summary class="aw-interactive">How these models were selected</summary><p class="aw-muted" id="aw-method"></p><p class="aw-muted aw-small">Stored numeric IDs remain local. Correspondence to 2025 uses maximum weighted overlap on the same 2025 reference respondents.</p><p><a href="./methods.html">Methods and data</a></p></details>
-</section>
-<section id="aw-compare" role="tabpanel" aria-labelledby="aw-tab-compare" hidden>
-<div class="aw-compare-head"><div><h2>Do the fitted cluster definitions recur?</h2><p class="aw-muted">Apply both independently fitted models to the same 2025 reference answers.</p><div class="aw-vs"><label class="aw-small aw-muted" for="aw-earlier">Earlier wave</label><select id="aw-earlier" aria-label="Earlier comparison wave"></select><span class="aw-muted">compared with</span><span class="aw-frozen-year">2025</span></div></div></div>
-<p id="aw-point" class="aw-point"></p>
-<p class="aw-muted" id="aw-overlap-note"></p><div class="aw-matrix-scroll" id="aw-matrix"></div>
-<div id="aw-stability" class="aw-stability"></div>
-<p class="aw-note">The dots are median ARIs; ranges are the 10th–90th percentiles. Fifty original confirmation refits per wave give 1,225 within-wave pairs and 2,500 cross-wave pairs. These conditional, dependent distributions describe fitting variation, not confidence intervals. ARI uses respondent counts; overlap uses country/survey weights.</p>
-<details id="aw-frequency-details"><summary class="aw-interactive">How common are the same fixed 2025 definitions?</summary>
-<p class="aw-muted" id="aw-prevalence-method"></p><div class="aw-legend aw-compare-key" id="aw-compare-key"></div><div id="aw-pairs" aria-live="polite"></div><p class="aw-note" id="aw-compare-note"></p>
-</details></section>
-<div class="aw-footer"><span>Complete answers · Equal country influence · Development evidence</span><span class="aw-footer-links"><a href="./methods.html">Methods</a><a href="./data/shared-five-results.json" download>Aggregate data</a><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_cross_wave_clustering.ipynb">Paper companion notebook</a></span><span><a href="./countries-by-wave.html" id="aw-country-link">Country comparisons</a> · <a href="./countries-by-wave.html?view=income" id="aw-income-link">Income patterns</a></span></div>
-<noscript>This explorer needs JavaScript. Read the <a href="./methods.html">methods and results</a> or download the <a href="./data/shared-five-results.json">aggregate data</a>.</noscript><p class="aw-note"><a href="./worry-only.html">Separate worry-only analysis, 2019–2025</a></p>
-<div class="aw-course-credit">Project lead and course lecturer: <strong>Ion Petre</strong> · <a href="./about.html#course">Machine Learning Project Course, University of Turku · 2026–2027</a></div>
-</main></body></html>
+    <section class="aw-reading-section">
+      <h2>What happens when we repeat the fitting?</h2>
+      <p>We refitted each survey on smaller samples of respondents or countries. Each cluster passed the recovery criterion in every survey pair and under both checks.</p>
+      <div class="atlas-columns">
+        <div id="aw-stability"></div>
+        <div id="aw-recovery"></div>
+      </div>
+      <p class="aw-note">Each cross-wave ARI range covers the middle 80% of 2,500 comparisons. Cluster recovery uses weighted Jaccard overlap, the share of the combined membership present in both fits. Each score is the least favourable 10th percentile across wave pairs and both types of refit.</p>
+    </section>
+
+    <details id="aw-overlap-details"><summary>View membership overlap tables</summary>
+      <label for="aw-earlier">Survey pair</label>
+      <select id="aw-earlier"><option value="2021">2021 and 2025</option><option value="2023">2023 and 2025</option></select>
+      <p id="aw-overlap-note"></p><div class="aw-matrix-scroll" id="aw-matrix"></div>
+    </details>
+    <p class="aw-note"><a href="./methods.html#reading-agreement">How we compare the independently fitted models</a></p>
+  </section>
+
+  <noscript><p>This explorer needs JavaScript. <a href="./methods.html">Read the methods</a> or <a href="./data/shared-five-results.json">view the aggregate data</a>.</p></noscript>
+  <footer class="atlas-credit"><span><strong>Ion Petre</strong> · University of Turku · <a href="./about.html#course">Machine Learning Project Course</a></span><a href="./countries-by-wave.html#over-time">Compare shares over time</a></footer>
+</main>
+</body>
+</html>
