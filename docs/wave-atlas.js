@@ -97,9 +97,9 @@
       url.searchParams.set('earlier', select.value);
       try { history.replaceState(null, '', url); } catch (error) { /* file browsing may restrict URL updates */ }
     });
-    document.title = 'Evidence across surveys · Worry–Harm Atlas';
+    document.title = 'Worry–harm recurrence · World Worry Atlas';
   } else {
     showCluster(Number(cluster), card.querySelector('span').textContent);
-    document.title = names[Number(cluster)] + ' · Worry–Harm Atlas';
+    document.title = names[Number(cluster)] + ' · World Worry Atlas';
   }
 })();

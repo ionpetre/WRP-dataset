@@ -4,9 +4,9 @@ We study which worries and harmful experiences occur together, and whether simil
 
 ## Start here
 
-- [Worry–Harm Atlas](https://ionpetre.github.io/WRP-dataset/) introduces the World Risk Poll and the five recurring clusters.
+- [World Worry Atlas](https://ionpetre.github.io/WRP-dataset/) introduces the World Risk Poll and the patterns of worry that recur in global surveys.
 - [Reading the survey](https://ionpetre.github.io/WRP-dataset/about.html) explains worry, harm, weighting and the meaning of comparisons.
-- [Detailed cluster explorer](https://ionpetre.github.io/WRP-dataset/explore.html) shows the five shared clusters, their rules and cross-wave recurrence.
+- [Cluster explorer](https://ionpetre.github.io/WRP-dataset/explore.html) shows the recurring patterns for worry alone and for worry and reported harm, with evidence for both.
 - [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) apply these same models to every surveyed country and area. Grey means not surveyed in the selected wave.
 - [Worry alone](https://ionpetre.github.io/WRP-dataset/worry-only.html) follows four worry clusters back to 2019 and shows what asking about harm adds.
 - [Income and education](https://ionpetre.github.io/WRP-dataset/background.html) compares how the five clusters and reports of harm are distributed within countries.

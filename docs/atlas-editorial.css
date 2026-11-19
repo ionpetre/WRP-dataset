@@ -57,6 +57,7 @@ body.atlas-site {
 .atlas-site #wrp-wave-atlas .atlas-context {text-transform: uppercase; font-size: .77rem; font-weight: 680; letter-spacing: .15em; margin: 0 0 14px;}
 .atlas-site #wrp-wave-atlas .atlas-page-head h1 {font: 400 clamp(2.2rem,6vw,4.15rem)/1.03 var(--serif); letter-spacing: -.045em; max-width: 24ch; margin: 0 0 .28em;}
 .atlas-site #wrp-wave-atlas .atlas-page-head .atlas-deck {font-size: clamp(1.04rem,2vw,1.2rem); color: var(--quiet); line-height: 1.6; max-width: 67ch; margin: 0;}
+.atlas-site #wrp-wave-atlas .atlas-page-head .atlas-deck + .atlas-deck {margin-top: .75em;}
 .atlas-site #wrp-wave-atlas .aw-reading-section h2,.atlas-site #wrp-wave-atlas .atlas-section-title {
   font: 400 clamp(1.65rem,2.8vw,2.25rem)/1.15 var(--serif); letter-spacing: -.019em; margin-block: 0 14px;
 }
@@ -107,24 +108,15 @@ body.atlas-site {
 .atlas-recurrence figcaption {font: 400 clamp(1.25rem,2vw,1.7rem)/1.25 var(--serif); margin: 4px 0 17px;}
 .atlas-recurrence table {border-collapse: collapse; width: 100%; font-size: .9rem;}
 .atlas-recurrence thead th {font-weight: 500; text-align: center; color: #c9dcc9; padding: 0 4px 6px;}
-.atlas-recurrence thead th:first-child {width: 49%;}
+.atlas-recurrence thead th:first-child {width: 46%;}
 .atlas-recurrence tbody tr {border-top: 1px solid #567569;}
 .atlas-recurrence tbody th {font-weight: 600; line-height: 1.28; text-align: left; padding: .68rem .4rem .68rem 0;}
-.atlas-recurrence tbody td {text-align: center; width: 17%;}
-.atlas-recurrence tbody td::after {content:""; display: inline-block; width: min(78%,3.5rem); height: .48rem; border-radius: 4px; background: var(--pattern); vertical-align: middle;}
+.atlas-recurrence tbody td {text-align: center; width: 13.5%;}
+.atlas-recurrence tbody td:not(.atlas-recurrence-unavailable)::after {content:""; display: inline-block; width: min(78%,3.5rem); height: .48rem; border-radius: 4px; background: var(--pattern); vertical-align: middle;}
+.atlas-recurrence-unavailable {color: #b5c8b9;}
 #wrp-wave-atlas .atlas-recurrence a {color: #f8f2df;}
-#wrp-wave-atlas .atlas-recurrence th a {text-decoration: none;}
-#wrp-wave-atlas .atlas-recurrence th a:hover {text-decoration: underline;}
-#wrp-wave-atlas .atlas-recurrence .atlas-chart-link {display: inline-block; margin-top: 14px; font-size: .875rem;}
-.atlas-hero-findings {min-width: 0;}
-.atlas-worry-finding {padding-top: 16px;}
-#wrp-wave-atlas .atlas-worry-finding .atlas-context {margin-bottom: 5px;}
-#wrp-wave-atlas .atlas-worry-finding a {
-  color: #f8f2df;
-  font: 400 clamp(1.19rem,2vw,1.55rem)/1.25 var(--serif);
-  text-underline-offset: 4px;
-}
-#wrp-wave-atlas .atlas-worry-years {margin: 7px 0 0; color: #c9dcc9; font-size: .88rem;}
+#wrp-wave-atlas .atlas-recurrence th a {text-underline-offset: 3px;}
+#wrp-wave-atlas .atlas-recurrence p {margin: 12px 0 5px; color: #c9dcc9; font-size: .875rem;}
 .atlas-cover-content {max-width: 1290px; margin: auto; padding: 0 clamp(16px,4vw,48px);}
 .atlas-survey-brief {
   display: grid;
@@ -182,6 +174,15 @@ body.atlas-site {
 #wrp-wave-atlas .atlas-topic-link strong {display: block; font: 400 1.3rem/1.2 var(--serif); text-decoration: underline; text-underline-offset: 4px;}
 #wrp-wave-atlas .atlas-topic-link span {display: block; margin-top: 8px; color: var(--quiet); font-size: .95rem;}
 #wrp-wave-atlas .atlas-topic-menu .atlas-section-title {margin-top: 28px;}
+#wrp-wave-atlas .atlas-analysis-pair {margin-bottom: 18px;}
+#wrp-wave-atlas .atlas-analysis-pair .atlas-section-title {margin: 0 0 6px;}
+#wrp-wave-atlas .atlas-analysis-years {font-size: .9rem; font-variant-numeric: tabular-nums; color: var(--quiet);}
+#wrp-wave-atlas .atlas-analysis-pair .atlas-topic-links {grid-template-columns: 1fr; gap: 9px; margin-bottom: 14px;}
+#wrp-wave-atlas .atlas-analysis-pair .atlas-topic-link {
+  border-top-width: 1px;
+  border-left: 4px solid var(--pattern,var(--line));
+  padding: 12px 15px;
+}
 #wrp-wave-atlas .atlas-result-head {margin-bottom:21px;}
 #wrp-wave-atlas .atlas-scores {margin:0 0 12px; border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(auto-fit,minmax(56px,1fr)); gap:0 10px; max-width:660px;}
 #wrp-wave-atlas .atlas-scores div {padding:9px 0;}

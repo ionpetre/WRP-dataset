@@ -1,6 +1,6 @@
-# Worry–Harm Atlas
+# World Worry Atlas
 
-The home page introduces the World Risk Poll and highlights both results. Five worry–harm clusters recur across three surveys, and four worry-only clusters recur across four surveys, including 2019.
+The home page introduces the World Risk Poll and leads with the recurring patterns of worry in global surveys. The Clusters overview presents the results for worry alone alongside the results for worry and reported harm, with the survey years for each.
 
 Each section opens with an overview and links to its topics. The cluster explorer gives each cluster its own view of survey answers and keeps the recurrence checks separate. Country maps and trends are reached from the Countries overview. Grey indicates a country was absent from the selected survey. Worry alone describes each of the four clusters and includes the separate assignment rule and harm comparisons. Income and education compares the distribution of the five clusters and the frequency of reported harm within countries.
 
