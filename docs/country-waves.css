@@ -19,8 +19,9 @@ body{margin:0;background:light-dark(#fff,#181818);color-scheme:light dark}
 #wrp-wave-atlas .cw-map-head p{max-width:76ch;margin:0 0 7px}
 #wrp-wave-atlas .cw-map-action{margin:15px 0 9px;color:var(--atlas-ink)}
 #wrp-wave-atlas #cw-map-note{margin:8px 0 0}
+#wrp-wave-atlas #cw-map-note:empty{display:none}
 #wrp-wave-atlas .cw-settings{margin-bottom:25px}
-#wrp-wave-atlas #cw-results{scroll-margin-top:100px}
+#wrp-wave-atlas :is(#cw-results,#cw-calculation){scroll-margin-top:100px}
 #wrp-wave-atlas #country-map .aw-panel-head{flex-wrap:wrap}
 #wrp-wave-atlas .cw-map-wrap{position:relative;border:1px solid var(--atlas-line);border-radius:6px;overflow:hidden;background:var(--atlas-track)}
 #wrp-wave-atlas #cw-map{display:block;width:100%;height:auto;min-height:160px}
@@ -30,7 +31,11 @@ body{margin:0;background:light-dark(#fff,#181818);color-scheme:light dark}
 #wrp-wave-atlas [data-iso]{cursor:pointer}
 #wrp-wave-atlas [data-iso]:is(:hover,:focus){outline:none;stroke:var(--atlas-ink);stroke-width:2.5}
 #wrp-wave-atlas #cw-tooltip{position:absolute;pointer-events:none;max-width:260px;background:var(--atlas-bg);border:1px solid var(--atlas-line);box-shadow:0 3px 12px #0002;padding:8px 11px;font-size:12px;border-radius:4px;z-index:2}
-#wrp-wave-atlas .cw-legend{display:flex;flex-wrap:wrap;align-items:end;gap:8px 24px;margin:10px 0 13px;font-size:.85rem;color:var(--atlas-muted)}
+#wrp-wave-atlas .cw-legend-layout{display:flex;flex-wrap:wrap;align-items:start;gap:10px 24px;margin:10px 0 13px}
+#wrp-wave-atlas .cw-legend{display:flex;flex:1 1 345px;flex-wrap:wrap;align-items:end;gap:8px 24px;font-size:.85rem;color:var(--atlas-muted)}
+#wrp-wave-atlas .cw-scale-example{flex:1 1 310px;min-width:0;padding-left:12px;border-left:2px solid var(--atlas-line);font-size:.88rem;line-height:1.45}
+#wrp-wave-atlas .cw-scale-example p{margin:0 0 6px}
+#wrp-wave-atlas .cw-scale-example p:last-child{margin-bottom:0}
 #wrp-wave-atlas .cw-scale{width:min(100%,445px)}
 #wrp-wave-atlas .cw-gradient{height:10px;border-radius:3px}
 #wrp-wave-atlas .cw-legend-ticks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:4px;line-height:1.25}

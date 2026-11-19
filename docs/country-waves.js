@@ -52,6 +52,12 @@
   }
   cache.set(m.key,result);return result;
  }
+ function finlandSwedenDistance(year){
+  const wave=data.models[state.family+'_'+year];
+  const finland=wave.countries.findIndex(country=>country.iso==='FIN');
+  const sweden=wave.countries.findIndex(country=>country.iso==='SWE');
+  return calculate(wave)[metric][finland][sweden];
+ }
  function rank(matrix,i,ids,countries){return ids.filter(j=>j!==i).sort((a,b)=>matrix[i][a]-matrix[i][b]||(countries[a].iso<countries[b].iso?-1:1));}
  function overview(m){
   const points=m.embedding.coordinates;let scale=55/Math.max(...points.map(p=>Math.hypot(...p)));
@@ -124,10 +130,18 @@
   el('map-subtitle').textContent=current.year+' survey · '+indices.length+' countries and areas'+(state.map==='distance'?' · '+metricLabels[metric]:'');
   const grey='<span><span class="cw-key-box cw-key-grey" aria-hidden="true"></span>Outside this year’s survey</span>';
   const keys='<div class="cw-map-keys"><span><span class="cw-key-box cw-key-selected" aria-hidden="true"></span>Selected country</span>'+grey+'</div>';
+  el('scale-example').hidden=state.map!=='distance';
   if(state.map==='distance'){
    el('map-explainer').textContent=metricDescriptions[metric];
    el('legend').innerHTML='<div class="cw-scale"><div class="cw-gradient" aria-hidden="true" style="background:linear-gradient(to right,'+Array.from({length:21},(_,i)=>distanceColour(i/10)+' '+i*5+'%').join(',')+')"></div><div class="cw-legend-ticks"><span><strong>0</strong>Same percentages</span><span><strong>1</strong>Typical difference</span><span><strong>2+</strong>Twice typical or more</span></div></div>'+keys;
-   el('map-note').textContent='The colour scale uses the same reference for every survey year. A score of 0.5 means half the typical difference.';
+   const earlier=(finlandSwedenDistance(2021)/reference).toFixed(2);
+   const later=(finlandSwedenDistance(2025)/reference).toFixed(2);
+   el('example-2021').textContent=earlier;
+   el('example-2025').textContent=later;
+   const description=metric==='clusters'?'Their mixes of clusters were':'Their answers were';
+   el('example-reading').textContent=earlier===later?'The scores round to the same value.':
+    description+' more alike in '+(Number(later)<Number(earlier)?2025:2021)+'.';
+   el('map-note').textContent='';
   }else if(state.map==='income'){
    el('legend').innerHTML='<div class="cw-income-key">'+[1,2,3,4,9].filter(a=>indices.some(i=>current.countries[i].income===a)).map(a=>'<span><span class="cw-key-box" style="background:'+incomeColours[a]+'"></span>'+incomeLabels[a]+'</span>').join('')+grey+'</div>';
    el('map-explainer').textContent='The colours show the national income groups recorded in this survey. These groups can change over time.';
@@ -191,7 +205,23 @@
  }
  function method(){
   const n=current.worryDomains.length,full=current.family==='full';
-  el('method').innerHTML='<p><strong>Country summaries.</strong> Apply the same model, unchanged, to eligible respondents in every surveyed country. Normalize WGT within each country. The same respondents and weights give cluster shares and original-answer probabilities. Including a country in this descriptive map does not refit or alter the model.</p><p><strong>Cluster distance.</strong> H(p,q) = √[½ Σ (√p − √q)²]. There are '+current.k+' clusters in this model. Larger distances mean different mixtures of the fitted clusters.</p><p><strong>Original answers.</strong> Average total variation over '+n+' three-category worry distributions.'+(full?' Average absolute prevalence gaps separately over seven personal and seven known-person harm indicators. Combine them as αD<sub>W</sub> + (1−α)(D<sub>S</sub> + D<sub>K</sub>)/2, using this model’s α = '+current.alpha.toFixed(8)+'.':' The model has five worries and no harm block.')+' The numerical middle value q does not enter this categorical comparison.</p><p><strong>Colours.</strong> Divide each distance by the median over distinct development-country pairs under the fixed 2025 model of the same question family. Each component has its own fixed denominator. Colour ratios are not percentages and cannot be added. The cluster-similarity overview retains two principal coordinates of square-root shares, while ranks use complete Hellinger distances. Its colour axes are specific to each model.</p><p><strong>Interpretation.</strong> Country sets can differ between waves. A changing nearest country can reflect that coverage as well as changing answers. Question marginals and cluster mixtures summarize different information. Income associations are descriptive; pairs share countries.</p><p><a href="./methods.html#country-waves">Methods and reproduction</a> · <a href="./data/shared-five-sources.json" download>Source checksums</a></p>';
+  const calibration=data.models[state.family+'_2025'];
+  const countries=calibration.countries.filter(country=>country.split==='train').length;
+  const pairs=(countries*(countries-1)/2).toLocaleString('en-US');
+  const example=finlandSwedenDistance(2025);
+  const harm=full
+   ?'<p><strong>Harm answers.</strong> For each of seven topics, take the absolute difference in the shares reporting harm to themselves. Average these seven differences to obtain <var>D<sub>S</sub></var>. Repeat for harm to someone they know to obtain <var>D<sub>K</sub></var>.</p>'+
+    '<p><strong>Worry and harm together.</strong> The raw difference is α<var>D<sub>W</sub></var> + (1 − α)(<var>D<sub>S</sub></var> + <var>D<sub>K</sub></var>)/2, with α = '+current.alpha+'. This gives '+(100*current.alpha)+'% of the weight to worry and '+(100*(1-current.alpha))+'% to harm.</p>'
+   :'';
+  el('method').innerHTML=
+   '<p><strong>Country percentages.</strong> Use respondents with complete answers. For each answer or cluster, divide the survey weight of the people in that category by the total survey weight of eligible respondents in their country. Use those shares as fractions between 0 and 1.</p>'+
+   '<p><strong>Worry answers.</strong> For each question, add the absolute differences for “not worried”, “somewhat worried” and “very worried”, then divide by two. For example, 70%, 20%, 10% versus 60%, 25%, 15% gives (0.10 + 0.05 + 0.05) ÷ 2 = 0.10. Average over all '+n+' worry questions to obtain <var>D<sub>W</sub></var>. This calculation uses the three response shares directly.</p>'+
+   harm+
+   '<p><strong>Cluster shares.</strong> For country share vectors <var>p</var> and <var>q</var>, the raw difference is the Hellinger distance √[½ Σ<sub>k</sub> (√<var>p</var><sub>k</sub> − √<var>q</var><sub>k</sub>)²], summing over the '+current.k+' clusters. The model fitted in each survey assigns respondents in every surveyed country.</p>'+
+   '<p><strong>Difference score.</strong> Divide the raw difference by the median raw difference for that measure across all '+pairs+' distinct pairs of the '+countries+' countries used to fit the 2025 model. Each pair counts once. We use that same divisor for all survey years. Compare scores for the same pair of countries with the same measure selected.</p>'+
+   '<p><strong>Finland and Sweden in 2025.</strong> With “'+metricLabels[metric]+'” selected, their raw difference and the reference give '+example.toFixed(8)+' ÷ '+reference.toFixed(8)+' ≈ '+(example/reference).toFixed(2)+'. The displayed values are rounded.</p>'+
+   '<p>The country list is ranked by the unrounded distance. Survey coverage can change between years, which can also change the closest matches. The separate map for similar mixes of clusters uses two principal coordinates of the square-root shares. Those colours are specific to each survey.</p>'+
+   '<p><a href="./methods.html#country-waves">Methods and reproduction</a> · <a href="./data/shared-five-sources.json" download>Source checksums</a></p>';
  }
  function render(){
   current=model();matrices=calculate(current);overviewColours=overview(current);
@@ -224,6 +254,8 @@
  root.querySelectorAll('[data-year]').forEach(b=>b.addEventListener('click',()=>{state.year=Number(b.dataset.year);render();save();}));
  for(const [id,key] of [['basis','basis'],['component','component'],['scope','scope'],['map-mode','map'],['peers','peers']])el(id).addEventListener('change',()=>{state[key]=el(id).value;if(state.family!=='common_worry'&&state.year===2019)state.year=2025;render();save();});
  el('country').addEventListener('change',()=>chooseCountry(el('country').value));
+ if(location.hash==='#cw-calculation')el('calculation').open=true;
+ el('calculation-link').addEventListener('click',()=>{el('calculation').open=true;});
  for(const v of ['country','income'])el('tab-'+v).addEventListener('click',()=>{state.view=v;state.map=v==='income'?'income':'distance';render();save();});
  root.querySelector('[role="tablist"]').addEventListener('keydown',event=>{let v;if(['ArrowLeft','ArrowRight'].includes(event.key))v=state.view==='country'?'income':'country';else if(event.key==='Home')v='country';else if(event.key==='End')v='income';else return;event.preventDefault();el('tab-'+v).click();el('tab-'+v).focus();});
  el('download').addEventListener('click',()=>{

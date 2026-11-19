@@ -2,8 +2,8 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Choose a survey year and click a country to see where people gave similar answers about worry and harm.">
 <title>Compare countries and survey years · World Worry Atlas</title>
-<link rel="stylesheet" href="./wave-atlas.css?v=20261118b"><link rel="stylesheet" href="./country-waves.css?v=3">
-<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/shared-five-countries.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./country-waves.js?v=3" defer></script><script src="./data/shared-five-results.js" defer></script><script src="./frequency.js" defer></script>
+<link rel="stylesheet" href="./wave-atlas.css?v=20261118b"><link rel="stylesheet" href="./country-waves.css?v=4">
+<script src="./vendor/d3.min.js" defer></script><script src="./data/country-geography.js" defer></script><script src="./data/shared-five-countries.js?v=20261118f" defer></script><script src="./five-model-selection.js?v=20261118f" defer></script><script src="./country-waves.js?v=4" defer></script><script src="./data/shared-five-results.js" defer></script><script src="./frequency.js" defer></script>
 <meta name="author" content="Ion Petre"><link rel="stylesheet" href="./atlas-editorial.css?v=3"></head><body class="atlas-site"><header class="aw-site-header"><nav class="aw-simple-nav" aria-label="Main navigation"><a class="atlas-wordmark" href="./index.html">World Worry Atlas</a><a href="./explore.html">Clusters</a><a href="./countries-by-wave.html" aria-current="page">Countries</a><a href="./background.html">Income &amp; education</a><a href="./methods.html">Methods</a></nav></header><main id="wrp-wave-atlas">
 <div class="atlas-topic-menu">
   <header class="atlas-page-head"><h1>How do countries and years differ?</h1><p class="atlas-deck">The same patterns can be common in one place or year and less common in another. These country comparisons use the surveys with both worry and reported harm.</p></header>
@@ -42,7 +42,14 @@
     <p id="cw-map-explainer"></p>
   </div>
   <p class="cw-map-action"><strong>Click a coloured country on the map</strong> to compare it with the others. You can also use the country list above. <a id="cw-map-results-link" href="#cw-results">See the list of closest matches</a>.</p>
-  <div id="cw-legend" class="cw-legend"></div>
+  <div class="cw-legend-layout">
+    <div id="cw-legend" class="cw-legend"></div>
+    <div id="cw-scale-example" class="cw-scale-example" hidden>
+      <p><strong>A score of 1</strong> marks the middle difference among the 2025 country pairs used to set the scale. The scale stays fixed across survey years for each map setting.</p>
+      <p><strong>Finland and Sweden</strong> scored <strong id="cw-example-2021"></strong> in 2021 and <strong id="cw-example-2025"></strong> in 2025. <span id="cw-example-reading"></span></p>
+      <p><a href="#cw-calculation" id="cw-calculation-link">See how we calculate the score</a></p>
+    </div>
+  </div>
   <div class="cw-map-wrap">
     <svg id="cw-map" role="group" aria-labelledby="cw-map-title" aria-describedby="cw-map-subtitle"></svg>
     <div id="cw-tooltip" aria-hidden="true" hidden></div>
@@ -85,7 +92,7 @@
 <p><a href="./background.html">Explore differences between people on different incomes within countries</a></p>
 </section>
 </div>
-<details><summary>How we calculate the differences</summary><p class="aw-note" id="cw-population"></p><div id="cw-method"></div></details>
+<details id="cw-calculation"><summary>How we calculate the differences</summary><p class="aw-note" id="cw-population"></p><div id="cw-method"></div></details>
 <div class="aw-footer"><span class="aw-footer-links"><a href="./data/shared-five-countries.json" download>Download country summaries</a><button id="cw-download" type="button">Download all pairwise differences</button></span><span><a href="https://github.com/ionpetre/WRP-dataset/blob/main/paper/wrp_shared_five_clusters.ipynb">Paper companion notebook</a></span></div>
 </section>
 <section class="atlas-topic" id="over-time" tabindex="-1">
