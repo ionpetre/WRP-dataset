@@ -1,0 +1,3 @@
+case,k,largest_share,dominance,all_nonempty,min_point_ARI,min_point_Jaccard,native_min,min_cross_ARI,min_cross_Jaccard,strict_native,strict_pass,sensitivity_native,sensitivity_pass
+control,5,0.40199323047285795,2.0099661523642895,True,0.5523678333245985,0.0004686532605307573,0.534668457606811,0.5180999325315621,0.0,False,False,False,False
+best,3,0.4072513628641334,1.2217540885924,True,0.7682621626217773,0.800204094696754,0.9339147026894957,0.7206870772982285,0.7585277898194089,False,False,True,False

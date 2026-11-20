@@ -14,6 +14,20 @@ Open [wrp_shared_five_clusters.ipynb](wrp_shared_five_clusters.ipynb). It checks
 
 The centre maps, split decisions and shared encodings were selected using development evidence across waves. Refits assess stability conditional on those choices. A combined five-cluster partition from seven centres differs from a direct fit with five centres.
 
+## Primary fitting and selection
+
+Both notebooks contain the complete primary fitting code directly in their cells, alongside the saved primary results. The worry–harm notebook fits seven centres independently in each wave, reconstructs the original pilot/confirmation shortlist and tests the two declared merges. The worry-only notebook fits both parent and child stages, contains the complete parent and child candidate grids, and repeats the two independent confirmation batches. No course notebook or separately supplied source-code helper is required.
+
+The default run verifies results from saved aggregate centres, including the primary confirmation scores and the uncentred comparison in Supplementary Section S2. The source schedules and settings are in [assets/primary_fitting_protocol.json](assets/primary_fitting_protocol.json), with the complete pilot and confirmation tables alongside it. Recorded implementation checks reproduced every adopted point assignment and 2,242 original native/resampling mass vectors.
+
+- `RUN_PRIMARY_POINT_FITS` repeats the adopted point fits from supplied global pattern aggregates.
+- `RUN_PRIMARY_REFITS` repeats the adopted confirmation fits from the original survey CSVs.
+- `RUN_PRIMARY_SELECTION` repeats the declared primary candidate grids and confirmation selection.
+- `RUN_RAW_SENSITIVITY_REFITS` repeats the reported controlled and strongest confirmed raw comparisons.
+- `RUN_RAW_SELECTION` repeats the bounded raw-only search, screen, pilot, sealed shortlist and fresh confirmations.
+
+All five switches are off by default. `PRIMARY_RAW_FOLDER` defaults to `paper/data/`; it should contain `WRP_2019.csv`, `WRP_2021.csv`, `WRP_2023.csv` and `WRP_2025.csv` from the recorded release. The primary protocol records the 2019 checksum as well as those for the later waves. The reader checks original CSV hashes, development-country splits, eligibility and aggregate masses before fitting. Recomputed aggregate results go to `results/`; the supplied model evidence is preserved. The full grid and resampling runs are substantially more expensive than reading the saved results.
+
 ## Environment
 
 Use Python 3.11 or later. From this directory, install `requirements.txt` and open the notebooks in JupyterLab. The dependencies are NumPy, pandas, SciPy, scikit-learn, matplotlib, threadpoolctl and Jupyter. The root `requirements.txt` points to this same dependency list.

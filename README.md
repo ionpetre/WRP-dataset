@@ -16,7 +16,7 @@ There are two companion notebooks, each with explanations, code and saved output
 - [Worry alone and its comparison with worry and harm](paper/wrp_shared_worry_only.ipynb) verifies the four-wave clustering, the matched fits, Figure 3 and the held-out-country checks.
 - [Worry and reported harm](paper/wrp_shared_five_clusters.ipynb) verifies the five-cluster recurrence, common Boolean descriptions, changes in frequency and feature influence. Both notebooks distinguish encoded-coordinate sensitivity from original-question influence.
 
-[Reproduction instructions](paper/README.md) describe the dependencies, supplied evidence and optional calculations. Default execution uses saved aggregate evidence and centres. Original survey records are obtained separately from the publisher.
+[Reproduction instructions](paper/README.md) describe the dependencies, supplied evidence and optional calculations. Default execution verifies saved aggregate evidence and centres. Both notebooks also contain full primary fitting and selection code, with original settings, seeds, saved results and optional refitting from the documented survey files. Original survey records are obtained separately from the publisher.
 
 The `paper/` folder contains the companion and its evidence. The `docs/` folder contains the website. Combined percentages give countries equal influence and concern respondents with complete required answers. They are not world-population shares.
 

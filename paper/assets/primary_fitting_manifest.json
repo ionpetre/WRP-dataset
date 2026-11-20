@@ -22,6 +22,8 @@
     "primary_worry_mean_pilot.csv": "887c73453cf5a5090ce1b7bc9b993572b424671742984b7138f742c6d736e206",
     "primary_worry_replication.csv": "47e44480331494cff6c1d91a11afb4ea8a599fd05712353f67d71042b30d5687",
     "primary_worry_split_confirmation.csv": "c0f5e1de8b6e9eb1b91e6e3d8fbdb31aa383b2d5c12630333d7a22f3c7139456",
-    "primary_worry_split_pilot.csv": "5a7d31b706d403f5b02610a6daa7e3b73cac5d23a4d095248d42e903c087607d"
+    "primary_worry_split_pilot.csv": "5a7d31b706d403f5b02610a6daa7e3b73cac5d23a4d095248d42e903c087607d",
+    "centring_expected_model_agreement.csv": "77ecc84b8292eaba5f500995f8eabade48c786d41e086fee7ed5fed2961a4dfd",
+    "centring_point_fit_validation.csv": "4c76d0c1426855e0130f60e1040ea80719bdcccd12b49f7727b1bb2e9bad83ff"
   }
 }

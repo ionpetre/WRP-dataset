@@ -1,0 +1,3 @@
+setting,k,largest_share,dominance,all_nonempty,min_point_ARI,min_point_Jaccard,native_min,min_cross_ARI,min_cross_Jaccard,strict_native,strict_pass,sensitivity_native,sensitivity_pass
+six_combined,6,0.3586199775322743,2.151719865193646,True,0.9395941532498426,0.8740957524361248,0.8821535602921594,0.8767310380042243,0.6465001318155826,True,False,True,False
+five_combined,5,0.3586199775322743,1.7930998876613715,True,0.9370899415259462,0.8740957524361248,0.9123390340487166,0.9038330036465039,0.8432375571002988,True,True,True,True

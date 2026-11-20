@@ -1,0 +1,8 @@
+id,k,largest_share,dominance,all_nonempty,min_point_ARI,min_point_Jaccard,native_min,min_cross_ARI,min_cross_Jaccard,strict_native,strict_pass,sensitivity_native,sensitivity_pass
+h001,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,0.9991723977901753,0.9987147460798014,0.995834127015111,True,True,True,True
+h004,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
+h005,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
+h006,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
+h064,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
+h065,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
+h066,4,0.34678957820365014,1.3871583128146006,True,1.0,1.0,1.0,1.0,1.0,True,True,True,True
