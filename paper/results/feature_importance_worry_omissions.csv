@@ -1,0 +1,69 @@
+family,wave,feature,kind,changed
+worry,2019,"food (relative worry, both stages)",coordinate,0.0
+worry,2019,"water (relative worry, both stages)",coordinate,0.09845836458333983
+worry,2019,"crime (relative worry, both stages)",coordinate,0.11989610932877515
+worry,2019,"severe weather (relative worry, both stages)",coordinate,0.0
+worry,2019,"mental health (relative worry, both stages)",coordinate,0.0015762919256686848
+worry,2019,Overall worry mean,coordinate,0.15730992947048414
+worry,2019,All relative worries,block,0.3513354870781192
+worry,2019,food (parent only),stage,0.0
+worry,2019,water (parent only),stage,0.09845836458333983
+worry,2019,crime (parent only),stage,0.11989610932877515
+worry,2019,severe weather (parent only),stage,0.0
+worry,2019,mental health (parent only),stage,0.0
+worry,2019,food (child only),stage,0.0
+worry,2019,water (child only),stage,0.0035005760202500287
+worry,2019,crime (child only),stage,0.002768478502574152
+worry,2019,severe weather (child only),stage,0.0
+worry,2019,mental health (child only),stage,0.0015762919256686848
+worry,2021,"food (relative worry, both stages)",coordinate,0.0
+worry,2021,"water (relative worry, both stages)",coordinate,0.09180338354809331
+worry,2021,"crime (relative worry, both stages)",coordinate,0.134739330320789
+worry,2021,"severe weather (relative worry, both stages)",coordinate,0.0
+worry,2021,"mental health (relative worry, both stages)",coordinate,0.0031219382820594247
+worry,2021,Overall worry mean,coordinate,0.1825795526624085
+worry,2021,All relative worries,block,0.3350035573611499
+worry,2021,food (parent only),stage,0.0
+worry,2021,water (parent only),stage,0.09180338354809331
+worry,2021,crime (parent only),stage,0.134739330320789
+worry,2021,severe weather (parent only),stage,0.0
+worry,2021,mental health (parent only),stage,0.0
+worry,2021,food (child only),stage,0.0
+worry,2021,water (child only),stage,0.0
+worry,2021,crime (child only),stage,0.0
+worry,2021,severe weather (child only),stage,0.0
+worry,2021,mental health (child only),stage,0.0031219382820594247
+worry,2023,"food (relative worry, both stages)",coordinate,0.0
+worry,2023,"water (relative worry, both stages)",coordinate,0.09907384049695792
+worry,2023,"crime (relative worry, both stages)",coordinate,0.12357668312861934
+worry,2023,"severe weather (relative worry, both stages)",coordinate,0.0
+worry,2023,"mental health (relative worry, both stages)",coordinate,0.0017288040534819268
+worry,2023,Overall worry mean,coordinate,0.17916791112927513
+worry,2023,All relative worries,block,0.5419972454422146
+worry,2023,food (parent only),stage,0.0
+worry,2023,water (parent only),stage,0.09907384049695792
+worry,2023,crime (parent only),stage,0.12357668312861934
+worry,2023,severe weather (parent only),stage,0.0
+worry,2023,mental health (parent only),stage,0.0
+worry,2023,food (child only),stage,0.0
+worry,2023,water (child only),stage,0.0
+worry,2023,crime (child only),stage,0.0
+worry,2023,severe weather (child only),stage,0.0
+worry,2023,mental health (child only),stage,0.0017288040534819268
+worry,2025,"food (relative worry, both stages)",coordinate,0.0
+worry,2025,"water (relative worry, both stages)",coordinate,0.09535253476353242
+worry,2025,"crime (relative worry, both stages)",coordinate,0.12919392706392802
+worry,2025,"severe weather (relative worry, both stages)",coordinate,0.0
+worry,2025,"mental health (relative worry, both stages)",coordinate,0.013795842297744837
+worry,2025,Overall worry mean,coordinate,0.19436400168036236
+worry,2025,All relative worries,block,0.34581280024064404
+worry,2025,food (parent only),stage,0.0
+worry,2025,water (parent only),stage,0.09535253476353242
+worry,2025,crime (parent only),stage,0.12919392706392802
+worry,2025,severe weather (parent only),stage,0.0
+worry,2025,mental health (parent only),stage,0.000707213117005997
+worry,2025,food (child only),stage,0.0
+worry,2025,water (child only),stage,0.0
+worry,2025,crime (child only),stage,0.0
+worry,2025,severe weather (child only),stage,0.0
+worry,2025,mental health (child only),stage,0.01308862918073884

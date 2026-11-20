@@ -1,0 +1,121 @@
+family,wave,stage,cluster,feature,BSS,within_cluster_separation_share
+worry,2019,parent stage,0,food (relative worry),0.00042477936941959053,0.02987054918464122
+worry,2019,parent stage,0,water (relative worry),0.007685119134748784,0.5404187341254474
+worry,2019,parent stage,0,crime (relative worry),0.004898006602332546,0.3444285614001954
+worry,2019,parent stage,0,severe weather (relative worry),0.0006435959172892048,0.04525776176156932
+worry,2019,parent stage,0,mental health (relative worry),0.00016692731320463577,0.011738353786230565
+worry,2019,parent stage,0,Overall worry mean,0.0004022465757384399,0.028286039741916055
+worry,2019,parent stage,1,food (relative worry),0.0005582608999122691,0.035124184870012364
+worry,2019,parent stage,1,water (relative worry),0.00041467217010247203,0.02608999119482905
+worry,2019,parent stage,1,crime (relative worry),0.005978849443332355,0.37617216822918825
+worry,2019,parent stage,1,severe weather (relative worry),0.00010503890665867578,0.006608748663220176
+worry,2019,parent stage,1,mental health (relative worry),0.0005328306507487657,0.033524186064705135
+worry,2019,parent stage,1,Overall worry mean,0.008304265524152843,0.522480720978045
+worry,2019,parent stage,2,food (relative worry),6.06298277885731e-06,0.0005005590040396521
+worry,2019,parent stage,2,water (relative worry),0.0027873011205896405,0.23011918782720203
+worry,2019,parent stage,2,crime (relative worry),3.678078474507268e-05,0.0030366164066955043
+worry,2019,parent stage,2,severe weather (relative worry),0.00078525738243018,0.06483073886251686
+worry,2019,parent stage,2,mental health (relative worry),0.0008051324733569464,0.06647162356933022
+worry,2019,parent stage,2,Overall worry mean,0.0076918890261790185,0.6350412743302157
+worry,2019,child stage,0,food (relative worry),0.00028282662700029713,0.03921939286287107
+worry,2019,child stage,0,water (relative worry),0.0005900049482730383,0.08181562005947164
+worry,2019,child stage,0,crime (relative worry),0.0005576835849896148,0.07733363666943238
+worry,2019,child stage,0,severe weather (relative worry),0.00011174369617277157,0.01549542900762532
+worry,2019,child stage,0,mental health (relative worry),0.005669138525190973,0.7861359214005995
+worry,2019,child stage,0,Overall worry mean,0.0,0.0
+worry,2019,child stage,1,food (relative worry),0.0006030690346171909,0.03921939286287109
+worry,2019,child stage,1,water (relative worry),0.0012580629990471598,0.08181562005947154
+worry,2019,child stage,1,crime (relative worry),0.001189144405491878,0.0773336366694325
+worry,2019,child stage,1,severe weather (relative worry),0.00023827022119596674,0.015495429007625317
+worry,2019,child stage,1,mental health (relative worry),0.012088260337292964,0.7861359214005996
+worry,2019,child stage,1,Overall worry mean,0.0,0.0
+worry,2021,parent stage,0,food (relative worry),0.0004512600501762418,0.0326906308443549
+worry,2021,parent stage,0,water (relative worry),0.007094540417277859,0.5139497761900408
+worry,2021,parent stage,0,crime (relative worry),0.005627512540182712,0.40767387884489614
+worry,2021,parent stage,0,severe weather (relative worry),0.0004412720572257357,0.03196707069252339
+worry,2021,parent stage,0,mental health (relative worry),8.927891866072543e-05,0.006467632512519324
+worry,2021,parent stage,0,Overall worry mean,0.00010009264015768233,0.007251010915665401
+worry,2021,parent stage,1,food (relative worry),0.0006332508088941358,0.039401616509735046
+worry,2021,parent stage,1,water (relative worry),0.0005122101480550061,0.031870323010407535
+worry,2021,parent stage,1,crime (relative worry),0.0061661338569556886,0.3836641630252979
+worry,2021,parent stage,1,severe weather (relative worry),9.726252559152621e-05,0.006051789717912977
+worry,2021,parent stage,1,mental health (relative worry),0.00043539088303329705,0.027090537215532864
+worry,2021,parent stage,1,Overall worry mean,0.008227447940943164,0.5119215705211139
+worry,2021,parent stage,2,food (relative worry),3.4731351645413976e-05,0.0025739610899433237
+worry,2021,parent stage,2,water (relative worry),0.0025863078569709186,0.191672810733724
+worry,2021,parent stage,2,crime (relative worry),0.00011799994067712253,0.008745045658441537
+worry,2021,parent stage,2,severe weather (relative worry),0.0007618834061483053,0.05646363154882189
+worry,2021,parent stage,2,mental health (relative worry),0.0007965358387966777,0.0590317439050414
+worry,2021,parent stage,2,Overall worry mean,0.009195889186310547,0.6815128070640277
+worry,2021,child stage,0,food (relative worry),0.00016990363960399664,0.027476081773130826
+worry,2021,child stage,0,water (relative worry),0.0006001626857005128,0.09705571386183069
+worry,2021,child stage,0,crime (relative worry),0.0005469344892936635,0.08844788014785265
+worry,2021,child stage,0,severe weather (relative worry),6.958244082196457e-05,0.011252571389608787
+worry,2021,child stage,0,mental health (relative worry),0.0047971092014187176,0.775767752827577
+worry,2021,child stage,0,Overall worry mean,0.0,0.0
+worry,2021,child stage,1,food (relative worry),0.00041443445637455743,0.027476081773130816
+worry,2021,child stage,1,water (relative worry),0.0014639362462411632,0.09705571386183061
+worry,2021,child stage,1,crime (relative worry),0.001334100306922346,0.08844788014785258
+worry,2021,child stage,1,severe weather (relative worry),0.00016972774157445023,0.01125257138960877
+worry,2021,child stage,1,mental health (relative worry),0.01170126401466793,0.7757677528275772
+worry,2021,child stage,1,Overall worry mean,0.0,0.0
+worry,2023,parent stage,0,food (relative worry),0.00046758990816621505,0.033081636865319175
+worry,2023,parent stage,0,water (relative worry),0.007305602660578959,0.5168659333290654
+worry,2023,parent stage,0,crime (relative worry),0.005692276311906596,0.4027242987900702
+worry,2023,parent stage,0,severe weather (relative worry),0.0004415350237977856,0.031238273250769413
+worry,2023,parent stage,0,mental health (relative worry),0.00011314013445597415,0.008004580033911768
+worry,2023,parent stage,0,Overall worry mean,0.00011428074998418417,0.008085277730864147
+worry,2023,parent stage,1,food (relative worry),0.0006226389003934477,0.03880516835787593
+worry,2023,parent stage,1,water (relative worry),0.000606718147590351,0.037812927923624395
+worry,2023,parent stage,1,crime (relative worry),0.006465523720711151,0.40295544712271386
+worry,2023,parent stage,1,severe weather (relative worry),0.00013470093475230672,0.008395062447469159
+worry,2023,parent stage,1,mental health (relative worry),0.0003693324690151342,0.023018170935201494
+worry,2023,parent stage,1,Overall worry mean,0.007846342857509401,0.48901322321311513
+worry,2023,parent stage,2,food (relative worry),1.968447274608992e-05,0.001480809690888976
+worry,2023,parent stage,2,water (relative worry),0.0027777312576818284,0.20896121618891367
+worry,2023,parent stage,2,crime (relative worry),8.398715292542367e-05,0.006318126554181959
+worry,2023,parent stage,2,severe weather (relative worry),0.0008833644621781925,0.06645312135374482
+worry,2023,parent stage,2,mental health (relative worry),0.0007678701641192876,0.0577647974136475
+worry,2023,parent stage,2,Overall worry mean,0.008760409441083758,0.6590219287986231
+worry,2023,child stage,0,food (relative worry),0.0004868056950341203,0.031827522690848854
+worry,2023,child stage,0,water (relative worry),0.001426096455541958,0.09323867358396344
+worry,2023,child stage,0,crime (relative worry),0.0012595380981345512,0.08234903126093515
+worry,2023,child stage,0,severe weather (relative worry),0.00019332745896795324,0.012639815330499385
+worry,2023,child stage,0,mental health (relative worry),0.011929349658590334,0.7799449571337531
+worry,2023,child stage,0,Overall worry mean,0.0,0.0
+worry,2023,child stage,1,food (relative worry),0.0001945093165471105,0.03182752269084886
+worry,2023,child stage,1,water (relative worry),0.00056981471196281,0.09323867358396339
+worry,2023,child stage,1,crime (relative worry),0.0005032642327983201,0.08234903126093539
+worry,2023,child stage,1,severe weather (relative worry),7.724640918798296e-05,0.012639815330499378
+worry,2023,child stage,1,mental health (relative worry),0.004766521165659895,0.7799449571337529
+worry,2023,child stage,1,Overall worry mean,0.0,0.0
+worry,2025,parent stage,0,food (relative worry),0.00041037904267277454,0.030256249971580162
+worry,2025,parent stage,0,water (relative worry),0.006815091562157494,0.5024601464560208
+worry,2025,parent stage,0,crime (relative worry),0.005759252108237371,0.4246156682399715
+worry,2025,parent stage,0,severe weather (relative worry),0.0002732573685918186,0.020146602021494462
+worry,2025,parent stage,0,mental health (relative worry),0.00010797594731060237,0.007960804312691796
+worry,2025,parent stage,0,Overall worry mean,0.00019749096324627282,0.014560528998241163
+worry,2025,parent stage,1,food (relative worry),0.0005170386151752626,0.03242210200663276
+worry,2025,parent stage,1,water (relative worry),0.00045854382421772185,0.028754050871536836
+worry,2025,parent stage,1,crime (relative worry),0.006209403095887232,0.38937498025541906
+worry,2025,parent stage,1,severe weather (relative worry),0.00022836063105052397,0.014319881449685101
+worry,2025,parent stage,1,mental health (relative worry),0.00038165687670478653,0.02393267702811897
+worry,2025,parent stage,1,Overall worry mean,0.00815210041958048,0.5111963083886074
+worry,2025,parent stage,2,food (relative worry),1.329403102393828e-05,0.0010122212714812936
+worry,2025,parent stage,2,water (relative worry),0.002558286717439253,0.1947905965675207
+worry,2025,parent stage,2,crime (relative worry),6.0786369837420736e-05,0.004628337067573541
+worry,2025,parent stage,2,severe weather (relative worry),0.000780937148334213,0.05946136215647684
+worry,2025,parent stage,2,mental health (relative worry),0.0007174212001920712,0.05462519217372225
+worry,2025,parent stage,2,Overall worry mean,0.009002797210960417,0.6854822907632253
+worry,2025,child stage,0,food (relative worry),0.00022143543318349217,0.03467753708912236
+worry,2025,child stage,0,water (relative worry),0.0006308193662846456,0.09878844436222432
+worry,2025,child stage,0,crime (relative worry),0.0006116112607451474,0.09578039012861948
+worry,2025,child stage,0,severe weather (relative worry),2.7371927217629935e-05,0.00428653629477435
+worry,2025,child stage,0,mental health (relative worry),0.00489432026644381,0.7664670921252595
+worry,2025,child stage,0,Overall worry mean,0.0,0.0
+worry,2025,child stage,1,food (relative worry),0.0005174248390470242,0.03467753708912242
+worry,2025,child stage,1,water (relative worry),0.0014740261049238023,0.0987884443622243
+worry,2025,child stage,1,crime (relative worry),0.0014291428142313982,0.09578039012861946
+worry,2025,child stage,1,severe weather (relative worry),6.395956975527463e-05,0.0042865362947743565
+worry,2025,child stage,1,mental health (relative worry),0.011436484395027993,0.7664670921252594
+worry,2025,child stage,1,Overall worry mean,0.0,0.0

@@ -1,0 +1,79 @@
+family,wave,feature,kind,changed
+full,2021,food (relative worry),coordinate,0.045577759342265774
+full,2021,water (relative worry),coordinate,0.09087345028988768
+full,2021,crime (relative worry),coordinate,0.048489395628537275
+full,2021,severe weather (relative worry),coordinate,0.04611406687867859
+full,2021,traffic (relative worry),coordinate,0.04954578266373911
+full,2021,mental health (relative worry),coordinate,0.08999705864958821
+full,2021,Overall worry mean,coordinate,0.09818544350864541
+full,2021,Personal harm: food,coordinate,0.005328632165514759
+full,2021,Personal harm: water,coordinate,0.005518693901577749
+full,2021,Personal harm: crime,coordinate,0.003510738761915143
+full,2021,Personal harm: severe weather,coordinate,0.004474035286052998
+full,2021,Personal harm: traffic,coordinate,0.003893534029782811
+full,2021,Personal harm: mental health,coordinate,0.003159019800732064
+full,2021,Personal harm: work,coordinate,0.00642837257106041
+full,2021,Known-person harm: food,coordinate,0.022548683185479236
+full,2021,Known-person harm: water,coordinate,0.01587923955938151
+full,2021,Known-person harm: crime,coordinate,0.03233098106742786
+full,2021,Known-person harm: severe weather,coordinate,0.029093713162304972
+full,2021,Known-person harm: traffic,coordinate,0.03161081171457569
+full,2021,Known-person harm: mental health,coordinate,0.029431889107232802
+full,2021,Known-person harm: work,coordinate,0.02600576492316453
+full,2021,All relative worries,block,0.35948022973685856
+full,2021,All worry coordinates,block,0.530063080139646
+full,2021,All personal harm,block,0.021365299857990693
+full,2021,All known-person harm,block,0.11797361070480304
+full,2021,All harm,block,0.12401853575609184
+full,2023,food (relative worry),coordinate,0.052359849392914305
+full,2023,water (relative worry),coordinate,0.09142089258438231
+full,2023,crime (relative worry),coordinate,0.05262282164469261
+full,2023,severe weather (relative worry),coordinate,0.05344747957126169
+full,2023,traffic (relative worry),coordinate,0.053198535962768925
+full,2023,mental health (relative worry),coordinate,0.08820282137726594
+full,2023,Overall worry mean,coordinate,0.10923563118025467
+full,2023,Personal harm: food,coordinate,0.006871365291204559
+full,2023,Personal harm: water,coordinate,0.005241416515186914
+full,2023,Personal harm: crime,coordinate,0.002533322562543452
+full,2023,Personal harm: severe weather,coordinate,0.00734866698203377
+full,2023,Personal harm: traffic,coordinate,0.004022075645326623
+full,2023,Personal harm: mental health,coordinate,0.0029594224673696267
+full,2023,Personal harm: work,coordinate,0.00629228858151992
+full,2023,Known-person harm: food,coordinate,0.025138452152792257
+full,2023,Known-person harm: water,coordinate,0.016337247627568465
+full,2023,Known-person harm: crime,coordinate,0.03284680714019824
+full,2023,Known-person harm: severe weather,coordinate,0.030306940453605723
+full,2023,Known-person harm: traffic,coordinate,0.03197419575904711
+full,2023,Known-person harm: mental health,coordinate,0.03366235294758396
+full,2023,Known-person harm: work,coordinate,0.027230415287788936
+full,2023,All relative worries,block,0.36964865577227374
+full,2023,All worry coordinates,block,0.5372710599418624
+full,2023,All personal harm,block,0.02307180512404589
+full,2023,All known-person harm,block,0.12000797888293151
+full,2023,All harm,block,0.1271541576928075
+full,2025,food (relative worry),coordinate,0.05007073447577699
+full,2025,water (relative worry),coordinate,0.08346203794532879
+full,2025,crime (relative worry),coordinate,0.04066439855356439
+full,2025,severe weather (relative worry),coordinate,0.04677768078401501
+full,2025,traffic (relative worry),coordinate,0.047837652239142534
+full,2025,mental health (relative worry),coordinate,0.08560494727983789
+full,2025,Overall worry mean,coordinate,0.10860717030328206
+full,2025,Personal harm: food,coordinate,0.0059665279847629996
+full,2025,Personal harm: water,coordinate,0.005888050164205566
+full,2025,Personal harm: crime,coordinate,0.002704344136379973
+full,2025,Personal harm: severe weather,coordinate,0.006772828597696537
+full,2025,Personal harm: traffic,coordinate,0.004043571000160854
+full,2025,Personal harm: mental health,coordinate,0.0029698378804857654
+full,2025,Personal harm: work,coordinate,0.004621770346146483
+full,2025,Known-person harm: food,coordinate,0.02442288743447285
+full,2025,Known-person harm: water,coordinate,0.016099827228006965
+full,2025,Known-person harm: crime,coordinate,0.02966838830432833
+full,2025,Known-person harm: severe weather,coordinate,0.024942409236439422
+full,2025,Known-person harm: traffic,coordinate,0.030722209725744305
+full,2025,Known-person harm: mental health,coordinate,0.02984071236760598
+full,2025,Known-person harm: work,coordinate,0.027196220788361536
+full,2025,All relative worries,block,0.35734718687360484
+full,2025,All worry coordinates,block,0.5391072398856681
+full,2025,All personal harm,block,0.02089590096251098
+full,2025,All known-person harm,block,0.102018717844612
+full,2025,All harm,block,0.12343540614473159

@@ -1,0 +1,21 @@
+family,wave,question,kind,expected_changed,states
+worry,2019,food worry,original worry question,0.0,3
+worry,2019,water worry,original worry question,0.35787062281057874,3
+worry,2019,crime worry,original worry question,0.40161471248011715,3
+worry,2019,severe weather worry,original worry question,0.0,3
+worry,2019,mental health worry,original worry question,0.21996726471447317,3
+worry,2021,food worry,original worry question,0.0,3
+worry,2021,water worry,original worry question,0.33084729876957325,3
+worry,2021,crime worry,original worry question,0.45305313330596914,3
+worry,2021,severe weather worry,original worry question,0.0,3
+worry,2021,mental health worry,original worry question,0.18568001356868666,3
+worry,2023,food worry,original worry question,0.0,3
+worry,2023,water worry,original worry question,0.3363851345643271,3
+worry,2023,crime worry,original worry question,0.445235472388666,3
+worry,2023,severe weather worry,original worry question,0.0,3
+worry,2023,mental health worry,original worry question,0.18250330153832417,3
+worry,2025,food worry,original worry question,0.0,3
+worry,2025,water worry,original worry question,0.3394631158182475,3
+worry,2025,crime worry,original worry question,0.44119539120544676,3
+worry,2025,severe weather worry,original worry question,0.0,3
+worry,2025,mental health worry,original worry question,0.19487139654396055,3

@@ -1,0 +1,52 @@
+{
+  "scope": "Frozen current centred models, native development populations; no fitting or held-out evaluation.",
+  "harm_column_order": [
+    {
+      "code": "WP22442",
+      "domain": "food"
+    },
+    {
+      "code": "WP22443",
+      "domain": "water"
+    },
+    {
+      "code": "WP22444",
+      "domain": "crime"
+    },
+    {
+      "code": "WP22445",
+      "domain": "severe weather"
+    },
+    {
+      "code": "WP22446",
+      "domain": "traffic"
+    },
+    {
+      "code": "WP22447",
+      "domain": "mental health"
+    },
+    {
+      "code": "WP22448",
+      "domain": "work"
+    }
+  ],
+  "mean_coefficients": {
+    "full": 1.0,
+    "worry_parent": 1.5,
+    "worry_child": 0.0
+  },
+  "aggregate_only": true,
+  "files_sha256": {
+    "feature_importance_expected_separation.csv": "e6373555e5d28de5a2773a6c4476fb88a36667e203a89026bcf5b7eb6624cb94",
+    "feature_importance_expected_cluster_separation.csv": "59d60402aca49a8acdc34572978a913e6ade68f8665541540ebfce414291e6af",
+    "feature_importance_expected_omissions.csv": "6355ea49c3a350b7bf3fd39825db37c071f9e0d6295fc1c052246e826b911994",
+    "feature_importance_expected_omission_clusters.csv": "8931e81d1bc1958da56edd95971415649755d90206301841542ef2434515cc2c",
+    "feature_importance_expected_questions.csv": "a176c25e8c0154201a0ef36295307f035ca447df4c3fb1cb8d037dfe387be86a",
+    "feature_importance_expected_question_clusters.csv": "faea00bfb039c5b0d71369175d5c5621b6c99b819be9adadab15369415da191f",
+    "feature_importance_expected_mean_refits.csv": "e90376dc66bedb1139fe77709867a0faa5c2956c7f2bcbc744ff3c0601557768",
+    "feature_importance_refit_models.npz": "e49d0b40d13d8124c38c4af5e9b26ad520bf9e742d9e7f65504697b2d251a313",
+    "shared_five_evidence.npz": "f59bd25080f5e7d7715e69df1e211e9fd427891fb5f9cf9ffe25ad695d577104",
+    "shared_worry_strict40_evidence.npz": "6eb0a44af1b138a4d0148987c990716d4de18a4595e1448839c5889c55ff03a0",
+    "shared_five_rule_conditions.json": "c37e51c46f622c051b147fb4d43d42105edb9d4abd3fed84da4d40877708bce6"
+  }
+}

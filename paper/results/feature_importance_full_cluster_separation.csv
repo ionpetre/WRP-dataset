@@ -1,0 +1,331 @@
+family,wave,stage,cluster,feature,BSS,within_cluster_separation_share
+full,2021,final five clusters,0,food (relative worry),0.00017071025220475862,0.050908516739944926
+full,2021,final five clusters,0,water (relative worry),0.00043128533168339505,0.1286161565818645
+full,2021,final five clusters,0,crime (relative worry),0.0002801371309020341,0.08354135521339709
+full,2021,final five clusters,0,severe weather (relative worry),0.0004808556962938531,0.14339882899892473
+full,2021,final five clusters,0,traffic (relative worry),0.0008076558082867229,0.24085582854719864
+full,2021,final five clusters,0,mental health (relative worry),0.001105694299241994,0.32973565450952824
+full,2021,final five clusters,0,Overall worry mean,1.301499260456064e-05,0.003881278132521353
+full,2021,final five clusters,0,Personal harm: food,3.7066960315980274e-06,0.0011053958068561476
+full,2021,final five clusters,0,Personal harm: water,6.7419290145896656e-06,0.0020105506357467086
+full,2021,final five clusters,0,Personal harm: crime,1.2156894519361182e-06,0.00036253796134183883
+full,2021,final five clusters,0,Personal harm: severe weather,1.6719619177325435e-07,4.986056793785519e-05
+full,2021,final five clusters,0,Personal harm: traffic,4.2119622954415736e-08,1.2560742559756292e-05
+full,2021,final five clusters,0,Personal harm: mental health,7.584183171374545e-06,0.002261724242991698
+full,2021,final five clusters,0,Personal harm: work,1.8173089485470459e-06,0.0005419504794462488
+full,2021,final five clusters,0,Known-person harm: food,7.2946371466625435e-06,0.0021753770057539776
+full,2021,final five clusters,0,Known-person harm: water,1.0026045856337728e-05,0.002989926596210586
+full,2021,final five clusters,0,Known-person harm: crime,1.6645686064223755e-06,0.0004964008761652928
+full,2021,final five clusters,0,Known-person harm: severe weather,4.0203752028659976e-08,1.198939932854588e-05
+full,2021,final five clusters,0,Known-person harm: traffic,1.8829082751435667e-10,5.615132436800129e-08
+full,2021,final five clusters,0,Known-person harm: mental health,1.9825589561139082e-05,0.005912306642496964
+full,2021,final five clusters,0,Known-person harm: work,3.7950493316490996e-06,0.0011317441684606066
+full,2021,final five clusters,0,Unused zero coordinate,0.0,0.0
+full,2021,final five clusters,1,food (relative worry),0.00042604272364042814,0.08603462221859551
+full,2021,final five clusters,1,water (relative worry),0.0019207703797601745,0.38787836247804336
+full,2021,final five clusters,1,crime (relative worry),4.7232250059115305e-05,0.009538031199424563
+full,2021,final five clusters,1,severe weather (relative worry),0.00026103598612121546,0.05271333414521954
+full,2021,final five clusters,1,traffic (relative worry),0.0005716610262713151,0.11544063001967005
+full,2021,final five clusters,1,mental health (relative worry),0.0003072582184013839,0.062047403410255816
+full,2021,final five clusters,1,Overall worry mean,0.0012615276089464765,0.2547515665251443
+full,2021,final five clusters,1,Personal harm: food,1.6734622940635134e-05,0.0033793722619314412
+full,2021,final five clusters,1,Personal harm: water,3.412108035310332e-05,0.00689037529566441
+full,2021,final five clusters,1,Personal harm: crime,5.095280464245055e-06,0.0010289356102443131
+full,2021,final five clusters,1,Personal harm: severe weather,1.1201399723783141e-05,0.0022619989500595574
+full,2021,final five clusters,1,Personal harm: traffic,5.266060985989969e-06,0.001063422850268201
+full,2021,final five clusters,1,Personal harm: mental health,2.396289735089693e-06,0.0004839042439761004
+full,2021,final five clusters,1,Personal harm: work,8.515918495243884e-06,0.001719695678222666
+full,2021,final five clusters,1,Known-person harm: food,1.7273264978724435e-08,3.4881450719963282e-06
+full,2021,final five clusters,1,Known-person harm: water,5.622124410214357e-06,0.0011353259259204425
+full,2021,final five clusters,1,Known-person harm: crime,6.281574145262311e-06,0.0012684945160144428
+full,2021,final five clusters,1,Known-person harm: severe weather,1.0460322445683203e-05,0.002112346579256661
+full,2021,final five clusters,1,Known-person harm: traffic,2.319273521443637e-05,0.00468351670306664
+full,2021,final five clusters,1,Known-person harm: mental health,1.9422175774437304e-05,0.003922093871569429
+full,2021,final five clusters,1,Known-person harm: work,8.136515194870292e-06,0.0016430793723808147
+full,2021,final five clusters,1,Unused zero coordinate,0.0,0.0
+full,2021,final five clusters,2,food (relative worry),0.0009141908587984824,0.15639399338808713
+full,2021,final five clusters,2,water (relative worry),0.001388495891887724,0.2375351002969746
+full,2021,final five clusters,2,crime (relative worry),5.373614253845077e-06,0.0009192839591401227
+full,2021,final five clusters,2,severe weather (relative worry),2.673495931213307e-05,0.0045736478435015595
+full,2021,final five clusters,2,traffic (relative worry),5.781991343042961e-05,0.00989146530148327
+full,2021,final five clusters,2,mental health (relative worry),0.0027463347057602354,0.4698255814750152
+full,2021,final five clusters,2,Overall worry mean,0.0006591862301035824,0.11276941343280569
+full,2021,final five clusters,2,Personal harm: food,3.824613087583995e-07,6.542906310808496e-05
+full,2021,final five clusters,2,Personal harm: water,1.4730204515210288e-07,2.5199502766684124e-05
+full,2021,final five clusters,2,Personal harm: crime,1.3674217304201875e-06,0.00023392986596598912
+full,2021,final five clusters,2,Personal harm: severe weather,3.0819109909466376e-06,0.000527233851117547
+full,2021,final five clusters,2,Personal harm: traffic,2.6643846628703025e-06,0.00045580608615570486
+full,2021,final five clusters,2,Personal harm: mental health,2.573297409429511e-05,0.004402234546130082
+full,2021,final five clusters,2,Personal harm: work,1.8196767071915464e-06,0.00031129878862166905
+full,2021,final five clusters,2,Known-person harm: food,1.4957636360168078e-06,0.00025588578790735787
+full,2021,final five clusters,2,Known-person harm: water,3.0128348236872317e-06,0.000515416737063442
+full,2021,final five clusters,2,Known-person harm: crime,7.28243559373444e-08,1.2458330480273723e-05
+full,2021,final five clusters,2,Known-person harm: severe weather,2.955330304444862e-07,5.055792274059988e-05
+full,2021,final five clusters,2,Known-person harm: traffic,7.702864421651858e-08,1.3177573543148976e-05
+full,2021,final five clusters,2,Known-person harm: mental health,6.175629127572837e-06,0.0010564875940832453
+full,2021,final five clusters,2,Known-person harm: work,9.726724439715151e-07,0.00016639865330877034
+full,2021,final five clusters,2,Unused zero coordinate,0.0,0.0
+full,2021,final five clusters,3,food (relative worry),2.2712869871966506e-06,0.00044332812807716855
+full,2021,final five clusters,3,water (relative worry),5.5056201176265767e-05,0.010746313761362045
+full,2021,final five clusters,3,crime (relative worry),2.9457739943411693e-06,0.0005749799466167611
+full,2021,final five clusters,3,severe weather (relative worry),3.414541578596469e-05,0.006664777876217231
+full,2021,final five clusters,3,traffic (relative worry),4.4161566091277735e-05,0.008619810943559651
+full,2021,final five clusters,3,mental health (relative worry),3.405624912101799e-06,0.0006647373606796178
+full,2021,final five clusters,3,Overall worry mean,0.0005129853650569465,0.10012862438945883
+full,2021,final five clusters,3,Personal harm: food,5.997623009249559e-05,0.011706644719894877
+full,2021,final five clusters,3,Personal harm: water,7.216983647353851e-05,0.014086691240607647
+full,2021,final five clusters,3,Personal harm: crime,4.464207560987108e-05,0.008713600670090058
+full,2021,final five clusters,3,Personal harm: severe weather,4.9145165968551034e-05,0.009592550195416197
+full,2021,final five clusters,3,Personal harm: traffic,3.4512459174507225e-05,0.006736420367581346
+full,2021,final five clusters,3,Personal harm: mental health,2.665090184022748e-05,0.005201938148282734
+full,2021,final five clusters,3,Personal harm: work,7.527406173626196e-05,0.014692598984812007
+full,2021,final five clusters,3,Known-person harm: food,0.000469961576023479,0.09173089395622286
+full,2021,final five clusters,3,Known-person harm: water,0.00032671332663505685,0.06377054433519887
+full,2021,final five clusters,3,Known-person harm: crime,0.0007763032520493756,0.15152513508477672
+full,2021,final five clusters,3,Known-person harm: severe weather,0.0006006276957309058,0.11723536194267431
+full,2021,final five clusters,3,Known-person harm: traffic,0.0007475285535093533,0.14590865715325918
+full,2021,final five clusters,3,Known-person harm: mental health,0.0006520995129020504,0.12728204670063092
+full,2021,final five clusters,3,Known-person harm: work,0.0005326880019289504,0.10397434409458099
+full,2021,final five clusters,3,Unused zero coordinate,0.0,0.0
+full,2021,final five clusters,4,food (relative worry),0.0002800950612419462,0.06460543824763658
+full,2021,final five clusters,4,water (relative worry),0.0001196734740393068,0.027603332963618565
+full,2021,final five clusters,4,crime (relative worry),0.00017368702382811532,0.040061849868356925
+full,2021,final five clusters,4,severe weather (relative worry),0.00010265116467153726,0.023677045396050034
+full,2021,final five clusters,4,traffic (relative worry),0.00015278994329716015,0.03524182541018797
+full,2021,final five clusters,4,mental health (relative worry),6.393558953989676e-05,0.01474708894734148
+full,2021,final five clusters,4,Overall worry mean,0.0026554505006233476,0.6124939960633106
+full,2021,final five clusters,4,Personal harm: food,2.5415627118152475e-05,0.005862251626380544
+full,2021,final five clusters,4,Personal harm: water,2.777308577644944e-05,0.006406012195005494
+full,2021,final five clusters,4,Personal harm: crime,1.9972352388380616e-05,0.004606730919018168
+full,2021,final five clusters,4,Personal harm: severe weather,4.9020211511606266e-05,0.011306776469591268
+full,2021,final five clusters,4,Personal harm: traffic,3.0627765506274936e-05,0.00706445948852172
+full,2021,final five clusters,4,Personal harm: mental health,1.7058374834294044e-05,0.003934606262157757
+full,2021,final five clusters,4,Personal harm: work,3.327875537793433e-05,0.007675924616429347
+full,2021,final five clusters,4,Known-person harm: food,6.326016196387433e-05,0.014591297929963366
+full,2021,final five clusters,4,Known-person harm: water,4.540413623103514e-05,0.010472709181143281
+full,2021,final five clusters,4,Known-person harm: crime,0.00013645871770238426,0.03147494004636453
+full,2021,final five clusters,4,Known-person harm: severe weather,0.00010054340225399673,0.023190878613589424
+full,2021,final five clusters,4,Known-person harm: traffic,0.00011765914921780969,0.027138718067201306
+full,2021,final five clusters,4,Known-person harm: mental health,6.153065879037025e-05,0.014192378684549065
+full,2021,final five clusters,4,Known-person harm: work,5.918673065277789e-05,0.013651739003582625
+full,2021,final five clusters,4,Unused zero coordinate,0.0,0.0
+full,2023,final five clusters,0,food (relative worry),0.00018486195387684118,0.057160457639117375
+full,2023,final five clusters,0,water (relative worry),0.0004272125411343014,0.13209675570493973
+full,2023,final five clusters,0,crime (relative worry),0.00023751142370611775,0.0734399988144926
+full,2023,final five clusters,0,severe weather (relative worry),0.0004808476924406316,0.14868107567948485
+full,2023,final five clusters,0,traffic (relative worry),0.0008142974700609983,0.25178580593209454
+full,2023,final five clusters,0,mental health (relative worry),0.0009991938580763647,0.3089569108194706
+full,2023,final five clusters,0,Overall worry mean,5.577911783143178e-06,0.0017247247662842747
+full,2023,final five clusters,0,Personal harm: food,4.503047868821909e-06,0.001392370206820356
+full,2023,final five clusters,0,Personal harm: water,6.06692663338089e-06,0.001875931177585837
+full,2023,final five clusters,0,Personal harm: crime,7.432437642487889e-07,0.00022981556134684614
+full,2023,final five clusters,0,Personal harm: severe weather,4.0989123211556007e-07,0.00012674089999933875
+full,2023,final five clusters,0,Personal harm: traffic,8.386342466645287e-07,0.0002593108875345834
+full,2023,final five clusters,0,Personal harm: mental health,6.48433369951703e-06,0.0020049960198737127
+full,2023,final five clusters,0,Personal harm: work,2.914110428177991e-06,0.000901060938675093
+full,2023,final five clusters,0,Known-person harm: food,1.0240809530144372e-05,0.003166521542491496
+full,2023,final five clusters,0,Known-person harm: water,1.102128709742141e-05,0.0034078500256489452
+full,2023,final five clusters,0,Known-person harm: crime,1.2956369703942305e-06,0.00040061895164882625
+full,2023,final five clusters,0,Known-person harm: severe weather,2.5212125655974423e-08,7.795744934679989e-06
+full,2023,final five clusters,0,Known-person harm: traffic,3.1633302962945806e-08,9.781212607995437e-06
+full,2023,final five clusters,0,Known-person harm: mental health,3.2633645301267524e-05,0.010090524635998499
+full,2023,final five clusters,0,Known-person harm: work,7.376802354722255e-06,0.0022809528389500966
+full,2023,final five clusters,0,Unused zero coordinate,0.0,0.0
+full,2023,final five clusters,1,food (relative worry),0.0005603172919563882,0.11003224357255889
+full,2023,final five clusters,1,water (relative worry),0.0019829371419719717,0.3893990525131182
+full,2023,final five clusters,1,crime (relative worry),7.272154110267517e-05,0.014280684245247626
+full,2023,final five clusters,1,severe weather (relative worry),0.0003191035761566717,0.06266392795758725
+full,2023,final five clusters,1,traffic (relative worry),0.0005563677335032718,0.1092566494869293
+full,2023,final five clusters,1,mental health (relative worry),0.0003320628914671579,0.06520881200676273
+full,2023,final five clusters,1,Overall worry mean,0.0011538191361592284,0.2265810997645122
+full,2023,final five clusters,1,Personal harm: food,8.51256596992803e-06,0.00167165416037794
+full,2023,final five clusters,1,Personal harm: water,1.9793730923595912e-05,0.0038869916268161773
+full,2023,final five clusters,1,Personal harm: crime,1.46992451509525e-06,0.0002886562570887512
+full,2023,final five clusters,1,Personal harm: severe weather,3.6170839825012175e-06,0.0007103044498151111
+full,2023,final five clusters,1,Personal harm: traffic,5.337267925107933e-07,0.00010481053731127611
+full,2023,final five clusters,1,Personal harm: mental health,4.98658771640746e-07,9.79240587581906e-05
+full,2023,final five clusters,1,Personal harm: work,2.349951243277701e-06,0.00046147140432013507
+full,2023,final five clusters,1,Known-person harm: food,3.599196331131662e-08,7.067917643408439e-06
+full,2023,final five clusters,1,Known-person harm: water,4.917885110708324e-06,0.0009657491213129241
+full,2023,final five clusters,1,Known-person harm: crime,7.337196732529971e-06,0.0014408411619685631
+full,2023,final five clusters,1,Known-person harm: severe weather,1.2647414573030886e-05,0.0024836345778369824
+full,2023,final five clusters,1,Known-person harm: traffic,2.3360509674596808e-05,0.004587417392598371
+full,2023,final five clusters,1,Known-person harm: mental health,1.8887064549596703e-05,0.0037089451222105433
+full,2023,final five clusters,1,Known-person harm: work,1.1009873635997498e-05,0.002162062665225514
+full,2023,final five clusters,1,Unused zero coordinate,0.0,0.0
+full,2023,final five clusters,2,food (relative worry),0.001064311412948947,0.1792409011124172
+full,2023,final five clusters,2,water (relative worry),0.0014596518746403523,0.2458202685208973
+full,2023,final five clusters,2,crime (relative worry),3.598730820203131e-05,0.006060629879811115
+full,2023,final five clusters,2,severe weather (relative worry),5.119051324494162e-05,0.00862100472737352
+full,2023,final five clusters,2,traffic (relative worry),6.003004312409656e-05,0.01010967174876707
+full,2023,final five clusters,2,mental health (relative worry),0.002492762653163181,0.4198066644558108
+full,2023,final five clusters,2,Overall worry mean,0.0007319609090664539,0.1232696852856435
+full,2023,final five clusters,2,Personal harm: food,2.187100011684464e-08,3.6832995695415496e-06
+full,2023,final five clusters,2,Personal harm: water,2.5270409491208514e-07,4.255794792366156e-05
+full,2023,final five clusters,2,Personal harm: crime,1.6230804746732583e-06,0.0002733433122288238
+full,2023,final five clusters,2,Personal harm: severe weather,2.6913559923492997e-06,0.0004532518090230534
+full,2023,final five clusters,2,Personal harm: traffic,6.720799293331227e-07,0.00011318511733277545
+full,2023,final five clusters,2,Personal harm: mental health,1.8774522398688323e-05,0.003161821128434687
+full,2023,final five clusters,2,Personal harm: work,1.4517127194983428e-06,0.0002444832337917646
+full,2023,final five clusters,2,Known-person harm: food,2.5792591283244945e-06,0.0004343735533967126
+full,2023,final five clusters,2,Known-person harm: water,5.6639099084985755e-06,0.0009538602174770915
+full,2023,final five clusters,2,Known-person harm: crime,1.083033555781676e-07,1.823939009875155e-05
+full,2023,final five clusters,2,Known-person harm: severe weather,9.209014902564376e-07,0.0001550892069192248
+full,2023,final five clusters,2,Known-person harm: traffic,1.376585887568851e-07,2.3183110877559777e-05
+full,2023,final five clusters,2,Known-person harm: mental health,6.7637839712865825e-06,0.0011390902316682052
+full,2023,final five clusters,2,Known-person harm: work,3.266590120849618e-07,5.501271053776541e-05
+full,2023,final five clusters,2,Unused zero coordinate,0.0,0.0
+full,2023,final five clusters,3,food (relative worry),1.8744834831620532e-05,0.0036498018616789815
+full,2023,final five clusters,3,water (relative worry),3.862444612130519e-05,0.007520555749152572
+full,2023,final five clusters,3,crime (relative worry),2.100520327108643e-06,0.00040899176062320547
+full,2023,final five clusters,3,severe weather (relative worry),2.450775894576593e-05,0.004771899300758106
+full,2023,final five clusters,3,traffic (relative worry),5.6342644343592666e-05,0.010970461466551278
+full,2023,final five clusters,3,mental health (relative worry),1.1300587707732144e-05,0.0022003344614256962
+full,2023,final five clusters,3,Overall worry mean,0.0004440950503791392,0.08646963049799658
+full,2023,final five clusters,3,Personal harm: food,8.97331783814802e-05,0.017471923570040054
+full,2023,final five clusters,3,Personal harm: water,7.983844202387839e-05,0.015545322055372257
+full,2023,final five clusters,3,Personal harm: crime,3.530352547290922e-05,0.006873940162838766
+full,2023,final five clusters,3,Personal harm: severe weather,7.11043440065261e-05,0.01384470812677979
+full,2023,final five clusters,3,Personal harm: traffic,3.438227133164213e-05,0.006694563011208489
+full,2023,final five clusters,3,Personal harm: mental health,2.7318475147305526e-05,0.005319173113367295
+full,2023,final five clusters,3,Personal harm: work,7.848312250640746e-05,0.015281428148465658
+full,2023,final five clusters,3,Known-person harm: food,0.000519356589745057,0.10112378504019509
+full,2023,final five clusters,3,Known-person harm: water,0.0003478522776466329,0.06773022552336865
+full,2023,final five clusters,3,Known-person harm: crime,0.0007151461740483138,0.13924592352294865
+full,2023,final five clusters,3,Known-person harm: severe weather,0.0005930373799010099,0.11547015231933137
+full,2023,final five clusters,3,Known-person harm: traffic,0.0006984814619725113,0.1360011418161498
+full,2023,final five clusters,3,Known-person harm: mental health,0.0007144050383367518,0.13910161718340958
+full,2023,final five clusters,3,Known-person harm: work,0.0005356918604707879,0.10430442130833809
+full,2023,final five clusters,3,Unused zero coordinate,0.0,0.0
+full,2023,final five clusters,4,food (relative worry),0.000250427234446681,0.05784015491732698
+full,2023,final five clusters,4,water (relative worry),0.00014310768763057294,0.03305299777279268
+full,2023,final five clusters,4,crime (relative worry),0.00014758300576396872,0.034086643712747534
+full,2023,final five clusters,4,severe weather (relative worry),0.00012820932021819365,0.02961198273682324
+full,2023,final five clusters,4,traffic (relative worry),0.00016872912177573807,0.0389706757099979
+full,2023,final five clusters,4,mental health (relative worry),7.522530167905934e-05,0.017374480505018074
+full,2023,final five clusters,4,Overall worry mean,0.0026305650855222703,0.6075708674533747
+full,2023,final five clusters,4,Personal harm: food,2.3356427393991747e-05,0.005394538584306468
+full,2023,final five clusters,4,Personal harm: water,2.4534337459531262e-05,0.005666595658370392
+full,2023,final five clusters,4,Personal harm: crime,1.54397574570239e-05,0.003566057682078327
+full,2023,final five clusters,4,Personal harm: severe weather,5.394217830658297e-05,0.012458804477574205
+full,2023,final five clusters,4,Personal harm: traffic,2.486919806766993e-05,0.005743937044554867
+full,2023,final five clusters,4,Personal harm: mental health,1.2371855751312992e-05,0.0028574769627267684
+full,2023,final five clusters,4,Personal harm: work,2.365876135010008e-05,0.005464367422598405
+full,2023,final five clusters,4,Known-person harm: food,7.088501426799558e-05,0.0163720220591692
+full,2023,final five clusters,4,Known-person harm: water,4.6988405694058085e-05,0.010852720035293067
+full,2023,final five clusters,4,Known-person harm: crime,0.0001413354277472213,0.032643666150242466
+full,2023,final five clusters,4,Known-person harm: severe weather,0.00011035099998984398,0.025487319495410086
+full,2023,final five clusters,4,Known-person harm: traffic,0.00011831827933755981,0.027327489446412837
+full,2023,final five clusters,4,Known-person harm: mental health,6.30983205251344e-05,0.014573561227319206
+full,2023,final five clusters,4,Known-person harm: work,5.6647497283658826e-05,0.01308364094586243
+full,2023,final five clusters,4,Unused zero coordinate,0.0,0.0
+full,2025,final five clusters,0,food (relative worry),0.00026415291729547474,0.07039929956067774
+full,2025,final five clusters,0,water (relative worry),0.0003932781028223939,0.10481240659659007
+full,2025,final five clusters,0,crime (relative worry),0.000584530115407788,0.1557829121031455
+full,2025,final five clusters,0,severe weather (relative worry),0.00017623816940741334,0.046969171528246874
+full,2025,final five clusters,0,traffic (relative worry),0.0010767382082385731,0.2869611149719954
+full,2025,final five clusters,0,mental health (relative worry),0.0011684225939113143,0.31139588782287464
+full,2025,final five clusters,0,Overall worry mean,1.9707525840895925e-05,0.005252245666933611
+full,2025,final five clusters,0,Personal harm: food,5.358357627584676e-06,0.0014280539758552892
+full,2025,final five clusters,0,Personal harm: water,6.391804206447577e-06,0.0017034774541579963
+full,2025,final five clusters,0,Personal harm: crime,5.621916605068618e-07,0.00014982949847291134
+full,2025,final five clusters,0,Personal harm: severe weather,1.620461910213592e-08,4.31868724418396e-06
+full,2025,final five clusters,0,Personal harm: traffic,7.780993652640636e-07,0.00020737098368641196
+full,2025,final five clusters,0,Personal harm: mental health,6.4509627371640385e-06,0.0017192437730316173
+full,2025,final five clusters,0,Personal harm: work,1.6464751222943283e-06,0.0004388014962709921
+full,2025,final five clusters,0,Known-person harm: food,8.580499515843211e-06,0.002286785858663863
+full,2025,final five clusters,0,Known-person harm: water,1.0446825919312979e-05,0.002784179841289855
+full,2025,final five clusters,0,Known-person harm: crime,5.417987811801416e-07,0.0001443945994934666
+full,2025,final five clusters,0,Known-person harm: severe weather,4.150490913100911e-07,0.00011061458495588892
+full,2025,final five clusters,0,Known-person harm: traffic,4.7372861261556816e-07,0.0001262532432026219
+full,2025,final five clusters,0,Known-person harm: mental health,2.107570793024252e-05,0.005616879386476163
+full,2025,final five clusters,0,Known-person harm: work,6.4041148776333e-06,0.0017067583667349613
+full,2025,final five clusters,0,Unused zero coordinate,0.0,0.0
+full,2025,final five clusters,1,food (relative worry),0.0005712348605510655,0.12064328982160881
+full,2025,final five clusters,1,water (relative worry),0.0016369663954691803,0.3457229677584919
+full,2025,final five clusters,1,crime (relative worry),0.00014363377711397836,0.030335073359874152
+full,2025,final five clusters,1,severe weather (relative worry),0.00020364610097150718,0.043009517235774244
+full,2025,final five clusters,1,traffic (relative worry),0.0005349612301178782,0.11298239513284403
+full,2025,final five clusters,1,mental health (relative worry),0.00022426676852147143,0.04736454761530234
+full,2025,final five clusters,1,Overall worry mean,0.0012908200865185363,0.2726177839622387
+full,2025,final five clusters,1,Personal harm: food,1.0883595280470483e-05,0.0022985865016295092
+full,2025,final five clusters,1,Personal harm: water,1.4545714696090177e-05,0.0030720164242951827
+full,2025,final five clusters,1,Personal harm: crime,1.589116462814825e-06,0.0003356171886966277
+full,2025,final five clusters,1,Personal harm: severe weather,4.021401947049407e-06,0.0008493094418625614
+full,2025,final five clusters,1,Personal harm: traffic,8.188171905660667e-07,0.00017293202228078411
+full,2025,final five clusters,1,Personal harm: mental health,3.1779740023488265e-07,6.711796934820182e-05
+full,2025,final five clusters,1,Personal harm: work,1.959336856249747e-06,0.0004138067553837024
+full,2025,final five clusters,1,Known-person harm: food,7.95175268622533e-07,0.00016793891097412813
+full,2025,final five clusters,1,Known-person harm: water,2.57854890571353e-07,5.4458270045194525e-05
+full,2025,final five clusters,1,Known-person harm: crime,1.3810694065124721e-05,0.002916782013494548
+full,2025,final five clusters,1,Known-person harm: severe weather,8.374371527449774e-06,0.0017686450898415278
+full,2025,final five clusters,1,Known-person harm: traffic,3.522546466232564e-05,0.007439524853679494
+full,2025,final five clusters,1,Known-person harm: mental health,2.1606074533557545e-05,0.004563145724938201
+full,2025,final five clusters,1,Known-person harm: work,1.517322030613944e-05,0.0032045439473963244
+full,2025,final five clusters,1,Unused zero coordinate,0.0,0.0
+full,2025,final five clusters,2,food (relative worry),0.0007737114230010948,0.14155381243997345
+full,2025,final five clusters,2,water (relative worry),0.0012890366105742176,0.23583475851205535
+full,2025,final five clusters,2,crime (relative worry),5.4123939096426505e-06,0.0009902206036522822
+full,2025,final five clusters,2,severe weather (relative worry),3.534596467015395e-05,0.006466695339745321
+full,2025,final five clusters,2,traffic (relative worry),1.6224123770504787e-05,0.0029682728016407994
+full,2025,final five clusters,2,mental health (relative worry),0.002643934555975106,0.48371912978662984
+full,2025,final five clusters,2,Overall worry mean,0.0006647082190740294,0.1216112102948502
+full,2025,final five clusters,2,Personal harm: food,1.7946452960115e-07,3.2833802898051954e-05
+full,2025,final five clusters,2,Personal harm: water,1.2656354045216301e-08,2.3155340782501443e-06
+full,2025,final five clusters,2,Personal harm: crime,7.543941678742887e-07,0.0001380196380336184
+full,2025,final five clusters,2,Personal harm: severe weather,3.161306748385071e-06,0.0005783745841445195
+full,2025,final five clusters,2,Personal harm: traffic,4.932217112550679e-07,9.023702058774415e-05
+full,2025,final five clusters,2,Personal harm: mental health,1.8546406135645475e-05,0.0033931442880571474
+full,2025,final five clusters,2,Personal harm: work,5.123033930017099e-07,9.37280958371264e-05
+full,2025,final five clusters,2,Known-person harm: food,2.213977781572594e-06,0.00040505669985248753
+full,2025,final five clusters,2,Known-person harm: water,3.663426836163275e-06,0.0006702396007575653
+full,2025,final five clusters,2,Known-person harm: crime,5.714809257568733e-08,1.045548784375339e-05
+full,2025,final five clusters,2,Known-person harm: severe weather,3.2787327529660744e-07,5.998581736765967e-05
+full,2025,final five clusters,2,Known-person harm: traffic,1.177526859858605e-06,0.00021543357291652654
+full,2025,final five clusters,2,Known-person harm: mental health,4.678567852062425e-06,0.0008559639893252511
+full,2025,final five clusters,2,Known-person harm: work,1.6950251082392774e-06,0.00031011208975314413
+full,2025,final five clusters,2,Unused zero coordinate,0.0,0.0
+full,2025,final five clusters,3,food (relative worry),1.924727395640475e-05,0.003564179396787492
+full,2025,final five clusters,3,water (relative worry),3.4092378692602855e-05,0.0063131721405782605
+full,2025,final five clusters,3,crime (relative worry),1.5929596406457945e-05,0.002949817176169233
+full,2025,final five clusters,3,severe weather (relative worry),1.727458854908721e-06,0.0003198880669236266
+full,2025,final five clusters,3,traffic (relative worry),3.984291190358719e-05,0.007378046680087391
+full,2025,final five clusters,3,mental health (relative worry),1.9365585968394808e-06,0.0003586088225875838
+full,2025,final five clusters,3,Overall worry mean,0.0003847081378223264,0.07123963745247916
+full,2025,final five clusters,3,Personal harm: food,9.902552752921833e-05,0.018337388753081378
+full,2025,final five clusters,3,Personal harm: water,0.00010146201446643539,0.018788573505885354
+full,2025,final five clusters,3,Personal harm: crime,4.68140204077941e-05,0.008668945399549764
+full,2025,final five clusters,3,Personal harm: severe weather,9.008937536621412e-05,0.01668260639283243
+full,2025,final five clusters,3,Personal harm: traffic,4.9093643971031135e-05,0.009091082443731911
+full,2025,final five clusters,3,Personal harm: mental health,4.099092049298609e-05,0.007590633073928847
+full,2025,final five clusters,3,Personal harm: work,7.540374934966952e-05,0.013963145663190912
+full,2025,final five clusters,3,Known-person harm: food,0.0005910399354413544,0.10944782961733128
+full,2025,final five clusters,3,Known-person harm: water,0.0004123832052342197,0.07636446215740066
+full,2025,final five clusters,3,Known-person harm: crime,0.0007413172170538939,0.13727593619189443
+full,2025,final five clusters,3,Known-person harm: severe weather,0.0005794952124727469,0.10730999628885425
+full,2025,final five clusters,3,Known-person harm: traffic,0.0007452219790632034,0.1379990137733983
+full,2025,final five clusters,3,Known-person harm: mental health,0.0006822479018499104,0.1263375749097074
+full,2025,final five clusters,3,Known-person harm: work,0.0006481288425318835,0.12001946209360051
+full,2025,final five clusters,3,Unused zero coordinate,0.0,0.0
+full,2025,final five clusters,4,food (relative worry),0.00020898923817868356,0.04932776017352631
+full,2025,final five clusters,4,water (relative worry),0.0001388383893436696,0.03277004515690773
+full,2025,final five clusters,4,crime (relative worry),0.00020199884279895614,0.04767781613901816
+full,2025,final five clusters,4,severe weather (relative worry),4.066330816905992e-05,0.009597766519970841
+full,2025,final five clusters,4,traffic (relative worry),0.00023207807079826036,0.054777420682702437
+full,2025,final five clusters,4,mental health (relative worry),9.185472204235727e-05,0.02168048335502029
+full,2025,final five clusters,4,Overall worry mean,0.0025626879243834688,0.6048716021707254
+full,2025,final five clusters,4,Personal harm: food,2.754716180645947e-05,0.006501960593246256
+full,2025,final five clusters,4,Personal harm: water,2.613939694213272e-05,0.006169685648309356
+full,2025,final five clusters,4,Personal harm: crime,1.6901063466084496e-05,0.003989160459160897
+full,2025,final five clusters,4,Personal harm: severe weather,4.931951281976848e-05,0.011640891758113689
+full,2025,final five clusters,4,Personal harm: traffic,2.8920449517249925e-05,0.006826097890637639
+full,2025,final five clusters,4,Personal harm: mental health,1.4661317091108415e-05,0.0034605127976967
+full,2025,final five clusters,4,Personal harm: work,2.0891746735482182e-05,0.004931082009556937
+full,2025,final five clusters,4,Known-person harm: food,7.229058093790648e-05,0.01706275629494907
+full,2025,final five clusters,4,Known-person harm: water,4.546772315586042e-05,0.010731753285549487
+full,2025,final five clusters,4,Known-person harm: crime,0.0001283678794879152,0.030298689198293215
+full,2025,final five clusters,4,Known-person harm: severe weather,9.608000519862408e-05,0.022677777550711698
+full,2025,final five clusters,4,Known-person harm: traffic,0.00011181214106656795,0.02639103585948532
+full,2025,final five clusters,4,Known-person harm: mental health,6.079710054002003e-05,0.014349948451028731
+full,2025,final five clusters,4,Known-person harm: work,6.044038997803413e-05,0.014265754005389574
+full,2025,final five clusters,4,Unused zero coordinate,0.0,0.0

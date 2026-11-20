@@ -1,0 +1,81 @@
+family,wave,question,kind,cluster,expected_loss
+worry,2019,food worry,original worry question,0,0.0
+worry,2019,food worry,original worry question,1,0.0
+worry,2019,food worry,original worry question,2,0.0
+worry,2019,food worry,original worry question,3,0.0
+worry,2019,water worry,original worry question,0,0.5177147288269948
+worry,2019,water worry,original worry question,1,0.0
+worry,2019,water worry,original worry question,2,0.4822852711730052
+worry,2019,water worry,original worry question,3,0.4822852711730052
+worry,2019,crime worry,original worry question,0,0.2782058527374055
+worry,2019,crime worry,original worry question,1,0.7217941472625945
+worry,2019,crime worry,original worry question,2,0.2782058527374055
+worry,2019,crime worry,original worry question,3,0.27820585273740556
+worry,2019,severe weather worry,original worry question,0,0.0
+worry,2019,severe weather worry,original worry question,1,0.0
+worry,2019,severe weather worry,original worry question,2,0.0
+worry,2019,severe weather worry,original worry question,3,0.0
+worry,2019,mental health worry,original worry question,0,0.0
+worry,2019,mental health worry,original worry question,1,0.0
+worry,2019,mental health worry,original worry question,2,0.4802143633387666
+worry,2019,mental health worry,original worry question,3,0.5197856366612335
+worry,2021,food worry,original worry question,0,0.0
+worry,2021,food worry,original worry question,1,0.0
+worry,2021,food worry,original worry question,2,0.0
+worry,2021,food worry,original worry question,3,0.0
+worry,2021,water worry,original worry question,0,0.45584702937874666
+worry,2021,water worry,original worry question,1,0.0
+worry,2021,water worry,original worry question,2,0.5441529706212533
+worry,2021,water worry,original worry question,3,0.5441529706212533
+worry,2021,crime worry,original worry question,0,0.34678957820365003
+worry,2021,crime worry,original worry question,1,0.6532104217963504
+worry,2021,crime worry,original worry question,2,0.34678957820365014
+worry,2021,crime worry,original worry question,3,0.34678957820365014
+worry,2021,severe weather worry,original worry question,0,0.0
+worry,2021,severe weather worry,original worry question,1,0.0
+worry,2021,severe weather worry,original worry question,2,0.0
+worry,2021,severe weather worry,original worry question,3,0.0
+worry,2021,mental health worry,original worry question,0,0.0
+worry,2021,mental health worry,original worry question,1,0.0
+worry,2021,mental health worry,original worry question,2,0.4895275617012417
+worry,2021,mental health worry,original worry question,3,0.5104724382987583
+worry,2023,food worry,original worry question,0,0.0
+worry,2023,food worry,original worry question,1,0.0
+worry,2023,food worry,original worry question,2,0.0
+worry,2023,food worry,original worry question,3,0.0
+worry,2023,water worry,original worry question,0,0.452682750248375
+worry,2023,water worry,original worry question,1,0.0
+worry,2023,water worry,original worry question,2,0.5473172497516249
+worry,2023,water worry,original worry question,3,0.547317249751625
+worry,2023,crime worry,original worry question,0,0.334524129234299
+worry,2023,crime worry,original worry question,1,0.6654758707657009
+worry,2023,crime worry,original worry question,2,0.33452412923429903
+worry,2023,crime worry,original worry question,3,0.3345241292342991
+worry,2023,severe weather worry,original worry question,0,0.0
+worry,2023,severe weather worry,original worry question,1,0.0
+worry,2023,severe weather worry,original worry question,2,0.0
+worry,2023,severe weather worry,original worry question,3,0.0
+worry,2023,mental health worry,original worry question,0,0.0
+worry,2023,mental health worry,original worry question,1,0.0
+worry,2023,mental health worry,original worry question,2,0.48031457386728305
+worry,2023,mental health worry,original worry question,3,0.5196854261327171
+worry,2025,food worry,original worry question,0,0.0
+worry,2025,food worry,original worry question,1,0.0
+worry,2025,food worry,original worry question,2,0.0
+worry,2025,food worry,original worry question,3,0.0
+worry,2025,water worry,original worry question,0,0.4653138577369227
+worry,2025,water worry,original worry question,1,0.0
+worry,2025,water worry,original worry question,2,0.5346861422630773
+worry,2025,water worry,original worry question,3,0.5346861422630774
+worry,2025,crime worry,original worry question,0,0.3285289983779281
+worry,2025,crime worry,original worry question,1,0.6714710016220719
+worry,2025,crime worry,original worry question,2,0.32852899837792815
+worry,2025,crime worry,original worry question,3,0.3285289983779282
+worry,2025,severe weather worry,original worry question,0,0.0
+worry,2025,severe weather worry,original worry question,1,0.0
+worry,2025,severe weather worry,original worry question,2,0.0
+worry,2025,severe weather worry,original worry question,3,0.0
+worry,2025,mental health worry,original worry question,0,0.0
+worry,2025,mental health worry,original worry question,1,0.0
+worry,2025,mental health worry,original worry question,2,0.5008774435201645
+worry,2025,mental health worry,original worry question,3,0.49912255647983533

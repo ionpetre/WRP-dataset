@@ -1,0 +1,273 @@
+family,wave,feature,kind,cluster,recovery,Jaccard
+worry,2019,"food (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2019,"food (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2019,"food (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2019,"food (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2019,"water (relative worry, both stages)",coordinate,0,0.8506561317937943,0.7041453512759323
+worry,2019,"water (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2019,"water (relative worry, both stages)",coordinate,2,0.8950971071023359,0.8193591076203756
+worry,2019,"water (relative worry, both stages)",coordinate,3,0.8214237513395765,0.7524767242777882
+worry,2019,"crime (relative worry, both stages)",coordinate,0,0.8535843014919141,0.7311483039806477
+worry,2019,"crime (relative worry, both stages)",coordinate,1,0.7239679290436764,0.6268501699293749
+worry,2019,"crime (relative worry, both stages)",coordinate,2,1.0,0.9413882253987416
+worry,2019,"crime (relative worry, both stages)",coordinate,3,0.9805706573390973,0.9058898021141577
+worry,2019,"severe weather (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2019,"severe weather (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2019,"severe weather (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2019,"severe weather (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2019,"mental health (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2019,"mental health (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2019,"mental health (relative worry, both stages)",coordinate,2,0.994811917570785,0.994811917570785
+worry,2019,"mental health (relative worry, both stages)",coordinate,3,1.0,0.9890585319439742
+worry,2019,Overall worry mean,coordinate,0,0.9692849922350323,0.9576143119749053
+worry,2019,Overall worry mean,coordinate,1,0.6563578904563656,0.5565557130903401
+worry,2019,Overall worry mean,coordinate,2,0.8247521071444313,0.6301959598732052
+worry,2019,Overall worry mean,coordinate,3,1.0,0.9327990443922184
+worry,2019,All relative worries,block,0,0.5916019030751719,0.38113868337767254
+worry,2019,All relative worries,block,1,0.7002460829316234,0.5652254358824295
+worry,2019,All relative worries,block,2,0.9573804015609595,0.6662535686108156
+worry,2019,All relative worries,block,3,0.0,0.0
+worry,2019,food (parent only),stage,0,1.0,1.0
+worry,2019,food (parent only),stage,1,1.0,1.0
+worry,2019,food (parent only),stage,2,1.0,1.0
+worry,2019,food (parent only),stage,3,1.0,1.0
+worry,2019,water (parent only),stage,0,0.8506561317937943,0.7041453512759323
+worry,2019,water (parent only),stage,1,1.0,1.0
+worry,2019,water (parent only),stage,2,0.8950971071023359,0.8193591076203756
+worry,2019,water (parent only),stage,3,0.8214237513395765,0.7524767242777882
+worry,2019,crime (parent only),stage,0,0.8535843014919141,0.7311483039806477
+worry,2019,crime (parent only),stage,1,0.7239679290436764,0.6268501699293749
+worry,2019,crime (parent only),stage,2,1.0,0.9413882253987416
+worry,2019,crime (parent only),stage,3,0.9805706573390973,0.9058898021141577
+worry,2019,severe weather (parent only),stage,0,1.0,1.0
+worry,2019,severe weather (parent only),stage,1,1.0,1.0
+worry,2019,severe weather (parent only),stage,2,1.0,1.0
+worry,2019,severe weather (parent only),stage,3,1.0,1.0
+worry,2019,mental health (parent only),stage,0,1.0,1.0
+worry,2019,mental health (parent only),stage,1,1.0,1.0
+worry,2019,mental health (parent only),stage,2,1.0,1.0
+worry,2019,mental health (parent only),stage,3,1.0,1.0
+worry,2019,food (child only),stage,0,1.0,1.0
+worry,2019,food (child only),stage,1,1.0,1.0
+worry,2019,food (child only),stage,2,1.0,1.0
+worry,2019,food (child only),stage,3,1.0,1.0
+worry,2019,water (child only),stage,0,1.0,1.0
+worry,2019,water (child only),stage,1,1.0,1.0
+worry,2019,water (child only),stage,2,1.0,0.9886097146576365
+worry,2019,water (child only),stage,3,0.9754327545094763,0.9754327545094763
+worry,2019,crime (child only),stage,0,1.0,1.0
+worry,2019,crime (child only),stage,1,1.0,1.0
+worry,2019,crime (child only),stage,2,1.0,0.9909703270092077
+worry,2019,crime (child only),stage,3,0.9805706573390973,0.9805706573390973
+worry,2019,severe weather (child only),stage,0,1.0,1.0
+worry,2019,severe weather (child only),stage,1,1.0,1.0
+worry,2019,severe weather (child only),stage,2,1.0,1.0
+worry,2019,severe weather (child only),stage,3,1.0,1.0
+worry,2019,mental health (child only),stage,0,1.0,1.0
+worry,2019,mental health (child only),stage,1,1.0,1.0
+worry,2019,mental health (child only),stage,2,0.994811917570785,0.994811917570785
+worry,2019,mental health (child only),stage,3,1.0,0.9890585319439742
+worry,2021,"food (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2021,"food (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2021,"food (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2021,"food (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2021,"water (relative worry, both stages)",coordinate,0,0.8736513141283152,0.7261019264945741
+worry,2021,"water (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2021,"water (relative worry, both stages)",coordinate,2,0.8842975151150099,0.8046064425301185
+worry,2021,"water (relative worry, both stages)",coordinate,3,0.7625739416450495,0.7050983913956067
+worry,2021,"crime (relative worry, both stages)",coordinate,0,0.8411173031514461,0.7020405325383474
+worry,2021,"crime (relative worry, both stages)",coordinate,1,0.7390927785346686,0.6554413150176469
+worry,2021,"crime (relative worry, both stages)",coordinate,2,1.0,0.9266394968112465
+worry,2021,"crime (relative worry, both stages)",coordinate,3,1.0,0.8842538896372315
+worry,2021,"severe weather (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2021,"severe weather (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2021,"severe weather (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2021,"severe weather (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2021,"mental health (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2021,"mental health (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2021,"mental health (relative worry, both stages)",coordinate,2,0.9882506410022674,0.9882506410022674
+worry,2021,"mental health (relative worry, both stages)",coordinate,3,1.0,0.9721390615297254
+worry,2021,Overall worry mean,coordinate,0,0.9714757987273921,0.9582854724909857
+worry,2021,Overall worry mean,coordinate,1,0.6382192205988493,0.5644286585754291
+worry,2021,Overall worry mean,coordinate,2,0.8149425947174475,0.5584497026168411
+worry,2021,Overall worry mean,coordinate,3,1.0,0.9055038229279891
+worry,2021,All relative worries,block,0,0.5788293958030042,0.37626727891458983
+worry,2021,All relative worries,block,1,0.7237452489260403,0.5973459878267585
+worry,2021,All relative worries,block,2,0.9512824034336569,0.6698137626827448
+worry,2021,All relative worries,block,3,0.0,0.0
+worry,2021,food (parent only),stage,0,1.0,1.0
+worry,2021,food (parent only),stage,1,1.0,1.0
+worry,2021,food (parent only),stage,2,1.0,1.0
+worry,2021,food (parent only),stage,3,1.0,1.0
+worry,2021,water (parent only),stage,0,0.8736513141283152,0.7261019264945741
+worry,2021,water (parent only),stage,1,1.0,1.0
+worry,2021,water (parent only),stage,2,0.8842975151150099,0.8046064425301185
+worry,2021,water (parent only),stage,3,0.7625739416450495,0.7050983913956067
+worry,2021,crime (parent only),stage,0,0.8411173031514461,0.7020405325383474
+worry,2021,crime (parent only),stage,1,0.7390927785346686,0.6554413150176469
+worry,2021,crime (parent only),stage,2,1.0,0.9266394968112465
+worry,2021,crime (parent only),stage,3,1.0,0.8842538896372315
+worry,2021,severe weather (parent only),stage,0,1.0,1.0
+worry,2021,severe weather (parent only),stage,1,1.0,1.0
+worry,2021,severe weather (parent only),stage,2,1.0,1.0
+worry,2021,severe weather (parent only),stage,3,1.0,1.0
+worry,2021,mental health (parent only),stage,0,1.0,1.0
+worry,2021,mental health (parent only),stage,1,1.0,1.0
+worry,2021,mental health (parent only),stage,2,1.0,1.0
+worry,2021,mental health (parent only),stage,3,1.0,1.0
+worry,2021,food (child only),stage,0,1.0,1.0
+worry,2021,food (child only),stage,1,1.0,1.0
+worry,2021,food (child only),stage,2,1.0,1.0
+worry,2021,food (child only),stage,3,1.0,1.0
+worry,2021,water (child only),stage,0,1.0,1.0
+worry,2021,water (child only),stage,1,1.0,1.0
+worry,2021,water (child only),stage,2,1.0,1.0
+worry,2021,water (child only),stage,3,1.0,1.0
+worry,2021,crime (child only),stage,0,1.0,1.0
+worry,2021,crime (child only),stage,1,1.0,1.0
+worry,2021,crime (child only),stage,2,1.0,1.0
+worry,2021,crime (child only),stage,3,1.0,1.0
+worry,2021,severe weather (child only),stage,0,1.0,1.0
+worry,2021,severe weather (child only),stage,1,1.0,1.0
+worry,2021,severe weather (child only),stage,2,1.0,1.0
+worry,2021,severe weather (child only),stage,3,1.0,1.0
+worry,2021,mental health (child only),stage,0,1.0,1.0
+worry,2021,mental health (child only),stage,1,1.0,1.0
+worry,2021,mental health (child only),stage,2,0.9882506410022674,0.9882506410022674
+worry,2021,mental health (child only),stage,3,1.0,0.9721390615297254
+worry,2023,"food (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2023,"food (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2023,"food (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2023,"food (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2023,"water (relative worry, both stages)",coordinate,0,0.8576147313584045,0.7180455677132539
+worry,2023,"water (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2023,"water (relative worry, both stages)",coordinate,2,0.8764704671552644,0.784813218514578
+worry,2023,"water (relative worry, both stages)",coordinate,3,0.7696688407258936,0.6978555540522907
+worry,2023,"crime (relative worry, both stages)",coordinate,0,0.8505678052488954,0.7457812579241522
+worry,2023,"crime (relative worry, both stages)",coordinate,1,0.762008147661278,0.6734980329627323
+worry,2023,"crime (relative worry, both stages)",coordinate,2,1.0,0.9241973824959677
+worry,2023,"crime (relative worry, both stages)",coordinate,3,1.0,0.8651670688887403
+worry,2023,"severe weather (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2023,"severe weather (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2023,"severe weather (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2023,"severe weather (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2023,"mental health (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2023,"mental health (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2023,"mental health (relative worry, both stages)",coordinate,2,0.9934831290979491,0.9934831290979491
+worry,2023,"mental health (relative worry, both stages)",coordinate,3,1.0,0.9839517324918875
+worry,2023,Overall worry mean,coordinate,0,0.9725865823458395,0.9586110535980461
+worry,2023,Overall worry mean,coordinate,1,0.6339616255557884,0.559729344976042
+worry,2023,Overall worry mean,coordinate,2,0.8165936850266159,0.5767913355266746
+worry,2023,Overall worry mean,coordinate,3,1.0,0.8397836243245006
+worry,2023,All relative worries,block,0,0.5714558416176144,0.38016902723514406
+worry,2023,All relative worries,block,1,0.7102855163324633,0.5780730801983772
+worry,2023,All relative worries,block,2,0.0,0.0
+worry,2023,All relative worries,block,3,0.4931663632714847,0.12344631722922979
+worry,2023,food (parent only),stage,0,1.0,1.0
+worry,2023,food (parent only),stage,1,1.0,1.0
+worry,2023,food (parent only),stage,2,1.0,1.0
+worry,2023,food (parent only),stage,3,1.0,1.0
+worry,2023,water (parent only),stage,0,0.8576147313584045,0.7180455677132539
+worry,2023,water (parent only),stage,1,1.0,1.0
+worry,2023,water (parent only),stage,2,0.8764704671552644,0.784813218514578
+worry,2023,water (parent only),stage,3,0.7696688407258936,0.6978555540522907
+worry,2023,crime (parent only),stage,0,0.8505678052488954,0.7457812579241522
+worry,2023,crime (parent only),stage,1,0.762008147661278,0.6734980329627323
+worry,2023,crime (parent only),stage,2,1.0,0.9241973824959677
+worry,2023,crime (parent only),stage,3,1.0,0.8651670688887403
+worry,2023,severe weather (parent only),stage,0,1.0,1.0
+worry,2023,severe weather (parent only),stage,1,1.0,1.0
+worry,2023,severe weather (parent only),stage,2,1.0,1.0
+worry,2023,severe weather (parent only),stage,3,1.0,1.0
+worry,2023,mental health (parent only),stage,0,1.0,1.0
+worry,2023,mental health (parent only),stage,1,1.0,1.0
+worry,2023,mental health (parent only),stage,2,1.0,1.0
+worry,2023,mental health (parent only),stage,3,1.0,1.0
+worry,2023,food (child only),stage,0,1.0,1.0
+worry,2023,food (child only),stage,1,1.0,1.0
+worry,2023,food (child only),stage,2,1.0,1.0
+worry,2023,food (child only),stage,3,1.0,1.0
+worry,2023,water (child only),stage,0,1.0,1.0
+worry,2023,water (child only),stage,1,1.0,1.0
+worry,2023,water (child only),stage,2,1.0,1.0
+worry,2023,water (child only),stage,3,1.0,1.0
+worry,2023,crime (child only),stage,0,1.0,1.0
+worry,2023,crime (child only),stage,1,1.0,1.0
+worry,2023,crime (child only),stage,2,1.0,1.0
+worry,2023,crime (child only),stage,3,1.0,1.0
+worry,2023,severe weather (child only),stage,0,1.0,1.0
+worry,2023,severe weather (child only),stage,1,1.0,1.0
+worry,2023,severe weather (child only),stage,2,1.0,1.0
+worry,2023,severe weather (child only),stage,3,1.0,1.0
+worry,2023,mental health (child only),stage,0,1.0,1.0
+worry,2023,mental health (child only),stage,1,1.0,1.0
+worry,2023,mental health (child only),stage,2,0.9934831290979491,0.9934831290979491
+worry,2023,mental health (child only),stage,3,1.0,0.9839517324918875
+worry,2025,"food (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2025,"food (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2025,"food (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2025,"food (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2025,"water (relative worry, both stages)",coordinate,0,0.8453254203236311,0.7142875384808796
+worry,2025,"water (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2025,"water (relative worry, both stages)",coordinate,2,0.8991959806186096,0.7928369959084389
+worry,2025,"water (relative worry, both stages)",coordinate,3,0.7923282951949601,0.7473203901284255
+worry,2025,"crime (relative worry, both stages)",coordinate,0,0.7964901693165336,0.7000273010206294
+worry,2025,"crime (relative worry, both stages)",coordinate,1,0.7814386367912722,0.6652306134060796
+worry,2025,"crime (relative worry, both stages)",coordinate,2,1.0,0.932647527410252
+worry,2025,"crime (relative worry, both stages)",coordinate,3,1.0,0.8980732049342132
+worry,2025,"severe weather (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2025,"severe weather (relative worry, both stages)",coordinate,1,1.0,1.0
+worry,2025,"severe weather (relative worry, both stages)",coordinate,2,1.0,1.0
+worry,2025,"severe weather (relative worry, both stages)",coordinate,3,1.0,1.0
+worry,2025,"mental health (relative worry, both stages)",coordinate,0,1.0,1.0
+worry,2025,"mental health (relative worry, both stages)",coordinate,1,0.9978473342673011,0.9978473342673011
+worry,2025,"mental health (relative worry, both stages)",coordinate,2,0.9520115944922414,0.949549469712634
+worry,2025,"mental health (relative worry, both stages)",coordinate,3,1.0,0.8991723968315443
+worry,2025,Overall worry mean,coordinate,0,0.9646721729220314,0.9542618949953088
+worry,2025,Overall worry mean,coordinate,1,0.5842068034006102,0.5142045682981032
+worry,2025,Overall worry mean,coordinate,2,0.8247401569075343,0.5671663521629488
+worry,2025,Overall worry mean,coordinate,3,1.0,0.8372014834786045
+worry,2025,All relative worries,block,0,0.5444110659399684,0.35564392075540807
+worry,2025,All relative worries,block,1,0.7377356986007632,0.5837916855602205
+worry,2025,All relative worries,block,2,0.9470164171220026,0.6757277074942557
+worry,2025,All relative worries,block,3,0.0,0.0
+worry,2025,food (parent only),stage,0,1.0,1.0
+worry,2025,food (parent only),stage,1,1.0,1.0
+worry,2025,food (parent only),stage,2,1.0,1.0
+worry,2025,food (parent only),stage,3,1.0,1.0
+worry,2025,water (parent only),stage,0,0.8453254203236311,0.7142875384808796
+worry,2025,water (parent only),stage,1,1.0,1.0
+worry,2025,water (parent only),stage,2,0.8991959806186096,0.7928369959084389
+worry,2025,water (parent only),stage,3,0.7923282951949601,0.7473203901284255
+worry,2025,crime (parent only),stage,0,0.7964901693165336,0.7000273010206294
+worry,2025,crime (parent only),stage,1,0.7814386367912722,0.6652306134060796
+worry,2025,crime (parent only),stage,2,1.0,0.932647527410252
+worry,2025,crime (parent only),stage,3,1.0,0.8980732049342132
+worry,2025,severe weather (parent only),stage,0,1.0,1.0
+worry,2025,severe weather (parent only),stage,1,1.0,1.0
+worry,2025,severe weather (parent only),stage,2,1.0,1.0
+worry,2025,severe weather (parent only),stage,3,1.0,1.0
+worry,2025,mental health (parent only),stage,0,1.0,1.0
+worry,2025,mental health (parent only),stage,1,0.9978473342673011,0.9978473342673011
+worry,2025,mental health (parent only),stage,2,1.0,0.9974137659731754
+worry,2025,mental health (parent only),stage,3,1.0,1.0
+worry,2025,food (child only),stage,0,1.0,1.0
+worry,2025,food (child only),stage,1,1.0,1.0
+worry,2025,food (child only),stage,2,1.0,1.0
+worry,2025,food (child only),stage,3,1.0,1.0
+worry,2025,water (child only),stage,0,1.0,1.0
+worry,2025,water (child only),stage,1,1.0,1.0
+worry,2025,water (child only),stage,2,1.0,1.0
+worry,2025,water (child only),stage,3,1.0,1.0
+worry,2025,crime (child only),stage,0,1.0,1.0
+worry,2025,crime (child only),stage,1,1.0,1.0
+worry,2025,crime (child only),stage,2,1.0,1.0
+worry,2025,crime (child only),stage,3,1.0,1.0
+worry,2025,severe weather (child only),stage,0,1.0,1.0
+worry,2025,severe weather (child only),stage,1,1.0,1.0
+worry,2025,severe weather (child only),stage,2,1.0,1.0
+worry,2025,severe weather (child only),stage,3,1.0,1.0
+worry,2025,mental health (child only),stage,0,1.0,1.0
+worry,2025,mental health (child only),stage,1,1.0,1.0
+worry,2025,mental health (child only),stage,2,0.9520115944922414,0.9520115944922414
+worry,2025,mental health (child only),stage,3,1.0,0.8991723968315443

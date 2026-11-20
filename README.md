@@ -14,7 +14,7 @@ This repository accompanies *Recurring patterns of worry in the World Risk Poll*
 There are two companion notebooks, each with explanations, code and saved outputs:
 
 - [Worry alone and its comparison with worry and harm](paper/wrp_shared_worry_only.ipynb) verifies the four-wave clustering, the matched fits, Figure 3 and the held-out-country checks.
-- [Worry and reported harm](paper/wrp_shared_five_clusters.ipynb) verifies the five-cluster recurrence, common Boolean descriptions and changes in frequency.
+- [Worry and reported harm](paper/wrp_shared_five_clusters.ipynb) verifies the five-cluster recurrence, common Boolean descriptions, changes in frequency and feature influence. Both notebooks distinguish encoded-coordinate sensitivity from original-question influence.
 
 [Reproduction instructions](paper/README.md) describe the dependencies, supplied evidence and optional calculations. Default execution uses saved aggregate evidence and centres. Original survey records are obtained separately from the publisher.
 

@@ -1,0 +1,82 @@
+family,wave,question,kind,expected_changed,states
+full,2021,food worry,original worry question,0.10745046028289836,3
+full,2021,water worry,original worry question,0.24139935258864859,3
+full,2021,crime worry,original worry question,0.19682316708357708,3
+full,2021,severe weather worry,original worry question,0.19218900078578893,3
+full,2021,traffic worry,original worry question,0.22879585532900315,3
+full,2021,mental health worry,original worry question,0.2551084397459744,3
+full,2021,Personal harm: food,personal indicator,0.004473054233603321,2
+full,2021,Personal harm: water,personal indicator,0.004530901795353686,2
+full,2021,Personal harm: crime,personal indicator,0.003201201678603062,2
+full,2021,Personal harm: severe weather,personal indicator,0.004770751006133258,2
+full,2021,Personal harm: traffic,personal indicator,0.004097579660588135,2
+full,2021,Personal harm: mental health,personal indicator,0.003196982316210651,2
+full,2021,Personal harm: work,personal indicator,0.0062633435195175325,2
+full,2021,Known-person harm: food,known-person indicator,0.02043578765069168,2
+full,2021,Known-person harm: water,known-person indicator,0.013436807698483736,2
+full,2021,Known-person harm: crime,known-person indicator,0.032682658887860316,2
+full,2021,Known-person harm: severe weather,known-person indicator,0.02827970539408178,2
+full,2021,Known-person harm: traffic,known-person indicator,0.03486432984536188,2
+full,2021,Known-person harm: mental health,known-person indicator,0.02965499554700579,2
+full,2021,Known-person harm: work,known-person indicator,0.023729278985513438,2
+full,2021,Harm question: food,joint personal and known-person,0.023913503548752484,4
+full,2021,Harm question: water,joint personal and known-person,0.017498011704802866,4
+full,2021,Harm question: crime,joint personal and known-person,0.03506586245468279,4
+full,2021,Harm question: severe weather,joint personal and known-person,0.03148482900685579,4
+full,2021,Harm question: traffic,joint personal and known-person,0.037161073230414905,4
+full,2021,Harm question: mental health,joint personal and known-person,0.03203143719418079,4
+full,2021,Harm question: work,joint personal and known-person,0.02833541136590465,4
+full,2023,food worry,original worry question,0.12273447847037318,3
+full,2023,water worry,original worry question,0.23559025607141185,3
+full,2023,crime worry,original worry question,0.19556476112842527,3
+full,2023,severe weather worry,original worry question,0.20419714294431582,3
+full,2023,traffic worry,original worry question,0.22626290662435564,3
+full,2023,mental health worry,original worry question,0.23236816737331148,3
+full,2023,Personal harm: food,personal indicator,0.0059164809899539955,2
+full,2023,Personal harm: water,personal indicator,0.004612579921121091,2
+full,2023,Personal harm: crime,personal indicator,0.0022938979636382855,2
+full,2023,Personal harm: severe weather,personal indicator,0.007213622805153521,2
+full,2023,Personal harm: traffic,personal indicator,0.003690054134520478,2
+full,2023,Personal harm: mental health,personal indicator,0.0030815331381623414,2
+full,2023,Personal harm: work,personal indicator,0.005633837613710332,2
+full,2023,Known-person harm: food,known-person indicator,0.02321730035723102,2
+full,2023,Known-person harm: water,known-person indicator,0.014141910698368518,2
+full,2023,Known-person harm: crime,known-person indicator,0.033248442378239935,2
+full,2023,Known-person harm: severe weather,known-person indicator,0.03108201447241283,2
+full,2023,Known-person harm: traffic,known-person indicator,0.03587977307590085,2
+full,2023,Known-person harm: mental health,known-person indicator,0.03442897073243329,2
+full,2023,Known-person harm: work,known-person indicator,0.02507236259421904,2
+full,2023,Harm question: food,joint personal and known-person,0.02822955350655099,4
+full,2023,Harm question: water,joint personal and known-person,0.01811340993137134,4
+full,2023,Harm question: crime,joint personal and known-person,0.03483096284578286,4
+full,2023,Harm question: severe weather,joint personal and known-person,0.035980803331711365,4
+full,2023,Harm question: traffic,joint personal and known-person,0.0377018094188406,4
+full,2023,Harm question: mental health,joint personal and known-person,0.036508761637574424,4
+full,2023,Harm question: work,joint personal and known-person,0.029221209276021495,4
+full,2025,food worry,original worry question,0.12419859239034142,3
+full,2025,water worry,original worry question,0.22495104294593896,3
+full,2025,crime worry,original worry question,0.18785340300569994,3
+full,2025,severe weather worry,original worry question,0.17286096915587298,3
+full,2025,traffic worry,original worry question,0.23235548697407152,3
+full,2025,mental health worry,original worry question,0.2442017031523821,3
+full,2025,Personal harm: food,personal indicator,0.0055595801713494,2
+full,2025,Personal harm: water,personal indicator,0.005020062154162061,2
+full,2025,Personal harm: crime,personal indicator,0.0022725196482915916,2
+full,2025,Personal harm: severe weather,personal indicator,0.006237851875028536,2
+full,2025,Personal harm: traffic,personal indicator,0.003917571874547045,2
+full,2025,Personal harm: mental health,personal indicator,0.0031491481552203774,2
+full,2025,Personal harm: work,personal indicator,0.004313770037114177,2
+full,2025,Known-person harm: food,known-person indicator,0.022976047946439506,2
+full,2025,Known-person harm: water,known-person indicator,0.013719731642266513,2
+full,2025,Known-person harm: crime,known-person indicator,0.030462415632255862,2
+full,2025,Known-person harm: severe weather,known-person indicator,0.02480014216846965,2
+full,2025,Known-person harm: traffic,known-person indicator,0.03385681817710348,2
+full,2025,Known-person harm: mental health,known-person indicator,0.029198115457047848,2
+full,2025,Known-person harm: work,known-person indicator,0.02585938647395694,2
+full,2025,Harm question: food,joint personal and known-person,0.027242676987875334,4
+full,2025,Harm question: water,joint personal and known-person,0.01812785503968271,4
+full,2025,Harm question: crime,joint personal and known-person,0.03218411760549664,4
+full,2025,Harm question: severe weather,joint personal and known-person,0.02969513551151402,4
+full,2025,Harm question: traffic,joint personal and known-person,0.035827088659607036,4
+full,2025,Harm question: mental health,joint personal and known-person,0.03134418017561967,4
+full,2025,Harm question: work,joint personal and known-person,0.029071666380658886,4
