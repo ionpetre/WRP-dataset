@@ -1,0 +1,4 @@
+beta,k,setting,refits_done,largest_native_share,dominance,all_k_nonempty,point_ARI_min,point_Jaccard_min,native_ARI_min,cross_ARI_p10_min,cross_Jaccard_p10_min,strict_structure,strict_native,strict_broad,strict_all,sensitivity_structure,sensitivity_native,sensitivity_broad,sensitivity_all
+0.0,7,k7_joint0,True,0.3586199775322743,2.5103398427259203,True,0.8924457970102331,0.4745594252164616,0.871797550307944,0.8606851497387975,0.2760451580317806,True,True,True,False,True,True,True,False
+0.1428571428571428,6,k6_joint1,True,0.414788937014225,2.48873362208535,True,0.7615395275274689,0.2846972235018987,0.6832535958105577,0.7145733701221302,0.2621272890468682,False,False,False,False,True,False,False,False
+0.4,6,k6_joint3,True,0.4015104321649188,2.4090625929895126,True,0.626842211356504,0.2319329315227103,0.619093961017608,0.6067561729320979,0.231244664330645,False,False,False,False,True,False,False,False

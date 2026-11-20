@@ -1,0 +1,648 @@
+{
+  "candidate_grid": [
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F3_q0.250000_a0.500",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F3_q0.250000_a0.625",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F3_q0.250000_a0.750",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F3_q0.333333_a0.500",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F3_q0.333333_a0.625",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F3_q0.333333_a0.750",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F3_q0.500000_a0.500",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F3_q0.500000_a0.625",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F3_q0.500000_a0.750",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F4_q0.250000_a0.500",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F4_q0.250000_a0.625",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F4_q0.250000_a0.750",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F4_q0.333333_a0.500",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F4_q0.333333_a0.625",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F4_q0.333333_a0.750",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F4_q0.500000_a0.500",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F4_q0.500000_a0.625",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F4_q0.500000_a0.750",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F5_q0.250000_a0.500",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F5_q0.250000_a0.625",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F5_q0.250000_a0.750",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F5_q0.333333_a0.500",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F5_q0.333333_a0.625",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F5_q0.333333_a0.750",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F5_q0.500000_a0.500",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F5_q0.500000_a0.625",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F5_q0.500000_a0.750",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F6_q0.250000_a0.500",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F6_q0.250000_a0.625",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F6_q0.250000_a0.750",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F6_q0.333333_a0.500",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F6_q0.333333_a0.625",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F6_q0.333333_a0.750",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F6_q0.500000_a0.500",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F6_q0.500000_a0.625",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F6_q0.500000_a0.750",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F7_q0.250000_a0.500",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F7_q0.250000_a0.625",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F7_q0.250000_a0.750",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.25
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F7_q0.333333_a0.500",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F7_q0.333333_a0.625",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F7_q0.333333_a0.750",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.3333333333333333
+    },
+    {
+      "alpha": 0.5,
+      "family": "full",
+      "id": "F7_q0.500000_a0.500",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.625,
+      "family": "full",
+      "id": "F7_q0.500000_a0.625",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "alpha": 0.75,
+      "family": "full",
+      "id": "F7_q0.500000_a0.750",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W3_q0.500",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W3_q0.625",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "W3_q0.750",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "W3_q0.875",
+      "k": 3,
+      "mode": "flat",
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "W4_q0.500",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W4_q0.625",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "W4_q0.750",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "W4_q0.875",
+      "k": 4,
+      "mode": "flat",
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "W5_q0.500",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W5_q0.625",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "W5_q0.750",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "W5_q0.875",
+      "k": 5,
+      "mode": "flat",
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "W6_q0.500",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W6_q0.625",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "W6_q0.750",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "W6_q0.875",
+      "k": 6,
+      "mode": "flat",
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "W7_q0.500",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "W7_q0.625",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "W7_q0.750",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "W7_q0.875",
+      "k": 7,
+      "mode": "flat",
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.500_rank0",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 0,
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.500_rank1",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 1,
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.500_rank2",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 2,
+      "q": 0.5
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.625_rank0",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 0,
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.625_rank1",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 1,
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.625_rank2",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 2,
+      "q": 0.625
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.750_rank0",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 0,
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.750_rank1",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 1,
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.750_rank2",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 2,
+      "q": 0.75
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.875_rank0",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 0,
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.875_rank1",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 1,
+      "q": 0.875
+    },
+    {
+      "family": "worry",
+      "id": "H4_q0.875_rank2",
+      "k": 4,
+      "mode": "hierarchy",
+      "parent_rank": 2,
+      "q": 0.875
+    }
+  ],
+  "coarsening": "For every full k7 candidate, enumerate all 35 single-triple unions to k5. Choose unions on pilot development evidence only. Do not tune unions on confirmation. This repeats the winning single-triple merge family; a merged partition differs from flat k5.",
+  "controlled_full": "Same raw k7,q=1/3,alpha=.625 and original confirmation sample/fit seeds. Align raw seven-centre point labels to that wave centred point, then apply its frozen five-cluster map. Refits align to their own raw point before the frozen map.",
+  "controlled_worry": "Same q=.75 hierarchy and original prepared pilot/confirmation masses/seeds. Align the three raw parents to the original three-parent assignment on the common reference, and split parent C2 with raw five-question two-centre kmeans. This is a fixed-parent diagnostic, not a new natural thematic claim.",
+  "date": "2026-11-20",
+  "evaluation": "Ordinary count ARI, weighted matched Jaccard per cluster; within-wave all distinct run pairs, cross-wave all products. Report all runs and failures. Structural shares are native point shares.",
+  "families": {
+    "full": [
+      2021,
+      2023,
+      2025
+    ],
+    "worry": [
+      2019,
+      2021,
+      2023,
+      2025
+    ]
+  },
+  "fit": "Independent per-wave weighted Lloyd kmeans; 20 initializations; max_iter 300; full tol 1e-4, worry tol zero; no imputation or variance standardization.",
+  "heldout": "No held-out respondents or outcomes used anywhere in this development sensitivity study.",
+  "identity": "||x-y||^2 = ||(x-mean(x))-(y-mean(y))||^2 + d*(mean(x)-mean(y))^2. Full centred mean coefficient 1 -> raw 6; worry parent 1.5 -> raw 5; worry child 0 -> raw 5.",
+  "point_screen": {
+    "dominance_exclusive_maximum": 3,
+    "maximum_share": 0.45,
+    "min_point_ARI": 0.62,
+    "min_point_Jaccard": 0.5
+  },
+  "protection": "No edits to manuscript, publication website, current companions, frozen models or earlier results; no Git commits or uploads.",
+  "question": "What changes when respondent-wise worry centring and mean downweighting are removed?",
+  "raw": "Numeric worry scores divided by sqrt(d), with alpha in the full family, and NO appended mean coordinate.",
+  "reselection_hierarchy": "Fit raw k3 parents; split the parent ranked 0,1,2 by mean centre level in the 2025 point fit. Transfer the parent index by maximum-overlap correspondence; each wave fits its own parent and child centres. Child uses the same q and raw geometry. Refits match parent labels to their own wave point before selecting the child population.",
+  "rules": "Exhaustive ordered DNF cost<=3; precision>=.80 in every native wave; within .01 of best 2025 coverage minimize cost, -precision2025, -coverage2025, question count, canonical JSON. Extract for controlled and selected raw models without changing cluster assignments.",
+  "samples": "Paired with saved original schedules and weights. Pilot 8 and independent confirmation 50 draws of each type. Same eligible development respondents and country weights. Same 2025 reference for every pair.",
+  "sensitivity": {
+    "cross_ARI": 0.8,
+    "cross_Jaccard": 0.8,
+    "dominance_exclusive_maximum": 3,
+    "maximum_share": 0.45,
+    "native_ARI": 0.78
+  },
+  "shortlist": "Up to three per family: highest-resolution strict pass, strongest strict-native candidate by minimum cross Jaccard then ARI, strongest remaining sensitivity candidate, then fill with strongest remaining scored candidate. Rank passing candidates by k then cross Jaccard then cross ARI; ties by setting ID. Mandatory controlled candidates are additional. No post-confirmation candidate expansion.",
+  "strict": {
+    "cross_ARI": 0.8,
+    "cross_Jaccard": 0.8,
+    "dominance_exclusive_maximum": 3,
+    "maximum_share": 0.4,
+    "native_ARI": 0.8
+  }
+}

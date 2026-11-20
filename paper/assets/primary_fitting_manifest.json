@@ -1,0 +1,27 @@
+{
+  "aggregate_only": true,
+  "files_sha256": {
+    "centring_candidate_settings.json": "f3870e1d153b8cc7f7d656c432d62ded10dd5b26ae5b80db6c3dd919c528efb0",
+    "centring_confirmation_candidates.csv": "eb3365d702f55124704a15953f8b877864ea0a8d8ecb02613f47bf0458d5d5c8",
+    "centring_confirmation_shortlist.json": "46f5a926e0fa7ce0adaa474542732233f052c6fd0a31783ea4c75f217970fbf5",
+    "centring_pilot_candidates.csv": "732f6e930a769d335aa2816722e89c117affcf45dd903b30d7efaab0d730a7e0",
+    "centring_protocol.json": "7384177e7acaa90cd634551f43223b7b2ac91f9b47d02027c7dcf9f72cd27813",
+    "centring_sensitivity_models.npz": "10c59c5f020b4732526ca55900370ab53e9918e9eb95ee35362cc7da93e7e425",
+    "centring_sensitivity_summary.csv": "e9e38e8a1a7e74d827c01a141046dd0f5a55e6fd264a9754d3a32ea05dcf77be",
+    "primary_fitting_models.npz": "447407ac766f7e8e8a777f5419dacc47396d05414b95120dd301edc034e09ecc",
+    "primary_fitting_protocol.json": "3782affdc444f5671b9f6b4fec13c6c012439a1ebab085f6a5a63f95f193bab2",
+    "primary_full_confirmation_coarsened_summary.csv": "58dee129e7d81dfe529d9c21ff8016812021256b6f397c87e6a8f3e0325ee7d7",
+    "primary_full_confirmation_summary.csv": "53993b5309273d698175074180ecffeaa8c061f5ccaf93e0099cfca077a86bb6",
+    "primary_full_pilot_coarsened_summary.csv": "9c3db07d26589e50c666f060de5ff9d5310fd86fd4d391444a71db5f5a918ac1",
+    "primary_full_pilot_summary.csv": "fd35c9e2434a61e60de37e03a3826e7ed474c8c0c773709775e605741e5e043b",
+    "primary_point_fit_validation.csv": "c98cf5ea90d1c6be434fa663ea59644554f6f34854d87390c679f5b7aaa26a3e",
+    "primary_sampling_validation.csv": "28503e98ae16e1113967471275837b2721c1cad58d6808096a9128872b3a1327",
+    "primary_worry_coarse_confirmation.csv": "3b299aefc2919b54fb5d855a6ddb7f950453e02fd301261a998733fd6c3b9161",
+    "primary_worry_coarse_pilot.csv": "77dca76072f0fec1725bc22c55607cdb36db53807a3d5111bcb64335c3d602c0",
+    "primary_worry_mean_confirmation.csv": "b93acc071682d3864f99d0978b050649d7e351b2c56d7777393bc6dd342f763a",
+    "primary_worry_mean_pilot.csv": "887c73453cf5a5090ce1b7bc9b993572b424671742984b7138f742c6d736e206",
+    "primary_worry_replication.csv": "47e44480331494cff6c1d91a11afb4ea8a599fd05712353f67d71042b30d5687",
+    "primary_worry_split_confirmation.csv": "c0f5e1de8b6e9eb1b91e6e3d8fbdb31aa383b2d5c12630333d7a22f3c7139456",
+    "primary_worry_split_pilot.csv": "5a7d31b706d403f5b02610a6daa7e3b73cac5d23a4d095248d42e903c087607d"
+  }
+}

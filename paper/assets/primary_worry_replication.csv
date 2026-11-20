@@ -1,0 +1,4 @@
+q,exact_point_fits,exact_refits,min_pair_ARI,largest_share,dominance,all_nonempty,min_point_ARI,min_point_Jaccard,point_equal_all_patterns,native_min,min_cross_ARI,min_cross_Jaccard,strict_native,sensitivity_native,strict_pass,sensitivity_pass
+0.75,4,399,0.4216811055661955,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+0.775,3,398,0.4216811055661955,0.3467895782036501,1.3871583128146006,True,0.4216811055661955,0.3930711225308899,False,1.0,1.0,1.0,True,True,True,True
+0.8,4,396,0.4216811055661955,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True

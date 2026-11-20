@@ -1,0 +1,8 @@
+id,k,mode,mean,q,largest_share,dominance,all_nonempty,min_point_ARI,min_point_Jaccard,point_equal_all_patterns,native_min,min_cross_ARI,min_cross_Jaccard,strict_native,sensitivity_native,strict_pass,sensitivity_pass
+h001,4,five,0.0,0.5,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,0.9991723977901752,0.9987147460798014,0.995834127015111,True,True,True,True
+h004,4,five,0.0,0.7,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+h005,4,five,0.0,0.75,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+h006,4,five,0.0,0.8,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+h064,4,crime_water,,0.75,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+h065,4,water,,0.75,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
+h066,4,crime,,0.75,0.3467895782036501,1.3871583128146006,True,1.0,1.0,True,1.0,1.0,1.0,True,True,True,True
