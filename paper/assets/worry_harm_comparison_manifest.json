@@ -8,7 +8,15 @@
     "reference_full.npz": "0958085b2cdf03307ac250cfe90f6dedf8cd593cd66e197b18deb80ff8713e28",
     "shared_worry_only_conditions.json": "3feed5716584a56c781e31b98209011ebf66e91001004e62aeab6d338f3d1fa1",
     "shared_five_rule_conditions.json": "c37e51c46f622c051b147fb4d43d42105edb9d4abd3fed84da4d40877708bce6",
-    "reference_common_worry.npz": "a6232f71cf64c5202c91f5c845fdbdf8816ab9b5bdae11e91c04f80c5b4305d1"
+    "reference_common_worry.npz": "a6232f71cf64c5202c91f5c845fdbdf8816ab9b5bdae11e91c04f80c5b4305d1",
+    "heldout_harm_evidence.json": "5e284166d918f7682e6072ebddc0b6bf32e5248a75e9c2c488320a400e8f00d7",
+    "country_split_common_worry_2019.csv": "1a6ed53d3ae77caac3e3db5636e4e234a537fa83b2ab74c858c2a0586cbf1bdb",
+    "country_split_common_worry_2021.csv": "d952c97532fc94f5b322b293fde1b4f65e59f10ce86456a5adf63a424727c6d5",
+    "country_split_common_worry_2023.csv": "30e203a2645cb509f5886788d36d5ae9a162acf83162abf6035c0bb91cf0962a",
+    "country_split_common_worry_2025.csv": "85064a6e7dda92cbc1d4f71e82e39d00fc944a53cd2b57227d9547a190cb07de",
+    "country_split_full_2021.csv": "7248cc8f0aa4b4785f9f426169127545ec58fac600e96b68b0d36af67f028168",
+    "country_split_full_2023.csv": "cd0e72f3c0e64899b9c1a708eec3a08361630a4b8c3b502f78272a5388116457",
+    "country_split_full_2025.csv": "6f805a02e04c48a217551e2d4dc7f2b03aa733bdb8a08fca84886a9e22387090"
   },
   "aggregate_only": true,
   "no_refits": true

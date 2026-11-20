@@ -1,46 +1,33 @@
-# Reproduce the shared five-cluster result
+# Companion to *Recurring patterns of worry in the World Risk Poll*
 
-Open [wrp_shared_five_clusters.ipynb](wrp_shared_five_clusters.ipynb) with the libraries in requirements.txt. Run All verifies the five-cluster results from manifest-checked aggregates and frozen model centres. It calculates agreement over every saved refit pair, checks the common rules in all three native development populations and recomputes the fixed 2025 frequency comparisons. The optional rule cell repeats the exhaustive search.
+The two notebooks below contain the paper's explanations, analytical code and saved outputs. Run All uses supplied aggregate evidence and saved centres. Expensive searches and fitting remain off by default.
 
-## Worry-only clusters and the effect of adding harm
+## Worry alone and comparisons with worry and harm
 
-[wrp_shared_worry_only.ipynb](wrp_shared_worry_only.ipynb) verifies the four-wave worry-only result and compares it with the worry–harm clusters. It replays the matched ARI and stability results at the same cluster count and with the same worry questions. Its three-wave chart shows which worry-only groups the harm cluster draws from. Run All uses saved centres and aggregate evidence. The optional fitting section records the necessary survey CSVs and repeats the matched fits using the original draws and seeds.
+Open [wrp_shared_worry_only.ipynb](wrp_shared_worry_only.ipynb). It verifies the four recurring worry-only clusters in 2019, 2021, 2023 and 2025, compares them with the five worry–harm clusters, and replays the matched fits with the same worry questions and number of clusters. It reproduces [Figure 3](results/figure3_harm_by_worry.pdf), the original harm rates, the within-country contrasts and the fixed-model and rule checks in the 25 held-out countries. These checks are described in Supplementary Sections S4 and S7. Tables and the figure are saved in [results/](results/).
 
-The material below documents the archived candidate catalogue and separate earlier analyses. The current website and main paper use the shared five-cluster result.
+To verify the harm summaries from original survey answers, obtain the CSV files recorded in [assets/matched_harm_schedule.json](assets/matched_harm_schedule.json), put them in `paper/data/`, and set `RAW_WAVE_DIR` in the notebook if needed. Enable `RUN_SURVEY_REPLAY`. The notebook checks the survey file hashes and applies the recorded country splits and frozen models. The separate `RUN_MATCHED_FITS` switch repeats the matched fits using the original draws and seeds. Both switches are off by default.
 
-## Archived candidate catalogue
+## Worry and reported harm
 
-Open **wrp_cross_wave_clustering.ipynb**. It contains the narrative, all analytical code and saved results in one editable notebook. Run all cells from this directory after installing `requirements.txt`.
+Open [wrp_shared_five_clusters.ipynb](wrp_shared_five_clusters.ipynb). It checks the independently fitted seven-centre models and their fixed maps to five clusters, reproduces cross-wave agreement and individual-cluster recovery from all saved refit pairs, checks the common rules in each development population, and recalculates frequency changes under the fixed 2025 definition. The default run does not refit the clustering. Set `RUN_EXHAUSTIVE_SEARCH` to repeat the Boolean rule search.
 
-The default run checks the aggregate inputs against their manifest, assigns stored models, reproduces all 3,310 candidate comparisons and resolution rankings, the principal conditional-refit distributions, all 259 native rule scores, rule transfer, final fixed-definition frequencies, figures and country summaries. It starts no clustering fits. The saved results are in `results/`; scientific figures are supplied as vector PDF and PNG.
+The centre maps, split decisions and shared encodings were selected using development evidence across waves. Refits assess stability conditional on those choices. A combined five-cluster partition from seven centres differs from a direct fit with five centres.
 
-## Findings from the archived analysis
+## Environment
 
-- The independently fitted seven-cluster models in 2021, 2023 and 2025 have point ARI 0.95–0.96. Four clusters recur more strongly under refitting; the remaining three have weaker recovery.
-- The later-wave five-worry models have identical three-way point assignment functions on all 243 complete patterns. Occasional confirmation refits differ.
-- No equally robust shared grouping was established across all four waves including 2019.
+Use Python 3.11 or later. From this directory, install `requirements.txt` and open the notebooks in JupyterLab. The dependencies are NumPy, pandas, SciPy, scikit-learn, matplotlib, threadpoolctl and Jupyter. The root `requirements.txt` points to this same dependency list.
 
-2025 supplies the reporting reference. These settings were generated independently within waves, then selected jointly using development evidence. This is not independent validation of the complete selection procedure. Earlier frozen six-cluster 2025 and five-cluster 2023 models remain unchanged alternatives with their own evidence.
+The checked environment uses Python 3.11, NumPy 1.26.4, pandas 3.0.3, SciPy 1.17.1, scikit-learn 1.8.0 and matplotlib 3.10.9. Saved-result replay is distinct from refitting on another software version. Optional refits can differ in floating-point details.
 
-## Inputs and optional fitting
+## Data and evidence
 
-`assets/` contains global answer-pattern counts and masses, stored centres, metadata, country aggregates and verification targets. It contains no respondent identifiers, respondent-linked assignments or respondent-level weights. Country split files identify countries only. `manifest.json` records input checksums.
+[assets/](assets/) contains the manifests, global answer-pattern counts and masses, fitted centres, fixed centre maps, condition catalogues, country splits, refit evidence and expected results required by these notebooks. Manifests check the retained inputs before calculation. Files recording the six- and five-cluster combinations document the selection of the five-cluster result in Supplementary Section S2.
 
-Original survey files are obtained separately from [Lloyd’s Register Foundation](https://github.com/lrfoundation/world_risk_poll_data), at the release recorded in `assets/data_sources.json`. The notebook explains their coding, order and paths. Do not substitute a newer release silently.
+[assets/data_sources.json](assets/data_sources.json) identifies the publisher's release, question coding and original CSV checksums. Obtain survey files separately from [Lloyd’s Register Foundation](https://github.com/lrfoundation/world_risk_poll_data). Use the recorded release rather than silently substituting newer data.
 
-Optional rule enumeration and fitting are included inline and switched off. Fitting requires the original survey data. It evaluates the complete recorded candidate catalogue and includes screening, sealing, fresh confirmation and extraction of every passing setting’s rules. The historical adaptive TPE proposals are supplied as a fixed catalogue; this notebook does not regenerate Optuna’s proposal stream or promise bitwise reproduction of old fits on different library versions. The notebook distinguishes reuse of stored fits from new optional fits.
+The supplied evidence contains aggregates and country-level split information. It excludes respondent identifiers, respondent-linked assignments, respondent-level survey weights and sampled respondent indices. Raw survey files and private fitting caches must stay outside publication.
 
-The runtime check used Python 3.11, NumPy 1.26.4, pandas 3.0.3, SciPy 1.17.1 and scikit-learn 1.8. Default execution passed with `KMeans.fit` disabled. Optional exhaustive rule enumeration reproduced all ten selected 2025 formulas and scores; fitting and confirmation code was checked on synthetic data.
+## Website
 
-## Website and historical work
-
-`../docs/index.html` is the nontechnical overview; `explore.html` and `countries-by-wave.html` show detailed results. `../scripts/export_paper_assets.py` validates and exports the same model aggregates for those pages.
-
-Historical website versions are outside the published site in `../archive/historical_benchmarks/`. Older prediction experiments remain supplementary archived work, documented in `../archive/README.md`. They are not required by this clustering companion.
-
-## Country-map coverage
-
-The country interface includes every surveyed country and area: 142 in 2019 (five worries), 121 in 2021, 142 in 2023 and 140 in 2025. The independently fitted model is applied unchanged to every country’s complete-answer respondents. Grey denotes places not surveyed in that wave. This descriptive application is separate from clustering selection and validation.
-
-`assets/country_aggregates_all_surveyed.json` supplies those maps. The original development-only `country_aggregates.json` is preserved; its shares and category probabilities agree exactly within numerical tolerance with the corresponding subset. The notebook verifies both sets and contains an optional, version-checked raw-CSV reproduction of all country summaries. The fixed colour reference remains the 2025 development-country median.
-
+The [World Worry Atlas](https://ionpetre.github.io/WRP-dataset/) provides the interactive presentation. Its source and ready-to-read data are in [../docs/](../docs/). The website can be served locally as a static site. The repository owner handles upload and publication.

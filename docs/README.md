@@ -1,11 +1,9 @@
 # World Worry Atlas
 
-The home page introduces the World Risk Poll and leads with the recurring patterns of worry in global surveys. The Clusters overview presents the results for worry alone alongside the results for worry and reported harm, with the survey years for each.
+The home page introduces the World Risk Poll and the recurring patterns of worry. The Clusters overview presents worry alone alongside worry and reported harm. Country maps, trends, and the income and education comparisons explain what the survey shows and how the comparisons are made.
 
-Each section opens with an overview and links to its topics. The cluster explorer gives each cluster its own view of survey answers and keeps the recurrence checks separate. Country maps and trends are reached from the Countries overview. Grey indicates a country was absent from the selected survey. Worry alone describes each of the four clusters and includes the separate assignment rule and harm comparisons. Income and education compares the distribution of the five clusters and the frequency of reported harm within countries.
+The pages use `data/shared-five-results` and `data/shared-five-countries`. Their JSON files contain aggregate results and the corresponding JavaScript files allow offline browser use. Country outlines are in `data/country-geography.js`. Grey indicates a place absent from the selected survey.
 
-The pages use data/shared-five-results and data/shared-five-countries. Their JSON values come from the corresponding report and country display assets in the paper folder. The script files wrap those values for offline browser use. The public five-cluster notebook verifies the accompanying evidence.
+The paper companion is in [../paper/](../paper/). Its two notebooks verify the worry-only and worry–harm evidence, matched fits, Figure 3 and held-out-country checks.
 
-Serve this directory locally to preview. The repository owner handles upload and publication. Earlier analyses are preserved outside the active page navigation.
-
-The separate worry-only page covers 2019–2025 with four clusters under the 40% cap. It compares fitted labels and short rule overlap with the five worry–harm clusters.
+Serve this directory locally to preview. The repository owner handles upload and publication.

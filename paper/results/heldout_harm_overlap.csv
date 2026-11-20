@@ -1,0 +1,13 @@
+year,n,cluster,name,share_of_harm_cluster_pct,share_in_harm_cluster_pct
+2021,24130,C0,Crime worry without water worry,16.8840981075,4.75576886201
+2021,24130,C1,No crime worry,9.23457631096,2.42718623146
+2021,24130,C2,"Crime, water and mental-health worry",67.7353028983,20.4755366349
+2021,24130,C3,Crime and water worry without mental-health worry,6.14602268329,4.83091619984
+2023,24276,C0,Crime worry without water worry,16.6756554731,4.20614492723
+2023,24276,C1,No crime worry,13.9014634541,3.35284493351
+2023,24276,C2,"Crime, water and mental-health worry",61.6534052774,18.7241413686
+2023,24276,C3,Crime and water worry without mental-health worry,7.76947579543,6.34840092633
+2025,23483,C0,Crime worry without water worry,14.7104272307,3.98683257176
+2025,23483,C1,No crime worry,11.5855626911,3.11708610055
+2025,23483,C2,"Crime, water and mental-health worry",63.1944062873,17.9514574233
+2025,23483,C3,Crime and water worry without mental-health worry,10.5096037909,6.67808270843

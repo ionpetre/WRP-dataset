@@ -5,7 +5,6 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .env.*
-23_wrp/
 data/
 processed/
 *.sav
@@ -22,31 +21,12 @@ processed/
 **/*sample_ids.csv
 **/*assignments*.csv
 
-# Explicitly published aggregates for the wave explorer. Other data stay ignored.
+# The companion publishes manifest-checked aggregate arrays only.
+!paper/assets/*.npz
+
+# Ready-to-read aggregate data for the Atlas.
 !docs/data/
 docs/data/*
-!docs/data/wave-results.json
-!docs/data/wave-results.js
-!docs/data/wave-results.sources.json
-!docs/data/country-waves.json
-!docs/data/country-waves.js
-!docs/data/country-waves.sources.json
 !docs/data/country-geography.js
-
-# Manifest-checked global pattern aggregates; no respondent-level arrays.
-!paper/assets/*.npz
-!docs/data/paper-results.json
-!docs/data/paper-results.js
-!docs/data/paper-results.sources.json
-!docs/data/paper-country-results.json
-!docs/data/paper-country-results.js
-!docs/data/paper-country-results.sources.json
-
-# Exact archived website aggregates, retained outside the published Pages root.
-!archive/historical_benchmarks/docs/data/
-!archive/historical_benchmarks/docs/data/*.json
-!archive/historical_benchmarks/docs/data/*.js
-
-# Shared five-cluster aggregate payload
 !docs/data/shared-five-*.json
 !docs/data/shared-five-*.js

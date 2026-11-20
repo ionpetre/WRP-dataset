@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite this research code and results separately from the original World Risk Poll survey."
-title: "The Worry–Harm Atlas: clusters across World Risk Poll waves"
+title: "World Worry Atlas: companion code for recurring patterns of worry in the World Risk Poll"
 authors:
   - family-names: Petre
     given-names: Ion
@@ -8,4 +8,4 @@ date-released: 2026-10-29
 repository-code: "https://github.com/ionpetre/WRP-dataset"
 type: software
 license: Apache-2.0
-abstract: "Research code and aggregate results for independently selected 2019–2025 World Risk Poll clusters, cross-wave comparisons and the preserved 2023 country-similarity analyses."
+abstract: "Paper companion notebooks and aggregate evidence for recurring worry-only clusters in 2019–2025 and worry–harm clusters in 2021–2025, with cross-wave stability, common rules, matched comparisons and held-out-country checks."

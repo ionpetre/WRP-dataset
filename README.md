@@ -1,31 +1,25 @@
-# World Risk Poll: recurring clusters of worry and reported harm
+# World Worry Atlas — paper companion
 
-We study which worries and harmful experiences occur together, and whether similar combinations recur in independently collected surveys. The World Risk Poll is produced by Lloyd’s Register Foundation and conducted by Gallup. [Official survey data and documentation](https://github.com/lrfoundation/world_risk_poll_data).
+This repository accompanies *Recurring patterns of worry in the World Risk Poll*. It contains the paper's analytical notebooks, saved aggregate evidence and the World Worry Atlas website. The World Risk Poll is produced by Lloyd’s Register Foundation and conducted by Gallup. [Official survey data and documentation](https://github.com/lrfoundation/world_risk_poll_data).
 
-## Start here
+## Explore the findings
 
-- [World Worry Atlas](https://ionpetre.github.io/WRP-dataset/) introduces the World Risk Poll and the patterns of worry that recur in global surveys.
-- [Reading the survey](https://ionpetre.github.io/WRP-dataset/about.html) explains worry, harm, weighting and the meaning of comparisons.
-- [Cluster explorer](https://ionpetre.github.io/WRP-dataset/explore.html) shows the recurring patterns for worry alone and for worry and reported harm, with evidence for both.
-- [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) apply these same models to every surveyed country and area. Grey means not surveyed in the selected wave.
-- [Worry alone](https://ionpetre.github.io/WRP-dataset/worry-only.html) follows four worry clusters back to 2019 and shows what asking about harm adds.
-- [Income and education](https://ionpetre.github.io/WRP-dataset/background.html) compares how the five clusters and reports of harm are distributed within countries.
-- [Five-cluster notebook](paper/wrp_shared_five_clusters.ipynb) reproduces the main comparisons and common rules. See [reproduction instructions](paper/README.md).
+- [World Worry Atlas](https://ionpetre.github.io/WRP-dataset/) introduces the survey and the recurring patterns of worry.
+- [Clusters](https://ionpetre.github.io/WRP-dataset/explore.html) presents worry alone in 2019–2025 and worry with reported harm in 2021–2025.
+- [Country comparisons](https://ionpetre.github.io/WRP-dataset/countries-by-wave.html) shows maps, distances and changes in cluster shares.
+- [Income and education](https://ionpetre.github.io/WRP-dataset/background.html) compares cluster shares and separates reports of personal and known-person harm.
 
-## Main findings
+## Reproduce the paper
 
-Five clusters recur in 2021, 2023 and 2025. Each wave uses the same worry–harm encoding and fits its centres independently. The lowest cross-wave 10th-percentile ARI is 0.904, and the lowest cluster Jaccard is 0.843. One rule per cluster reaches at least 80% precision in each wave.
+There are two companion notebooks, each with explanations, code and saved outputs:
 
-## Reproduce and inspect
+- [Worry alone and its comparison with worry and harm](paper/wrp_shared_worry_only.ipynb) verifies the four-wave clustering, the matched fits, Figure 3 and the held-out-country checks.
+- [Worry and reported harm](paper/wrp_shared_five_clusters.ipynb) verifies the five-cluster recurrence, common Boolean descriptions and changes in frequency.
 
-Start with the five-cluster notebook in the paper folder. It verifies saved model assignments, all cross-wave refit comparisons, the common rules and changes in frequency under the fixed 2025 model. Its inputs are aggregate answer patterns, centres and country summaries. The website in the docs folder reads the same five-cluster aggregates and can be viewed with a local static server.
+[Reproduction instructions](paper/README.md) describe the dependencies, supplied evidence and optional calculations. Default execution uses saved aggregate evidence and centres. Original survey records are obtained separately from the publisher.
 
-## Historical analyses
+The `paper/` folder contains the companion and its evidence. The `docs/` folder contains the website. Combined percentages give countries equal influence and concern respondents with complete required answers. They are not world-population shares.
 
-[Archive guide](archive/README.md). Historical benchmark pages are outside `docs/` and outside public navigation. Older 2023 prediction notebooks remain supplementary provenance, separate from the complete clustering companion. Historical filenames, source keys and immutable model results are preserved.
+## Author and course
 
-Survey attribution does not imply endorsement of this analysis. Percentages in our combined results give countries equal influence and concern complete-answer respondents; they are not world-population shares.
-
-## Course and author
-
-Project lead and course lecturer: **Ion Petre**, University of Turku. This atlas supports the **Machine Learning Project Course, 2026–2027**. The website presents the lecturer’s reference analysis; students develop and explain their own analyses.
+Project lead and course lecturer: **Ion Petre**, University of Turku. The work developed through the **Machine Learning Project Course, 2026–2027**. Survey attribution does not imply endorsement of this analysis.
